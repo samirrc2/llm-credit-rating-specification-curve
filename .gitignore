@@ -38,3 +38,6 @@ FRL/
 
 # staged for user deletion
 _to_del/
+
+# Microsoft Office lock/temp files
+~\$*
