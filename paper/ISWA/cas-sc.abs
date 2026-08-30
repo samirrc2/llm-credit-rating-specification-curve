@@ -1,0 +1,14 @@
+LLMs are increasingly used to support credit assessments, but it is unclear whether elicitation choices
+merely reveal a stable credit view or shape the rating. We examine this with a pre-registered
+specification-curve design that holds fundamentals fixed while varying how the assessment is elicited. A
+fixed 90-item battery spans a balanced grid of provider, model version, temperature, prompt paraphrase,
+output format, few-shot exemplars, and presentation, with three seeds (12{,}960 elicitations, three model
+families); credit-health profiles use a pre-specified Altman Z$''$ benchmark. Our estimand is stability,
+not accuracy. No controllable axis accounts for more than about 5\% of rating variance, while run-to-run
+variation accounts for about a quarter. Instability persists even under deterministic execution
+(permutation $p=0.001$). Cross-specification agreement stays limited at every resolution: Fleiss' $\kappa$
+reaches at most 0.46 even for the investment-grade/high-yield split, for which 26.8\% of matched pairs
+disagree; switching or pooling providers does not remove it. Modal calls imply 56.8\% portfolio turnover,
+and a post-hoc recast swings the same \$45 billion book between \$2.0 and \$4.2 billion of Pillar-1
+capital. A complementary arm of 31 anonymized, perturbed real issuers under a decontamination gate shows
+the same instability. Elicitation specification is a material source of model risk.

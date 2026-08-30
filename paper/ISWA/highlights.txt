@@ -1,0 +1,7 @@
+Highlights
+
+- Prompt and model choices move 27% of AI credit ratings across the IG/HY line.
+- No single elicitation axis explains >5% of variance; run-to-run noise is ~25%.
+- Instability persists under deterministic execution (permutation p=0.001).
+- Modal-call turnover is ~57%; Basel capital swings $2.0-4.2bn on one book.
+- Pattern holds on 31 decontaminated real issuers; specification is model risk.

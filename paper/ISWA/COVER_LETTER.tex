@@ -1,0 +1,33 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{1.5em}\setlength{\parskip}{6pt}\pagestyle{empty}
+\begin{document}
+
+\noindent To the Editors\\
+\emph{Intelligent Systems with Applications}
+
+\vspace{6pt}
+\noindent\textbf{Re: Original research submission --- ``Sensitivity of AI-Generated Credit Ratings to Elicitation Choices.''}
+
+\vspace{6pt}
+\noindent Dear Editors,
+
+We are pleased to submit the above manuscript for consideration in \emph{Intelligent Systems with Applications}. The paper studies the reliability, and hence the model risk, of using large language models as intelligent systems for credit assessment. Using a pre-registered specification-curve design, we measure whether an LLM-generated credit rating is stable when the underlying financial information is held fixed but reasonable elicitation choices vary. Across a fixed 90-item battery crossed with a balanced grid of provider, model version, temperature, prompt paraphrase, output format, few-shot exemplars, and presentation ($12{,}960$ elicitations across three model families), no controllable elicitation axis explains more than about $5\%$ of rating variance, the instability survives verified deterministic execution (permutation $p=0.001$), and $26.8\%$ of matched elicitation pairs disagree at the investment-grade/high-yield boundary. We translate this into decision-relevant units---$56.8\%$ implied portfolio turnover and a \$2.0--4.2bn Pillar-1 capital range on the same \$45bn book---and show the pattern persists on 31 decontaminated real issuers under a pre-registered fingerprinting gate.
+
+The work fits the journal's scope---intelligent systems applied to business and finance---and speaks directly to the deployment of LLMs in financial decision support. Its practical contribution is a governance one: the elicitation specification is itself a model-risk parameter, so an LLM credit rating should be reported and governed with its specification sensitivity characterized rather than as a single point estimate. Methodologically, the design is pre-registered, inference is distribution-free, and a deterministic, offline reproducibility capsule (Zenodo, \url{https://doi.org/10.5281/zenodo.21953935}; MIT license) regenerates every reported number, table, and figure byte-for-byte. The study uses only synthetic firm profiles and publicly available SEC filings, involves no human or animal subjects, and discloses its use of generative-AI assistance.
+
+The manuscript is original, is not under consideration elsewhere, and has been approved by both authors, who declare no competing interests and received no external funding. Thank you for your consideration.
+
+\vspace{12pt}
+\noindent Sincerely,
+
+\vspace{2pt}
+\noindent Robin Chawla\\
+Corresponding Author (on behalf of Samir Chincholikar and Robin Chawla)\\
+Independent researcher, New York, USA\\
+ORCID: \href{https://orcid.org/0009-0007-2807-3948}{0009-0007-2807-3948}\\
+\href{mailto:robin.chawla.cse14@iitbhu.ac.in}{robin.chawla.cse14@iitbhu.ac.in}
+
+\end{document}
