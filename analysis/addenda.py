@@ -13,6 +13,7 @@ import numpy as np, pandas as pd
 PB = Path(__file__).resolve().parents[1]
 RS = json.load(open(PB / "data" / "frozen" / "main" / "rating_scale.json"))
 P = pd.read_parquet(PB / "data" / "panel" / "panel.parquet")
+P = P[P.provider.isin(["openai","google"])].copy()  # two-vendor design
 L = P[P.parse_rule == "lenient"].copy()
 CR = L[(L.family == "credit_health") & L.decision.notna()].copy()
 rng = np.random.default_rng(42)

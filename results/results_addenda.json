@@ -4,47 +4,47 @@
   "T6.rows": [
    {
     "granularity": "letter",
-    "machine_percomparison_disagree": 0.8423,
-    "machine_pairwise_comparisons": 320824,
+    "machine_percomparison_disagree": 0.8187,
+    "machine_pairwise_comparisons": 204820,
     "human_split": 0.5,
     "human_N": 13853,
     "agency_level": "notch/modifier (AA+ vs AA) = our 21-grade letter scale",
-    "z_naive": 104.57,
+    "z_naive": 90.5,
     "p_naive": "<1e-6",
     "machine_95CI_clustered": [
-     0.8306,
-     0.8528
+     0.8039,
+     0.8325
     ],
     "p_dependence_adjusted": "<0.0005",
     "conclusion": "machine significantly MORE inconsistent than agencies"
    },
    {
     "granularity": "notch",
-    "machine_percomparison_disagree": 0.6628,
-    "machine_pairwise_comparisons": 320824,
+    "machine_percomparison_disagree": 0.6308,
+    "machine_pairwise_comparisons": 204820,
     "human_split": 0.13,
     "human_N": 13853,
     "agency_level": "broad letter/alpha (AA vs A) = our notch-collapsed 9-grade scale",
-    "z_naive": 127.98,
+    "z_naive": 116.4,
     "p_naive": "<1e-6",
     "machine_95CI_clustered": [
-     0.6371,
-     0.6857
+     0.5986,
+     0.6579
     ],
     "p_dependence_adjusted": "<0.0005",
     "conclusion": "machine significantly MORE inconsistent than agencies"
    },
    {
     "granularity": "band",
-    "machine_percomparison_disagree": 0.3531,
-    "machine_pairwise_comparisons": 320824,
+    "machine_percomparison_disagree": 0.3162,
+    "machine_pairwise_comparisons": 204820,
     "human_split": null,
     "note": "no verified published human rate at this granularity; not tested"
    },
    {
     "granularity": "ig_hy",
-    "machine_percomparison_disagree": 0.2682,
-    "machine_pairwise_comparisons": 320824,
+    "machine_percomparison_disagree": 0.2519,
+    "machine_pairwise_comparisons": 204820,
     "human_split": null,
     "note": "no verified published human rate at this granularity; not tested"
    }
@@ -54,50 +54,50 @@
  },
  "ADD2_power_validation": {
   "ADD2.full_shares_pct": {
-   "residual": 26.89,
-   "A7": 4.96,
-   "item": 63.48
+   "residual": 26.59,
+   "A7": 4.63,
+   "item": 64.9
   },
   "ADD2.subsample_validation_mean_sd": {
    "frac_0.25": {
     "residual": [
-     28.56,
-     8.01
+     28.6,
+     8.35
     ],
     "A7": [
-     5.52,
-     2.29
+     5.2,
+     2.18
     ],
     "item": [
-     60.05,
-     12.05
+     61.26,
+     11.76
     ]
    },
    "frac_0.5": {
     "residual": [
-     27.89,
-     4.04
+     27.7,
+     4.08
     ],
     "A7": [
-     4.91,
-     1.01
+     4.57,
+     0.93
     ],
     "item": [
-     62.03,
-     5.77
+     63.45,
+     5.47
     ]
    },
    "frac_0.75": {
     "residual": [
-     26.54,
-     1.74
+     26.26,
+     1.88
     ],
     "A7": [
-     4.83,
-     0.48
+     4.53,
+     0.49
     ],
     "item": [
-     63.96,
+     65.31,
      2.57
     ]
    }
@@ -108,39 +108,40 @@
  "ADD3_effective_resolution": {
   "ADD3.definition": "Effective resolution R(tau) of a machine rating opinion = the FINEST scale granularity at which cross-specification agreement, chance-corrected by Fleiss' kappa, attains threshold tau. It is benchmark-free, reusable, and reported with item-bootstrap CIs.",
   "ADD3.kappa_by_granularity": {
-   "letter": 0.082,
-   "notch": 0.181,
-   "band": 0.389,
-   "ig_hy": 0.458
+   "letter": 0.096,
+   "notch": 0.205,
+   "band": 0.428,
+   "ig_hy": 0.485
   },
   "ADD3.kappa_95CI": {
    "letter": [
-    0.066,
-    0.096
+    0.077,
+    0.111
    ],
    "notch": [
-    0.14,
-    0.21
+    0.161,
+    0.239
    ],
    "band": [
-    0.302,
-    0.457
+    0.339,
+    0.503
    ],
    "ig_hy": [
-    0.365,
-    0.54
+    0.391,
+    0.57
    ]
   },
-  "ADD3.R_0.40": "ig_hy",
+  "ADD3.R_0.40": "band",
   "ADD3.R_0.60": "none (coarser than IG/HY)",
   "ADD3.R_0.75": "none (coarser than IG/HY)",
   "ADD3.R_0.40_bootstrap_dist": {
-   "ig_hy": 0.524,
-   "band": 0.346,
-   "none (coarser than IG/HY)": 0.13
+   "band": 0.713,
+   "ig_hy": 0.252,
+   "none (coarser than IG/HY)": 0.035
   },
   "ADD3.R_0.60_bootstrap_dist": {
-   "none (coarser than IG/HY)": 1.0
+   "none (coarser than IG/HY)": 0.996,
+   "ig_hy": 0.004
   }
  }
 }

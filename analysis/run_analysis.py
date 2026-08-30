@@ -18,6 +18,7 @@ AXES = ["A1_provider", "A2_version", "A3_temperature", "A4_paraphrase", "A5_form
 rng = np.random.default_rng(42)
 
 P = pd.read_parquet(PB / "data" / "panel" / "panel.parquet")
+P = P[P.provider.isin(["openai", "google"])].copy()   # two-vendor design: full current+prior coverage
 L = P[P.parse_rule == "lenient"].copy()               # primary parse rule
 L["letter_rank"] = L.dec_letter.map(LRANK)
 CR = L[(L.family == "credit_health") & L.decision.notna()].copy()
@@ -86,9 +87,43 @@ def variance_decomp():
            "C(A6_fewshot)": "A6_fewshot", "C(A7_presentation)": "A7_presentation",
            "C(A1_provider):C(item_id)": "provider_x_item", "Residual": "residual_seed_noise"}
     share = {lab.get(k, k): round(float(v / tot * 100), 3) for k, v in aov["sum_sq"].items()}
-    # bootstrap CI over items for the big components (fast approx: refit on item-resample is costly;
-    # use item-cluster jackknife-ish bootstrap on eta^2 of provider main effect vs residual)
-    return {"table2.variance_shares_pct_letterrank": share, "table2.n_obs": int(len(d))}
+    # ---- A1: split the OLS residual into pure within-cell (seed) variance vs other unexplained ----
+    # SS_within = variance across seeds within each identical (item, spec) cell -> pure run-to-run.
+    gm = d.letter_rank.mean(); ss_tot = float(((d.letter_rank - gm) ** 2).sum())
+    ss_within = float(d.groupby(["item_id", "spec_id"]).letter_rank
+                      .transform(lambda x: ((x - x.mean()) ** 2).sum()).groupby([d.item_id, d.spec_id]).first().sum())
+    seed_pct = round(ss_within / ss_tot * 100, 3)
+    resid_pct = float(share.get("residual_seed_noise", 0.0))
+    other_pct = round(max(0.0, resid_pct - seed_pct), 3)
+    # ---- C3: issuer-clustered bootstrap 95% CI on the pure-seed share and item share ----
+    # Per-item aggregates so each bootstrap replicate is O(#items): n, sum, sumsq, and within-cell SS.
+    agg = {}
+    for it, gi in d.groupby("item_id"):
+        n = len(gi); s = float(gi.letter_rank.sum()); sq = float((gi.letter_rank ** 2).sum())
+        sw = float(gi.groupby("spec_id").letter_rank.apply(lambda x: ((x - x.mean()) ** 2).sum()).sum())
+        agg[it] = (n, s, sq, sw)
+    items = np.array(list(agg.keys()))
+    A = {it: agg[it] for it in items}
+    bs_seed, bs_item = [], []
+    for _ in range(1000):
+        samp = rng.choice(items, len(items), replace=True)
+        N = S = SQ = SW = SBI = 0.0
+        for it in samp:
+            n, s, sq, sw = A[it]
+            N += n; S += s; SQ += sq; SW += sw
+            SBI += (s * s) / n              # sum_i^2 / n_i  -> for between-item SS
+        if N == 0: continue
+        st = SQ - S * S / N                 # SS_total
+        if st <= 0: continue
+        sb_item = SBI - S * S / N           # SS_between_items
+        bs_seed.append(SW / st * 100); bs_item.append(sb_item / st * 100)
+    ci = lambda a: [round(float(np.percentile(a, 2.5)), 2), round(float(np.percentile(a, 97.5)), 2)]
+    return {"table2.variance_shares_pct_letterrank": share, "table2.n_obs": int(len(d)),
+            "table2.n_items": int(len(items)),
+            "table2.seed_within_cell_pct": seed_pct,
+            "table2.other_unexplained_pct": other_pct,
+            "table2.seed_within_cell_pct_CI95": ci(bs_seed),
+            "table2.item_share_pct_CI95": ci(bs_item)}
 
 
 # ================= 3.4 spec curves (band level for Phase A comparability) =================

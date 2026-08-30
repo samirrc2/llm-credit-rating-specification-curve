@@ -21,6 +21,7 @@ RATIO = 0.08                 # Pillar 1 minimum
 rng = np.random.default_rng(42)
 
 P = pd.read_parquet(PB / "data" / "panel" / "panel.parquet")
+P = P[P.provider.isin(["openai","google"])].copy()  # two-vendor design
 
 def build(parse_rule):
     L = P[P.parse_rule == parse_rule]

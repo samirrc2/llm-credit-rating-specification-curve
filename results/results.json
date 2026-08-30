@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "panel_rows": 32379,
+  "panel_rows": 25899,
   "primary_parse": "lenient",
   "panel_sha": "84ad8ebd94e37667",
   "live_cells": [
@@ -19,10 +19,6 @@
    [
     "openai",
     "prior"
-   ],
-   [
-    "xai",
-    "current"
    ]
   ]
  },
@@ -55,20 +51,6 @@
     "temp_applied": true,
     "n_cells": 2154,
     "seed_disagree": 0.7283
-   },
-   {
-    "provider": "xai",
-    "requested_temp": 0.0,
-    "temp_applied": true,
-    "n_cells": 810,
-    "seed_disagree": 0.5704
-   },
-   {
-    "provider": "xai",
-    "requested_temp": 1.0,
-    "temp_applied": true,
-    "n_cells": 1350,
-    "seed_disagree": 0.6111
    }
   ],
   "table2.google_temp0_seed_disagree": 0.0931
@@ -89,66 +71,77 @@
  },
  "block_var": {
   "table2.variance_shares_pct_letterrank": {
-   "item": 63.484,
-   "A1_provider": 1.266,
-   "A2_version": 0.485,
-   "A3_temperature": 0.059,
-   "A4_paraphrase": 1.071,
-   "A5_format": 0.419,
-   "A6_fewshot": 1.369,
-   "A7_presentation": 4.959,
-   "provider_x_item": 2.237,
-   "residual_seed_noise": 24.652
+   "item": 64.9,
+   "A1_provider": 0.272,
+   "A2_version": 0.729,
+   "A3_temperature": 0.008,
+   "A4_paraphrase": 1.023,
+   "A5_format": 0.86,
+   "A6_fewshot": 0.984,
+   "A7_presentation": 4.632,
+   "provider_x_item": 1.406,
+   "residual_seed_noise": 25.187
   },
-  "table2.n_obs": 5396
+  "table2.n_obs": 4316,
+  "table2.n_items": 45,
+  "table2.seed_within_cell_pct": 8.138,
+  "table2.other_unexplained_pct": 17.049,
+  "table2.seed_within_cell_pct_CI95": [
+   6.42,
+   10.83
+  ],
+  "table2.item_share_pct_CI95": [
+   53.86,
+   72.3
+  ]
  },
  "block_spec": {
-  "abstract.flip_share_C1": 0.5,
+  "abstract.flip_share_C1": 0.562,
   "table1.C1_accuracy_range": [
    0.356,
    0.689
   ],
   "table1.C1_95CI_flip": [
-   0.099,
-   0.8
+   0.094,
+   0.875
   ],
   "table1.C2_median_notch_modal_sign": 0.0,
-  "table1.C2_flip_share": 0.375,
-  "abstract.flip_share_C3": 0.55,
-  "table1.C3_modal": "HOLD",
+  "table1.C2_flip_share": 0.406,
+  "abstract.flip_share_C3": 0.5,
+  "table1.C3_modal": "BUY",
   "table1.C3_95CI_flip": [
-   0.425,
-   0.6
+   0.312,
+   0.562
   ],
   "table1.permutation_C1_p": 0.001,
-  "table1.perm_obs_sd": 0.09
+  "table1.perm_obs_sd": 0.0821
  },
  "block_vendor": {
-  "table3.within_family_agreement_band": 0.737,
-  "table3.cross_family_agreement_band": 0.504,
-  "table3.within_family_agreement_letter": 0.225,
-  "table3.cross_family_agreement_letter": 0.052,
-  "table3.n_within": 9271,
-  "table3.n_cross": 135
+  "table3.within_family_agreement_band": 0.825,
+  "table3.cross_family_agreement_band": 0.644,
+  "table3.within_family_agreement_letter": 0.304,
+  "table3.cross_family_agreement_letter": 0.111,
+  "table3.n_within": 4546,
+  "table3.n_cross": 45
  },
  "block_econ": {
-  "table4.PRIMARY_percomparison_ighy_flip": 0.2682,
+  "table4.PRIMARY_percomparison_ighy_flip": 0.2519,
   "table4.PRIMARY_percomparison_ighy_flip_CI95": [
-   0.2093,
-   0.3248
+   0.1969,
+   0.3115
   ],
   "table4.implied_turnover_CI95": [
-   0.5086,
-   0.6265
+   0.4739,
+   0.589
   ],
-  "table4.draws_per_name": 120,
-  "table4.ig_hy_crossing_pct": 97.8,
+  "table4.draws_per_name": 96,
+  "table4.ig_hy_crossing_pct": 91.1,
   "table4.ig_hy_denominator": 45,
-  "table4.ig_hy_crossing_note": "max-over-draws statistic: with ~120 draws/name it accumulates mechanically; report it as the union a LITERATURE of single-spec papers would collectively reach, NOT as a per-decision rate. Primary measure is the per-comparison flip above.",
-  "table4.mean_within_name_spread_range_bps": 413.3,
+  "table4.ig_hy_crossing_note": "max-over-draws statistic: with ~96 draws/name it accumulates mechanically; report it as the union a LITERATURE of single-spec papers would collectively reach, NOT as a per-decision rate. Primary measure is the per-comparison flip above.",
+  "table4.mean_within_name_spread_range_bps": 323.3,
   "table4.max_within_name_spread_range_bps": 550.0,
   "table4.cornaggia_anchor": "80-140 bps per 2-3 notches (Cornaggia, Cornaggia & Israelsen)",
-  "table4.implied_turnover_meanposdev": 0.568,
+  "table4.implied_turnover_meanposdev": 0.535,
   "table4.rating_spread_map_bps": {
    "SAFE": 150,
    "WATCH": 300,
@@ -157,63 +150,63 @@
  },
  "block_gran": {
   "table5.flip_prob_by_granularity": {
-   "letter": 0.8423,
-   "notch": 0.6628,
-   "band": 0.3531,
-   "ig_hy": 0.2682
+   "letter": 0.8187,
+   "notch": 0.6308,
+   "band": 0.3162,
+   "ig_hy": 0.2519
   },
   "table5.agreement_by_granularity": {
-   "letter": 0.1577,
-   "notch": 0.3372,
-   "band": 0.6469,
-   "ig_hy": 0.7318
+   "letter": 0.1813,
+   "notch": 0.3692,
+   "band": 0.6838,
+   "ig_hy": 0.7481
   },
   "table5.effective_resolution_80pct": "coarser_than_ig_hy",
   "table5.effective_resolution_90pct": "coarser_than_ig_hy",
   "table5.effective_resolution_95pct": "coarser_than_ig_hy",
   "table5.scale_usage_letters": 21,
-  "table5.scale_usage_entropy_bits": 4.026,
+  "table5.scale_usage_entropy_bits": 3.891,
   "table5.scale_max_entropy_bits": 4.39,
   "table5.chance_corrected_POSTHOC": {
    "letter": {
-    "raw_agreement": 0.1506,
-    "chance_Pe_fleiss": 0.0744,
-    "fleiss_kappa": 0.082,
-    "gwet_ac1": 0.109,
+    "raw_agreement": 0.1727,
+    "chance_Pe_fleiss": 0.085,
+    "fleiss_kappa": 0.096,
+    "gwet_ac1": 0.133,
     "n_categories": 21
    },
    "notch": {
-    "raw_agreement": 0.3316,
-    "chance_Pe_fleiss": 0.1842,
-    "fleiss_kappa": 0.181,
-    "gwet_ac1": 0.256,
+    "raw_agreement": 0.3626,
+    "chance_Pe_fleiss": 0.1978,
+    "fleiss_kappa": 0.205,
+    "gwet_ac1": 0.292,
     "n_categories": 9
    },
    "band": {
-    "raw_agreement": 0.6439,
-    "chance_Pe_fleiss": 0.4174,
-    "fleiss_kappa": 0.389,
-    "gwet_ac1": 0.498,
+    "raw_agreement": 0.6805,
+    "chance_Pe_fleiss": 0.441,
+    "fleiss_kappa": 0.428,
+    "gwet_ac1": 0.557,
     "n_categories": 3
    },
    "ig_hy": {
-    "raw_agreement": 0.7296,
-    "chance_Pe_fleiss": 0.5007,
-    "fleiss_kappa": 0.458,
-    "gwet_ac1": 0.46,
+    "raw_agreement": 0.7455,
+    "chance_Pe_fleiss": 0.5053,
+    "fleiss_kappa": 0.485,
+    "gwet_ac1": 0.496,
     "n_categories": 2
    }
   },
   "table5.effective_resolution_kappa0.6": "coarser_than_ig_hy",
-  "table5.effective_resolution_kappa0.4": "ig_hy",
+  "table5.effective_resolution_kappa0.4": "band",
   "table5.note_chance": "POST-HOC robustness (labelled): raw agreement rises with coarsening partly because coarse scales have a high chance-agreement floor; chance-corrected (Fleiss kappa / Gwet AC1) the coarse levels look far worse, so 'no stable resolution' is STARKER, not rescued."
  },
  "block_robust": {
-  "robust.C1flip_full": 0.5,
-  "robust.C1flip_drop_openai": 0.458,
-  "robust.C1flip_drop_google": 0.458,
+  "robust.C1flip_full": 0.562,
+  "robust.C1flip_drop_openai": 0.562,
+  "robust.C1flip_drop_google": 0.562,
   "robust.C1flip_drop_xai": 0.562,
-  "robust.band_agreement_strict": 0.6537,
-  "robust.band_agreement_tolerant": 0.6452
+  "robust.band_agreement_strict": 0.6893,
+  "robust.band_agreement_tolerant": 0.6815
  }
 }

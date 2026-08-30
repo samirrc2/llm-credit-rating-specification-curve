@@ -6,24 +6,24 @@
   "2023-07-10",
   "2026-07-01"
  ],
- "economic.market_priced.per_name_spread_range_median_bps": 820.0,
+ "economic.market_priced.per_name_spread_range_median_bps": 275.0,
  "economic.market_priced.per_name_spread_range_IQR_bps": [
-  275.0,
+  240.0,
   820.0
  ],
- "economic.market_priced.floor_any_name_any_day_bps": 106.0,
- "economic.market_priced.median_name_floor_bps": 623.0,
- "economic.market_priced.share_verdict_reaches_CCC": 0.667,
+ "economic.market_priced.floor_any_name_any_day_bps": 42.0,
+ "economic.market_priced.median_name_floor_bps": 221.0,
+ "economic.market_priced.share_verdict_reaches_CCC": 0.467,
  "economic.market_priced.share_full_scale_AAA_to_CCC": 0.022,
- "economic.market_priced.saturation_note": "30/45 names have a verdict reaching CCC, so their spread range collapses to (CCC_OAS - best_OAS) and is near-identical across those names on a given day \u2014 hence median==IQR-upper (820 bps) is a SCALE-SATURATION ceiling, not a smooth distribution. The share reaching CCC (67%) is itself a fragility statistic.",
+ "economic.market_priced.saturation_note": "21/45 names have a verdict reaching CCC, so their spread range collapses to (CCC_OAS - best_OAS) and is near-identical across those names on a given day \u2014 hence median==IQR-upper (275 bps) is a SCALE-SATURATION ceiling, not a smooth distribution. The share reaching CCC (47%) is itself a fragility statistic.",
  "economic.market_priced.nonsaturating_spread_range_median_IQR_bps": [
-  261.0,
   250.5,
-  275.0
+  150.0,
+  261.0
  ],
- "economic.market_priced.n_nonsaturating": 15,
+ "economic.market_priced.n_nonsaturating": 24,
  "economic.market_priced.reconciliation_413_vs_820": "413 bps (earlier) came from a STATIC 3-band map (SAFE 150 / WATCH 300 / DISTRESS 700). 820 bps here is priced on the LIVE ICE BofA OAS curve, which is CCC-inclusive (CCC OAS ~1000 bps >> the static DISTRESS=700 proxy) and uses the finer letter elicitation that reaches CCC. Different instruments, not a revision: static map vs market curve, band vs letter granularity.",
- "economic.market_priced.statement": "Re-pricing each name's cross-specification verdict range against the actual ICE BofA OAS curve on all 782 trading days 2023-07-10..2026-07-01: the implied spread range per name is 820 bps (median across names of the per-name median-across-days), IQR [275, 820] bps; across all names the range is never below 106 bps on any trading day in the window.",
+ "economic.market_priced.statement": "Re-pricing each name's cross-specification verdict range against the actual ICE BofA OAS curve on all 782 trading days 2023-07-10..2026-07-01: the implied spread range per name is 275 bps (median across names of the per-name median-across-days), IQR [240, 820] bps; across all names the range is never below 42 bps on any trading day in the window.",
  "economic.market_priced.cornaggia_anchor": "literature anchor retained: 80-140 bps per 2-3 notches (Cornaggia, Cornaggia & Israelsen)",
  "economic.market_priced.manifest": [
   {
@@ -107,12 +107,12 @@
  "_per_name": {
   "C001": {
    "best": "AA",
-   "worst": "BB",
-   "median_bps": 136.0,
-   "p25_bps": 127.0,
-   "p75_bps": 153.0,
-   "min_bps": 106.0,
-   "max_bps": 242.0
+   "worst": "BBB",
+   "median_bps": 60.999999999999986,
+   "p25_bps": 54.250000000000014,
+   "p75_bps": 68.0,
+   "min_bps": 42.0,
+   "max_bps": 94.0
   },
   "C002": {
    "best": "AAA",
@@ -143,23 +143,14 @@
   },
   "C005": {
    "best": "AA",
-   "worst": "CCC",
-   "median_bps": 845.5,
-   "p25_bps": 800.0,
-   "p75_bps": 886.0,
-   "min_bps": 644.0,
-   "max_bps": 1064.0
+   "worst": "BB",
+   "median_bps": 136.0,
+   "p25_bps": 127.0,
+   "p75_bps": 153.0,
+   "min_bps": 106.0,
+   "max_bps": 242.0
   },
   "C006": {
-   "best": "AAA",
-   "worst": "B",
-   "median_bps": 275.0,
-   "p25_bps": 258.0,
-   "p75_bps": 307.0,
-   "min_bps": 221.0,
-   "max_bps": 427.00000000000006
-  },
-  "C007": {
    "best": "AA",
    "worst": "B",
    "median_bps": 261.0,
@@ -167,6 +158,15 @@
    "p75_bps": 292.0,
    "min_bps": 209.0,
    "max_bps": 413.00000000000006
+  },
+  "C007": {
+   "best": "AA",
+   "worst": "BB",
+   "median_bps": 136.0,
+   "p25_bps": 127.0,
+   "p75_bps": 153.0,
+   "min_bps": 106.0,
+   "max_bps": 242.0
   },
   "C008": {
    "best": "A",
@@ -179,12 +179,12 @@
   },
   "C009": {
    "best": "AAA",
-   "worst": "B",
-   "median_bps": 275.0,
-   "p25_bps": 258.0,
-   "p75_bps": 307.0,
-   "min_bps": 221.0,
-   "max_bps": 427.00000000000006
+   "worst": "BB",
+   "median_bps": 150.0,
+   "p25_bps": 140.0,
+   "p75_bps": 167.0,
+   "min_bps": 120.0,
+   "max_bps": 261.0
   },
   "C010": {
    "best": "AAA",
@@ -197,12 +197,12 @@
   },
   "C011": {
    "best": "AA",
-   "worst": "BB",
-   "median_bps": 136.0,
-   "p25_bps": 127.0,
-   "p75_bps": 153.0,
-   "min_bps": 106.0,
-   "max_bps": 242.0
+   "worst": "BBB",
+   "median_bps": 60.999999999999986,
+   "p25_bps": 54.250000000000014,
+   "p75_bps": 68.0,
+   "min_bps": 42.0,
+   "max_bps": 94.0
   },
   "C012": {
    "best": "AAA",
@@ -251,12 +251,12 @@
   },
   "C017": {
    "best": "AAA",
-   "worst": "B",
-   "median_bps": 275.0,
-   "p25_bps": 258.0,
-   "p75_bps": 307.0,
-   "min_bps": 221.0,
-   "max_bps": 427.00000000000006
+   "worst": "BB",
+   "median_bps": 150.0,
+   "p25_bps": 140.0,
+   "p75_bps": 167.0,
+   "min_bps": 120.0,
+   "max_bps": 261.0
   },
   "C018": {
    "best": "BB",
@@ -278,12 +278,12 @@
   },
   "C020": {
    "best": "AA",
-   "worst": "CCC",
-   "median_bps": 845.5,
-   "p25_bps": 800.0,
-   "p75_bps": 886.0,
-   "min_bps": 644.0,
-   "max_bps": 1064.0
+   "worst": "B",
+   "median_bps": 261.0,
+   "p25_bps": 245.0,
+   "p75_bps": 292.0,
+   "min_bps": 209.0,
+   "max_bps": 413.00000000000006
   },
   "C021": {
    "best": "AA",
@@ -296,21 +296,21 @@
   },
   "C022": {
    "best": "A",
-   "worst": "CCC",
-   "median_bps": 820.0000000000001,
-   "p25_bps": 774.0,
-   "p75_bps": 858.75,
-   "min_bps": 623.0,
-   "max_bps": 1035.0
+   "worst": "B",
+   "median_bps": 240.0,
+   "p25_bps": 223.0,
+   "p75_bps": 267.0,
+   "min_bps": 188.0,
+   "max_bps": 384.00000000000006
   },
   "C023": {
    "best": "A",
-   "worst": "CCC",
-   "median_bps": 820.0000000000001,
-   "p25_bps": 774.0,
-   "p75_bps": 858.75,
-   "min_bps": 623.0,
-   "max_bps": 1035.0
+   "worst": "B",
+   "median_bps": 240.0,
+   "p25_bps": 223.0,
+   "p75_bps": 267.0,
+   "min_bps": 188.0,
+   "max_bps": 384.00000000000006
   },
   "C024": {
    "best": "A",
@@ -323,48 +323,48 @@
   },
   "C025": {
    "best": "AA",
-   "worst": "CCC",
-   "median_bps": 845.5,
-   "p25_bps": 800.0,
-   "p75_bps": 886.0,
-   "min_bps": 644.0,
-   "max_bps": 1064.0
+   "worst": "B",
+   "median_bps": 261.0,
+   "p25_bps": 245.0,
+   "p75_bps": 292.0,
+   "min_bps": 209.0,
+   "max_bps": 413.00000000000006
   },
   "C026": {
    "best": "AA",
-   "worst": "CCC",
-   "median_bps": 845.5,
-   "p25_bps": 800.0,
-   "p75_bps": 886.0,
-   "min_bps": 644.0,
-   "max_bps": 1064.0
+   "worst": "B",
+   "median_bps": 261.0,
+   "p25_bps": 245.0,
+   "p75_bps": 292.0,
+   "min_bps": 209.0,
+   "max_bps": 413.00000000000006
   },
   "C027": {
    "best": "AA",
-   "worst": "CCC",
-   "median_bps": 845.5,
-   "p25_bps": 800.0,
-   "p75_bps": 886.0,
-   "min_bps": 644.0,
-   "max_bps": 1064.0
+   "worst": "B",
+   "median_bps": 261.0,
+   "p25_bps": 245.0,
+   "p75_bps": 292.0,
+   "min_bps": 209.0,
+   "max_bps": 413.00000000000006
   },
   "C028": {
    "best": "AAA",
-   "worst": "B",
-   "median_bps": 275.0,
-   "p25_bps": 258.0,
-   "p75_bps": 307.0,
-   "min_bps": 221.0,
-   "max_bps": 427.00000000000006
+   "worst": "BBB",
+   "median_bps": 74.0,
+   "p25_bps": 67.0,
+   "p75_bps": 83.0,
+   "min_bps": 56.0,
+   "max_bps": 114.0
   },
   "C029": {
    "best": "A",
-   "worst": "CCC",
-   "median_bps": 820.0000000000001,
-   "p25_bps": 774.0,
-   "p75_bps": 858.75,
-   "min_bps": 623.0,
-   "max_bps": 1035.0
+   "worst": "B",
+   "median_bps": 240.0,
+   "p25_bps": 223.0,
+   "p75_bps": 267.0,
+   "min_bps": 188.0,
+   "max_bps": 384.00000000000006
   },
   "C030": {
    "best": "AA",
@@ -467,12 +467,12 @@
   },
   "C041": {
    "best": "AA",
-   "worst": "CCC",
-   "median_bps": 845.5,
-   "p25_bps": 800.0,
-   "p75_bps": 886.0,
-   "min_bps": 644.0,
-   "max_bps": 1064.0
+   "worst": "B",
+   "median_bps": 261.0,
+   "p25_bps": 245.0,
+   "p75_bps": 292.0,
+   "min_bps": 209.0,
+   "max_bps": 413.00000000000006
   },
   "C042": {
    "best": "A",

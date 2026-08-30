@@ -11,130 +11,130 @@
  },
  "capital.base": {
   "label": "base_equalweight_lenient_45names",
-  "n_draws": 118,
+  "n_draws": 94,
   "n_names": 45,
   "total_notional_usd": 45000000000.0,
   "capital_distribution_usd": {
    "min": 2024000000.0,
    "p25": 2908000000.0,
-   "median": 3170000000.0,
-   "p75": 3663000000.0,
-   "max": 4216000000.0
+   "median": 3122000000.0,
+   "p75": 3586000000.0,
+   "max": 4140000000.0
   },
-  "capital_range_usd": 2192000000.0,
-  "capital_range_pct_of_median": 69.15,
-  "capital_range_pct_of_notional": 4.871,
-  "expected_abs_capital_diff_per_comparison_usd": 648566710.0,
-  "expected_abs_capital_diff_pct_of_median": 20.46,
+  "capital_range_usd": 2116000000.0,
+  "capital_range_pct_of_median": 67.78,
+  "capital_range_pct_of_notional": 4.702,
+  "expected_abs_capital_diff_per_comparison_usd": 572431023.0,
+  "expected_abs_capital_diff_pct_of_median": 18.34,
   "portfolio_avg_riskweight": {
    "min": 0.5622,
-   "median": 0.8806,
-   "max": 1.1711
+   "median": 0.8672,
+   "max": 1.15
   }
  },
  "capital.primary_number_for_main_text": {
   "statistic": "expected absolute difference in required Pillar-1 capital between two randomly chosen specifications of the SAME $45B equal-weight book (per-comparison, non-accumulating)",
-  "value_usd": 648566710.0,
-  "value_pct_of_median_capital": 20.46,
-  "full_range_usd": 2192000000.0,
-  "full_range_pct_of_median_capital": 69.15
+  "value_usd": 572431023.0,
+  "value_pct_of_median_capital": 18.34,
+  "full_range_usd": 2116000000.0,
+  "full_range_pct_of_median_capital": 67.78
  },
  "capital.decomposition": {
   "variance_share_pct": {
-   "A1_provider": 12.5,
-   "A2_version": 3.49,
-   "A3_temperature": 0.46,
-   "A4_paraphrase": 6.01,
-   "A5_format": 2.13,
-   "A6_fewshot": 12.08,
-   "A7_presentation": 34.32,
-   "seed": 0.03,
-   "Residual": 28.97
+   "A1_provider": 1.19,
+   "A2_version": 5.88,
+   "A3_temperature": 0.07,
+   "A4_paraphrase": 7.19,
+   "A5_format": 5.2,
+   "A6_fewshot": 9.32,
+   "A7_presentation": 38.33,
+   "seed": 0.05,
+   "Residual": 32.76
   },
-  "design_axes_total_pct": 70.99,
-  "seed_noise_pct": 0.03,
-  "residual_pct": 28.97,
+  "design_axes_total_pct": 67.18,
+  "seed_noise_pct": 0.05,
+  "residual_pct": 32.76,
   "note": "Portfolio required-capital variance across draws decomposed by design axes (A1 provider..A7 presentation) vs seed (pure sampling noise) vs residual (unmodelled axis interactions). Each draw is single-provider."
  },
  "capital.per_name_summary": {
-  "expected_abs_rw_diff_median": 0.2795,
-  "expected_abs_rw_diff_max": 0.4034,
+  "expected_abs_rw_diff_median": 0.2423,
+  "expected_abs_rw_diff_max": 0.3816,
   "n_names_zero_dispersion": 0,
   "median_per_name_capital_range_usd": 80000000.0
  },
  "capital.robustness_value_weight": {
-  "n_draws": 118,
+  "n_draws": 94,
   "weight_scheme": "synthetic Zipf 1/rank by name index (identity-agnostic, no real-firm data); total book held at $45B",
   "capital_distribution_usd": {
    "min": 1604035108.0,
-   "p25": 2191618046.0,
-   "median": 2715399358.0,
-   "p75": 2987743033.0,
+   "p25": 2186679914.0,
+   "median": 2682548662.0,
+   "p75": 2912869514.0,
    "max": 3699467212.0
   },
-  "capital_range_pct_of_median": 77.17,
-  "expected_abs_capital_diff_pct_of_median": 22.26
+  "capital_range_pct_of_median": 78.11,
+  "expected_abs_capital_diff_pct_of_median": 20.51
  },
  "capital.robustness_exclude_saturating": {
   "label": "exclude_CCC_reaching_nonsaturating",
-  "n_draws": 119,
-  "n_names": 15,
-  "total_notional_usd": 15000000000.0,
+  "n_draws": 95,
+  "n_names": 24,
+  "total_notional_usd": 24000000000.0,
   "capital_distribution_usd": {
-   "min": 376000000.0,
-   "p25": 592000000.0,
-   "median": 684000000.0,
-   "p75": 818000000.0,
-   "max": 1160000000.0
+   "min": 800000000.0,
+   "p25": 1132000000.0,
+   "median": 1284000000.0,
+   "p75": 1480000000.0,
+   "max": 1860000000.0
   },
-  "capital_range_usd": 784000000.0,
-  "capital_range_pct_of_median": 114.62,
-  "capital_range_pct_of_notional": 5.227,
-  "expected_abs_capital_diff_per_comparison_usd": 183490671.0,
-  "expected_abs_capital_diff_pct_of_median": 26.83,
+  "capital_range_usd": 1060000000.0,
+  "capital_range_pct_of_median": 82.55,
+  "capital_range_pct_of_notional": 4.417,
+  "expected_abs_capital_diff_per_comparison_usd": 293439642.0,
+  "expected_abs_capital_diff_pct_of_median": 22.85,
   "portfolio_avg_riskweight": {
-   "min": 0.3133,
-   "median": 0.57,
-   "max": 0.9667
+   "min": 0.4167,
+   "median": 0.6688,
+   "max": 0.9688
   }
  },
  "capital.robustness_parse_rule": {
   "strict": {
-   "n_draws": 101,
+   "n_draws": 77,
    "n_names": 45,
    "capital_distribution_usd": {
     "min": 1984000000.0,
     "p25": 2816000000.0,
-    "median": 3280000000.0,
-    "p75": 3760000000.0,
-    "max": 4216000000.0
+    "median": 3176000000.0,
+    "p75": 3600000000.0,
+    "max": 4140000000.0
    },
-   "capital_range_pct_of_median": 68.05,
-   "expected_abs_capital_diff_pct_of_median": 21.32,
-   "expected_abs_capital_diff_per_comparison_usd": 699377426.0
+   "capital_range_pct_of_median": 67.88,
+   "expected_abs_capital_diff_pct_of_median": 19.83,
+   "expected_abs_capital_diff_per_comparison_usd": 629689679.0
   },
   "tolerant": {
-   "n_draws": 118,
+   "n_draws": 94,
    "n_names": 45,
    "capital_distribution_usd": {
     "min": 2024000000.0,
     "p25": 2908000000.0,
-    "median": 3170000000.0,
-    "p75": 3663000000.0,
-    "max": 4216000000.0
+    "median": 3122000000.0,
+    "p75": 3586000000.0,
+    "max": 4140000000.0
    },
-   "capital_range_pct_of_median": 69.15,
-   "expected_abs_capital_diff_pct_of_median": 20.43,
-   "expected_abs_capital_diff_per_comparison_usd": 647713168.0
+   "capital_range_pct_of_median": 67.78,
+   "expected_abs_capital_diff_pct_of_median": 18.3,
+   "expected_abs_capital_diff_per_comparison_usd": 571291695.0
   }
  },
  "capital.saturation_collapse_check": {
-  "n_saturating_names_reach_CCC": 30,
-  "n_nonsaturating_names": 15,
-  "base_expected_abs_capital_diff_pct_of_median": 20.46,
-  "nonsat_expected_abs_capital_diff_pct_of_median": 26.83,
-  "base_capital_range_pct_of_median": 69.15,
-  "nonsat_capital_range_pct_of_median": 114.62,
+  "n_saturating_names_reach_CCC": 21,
+  "n_nonsaturating_names": 24,
+  "base_expected_abs_capital_diff_pct_of_median": 18.34,
+  "nonsat_expected_abs_capital_diff_pct_of_median": 22.85,
+  "base_capital_range_pct_of_median": 67.78,
+  "nonsat_capital_range_pct_of_median": 82.55,
   "collapses_without_saturating_names": false,
   "interpretation": "If dispersion largely persists after removing CCC-reaching names, capital variability is NOT merely a saturation artefact; if it collapses, the headline capital range is driven by the sub-BB- 150% ceiling being reached by some specs and not others."
  },
@@ -147,12 +147,12 @@
   "rcap_headline_abs_capital_ratio_pp": 2.0,
   "rcap_qualifier": "Applies to OUTLIER banks; most banks fall in a narrower range. Corporate asset class showed the TIGHTEST clustering; sovereign the greatest variation.",
   "machine_outlier_deviation_from_median_pct": {
-   "above_median": 33.0,
-   "below_median": 36.2
+   "above_median": 32.6,
+   "below_median": 35.2
   },
-  "machine_expected_pairwise_relative_pct": 20.46,
-  "machine_full_range_relative_pct": 69.15,
-  "comparison_statement": "RCAP: OUTLIER banks deviate up to ~20% (relative) from a 10% capital-ratio benchmark on the SAME portfolios using IRB internal models. Machine: specifications rating the SAME $45B book under the STANDARDISED (ECRA) approach deviate -36%/+33% (relative) from their median at the extremes, with an EXPECTED pairwise gap of 20.5%. The machine's central-tendency pairwise dispersion (20.5%) is of the same order as RCAP's outlier dispersion (~20%); on the like-for-like outlier metric the machine spread is somewhat WIDER.",
+  "machine_expected_pairwise_relative_pct": 18.34,
+  "machine_full_range_relative_pct": 67.78,
+  "comparison_statement": "RCAP: OUTLIER banks deviate up to ~20% (relative) from a 10% capital-ratio benchmark on the SAME portfolios using IRB internal models. Machine: specifications rating the SAME $45B book under the STANDARDISED (ECRA) approach deviate -35%/+33% (relative) from their median at the extremes, with an EXPECTED pairwise gap of 18.3%. The machine's central-tendency pairwise dispersion (18.3%) is of the same order as RCAP's outlier dispersion (~20%); on the like-for-like outlier metric the machine spread is somewhat WIDER.",
   "non_comparability_note": "UNITS DIFFER \u2014 this is calibration, not identity. RCAP measures ACROSS-BANK dispersion from IRB internal PD/LGD models on real supervised portfolios, expressed as capital-RATIO percentage points; our measure is ACROSS-SPECIFICATION dispersion of an LLM's letter ratings pushed through the STANDARDISED ECRA table on a synthetic 45-name battery, expressed as relative dispersion in required Pillar-1 capital. RCAP's 20% is an OUTLIER-vs-benchmark figure; our primary 20.5% is an EXPECTED pairwise gap. The two should be read as order-of-magnitude comparanda, not equated. We do NOT claim LLM specifications are banks.",
   "supporting_literature": "Behn, Haselmann & Vig (2022, Journal of Finance, 'The Limits of Model-Based Regulation') and Mariathasan & Merrouche (2014, J. Financial Intermediation, 'The manipulation of Basel risk-weights') corroborate material practice-based / model-based RWA variation across institutions. Cited QUALITATIVELY; we extract no numeric benchmark from them (only BCBS 256 supplies our quote-verified figure).",
   "mandatory_caveat": "The capital figures are the regulatory MINIMUM implied by the ratings the model emits under a stated, stripped-down Pillar-1/ECRA/equal-weight/no-buffer scenario. They are NOT a claim that any bank would deploy an LLM as its rating engine, NOT an economic loss estimate, and NOT a statement about realised capital adequacy. The exercise shows that IF identical inputs were rated under trivially different prompt specifications, the implied regulatory capital would swing by the magnitudes reported.",
@@ -160,15 +160,14 @@
  },
  "capital.vendor_error_correlation": {
   "definition": "Each specification is treated as an institution holding the SAME 45-name book. Its per-name capital error = risk-weight deviation from the cross-specification mean for that name. rho = mean across-name correlation of these error vectors between two specifications.",
-  "rho_same_vendor": 0.068,
-  "rho_diff_vendor": -0.048,
-  "gap_same_minus_diff": 0.116,
-  "n_same_pairs": 2439,
-  "n_diff_pairs": 4464,
+  "rho_same_vendor": 0.042,
+  "rho_diff_vendor": -0.059,
+  "gap_same_minus_diff": 0.101,
+  "n_same_pairs": 2163,
+  "n_diff_pairs": 2208,
   "rho_same_by_vendor": {
-   "google": 0.06,
-   "openai": 0.058,
-   "xai": 0.137
+   "google": 0.034,
+   "openai": 0.052
   },
   "interpretation": "rho_same > rho_diff means two institutions running the SAME vendor make correlated capital errors, so their implied capital shortfalls move together (a systemic, non-diversifiable component); switching vendors diversifies the error. rho_same < rho_diff would mean vendor choice is not the correlating axis. This is the micro-foundation for the correlated-shock channel in Llacay & Peffer (Finance Research Letters, 2026): homogeneous model adoption converts idiosyncratic rating noise into a common factor.",
   "attack_item_xiii": "(xiii) 'You never show market impact.' Conceded \u2014 T8 runs no market simulation. We establish only the necessary precondition for the transmission mechanism: that same-vendor capital errors are correlated (rho_same vs rho_diff). The step from correlated capital errors to procyclical deleveraging / fire-sale amplification is cited, not simulated (Llacay & Peffer 2026; the RCAP policy concern with practice-based RWA variation). Market-impact modelling is scoped out and flagged as future work."
@@ -180,15 +179,9 @@
   3132000000.0,
   3028000000.0,
   3172000000.0,
-  4192000000.0,
-  4028000000.0,
-  4168000000.0,
   2116000000.0,
   2220000000.0,
   2072000000.0,
-  4216000000.0,
-  4016000000.0,
-  4172000000.0,
   2860000000.0,
   2576000000.0,
   2956000000.0,
@@ -235,21 +228,12 @@
   4140000000.0,
   4140000000.0,
   4120000000.0,
-  3904000000.0,
-  3768000000.0,
-  4048000000.0,
-  3768000000.0,
-  4108000000.0,
-  3860000000.0,
   3036000000.0,
   3092000000.0,
   3012000000.0,
   3588000000.0,
   3644000000.0,
   3440000000.0,
-  2740000000.0,
-  2604000000.0,
-  2772000000.0,
   3144000000.0,
   2924000000.0,
   3132000000.0,
@@ -262,21 +246,12 @@
   3836000000.0,
   3896000000.0,
   3796000000.0,
-  3484000000.0,
-  3664000000.0,
-  3500000000.0,
-  3964000000.0,
-  4132000000.0,
-  4008000000.0,
   3296000000.0,
   3052000000.0,
   3236000000.0,
   2920000000.0,
   2668000000.0,
   3016000000.0,
-  2416000000.0,
-  2352000000.0,
-  2412000000.0,
   2752000000.0,
   2752000000.0,
   2752000000.0,
@@ -296,363 +271,363 @@
  "capital.assumptions": "Equal-weight $1B on-balance-sheet drawn corporate EAD per name; Pillar-1 minimum at 8%; ECRA base risk weights only (no CRM, no CCF, no maturity adjustment, no buffers, no Pillar 2). Draws are complete spec x seed portfolios (each single-provider). 'Capital' throughout is the regulatory minimum implied by the ratings the model emits, NOT an economic loss estimate.",
  "_per_name": {
   "C001": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.2,
-   "rw_max": 1.0,
-   "rw_range": 0.8,
-   "expected_abs_rw_diff": 0.1639,
-   "capital_range_usd_per_name": 64000000.0
+   "rw_max": 0.75,
+   "rw_range": 0.55,
+   "expected_abs_rw_diff": 0.1447,
+   "capital_range_usd_per_name": 44000000.0
   },
   "C002": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.2,
    "rw_max": 1.5,
    "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.4,
+   "expected_abs_rw_diff": 0.3816,
    "capital_range_usd_per_name": 104000000.0
   },
   "C003": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.2,
    "rw_max": 1.5,
    "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.1736,
+   "expected_abs_rw_diff": 0.1714,
    "capital_range_usd_per_name": 104000000.0
   },
   "C004": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.2,
    "rw_max": 1.5,
    "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.2104,
+   "expected_abs_rw_diff": 0.1947,
    "capital_range_usd_per_name": 104000000.0
   },
   "C005": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.2,
-   "rw_max": 1.5,
-   "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.2795,
-   "capital_range_usd_per_name": 104000000.0
+   "rw_max": 1.0,
+   "rw_range": 0.8,
+   "expected_abs_rw_diff": 0.2157,
+   "capital_range_usd_per_name": 64000000.0
   },
   "C006": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.2,
    "rw_max": 1.5,
    "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.2099,
+   "expected_abs_rw_diff": 0.2026,
    "capital_range_usd_per_name": 104000000.0
   },
   "C007": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.2,
-   "rw_max": 1.5,
-   "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.2512,
-   "capital_range_usd_per_name": 104000000.0
+   "rw_max": 1.0,
+   "rw_range": 0.8,
+   "expected_abs_rw_diff": 0.2021,
+   "capital_range_usd_per_name": 64000000.0
   },
   "C008": {
-   "n": 119,
+   "n": 95,
    "rw_min": 0.5,
    "rw_max": 1.5,
    "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.229,
+   "expected_abs_rw_diff": 0.2384,
    "capital_range_usd_per_name": 80000000.0
   },
   "C009": {
-   "n": 120,
-   "rw_min": 0.2,
-   "rw_max": 1.5,
-   "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.2112,
-   "capital_range_usd_per_name": 104000000.0
-  },
-  "C010": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.2,
    "rw_max": 1.0,
    "rw_range": 0.8,
-   "expected_abs_rw_diff": 0.2166,
+   "expected_abs_rw_diff": 0.202,
+   "capital_range_usd_per_name": 64000000.0
+  },
+  "C010": {
+   "n": 96,
+   "rw_min": 0.2,
+   "rw_max": 1.0,
+   "rw_range": 0.8,
+   "expected_abs_rw_diff": 0.2289,
    "capital_range_usd_per_name": 64000000.0
   },
   "C011": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.2,
-   "rw_max": 1.0,
-   "rw_range": 0.8,
-   "expected_abs_rw_diff": 0.1819,
-   "capital_range_usd_per_name": 64000000.0
+   "rw_max": 0.75,
+   "rw_range": 0.55,
+   "expected_abs_rw_diff": 0.1564,
+   "capital_range_usd_per_name": 44000000.0
   },
   "C012": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.2,
    "rw_max": 1.5,
    "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.1573,
+   "expected_abs_rw_diff": 0.1845,
    "capital_range_usd_per_name": 104000000.0
   },
   "C013": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.2,
    "rw_max": 1.5,
    "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.2393,
+   "expected_abs_rw_diff": 0.2154,
    "capital_range_usd_per_name": 104000000.0
   },
   "C014": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.5,
    "rw_max": 1.5,
    "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.21,
+   "expected_abs_rw_diff": 0.186,
    "capital_range_usd_per_name": 80000000.0
   },
   "C015": {
-   "n": 120,
-   "rw_min": 0.2,
-   "rw_max": 1.5,
-   "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.2951,
-   "capital_range_usd_per_name": 104000000.0
-  },
-  "C016": {
-   "n": 120,
-   "rw_min": 0.5,
-   "rw_max": 1.5,
-   "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.3208,
-   "capital_range_usd_per_name": 80000000.0
-  },
-  "C017": {
-   "n": 120,
-   "rw_min": 0.2,
-   "rw_max": 1.5,
-   "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.2411,
-   "capital_range_usd_per_name": 104000000.0
-  },
-  "C018": {
-   "n": 119,
-   "rw_min": 1.0,
-   "rw_max": 1.5,
-   "rw_range": 0.5,
-   "expected_abs_rw_diff": 0.2222,
-   "capital_range_usd_per_name": 40000000.0
-  },
-  "C019": {
-   "n": 120,
-   "rw_min": 0.5,
-   "rw_max": 1.5,
-   "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.2564,
-   "capital_range_usd_per_name": 80000000.0
-  },
-  "C020": {
-   "n": 120,
-   "rw_min": 0.2,
-   "rw_max": 1.5,
-   "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.3007,
-   "capital_range_usd_per_name": 104000000.0
-  },
-  "C021": {
-   "n": 120,
-   "rw_min": 0.2,
-   "rw_max": 1.5,
-   "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.4034,
-   "capital_range_usd_per_name": 104000000.0
-  },
-  "C022": {
-   "n": 120,
-   "rw_min": 0.5,
-   "rw_max": 1.5,
-   "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.31,
-   "capital_range_usd_per_name": 80000000.0
-  },
-  "C023": {
-   "n": 120,
-   "rw_min": 0.5,
-   "rw_max": 1.5,
-   "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.2635,
-   "capital_range_usd_per_name": 80000000.0
-  },
-  "C024": {
-   "n": 120,
-   "rw_min": 0.5,
-   "rw_max": 1.5,
-   "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.3063,
-   "capital_range_usd_per_name": 80000000.0
-  },
-  "C025": {
-   "n": 120,
-   "rw_min": 0.2,
-   "rw_max": 1.5,
-   "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.3519,
-   "capital_range_usd_per_name": 104000000.0
-  },
-  "C026": {
-   "n": 120,
-   "rw_min": 0.2,
-   "rw_max": 1.5,
-   "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.3054,
-   "capital_range_usd_per_name": 104000000.0
-  },
-  "C027": {
-   "n": 120,
-   "rw_min": 0.2,
-   "rw_max": 1.5,
-   "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.3119,
-   "capital_range_usd_per_name": 104000000.0
-  },
-  "C028": {
-   "n": 120,
-   "rw_min": 0.2,
-   "rw_max": 1.5,
-   "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.2553,
-   "capital_range_usd_per_name": 104000000.0
-  },
-  "C029": {
-   "n": 120,
-   "rw_min": 0.5,
-   "rw_max": 1.5,
-   "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.2516,
-   "capital_range_usd_per_name": 80000000.0
-  },
-  "C030": {
-   "n": 119,
+   "n": 96,
    "rw_min": 0.2,
    "rw_max": 1.5,
    "rw_range": 1.3,
    "expected_abs_rw_diff": 0.2356,
    "capital_range_usd_per_name": 104000000.0
   },
-  "C031": {
-   "n": 119,
+  "C016": {
+   "n": 96,
    "rw_min": 0.5,
    "rw_max": 1.5,
    "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.3801,
+   "expected_abs_rw_diff": 0.26,
+   "capital_range_usd_per_name": 80000000.0
+  },
+  "C017": {
+   "n": 96,
+   "rw_min": 0.2,
+   "rw_max": 1.0,
+   "rw_range": 0.8,
+   "expected_abs_rw_diff": 0.2426,
+   "capital_range_usd_per_name": 64000000.0
+  },
+  "C018": {
+   "n": 95,
+   "rw_min": 1.0,
+   "rw_max": 1.5,
+   "rw_range": 0.5,
+   "expected_abs_rw_diff": 0.2352,
+   "capital_range_usd_per_name": 40000000.0
+  },
+  "C019": {
+   "n": 96,
+   "rw_min": 0.5,
+   "rw_max": 1.5,
+   "rw_range": 1.0,
+   "expected_abs_rw_diff": 0.1904,
+   "capital_range_usd_per_name": 80000000.0
+  },
+  "C020": {
+   "n": 96,
+   "rw_min": 0.2,
+   "rw_max": 1.5,
+   "rw_range": 1.3,
+   "expected_abs_rw_diff": 0.2818,
+   "capital_range_usd_per_name": 104000000.0
+  },
+  "C021": {
+   "n": 96,
+   "rw_min": 0.2,
+   "rw_max": 1.5,
+   "rw_range": 1.3,
+   "expected_abs_rw_diff": 0.355,
+   "capital_range_usd_per_name": 104000000.0
+  },
+  "C022": {
+   "n": 96,
+   "rw_min": 0.5,
+   "rw_max": 1.5,
+   "rw_range": 1.0,
+   "expected_abs_rw_diff": 0.2623,
+   "capital_range_usd_per_name": 80000000.0
+  },
+  "C023": {
+   "n": 96,
+   "rw_min": 0.5,
+   "rw_max": 1.5,
+   "rw_range": 1.0,
+   "expected_abs_rw_diff": 0.1851,
+   "capital_range_usd_per_name": 80000000.0
+  },
+  "C024": {
+   "n": 96,
+   "rw_min": 0.5,
+   "rw_max": 1.5,
+   "rw_range": 1.0,
+   "expected_abs_rw_diff": 0.2766,
+   "capital_range_usd_per_name": 80000000.0
+  },
+  "C025": {
+   "n": 96,
+   "rw_min": 0.2,
+   "rw_max": 1.5,
+   "rw_range": 1.3,
+   "expected_abs_rw_diff": 0.3425,
+   "capital_range_usd_per_name": 104000000.0
+  },
+  "C026": {
+   "n": 96,
+   "rw_min": 0.2,
+   "rw_max": 1.5,
+   "rw_range": 1.3,
+   "expected_abs_rw_diff": 0.2595,
+   "capital_range_usd_per_name": 104000000.0
+  },
+  "C027": {
+   "n": 96,
+   "rw_min": 0.2,
+   "rw_max": 1.5,
+   "rw_range": 1.3,
+   "expected_abs_rw_diff": 0.2532,
+   "capital_range_usd_per_name": 104000000.0
+  },
+  "C028": {
+   "n": 96,
+   "rw_min": 0.2,
+   "rw_max": 0.75,
+   "rw_range": 0.55,
+   "expected_abs_rw_diff": 0.2423,
+   "capital_range_usd_per_name": 44000000.0
+  },
+  "C029": {
+   "n": 96,
+   "rw_min": 0.5,
+   "rw_max": 1.5,
+   "rw_range": 1.0,
+   "expected_abs_rw_diff": 0.2154,
+   "capital_range_usd_per_name": 80000000.0
+  },
+  "C030": {
+   "n": 95,
+   "rw_min": 0.2,
+   "rw_max": 1.5,
+   "rw_range": 1.3,
+   "expected_abs_rw_diff": 0.191,
+   "capital_range_usd_per_name": 104000000.0
+  },
+  "C031": {
+   "n": 95,
+   "rw_min": 0.5,
+   "rw_max": 1.5,
+   "rw_range": 1.0,
+   "expected_abs_rw_diff": 0.3652,
    "capital_range_usd_per_name": 80000000.0
   },
   "C032": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.5,
    "rw_max": 1.5,
    "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.3029,
+   "expected_abs_rw_diff": 0.2965,
    "capital_range_usd_per_name": 80000000.0
   },
   "C033": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.5,
    "rw_max": 1.5,
    "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.1331,
+   "expected_abs_rw_diff": 0.161,
    "capital_range_usd_per_name": 80000000.0
   },
   "C034": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.75,
    "rw_max": 1.5,
    "rw_range": 0.75,
-   "expected_abs_rw_diff": 0.2797,
+   "expected_abs_rw_diff": 0.2814,
    "capital_range_usd_per_name": 60000000.0
   },
   "C035": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.2,
    "rw_max": 1.5,
    "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.3897,
+   "expected_abs_rw_diff": 0.3513,
    "capital_range_usd_per_name": 104000000.0
   },
   "C036": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.5,
    "rw_max": 1.5,
    "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.3545,
+   "expected_abs_rw_diff": 0.356,
    "capital_range_usd_per_name": 80000000.0
   },
   "C037": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.5,
    "rw_max": 1.5,
    "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.3828,
+   "expected_abs_rw_diff": 0.3599,
    "capital_range_usd_per_name": 80000000.0
   },
   "C038": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.5,
    "rw_max": 1.5,
    "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.282,
+   "expected_abs_rw_diff": 0.3003,
    "capital_range_usd_per_name": 80000000.0
   },
   "C039": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.2,
    "rw_max": 1.5,
    "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.3695,
+   "expected_abs_rw_diff": 0.3475,
    "capital_range_usd_per_name": 104000000.0
   },
   "C040": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.5,
    "rw_max": 1.5,
    "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.3751,
+   "expected_abs_rw_diff": 0.3521,
    "capital_range_usd_per_name": 80000000.0
   },
   "C041": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.2,
    "rw_max": 1.5,
    "rw_range": 1.3,
-   "expected_abs_rw_diff": 0.3627,
+   "expected_abs_rw_diff": 0.3267,
    "capital_range_usd_per_name": 104000000.0
   },
   "C042": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.5,
    "rw_max": 1.5,
    "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.0329,
+   "expected_abs_rw_diff": 0.041,
    "capital_range_usd_per_name": 80000000.0
   },
   "C043": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.5,
    "rw_max": 1.5,
    "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.3015,
+   "expected_abs_rw_diff": 0.2731,
    "capital_range_usd_per_name": 80000000.0
   },
   "C044": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.5,
    "rw_max": 1.5,
    "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.0167,
+   "expected_abs_rw_diff": 0.0208,
    "capital_range_usd_per_name": 80000000.0
   },
   "C045": {
-   "n": 120,
+   "n": 96,
    "rw_min": 0.5,
    "rw_max": 1.5,
    "rw_range": 1.0,
-   "expected_abs_rw_diff": 0.3567,
+   "expected_abs_rw_diff": 0.3401,
    "capital_range_usd_per_name": 80000000.0
   }
  }

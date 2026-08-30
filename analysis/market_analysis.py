@@ -25,6 +25,7 @@ DAYS = OAS.index.tolist()
 
 # per-name best/worst bucket from the frozen panel
 P = pd.read_parquet(PB / "data" / "panel" / "panel.parquet")
+P = P[P.provider.isin(["openai","google"])].copy()  # two-vendor design
 CR = P[(P.parse_rule == "lenient") & (P.family == "credit_health") & P.dec_letter.notna()]
 def bkt(l):
     b = l.rstrip("+-")
