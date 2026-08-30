@@ -475,7 +475,12 @@ representation of machine-generated credit opinions than a single prompted respo
 \noindent\textbf{Limitations.} These findings have several limitations that bound their scope. First, the study considers two providers
 and the specific model snapshots and configurations included in the pre-registered design; the
 results should therefore be viewed as evidence of how the evaluated systems behave, not as a universal
-numerical estimate for all current or future LLMs.
+numerical estimate for all current or future LLMs. Relatedly, the evaluated snapshots are each provider's
+low-cost (\texttt{nano}/\texttt{flash}) tier rather than a frontier model; we study this tier deliberately
+because cost pressure makes it the realistic choice for high-volume, per-issuer credit screening, but
+whether the flip rate attenuates on a full-size model is an important extension we leave to future work,
+noting that the mechanism---sensitivity of a categorical judgment to how it is elicited---is not obviously
+capability-bounded.
 
 Second, the main identification sample is a fixed 90-item constructed battery, with 45 profiles in the
 credit-health task and 45 in the directional task. Repeated specifications increase coverage of the

@@ -506,7 +506,14 @@ proposal for practice and leave its calibration against downstream decision qual
 These findings have several limitations that bound their scope. First, the study considers two model
 providers and the specific model snapshots and configurations included in the pre-registered design
 (Table~\ref{tab:models}); the results should therefore be viewed as evidence of how the evaluated systems
-behave, not as a universal numerical estimate for all current or future LLMs.
+behave, not as a universal numerical estimate for all current or future LLMs. Relatedly, the evaluated
+snapshots are each provider's low-cost (\texttt{nano}/\texttt{flash}) tier rather than a frontier model.
+We study this tier deliberately, because cost pressure makes it the realistic choice for high-volume,
+per-issuer credit screening; nonetheless, calibration may differ at the frontier and it is
+plausible---though not established---that specification sensitivity attenuates with scale. The mechanism
+we identify, sensitivity of a categorical judgment to how it is elicited, is not obviously
+capability-bounded, but confirming whether the flip rate holds on a full-size model is an important
+extension we leave to future work.
 
 Second, the main identification sample is a fixed 90-item constructed battery, with 45 profiles in the
 credit-health task and 45 in the directional task. Repeated specifications increase coverage of the
@@ -622,11 +629,14 @@ re-query any model.
 \caption{Model snapshots evaluated (two providers, current and prior snapshot each) and collection
 window. Responses were collected once and frozen; all reported results reproduce offline from the frozen
 corpus.}\label{tab:models}
-\begin{tabular}{lll}\toprule
-Provider & Current snapshot & Prior snapshot \\\midrule
-OpenAI & \texttt{gpt-5.4-nano} & \texttt{gpt-5-nano-2025-08-07} \\
-Google & \texttt{gemini-3.5-flash} & \texttt{gemini-2.5-flash} \\\midrule
-\multicolumn{3}{l}{Collection window: frozen run of 7 July 2026 (offline thereafter).}\\\bottomrule
+\begin{tabular}{llll}\toprule
+Provider & Model snapshot & Role & Queried \\\midrule
+OpenAI & \texttt{gpt-5.4-nano} & current & 2026-07-07 \\
+OpenAI & \texttt{gpt-5-nano-2025-08-07} & prior & 2026-07-07 \\
+Google & \texttt{gemini-3.5-flash} & current & 2026-07-07 \\
+Google & \texttt{gemini-2.5-flash} & prior & 2026-07-07 \\\midrule
+\multicolumn{4}{l}{All snapshots queried once in the frozen run of 7 July 2026; offline thereafter. Aliases}\\
+\multicolumn{4}{l}{without an embedded date stamp are pinned by the query date above.}\\\bottomrule
 \end{tabular}\end{table}
 
 \subsection{Outcome construction and statistical analysis}
