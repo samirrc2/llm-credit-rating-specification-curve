@@ -14,9 +14,12 @@ citable reproducibility artifact is deposited on Zenodo:
 - `PREREGISTRATION.md`, `PREREGISTRATION_AMENDMENTS.md`.
 
 ## Frozen response corpus (the elicitations)
-- `data/raw/main/run_20260707_185649/` — per-call model responses (~12,960 cells; the grok-4.1-fast
-  prior snapshot is a documented all-empty dead cell, retained, not imputed).
-- `data/panel/panel.parquet` — the analysis panel built once from the raw corpus.
+- `data/raw/main/run_20260707_185649/` — per-call model responses from the full data collection. The
+  confirmatory analysis in the manuscript uses the two providers with complete current-and-prior snapshot
+  coverage (OpenAI and Google; 8,640 cells); a third provider (xAI) was piloted with incomplete coverage
+  and is excluded from the analysis but retained here in raw form for transparency.
+- `data/panel/panel.parquet` — the analysis panel built once from the raw corpus (the analysis scripts
+  filter to the two confirmatory providers).
 
 ## Real-firm arm
 - `data/frozen/realarm/` — anonymized perturbed battery, sealed crosswalk, rating provenance

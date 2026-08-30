@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this artifact, please cite it as below."
-title: "Sensitivity of AI-Generated Credit Ratings to Elicitation Choices — reproducibility artifact"
+title: "Evaluating LLM-Based Credit Rating Systems: A Pre-Registered Specification-Curve Analysis — reproducibility artifact"
 abstract: >
   Reproducibility artifact (code, frozen response corpus, analysis outputs) for a
   pre-registered specification-curve study of LLM credit-rating instability. From a frozen
-  90-item battery x 48 specifications x 3 seeds (~12,960 elicitations, three model families)
+  90-item battery x 32 specifications x 3 seeds (~8,640 elicitations, two providers)
   the analysis regenerates the variance decomposition, determinism-subgrid permutation test,
   within/cross-vendor agreement, granularity-kappa, and the economic translation (turnover,
   Cornaggia-anchored spread, post-hoc Basel capital recast, RCAP calibration). A decontaminated
