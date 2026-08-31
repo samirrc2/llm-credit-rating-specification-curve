@@ -1,6 +1,6 @@
 # Evaluating LLM-Based Credit Rating Systems: A Pre-Registered Specification-Curve Analysis
 
-Reproducibility artifact for the manuscript of the same title (target journal: Intelligent Systems with Applications, Elsevier).
+Reproducibility artifact for the manuscript of the same title.
 
 **Authors:** Samir Chincholikar (Independent researcher, New York, USA) · Robin Chawla (Independent researcher, New York, USA, corresponding author)
 **ORCID:** [0009-0007-2779-3492](https://orcid.org/0009-0007-2779-3492) · [0009-0007-2807-3948](https://orcid.org/0009-0007-2807-3948)
