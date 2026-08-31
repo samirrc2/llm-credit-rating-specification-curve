@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer\u2019s balance sheet is deeply impaired: current ratio is only 0.27, retained earnings and shareholders\u2019 equity are both negative, and total liabilities exceed total assets, all of which indicate very weak liquidity and balance-sheet insolvency. Although EBIT is positive, the overall credit profile appears highly vulnerable and dependent on continued favorable conditions or external support.\n\nDECISION: CCC",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 208,
+ "usd": 0.015945,
+ "utc": "2026-08-30T20:22:30.555468+00:00"
+}

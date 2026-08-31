@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Strong liquidity (current ratio 2.04) and a solid balance sheet (equity of 84,113M against liabilities of 58,979M) support investment-grade credit quality, but the very low EBIT relative to assets and revenue points to weak operating performance for the fiscal year. On balance, the issuer looks financially resilient yet not strong enough for the higher rating tiers.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 231,
+ "out_tok": 378,
+ "usd": 0.026145,
+ "utc": "2026-08-30T18:28:43.043832+00:00"
+}

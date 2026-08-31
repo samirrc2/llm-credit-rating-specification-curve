@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak near-term liquidity with a current ratio below 1.0 and fairly high balance-sheet leverage, while operating profitability is thin at roughly a 3.8% EBIT margin and about 1.6% EBIT-to-assets. Positive retained earnings and a meaningful equity base support some resilience, but overall the metrics fit a borderline speculative-grade profile rather than solid investment grade.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 369,
+ "usd": 0.02571,
+ "utc": "2026-08-30T20:19:14.422360+00:00"
+}

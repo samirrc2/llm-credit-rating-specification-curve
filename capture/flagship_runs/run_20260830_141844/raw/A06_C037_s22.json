@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company has a very large asset base ($48.8 billion) and moderate leverage, with liabilities roughly equal to shareholders' equity, which provides a strong cushion for creditors. Despite a negative gross margin, it generates positive operating and net income, though profitability relative to total assets is low, which is characteristic of asset-heavy industries like real estate or utilities. The adequate liquidity (current ratio of 1.0) and substantial equity support an investment-grade rating in the lower-middle tier.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 271,
+ "out_tok": 107,
+ "usd": 0.004565,
+ "utc": "2026-08-30T20:02:12.795061+00:00"
+}

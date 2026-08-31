@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Strong liquidity (current ratio 2.29), low balance-sheet leverage (liabilities/assets about 40% and equity/liabilities about 1.47x), and solid profitability (EBIT about 6.5% of assets) support good credit quality. However, the modest retained-earnings cushion relative to assets and limited operating scale/revenue base argue against the very highest categories.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 451,
+ "usd": 0.030555,
+ "utc": "2026-08-30T18:43:18.166532+00:00"
+}

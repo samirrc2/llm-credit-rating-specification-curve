@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":2,\"rationale\":\"Exceptional margins, scale, and liquidity support strong investment-grade quality; however, liabilities are sizable versus equity and debt/cash-flow detail is limited.\"}",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 411,
+ "usd": 0.028605,
+ "utc": "2026-08-30T18:30:13.695790+00:00"
+}

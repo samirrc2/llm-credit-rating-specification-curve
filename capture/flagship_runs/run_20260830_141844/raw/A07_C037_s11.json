@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows only marginal liquidity (current ratio 1.00) and a very large accumulated deficit (retained earnings of -6,947M), while operating income is modest relative to the liability base, which points to weak debt-servicing capacity despite substantial equity. Positive EBIT and a roughly balanced assets-to-liabilities structure argue against deep distress, but overall the profile fits a speculative-grade issuer.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 324,
+ "usd": 0.022905,
+ "utc": "2026-08-30T20:02:21.618777+00:00"
+}

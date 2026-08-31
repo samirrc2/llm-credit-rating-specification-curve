@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak near-term liquidity (current ratio 0.79) and high balance-sheet leverage, with liabilities of roughly 73% of assets and only modest operating earnings relative to its large liability base. While the company has substantial equity and accumulated retained earnings, the low EBIT-to-assets profile suggests only moderate capacity to absorb stress, consistent with a speculative-grade but not deeply distressed credit.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 443,
+ "usd": 0.03015,
+ "utc": "2026-08-30T19:58:42.249505+00:00"
+}

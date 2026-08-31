@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer\u2019s credit profile appears extremely weak: liquidity is very strained (current ratio 0.27), retained earnings and equity are deeply negative, and total liabilities exceed total assets. Although EBIT is positive, the scale of liabilities relative to revenue and the balance-sheet deficit suggest a very high risk of default and dependence on favorable conditions to meet obligations.\n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 296,
+ "usd": 0.02136,
+ "utc": "2026-08-30T20:23:26.978490+00:00"
+}

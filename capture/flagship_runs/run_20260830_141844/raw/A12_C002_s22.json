@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High leverage and low asset turnover suggest a financial firm; adequate equity and liquidity support an investment-grade rating, though profitability is modest.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 51,
+ "usd": 0.00295,
+ "utc": "2026-08-30T18:24:18.929257+00:00"
+}

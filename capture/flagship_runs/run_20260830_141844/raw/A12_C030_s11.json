@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Strong current ratio and adequate equity base offset very low profitability and asset turnover, resulting in a speculative grade rating due to earnings weakness.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 276,
+ "out_tok": 49,
+ "usd": 0.00285,
+ "utc": "2026-08-30T19:42:41.878774+00:00"
+}

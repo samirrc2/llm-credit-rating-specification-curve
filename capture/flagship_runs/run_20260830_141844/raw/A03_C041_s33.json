@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears moderately leveraged but still investment grade: liabilities are sizable relative to assets and liquidity is weak (current ratio 0.55), which constrains the rating. Offsetting that, it has a large equity base, substantial retained earnings, and solid positive operating income, suggesting adequate capacity to meet obligations absent severe stress.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 197,
+ "usd": 0.01542,
+ "utc": "2026-08-30T20:13:39.283085+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC+\", \"confidence\": 4, \"rationale\": \"Massive negative equity, extreme leverage (liabilities over 33B vs EBIT of 465M), and poor liquidity indicate highly distressed financial conditions.\"}\n```",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 56,
+ "usd": 0.00305,
+ "utc": "2026-08-30T20:21:53.264901+00:00"
+}

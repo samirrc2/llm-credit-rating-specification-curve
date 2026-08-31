@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is very weak: current ratio is below 1.0, retained earnings and shareholders\u2019 equity are deeply negative, and liabilities exceed assets by a wide margin, all of which point to heavy leverage and limited financial flexibility. While the company is still generating positive EBIT on meaningful revenue, the capital structure looks firmly speculative-grade rather than investment-grade.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 301,
+ "usd": 0.02166,
+ "utc": "2026-08-30T20:18:14.857766+00:00"
+}

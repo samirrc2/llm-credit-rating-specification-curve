@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB\",\"confidence\":3,\"rationale\":\"Excellent margins and strong earnings support credit quality, but weak current ratio, thin equity base, negative retained earnings, and high liabilities constrain rating.\"}",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 254,
+ "out_tok": 224,
+ "usd": 0.01725,
+ "utc": "2026-08-30T20:04:56.937124+00:00"
+}

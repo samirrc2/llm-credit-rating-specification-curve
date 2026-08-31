@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage, poor liquidity, and negative retained earnings indicate speculative grade, but positive EBIT mitigates default risk slightly.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 275,
+ "out_tok": 46,
+ "usd": 0.002755,
+ "utc": "2026-08-30T20:04:43.169427+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears exceptionally strong financially: liabilities are modest relative to assets and equity (about 40% liabilities-to-assets), liquidity is adequate with a 1.28 current ratio, and profitability is very high with EBIT near 46% of revenue. On these metrics alone, the balance sheet and earnings profile support a very high-grade rating, though not necessarily the absolute top tier without more detail on debt structure and cash flow stability.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 314,
+ "usd": 0.02244,
+ "utc": "2026-08-30T18:50:52.534322+00:00"
+}

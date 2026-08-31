@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates very strong profitability with a 66% gross margin and 32% operating margin, generating significant net income. However, its massive liability load ($139.7 billion) and weak current ratio (0.55) indicate substantial leverage and short-term liquidity constraints, which temper its credit profile to the lower investment-grade spectrum. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 81,
+ "usd": 0.00387,
+ "utc": "2026-08-30T20:13:21.466775+00:00"
+}

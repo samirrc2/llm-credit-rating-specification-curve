@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability and cash-generating ability with high gross (85%) and operating (32%) margins on a massive revenue base of $20.88 billion for the quarter. However, its highly leveraged balance sheet\u2014with total liabilities of $274.9 billion dwarfing its $34 billion in equity\u2014and a very low current ratio of 0.35 indicate significant debt burdens and working capital constraints typical of capital-intensive sectors like telecommunications. These factors balance robust operational performance against high financial leverage, warranting a solid, mid-tier investment-grade rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 290,
+ "out_tok": 130,
+ "usd": 0.00535,
+ "utc": "2026-08-30T19:46:09.303146+00:00"
+}

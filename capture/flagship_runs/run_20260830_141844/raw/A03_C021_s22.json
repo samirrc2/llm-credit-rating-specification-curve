@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet looks solid overall, with moderate leverage (liabilities about 40% of assets) and a strong equity base supported by substantial retained earnings, which is consistent with investment-grade credit quality. However, the weak current ratio and only moderate earnings scale relative to the large asset base argue against the highest tiers, pointing to a mid-to-upper investment-grade profile rather than a very strong one.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 247,
+ "usd": 0.01842,
+ "utc": "2026-08-30T19:16:08.026987+00:00"
+}

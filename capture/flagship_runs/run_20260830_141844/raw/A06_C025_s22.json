@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates significant scale and solid profitability with annualized revenues of over $36 billion, an operating margin of 10%, and a healthy current ratio of 1.39. However, leverage is moderately high with total liabilities representing about 71% of total assets, positioning its credit risk comfortably within the mid-investment-grade tier.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 270,
+ "out_tok": 76,
+ "usd": 0.00363,
+ "utc": "2026-08-30T19:27:55.363085+00:00"
+}

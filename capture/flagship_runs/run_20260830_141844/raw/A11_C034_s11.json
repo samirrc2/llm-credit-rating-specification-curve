@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company\u2019s liquidity is weak (current ratio 0.53), leverage is high (liabilities are roughly 74% of assets), and retained earnings are deeply negative, all of which constrain credit quality. While it remains profitable at the EBIT level and has a meaningful equity base, the balance-sheet risk appears more consistent with the low end of investment grade rather than a stronger category.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 310,
+ "usd": 0.02223,
+ "utc": "2026-08-30T19:54:36.487249+00:00"
+}

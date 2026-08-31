@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears highly vulnerable: it has extremely weak liquidity (current ratio 0.27), negative retained earnings, and negative shareholders\u2019 equity, meaning liabilities exceed assets. Although EBIT is positive, the capital structure is deeply impaired and suggests a heavy dependence on continued refinancing or supportive external conditions.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 304,
+ "usd": 0.02181,
+ "utc": "2026-08-30T20:21:46.526875+00:00"
+}

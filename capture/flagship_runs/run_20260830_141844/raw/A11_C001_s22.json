@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet looks solid for an investment-grade issuer: liquidity is adequate (current ratio 1.34), leverage is moderate (liabilities roughly equal to equity), and retained earnings are strong relative to assets, indicating meaningful accumulated profitability. However, EBIT is only moderate relative to the asset base and total liabilities, so absent clearer evidence of exceptionally strong cash flow or debt protection, a mid-tier investment-grade rating is most supportable.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 332,
+ "usd": 0.02355,
+ "utc": "2026-08-30T18:20:52.760687+00:00"
+}

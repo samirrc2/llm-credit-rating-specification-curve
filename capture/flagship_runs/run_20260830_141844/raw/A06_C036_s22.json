@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a 19% operating margin and solid net income, supported by a substantial asset base of over $79 billion. However, leverage is relatively high with nearly $58 billion in liabilities, and liquidity is somewhat constrained given the current ratio of 0.79. These factors combined indicate a stable investment-grade profile with some financial risk.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 271,
+ "out_tok": 82,
+ "usd": 0.003815,
+ "utc": "2026-08-30T19:59:14.915486+00:00"
+}

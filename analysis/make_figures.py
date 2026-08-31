@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Regenerate the three manuscript figures from the current results (offline).
-Reads results/results.json + results/spec_curves.json; writes the figures into both
-paper/ISWA and paper/scientific_reports so they always match the reported numbers.
+Reads results/results.json + results/spec_curves.json; writes the figures into
+paper/ISWA so they always match the reported numbers.
 Requires matplotlib (optional dependency; not needed to reproduce the numbers)."""
 import json
 from pathlib import Path
@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 PB = Path(__file__).resolve().parents[1]
 R = json.load(open(PB / "results" / "results.json"))
 SC = json.load(open(PB / "results" / "spec_curves.json"))
-OUT_DIRS = [PB / "paper" / "ISWA", PB / "paper" / "scientific_reports"]
+OUT_DIRS = [PB / "paper" / "ISWA"]
 
 def find(key):
     for b in R.values():
@@ -23,14 +23,28 @@ def find(key):
 plt.rcParams.update({"font.family": "sans-serif", "font.size": 10, "axes.spines.top": False,
                      "axes.spines.right": False, "figure.dpi": 200})
 
-# ---- Figure 1: specification curve (per-spec credit-band accuracy, seeds pooled) ----
+# ---- Figure 1: specification curve, two panels --------------------------------------
+# (a) per-spec credit-band accuracy vs Altman (benchmark-referenced)
+# (b) per-spec investment-grade share (benchmark-free: pure dispersion of the verdict)
 c1 = sorted(SC["C1"].values())
-fig, ax = plt.subplots(figsize=(6.2, 3.4))
-ax.scatter(range(1, len(c1) + 1), c1, s=18, color="#1f4e79", zorder=3)
-ax.axhline(0.5, color="#c0392b", lw=1, ls="--", label="majority-correct threshold (0.5)")
-ax.set_xlabel(f"specification (ordered), n={len(c1)}")
-ax.set_ylabel("credit-band accuracy vs Altman Z''")
-ax.set_ylim(0, 1); ax.legend(frameon=False, fontsize=8, loc="upper left")
+import pandas as pd
+_P = pd.read_parquet(PB / "data" / "panel" / "panel.parquet")
+_P = _P[_P.provider.isin(["openai", "google"])]
+_CR = _P[(_P.family == "credit_health") & (_P.parse_rule == "lenient") & _P.decision.notna()]
+ig_share = sorted((_CR.assign(ig=(_CR.dec_ighy == "IG").astype(float))
+                   .groupby("spec_id").ig.mean()).values)
+fig, (axL, axR) = plt.subplots(1, 2, figsize=(7.4, 3.3))
+axL.scatter(range(1, len(c1) + 1), c1, s=16, color="#1f4e79", zorder=3)
+axL.axhline(0.5, color="#c0392b", lw=1, ls="--", label="majority-correct (0.5)")
+axL.set_xlabel(f"specification (ordered), n={len(c1)}")
+axL.set_ylabel("credit-band accuracy vs Altman Z''")
+axL.set_ylim(0, 1); axL.legend(frameon=False, fontsize=8, loc="upper left")
+axL.set_title("(a) benchmark-referenced", fontsize=9)
+axR.scatter(range(1, len(ig_share) + 1), ig_share, s=16, color="#2e6f4e", zorder=3)
+axR.set_xlabel(f"specification (ordered), n={len(ig_share)}")
+axR.set_ylabel("investment-grade share")
+axR.set_ylim(0, 1)
+axR.set_title("(b) benchmark-free (IG share)", fontsize=9)
 fig.tight_layout()
 for d in OUT_DIRS: fig.savefig(d / "fig_spec_curve.png")
 plt.close(fig)

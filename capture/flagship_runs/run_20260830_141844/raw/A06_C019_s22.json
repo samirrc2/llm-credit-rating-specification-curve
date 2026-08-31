@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company generates substantial revenue ($24.5 billion) and solid operating income ($2.58 billion), reflecting a strong market position and stable profitability. However, the relatively high proportion of liabilities to total assets (77.7%) constrains the rating to the lower-to-middle investment grade tiers. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 71,
+ "usd": 0.003525,
+ "utc": "2026-08-30T19:10:59.341620+00:00"
+}

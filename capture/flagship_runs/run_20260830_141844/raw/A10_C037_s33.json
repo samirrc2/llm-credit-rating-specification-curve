@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company exhibits a substantial asset base ($48.9B) and strong capitalization with a roughly 1:1 debt-to-equity profile, indicating significant structural resilience. However, the tight current ratio (1.00), deeply negative retained earnings, and unusual negative gross margin profile suggest historical operational challenges or a specialized business model that constrains upward rating mobility. Therefore, an investment-grade rating at the middle tier is appropriate given the strong balance sheet offset by liquidity and historical profitability concerns.\n\nDECISION: BBB",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 106,
+ "usd": 0.004575,
+ "utc": "2026-08-30T20:03:17.095504+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is moderately leveraged but still supported by a solid equity base (equity \u2248 40% of assets) and acceptable liquidity (current ratio 1.30), while very large retained earnings suggest an established business. However, operating profitability is thin (EBIT margin about 4.4%, EBIT/assets about 2.0%), which limits resilience and points to the low end of investment-grade credit quality.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 412,
+ "usd": 0.028215,
+ "utc": "2026-08-30T18:56:46.113269+00:00"
+}

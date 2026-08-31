@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is very weak for a typical corporate issuer: current ratio is only 0.42, liabilities are about 91% of assets, and EBIT is extremely small relative to the overall liability burden. Although the company is still profitable and has positive retained earnings and equity, the very high leverage and poor liquidity point to a highly speculative credit profile.\n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 248,
+ "out_tok": 422,
+ "usd": 0.02904,
+ "utc": "2026-08-30T19:55:43.063134+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"High total assets and leverage typical of a major financial institution; strong equity base and EBIT margins suggest a solid investment-grade rating, likely A-.\"}\n```",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 295,
+ "out_tok": 54,
+ "usd": 0.003095,
+ "utc": "2026-08-30T19:56:02.307057+00:00"
+}

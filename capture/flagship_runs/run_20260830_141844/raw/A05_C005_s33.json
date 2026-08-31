@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":4,\"rationale\":\"Exceptional profitability and solid liquidity support strong credit quality; however, liabilities materially exceed equity and debt/cash-flow detail is limited, tempering an AA rating.\"}",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 256,
+ "out_tok": 286,
+ "usd": 0.021,
+ "utc": "2026-08-30T18:31:16.543947+00:00"
+}

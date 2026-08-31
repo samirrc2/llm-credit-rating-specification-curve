@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Tight liquidity with current ratio < 1, moderate leverage, and low asset turnover/EBIT relative to assets indicate elevated credit risk, placing it in the speculative tier.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 276,
+ "out_tok": 58,
+ "usd": 0.00312,
+ "utc": "2026-08-30T19:39:52.685992+00:00"
+}

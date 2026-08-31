@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company exhibits massive scale and strong profitability, with an operating margin of 32% and a gross margin of 85%, which generate significant cash flow. However, its highly leveraged balance sheet (total liabilities of $275 billion against equity of $34 billion) and extremely low current ratio (0.35) indicate substantial debt burdens, characteristic of large capital-intensive or telecom/media firms, constraining the rating to the lower-medium investment grade tier.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 290,
+ "out_tok": 103,
+ "usd": 0.00454,
+ "utc": "2026-08-30T19:46:16.701080+00:00"
+}

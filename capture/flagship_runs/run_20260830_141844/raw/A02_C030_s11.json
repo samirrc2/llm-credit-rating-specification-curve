@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a strong liquidity profile with a current ratio of 2.29 and maintains moderate leverage, as total liabilities represent about 47% of total assets. Consistent profitability with a 14% operating margin and a substantial asset base of over $58 billion support a solid investment-grade rating, although the relatively modest revenue compared to the asset base suggests some efficiency constraints.\n\nDECISION: BBB+",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 85,
+ "usd": 0.00395,
+ "utc": "2026-08-30T19:40:21.542703+00:00"
+}

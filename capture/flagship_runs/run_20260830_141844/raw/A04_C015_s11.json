@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Massive asset base and solid EBIT margins support an investment-grade rating, offset by high leverage with total liabilities near 78% of total assets.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 54,
+ "usd": 0.00302,
+ "utc": "2026-08-30T18:58:52.491870+00:00"
+}

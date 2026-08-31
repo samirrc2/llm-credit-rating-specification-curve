@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":4,\"rationale\":\"Exceptional margins, strong liquidity, and sizable equity support high credit quality; absent debt/cash-flow detail and possible earnings volatility constrain rating below AA.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 324,
+ "usd": 0.023415,
+ "utc": "2026-08-30T18:43:40.986409+00:00"
+}

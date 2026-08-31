@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak near-term liquidity (current ratio 0.59) and modest operating earnings relative to its large asset and liability base, which constrains financial flexibility. Still, the company has a meaningful equity cushion and substantial retained earnings, supporting a speculative-grade but not deeply distressed profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 413,
+ "usd": 0.02838,
+ "utc": "2026-08-30T19:20:35.607790+00:00"
+}

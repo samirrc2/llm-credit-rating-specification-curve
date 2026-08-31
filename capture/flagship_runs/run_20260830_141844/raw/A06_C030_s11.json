@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With a strong equity base of $18.9 billion, a healthy current ratio of 2.29, and solid profitability (14% operating margin), the company demonstrates stable financial health and moderate leverage. These factors are consistent with a mid-to-high investment-grade profile, supported by its substantial asset base.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 73,
+ "usd": 0.003555,
+ "utc": "2026-08-30T19:41:18.718492+00:00"
+}

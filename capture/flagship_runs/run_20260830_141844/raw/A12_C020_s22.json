@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High leverage with total liabilities of 298B against 104B equity, coupled with weak liquidity (current ratio 0.91) and low asset turnover, suggest a BBB rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 65,
+ "usd": 0.00337,
+ "utc": "2026-08-30T19:15:32.459477+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 3, \"rationale\": \"Strong equity base, low leverage, and solid EBIT margins support an investment-grade rating, though asset turnover is relatively low.\"}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 277,
+ "out_tok": 48,
+ "usd": 0.002825,
+ "utc": "2026-08-30T18:34:02.058097+00:00"
+}

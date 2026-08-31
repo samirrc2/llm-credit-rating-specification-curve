@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A\",\"confidence\":4,\"rationale\":\"Very large, profitable issuer with strong margins and earnings, but high leverage and weak current ratio constrain the rating versus higher-grade peers.\"}",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 271,
+ "out_tok": 395,
+ "usd": 0.027765,
+ "utc": "2026-08-30T19:44:48.510136+00:00"
+}

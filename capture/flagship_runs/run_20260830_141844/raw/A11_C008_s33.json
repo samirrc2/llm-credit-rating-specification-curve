@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows an aggressive balance sheet: negative shareholders\u2019 equity, liabilities exceeding assets, and weak near-term liquidity with a 0.62 current ratio. However, very strong operating profitability relative to revenue and substantial retained earnings suggest meaningful ongoing debt-service capacity, supporting the low end of investment grade rather than speculative grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 331,
+ "usd": 0.02349,
+ "utc": "2026-08-30T18:41:33.860909+00:00"
+}

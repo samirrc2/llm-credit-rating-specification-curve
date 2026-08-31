@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the extremely strong profitability (46% operating margin), a massive asset base with very low leverage (shareholders' equity of $414 billion versus total liabilities of $280 billion), and immense cash-generating capability, this issuer demonstrates the highest possible level of creditworthiness. The exceptional balance sheet and earnings profile are indicative of an industry-leading, highly defensive mega-cap company.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 295,
+ "out_tok": 87,
+ "usd": 0.004085,
+ "utc": "2026-08-30T18:50:40.245125+00:00"
+}

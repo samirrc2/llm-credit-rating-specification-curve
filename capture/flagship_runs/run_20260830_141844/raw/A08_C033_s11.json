@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B\", \"confidence\": 2, \"rationale\": \"Negative shareholders' equity and high total liabilities indicate substantial financial risk, though positive EBIT and a current ratio > 1 mitigate immediate default risk.\"}\n```",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 271,
+ "out_tok": 51,
+ "usd": 0.002885,
+ "utc": "2026-08-30T19:50:57.368884+00:00"
+}

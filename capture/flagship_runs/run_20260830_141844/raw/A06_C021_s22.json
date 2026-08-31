@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With an exceptional operating margin of 48% and substantial annualized net income, the issuer demonstrates very strong profitability and cash-generating ability. Despite a current ratio below 1.0, the total liabilities are well covered by a large equity base ($31.2B) and total assets ($60.8B), indicating low financial leverage and strong overall creditworthiness. \n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 277,
+ "out_tok": 82,
+ "usd": 0.003845,
+ "utc": "2026-08-30T19:16:45.110952+00:00"
+}

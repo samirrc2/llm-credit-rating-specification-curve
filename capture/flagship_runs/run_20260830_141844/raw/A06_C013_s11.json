@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a very strong balance sheet with over $113 billion in assets, $51.9 billion in equity, and significant retained earnings of $60.6 billion, indicating strong historical profitability. Furthermore, its current quarter operations demonstrate solid profitability with $1.86 billion in operating income on $11 billion in revenue, and strong liquidity (current ratio of 1.53). This massive scale, robust equity base, and consistent profitability support a high investment-grade rating.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 108,
+ "usd": 0.004645,
+ "utc": "2026-08-30T18:53:52.467431+00:00"
+}

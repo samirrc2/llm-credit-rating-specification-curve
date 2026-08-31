@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows a sizable asset base with moderate overall leverage (liabilities about 48% of assets, equity still substantial), which supports some credit strength, but liquidity is tight with a current ratio of 1.00 and accumulated retained losses are very large. Profitability is positive but modest relative to the asset base, suggesting only limited buffer against stress, so the profile fits the low end of investment grade rather than a stronger category.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 238,
+ "out_tok": 301,
+ "usd": 0.02163,
+ "utc": "2026-08-30T20:01:32.031946+00:00"
+}

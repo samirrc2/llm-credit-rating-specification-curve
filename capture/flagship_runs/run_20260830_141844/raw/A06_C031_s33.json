@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With total assets exceeding $2.2 trillion and quarterly net income of $5.3 billion, the issuer demonstrates the massive scale and solid profitability characteristic of a Global Systemically Important Bank (GSIB). While the low current ratio is typical for the banking sector due to short-term deposit liabilities, the substantial equity base and strong earnings capacity support a strong investment-grade rating.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 291,
+ "out_tok": 82,
+ "usd": 0.003915,
+ "utc": "2026-08-30T19:44:11.237222+00:00"
+}

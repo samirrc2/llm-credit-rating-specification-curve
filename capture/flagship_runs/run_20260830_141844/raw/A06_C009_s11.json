@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company exhibits exceptional profitability with an operating margin of 56% and maintains a very strong balance sheet characterized by high liquidity (current ratio of 2.29) and conservative leverage (liabilities are less than equity). These robust financial metrics, combined with substantial scale and asset base, strongly support a high investment-grade profile.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 277,
+ "out_tok": 74,
+ "usd": 0.003605,
+ "utc": "2026-08-30T18:42:55.434106+00:00"
+}

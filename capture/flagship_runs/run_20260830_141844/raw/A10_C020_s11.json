@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company possesses a massive asset base and strong equity cushion, indicating significant scale and market presence. However, the high total liabilities and a current ratio below 1.0x suggest substantial debt burdens and potential near-term liquidity tightness. Despite healthy gross margins, the operating margin and overall leverage profile align with a solid but lower-tier investment-grade rating.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 291,
+ "out_tok": 77,
+ "usd": 0.003765,
+ "utc": "2026-08-30T19:14:50.967412+00:00"
+}

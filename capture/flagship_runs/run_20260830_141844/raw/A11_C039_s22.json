@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is very highly leveraged, with liabilities equal to about 93% of assets and equity covering only a small portion of the capital structure; liquidity is also weak with a current ratio below 1.0. While the company remains profitable and has substantial accumulated retained earnings, the very thin asset coverage and modest earnings relative to the balance sheet point to meaningful credit risk consistent with the high end of speculative grade.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 250,
+ "out_tok": 526,
+ "usd": 0.03531,
+ "utc": "2026-08-30T20:09:32.394272+00:00"
+}

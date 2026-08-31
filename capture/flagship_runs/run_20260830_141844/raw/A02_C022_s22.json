@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a substantial asset base ($71.5B) and solid equity cushion ($25.8B), paired with consistent profitability and a massive amount of retained earnings indicating a long history of positive operations. However, the low current ratio (0.59) and moderate-to-high overall leverage (liabilities at 64% of assets) constrain the rating to the middle investment-grade tier.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 282,
+ "out_tok": 91,
+ "usd": 0.00414,
+ "utc": "2026-08-30T19:18:38.605479+00:00"
+}

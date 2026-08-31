@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Moderate liquidity (current ratio 1.27) and solid earnings generation (EBIT about 29.8% of revenue) support credit quality, but leverage is heavy: liabilities are about 81% of assets and roughly 4.2x equity, which constrains the profile. Overall, the balance of adequate operating strength and elevated leverage fits the low end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 362,
+ "usd": 0.025215,
+ "utc": "2026-08-30T19:30:51.830254+00:00"
+}

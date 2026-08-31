@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have a solid investment-grade balance sheet: assets materially exceed liabilities, equity is sizable, and retained earnings are very strong, indicating long-term earnings accumulation. However, liquidity is only modest with a current ratio just above 1x, and leverage is meaningful enough to keep the profile out of the higher rating tiers despite healthy operating profitability.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 440,
+ "usd": 0.03003,
+ "utc": "2026-08-30T18:38:14.546847+00:00"
+}

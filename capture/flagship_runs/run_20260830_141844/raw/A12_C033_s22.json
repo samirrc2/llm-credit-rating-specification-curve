@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage with negative shareholders' equity and liabilities exceeding assets, though operating income remains positive. Indicates significant financial risk.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 279,
+ "out_tok": 47,
+ "usd": 0.002805,
+ "utc": "2026-08-30T19:52:08.268551+00:00"
+}

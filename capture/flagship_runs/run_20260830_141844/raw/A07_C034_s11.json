@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows meaningful credit weakness: liquidity is poor with a 0.53 current ratio and current liabilities far exceeding current assets, while retained earnings are deeply negative, pointing to a history of cumulative losses or heavy distributions. Still, positive EBIT of 1,307M and positive shareholders\u2019 equity of 12,807M indicate it is not in immediate distress, supporting a speculative-grade but not deeply distressed assessment.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 219,
+ "usd": 0.016635,
+ "utc": "2026-08-30T19:53:41.499377+00:00"
+}

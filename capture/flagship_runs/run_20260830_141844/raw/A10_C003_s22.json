@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company exhibits a very strong balance sheet with a massive asset base ($122.5 billion) and moderate leverage, as total liabilities are less than half of total assets. Consistent and substantial profitability is evident from the large retained earnings ($68.5 billion) and healthy operating margins (18%), indicating a highly stable, investment-grade financial profile. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 289,
+ "out_tok": 80,
+ "usd": 0.003845,
+ "utc": "2026-08-30T18:26:37.269834+00:00"
+}

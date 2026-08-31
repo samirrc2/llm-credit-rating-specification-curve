@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AAA\",\"confidence\":5,\"rationale\":\"Exceptional scale, 46% operating margin, very strong earnings, large equity base, solid liquidity, and historically fortress-like balance sheet support the highest rating.\"}",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 145,
+ "usd": 0.012675,
+ "utc": "2026-08-30T18:52:03.631455+00:00"
+}

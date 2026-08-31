@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Profitable with meaningful scale, but negative equity, liabilities exceeding assets, negative retained earnings, and sub-1.0 current ratio indicate elevated leverage and refinancing risk.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 231,
+ "usd": 0.017775,
+ "utc": "2026-08-30T20:17:47.903174+00:00"
+}

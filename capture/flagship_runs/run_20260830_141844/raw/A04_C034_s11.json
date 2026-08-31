@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High leverage and weak liquidity, but strong EBIT margins and substantial asset base suggest a stable capital-intensive business, likely supporting a lower investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 277,
+ "out_tok": 55,
+ "usd": 0.003035,
+ "utc": "2026-08-30T19:53:03.743860+00:00"
+}

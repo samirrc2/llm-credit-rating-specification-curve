@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows adequate near-term liquidity (current ratio 1.30) and a solid equity base, with retained earnings and shareholders\u2019 equity both substantial relative to assets. However, profitability is thin\u2014EBIT is only about 4.4% of revenue and roughly 2.0% of assets\u2014while total liabilities remain meaningful, which points to only moderate credit strength rather than a strong upper-tier profile.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 407,
+ "usd": 0.02802,
+ "utc": "2026-08-30T18:56:03.492684+00:00"
+}

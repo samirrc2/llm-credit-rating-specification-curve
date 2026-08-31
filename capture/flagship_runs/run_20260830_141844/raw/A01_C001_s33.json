@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":3,\"rationale\":\"Large scale, solid 14% operating margin, positive earnings, moderate balance-sheet leverage, and adequate liquidity support low default risk, though debt/cash-flow detail limits higher certainty.\"}",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 223,
+ "usd": 0.017325,
+ "utc": "2026-08-30T18:18:55.323644+00:00"
+}

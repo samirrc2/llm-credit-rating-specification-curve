@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company has a very large asset base ($48.8 billion) and moderate leverage with equity representing nearly half of total assets, which provides a strong cushion for creditors. While the negative gross margin and retained earnings are somewhat unusual, the positive operating margin (17%) and net income suggest a capital-intensive business model, likely a REIT or infrastructure firm where depreciation heavily impacts gross profitability but cash flow generation remains stable. The scale, moderate leverage, and adequate liquidity (current ratio of 1.00) support a solid investment-grade rating, though the relatively low return on assets constrains it from higher tiers.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 131,
+ "usd": 0.005325,
+ "utc": "2026-08-30T20:03:10.132693+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits substantial scale with over $25 billion in revenue and significant asset base, supporting a solid market position. However, profitability margins are relatively thin (4% operating margin) and the current ratio is slightly below 1.0x, indicating moderate liquidity and high leverage (total liabilities to assets of 74%), which constrains the rating to the lower-to-mid investment grade spectrum.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 88,
+ "usd": 0.00401,
+ "utc": "2026-08-30T20:19:49.783847+00:00"
+}

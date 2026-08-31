@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This issuer demonstrates strong scale with over $34 billion in revenue and a solid asset base of $73.6 billion. Its leverage is well-managed, as evidenced by total liabilities of $43.4 billion against $29.1 billion in equity, and liquidity is adequate with a current ratio of 1.30. The combination of strong net income ($2.9 billion) and moderate financial leverage supports a solid investment-grade rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 100,
+ "usd": 0.00439,
+ "utc": "2026-08-30T18:56:32.815173+00:00"
+}

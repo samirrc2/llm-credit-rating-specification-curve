@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates exceptional financial strength, characterized by massive scale (quarterly revenue of $181.5B), highly robust profitability ($30.2B net income), and a formidable balance sheet with $441.9B in shareholders' equity. The substantial liquidity, enormous retained earnings, and low leverage relative to equity position the company at the highest echelons of credit quality.\n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 289,
+ "out_tok": 86,
+ "usd": 0.004025,
+ "utc": "2026-08-30T19:35:52.039311+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High total liabilities relative to revenue and EBIT, combined with weak liquidity and negative retained earnings, indicate a highly leveraged profile warranting a speculative-grade rating.\"}\n```",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 277,
+ "out_tok": 54,
+ "usd": 0.003005,
+ "utc": "2026-08-30T19:53:14.221256+00:00"
+}

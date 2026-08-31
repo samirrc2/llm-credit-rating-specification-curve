@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":4,\"rationale\":\"Exceptional margins, strong liquidity, modest leverage, and large retained earnings support high investment-grade quality; lower net income versus operating profit tempers rating below AA.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 251,
+ "usd": 0.018975,
+ "utc": "2026-08-30T18:44:44.920963+00:00"
+}

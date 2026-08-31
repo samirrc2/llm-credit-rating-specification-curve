@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a very strong balance sheet with substantial shareholders' equity ($51.07B) relative to total liabilities ($28.82B), resulting in low leverage. Furthermore, its high gross margins (58%), robust operating profitability (19%), and healthy liquidity (current ratio of 1.52) indicate significant capacity to meet financial obligations, supporting a strong investment-grade profile.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 282,
+ "out_tok": 90,
+ "usd": 0.00411,
+ "utc": "2026-08-30T18:33:37.141141+00:00"
+}

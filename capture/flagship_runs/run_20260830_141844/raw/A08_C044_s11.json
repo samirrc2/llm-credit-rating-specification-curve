@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC+\", \"confidence\": 4, \"rationale\": \"Negative shareholders' equity, a critically low current ratio of 0.27, and massive liabilities relative to revenue indicate severe financial distress and high default risk.\"}\n```",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 267,
+ "out_tok": 55,
+ "usd": 0.002985,
+ "utc": "2026-08-30T20:22:37.109094+00:00"
+}

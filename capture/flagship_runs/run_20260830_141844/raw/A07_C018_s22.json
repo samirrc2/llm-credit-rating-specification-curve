@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is only modestly adequate (current ratio 1.18), but the balance sheet is extremely leveraged, with liabilities consuming almost all assets and equity just 3.6% of assets. Combined with very weak operating profitability (EBIT of 446M on 22,217M of revenue), this points to a highly vulnerable credit profile more consistent with the lower speculative-grade range.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 425,
+ "usd": 0.028965,
+ "utc": "2026-08-30T19:08:23.280476+00:00"
+}

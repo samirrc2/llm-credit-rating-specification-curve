@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Very large retained earnings, strong capitalization (equity about 48% of assets), and positive operating profitability support a high-grade profile, while liquidity is adequate rather than exceptional with a 1.18 current ratio. The balance sheet looks stronger than a typical single-A issuer, but the modest current coverage and only moderate asset turnover argue against the very top AAA tier.\n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 464,
+ "usd": 0.031335,
+ "utc": "2026-08-30T19:36:15.287883+00:00"
+}

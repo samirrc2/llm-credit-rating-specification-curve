@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Severe distress indicated by negative equity, massive retained deficit, extremely poor liquidity (current ratio 0.27), and high leverage.\"}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 275,
+ "out_tok": 50,
+ "usd": 0.002875,
+ "utc": "2026-08-30T20:23:32.405577+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company operates at a massive scale with over $22 billion in quarterly revenue and $164 billion in assets, which supports its credit profile. However, its extremely high leverage (equity-to-assets ratio of 3.6%) and thin profitability, including a net loss for the quarter, constrain the rating to the lower end of investment grade or high-yield territory.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 84,
+ "usd": 0.0039,
+ "utc": "2026-08-30T19:08:06.053401+00:00"
+}

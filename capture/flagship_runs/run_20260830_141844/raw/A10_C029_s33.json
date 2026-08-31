@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates solid profitability with a 15% operating margin and strong annualized net income, supported by a healthy equity base of $10 billion relative to $25 billion in total assets. However, the current ratio of 0.99 indicates slightly tight near-term liquidity, and overall leverage (liabilities-to-assets at 60%) is moderate, which constrains the rating from reaching the 'A' tier. These metrics are characteristic of a mid-tier investment-grade profile.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 109,
+ "usd": 0.004675,
+ "utc": "2026-08-30T19:39:34.741513+00:00"
+}

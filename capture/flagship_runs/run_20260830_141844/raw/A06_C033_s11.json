@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This issuer generates massive quarterly revenue ($23.1 billion) and strong net income ($1.6 billion), reflecting excellent operational scale and cash flow generation. However, the negative shareholders' equity (-$9.3 billion) and highly leveraged balance sheet constrain the rating from the highest tiers, typical of large companies that conduct significant share buybacks or have restructuring histories.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 277,
+ "out_tok": 80,
+ "usd": 0.003785,
+ "utc": "2026-08-30T19:50:28.471884+00:00"
+}

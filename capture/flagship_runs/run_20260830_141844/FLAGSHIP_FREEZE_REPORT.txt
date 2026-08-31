@@ -1,0 +1,12 @@
+# Flagship tier sub-run — freeze report
+
+- run folder      : run_20260830_141844
+- cells on disk   : 1620 / 1620 expected
+- ok (parsed)     : 1620
+- empty/failed    : 0
+- unreadable      : 0
+- ok by provider  : {'openai': 810, 'google': 810}
+- IG/HY dist (ok) : {'IG': 1294, 'HY': 326}
+- combined SHA-256: d0084f9c7f3a4a6d2d8ffd8c72ea0936bac752647e0bc1e7dc3ce6370bac1e94
+
+Frozen. Downstream tier analysis reads this corpus; do not modify after this point.

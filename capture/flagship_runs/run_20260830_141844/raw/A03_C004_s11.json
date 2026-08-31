@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet looks solid, with strong liquidity (current ratio 2.04) and moderate leverage (liabilities well below assets, equity larger than liabilities), which supports investment-grade credit quality. However, operating profitability is quite thin relative to the asset base and revenue, which limits the rating from the higher categories.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 238,
+ "out_tok": 342,
+ "usd": 0.02409,
+ "utc": "2026-08-30T18:27:47.888814+00:00"
+}

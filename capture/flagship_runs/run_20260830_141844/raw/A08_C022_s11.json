@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High total assets and moderate equity, but very weak liquidity (0.59) and low profitability (EBIT margin 9.3%) suggest a lower investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 271,
+ "out_tok": 61,
+ "usd": 0.003185,
+ "utc": "2026-08-30T19:19:52.028132+00:00"
+}

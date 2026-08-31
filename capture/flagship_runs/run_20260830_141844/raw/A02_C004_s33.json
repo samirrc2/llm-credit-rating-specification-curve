@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a massive asset base ($143.7 billion) and very strong capitalization with low leverage (total liabilities of $58.9 billion against $84.1 billion in equity). Furthermore, liquidity is robust with a current ratio of 2.04, though the relatively thin operating margins (4%) slightly constrain profitability relative to its size, placing it comfortably in the upper-tier investment grade.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 283,
+ "out_tok": 92,
+ "usd": 0.004175,
+ "utc": "2026-08-30T18:27:43.613120+00:00"
+}

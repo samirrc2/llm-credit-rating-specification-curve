@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows meaningful leverage and weak near-term liquidity: current assets are slightly below current liabilities, and total liabilities are about 60% of assets. While the company has positive equity, sizable retained earnings, and positive EBIT, operating income is modest relative to the liability base, which supports only a borderline speculative-grade profile.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 326,
+ "usd": 0.02316,
+ "utc": "2026-08-30T19:39:46.745253+00:00"
+}

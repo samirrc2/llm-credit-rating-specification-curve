@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company generates significant revenue and maintains positive profitability (operating margin of 8% and positive net income), indicating strong operational cash flow generation. However, the deeply negative shareholders' equity, large total liabilities relative to assets, and a current ratio below 1.0 reflect an aggressive capital structure likely driven by heavy share repurchases or historical leveraged events, constraining the rating to the lower end of investment grade.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 88,
+ "usd": 0.00404,
+ "utc": "2026-08-30T20:18:11.273947+00:00"
+}

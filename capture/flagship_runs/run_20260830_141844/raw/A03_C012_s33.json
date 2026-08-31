@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a very strong balance sheet, with equity funding about 60% of assets, moderate leverage, a solid current ratio near 1.3x, and exceptionally strong operating profitability (EBIT of about 46% of revenue). These metrics are consistent with a high-grade, low-credit-risk profile, though without more detail on debt structure and cash flow coverage I would stop short of the very top tier.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 338,
+ "usd": 0.02388,
+ "utc": "2026-08-30T18:50:56.528049+00:00"
+}

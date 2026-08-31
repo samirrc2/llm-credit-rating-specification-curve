@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very weak liquidity (current ratio 0.35; working capital deeply negative) and high balance-sheet leverage (liabilities are about 89% of assets, with only modest equity cushion). While retained earnings are solid and EBIT is positive, the combination of thin capitalization and weak near-term liquidity points to meaningful credit risk more consistent with speculative grade than investment grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 325,
+ "usd": 0.02313,
+ "utc": "2026-08-30T19:48:43.981701+00:00"
+}

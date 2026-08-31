@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits exceptional financial scale and profitability, with over $82 billion in revenue, a 46% operating margin, and nearly $32 billion in net income for the period. Its balance sheet is fortress-like, featuring $414 billion in shareholders' equity against manageable liabilities and massive retained earnings, indicating virtually zero default risk and the highest possible credit quality.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 295,
+ "out_tok": 82,
+ "usd": 0.003935,
+ "utc": "2026-08-30T18:50:45.251606+00:00"
+}

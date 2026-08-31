@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows very high leverage (liabilities are about 92% of assets, with equity/assets near 8%) and weak short-term liquidity on a non-financial reading (current ratio 0.34), which constrains credit quality. Still, the issuer remains profitable with positive EBIT and substantial retained earnings, supporting a lower-investment-grade assessment rather than a speculative-grade one.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 239,
+ "out_tok": 307,
+ "usd": 0.022005,
+ "utc": "2026-08-30T19:44:14.817826+00:00"
+}

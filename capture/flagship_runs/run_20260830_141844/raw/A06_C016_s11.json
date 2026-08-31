@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates massive scale with an annualized revenue run-rate approaching $80 billion and strong profitability, evidenced by a 55% gross margin and 17% operating margin. However, the balance sheet reflects significant leverage (liabilities are ~80% of total assets) and a weak liquidity profile with a current ratio of 0.90. This combination of robust earnings power offset by high financial leverage typically aligns with a mid-to-lower investment-grade profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 105,
+ "usd": 0.00455,
+ "utc": "2026-08-30T19:02:04.905757+00:00"
+}

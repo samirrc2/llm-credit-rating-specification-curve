@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage, poor liquidity (current ratio 0.63), and negative retained earnings offset by strong operating margins, typical of a speculative-grade asset-heavy business.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 275,
+ "out_tok": 58,
+ "usd": 0.003115,
+ "utc": "2026-08-30T20:04:54.151469+00:00"
+}

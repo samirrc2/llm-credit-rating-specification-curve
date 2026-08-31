@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows exceptionally strong liquidity (current ratio 12.41) and positive retained earnings, but leverage is very high: liabilities are about 90% of assets and equity is only about 10% of the asset base. Earnings are positive but modest relative to total assets and liabilities, which supports only a low-end investment-grade assessment.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 407,
+ "usd": 0.027915,
+ "utc": "2026-08-30T18:23:05.730912+00:00"
+}

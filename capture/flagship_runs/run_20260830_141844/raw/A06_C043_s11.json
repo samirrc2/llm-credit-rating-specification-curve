@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With nearly $100 billion in annualized revenue and consistent profitability, this issuer possesses massive scale and solid market positioning. While the operating margin is relatively thin and the current ratio is slightly below 1.0x, typical for large retailers, the substantial retained earnings and manageable leverage support a strong investment-grade profile.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 69,
+ "usd": 0.00344,
+ "utc": "2026-08-30T20:19:40.260632+00:00"
+}

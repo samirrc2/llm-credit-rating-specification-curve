@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows positive operating profitability and very large accumulated retained earnings, which support credit quality, but the balance sheet is meaningfully leveraged (liabilities at about 81% of assets) and liquidity is somewhat weak with a current ratio below 1.0. Overall, that mix looks consistent with the lower end of investment grade rather than a stronger A-category profile.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 441,
+ "usd": 0.029955,
+ "utc": "2026-08-30T19:02:23.147228+00:00"
+}

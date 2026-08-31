@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows meaningful leverage and weak short-term liquidity (current ratio 0.53), while operating profitability relative to the very large asset base is modest, which constrains financial flexibility. Still, the company has substantial equity and accumulated retained earnings, supporting a speculative-grade but near-investment-grade profile.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 381,
+ "usd": 0.02646,
+ "utc": "2026-08-30T20:24:15.161820+00:00"
+}

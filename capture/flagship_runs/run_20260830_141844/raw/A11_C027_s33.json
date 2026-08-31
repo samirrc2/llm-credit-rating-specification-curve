@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows only modest liquidity, fairly high balance-sheet leverage, and weak operating earnings relative to its asset base, which constrains credit quality. Still, positive EBIT, meaningful retained earnings, and a solid equity cushion argue against the deepest speculative categories.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 400,
+ "usd": 0.0276,
+ "utc": "2026-08-30T19:34:22.243983+00:00"
+}

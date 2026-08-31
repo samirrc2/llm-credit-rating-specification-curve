@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is highly leveraged, with liabilities equal to about 91% of assets and a very weak current ratio of 0.42, while earnings are modest relative to the asset base. Positive retained earnings and positive EBIT support some underlying franchise strength, but on these figures alone the issuer appears more speculative than investment-grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 250,
+ "out_tok": 507,
+ "usd": 0.03417,
+ "utc": "2026-08-30T19:57:46.954233+00:00"
+}

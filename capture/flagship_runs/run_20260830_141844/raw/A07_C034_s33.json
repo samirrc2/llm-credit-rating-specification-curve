@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Very weak liquidity (current ratio 0.53), large negative retained earnings, and high leverage versus equity point to a strained balance sheet and elevated refinancing risk. While the company remains profitable at the EBIT level and still has positive equity, the overall credit profile looks clearly speculative rather than investment grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 358,
+ "usd": 0.024975,
+ "utc": "2026-08-30T19:53:50.098785+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows only marginal liquidity (current ratio 0.97), fairly high leverage (liabilities are about 74% of assets), and thin operating profitability (EBIT margin about 3.8%), which together point to meaningful but not extreme credit risk. Positive retained earnings and positive equity support a still-viable profile, but the weak coverage implied by low EBIT keeps the issuer in speculative-grade territory.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 425,
+ "usd": 0.028965,
+ "utc": "2026-08-30T20:19:54.699136+00:00"
+}

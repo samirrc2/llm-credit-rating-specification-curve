@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have a very strong balance sheet, with low leverage relative to assets, substantial equity and retained earnings, and solid liquidity via a near-2x current ratio. Profitability is also exceptionally strong given EBIT of 2,489M on 5,638M of revenue, though the company\u2019s moderate revenue scale and lack of cash flow/debt-service detail argue against the very highest categories.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 284,
+ "usd": 0.02067,
+ "utc": "2026-08-30T18:47:05.133971+00:00"
+}

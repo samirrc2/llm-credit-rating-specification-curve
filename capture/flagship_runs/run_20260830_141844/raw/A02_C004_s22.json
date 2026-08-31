@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a very strong balance sheet with substantial total assets ($143B), a low debt-to-equity profile (liabilities of $58.9B vs. equity of $84.1B), and excellent liquidity (current ratio of 2.04). While operating margins are relatively thin at 4%, the massive scale of operations and robust retained earnings provide significant financial flexibility, supporting a solid investment-grade rating.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 283,
+ "out_tok": 98,
+ "usd": 0.004355,
+ "utc": "2026-08-30T18:27:38.324741+00:00"
+}

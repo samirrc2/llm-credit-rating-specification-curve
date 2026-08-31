@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company possesses a massive asset base ($404 billion) and substantial shareholders' equity ($104 billion), indicating strong scale and systemic importance. While profitability is robust with an 80% gross margin and solid net income, the high proportion of total liabilities and a current ratio below 1.0 suggest moderate leverage and liquidity constraints, pointing to a mid-to-lower investment-grade profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 290,
+ "out_tok": 89,
+ "usd": 0.00412,
+ "utc": "2026-08-30T19:12:51.881482+00:00"
+}

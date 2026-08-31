@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability and a substantial revenue base, with a 15% operating margin and an annualized net income of over $1.7 billion. Leverage is moderate, as total liabilities represent about 60% of total assets, though liquidity is slightly tight with a current ratio of 0.99. These metrics point to a solid investment-grade profile, albeit constrained by the lower liquidity position.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 89,
+ "usd": 0.004035,
+ "utc": "2026-08-30T19:38:49.367291+00:00"
+}

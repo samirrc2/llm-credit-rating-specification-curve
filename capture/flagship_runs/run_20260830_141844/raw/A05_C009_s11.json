@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA-\",\"confidence\":3,\"rationale\":\"Exceptional profitability, strong liquidity, and moderate leverage support high-grade credit quality; limited debt/cash-flow detail and single-period view temper rating from higher tiers.\"}",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 256,
+ "out_tok": 251,
+ "usd": 0.0189,
+ "utc": "2026-08-30T18:42:45.789671+00:00"
+}

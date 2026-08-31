@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":3,\"rationale\":\"Strong profitability and solid equity base support investment grade; near-1.0 current ratio and limited debt-detail temper rating versus higher-rated issuers.\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 259,
+ "out_tok": 252,
+ "usd": 0.019005,
+ "utc": "2026-08-30T19:37:43.121552+00:00"
+}

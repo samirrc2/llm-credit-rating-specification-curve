@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High leverage with total liabilities at 74% of assets, low current ratio (0.53), and significant negative retained earnings, despite strong EBIT margins.\"}\n```",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 56,
+ "usd": 0.00303,
+ "utc": "2026-08-30T19:54:02.387803+00:00"
+}

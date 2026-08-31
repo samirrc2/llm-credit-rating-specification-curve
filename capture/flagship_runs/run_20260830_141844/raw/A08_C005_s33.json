@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"High operating margin and massive scale support an investment grade rating, though offset by high leverage with total liabilities near 79% of assets.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 51,
+ "usd": 0.0029,
+ "utc": "2026-08-30T18:32:01.088576+00:00"
+}

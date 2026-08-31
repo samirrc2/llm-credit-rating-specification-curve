@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows only modest liquidity (current ratio 1.18) and fairly high leverage (liabilities are about 65% of assets, with equity covering just over half of liabilities), while EBIT is positive but small relative to the asset base. Positive retained earnings and a solid operating margin help, but overall the profile looks more consistent with a speculative-grade issuer than an investment-grade one.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 395,
+ "usd": 0.0273,
+ "utc": "2026-08-30T19:34:14.346721+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High leverage with massive liabilities and a low current ratio indicate financial risk, offset by a substantial asset base and strong operating margins.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 48,
+ "usd": 0.00282,
+ "utc": "2026-08-30T19:47:47.077334+00:00"
+}

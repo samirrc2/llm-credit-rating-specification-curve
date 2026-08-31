@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"High total assets and steady EBIT suggest an asset-heavy industry like utilities. Low current ratio and moderate leverage align with investment-grade BBB+.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 52,
+ "usd": 0.002955,
+ "utc": "2026-08-30T20:24:36.922658+00:00"
+}

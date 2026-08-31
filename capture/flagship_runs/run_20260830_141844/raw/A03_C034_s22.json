@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid operating profitability (EBIT of 1,307M on 3,198M revenue), but its balance sheet and liquidity are weak for an investment-grade profile: current ratio is only 0.53, liabilities are heavy relative to equity, and retained earnings are deeply negative. That mix suggests a company with meaningful financial risk despite good margins, consistent with the upper end of speculative grade.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 335,
+ "usd": 0.0237,
+ "utc": "2026-08-30T19:52:54.178804+00:00"
+}

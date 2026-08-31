@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet appears strong for an investment- or asset-heavy issuer: current liquidity is solid at 1.71x, equity covers a large portion of the capital structure, and leverage is moderate with liabilities at about 52% of assets. Profitability is also robust, with EBIT of $7.5B on $18.0B of revenue, supporting an upper-medium-grade profile, though the scale of liabilities keeps it below the very highest categories.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 306,
+ "usd": 0.02196,
+ "utc": "2026-08-30T19:04:19.598088+00:00"
+}

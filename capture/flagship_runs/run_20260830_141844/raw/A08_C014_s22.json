@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Large asset base and revenue, moderate leverage, high retained earnings indicating maturity, but relatively low EBIT margin and ROA suggest a mid-investment grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 54,
+ "usd": 0.002985,
+ "utc": "2026-08-30T18:57:04.631117+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is highly leveraged, with liabilities almost equal to total assets and shareholders\u2019 equity only about 4% of assets, which is a major credit weakness. While liquidity is adequate (current ratio 1.18) and retained earnings are solidly positive, EBIT is very thin relative to revenue, suggesting limited earnings cushion to absorb shocks; overall this fits a speculative-grade but not distressed profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 307,
+ "usd": 0.02199,
+ "utc": "2026-08-30T19:07:25.167649+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company exhibits strong profitability with a 42% operating margin and solid net income, suggesting a strong market position or competitive advantage. However, its financial risk profile is highly leveraged, with total liabilities comprising 83% of total assets, negative retained earnings, and a weak current ratio of 0.63 indicating potential liquidity constraints. The combination of strong cash flow generation capabilities offset by significant leverage and liquidity risks aligns with a speculative-grade rating.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 281,
+ "out_tok": 96,
+ "usd": 0.004285,
+ "utc": "2026-08-30T20:06:21.469669+00:00"
+}

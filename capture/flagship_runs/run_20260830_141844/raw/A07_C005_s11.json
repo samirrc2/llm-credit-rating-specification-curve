@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid liquidity (current ratio 1.55) and strong operating profitability (EBIT of 8,386M on 17,601M revenue), but its balance sheet is meaningfully leveraged, with liabilities equal to about 79% of assets and equity covering only about 21% of assets. That combination supports an investment-grade assessment, but not at the high-A/AA level.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 261,
+ "usd": 0.019155,
+ "utc": "2026-08-30T18:31:38.721099+00:00"
+}

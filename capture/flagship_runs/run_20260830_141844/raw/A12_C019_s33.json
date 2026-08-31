@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage and low EBIT margin lead to a low Altman Z-score, indicating elevated financial risk typical of speculative grade ratings.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 281,
+ "out_tok": 48,
+ "usd": 0.002845,
+ "utc": "2026-08-30T19:12:29.285447+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Very strong liquidity and substantial retained earnings support credit quality, but the balance sheet is highly leveraged, with liabilities equal to about 90% of assets and equity only about 10% of assets. Positive operating income helps, yet the thin capital cushion relative to total liabilities keeps the profile in the lower investment-grade range.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 313,
+ "usd": 0.022275,
+ "utc": "2026-08-30T18:22:54.959155+00:00"
+}

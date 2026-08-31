@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company benefits from its large scale, generating nearly $24.5 billion in revenue and solid profitability with an 11% operating margin and over $1.7 billion in net income. However, its highly leveraged capital structure\u2014with total liabilities representing nearly 78% of total assets\u2014and modest current ratio of 1.22 constrain the rating to the lower-to-mid investment-grade tier.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 286,
+ "out_tok": 91,
+ "usd": 0.00416,
+ "utc": "2026-08-30T19:10:07.543379+00:00"
+}

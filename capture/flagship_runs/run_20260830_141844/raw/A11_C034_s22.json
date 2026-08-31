@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears highly leveraged and weakly liquid, with current assets covering only about half of current liabilities and cumulative retained earnings deeply negative. While it remains EBIT-positive and has a meaningful equity base, the balance-sheet risk and thin liquidity are more consistent with a speculative-grade profile rather than investment grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 288,
+ "usd": 0.02091,
+ "utc": "2026-08-30T19:54:40.142107+00:00"
+}

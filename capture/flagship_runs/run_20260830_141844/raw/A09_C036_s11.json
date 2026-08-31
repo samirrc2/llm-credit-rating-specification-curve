@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":2,\"rationale\":\"Strong profitability and sizable equity support investment grade, but sub-1.0 current ratio and sizable liabilities constrain rating above mid-BBB.\"}",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 261,
+ "out_tok": 397,
+ "usd": 0.027735,
+ "utc": "2026-08-30T19:59:51.780653+00:00"
+}

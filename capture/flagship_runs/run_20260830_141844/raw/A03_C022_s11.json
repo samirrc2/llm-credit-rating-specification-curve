@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have moderate balance-sheet leverage (liabilities of about 64% of assets) and a meaningful equity base, but liquidity is weak with a current ratio of 0.59 and operating profitability is only modest relative to its large liability load. The large retained earnings balance supports some resilience, yet the combination of thin near-term liquidity and only moderate earnings coverage is more consistent with the low end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 238,
+ "out_tok": 287,
+ "usd": 0.02079,
+ "utc": "2026-08-30T19:18:47.550110+00:00"
+}

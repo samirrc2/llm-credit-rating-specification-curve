@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very strong credit fundamentals: low balance-sheet leverage for its size (equity is about 48% of assets), ample retained earnings, solid liquidity, and healthy operating profitability. Those metrics support a high-grade profile, though not quite the absolute top tier given the still-large liability base and only moderate current ratio.\n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 345,
+ "usd": 0.02433,
+ "utc": "2026-08-30T19:37:15.026855+00:00"
+}

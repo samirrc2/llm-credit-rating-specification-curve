@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows only modest liquidity (current ratio 1.18) and a reasonable equity base (~35% of assets), but operating income is very small relative to its large liability load, implying weak debt-servicing capacity from operations. Positive retained earnings support some stability, yet the balance sheet and earnings profile look more consistent with a speculative-grade credit than investment grade.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 434,
+ "usd": 0.029505,
+ "utc": "2026-08-30T19:33:34.660247+00:00"
+}

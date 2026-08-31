@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates significant scale and asset base with solid profitability, reflecting strong gross (53%) and operating margins (19%). However, the capital structure is relatively leveraged with total liabilities substantially exceeding equity, and liquidity is somewhat tight as indicated by a current ratio below 1.0x. These characteristics are typical of a stable, capital-intensive business, supporting a mid-investment-grade rating.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 86,
+ "usd": 0.003975,
+ "utc": "2026-08-30T20:00:15.230894+00:00"
+}

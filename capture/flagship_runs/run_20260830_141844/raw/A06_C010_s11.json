@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates robust profitability with gross margins of 78% and operating margins of 44%, alongside a strong balance sheet featuring $51.8 billion in total assets against just $22 billion in liabilities. The healthy current ratio of 1.92 and substantial retained earnings of $29.8 billion further underscore its excellent liquidity and financial stability, supporting a solid investment-grade rating.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 89,
+ "usd": 0.00404,
+ "utc": "2026-08-30T18:45:38.576009+00:00"
+}

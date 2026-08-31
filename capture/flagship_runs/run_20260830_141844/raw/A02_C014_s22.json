@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates significant scale and a solid balance sheet, with substantial retained earnings and moderate leverage (total liabilities to equity around 1.5x). Although its gross and operating margins are low, indicative of a high-volume industry, its strong net income and healthy current ratio (1.30) support an investment-grade profile. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 285,
+ "out_tok": 75,
+ "usd": 0.003675,
+ "utc": "2026-08-30T18:55:48.372388+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company generates substantial revenue and positive net income, demonstrating solid operating profitability despite a significant accumulated deficit and negative shareholders' equity. However, the high total liabilities and a current ratio below 1.0 indicate substantial leverage and liquidity constraints, placing it in the lower investment-grade or upper non-investment-grade tier. \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 71,
+ "usd": 0.003525,
+ "utc": "2026-08-30T20:16:27.848015+00:00"
+}

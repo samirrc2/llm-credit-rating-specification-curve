@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA-\",\"confidence\":4,\"rationale\":\"Exceptional liquidity, very strong profitability, and large asset base support high investment grade; sizable liabilities and moderate equity cushion temper rating below AA.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 559,
+ "usd": 0.037485,
+ "utc": "2026-08-30T18:21:26.809702+00:00"
+}

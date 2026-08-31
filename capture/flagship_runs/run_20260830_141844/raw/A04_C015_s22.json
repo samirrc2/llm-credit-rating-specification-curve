@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High total liabilities and low ROA offset by massive scale, substantial retained earnings, and adequate liquidity, suggesting investment-grade stability.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 49,
+ "usd": 0.00287,
+ "utc": "2026-08-30T18:58:57.679266+00:00"
+}

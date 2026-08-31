@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits exceptionally strong profitability with an operating margin of 48% and a gross margin of 70%, indicating a strong competitive position and pricing power. While the current ratio is below 1.0, the overall leverage is highly manageable with total assets more than double total liabilities and robust retained earnings, supporting a solid investment-grade profile. \n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 78,
+ "usd": 0.00376,
+ "utc": "2026-08-30T19:15:56.662833+00:00"
+}

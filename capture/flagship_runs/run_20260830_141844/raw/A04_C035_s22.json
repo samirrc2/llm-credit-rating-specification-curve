@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Massive total assets and high leverage suggest a large financial institution. Low ROA and current ratio are typical for banks; solid equity supports investment grade.\"}\n```",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 295,
+ "out_tok": 54,
+ "usd": 0.003095,
+ "utc": "2026-08-30T19:55:56.669557+00:00"
+}

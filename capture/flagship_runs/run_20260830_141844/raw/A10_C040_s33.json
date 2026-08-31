@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a very large asset base and strong operating margins, which support its ability to generate consistent cash flows and net income. However, the high total leverage (liabilities of $139.6 billion against equity of $51.4 billion) and a weak current ratio (0.63) suggest liquidity constraints and elevated debt levels, pointing to a mid-to-lower investment grade profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 90,
+ "usd": 0.00414,
+ "utc": "2026-08-30T20:12:28.113658+00:00"
+}

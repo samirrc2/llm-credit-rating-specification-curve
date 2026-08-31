@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Massive asset base and revenue offset by extreme leverage (96% liabilities to assets) and razor-thin operating margins, suggesting investment-grade size but speculative credit metrics.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 59,
+ "usd": 0.003175,
+ "utc": "2026-08-30T19:07:31.293215+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High leverage (80% liabilities to assets), weak liquidity (current ratio 0.90), but substantial retained earnings and decent EBIT margins support a lower investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 61,
+ "usd": 0.003235,
+ "utc": "2026-08-30T19:01:49.448404+00:00"
+}

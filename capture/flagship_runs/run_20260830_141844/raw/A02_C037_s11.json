@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company features a very large asset base ($48.9B) supported by a conservative capital structure with shareholders' equity covering nearly half of total assets, indicating moderate leverage. While the negative retained earnings and modest current ratio (1.00) suggest some historical or liquidity constraints, the positive operating margins (17%) and consistent net income support solid debt-servicing capacity, aligning with an investment-grade profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 92,
+ "usd": 0.00415,
+ "utc": "2026-08-30T20:01:10.018689+00:00"
+}

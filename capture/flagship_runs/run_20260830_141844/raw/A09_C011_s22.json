@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":4,\"rationale\":\"Strong profitability, solid liquidity, moderate leverage, and large retained earnings support high investment-grade credit quality, though not enough data for AA-range certainty.\"}",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 434,
+ "usd": 0.030015,
+ "utc": "2026-08-30T18:49:19.696301+00:00"
+}

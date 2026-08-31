@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High total assets and steady operating margin, though leverage is relatively high and current ratio is below 1, indicating moderate credit risk.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 49,
+ "usd": 0.002835,
+ "utc": "2026-08-30T20:11:38.353851+00:00"
+}

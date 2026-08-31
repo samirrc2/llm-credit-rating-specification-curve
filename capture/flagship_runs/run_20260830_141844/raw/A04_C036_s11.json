@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Large asset base and substantial equity offset high leverage and low asset turnover, typical of capital-intensive sectors like REITs or utilities, supporting an investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 56,
+ "usd": 0.00305,
+ "utc": "2026-08-30T19:58:47.371420+00:00"
+}

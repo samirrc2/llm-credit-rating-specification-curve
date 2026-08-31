@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Despite massive size and positive EBIT, the company has highly negative working capital and high leverage, typical of utilities/telecoms, warranting a mid-tier rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 56,
+ "usd": 0.0031,
+ "utc": "2026-08-30T19:49:13.755968+00:00"
+}

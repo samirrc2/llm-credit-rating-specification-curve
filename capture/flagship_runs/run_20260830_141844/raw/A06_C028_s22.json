@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With nearly $1 trillion in total assets, $441.9 billion in shareholders' equity, and exceptional profitability (net income of $30.2 billion), the issuer possesses an extremely strong balance sheet and massive scale. The moderate leverage and strong liquidity further support a very high investment-grade rating.\n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 289,
+ "out_tok": 68,
+ "usd": 0.003485,
+ "utc": "2026-08-30T19:35:56.703581+00:00"
+}

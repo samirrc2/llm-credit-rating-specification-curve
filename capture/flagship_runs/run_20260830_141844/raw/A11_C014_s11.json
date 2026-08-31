@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows adequate near-term liquidity and a meaningful equity base, but leverage is still fairly high relative to earnings capacity, and operating profitability is thin for its size. On balance, these metrics look more consistent with the low end of investment grade, with limited cushion against cyclical or operating stress.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 344,
+ "usd": 0.02427,
+ "utc": "2026-08-30T18:57:41.116455+00:00"
+}

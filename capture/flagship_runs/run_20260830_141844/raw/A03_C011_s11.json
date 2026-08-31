@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet looks solid for a mid-investment-grade issuer: liquidity is adequate with a 1.39 current ratio, and capitalization is conservative with equity covering roughly 47% of assets and nearly 90% of total liabilities. However, operating earnings are only moderate relative to the very large asset base and liability load, which tempers the rating despite strong retained earnings and a healthy EBIT margin.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 455,
+ "usd": 0.0309,
+ "utc": "2026-08-30T18:47:53.625367+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a sizeable equity base and accumulated retained earnings, which support balance-sheet stability, but leverage is fairly high with liabilities at about 73% of assets and liquidity is weak given a current ratio below 1. Profitability is positive but modest relative to the large asset base, suggesting only middling capacity to absorb stress, consistent with the low end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 238,
+ "out_tok": 234,
+ "usd": 0.01761,
+ "utc": "2026-08-30T19:58:36.712139+00:00"
+}

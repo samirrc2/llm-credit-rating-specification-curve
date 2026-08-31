@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a very large asset base with strong capitalization, evidenced by over $51 billion in shareholders' equity and solid profitability margins. While the current ratio is low, this is typical for financial institutions, and the strong equity cushion and consistent net income support a solid investment-grade rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 287,
+ "out_tok": 65,
+ "usd": 0.003385,
+ "utc": "2026-08-30T20:10:27.086210+00:00"
+}

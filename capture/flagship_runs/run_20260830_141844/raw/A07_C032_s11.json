@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows extremely weak liquidity (current ratio 0.35; working capital deeply negative) and very high balance-sheet leverage (liabilities are about 89% of assets, with equity only about 11% of assets). While positive EBIT and sizable retained earnings indicate it is still operating with some franchise strength, the overall credit profile looks firmly speculative and vulnerable.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 418,
+ "usd": 0.028575,
+ "utc": "2026-08-30T19:47:26.554952+00:00"
+}

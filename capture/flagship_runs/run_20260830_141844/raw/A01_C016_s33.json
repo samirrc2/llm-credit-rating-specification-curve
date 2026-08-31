@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":4,\"rationale\":\"Strong profitability and scale support investment grade, but sub-1 current ratio and high balance-sheet leverage versus equity constrain rating to lower-mid BBB.\"}",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 161,
+ "usd": 0.013605,
+ "utc": "2026-08-30T19:01:06.599556+00:00"
+}

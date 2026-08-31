@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears financially strong, with a solid balance sheet (equity covering roughly 48% of assets), positive and sizable retained earnings, and healthy operating profitability of about 13% EBIT margin on a very large revenue base. Liquidity is only moderate with a current ratio of 1.18, but overall leverage looks manageable enough to support a high investment-grade rating rather than a top-tier AAA/AA category.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 322,
+ "usd": 0.02292,
+ "utc": "2026-08-30T19:35:14.002410+00:00"
+}

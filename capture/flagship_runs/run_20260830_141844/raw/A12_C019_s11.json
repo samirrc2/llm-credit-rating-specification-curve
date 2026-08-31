@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage (TL/TA=78%), low profitability (EBIT/TA=3.5%), and an Altman Z-score around 1.06 indicate financial distress, supporting a speculative-grade rating.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 281,
+ "out_tok": 69,
+ "usd": 0.003475,
+ "utc": "2026-08-30T19:12:16.551034+00:00"
+}

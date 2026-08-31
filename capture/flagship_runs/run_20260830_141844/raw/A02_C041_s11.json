@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a 66% gross margin and 32% operating margin, alongside a massive asset base of $204 billion and substantial equity of $54 billion. However, the high total liabilities of $139 billion and a weak current ratio of 0.55 indicate elevated leverage and potential liquidity constraints, aligning with a mid-to-lower investment-grade profile. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 92,
+ "usd": 0.0042,
+ "utc": "2026-08-30T20:13:15.014415+00:00"
+}

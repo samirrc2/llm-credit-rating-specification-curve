@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits immense scale with substantial total assets ($171B) and equity ($81B), along with exceptional profitability (42% operating margin). Its strong liquidity (current ratio of 1.71) and manageable leverage profile support a high investment-grade rating, though sector cyclicality or specific capital allocation policies may keep it slightly below the top tier.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 82,
+ "usd": 0.00386,
+ "utc": "2026-08-30T19:04:57.452515+00:00"
+}

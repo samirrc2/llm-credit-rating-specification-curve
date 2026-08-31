@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates very strong operating margins (41%) and a solid net income relative to revenue, indicating robust core profitability. However, high overall leverage (total liabilities of $43.5 billion) and a weak current ratio (0.53) highlight significant liquidity risks and a heavy debt burden, which constrains the rating to the lower end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 81,
+ "usd": 0.0038,
+ "utc": "2026-08-30T19:53:32.789171+00:00"
+}

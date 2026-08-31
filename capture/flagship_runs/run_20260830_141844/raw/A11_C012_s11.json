@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is exceptionally strong: equity funds about 60% of assets, retained earnings are very large relative to the asset base, and liquidity is adequate with a 1.28x current ratio. Profitability is also very robust, with EBIT of 38,398M on 82,886M of revenue, supporting a high-grade rating, though the lack of debt-service detail and only moderate short-term liquidity argue against the very top tier.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 451,
+ "usd": 0.03069,
+ "utc": "2026-08-30T18:52:24.796351+00:00"
+}

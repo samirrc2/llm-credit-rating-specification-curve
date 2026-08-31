@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Very strong credit metrics: liabilities are only about 40% of assets, equity is substantial at nearly 60% of assets, liquidity is adequate with a 1.28 current ratio, and operating profitability is exceptionally strong with EBIT around 46% of revenue. The balance sheet looks highly conservative, but without more explicit debt-service and cash-flow detail, a notch below the very top tier is the finest granularity justified.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 279,
+ "usd": 0.020235,
+ "utc": "2026-08-30T18:51:42.301785+00:00"
+}

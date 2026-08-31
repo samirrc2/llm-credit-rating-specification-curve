@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits extremely strong profitability, with gross margins of 73% and operating margins of 62%, generating substantial net income. The negative shareholders' equity and low current ratio are likely the result of aggressive share repurchases and efficient capital structure optimization rather than financial distress, which is common for highly cash-generative, mature businesses. This profile supports a solid investment-grade rating despite the optical balance sheet weakness.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 283,
+ "out_tok": 92,
+ "usd": 0.004175,
+ "utc": "2026-08-30T18:39:02.295744+00:00"
+}

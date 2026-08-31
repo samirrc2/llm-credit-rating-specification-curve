@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company's massive asset base ($404 billion) and substantial equity ($104 billion) indicate large-scale operations with strong market presence, supporting an investment-grade profile. However, the high total liabilities ($298 billion) relative to equity, combined with a current ratio below 1.0x, constrain the rating to the middle-to-lower investment grade tiers due to elevated leverage. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 291,
+ "out_tok": 92,
+ "usd": 0.004215,
+ "utc": "2026-08-30T19:14:59.466823+00:00"
+}

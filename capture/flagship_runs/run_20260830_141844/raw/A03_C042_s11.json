@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer\u2019s balance sheet is very weak: shareholders\u2019 equity and retained earnings are deeply negative, liabilities exceed assets by a large margin, and the current ratio below 1.0 signals tight near-term liquidity. While positive EBIT shows the business is still operating and not clearly in immediate default, the capital structure looks highly vulnerable and consistent with a very speculative credit profile.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 314,
+ "usd": 0.02241,
+ "utc": "2026-08-30T20:16:36.607099+00:00"
+}

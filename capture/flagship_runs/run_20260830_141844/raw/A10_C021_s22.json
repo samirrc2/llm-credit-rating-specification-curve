@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates exceptionally strong profitability with gross margins of 70% and operating margins of 48%, generating significant net income. Furthermore, its leverage is very conservative, as evidenced by total shareholders' equity ($31.1B) comfortably exceeding total liabilities ($24.5B), though the current ratio is somewhat low (0.68). Given the large asset base, immense earnings generation, and low debt burden, the financial profile strongly supports a high investment-grade rating.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 285,
+ "out_tok": 106,
+ "usd": 0.004605,
+ "utc": "2026-08-30T19:17:35.797919+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have a solid investment-grade profile: liquidity is adequate with a 1.34 current ratio, leverage is moderate with liabilities at about 51% of assets and equity covering a substantial portion of the balance sheet, and profitability is positive with EBIT of roughly 14% of revenue. However, the operating return on assets is only moderate and the information does not indicate the exceptionally strong cash flow protection or scale typically associated with higher A-category or AA ratings.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 278,
+ "usd": 0.02028,
+ "utc": "2026-08-30T18:19:21.603507+00:00"
+}

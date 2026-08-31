@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a 66% gross margin and 32% operating margin, generating significant net income relative to revenue. However, the balance sheet shows substantial leverage with total liabilities of nearly $140 billion and a weak current ratio of 0.55, which introduces some liquidity and solvency risks despite the massive asset base. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 79,
+ "usd": 0.003775,
+ "utc": "2026-08-30T20:14:25.910278+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Severe negative shareholders' equity, high total liabilities, and low EBIT relative to debt suggest significant financial risk and a highly speculative rating.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 275,
+ "out_tok": 50,
+ "usd": 0.002875,
+ "utc": "2026-08-30T20:16:56.232010+00:00"
+}

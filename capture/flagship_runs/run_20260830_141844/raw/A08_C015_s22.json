@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High leverage with total liabilities to assets at 78%, but strong retained earnings and a solid current ratio support an investment-grade profile.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 50,
+ "usd": 0.002865,
+ "utc": "2026-08-30T18:59:52.498712+00:00"
+}

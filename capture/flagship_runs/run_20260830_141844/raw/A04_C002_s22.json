@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"Massive balance sheet and extremely high liquidity (current ratio 12.4) offset by very high overall leverage (total liabilities/equity around 9x) and low asset turnover.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 283,
+ "out_tok": 61,
+ "usd": 0.003245,
+ "utc": "2026-08-30T18:22:15.810514+00:00"
+}

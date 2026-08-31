@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage with debt-to-equity around 3.5 and low EBIT-to-debt suggest significant financial risk, placing the rating in the speculative grade.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 273,
+ "out_tok": 56,
+ "usd": 0.003045,
+ "utc": "2026-08-30T19:11:18.111302+00:00"
+}

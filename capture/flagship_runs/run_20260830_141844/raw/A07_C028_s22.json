@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer\u2019s balance sheet looks strong for an investment-grade credit: shareholders\u2019 equity is about 48% of assets, retained earnings are very large, and liquidity is adequate with a current ratio of 1.18. However, operating income is only moderate relative to the very large asset base, so the metrics support a strong but not top-tier rating.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 413,
+ "usd": 0.028275,
+ "utc": "2026-08-30T19:36:10.119736+00:00"
+}

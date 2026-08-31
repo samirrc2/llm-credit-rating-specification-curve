@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"High liquidity with a massive current ratio, but extremely high total leverage and low asset turnover suggest a financial entity with moderate risk.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 283,
+ "out_tok": 48,
+ "usd": 0.002855,
+ "utc": "2026-08-30T18:22:10.434272+00:00"
+}

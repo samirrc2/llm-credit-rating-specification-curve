@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":3,\"rationale\":\"Exceptional margins and earnings indicate strong debt capacity; however, negative equity and weak current ratio imply meaningful leverage, tempering an otherwise stronger investment-grade profile.\"}",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 395,
+ "usd": 0.027645,
+ "utc": "2026-08-30T18:38:48.012580+00:00"
+}

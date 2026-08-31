@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High retained earnings and decent liquidity offset by significant leverage (total liabilities to assets at 78%) and moderate profitability margins.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 48,
+ "usd": 0.00284,
+ "utc": "2026-08-30T18:59:02.833490+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates robust profitability with a 72% gross margin and 30% operating margin, alongside significant scale (over $12 billion in quarterly revenue and nearly $97 billion in assets). However, the capital structure features relatively high leverage (total liabilities are over 4x shareholders' equity), which restrains the rating slightly despite adequate liquidity (current ratio of 1.27). \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 89,
+ "usd": 0.00407,
+ "utc": "2026-08-30T19:30:37.458464+00:00"
+}

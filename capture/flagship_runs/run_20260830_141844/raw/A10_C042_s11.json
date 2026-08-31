@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong revenue generation ($9.5 billion) and positive profitability with a healthy net income of $511 million and an 8% operating margin. However, the significantly negative shareholders' equity (-$8.4 billion) and a current ratio below 1.0 indicate aggressive capital returns or historical restructuring, typical of mature, cash-generative franchises that operate with high leverage, placing it firmly in the mid-to-lower investment-grade tier.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 102,
+ "usd": 0.00446,
+ "utc": "2026-08-30T20:17:58.580818+00:00"
+}

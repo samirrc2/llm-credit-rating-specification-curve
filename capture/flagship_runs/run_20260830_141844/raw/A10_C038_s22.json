@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a 71% gross margin and a 42% operating margin, indicating a highly lucrative core business with stable cash flow generation. However, the balance sheet is highly leveraged with $52.8 billion in total liabilities against only $3.6 billion in equity, alongside a weak current ratio (0.63) and significant negative retained earnings, which constrains the rating to the non-investment grade spectrum. \n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 281,
+ "out_tok": 98,
+ "usd": 0.004345,
+ "utc": "2026-08-30T20:06:15.275480+00:00"
+}

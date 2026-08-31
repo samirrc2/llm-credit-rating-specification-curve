@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability and scale, with high gross (72%) and operating (30%) margins driving substantial net income. However, total liabilities are quite high relative to total assets (approximately 80%), indicating significant leverage which constrains the rating despite adequate liquidity (current ratio of 1.27). Balancing the robust cash-generating potential against the elevated leverage profile supports a solid investment-grade rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 91,
+ "usd": 0.00413,
+ "utc": "2026-08-30T19:30:42.177472+00:00"
+}

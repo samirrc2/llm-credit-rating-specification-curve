@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is very weak: current ratio of 0.27 indicates severe near-term liquidity pressure, while negative retained earnings and negative equity show an eroded capital base with liabilities exceeding assets. Although EBIT is positive, leverage and balance-sheet impairment are consistent with a highly speculative issuer vulnerable to adverse conditions but not obviously in immediate default.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 171,
+ "usd": 0.01386,
+ "utc": "2026-08-30T20:23:20.424875+00:00"
+}

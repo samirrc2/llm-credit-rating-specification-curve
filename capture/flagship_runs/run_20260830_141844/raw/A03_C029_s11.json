@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have a moderately strong balance sheet, with equity equal to about 40% of assets and substantial retained earnings, but liquidity is tight given a current ratio just under 1. Profitability is positive but not especially strong relative to the asset base, which points to a solid but not high-grade credit profile in the lower-to-mid investment-grade range.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 238,
+ "out_tok": 191,
+ "usd": 0.01503,
+ "utc": "2026-08-30T19:38:04.882093+00:00"
+}

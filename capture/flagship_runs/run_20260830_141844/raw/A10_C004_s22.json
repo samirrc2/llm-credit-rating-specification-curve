@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a highly conservative capital structure with total liabilities well below its massive $84 billion equity base, alongside excellent liquidity indicated by a 2.04 current ratio. However, relatively thin operating margins (4%) constrain its cash flow generation relative to its massive revenue scale, placing its credit profile solidly in the lower-to-mid investment-grade tier.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 80,
+ "usd": 0.00382,
+ "utc": "2026-08-30T18:29:30.966116+00:00"
+}

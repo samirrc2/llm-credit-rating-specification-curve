@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have an exceptionally strong balance sheet, with equity covering a large share of assets, moderate overall liabilities, positive working capital, and very large retained earnings. Profitability is also strong given the high EBIT margin, supporting a very strong investment-grade profile, though the current ratio is solid rather than outstanding and the data do not show the full debt-service picture needed for a top-tier AAA call.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 291,
+ "usd": 0.02106,
+ "utc": "2026-08-30T18:50:48.745624+00:00"
+}

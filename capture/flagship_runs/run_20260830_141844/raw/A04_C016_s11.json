@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High leverage and a weak current ratio are offset by massive scale, solid operating margins, and substantial retained earnings, supporting an investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 52,
+ "usd": 0.002965,
+ "utc": "2026-08-30T19:01:40.226557+00:00"
+}

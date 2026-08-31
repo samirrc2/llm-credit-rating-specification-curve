@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates robust financial health with massive scale (implied annualized revenue over $72 billion) and strong profitability (14% operating margin). Its balance sheet is conservative, featuring a healthy current ratio of 1.34 and substantial shareholders' equity ($31.2 billion) that nearly matches total liabilities, indicating low financial risk.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 75,
+ "usd": 0.00365,
+ "utc": "2026-08-30T18:19:51.169129+00:00"
+}

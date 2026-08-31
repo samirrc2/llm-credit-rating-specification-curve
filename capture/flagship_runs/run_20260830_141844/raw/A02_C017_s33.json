@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates excellent profitability with an operating margin of 42% and strong net income generation, alongside a massive asset base and very healthy equity capitalization. Liquidity is solid with a current ratio of 1.71, and overall leverage is moderate given the scale and cash flow potential. These robust financial metrics align with a high-investment-grade profile.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 287,
+ "out_tok": 79,
+ "usd": 0.003805,
+ "utc": "2026-08-30T19:04:10.143876+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits exceptionally strong profitability with an operating margin of 56% and a healthy gross margin of 59%, indicating significant pricing power or an advantaged business model. The balance sheet is robust, featuring a solid current ratio of 2.29 and moderate leverage (total liabilities to assets at ~40%), though total liabilities relative to operating income suggest some debt burden. These factors combined reflect a strong investment-grade credit profile with stable liquidity and significant earnings capacity.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 285,
+ "out_tok": 103,
+ "usd": 0.004515,
+ "utc": "2026-08-30T18:43:48.605084+00:00"
+}

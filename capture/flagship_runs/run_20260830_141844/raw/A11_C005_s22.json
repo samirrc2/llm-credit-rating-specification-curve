@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows moderate leverage and only a modest equity cushion (equity about 21% of assets; liabilities about 79% of assets), but liquidity is adequate with a 1.55 current ratio and the company generates solid operating profit. On balance, these metrics support a lower\u2013mid investment-grade profile rather than a high-grade one, given the sizable liabilities relative to assets and equity.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 485,
+ "usd": 0.03273,
+ "utc": "2026-08-30T18:32:42.610950+00:00"
+}

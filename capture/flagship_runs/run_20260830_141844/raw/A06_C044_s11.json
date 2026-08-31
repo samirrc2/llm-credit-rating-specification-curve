@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability metrics with a 74% gross margin and $151 million in net income, indicating solid operational performance. However, its balance sheet is highly strained with negative shareholders' equity, massive accumulated deficits (-$20.5 billion), and a severely weak current ratio (0.27), pointing to substantial liquidity and solvency risks that weigh heavily on its creditworthiness. \n\nDECISION: B",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 87,
+ "usd": 0.00397,
+ "utc": "2026-08-30T20:22:14.888197+00:00"
+}

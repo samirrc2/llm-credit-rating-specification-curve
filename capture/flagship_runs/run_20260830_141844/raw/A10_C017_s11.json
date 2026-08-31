@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates excellent profitability with a 42% operating margin and strong net income of $8,518M, underscoring its significant pricing power and operational efficiency. Furthermore, its robust balance sheet, featuring $171B in assets against $89B in total liabilities, alongside a healthy current ratio of 1.71, indicates exceptional liquidity and solvency. These factors strongly support a high-investment-grade rating.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 97,
+ "usd": 0.00435,
+ "utc": "2026-08-30T19:05:49.472975+00:00"
+}

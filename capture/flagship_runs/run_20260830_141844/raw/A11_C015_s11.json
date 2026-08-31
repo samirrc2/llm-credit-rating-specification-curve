@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows adequate near-term liquidity (current ratio 1.44) and meaningful accumulated earnings, but leverage is fairly high with liabilities at about 78% of assets and equity only about 22% of the capital structure. Combined with only moderate operating earnings relative to the asset base, this supports a lower-medium investment-grade profile rather than a strong single-A credit.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 489,
+ "usd": 0.03297,
+ "utc": "2026-08-30T19:00:31.728442+00:00"
+}

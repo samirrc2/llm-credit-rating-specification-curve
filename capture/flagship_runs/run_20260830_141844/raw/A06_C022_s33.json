@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates massive scale with over $71 billion in total assets and solid, consistent profitability as evidenced by a 9% operating margin and positive net income. However, the moderate leverage and notably low current ratio (0.59) suggest some liquidity management risks typical of capital-intensive industries, constraining the rating to the lower-to-mid investment grade tier.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 275,
+ "out_tok": 81,
+ "usd": 0.003805,
+ "utc": "2026-08-30T19:19:36.258543+00:00"
+}

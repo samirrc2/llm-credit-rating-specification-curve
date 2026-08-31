@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows meaningful leverage and weak short-term liquidity (current ratio 0.55), which constrains the rating, but the company still has a large equity base, substantial retained earnings, and positive operating income. Overall, this looks more like a lower-medium investment-grade profile than speculative grade, though not strong enough for the A category.\n\nDECISION: BBB",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 247,
+ "usd": 0.01842,
+ "utc": "2026-08-30T20:13:36.519571+00:00"
+}

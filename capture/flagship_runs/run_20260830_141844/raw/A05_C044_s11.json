@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":3,\"rationale\":\"Excellent margins and earnings, but negative equity, deeply negative retained earnings, and very weak current ratio indicate elevated leverage/liquidity risk despite strong operations.\"}",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 252,
+ "out_tok": 330,
+ "usd": 0.02358,
+ "utc": "2026-08-30T20:22:04.488908+00:00"
+}

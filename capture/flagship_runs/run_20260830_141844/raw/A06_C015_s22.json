@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a 14% operating margin and solid net income, supported by a healthy current ratio of 1.44. The large gap between retained earnings and shareholders' equity indicates significant historical value creation and likely substantial share repurchases, characteristic of a stable investment-grade issuer despite moderate overall leverage.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 73,
+ "usd": 0.00359,
+ "utc": "2026-08-30T18:59:23.778228+00:00"
+}

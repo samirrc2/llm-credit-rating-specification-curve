@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates substantial scale with over $24 billion in revenue and $73 billion in assets, alongside solid profitability as evidenced by an 11% operating margin and $1.79 billion in net income. However, leverage is relatively high with total liabilities comprising 78% of total assets, which constrains the rating despite adequate liquidity (current ratio of 1.22). This combination of large scale, consistent profitability, and elevated leverage is characteristic of a low-investment-grade profile.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 287,
+ "out_tok": 109,
+ "usd": 0.004705,
+ "utc": "2026-08-30T19:11:54.228781+00:00"
+}

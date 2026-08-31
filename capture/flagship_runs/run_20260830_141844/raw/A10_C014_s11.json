@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With a moderate leverage profile (liabilities-to-assets around 59%), solid profitability relative to equity, and strong liquidity (current ratio of 1.30), the company demonstrates robust financial health despite its structurally low gross margin. The substantial asset base and healthy net income support a very strong investment-grade credit profile.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 286,
+ "out_tok": 73,
+ "usd": 0.00362,
+ "utc": "2026-08-30T18:57:23.700194+00:00"
+}

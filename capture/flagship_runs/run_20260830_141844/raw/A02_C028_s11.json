@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company possesses immense scale with annualized revenues exceeding $700 billion and an exceptionally strong equity base of $441.9 billion. Coupled with high profitability (quarterly net income of $30.2 billion) and manageable leverage, the financial profile indicates negligible default risk, characteristic of top-tier investment-grade issuers.\n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 296,
+ "out_tok": 73,
+ "usd": 0.00367,
+ "utc": "2026-08-30T19:34:55.744190+00:00"
+}

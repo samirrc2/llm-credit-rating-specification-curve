@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":4,\"rationale\":\"Massive scale, strong 25% operating margin and solid profitability support high quality; however, very high leverage and thin equity/assets constrain rating below AA.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 419,
+ "usd": 0.0291,
+ "utc": "2026-08-30T19:56:06.375153+00:00"
+}

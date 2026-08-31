@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet appears consistent with a highly leveraged financial institution, where a very low current ratio is less informative than capital and earnings capacity. With equity equal to about 8% of assets, positive operating income, and very large retained earnings, the credit profile looks investment grade, though the very high liability burden and only modest profitability argue against the higher rating tiers.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 248,
+ "out_tok": 461,
+ "usd": 0.03138,
+ "utc": "2026-08-30T19:45:23.979015+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer is a large, profitable company with substantial revenues ($24.5B) and a healthy operating margin of 11%. While total leverage is somewhat high (total liabilities represent 78% of total assets), the company maintains a solid current ratio of 1.22 and high retained earnings, indicating financial stability and strong debt service capability typical of investment-grade profiles.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 85,
+ "usd": 0.003945,
+ "utc": "2026-08-30T19:11:03.871445+00:00"
+}

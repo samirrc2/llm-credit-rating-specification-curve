@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates a very strong financial position with substantial quarterly revenue ($18B), solid operating margins (14%), and a healthy balance sheet featuring moderate leverage (liabilities/equity around 1.1x) and strong retained earnings ($22.8B). The adequate current ratio (1.34) and high net income generation capacity support a high investment-grade rating.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 85,
+ "usd": 0.00395,
+ "utc": "2026-08-30T18:19:57.312741+00:00"
+}

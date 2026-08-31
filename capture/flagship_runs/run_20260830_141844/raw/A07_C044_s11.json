@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer\u2019s credit profile is very weak: liquidity is extremely strained (current ratio 0.27), balance-sheet leverage is unsustainably high with negative equity and liabilities exceeding assets, and deeply negative retained earnings point to a history of losses or heavy distributions. Although EBIT is positive, the combination of severe short-term funding pressure and balance-sheet insolvency supports a highly speculative rating consistent with substantial credit risk.\n\nDECISION: CCC+",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 205,
+ "usd": 0.015765,
+ "utc": "2026-08-30T20:22:27.688022+00:00"
+}

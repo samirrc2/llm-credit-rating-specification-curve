@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears financially strong, with excellent liquidity (current ratio 2.29), moderate overall leverage (liabilities/assets about 40%), and a large equity base relative to assets. Profitability is also robust, with EBIT of 3,688M on 6,571M of revenue, supporting a high investment-grade view, though the lack of direct debt-service and cash flow detail argues against the very top categories.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 206,
+ "usd": 0.01596,
+ "utc": "2026-08-30T18:42:25.748416+00:00"
+}

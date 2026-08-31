@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have adequate near-term liquidity and meaningful accumulated earnings, but its balance sheet is fairly leveraged, with liabilities substantially exceeding equity and only modest EBIT relative to the asset base. On balance, that looks more consistent with the low end of investment grade rather than a strong single-A profile.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 390,
+ "usd": 0.02703,
+ "utc": "2026-08-30T19:00:36.244239+00:00"
+}

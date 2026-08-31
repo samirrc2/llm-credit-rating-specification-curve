@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates exceptional financial strength with massive scale (nearly $700 billion in total assets), exceptionally high profitability (46% operating margin), and robust capitalization with low leverage (liabilities represent only 40% of total assets). The enormous retained earnings of over $300 billion and a solid current ratio reflect a fortress balance sheet capable of withstanding severe economic shocks, aligning perfectly with the highest possible investment-grade rating.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 296,
+ "out_tok": 94,
+ "usd": 0.0043,
+ "utc": "2026-08-30T18:52:14.789987+00:00"
+}

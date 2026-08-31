@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"High EBIT margin and adequate liquidity offset elevated leverage, supporting an investment-grade rating but limiting it due to the high debt burden.\"}\n```",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 49,
+ "usd": 0.00284,
+ "utc": "2026-08-30T18:31:50.539218+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows meaningful operating profitability (EBIT of 2,554M on 23,078M revenue) and just-adequate short-term liquidity (current ratio 1.09), but the balance sheet is very weak: retained earnings and shareholders\u2019 equity are deeply negative, with total liabilities exceeding total assets. That combination supports a highly speculative rating with material credit risk, though not necessarily imminent default based on the figures provided alone.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 257,
+ "usd": 0.018915,
+ "utc": "2026-08-30T19:50:45.939347+00:00"
+}

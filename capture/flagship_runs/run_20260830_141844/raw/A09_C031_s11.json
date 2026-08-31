@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":3,\"rationale\":\"Strong profitability and substantial equity support credit quality, but very high leverage and weak reported current ratio typical of large banks constrain rating.\"}",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 271,
+ "out_tok": 380,
+ "usd": 0.026865,
+ "utc": "2026-08-30T19:44:43.900801+00:00"
+}

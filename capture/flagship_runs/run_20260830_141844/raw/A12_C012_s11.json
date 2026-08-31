@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"AA-\", \"confidence\": 3, \"rationale\": \"High equity and massive retained earnings indicate strong solvency. Very high EBIT margins outweigh moderate asset turnover, supporting a strong investment-grade rating.\"}\n```",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 50,
+ "usd": 0.00294,
+ "utc": "2026-08-30T18:52:38.211764+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Negative shareholders' equity, very low current ratio (0.27), and high leverage (total liabilities > total assets) indicate high financial risk and poor liquidity.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 267,
+ "out_tok": 57,
+ "usd": 0.003045,
+ "utc": "2026-08-30T20:22:41.715666+00:00"
+}

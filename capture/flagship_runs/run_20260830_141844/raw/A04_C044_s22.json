@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC+\", \"confidence\": 4, \"rationale\": \"Negative equity, massive total liabilities relative to revenue, and extremely weak liquidity (current ratio 0.27) indicate a highly distressed financial position.\"}\n```",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 53,
+ "usd": 0.00296,
+ "utc": "2026-08-30T20:21:57.291131+00:00"
+}

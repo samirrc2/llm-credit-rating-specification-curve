@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer is a massive financial institution with over $2.2 trillion in assets and $178 billion in shareholders' equity, indicating strong capitalization and global systemic importance. The robust net income and healthy operating margins support a high investment-grade rating, although the inherent leverage and liquidity profile of banking limit it from the highest tiers. \n\nDECISION: A-",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 291,
+ "out_tok": 74,
+ "usd": 0.003675,
+ "utc": "2026-08-30T19:44:00.805026+00:00"
+}

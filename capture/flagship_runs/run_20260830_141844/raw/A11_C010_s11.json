@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have a very strong balance sheet: moderate leverage (liabilities/assets about 42%), a large equity cushion, solid liquidity (current ratio 1.92), and excellent operating profitability (EBIT roughly 44% of revenue). Those metrics are consistent with a high-grade credit profile, though the relatively modest revenue base and lack of detail on debt structure or cash flow temper the case for the very top tiers.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 306,
+ "usd": 0.02199,
+ "utc": "2026-08-30T18:47:01.517890+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows adequate liquidity (current ratio 1.22) and solid ongoing profitability (EBIT about 10.5% of revenue), with substantial retained earnings supporting financial flexibility. However, leverage is fairly high, with liabilities at roughly 78% of assets and equity only about 22% of assets, which keeps the profile in the lower-to-mid investment-grade range rather than the high-grade category.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 209,
+ "usd": 0.016035,
+ "utc": "2026-08-30T19:11:14.189956+00:00"
+}

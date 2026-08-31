@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is only adequate (current ratio 1.18), while leverage is extremely high with liabilities at about 96% of assets and only a very thin equity cushion. Although EBIT is positive, operating profitability is very weak (about 2% margin), which materially limits debt-servicing resilience and points to a speculative-grade profile.\n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 311,
+ "usd": 0.022125,
+ "utc": "2026-08-30T19:08:26.845694+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong investment-grade characteristics with a robust balance sheet, evidenced by total assets of $67 billion and high shareholders' equity of $31.2 billion, keeping total liabilities manageable. Profitability is solid with a 14% operating margin and strong net income generation, while the current ratio of 1.34 indicates adequate liquidity to cover short-term obligations. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 86,
+ "usd": 0.00402,
+ "utc": "2026-08-30T18:20:45.140926+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":4,\"rationale\":\"Solid scale, profitability, and liquidity support investment grade; however, liability-heavy balance sheet and limited debt/cash-flow detail constrain rating to lower-medium IG.\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 257,
+ "out_tok": 321,
+ "usd": 0.023115,
+ "utc": "2026-08-30T19:26:55.663356+00:00"
+}

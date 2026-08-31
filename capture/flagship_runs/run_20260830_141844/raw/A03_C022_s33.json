@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have a mixed but overall borderline credit profile: scale is solid and equity remains positive, but liquidity is weak (current ratio 0.59) and the balance sheet is fairly leveraged relative to modest operating earnings (EBIT of just under $1.0B against $45.6B of liabilities). That combination supports a low investment-grade assessment, but only at the bottom end due to limited cushion for operational or financing stress.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 238,
+ "out_tok": 402,
+ "usd": 0.02769,
+ "utc": "2026-08-30T19:18:55.604175+00:00"
+}

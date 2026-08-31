@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates massive scale and robust profitability, with over $20 billion in quarterly revenue, an 85% gross margin, and nearly $3 billion in net income. However, its high leverage (liabilities constitute 89% of total assets) and low current ratio of 0.35 constrain the rating, though such capital structures are typical for capital-intensive, high-cash-flow sectors like telecommunications or cable. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 283,
+ "out_tok": 97,
+ "usd": 0.004325,
+ "utc": "2026-08-30T19:47:21.433860+00:00"
+}

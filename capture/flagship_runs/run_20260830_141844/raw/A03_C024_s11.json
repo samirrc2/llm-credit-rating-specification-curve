@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears moderately leveraged with a sizable equity base (equity/assets about 41.5%) and strong retained earnings, but liquidity is a bit weak (current ratio 0.94) and operating profitability is thin relative to its very large liability load (EBIT only 467M against 50,185M of liabilities). Overall, that profile looks more consistent with a speculative-grade but not deeply distressed credit.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 474,
+ "usd": 0.03201,
+ "utc": "2026-08-30T19:24:32.095340+00:00"
+}

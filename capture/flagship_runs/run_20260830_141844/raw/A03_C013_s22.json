@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Liquidity is adequate (current ratio 1.53), and the balance sheet shows a solid equity base with liabilities at about 54% of assets and very large retained earnings, which supports credit quality. However, operating performance is only moderate relative to the asset base (EBIT of 1,863M on 113,281M of assets), so despite clear financial stability, the metrics do not quite support a high-A category rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 426,
+ "usd": 0.02916,
+ "utc": "2026-08-30T18:53:20.789410+00:00"
+}

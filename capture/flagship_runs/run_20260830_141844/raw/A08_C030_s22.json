@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"High liquidity and moderate leverage support the rating, though profitability relative to total assets is somewhat weak.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 268,
+ "out_tok": 42,
+ "usd": 0.0026,
+ "utc": "2026-08-30T19:41:49.731229+00:00"
+}

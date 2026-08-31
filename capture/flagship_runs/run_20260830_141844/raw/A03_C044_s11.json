@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears highly leveraged and balance-sheet insolvent, with negative shareholders\u2019 equity, deeply negative retained earnings, and very weak liquidity (current ratio 0.27). Although EBIT is positive, the combination of liabilities exceeding assets and poor short-term coverage suggests substantial credit risk and vulnerability to adverse conditions, consistent with a very weak speculative-grade profile.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 150,
+ "usd": 0.01257,
+ "utc": "2026-08-30T20:21:43.200929+00:00"
+}

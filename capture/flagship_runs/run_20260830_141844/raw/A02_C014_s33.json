@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates massive scale with over $73 billion in assets and $34 billion in revenue, which provides significant stability. Despite structurally low operating margins (4%), it maintains moderate leverage (liabilities to assets around 59%), solid liquidity (current ratio of 1.30), and strong net income generation, supporting a solid investment-grade profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 285,
+ "out_tok": 80,
+ "usd": 0.003825,
+ "utc": "2026-08-30T18:55:54.516879+00:00"
+}

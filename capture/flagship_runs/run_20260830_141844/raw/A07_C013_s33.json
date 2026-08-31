@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Solid liquidity (current ratio 1.53) and a strong capital base (equity of about 46% of assets, with substantial retained earnings) support good credit quality. However, leverage is still meaningful and EBIT is modest relative to the large asset base, which keeps the profile in the lower end of the high-grade investment-grade range.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 457,
+ "usd": 0.030915,
+ "utc": "2026-08-30T18:54:18.596187+00:00"
+}

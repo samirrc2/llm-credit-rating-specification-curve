@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage with liabilities at 83% of assets and a weak current ratio of 0.63, though offset by strong EBIT margins.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 268,
+ "out_tok": 53,
+ "usd": 0.00293,
+ "utc": "2026-08-30T20:05:40.646613+00:00"
+}

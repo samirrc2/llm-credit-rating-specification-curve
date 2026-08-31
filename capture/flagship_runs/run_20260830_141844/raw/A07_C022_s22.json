@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a mixed but still investment-grade profile: liquidity is weak (current ratio 0.59), but capitalization is moderate (equity/assets ~36%, liabilities/equity ~1.8x) and retained earnings are strong and positive, indicating an established earnings base. Profitability is positive but not especially strong (EBIT margin ~9%, EBIT/assets ~1.4%), which supports a lower-mid BBB assessment rather than a higher category.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 231,
+ "out_tok": 254,
+ "usd": 0.018705,
+ "utc": "2026-08-30T19:19:44.036151+00:00"
+}

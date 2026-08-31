@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage, negative working capital, and very low asset turnover indicate significant financial risk, suggesting a speculative-grade rating.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 275,
+ "out_tok": 47,
+ "usd": 0.002785,
+ "utc": "2026-08-30T20:00:38.282900+00:00"
+}

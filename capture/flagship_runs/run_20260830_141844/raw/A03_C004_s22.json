@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is strong, with low-to-moderate leverage (liabilities about 41% of assets), a solid current ratio above 2x, and very large retained earnings and equity cushions. However, operating profitability is weak relative to the asset base and liability load, which tempers the otherwise strong financial profile and points to a solid but not high-grade credit position.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 238,
+ "out_tok": 242,
+ "usd": 0.01809,
+ "utc": "2026-08-30T18:27:50.996862+00:00"
+}

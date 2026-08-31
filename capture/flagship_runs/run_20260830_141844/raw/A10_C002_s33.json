@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits outstanding profitability with a gross margin of 89% and an operating margin of 44%, alongside a massive asset base and exceptional liquidity (current ratio of 12.41). However, the high ratio of total liabilities to equity indicates a business model reliant on substantial financial leverage, typical of large financial institutions or clearinghouses, which typically warrants a strong investment-grade rating but not the absolute highest tier.\n\nDECISION: A",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 291,
+ "out_tok": 92,
+ "usd": 0.004215,
+ "utc": "2026-08-30T18:23:52.325101+00:00"
+}

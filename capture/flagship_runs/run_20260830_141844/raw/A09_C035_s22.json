@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":4,\"rationale\":\"Large, profitable, well-capitalized financial institution; strong earnings and retained capital support high investment-grade credit despite balance-sheet leverage typical of banking.\"}",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 312,
+ "usd": 0.022815,
+ "utc": "2026-08-30T19:57:06.220740+00:00"
+}

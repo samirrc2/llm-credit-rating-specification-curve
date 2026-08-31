@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have a solid equity base and very large accumulated earnings, but its balance sheet is still fairly leveraged (liabilities nearly 3x equity) and liquidity is somewhat weak with a current ratio below 1. Profitability is positive but not especially strong relative to its large liability load, which supports a mid investment-grade rather than high-grade assessment.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 505,
+ "usd": 0.0339,
+ "utc": "2026-08-30T19:13:09.421494+00:00"
+}

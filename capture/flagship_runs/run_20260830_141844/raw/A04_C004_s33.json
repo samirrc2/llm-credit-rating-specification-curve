@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 3, \"rationale\": \"Very strong balance sheet with high equity and low leverage, though profitability metrics (EBIT margin, ROA) are currently weak.\"}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 49,
+ "usd": 0.002865,
+ "utc": "2026-08-30T18:28:11.710615+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a weak balance sheet with liabilities exceeding assets and deeply negative retained earnings/shareholders\u2019 equity, which is a strong sign of elevated leverage and limited balance-sheet resilience. While liquidity is adequate and EBIT is solidly positive relative to revenue, the capital structure looks too stretched for investment grade, pointing to a speculative-grade profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 289,
+ "usd": 0.02094,
+ "utc": "2026-08-30T19:49:47.052446+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB\",\"confidence\":3,\"rationale\":\"Profitable, sizable issuer with adequate liquidity and solid equity base, but leverage appears moderate-high and debt/cash-flow details are limited; fits lower-medium investment grade.\"}",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 259,
+ "out_tok": 353,
+ "usd": 0.025065,
+ "utc": "2026-08-30T19:28:40.523011+00:00"
+}

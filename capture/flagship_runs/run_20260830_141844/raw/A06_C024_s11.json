@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company possesses a substantial asset base of $86.8 billion and strong equity of $36.0 billion, indicating significant scale and moderate leverage. However, its profitability is quite low relative to its size (net income of $102 million) and its current ratio of 0.94 suggests slight liquidity constraints. These factors typically align with an investment-grade rating in the middle-to-lower tier, reflecting solid overall stability despite weak return on assets.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 102,
+ "usd": 0.00443,
+ "utc": "2026-08-30T19:25:11.930174+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With a robust operating margin of 44% and a very strong balance sheet featuring nearly $30 billion in shareholders' equity against just $22 billion in total liabilities, the company demonstrates exceptional financial stability and low leverage. The healthy current ratio of 1.92 and substantial retained earnings further support a high investment-grade profile. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 76,
+ "usd": 0.00365,
+ "utc": "2026-08-30T18:45:45.946006+00:00"
+}

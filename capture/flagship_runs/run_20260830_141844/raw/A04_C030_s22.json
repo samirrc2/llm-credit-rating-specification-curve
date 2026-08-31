@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Strong liquidity and low-to-moderate leverage are offset by very low asset turnover and weak profitability relative to the large asset base.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 275,
+ "out_tok": 49,
+ "usd": 0.002845,
+ "utc": "2026-08-30T19:40:57.814623+00:00"
+}

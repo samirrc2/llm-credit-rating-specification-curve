@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows very strong liquidity (current ratio 2.29) and a conservative balance sheet, with equity comfortably exceeding total liabilities and solid profitability relative to assets. While the business appears financially strong enough for high investment grade, the modest revenue scale and limited evidence on cash flow stability or debt servicing keep it below the very top tiers.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 274,
+ "usd": 0.02004,
+ "utc": "2026-08-30T18:42:29.685004+00:00"
+}

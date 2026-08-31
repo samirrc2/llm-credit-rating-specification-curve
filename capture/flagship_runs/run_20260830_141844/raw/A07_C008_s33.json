@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Strong operating profitability (EBIT of 3,230M on 5,251M revenue) and very large retained earnings support credit quality, but the balance sheet is notably weak with negative shareholders\u2019 equity, liabilities exceeding assets, and a sub-1.0 current ratio indicating pressured liquidity. On balance, that mix is more consistent with a speculative-grade but relatively stronger issuer within that category.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 324,
+ "usd": 0.022935,
+ "utc": "2026-08-30T18:40:22.041077+00:00"
+}

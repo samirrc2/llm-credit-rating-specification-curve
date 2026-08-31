@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a 32% operating margin and significant net income generation relative to its revenue. Its large asset base of over $204 billion and substantial shareholders' equity of $54 billion provide considerable financial flexibility, although the low current ratio of 0.55 suggests reliance on ongoing cash flows and external financing to meet short-term obligations. Overall, the combination of massive scale, high margins, and solid equity buffer supports a strong investment-grade rating.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 289,
+ "out_tok": 105,
+ "usd": 0.004595,
+ "utc": "2026-08-30T20:15:32.119224+00:00"
+}

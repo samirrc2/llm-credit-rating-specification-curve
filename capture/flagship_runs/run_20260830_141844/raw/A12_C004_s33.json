@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Strong balance sheet with healthy liquidity and high equity ratio, but very low profitability and asset turnover pressure the overall credit profile.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 48,
+ "usd": 0.00284,
+ "utc": "2026-08-30T18:30:09.060518+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Strong liquidity (current ratio 1.92), very high capitalization quality (equity of 29,833M versus liabilities of 21,966M, with equity/assets near 58%), and robust profitability (EBIT of 2,489M on 5,638M revenue) support a high-grade profile. While the balance sheet is notably conservative, the available data are not sufficient to justify the very top tier, so a low-AA assessment is most fitting.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 265,
+ "usd": 0.019395,
+ "utc": "2026-08-30T18:46:03.815141+00:00"
+}

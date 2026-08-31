@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company possesses a substantial asset base ($86.8 billion) and a solid equity cushion ($36.0 billion), indicating a moderate overall leverage profile. However, its low profitability relative to its asset size (net income of $102 million) and tight liquidity (current ratio of 0.94) constrain its creditworthiness, placing it in the lower tiers of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 87,
+ "usd": 0.004015,
+ "utc": "2026-08-30T19:24:14.046845+00:00"
+}

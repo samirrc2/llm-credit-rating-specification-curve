@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the company's massive scale (over $90 billion in annualized revenue) and solid profitability (11% operating margin), it exhibits strong cash generation capabilities typical of an investment-grade issuer. However, the negative shareholders' equity and high total liabilities constrain the rating, placing it in the lower-to-middle tiers of investment grade. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 78,
+ "usd": 0.00376,
+ "utc": "2026-08-30T19:49:29.506250+00:00"
+}

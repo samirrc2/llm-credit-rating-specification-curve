@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a 51% gross margin and 24% operating margin, generating solid net income relative to its size. Its capital structure features moderate leverage with a reasonable equity base and adequate liquidity (current ratio of 1.18), supporting an investment-grade profile. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 68,
+ "usd": 0.00343,
+ "utc": "2026-08-30T19:32:25.499787+00:00"
+}

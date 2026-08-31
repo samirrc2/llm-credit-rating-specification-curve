@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Strong liquidity (current ratio 2.04) and a conservative balance sheet (equity of 84,113M versus liabilities of 58,979M) support solid credit quality, but operating performance is weak relative to the asset base, with EBIT of just 941M on 143,724M of assets and a modest 4.2% EBIT margin. On balance, that looks investment grade but only in the mid-BBB area rather than the A category.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 231,
+ "out_tok": 387,
+ "usd": 0.026685,
+ "utc": "2026-08-30T18:28:47.649847+00:00"
+}

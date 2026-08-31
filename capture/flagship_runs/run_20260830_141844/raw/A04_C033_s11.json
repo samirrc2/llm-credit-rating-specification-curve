@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Negative equity, total liabilities exceeding assets, and high leverage, though supported by positive EBIT and substantial revenue, indicating high speculative risk.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 278,
+ "out_tok": 50,
+ "usd": 0.00289,
+ "utc": "2026-08-30T19:49:57.342371+00:00"
+}

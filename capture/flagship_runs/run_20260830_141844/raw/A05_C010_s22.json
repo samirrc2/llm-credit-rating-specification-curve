@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":3,\"rationale\":\"Strong profitability, ample equity, low leverage, and solid liquidity support high quality; limited debt/cash-flow detail and net-income drop temper to A+.\"}",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 254,
+ "out_tok": 209,
+ "usd": 0.01635,
+ "utc": "2026-08-30T18:45:31.502155+00:00"
+}

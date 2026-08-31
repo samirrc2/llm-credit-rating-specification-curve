@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows meaningful scale and a solid equity base, with positive retained earnings and positive EBIT, but its balance sheet is highly leveraged (liabilities at roughly 73% of assets) and liquidity is weak given the 0.63 current ratio. Those metrics fit a lower-medium investment-grade profile: creditworthy, but with limited cushion against stress and less financial flexibility than stronger A-category peers.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 243,
+ "usd": 0.01818,
+ "utc": "2026-08-30T20:10:37.264249+00:00"
+}

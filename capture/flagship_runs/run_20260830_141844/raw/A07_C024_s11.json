@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows moderate leverage and a meaningful equity/retained earnings base, but liquidity is slightly weak (current ratio 0.94) and operating earnings are thin relative to the very large asset and liability base. That combination suggests a borderline investment-grade/speculative profile, with credit quality best fitting the high end of non-investment-grade.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 484,
+ "usd": 0.032505,
+ "utc": "2026-08-30T19:25:27.287752+00:00"
+}

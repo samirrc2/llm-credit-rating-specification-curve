@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":3,\"rationale\":\"Large, consistently profitable issuer with solid liquidity and double-digit margins, but balance-sheet leverage is meaningful and debt/cash-flow details are limited.\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 303,
+ "usd": 0.022125,
+ "utc": "2026-08-30T18:58:16.445487+00:00"
+}

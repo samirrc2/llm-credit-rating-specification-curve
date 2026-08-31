@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":2,\"rationale\":\"Positive earnings and moderate balance-sheet leverage support credit, but negative gross margin, break-even liquidity, and large accumulated deficits constrain to speculative grade.\"}",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 446,
+ "usd": 0.030675,
+ "utc": "2026-08-30T20:02:50.266099+00:00"
+}

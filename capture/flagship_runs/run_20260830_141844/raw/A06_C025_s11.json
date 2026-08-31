@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong revenue generation, solid profitability with a 10% operating margin, and adequate liquidity (current ratio of 1.39). While its total liabilities represent a significant portion of its capital structure, its scale and consistent earnings capability support a solid investment-grade rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 270,
+ "out_tok": 64,
+ "usd": 0.00327,
+ "utc": "2026-08-30T19:27:51.276676+00:00"
+}

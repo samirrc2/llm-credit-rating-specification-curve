@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High leverage, negative working capital, and very low asset turnover suggest a capital-intensive industry. Stable EBIT margins support a lower investment-grade or crossover rating.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 56,
+ "usd": 0.003085,
+ "utc": "2026-08-30T20:12:45.679875+00:00"
+}

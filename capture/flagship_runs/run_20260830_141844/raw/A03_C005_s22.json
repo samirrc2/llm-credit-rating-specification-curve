@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet appears solid for an investment-grade issuer: liquidity is adequate (current ratio 1.55), retained earnings are substantial relative to assets, and equity supports about 21% of the asset base. Leverage is meaningful given liabilities of roughly 79% of assets, but strong operating income relative to assets supports a low-to-mid investment-grade assessment rather than a higher single-A category.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 250,
+ "usd": 0.0186,
+ "utc": "2026-08-30T18:30:48.074297+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer is a major financial institution (evident from the massive $2.2 trillion balance sheet, substantial equity base, and typical banking current ratio). The company demonstrates strong profitability with over $5.2 billion in quarterly net income and maintains a solid capital position with over $178 billion in shareholders' equity, supporting a strong investment-grade profile typical of global systemically important banks. \n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 298,
+ "out_tok": 85,
+ "usd": 0.00404,
+ "utc": "2026-08-30T19:43:10.783697+00:00"
+}

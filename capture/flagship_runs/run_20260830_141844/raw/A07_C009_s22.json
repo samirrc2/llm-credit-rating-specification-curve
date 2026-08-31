@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet looks strong: liquidity is solid (current ratio 2.29) and capitalization is conservative, with equity covering about 59% of assets and total liabilities only about 40% of assets. Profitability is also healthy (EBIT about 6.5% of assets), supporting an upper-medium investment-grade assessment, though the limited information on cash flow, debt structure, and coverage argues against the very highest categories.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 445,
+ "usd": 0.030195,
+ "utc": "2026-08-30T18:43:13.251217+00:00"
+}

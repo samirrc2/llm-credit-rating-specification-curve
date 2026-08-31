@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates significant scale and consistent profitability, evidenced by its solid positive operating and net margins. However, its deeply negative shareholders' equity, substantial total liabilities, and a current ratio below 1.0 indicate high financial leverage and constrained short-term liquidity. These conflicting factors\u2014strong earnings power offset by a highly leveraged balance sheet\u2014are characteristic of a high speculative-grade to low investment-grade profile.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 280,
+ "out_tok": 87,
+ "usd": 0.00401,
+ "utc": "2026-08-30T20:18:05.540336+00:00"
+}

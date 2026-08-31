@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears moderately leveraged, with liabilities at about 85% of assets and equity relatively thin, while liquidity is only adequate at a 1.04x current ratio. Still, positive EBIT, very large retained earnings, and a substantial asset base support a low-investment-grade profile rather than speculative grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 342,
+ "usd": 0.02415,
+ "utc": "2026-08-30T19:23:35.264229+00:00"
+}

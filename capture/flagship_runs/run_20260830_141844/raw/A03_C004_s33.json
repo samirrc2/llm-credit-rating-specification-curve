@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very strong balance-sheet strength and liquidity, with a current ratio above 2.0, modest liabilities relative to assets, and a large equity base supported by substantial retained earnings. However, EBIT is quite low relative to revenue and assets, which tempers the rating and suggests only moderate earnings protection rather than top-tier credit quality.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 238,
+ "out_tok": 209,
+ "usd": 0.01611,
+ "utc": "2026-08-30T18:27:54.195402+00:00"
+}

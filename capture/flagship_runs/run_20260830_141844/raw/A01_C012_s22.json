@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AAA\",\"confidence\":5,\"rationale\":\"Exceptional profitability, enormous scale, very strong equity base, solid liquidity, and conservative leverage support top-tier issuer credit quality.\"}",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 139,
+ "usd": 0.012285,
+ "utc": "2026-08-30T18:50:27.689793+00:00"
+}

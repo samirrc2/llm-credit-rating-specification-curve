@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong revenue generation and profitability, with over $23 billion in quarterly revenue and an 11% operating margin, indicating significant scale and market position. However, the deeply negative shareholders' equity and retained earnings point to an aggressive capital structure, likely driven by historical share repurchases, which constrains the rating to the lower-to-mid investment grade tier despite adequate near-term liquidity. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 285,
+ "out_tok": 90,
+ "usd": 0.004125,
+ "utc": "2026-08-30T19:51:44.080055+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates solid profitability with an operating margin of 15% and strong annualized revenue (over $16 billion). Leverage is manageable, as evidenced by total liabilities of $15 billion against a robust $10 billion in shareholders' equity, though the current ratio of 0.99 indicates slightly tight short-term liquidity. Overall, these metrics support a stable, mid-to-lower investment-grade profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 93,
+ "usd": 0.00419,
+ "utc": "2026-08-30T19:37:57.340873+00:00"
+}

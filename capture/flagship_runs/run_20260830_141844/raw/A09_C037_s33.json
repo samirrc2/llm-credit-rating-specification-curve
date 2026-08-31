@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":3,\"rationale\":\"Positive earnings and sizable equity support credit, but negative gross margin, zero working-capital cushion, and deeply negative retained earnings constrain rating below investment grade.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 267,
+ "usd": 0.019935,
+ "utc": "2026-08-30T20:02:57.741458+00:00"
+}

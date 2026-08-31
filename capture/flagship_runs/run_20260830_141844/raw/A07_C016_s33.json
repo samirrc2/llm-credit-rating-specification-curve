@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid operating profitability (EBIT margin about 16.5%) and a meaningful equity base, but balance-sheet leverage is high (liabilities about 80% of assets; liabilities/equity over 4x) and liquidity is somewhat weak with a current ratio of 0.90. On balance, that supports the low end of investment grade rather than a stronger category.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 307,
+ "usd": 0.021915,
+ "utc": "2026-08-30T19:02:30.869630+00:00"
+}

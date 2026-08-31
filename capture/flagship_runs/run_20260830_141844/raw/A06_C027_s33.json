@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a 24% operating margin and an annualized revenue run-rate approaching $10 billion. Its balance sheet is substantial with over $40 billion in assets and moderate leverage (total liabilities to assets at roughly 65%), while maintaining adequate liquidity (current ratio of 1.18). These factors combined with solid retained earnings support a solidly investment-grade profile, though the leverage prevents a higher tier rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 271,
+ "out_tok": 97,
+ "usd": 0.004265,
+ "utc": "2026-08-30T19:33:23.326754+00:00"
+}

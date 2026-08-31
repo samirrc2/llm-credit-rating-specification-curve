@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Weak liquidity (current ratio 0.53) and a heavy liability load relative to assets and revenue point to meaningful credit risk, even though the company remains solidly profitable at the EBIT level and has a substantial equity base. On balance, these figures fit a speculative-grade but not deeply distressed profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 337,
+ "usd": 0.023715,
+ "utc": "2026-08-30T20:25:08.457746+00:00"
+}

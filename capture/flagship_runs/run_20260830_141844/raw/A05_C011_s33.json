@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A\",\"confidence\":3,\"rationale\":\"Strong profitability, substantial equity and retained earnings, and adequate liquidity support solid investment-grade credit; absent debt/cash-flow detail limits higher rating confidence.\"}",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 256,
+ "out_tok": 188,
+ "usd": 0.01512,
+ "utc": "2026-08-30T18:48:30.296872+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company\u2019s balance sheet looks exceptionally strong: liabilities are modest relative to assets, equity is very large, retained earnings are substantial, and liquidity is adequate with a current ratio above 1.2. Profitability is also very robust given EBIT of 38,398M on 82,886M of revenue, supporting a very high investment-grade assessment, though not enough information is present to justify the absolute top tier.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 257,
+ "usd": 0.01905,
+ "utc": "2026-08-30T18:52:27.989806+00:00"
+}

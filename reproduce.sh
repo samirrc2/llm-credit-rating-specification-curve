@@ -11,4 +11,8 @@ python3 analysis/addenda.py
 python3 analysis/benchmark_validation.py
 echo "== Real-firm arm (reads data/raw/realarm model-output panels) =="
 python3 analysis/analyze_realarm.py
+echo "== Model-tier robustness (flagship vs nano/flash on the frozen 12-spec grid) =="
+python3 analysis/tier_analysis.py
+echo "== Extended analyses (score validation, self-consistency, weighted agreement, strata, cost) =="
+python3 analysis/extended_analysis.py
 echo "== Done. Outputs in results/ =="

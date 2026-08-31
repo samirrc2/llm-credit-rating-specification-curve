@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With strong profitability (27% operating margin and $1.4 billion quarterly net income) and a large, stable equity base ($51.5 billion), the issuer demonstrates solid financial health despite a low current ratio of 0.63, which is common in asset-heavy or infrastructure sectors. The overall leverage is manageable, supporting a solid investment-grade rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 82,
+ "usd": 0.00386,
+ "utc": "2026-08-30T20:11:16.945566+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a 15% operating margin on annualized revenues of over $16 billion, alongside a substantial equity base and healthy retained earnings. However, a slightly weak current ratio of 0.99 and moderate leverage (total liabilities to equity of 1.5x) constrain the rating from reaching the highest tiers, placing it comfortably in the lower-medium investment grade. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 88,
+ "usd": 0.00404,
+ "utc": "2026-08-30T19:37:52.774208+00:00"
+}

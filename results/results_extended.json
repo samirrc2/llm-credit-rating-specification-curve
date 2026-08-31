@@ -1,0 +1,113 @@
+{
+ "_meta": {
+  "credit_rows": 4316,
+  "items": 45,
+  "specs": 32,
+  "seed": 42
+ },
+ "A2.score_validation": {
+  "n_items": 45,
+  "spearman_calibscore_vs_heldoutflip": 0.887,
+  "roc_auc_flag_heldout_flip": 0.936,
+  "roc_auc_CI95_issuer_bootstrap": [
+   0.863,
+   0.991
+  ],
+  "roc_auc_repeated_splits_median": 0.882,
+  "roc_auc_repeated_splits_IQR": [
+   0.861,
+   0.914
+  ],
+  "roc_auc_repeated_splits_range": [
+   0.727,
+   0.98
+  ],
+  "avg_precision": 0.983,
+  "heldout_flip_base_rate": 0.756,
+  "note": "score fit on 16 calibration specs; label/flip on the disjoint 16 validation specs; issuer-clustered bootstrap CI (1000) and 300 balanced random splits for split-sensitivity"
+ },
+ "A2b.real_issuer_validation": {
+  "n_real_issuers": 31,
+  "spearman_calibscore_vs_heldoutflip": 0.41,
+  "roc_auc_flag_heldout_flip": 0.704,
+  "roc_auc_CI95_issuer_bootstrap": [
+   0.509,
+   0.87
+  ],
+  "heldout_flip_base_rate": 0.613,
+  "note": "held-out-specification validation on the 31 real decontaminated issuers (arm_runs, 12 specs split 6/6, 3 seeds); external-issuer generalization of the synthetic-battery validation"
+ },
+ "B1.self_consistency_residual_flip_by_k": {
+  "1": 0.2519,
+  "3": 0.1938,
+  "5": 0.1661,
+  "9": 0.1356,
+  "15": 0.1109
+ },
+ "B5.weighted_agreement": {
+  "krippendorff_alpha_linear": 0.444,
+  "krippendorff_alpha_quadratic": 0.646,
+  "note": "letter-rank scale (0-20); ordinal-weighted; complements unweighted Fleiss kappa"
+ },
+ "B6.ighy_flip_by_stratum": {
+  "DISTRESS": {
+   "ighy_flip": 0.2711,
+   "n_items": 15
+  },
+  "SAFE": {
+   "ighy_flip": 0.1299,
+   "n_items": 15
+  },
+  "WATCH": {
+   "ighy_flip": 0.3545,
+   "n_items": 15
+  }
+ },
+ "B8.band_accuracy_vs_altman": {
+  "flagship": 0.3667,
+  "flagship_n": 1620,
+  "nano_flash": 0.4426,
+  "nano_flash_n": 1620,
+  "ig_rate_flagship": 0.7988,
+  "ig_rate_nano_flash": 0.5858
+ },
+ "A4.deployment_cost": {
+  "per_call_usd": {
+   "nano_flash": 0.00083,
+   "flagship": 0.01312
+  },
+  "by_k": {
+   "1": {
+    "nano_flash_usd_per_1000_issuers": 0.83,
+    "flagship_usd_per_1000_issuers": 13.12,
+    "tokens_per_issuer_nano": 416
+   },
+   "3": {
+    "nano_flash_usd_per_1000_issuers": 2.48,
+    "flagship_usd_per_1000_issuers": 39.37,
+    "tokens_per_issuer_nano": 1248
+   },
+   "5": {
+    "nano_flash_usd_per_1000_issuers": 4.13,
+    "flagship_usd_per_1000_issuers": 65.61,
+    "tokens_per_issuer_nano": 2080
+   },
+   "9": {
+    "nano_flash_usd_per_1000_issuers": 7.43,
+    "flagship_usd_per_1000_issuers": 118.1,
+    "tokens_per_issuer_nano": 3745
+   },
+   "15": {
+    "nano_flash_usd_per_1000_issuers": 12.38,
+    "flagship_usd_per_1000_issuers": 196.84,
+    "tokens_per_issuer_nano": 6242
+   }
+  }
+ },
+ "D7.rating_entropy_bits": {
+  "per_item_mean": 2.854,
+  "pooled": 3.891,
+  "max_bits_21_grades": 4.392,
+  "note": "mean within-firm letter-rating entropy across the 45 credit items (post-hoc)"
+ }
+}

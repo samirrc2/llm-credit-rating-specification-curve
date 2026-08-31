@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Profitable with solid scale, but negative equity, large accumulated deficits, liabilities exceeding assets, and sub-1.0 current ratio indicate materially elevated leverage and vulnerability.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 252,
+ "out_tok": 191,
+ "usd": 0.01524,
+ "utc": "2026-08-30T20:17:01.118203+00:00"
+}

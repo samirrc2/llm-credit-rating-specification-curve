@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":4,\"rationale\":\"Strong profitability, solid liquidity, and moderate leverage support high investment-grade credit quality; absent cash flow, debt mix, and industry risk details constrain rating below AA.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 205,
+ "usd": 0.016245,
+ "utc": "2026-08-30T18:52:58.765031+00:00"
+}

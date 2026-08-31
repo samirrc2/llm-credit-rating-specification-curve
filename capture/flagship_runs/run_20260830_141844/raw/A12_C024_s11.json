@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Strong equity base and historical retained earnings offset weak current profitability and slightly negative working capital, indicating low investment-grade credit quality.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 49,
+ "usd": 0.00285,
+ "utc": "2026-08-30T19:26:34.925750+00:00"
+}

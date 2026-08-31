@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows a strong balance sheet for credit purposes: solid liquidity (current ratio 1.71), substantial equity capitalization (equity covering nearly half of assets), and meaningful retained earnings, all of which support financial resilience. Profitability is also healthy, though total liabilities are still sizable in absolute terms, so the profile looks firmly investment grade but not clearly at the highest tiers.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 280,
+ "usd": 0.02043,
+ "utc": "2026-08-30T19:06:15.890383+00:00"
+}

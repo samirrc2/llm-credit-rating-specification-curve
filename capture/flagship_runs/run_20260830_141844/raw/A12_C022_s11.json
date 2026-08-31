@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Very low liquidity (current ratio 0.59), negative working capital, and low profitability (EBIT/Assets 1.3%) offset by moderate equity, indicating speculative grade.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 279,
+ "out_tok": 61,
+ "usd": 0.003225,
+ "utc": "2026-08-30T19:20:52.137157+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AAA\",\"confidence\":5,\"rationale\":\"Exceptional profitability, enormous scale, very strong equity base, solid liquidity, and low balance-sheet risk support top-tier credit quality.\"}",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 256,
+ "out_tok": 196,
+ "usd": 0.0156,
+ "utc": "2026-08-30T18:51:14.552024+00:00"
+}

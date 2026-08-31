@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This large financial institution exhibits high profitability (44% operating margin) and a strong balance sheet with $493 billion in assets and $49 billion in equity, translating to a healthy return on equity of roughly 20% annualized. The capitalization and scale are robust, characteristic of a stable, high-grade financial services company.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 283,
+ "out_tok": 75,
+ "usd": 0.003665,
+ "utc": "2026-08-30T18:22:39.516754+00:00"
+}

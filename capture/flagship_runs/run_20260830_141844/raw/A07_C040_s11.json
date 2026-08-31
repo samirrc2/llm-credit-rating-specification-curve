@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Weak short-term liquidity (current ratio 0.63) and a very liability-heavy balance sheet (liabilities are about 73% of assets, roughly 2.7x equity) weigh on credit quality. Still, the issuer has a large absolute equity base, positive retained earnings, and positive operating income, supporting a low-end investment-grade assessment rather than a clearly speculative one.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 280,
+ "usd": 0.020295,
+ "utc": "2026-08-30T20:11:25.344662+00:00"
+}

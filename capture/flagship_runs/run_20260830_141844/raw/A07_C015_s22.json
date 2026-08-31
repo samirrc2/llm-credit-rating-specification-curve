@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows adequate liquidity (current ratio 1.44) and a very large retained earnings base, but leverage is still fairly high (liabilities are about 78% of assets) and operating returns are modest (EBIT is only about 2.7% of assets). That mix suggests a speculative-to-low investment-grade profile, with enough financial cushion to avoid deeper junk territory but not enough earnings strength for a solid mid-investment-grade assessment.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 373,
+ "usd": 0.025875,
+ "utc": "2026-08-30T18:59:38.161724+00:00"
+}

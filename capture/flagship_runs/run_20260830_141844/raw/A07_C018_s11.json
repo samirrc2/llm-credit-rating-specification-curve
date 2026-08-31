@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears highly leveraged, with liabilities consuming about 96% of assets and equity only ~3.6% of assets, while operating profitability is very thin (EBIT roughly 2% of revenue). Although liquidity is still adequate (current ratio 1.18) and retained earnings are positive, the weak earnings cushion against such a heavy liability load supports a deeply speculative rating rather than an investment-grade profile.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 545,
+ "usd": 0.036165,
+ "utc": "2026-08-30T19:08:18.491124+00:00"
+}

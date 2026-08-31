@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB\",\"confidence\":3,\"rationale\":\"Strong profitability offsets weak liquidity, high leverage, and negative retained earnings. Balance sheet limits upside, but earnings profile supports low investment-grade credit quality.\"}",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 290,
+ "usd": 0.021345,
+ "utc": "2026-08-30T19:54:05.869585+00:00"
+}

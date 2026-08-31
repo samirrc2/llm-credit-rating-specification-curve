@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With $34 billion in revenue, substantial total assets of $73.7 billion, and a very strong equity base of $29.1 billion, the company demonstrates massive scale and financial stability. The low debt relative to equity and strong profitability (net income of $2.9 billion) further support a solid investment-grade profile, despite the structurally low gross margins typical of its sector.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 87,
+ "usd": 0.004,
+ "utc": "2026-08-30T18:56:37.551206+00:00"
+}

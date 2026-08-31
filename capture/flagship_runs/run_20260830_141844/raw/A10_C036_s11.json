@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a large asset base and solid operating margins (19%), indicating strong market positioning and profitability. However, its high total liabilities relative to equity and a current ratio below 1.0 suggest significant leverage and potential liquidity constraints, typical of capital-intensive industries. Balancing these factors, a low investment-grade rating is appropriate.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 74,
+ "usd": 0.003615,
+ "utc": "2026-08-30T20:00:04.479387+00:00"
+}

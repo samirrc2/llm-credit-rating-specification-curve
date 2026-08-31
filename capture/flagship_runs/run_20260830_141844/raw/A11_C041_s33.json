@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows meaningful leverage (liabilities about 68% of assets) and very weak liquidity by current ratio (0.55), but this is partly offset by a large equity base, substantial retained earnings, and positive operating profitability. On balance, these figures fit a lower investment-grade profile: financially solid enough to avoid speculative-grade, but not strong enough for the mid/high investment-grade categories.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 220,
+ "usd": 0.01683,
+ "utc": "2026-08-30T20:15:49.653119+00:00"
+}

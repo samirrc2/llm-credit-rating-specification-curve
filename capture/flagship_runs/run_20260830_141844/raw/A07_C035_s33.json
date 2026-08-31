@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is highly leveraged, with liabilities at about 91% of assets and a very weak current ratio of 0.42, which constrains financial flexibility. While the company remains profitable and has substantial positive retained earnings, the very thin asset-to-equity cushion and modest operating income relative to its large balance sheet are more consistent with the low end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 241,
+ "out_tok": 310,
+ "usd": 0.022215,
+ "utc": "2026-08-30T19:56:41.314773+00:00"
+}

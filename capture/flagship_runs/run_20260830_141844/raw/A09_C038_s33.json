@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":3,\"rationale\":\"Exceptional margins and earnings support strong cash generation, but weak current ratio, thin equity, and sizable liabilities indicate meaningful leverage, tempering an otherwise high-quality profile.\"}",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 285,
+ "usd": 0.021045,
+ "utc": "2026-08-30T20:06:00.015411+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer\u2019s balance sheet appears very weak for creditors: current ratio is only 0.63, retained earnings are deeply negative, and total liabilities are extremely high relative to both assets and operating income. While EBIT is positive and sizable versus revenue, the combination of poor liquidity and heavy leverage is more consistent with a speculative-grade profile rather than investment grade.\n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 387,
+ "usd": 0.02682,
+ "utc": "2026-08-30T20:04:37.479632+00:00"
+}

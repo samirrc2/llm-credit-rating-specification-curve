@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":4,\"rationale\":\"Exceptional scale, margins, and profitability support credit strength, but very weak liquidity and high balance-sheet leverage constrain the rating to lower investment grade.\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 416,
+ "usd": 0.028935,
+ "utc": "2026-08-30T19:48:07.467180+00:00"
+}

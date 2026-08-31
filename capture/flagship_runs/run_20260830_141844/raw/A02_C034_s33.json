@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong profitability with a 41% operating margin and solid net income, characteristic of a capital-intensive business like a REIT or utility (suggested by the large asset base relative to revenue). However, the weak current ratio (0.53), negative retained earnings, and relatively high leverage constrain the rating to the lower investment-grade tier. \n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 79,
+ "usd": 0.003775,
+ "utc": "2026-08-30T19:52:46.827880+00:00"
+}

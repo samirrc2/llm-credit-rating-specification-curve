@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak short-term liquidity (current ratio 0.79) and a highly leveraged balance sheet (liabilities equal to about 73% of assets), which constrains credit quality. While it remains profitable and has substantial retained earnings and equity support, the overall profile looks more consistent with a speculative-grade but not deeply distressed issuer.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 358,
+ "usd": 0.024945,
+ "utc": "2026-08-30T19:59:23.620206+00:00"
+}

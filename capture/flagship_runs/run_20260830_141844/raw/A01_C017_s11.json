@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA-\",\"confidence\":4,\"rationale\":\"Exceptional profitability, strong liquidity, and solid equity base support very high credit quality; absent debt/cash-flow detail tempers rating below strongest AA/AAA levels.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 202,
+ "usd": 0.016065,
+ "utc": "2026-08-30T19:03:47.820698+00:00"
+}

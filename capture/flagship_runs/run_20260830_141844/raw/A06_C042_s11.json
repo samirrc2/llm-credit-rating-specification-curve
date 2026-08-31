@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer is generating substantial quarterly revenue ($9.5B) and is currently profitable with positive operating and net income, indicating strong operational cash flow generation. The significant negative equity (-$8.5B) and slightly weak current ratio (0.92) are characteristic of large, mature companies that have executed massive share buybacks over time, typically resulting in an investment-grade rating in the lower-middle tier. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 272,
+ "out_tok": 92,
+ "usd": 0.00412,
+ "utc": "2026-08-30T20:17:12.103776+00:00"
+}

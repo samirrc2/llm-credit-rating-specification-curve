@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a solid balance sheet, with liabilities at about 47% of assets, a current ratio of 1.32, and very large retained earnings relative to liabilities, all of which support good financial resilience. Profitability is positive but not exceptionally strong relative to the asset base, so the profile looks more like a solid upper-medium-grade credit than a top-tier one.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 236,
+ "usd": 0.01776,
+ "utc": "2026-08-30T18:25:02.434974+00:00"
+}

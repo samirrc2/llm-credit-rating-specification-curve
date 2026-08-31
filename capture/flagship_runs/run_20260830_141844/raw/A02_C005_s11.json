@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates exceptional profitability with a gross margin of 83% and an operating margin of 48%, alongside massive scale ($17.6 billion in quarterly revenue). However, the relatively high proportion of total liabilities ($91.1 billion) to shareholders' equity ($23.8 billion) introduces some leverage risk, constraining the rating to the lower-to-mid tiers of the strong investment-grade category.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 93,
+ "usd": 0.00423,
+ "utc": "2026-08-30T18:30:28.619104+00:00"
+}

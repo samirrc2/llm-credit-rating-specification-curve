@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have a solid investment-grade profile: moderate leverage (liabilities about 59% of assets), strong accumulated earnings, and healthy operating profitability with EBIT near 30% of revenue. Liquidity is only adequate rather than strong, with a current ratio just above 1.0, so the balance of factors points to a high-quality but not top-tier credit.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 358,
+ "usd": 0.02511,
+ "utc": "2026-08-30T18:38:18.706901+00:00"
+}

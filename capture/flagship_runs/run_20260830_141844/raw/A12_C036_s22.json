@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage, weak liquidity (current ratio 0.79), and low asset turnover/EBIT margins suggest significant financial risk, though substantial equity provides some cushion.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 275,
+ "out_tok": 58,
+ "usd": 0.003115,
+ "utc": "2026-08-30T20:00:45.887869+00:00"
+}

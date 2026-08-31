@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows significant balance-sheet weakness: negative shareholders\u2019 equity of -8,465M, deeply negative retained earnings, and a sub-1.0 current ratio, indicating high leverage and weak liquidity. Although EBIT is positive at 777M on 9,532M of revenue, the asset deficit versus liabilities suggests a highly speculative credit profile with meaningful vulnerability.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 166,
+ "usd": 0.013425,
+ "utc": "2026-08-30T20:17:24.271151+00:00"
+}

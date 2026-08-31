@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"High leverage, weak asset turnover (0.06x), and very low EBIT/Assets result in a poor Altman Z-score, indicating significant financial distress risk.\"}\n```",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 275,
+ "out_tok": 57,
+ "usd": 0.003085,
+ "utc": "2026-08-30T19:34:27.893643+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with an operating margin of 42% and significant net income of $821 million on $2.7 billion in revenue. However, its high leverage (total liabilities of $52.8 billion against $3.6 billion in equity) and weak liquidity profile (current ratio of 0.63) introduce financial risk, which is characteristic of highly leveraged, asset-heavy sectors like REITs or utilities, warranting a mid-investment grade rating.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 106,
+ "usd": 0.00458,
+ "utc": "2026-08-30T20:04:25.033887+00:00"
+}

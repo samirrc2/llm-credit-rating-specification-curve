@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates substantial scale with annualized revenues exceeding $44 billion and solid profitability, reflected in a 56% gross margin and 16% operating margin. Its robust balance sheet, featuring a strong equity base of over $52 billion, moderate leverage with liabilities representing roughly half of total assets, and a healthy current ratio of 1.39, provides significant financial flexibility and supports a strong investment-grade profile. \n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 289,
+ "out_tok": 93,
+ "usd": 0.004235,
+ "utc": "2026-08-30T18:49:43.410813+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA-\",\"confidence\":4,\"rationale\":\"Exceptional margins, strong earnings, large retained equity, and moderate liabilities support very high credit quality; sub-1 current ratio and limited debt-detail constrain rating below AA/AAA.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 416,
+ "usd": 0.028905,
+ "utc": "2026-08-30T19:15:44.869498+00:00"
+}

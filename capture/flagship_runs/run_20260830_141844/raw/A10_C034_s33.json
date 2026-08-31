@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong profitability with an operating margin of 41% and positive net income, suggesting stable cash flow generation typical of capital-intensive sectors like real estate or utilities. However, the credit profile is constrained by substantial total liabilities ($43.6 billion) relative to revenue ($3.2 billion) and a weak current ratio of 0.53, indicating significant leverage and reliance on external refinancing. These factors typically align with a low investment-grade or crossover rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 282,
+ "out_tok": 104,
+ "usd": 0.00453,
+ "utc": "2026-08-30T19:54:32.599144+00:00"
+}

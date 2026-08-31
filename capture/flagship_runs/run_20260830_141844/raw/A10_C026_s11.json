@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates very strong profitability with a 72% gross margin and 30% operating margin, alongside a substantial revenue base and adequate liquidity (current ratio of 1.27). However, the high proportion of total liabilities to total assets (over 80%) indicates significant leverage, which limits the rating to the mid-to-lower investment grade tier despite the strong cash generation capacity. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 89,
+ "usd": 0.00411,
+ "utc": "2026-08-30T19:31:23.546810+00:00"
+}

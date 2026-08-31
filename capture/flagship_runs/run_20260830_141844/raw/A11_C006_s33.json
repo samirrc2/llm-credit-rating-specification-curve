@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet looks very strong for a corporate issuer: low overall leverage (liabilities about 36% of assets), substantial retained earnings, and adequate liquidity with a 1.52 current ratio. Offsetting that, operating income is only moderate relative to the large asset base, so despite the conservative capitalization, the credit profile looks more like a solid upper-medium-grade issuer than a top-tier one.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 368,
+ "usd": 0.02571,
+ "utc": "2026-08-30T18:35:32.035127+00:00"
+}

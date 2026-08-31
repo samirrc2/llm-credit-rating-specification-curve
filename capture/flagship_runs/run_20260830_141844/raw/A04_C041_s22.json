@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"High asset base and strong equity cushion, though low liquidity and asset turnover suggest a financial or real estate firm with moderate leverage.\"}\n```",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 49,
+ "usd": 0.002875,
+ "utc": "2026-08-30T20:13:47.993504+00:00"
+}

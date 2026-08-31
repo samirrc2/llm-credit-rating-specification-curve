@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Very weak liquidity (current ratio 0.63), large accumulated deficit (retained earnings of -5,086M), and thin capitalization relative to liabilities (equity of 3,652M against 52,835M of liabilities) point to a highly leveraged and vulnerable credit profile. Positive EBIT provides some support, but on balance the metrics fit a speculative-grade issuer with meaningful default risk rather than imminent failure.\n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 550,
+ "usd": 0.036495,
+ "utc": "2026-08-30T20:05:35.439383+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Large revenue and asset base, but low EBIT margin, high leverage, and a current ratio below 1 suggest a lower investment grade rating.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 270,
+ "out_tok": 52,
+ "usd": 0.00291,
+ "utc": "2026-08-30T20:20:11.247840+00:00"
+}

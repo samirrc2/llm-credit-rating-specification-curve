@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High retained earnings but elevated leverage and relatively low EBIT to total assets suggest a lower investment-grade or crossover rating.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 47,
+ "usd": 0.002815,
+ "utc": "2026-08-30T19:00:50.766199+00:00"
+}

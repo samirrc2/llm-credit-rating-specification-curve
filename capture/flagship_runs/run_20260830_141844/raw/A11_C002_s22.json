@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows exceptional near-term liquidity and a sizable equity/retained earnings base, but the balance sheet is also extremely leveraged, with total liabilities far exceeding equity and only modest operating earnings relative to the asset base. On balance, that combination looks consistent with the low end of investment grade rather than a stronger category.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 451,
+ "usd": 0.03069,
+ "utc": "2026-08-30T18:24:01.743765+00:00"
+}

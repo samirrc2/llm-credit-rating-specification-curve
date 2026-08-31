@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a very strong balance sheet with substantial total assets ($143.7B), strong capitalization (shareholders' equity of $84.1B vs total liabilities of $58.9B), and robust liquidity (current ratio of 2.04). While operating and net margins are relatively low, its massive scale and solid retained earnings cushion mitigate financial risk, supporting an upper-medium investment grade rating. \n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 94,
+ "usd": 0.00424,
+ "utc": "2026-08-30T18:29:37.081108+00:00"
+}

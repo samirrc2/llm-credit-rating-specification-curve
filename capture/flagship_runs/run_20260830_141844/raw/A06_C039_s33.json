@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With total assets exceeding $1.8 trillion and typical financial institution leverage, the company demonstrates massive scale and systemic importance. Steady profitability (net income of $4.6 billion) and solid retained earnings support a strong investment-grade profile, though the inherent leverage of its balance sheet constrains the rating from the top tiers.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 294,
+ "out_tok": 70,
+ "usd": 0.00357,
+ "utc": "2026-08-30T20:08:18.257302+00:00"
+}

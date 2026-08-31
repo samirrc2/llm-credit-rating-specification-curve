@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 3, \"rationale\": \"Strong capitalization with massive equity and retained earnings, moderate leverage, and adequate liquidity, though revenue is relatively small compared to the asset base.\"}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 277,
+ "out_tok": 50,
+ "usd": 0.002885,
+ "utc": "2026-08-30T18:33:52.945352+00:00"
+}

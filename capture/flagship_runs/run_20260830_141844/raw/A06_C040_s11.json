@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With total assets of over $192 billion, substantial shareholders' equity of $51 billion, and strong quarterly net income of $1.4 billion, the issuer demonstrates a robust financial position and strong earnings capacity. However, the relatively low current ratio and significant total liabilities suggest some liquidity and leverage risks that constrain the rating to the lower-to-middle investment grade tiers.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 83,
+ "usd": 0.00389,
+ "utc": "2026-08-30T20:11:11.439070+00:00"
+}

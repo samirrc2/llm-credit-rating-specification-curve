@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Very strong credit profile: leverage is low (liabilities/assets \u2248 40%, equity/assets \u2248 60%), liquidity is sound (current ratio 1.28), and profitability is exceptional (EBIT margin \u2248 46%). The very large retained earnings base and strong capitalization support a high-grade rating, though the current ratio is solid rather than ultra-conservative, keeping it just below the very top tier.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 227,
+ "usd": 0.017115,
+ "utc": "2026-08-30T18:51:36.464929+00:00"
+}

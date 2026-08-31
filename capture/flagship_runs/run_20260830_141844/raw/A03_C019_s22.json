@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows modest liquidity (current ratio 1.22), positive operating profitability, and a meaningful retained earnings base, which support investment-grade credit quality. However, leverage is fairly high relative to equity and assets, which constrains the rating and keeps it near the low end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 380,
+ "usd": 0.0264,
+ "utc": "2026-08-30T19:10:22.066721+00:00"
+}

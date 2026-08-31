@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company's substantial asset base, strong liquidity (current ratio of 1.39), and solid equity position support an investment-grade profile. While the operating margin of 10% is adequate, the overall financial size and profitability metrics align with a solid mid-tier investment-grade rating. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 69,
+ "usd": 0.00346,
+ "utc": "2026-08-30T19:28:51.291726+00:00"
+}

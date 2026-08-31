@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a substantial scale with annualized revenues around $36 billion and a strong asset base of $74 billion. Profitability is solid with a 10% operating margin, and liquidity is adequate as indicated by a current ratio of 1.39, though the relatively high proportion of liabilities to equity (approximately 71% of total assets) constrains the rating to the lower-to-mid investment-grade tier. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 97,
+ "usd": 0.0043,
+ "utc": "2026-08-30T19:28:46.732348+00:00"
+}

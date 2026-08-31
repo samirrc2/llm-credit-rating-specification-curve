@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB\",\"confidence\":3,\"rationale\":\"Profitable, sizable issuer with adequate liquidity and positive retained earnings, but modest margins and relatively high balance-sheet leverage constrain the rating to mid-investment-grade.\"}",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 203,
+ "usd": 0.016155,
+ "utc": "2026-08-30T19:11:32.434566+00:00"
+}

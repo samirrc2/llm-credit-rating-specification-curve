@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":3,\"rationale\":\"Exceptional profitability, strong scale, positive retained earnings, and solid liquidity support high investment grade; elevated liabilities versus equity temper an AA-range rating.\"}",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 256,
+ "out_tok": 348,
+ "usd": 0.02472,
+ "utc": "2026-08-30T18:31:10.603400+00:00"
+}

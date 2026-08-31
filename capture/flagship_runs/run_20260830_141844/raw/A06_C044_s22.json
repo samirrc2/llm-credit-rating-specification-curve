@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability and cash generation potential with a 46% operating margin and $1,010 million in quarterly revenue. However, its financial risk is highly elevated due to a significant working capital deficit (current ratio of 0.27) and a heavily leveraged balance sheet with negative shareholders' equity (-$1,920 million), placing it firmly in speculative-grade territory.\n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 89,
+ "usd": 0.00403,
+ "utc": "2026-08-30T20:22:19.906412+00:00"
+}

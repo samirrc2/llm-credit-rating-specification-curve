@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Negative shareholders\u2019 equity, liabilities exceeding assets, and a weak current ratio of 0.62 point to a stretched balance sheet and limited near-term liquidity. While EBIT of 3,230M on 5,251M of revenue shows very strong operating profitability, the capital structure weakness keeps the issuer best viewed as below investment grade but not deeply distressed.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 338,
+ "usd": 0.023775,
+ "utc": "2026-08-30T18:40:17.944572+00:00"
+}

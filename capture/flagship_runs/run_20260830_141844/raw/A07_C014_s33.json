@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows adequate liquidity (current ratio 1.30) and a meaningful equity base, but leverage is still material (liabilities are about 59% of assets) and profitability is modest (EBIT margin about 4.4%, EBIT/assets about 2.0%). That combination points to a speculative-grade but near-investment-grade profile rather than strong investment-grade credit quality.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 403,
+ "usd": 0.027675,
+ "utc": "2026-08-30T18:56:56.163094+00:00"
+}

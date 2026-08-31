@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Profitable but thin margins, sub-1 current ratio, liabilities exceeding assets, and deeply negative equity/retained earnings indicate meaningful leverage and below-investment-grade credit risk.\"}",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 324,
+ "usd": 0.023355,
+ "utc": "2026-08-30T20:17:45.469201+00:00"
+}

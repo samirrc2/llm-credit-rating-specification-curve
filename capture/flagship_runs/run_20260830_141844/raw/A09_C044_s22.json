@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":3,\"rationale\":\"Strong margins and positive earnings support debt service, but negative equity, deeply negative retained earnings, and very weak liquidity constrain the rating below investment grade.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 347,
+ "usd": 0.024735,
+ "utc": "2026-08-30T20:22:55.166362+00:00"
+}

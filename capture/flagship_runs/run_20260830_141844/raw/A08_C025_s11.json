@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB+\", \"confidence\": 3, \"rationale\": \"High leverage with total liabilities to equity at 2.47 and low ROA around 1.2%, though current ratio is adequate. Suggests speculative grade.\"}\n```",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 57,
+ "usd": 0.003035,
+ "utc": "2026-08-30T19:28:19.997868+00:00"
+}

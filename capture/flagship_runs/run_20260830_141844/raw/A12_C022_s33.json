@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High retained earnings and substantial equity suggest historical stability, but weak liquidity (CR 0.59) and low current profitability constrain the rating to lower investment grade.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 56,
+ "usd": 0.003075,
+ "utc": "2026-08-30T19:21:01.968391+00:00"
+}

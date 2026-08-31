@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows weak near-term liquidity (current ratio 0.79) and fairly high leverage, with liabilities making up roughly three-quarters of assets. While the company remains profitable at the EBIT line and has a meaningful equity base plus retained earnings, the low earnings relative to the balance-sheet size points to only modest debt-carrying capacity, consistent with a lower speculative-grade profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 381,
+ "usd": 0.02646,
+ "utc": "2026-08-30T20:00:20.555728+00:00"
+}

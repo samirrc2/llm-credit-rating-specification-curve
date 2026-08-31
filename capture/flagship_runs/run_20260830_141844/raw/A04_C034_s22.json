@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage and very weak liquidity (current ratio 0.53) are offset by strong operating margins and positive equity, indicating a speculative grade rating.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 277,
+ "out_tok": 55,
+ "usd": 0.003035,
+ "utc": "2026-08-30T19:53:08.730683+00:00"
+}

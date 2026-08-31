@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet looks solid, with moderate leverage (total liabilities/assets about 51%) and a strong equity base, while liquidity is adequate at a 1.34 current ratio. Profitability is healthy (EBIT margin about 13.8%), but without cash flow, interest coverage, or business-risk details, the profile supports a solid upper-medium-grade assessment rather than a high-single-A rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 288,
+ "usd": 0.020775,
+ "utc": "2026-08-30T18:20:00.655455+00:00"
+}

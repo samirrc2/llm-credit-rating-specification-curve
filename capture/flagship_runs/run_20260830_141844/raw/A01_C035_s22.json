@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":3,\"rationale\":\"Huge scale, strong profitability and substantial equity support investment-grade strength; however, very high balance-sheet leverage and weak current ratio constrain the rating.\"}",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 271,
+ "out_tok": 310,
+ "usd": 0.022665,
+ "utc": "2026-08-30T19:55:09.471715+00:00"
+}

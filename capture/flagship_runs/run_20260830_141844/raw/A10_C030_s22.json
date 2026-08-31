@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a strong equity cushion (nearly $19 billion) and moderate leverage, with total liabilities at roughly 47% of total assets. Furthermore, liquidity is robust with a current ratio of 2.29, and the firm maintains solid operating profitability (14% margin), which collectively support an investment-grade profile. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 76,
+ "usd": 0.003685,
+ "utc": "2026-08-30T19:42:16.234356+00:00"
+}

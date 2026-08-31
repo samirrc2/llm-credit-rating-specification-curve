@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates substantial scale, strong profitability, and excellent gross and operating margins, which are characteristic of a mature, large-cap issuer with a solid market position. However, the high total liabilities relative to equity and a very low current ratio suggest significant leverage and a reliance on continuous cash flow or refinancing to meet short-term obligations, constraining the rating to mid-investment grade.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 291,
+ "out_tok": 81,
+ "usd": 0.003885,
+ "utc": "2026-08-30T19:48:23.857103+00:00"
+}

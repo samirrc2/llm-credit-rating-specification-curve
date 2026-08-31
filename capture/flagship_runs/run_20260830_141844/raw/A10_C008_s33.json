@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates exceptional profitability with a 62% operating margin and strong net income generation ($2.375 billion for the quarter), indicating robust cash flow capabilities. Although the current ratio is below 1.0 and shareholders' equity is negative, this is primarily the result of aggressive share repurchase programs (as evidenced by the large positive retained earnings) rather than operating weakness, justifying a very strong investment-grade rating. \n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 93,
+ "usd": 0.00421,
+ "utc": "2026-08-30T18:41:21.080400+00:00"
+}

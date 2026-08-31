@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer has a substantial asset base ($143.7 billion) and a very strong equity cushion ($84.1 billion), resulting in low overall leverage and strong solvency. The excellent current ratio (2.04) provides solid liquidity, although the relatively thin operating margin (4%) restrains profitability relative to its massive scale. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 76,
+ "usd": 0.00366,
+ "utc": "2026-08-30T18:28:38.132236+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Moderate leverage, excellent EBIT margins, and adequate liquidity, offset by low asset turnover resulting in a Z-score of 1.97, typical of investment-grade profiles.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 59,
+ "usd": 0.00316,
+ "utc": "2026-08-30T18:47:19.649620+00:00"
+}

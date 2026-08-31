@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With quarterly revenues of over $12 billion and exceptionally strong gross and operating margins (72% and 30%, respectively), the issuer demonstrates massive scale and robust profitability. However, the relatively high leverage, indicated by total liabilities comprising roughly 81% of total assets, moderately constrains the rating within the investment-grade spectrum.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 75,
+ "usd": 0.00365,
+ "utc": "2026-08-30T19:30:32.755466+00:00"
+}

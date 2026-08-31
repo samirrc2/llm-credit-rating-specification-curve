@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates massive scale with over $25 billion in quarterly revenue and consistent profitability, indicative of a strong market position. However, operating margins are relatively thin (4%), and the current ratio is slightly below 1.0, suggesting some working capital tightness but manageable given the substantial equity base of $15.5 billion.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 72,
+ "usd": 0.00353,
+ "utc": "2026-08-30T20:19:45.029975+00:00"
+}

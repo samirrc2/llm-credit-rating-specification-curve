@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is very weak: total liabilities exceed total assets, shareholders\u2019 equity and retained earnings are deeply negative, and liquidity is only modest with a 1.09 current ratio. While the company remains meaningfully profitable at the EBIT level, the capital structure suggests elevated refinancing and downside risk consistent with a lower speculative-grade issuer rather than imminent distress.\n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 275,
+ "usd": 0.02013,
+ "utc": "2026-08-30T19:51:47.526451+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with an operating margin of 19% and robust net income of $2,540 million, supported by a substantial asset base of over $130 billion. However, the high total liabilities relative to shareholders' equity and a tight current ratio of 1.04 suggest elevated leverage, which constrains the rating despite significant retained earnings.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 290,
+ "out_tok": 83,
+ "usd": 0.00394,
+ "utc": "2026-08-30T19:23:31.140770+00:00"
+}

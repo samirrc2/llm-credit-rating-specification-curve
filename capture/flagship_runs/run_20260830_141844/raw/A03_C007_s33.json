@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid capitalization and profitability, with equity covering a meaningful portion of assets and EBIT margins that are strong relative to revenue. However, liquidity is only modest (current ratio just above 1.0) and the balance sheet carries substantial liabilities, which keeps the profile from the higher rating tiers.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 364,
+ "usd": 0.02544,
+ "utc": "2026-08-30T18:36:31.836965+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High retained earnings suggest maturity, but low liquidity, weak asset turnover, and low EBIT margin indicate structural challenges, supporting a lower investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 54,
+ "usd": 0.003015,
+ "utc": "2026-08-30T19:20:56.297496+00:00"
+}

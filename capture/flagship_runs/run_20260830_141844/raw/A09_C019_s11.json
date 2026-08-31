@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB\",\"confidence\":3,\"rationale\":\"Solid profitability and positive retained earnings support investment grade; however, leverage is meaningful, equity cushion modest, and liquidity only adequate.\"}",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 148,
+ "usd": 0.012855,
+ "utc": "2026-08-30T19:11:30.107172+00:00"
+}

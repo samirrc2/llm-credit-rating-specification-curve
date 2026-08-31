@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates exceptionally strong profitability with gross margins of 68% and operating margins of 42%, along with a massive asset base of over $171 billion. Its robust liquidity (current ratio of 1.71) and conservative leverage profile (equity covers nearly half of total assets) strongly support a solid investment-grade rating, though the absolute size of total liabilities keeps it out of the highest AA/AAA tiers. \n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 95,
+ "usd": 0.00429,
+ "utc": "2026-08-30T19:05:57.870231+00:00"
+}

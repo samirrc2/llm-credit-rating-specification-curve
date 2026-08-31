@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with $2.4 billion in net income on $19.1 billion in revenue and maintains solid liquidity with a current ratio of 1.44. However, the capital structure is relatively highly levered, as evidenced by total liabilities of $77.3 billion against shareholders' equity of $21.3 billion. This combination of strong earnings capacity and large scale, offset by elevated leverage, aligns with an investment-grade rating in the mid-to-low BBB tier.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 111,
+ "usd": 0.00477,
+ "utc": "2026-08-30T19:00:11.611482+00:00"
+}

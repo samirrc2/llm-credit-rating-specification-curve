@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows only breakeven short-term liquidity, very weak cumulative profitability as reflected in large negative retained earnings, and modest operating earnings relative to its asset base and liabilities. While balance-sheet leverage is not extreme given substantial book equity, the overall profile looks more consistent with a speculative-grade issuer than an investment-grade credit.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 457,
+ "usd": 0.03099,
+ "utc": "2026-08-30T20:01:37.852886+00:00"
+}

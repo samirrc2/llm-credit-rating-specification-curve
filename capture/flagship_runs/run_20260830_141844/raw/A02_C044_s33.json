@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong profitability with high gross (74%) and operating margins (46%), generating positive net income. However, the balance sheet is highly leveraged with negative shareholders' equity and a severely weak current ratio (0.27), indicating significant short-term liquidity risks and a heavy debt burden, which constrains the rating to the highly speculative tier.\n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 279,
+ "out_tok": 79,
+ "usd": 0.003765,
+ "utc": "2026-08-30T20:21:41.202758+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company's substantial asset base ($79.2 billion) and strong equity position ($21.2 billion) provide a solid financial cushion, while steady profitability and healthy operating margins (19%) demonstrate resilient cash flow generation. However, a current ratio below 1.0 (0.79) and significant total liabilities constrain the rating slightly, pointing toward a mid-to-high investment-grade profile typical of capital-intensive sectors.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 271,
+ "out_tok": 98,
+ "usd": 0.004295,
+ "utc": "2026-08-30T19:59:10.206166+00:00"
+}

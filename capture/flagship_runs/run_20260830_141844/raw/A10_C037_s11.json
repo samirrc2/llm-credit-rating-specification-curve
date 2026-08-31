@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company has a large asset base ($48.9 billion) and very strong capitalization, with shareholders' equity funding roughly 48% of total assets, indicating low leverage. While negative retained earnings and a tight current ratio (1.00) pose some risks, the solid positive operating margin (17%) and consistent net profitability support an investment-grade profile. \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 83,
+ "usd": 0.003885,
+ "utc": "2026-08-30T20:03:03.475778+00:00"
+}

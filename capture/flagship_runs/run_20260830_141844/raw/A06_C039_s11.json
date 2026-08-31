@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With over $1.8 trillion in total assets and $125 billion in equity, the financial profile is characteristic of a major, systemically important financial institution. The firm demonstrates solid profitability with $4.6 billion in net income, supporting a strong investment-grade rating despite high leverage typical of the banking sector.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 294,
+ "out_tok": 70,
+ "usd": 0.00357,
+ "utc": "2026-08-30T20:08:05.765314+00:00"
+}

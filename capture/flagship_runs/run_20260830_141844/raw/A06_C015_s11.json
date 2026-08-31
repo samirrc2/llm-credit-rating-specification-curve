@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With a strong operating margin of 14% and substantial net income of $2.4 billion, the company demonstrates robust profitability and cash generation potential. However, the relatively high total liabilities to assets ratio (78%) and high leverage offset some of this strength, though a healthy current ratio of 1.44 provides solid near-term liquidity. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 79,
+ "usd": 0.00377,
+ "utc": "2026-08-30T18:59:18.603442+00:00"
+}

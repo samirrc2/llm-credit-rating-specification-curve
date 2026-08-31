@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid near-term liquidity (current ratio 1.53), a strong equity cushion (about 46% of assets funded by equity), and substantial retained earnings, all of which support good credit quality. However, leverage is still meaningful and EBIT relative to the asset base is modest, which tempers the rating below the high-grade categories.\n\nDECISION: BBB+",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 424,
+ "usd": 0.028935,
+ "utc": "2026-08-30T18:54:13.445913+00:00"
+}

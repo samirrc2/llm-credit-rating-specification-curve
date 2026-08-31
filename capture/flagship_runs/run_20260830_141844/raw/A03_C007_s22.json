@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have a strong balance sheet with substantial equity support and very large retained earnings, alongside solid operating profitability (EBIT margin near 30%). However, liquidity is only modest (current ratio 1.07) and liabilities are still meaningful relative to assets and equity, which tempers the assessment from the very highest categories.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 286,
+ "usd": 0.02076,
+ "utc": "2026-08-30T18:36:27.282714+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak near-term liquidity (current ratio 0.53) and a leveraged balance sheet, with liabilities representing roughly three-quarters of assets and deeply negative retained earnings indicating a history of losses or heavy capital returns. Still, positive EBIT and a meaningful equity base suggest ongoing operating capacity rather than imminent distress, supporting a speculative-grade but not deeply distressed assessment.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 291,
+ "usd": 0.02106,
+ "utc": "2026-08-30T19:52:57.893509+00:00"
+}

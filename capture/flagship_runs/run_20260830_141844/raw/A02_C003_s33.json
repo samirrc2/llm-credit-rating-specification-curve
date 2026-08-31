@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits massive scale with over $122 billion in assets and strong profitability, evidenced by an 18% operating margin. Its balance sheet is exceptionally robust, with shareholders' equity exceeding total liabilities and a healthy current ratio of 1.32, indicating very low financial risk and strong liquidity. \n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 70,
+ "usd": 0.00354,
+ "utc": "2026-08-30T18:24:51.010557+00:00"
+}

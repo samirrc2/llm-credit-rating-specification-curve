@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 3, \"rationale\": \"Strong equity base with substantial retained earnings and moderate leverage, though profitability metrics relative to total assets are somewhat low.\"}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 45,
+ "usd": 0.002755,
+ "utc": "2026-08-30T18:48:14.629259+00:00"
+}

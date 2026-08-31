@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":3,\"rationale\":\"Exceptional profitability and cash-generation support strong credit quality; however, negative equity and weak current liquidity constrain rating below high-AA.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 223,
+ "usd": 0.017355,
+ "utc": "2026-08-30T18:40:56.941714+00:00"
+}

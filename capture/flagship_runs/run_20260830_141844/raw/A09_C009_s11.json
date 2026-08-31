@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA-\",\"confidence\":4,\"rationale\":\"Exceptional profitability, strong liquidity, and moderate balance-sheet leverage support very high credit quality; limited debt/cash-flow detail and earnings volatility keep it below top tiers.\"}",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 232,
+ "usd": 0.017895,
+ "utc": "2026-08-30T18:43:34.038031+00:00"
+}

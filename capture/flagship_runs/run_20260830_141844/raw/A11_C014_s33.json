@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows adequate liquidity and a meaningful equity base, but leverage is still material at roughly 59% of assets funded by liabilities, and operating profitability is thin with EBIT only about 4.4% of revenue and about 2.0% of assets. That combination points to a company with reasonable financial flexibility but limited cushion against downturns, consistent with the low end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 459,
+ "usd": 0.03117,
+ "utc": "2026-08-30T18:57:50.424501+00:00"
+}

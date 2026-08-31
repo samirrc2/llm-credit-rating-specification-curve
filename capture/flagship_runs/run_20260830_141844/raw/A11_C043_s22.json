@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet and earnings profile point to a leveraged, weakly liquid issuer: current ratio is just under 1.0, liabilities are high relative to equity, and EBIT is modest versus the asset base and revenue. While the company has meaningful retained earnings and positive equity, the thin operating profitability and weak short-term liquidity are more consistent with a speculative-grade profile than solid investment grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 389,
+ "usd": 0.02694,
+ "utc": "2026-08-30T20:20:50.822553+00:00"
+}

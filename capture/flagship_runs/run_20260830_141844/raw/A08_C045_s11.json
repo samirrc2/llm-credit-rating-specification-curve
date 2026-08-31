@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High total assets and solid EBIT margin, offset by high leverage, low current ratio, and low asset turnover, suggesting a mid-tier investment grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 272,
+ "out_tok": 54,
+ "usd": 0.00298,
+ "utc": "2026-08-30T20:25:19.619267+00:00"
+}

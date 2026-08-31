@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a very strong balance sheet and liquidity profile (current ratio 1.92, equity of 29,833M against 21,966M liabilities), plus substantial retained earnings and an exceptionally high EBIT margin of about 44%. These metrics support a high investment-grade assessment, though without stronger evidence on cash flow stability, debt servicing, and scale, the profile looks somewhat short of the very highest categories.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 306,
+ "usd": 0.021855,
+ "utc": "2026-08-30T18:45:54.172679+00:00"
+}

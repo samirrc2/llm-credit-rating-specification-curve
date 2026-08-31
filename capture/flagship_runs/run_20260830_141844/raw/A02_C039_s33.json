@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company exhibits the massive asset base ($1.8 trillion) and high leverage typical of a major, systemically important financial institution. Its strong profitability ($4.6 billion net income, 19% operating margin) and substantial equity base ($125 billion) support a strong investment-grade rating, offset slightly by the inherent risks and funding structures (current ratio of 0.83) of large-scale banking operations.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 301,
+ "out_tok": 95,
+ "usd": 0.004355,
+ "utc": "2026-08-30T20:07:23.621637+00:00"
+}

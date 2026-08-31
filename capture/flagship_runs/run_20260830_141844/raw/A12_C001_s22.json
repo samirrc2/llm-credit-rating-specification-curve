@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Moderate leverage, reasonable liquidity, but low asset turnover and profitability metrics suggest an average investment-grade profile, supporting a BBB rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 48,
+ "usd": 0.002845,
+ "utc": "2026-08-30T18:21:10.530501+00:00"
+}

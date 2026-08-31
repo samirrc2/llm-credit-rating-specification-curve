@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AAA\",\"confidence\":5,\"rationale\":\"Exceptional scale, profitability, and equity base; modest leverage, positive working capital, and historically elite balance-sheet strength support top-tier credit quality.\"}",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 437,
+ "usd": 0.030195,
+ "utc": "2026-08-30T18:37:47.471753+00:00"
+}

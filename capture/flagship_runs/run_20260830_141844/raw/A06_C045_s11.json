@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company possesses significant scale with over $117 billion in total assets and strong profitability margins (65% gross, 23% operating), which are characteristic of a large, capital-intensive infrastructure or telecom operator. However, it operates with substantial leverage (total liabilities of $84.8 billion) and a weak current ratio (0.53), typical of such industries but constraining the rating to the lower investment-grade spectrum. \n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 97,
+ "usd": 0.00429,
+ "utc": "2026-08-30T20:24:53.403498+00:00"
+}

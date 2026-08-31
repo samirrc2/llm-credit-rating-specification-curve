@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a very strong balance sheet, with shareholders\u2019 equity materially exceeding total liabilities, solid liquidity (current ratio 2.29), and positive operating earnings. While profitability and capitalization support a strong investment-grade profile, the absence of cash flow and debt-service detail argues against the very highest rating tiers.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 338,
+ "usd": 0.02388,
+ "utc": "2026-08-30T18:42:23.241077+00:00"
+}

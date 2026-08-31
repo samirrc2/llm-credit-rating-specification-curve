@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":3,\"rationale\":\"Exceptional margins and scale support strong cash generation, but very weak current ratio and high liabilities-to-assets materially constrain balance-sheet strength.\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 503,
+ "usd": 0.034125,
+ "utc": "2026-08-30T19:45:56.241798+00:00"
+}

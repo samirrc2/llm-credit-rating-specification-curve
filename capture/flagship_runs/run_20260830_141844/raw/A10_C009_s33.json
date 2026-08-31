@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates excellent profitability with an operating margin of 56% and a strong liquidity position (current ratio of 2.29). Furthermore, its balance sheet is robust with conservative leverage (total liabilities are approximately 40% of total assets), supporting a solid investment-grade profile. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 285,
+ "out_tok": 67,
+ "usd": 0.003435,
+ "utc": "2026-08-30T18:44:01.584400+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":3,\"rationale\":\"Large, profitable issuer with strong equity base, modest leverage, and solid liquidity; however, thin operating margin constrains rating above lower-A range.\"}",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 259,
+ "out_tok": 211,
+ "usd": 0.016545,
+ "utc": "2026-08-30T18:27:22.805877+00:00"
+}

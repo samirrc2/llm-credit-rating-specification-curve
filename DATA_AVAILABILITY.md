@@ -5,6 +5,10 @@ MIT. No proprietary data and no live model access are needed to reproduce the pa
 citable reproducibility artifact is deposited on Zenodo:
 **DOI [10.5281/zenodo.21953935](https://doi.org/10.5281/zenodo.21953935)**.
 
+See **[`REPRODUCIBILITY_DOCUMENTATION.pdf`](REPRODUCIBILITY_DOCUMENTATION.pdf)** for the single-file
+companion that explains the whole archive (inputs, code, one-command reproduction, verification,
+environment, licensing).
+
 ## Frozen inputs (pre-registered)
 - `data/frozen/main/battery_90.json` — the 90-item firm-quarter battery (Altman Z″ benchmark bands).
 - `config/grid_definition.json`, `config/paraphrase_templates.json`, `config/rating_scale.json` —
@@ -20,6 +24,14 @@ citable reproducibility artifact is deposited on Zenodo:
   and is excluded from the analysis but retained here in raw form for transparency.
 - `data/panel/panel.parquet` — the analysis panel built once from the raw corpus (the analysis scripts
   filter to the two confirmatory providers).
+
+## Model-tier robustness arm (flagship)
+- `capture/flagship_runs/run_20260830_141844/` — flagship-tier elicitations (`gpt-5.4` +
+  `gemini-3.1-pro-preview`) on the frozen 12-specification grid × 45 credit-health items × 3 seeds
+  (1,620 cells), frozen and fixed by `manifest/MANIFEST_FLAGSHIP.sha256`
+  (`d0084f9c…`). The matched nano/flash baseline is the frozen constructed-battery re-rating in
+  `data/raw/realarm/battery_comp_runs/`. `analysis/tier_analysis.py` computes the tier comparison
+  offline; re-querying the models is not needed to reproduce it.
 
 ## Real-firm arm
 - `data/frozen/realarm/` — anonymized perturbed battery, sealed crosswalk, rating provenance

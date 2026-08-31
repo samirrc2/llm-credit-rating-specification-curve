@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA-\",\"confidence\":3,\"rationale\":\"Large, highly profitable issuer with strong margins, earnings, and equity cushion; liquidity is adequate though not exceptional, supporting a high-grade but not top-tier rating.\"}",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 209,
+ "usd": 0.016485,
+ "utc": "2026-08-30T18:35:53.438158+00:00"
+}

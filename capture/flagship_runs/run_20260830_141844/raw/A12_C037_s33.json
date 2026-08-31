@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High negative retained earnings and extremely low asset turnover/ROA indicate weak profitability, offset partially by moderate leverage and adequate liquidity.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 275,
+ "out_tok": 49,
+ "usd": 0.002845,
+ "utc": "2026-08-30T20:03:50.887639+00:00"
+}

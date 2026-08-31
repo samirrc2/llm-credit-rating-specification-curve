@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":3,\"rationale\":\"Exceptional margins and earnings with adequate liquidity support strong investment grade; however, relatively high liabilities versus equity temper an AA-range assessment.\"}",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 351,
+ "usd": 0.025035,
+ "utc": "2026-08-30T18:32:08.562283+00:00"
+}

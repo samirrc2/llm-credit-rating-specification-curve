@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Strong liquidity (current ratio 1.55), very high operating profitability (EBIT about 48% of revenue), and substantial retained earnings support credit quality, but the balance sheet is highly leveraged with liabilities equal to about 79% of assets and debt far exceeding equity. Overall, this looks like a borderline investment-grade profile with good earnings offset by elevated leverage.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 333,
+ "usd": 0.023475,
+ "utc": "2026-08-30T18:31:45.434561+00:00"
+}

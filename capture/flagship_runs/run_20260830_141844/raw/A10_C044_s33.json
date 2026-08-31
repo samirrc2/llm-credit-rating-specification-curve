@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong profitability with a 46% operating margin and positive net income, indicating a solid core business model. However, its financial risk is highly elevated due to a severely leveraged balance sheet with negative shareholders' equity (-$1.92B) and a very weak current liquidity position (current ratio of 0.27). This combination of strong operating cash generation weighed down by significant structural debt and working capital deficits typically aligns with a highly speculative credit profile.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 280,
+ "out_tok": 102,
+ "usd": 0.00446,
+ "utc": "2026-08-30T20:23:18.070198+00:00"
+}

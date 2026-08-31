@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits exceptionally strong profitability with a 62% operating margin and significant net income, indicating a highly cash-generative core business. Although shareholders' equity is negative and the current ratio is weak (0.62), the substantial positive retained earnings ($36.1 billion) suggest the negative equity is primarily driven by aggressive share repurchases rather than accumulated losses. This combination of high cash flow stability and aggressive capital return policies typically aligns with a solid mid-to-lower investment-grade profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 110,
+ "usd": 0.00472,
+ "utc": "2026-08-30T18:41:13.032684+00:00"
+}

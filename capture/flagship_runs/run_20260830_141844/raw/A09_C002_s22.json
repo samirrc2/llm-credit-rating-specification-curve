@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA\",\"confidence\":3,\"rationale\":\"Exceptional margins, strong earnings, massive liquidity, and sizable retained earnings support very high quality; elevated liabilities versus equity temper a top-tier AAA assessment.\"}",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 280,
+ "usd": 0.020775,
+ "utc": "2026-08-30T18:23:26.687966+00:00"
+}

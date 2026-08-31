@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong profitability with an operating margin of 19% and significant scale with over $130 billion in total assets. However, leverage is relatively high, as total liabilities account for approximately 85% of total assets and the current ratio is marginal at 1.04, indicating a moderate financial risk profile typical of investment-grade companies in the lower-to-middle tiers.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 282,
+ "out_tok": 87,
+ "usd": 0.00402,
+ "utc": "2026-08-30T19:22:31.749066+00:00"
+}

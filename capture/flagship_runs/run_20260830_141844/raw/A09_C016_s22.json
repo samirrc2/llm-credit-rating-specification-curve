@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A\",\"confidence\":4,\"rationale\":\"Large-scale, consistently profitable issuer with strong margins and retained earnings; however, high liabilities relative to equity and sub-1.0 current ratio temper the rating.\"}",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 198,
+ "usd": 0.015855,
+ "utc": "2026-08-30T19:02:50.654784+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows meaningful leverage and sub-1.0 short-term liquidity, which are constraints on credit quality, but the company still has a large equity base, substantial retained earnings, and positive operating profitability. On balance, these metrics look consistent with a solid but not high-grade investment-grade issuer.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 278,
+ "usd": 0.02031,
+ "utc": "2026-08-30T19:15:14.287613+00:00"
+}

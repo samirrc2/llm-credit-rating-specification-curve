@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"High leverage and low asset turnover suggest a capital-intensive business; however, strong EBIT margins and substantial asset base support an investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 52,
+ "usd": 0.00296,
+ "utc": "2026-08-30T19:30:13.810438+00:00"
+}

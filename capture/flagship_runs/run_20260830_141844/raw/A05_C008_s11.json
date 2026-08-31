@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":3,\"rationale\":\"Exceptional margins and earnings support strong credit quality; however, negative equity and weak current ratio temper balance-sheet strength and cap the rating below AA.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 256,
+ "out_tok": 349,
+ "usd": 0.02478,
+ "utc": "2026-08-30T18:39:47.834653+00:00"
+}

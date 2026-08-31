@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows meaningful leverage, with liabilities equal to about 85% of assets and relatively thin equity, while liquidity is only modest at a 1.04 current ratio. Still, the company remains profitable at the operating level and has very large accumulated retained earnings, which supports a lower-medium investment-grade profile rather than speculative grade.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 248,
+ "usd": 0.01851,
+ "utc": "2026-08-30T19:23:41.705093+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company appears to have a strong balance sheet, with equity covering more than half of assets, substantial retained earnings, and adequate near-term liquidity. Profitability is positive but not exceptionally strong relative to the asset base, so the overall profile supports a solid investment-grade rating rather than a high-AA/AAA category.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 368,
+ "usd": 0.02571,
+ "utc": "2026-08-30T18:26:53.549362+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Negative equity, severe liquidity issues (current ratio 0.27), and high liabilities, though operating income remains positive.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 267,
+ "out_tok": 49,
+ "usd": 0.002805,
+ "utc": "2026-08-30T20:22:45.684920+00:00"
+}

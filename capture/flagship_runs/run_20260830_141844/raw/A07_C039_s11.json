@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak credit metrics: liquidity is below 1.0x (current ratio 0.83), leverage is very high (liabilities are about 93% of assets, with equity only about 7% of assets), and operating income is small relative to the asset base. Positive retained earnings and positive EBIT support some ongoing resilience, but the balance-sheet risk appears more consistent with speculative-grade credit.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 241,
+ "out_tok": 408,
+ "usd": 0.028095,
+ "utc": "2026-08-30T20:08:22.808559+00:00"
+}

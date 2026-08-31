@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High leverage with significant negative equity and total liabilities exceeding assets, though supported by positive EBIT and substantial revenue generation.\"}\n```",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 271,
+ "out_tok": 45,
+ "usd": 0.002705,
+ "utc": "2026-08-30T19:51:07.605178+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very strong operating profitability (EBIT about 61% of revenue) and substantial cumulative retained earnings, which support credit quality. However, liquidity is weak (current ratio 0.62) and the balance sheet is highly leveraged with negative equity, so despite strong earnings this looks more like a lower investment-grade profile than a high-grade one.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 247,
+ "usd": 0.01845,
+ "utc": "2026-08-30T18:41:24.046431+00:00"
+}

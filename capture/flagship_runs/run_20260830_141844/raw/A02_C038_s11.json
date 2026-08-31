@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company exhibits very strong profitability metrics with a 71% gross margin and 42% operating margin, indicating a highly defensible market position and strong cash flow generation potential. However, its financial risk profile is elevated due to substantial leverage (over $52 billion in liabilities against $63 billion in assets), a weak current ratio of 0.63, and negative retained earnings, which constrains the rating to the lower end of the investment-grade spectrum.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 103,
+ "usd": 0.00449,
+ "utc": "2026-08-30T20:04:13.006588+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have a very strong balance sheet, with high liquidity (current ratio 2.29), moderate leverage (liabilities about 40% of assets), and substantial equity support. Profitability is also solid relative to assets, supporting a low default-risk profile, though the limited information and unusual revenue/EBIT relationship argue against the very top ratings.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 411,
+ "usd": 0.02829,
+ "utc": "2026-08-30T18:44:09.691822+00:00"
+}

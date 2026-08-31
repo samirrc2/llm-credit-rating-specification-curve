@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates immense scale with annualized revenues likely around $60 billion, strong operating margins of 18%, and a massive base of retained earnings indicating a long history of robust profitability. Furthermore, its balance sheet is extremely healthy with total equity exceeding total liabilities and adequate liquidity, justifying a high investment-grade rating. \n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 71,
+ "usd": 0.00357,
+ "utc": "2026-08-30T18:24:41.112506+00:00"
+}

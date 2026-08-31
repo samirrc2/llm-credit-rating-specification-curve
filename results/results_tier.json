@@ -1,0 +1,96 @@
+{
+ "_meta": {
+  "grid": "12 specs x 45 credit items x 3 seeds",
+  "nano_flash_models": [
+   "gemini-3.5-flash",
+   "gpt-5.4-nano"
+  ],
+  "flagship_models": [
+   "gemini-3.1-pro-preview",
+   "gpt-5.4"
+  ],
+  "metric": "per-comparison flip = 1 - Gini-Simpson concentration, mean over items; issuer-clustered percentile bootstrap 95% CI (reps=2000; diff reps=5000)"
+ },
+ "tier.ighy.nano_flash": {
+  "flip": 0.2468,
+  "CI95": [
+   0.1914,
+   0.3057
+  ],
+  "n_items": 45
+ },
+ "tier.ighy.flagship": {
+  "flip": 0.236,
+  "CI95": [
+   0.1937,
+   0.2777
+  ],
+  "n_items": 45
+ },
+ "tier.ighy.diff_flagship_minus_nano": {
+  "diff": -0.0108,
+  "CI95": [
+   -0.0764,
+   0.0596
+  ],
+  "n_items": 45
+ },
+ "tier.ighy.nano_flash.openai": {
+  "flip": 0.1731,
+  "CI95": [
+   0.1174,
+   0.2272
+  ],
+  "n_items": 45
+ },
+ "tier.ighy.flagship.openai": {
+  "flip": 0.2672,
+  "CI95": [
+   0.2202,
+   0.3148
+  ],
+  "n_items": 45
+ },
+ "tier.ighy.nano_flash.google": {
+  "flip": 0.2045,
+  "CI95": [
+   0.1442,
+   0.2617
+  ],
+  "n_items": 45
+ },
+ "tier.ighy.flagship.google": {
+  "flip": 0.1671,
+  "CI95": [
+   0.1148,
+   0.2225
+  ],
+  "n_items": 45
+ },
+ "tier.band.nano_flash": {
+  "flip": 0.3047,
+  "CI95": [
+   0.243,
+   0.365
+  ],
+  "n_items": 45
+ },
+ "tier.band.flagship": {
+  "flip": 0.2516,
+  "CI95": [
+   0.2055,
+   0.2966
+  ],
+  "n_items": 45
+ },
+ "tier.band.diff_flagship_minus_nano": {
+  "diff": -0.053,
+  "CI95": [
+   -0.1189,
+   0.0132
+  ],
+  "n_items": 45
+ },
+ "tier.ig_rate.nano_flash": 0.5858,
+ "tier.ig_rate.flagship": 0.7988
+}

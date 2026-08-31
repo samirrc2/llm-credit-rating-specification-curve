@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a substantial asset base ($71.5 billion) and moderate leverage, with shareholders' equity of $25.8 billion supporting total liabilities of $45.6 billion. While profitability is relatively modest and the current ratio is below 1.0 (common in capital-intensive industries like utilities or telecom), consistent positive net income and strong retained earnings indicate stable financial health and ability to service debt.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 283,
+ "out_tok": 91,
+ "usd": 0.004145,
+ "utc": "2026-08-30T19:20:24.586857+00:00"
+}

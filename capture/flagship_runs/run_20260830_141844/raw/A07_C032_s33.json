@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very weak near-term liquidity (current ratio 0.35) and high balance-sheet leverage, with liabilities equal to about 89% of assets and equity only about 11% of assets. While it remains profitable at the operating level and has substantial retained earnings, the capital structure looks too stretched for investment-grade comfort, pointing to a speculative-grade profile.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 376,
+ "usd": 0.026055,
+ "utc": "2026-08-30T19:47:35.034596+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High leverage with liabilities at 81% of total assets, offset by strong EBIT margins of 30%, suggesting a capital-intensive but profitable profile.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 55,
+ "usd": 0.003015,
+ "utc": "2026-08-30T19:30:59.125352+00:00"
+}

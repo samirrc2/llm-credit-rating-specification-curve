@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates solid profitability with an operating margin of 15% and annualized revenue of over $16 billion, indicating strong market positioning. Its capital structure is moderately leveraged with total liabilities to equity at roughly 1.5x, though liquidity is slightly tight with a current ratio of 0.99. Overall, these metrics reflect a stable, investment-grade financial profile suitable for a mid-tier BBB rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 92,
+ "usd": 0.004165,
+ "utc": "2026-08-30T19:39:25.553579+00:00"
+}

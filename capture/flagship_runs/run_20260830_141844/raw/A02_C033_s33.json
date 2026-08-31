@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates substantial scale and strong profitability, generating over $23 billion in revenue and $1.6 billion in net income in a single quarter with healthy operating margins. While shareholders' equity is negative\u2014often the result of aggressive, debt-funded share repurchase programs\u2014the firm's robust cash generation capacity and adequate liquidity (current ratio of 1.09) comfortably support its debt obligations, indicating a solid investment-grade profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 96,
+ "usd": 0.0043,
+ "utc": "2026-08-30T19:49:43.313973+00:00"
+}

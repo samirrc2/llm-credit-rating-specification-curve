@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company has a large asset base ($71.5 billion) and moderate leverage, supported by substantial retained earnings ($36.4 billion) and consistent profitability (operating margin of 9%). However, the low current ratio (0.59) suggests potential short-term liquidity constraints typical of capital-intensive industries like utilities or telecommunications, constraining the rating to the lower-to-mid investment grade tier.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 275,
+ "out_tok": 91,
+ "usd": 0.004105,
+ "utc": "2026-08-30T19:19:25.710252+00:00"
+}

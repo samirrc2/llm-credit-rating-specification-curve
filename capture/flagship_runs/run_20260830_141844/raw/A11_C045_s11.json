@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have weak short-term liquidity (current ratio 0.53) and a fairly leveraged balance sheet, with liabilities equal to roughly 72% of assets. Still, it has substantial equity, positive retained earnings, and positive operating income, which supports a low investment-grade assessment rather than a speculative-grade one.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 398,
+ "usd": 0.02751,
+ "utc": "2026-08-30T20:26:02.831334+00:00"
+}

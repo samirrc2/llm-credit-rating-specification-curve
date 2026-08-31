@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet appears consistent with a large financial institution, where the very low current ratio is less informative than capitalization and earnings power. With equity at about 8% of assets, positive retained earnings, and solid operating profitability, the issuer looks investment-grade, though its high absolute leverage and only moderate earnings buffer against liabilities argue against the very highest categories.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 246,
+ "out_tok": 259,
+ "usd": 0.01923,
+ "utc": "2026-08-30T19:43:21.278829+00:00"
+}

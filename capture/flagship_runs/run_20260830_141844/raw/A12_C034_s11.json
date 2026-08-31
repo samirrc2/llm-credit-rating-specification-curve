@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Negative working capital, significant negative retained earnings, and very low asset turnover indicate high financial risk and weak liquidity, consistent with a B- rating.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 278,
+ "out_tok": 53,
+ "usd": 0.00298,
+ "utc": "2026-08-30T19:54:48.672915+00:00"
+}

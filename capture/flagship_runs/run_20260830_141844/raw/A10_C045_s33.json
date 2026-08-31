@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company is highly asset-intensive with large total assets relative to its quarterly revenue, indicative of a capital-intensive sector such as telecommunications, cable, or utilities. While profitability is solid with a 23% operating margin, the company operates with significant leverage (total liabilities of ~$84.8B) and a weak current ratio of 0.53, which is typical for these sectors but constrains the rating to the lower end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 101,
+ "usd": 0.00445,
+ "utc": "2026-08-30T20:25:58.240336+00:00"
+}

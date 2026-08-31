@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong revenue generation and profitability, as evidenced by an $24.5 billion top line and $1.8 billion in net income. However, its credit profile is constrained by relatively high leverage, with total liabilities accounting for nearly 78% of total assets, though a healthy current ratio of 1.22 provides adequate near-term liquidity. These factors combined typically support a mid-to-lower investment-grade rating.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 96,
+ "usd": 0.004275,
+ "utc": "2026-08-30T19:10:54.656559+00:00"
+}

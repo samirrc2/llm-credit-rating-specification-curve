@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A\",\"confidence\":3,\"rationale\":\"Likely large, systemically important financial issuer: strong profitability and substantial retained earnings offset high leverage and weak nonbank-style liquidity metrics.\"}",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 277,
+ "usd": 0.020715,
+ "utc": "2026-08-30T19:57:09.892879+00:00"
+}

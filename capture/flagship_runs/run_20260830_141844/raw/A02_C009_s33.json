@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company demonstrates exceptionally strong profitability, with an operating margin of 56% and healthy net income generation. Furthermore, its balance sheet is robust with low leverage (liabilities are less than half of total assets) and strong liquidity (current ratio of 2.29), indicative of a high-quality investment-grade profile. \n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 73,
+ "usd": 0.00361,
+ "utc": "2026-08-30T18:42:18.958842+00:00"
+}

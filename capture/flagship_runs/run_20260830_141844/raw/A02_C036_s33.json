@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a massive asset base and strong, consistent profitability with a 19% operating margin. However, the moderate-to-high leverage (liabilities to equity around 2.7x) and weak current ratio (0.79) slightly constrain the rating, placing it solidly in the mid-to-lower investment-grade tier.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 78,
+ "usd": 0.00373,
+ "utc": "2026-08-30T19:58:30.986428+00:00"
+}

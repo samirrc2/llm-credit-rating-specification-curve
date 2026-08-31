@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have a solid but not exceptional financial profile: liquidity is adequate (current ratio 1.30), equity provides a meaningful capital cushion, and retained earnings are substantial. However, leverage is still material relative to assets, and profitability is fairly modest (EBIT margin about 4.4%), which points more to lower-medium investment grade than to a stronger A-category profile.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 223,
+ "usd": 0.01698,
+ "utc": "2026-08-30T18:56:06.394311+00:00"
+}

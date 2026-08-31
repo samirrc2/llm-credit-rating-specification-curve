@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a strong balance sheet, with moderate leverage (total liabilities well below equity), a solid current ratio of 1.52, and very large retained earnings relative to its size, all of which support good financial resilience. However, EBIT is modest relative to the asset base and only moderate relative to liabilities, which tempers the rating from the high-grade categories.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 251,
+ "usd": 0.01866,
+ "utc": "2026-08-30T18:33:44.513078+00:00"
+}

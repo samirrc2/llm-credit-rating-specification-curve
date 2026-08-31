@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":3,\"rationale\":\"Solid profitability, good liquidity, and sizable equity support investment grade; however, leverage is moderate and limited cash-flow/debt detail constrains a higher rating.\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 259,
+ "out_tok": 303,
+ "usd": 0.022065,
+ "utc": "2026-08-30T19:28:36.085616+00:00"
+}

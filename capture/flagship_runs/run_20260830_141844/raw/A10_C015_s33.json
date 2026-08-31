@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a 14% operating margin and robust net income of $2.4 billion, supported by a healthy liquidity position with a current ratio of 1.44. However, the capital structure is highly leveraged due to substantial total liabilities ($77.3 billion) relative to shareholders' equity ($21.3 billion), which is typical for capital-intensive companies with captive finance arms but constrains the rating from the highest tiers. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 102,
+ "usd": 0.0045,
+ "utc": "2026-08-30T19:00:25.781016+00:00"
+}

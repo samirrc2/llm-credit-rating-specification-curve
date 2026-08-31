@@ -5,32 +5,54 @@ Reproducibility artifact for the manuscript of the same title (target journal: I
 **Authors:** Samir Chincholikar (Independent researcher, New York, USA) · Robin Chawla (Independent researcher, New York, USA, corresponding author)
 **ORCID:** [0009-0007-2779-3492](https://orcid.org/0009-0007-2779-3492) · [0009-0007-2807-3948](https://orcid.org/0009-0007-2807-3948)
 **Contact:** robin.chawla.cse14@iitbhu.ac.in · samir.chincholikar@gmail.com
-**Repository:** https://github.com/samirrc2/Sensitivity-of-AI-Generated-Credit-Ratings-to-Elicitation-Choices
+**Repository:** https://github.com/samirrc2/llm-credit-rating-specification-curve
 **Zenodo DOI:** [10.5281/zenodo.21953935](https://doi.org/10.5281/zenodo.21953935)
 
-Every number, table, and figure regenerates from a **frozen response corpus** (90-item battery ×
-48 specifications × 3 seeds ≈ 12,960 elicitations across three model families) plus a
-**decontaminated real-firm robustness arm** (31 anonymized, perturbed issuers benchmarked to
-disclosed agency ratings) — **offline, with no API calls and at zero cost.**
+## Reproducibility documentation
+
+[`REPRODUCIBILITY_DOCUMENTATION.pdf`](REPRODUCIBILITY_DOCUMENTATION.pdf) is a single, self-contained
+companion describing the entire archive: data inputs and provenance, every analysis script and its
+outputs, the one-command offline reproduction, the verification and determinism procedure, the pinned
+environment, and licensing. It is also included in the Zenodo deposit.
+
+Every number, table, and figure regenerates from **frozen response corpora** — **offline, with no API
+calls and at zero cost.** The study comprises:
+
+- **Confirmatory experiment (two providers, OpenAI + Google):** a fixed 90-item firm-profile battery ×
+  32-specification factorial grid × 3 seeds = **8,640 elicitations** across four model snapshots, with an
+  objective Altman Z″ benchmark. (The released raw corpus additionally retains an excluded third-provider
+  pilot for transparency; the confirmatory analysis uses only the two providers with complete coverage.)
+- **Decontaminated real-firm arm:** 31 anonymized, perturbed issuers benchmarked to disclosed agency
+  ratings, under a pre-registered fingerprinting gate.
+- **Flagship model-tier robustness arm (post-hoc):** `gpt-5.4` + `gemini-3.1-pro-preview` on the frozen
+  12-specification grid × 45 credit-health items × 3 seeds = **1,620 elicitations**, fixed by
+  `MANIFEST_FLAGSHIP.sha256`.
+- **A deployable control:** a *specification-instability score* (SIS), validated on held-out
+  specifications (ROC-AUC 0.94; ROC-AUC 0.70 on the real-issuer arm), with a self-consistency curve and a
+  per-issuer cost model.
 
 ## Repository layout
 ```
+REPRODUCIBILITY_DOCUMENTATION.pdf  # single-file companion documenting the whole archive
 config/            # grid, paraphrase templates, rating scale, run config
-capture/           # collection code (agent/orchestrator, real-firm collector) — NOT needed to reproduce
-analysis/          # confirmatory analysis: run_analysis, capital, market, addenda,
-                   #   benchmark_validation, analyze_realarm  (all offline)
+capture/           # collection code (NOT needed to reproduce): main collector, real-firm collector,
+                   #   run_flagship.py (flagship arm), freeze_flagship.py, list_models.py
+analysis/          # offline analysis:
+                   #   run_analysis, capital_analysis, market_analysis, addenda, benchmark_validation,
+                   #   analyze_realarm, tier_analysis (flagship vs nano/flash),
+                   #   extended_analysis (SIS validation, self-consistency, weighted agreement, cost),
+                   #   make_figures, make_extended_figures
 data/
   frozen/main/     # battery_90, grid, capital_map, rating_scale, manifests (pre-registered inputs)
   frozen/realarm/  # real-firm arm frozen artifacts (battery, sealed crosswalk, provenance, spec grid)
   frozen/market_data/  # FRED spread series (cached)
   raw/main/        # frozen response corpus (per-call JSON)
-  raw/realarm/     # real-firm arm model-output run panels (arm/comparator/fingerprint)
+  raw/realarm/     # real-firm arm model-output panels (arm/comparator/fingerprint)
   panel/           # panel.parquet (built once from raw; the analysis input)
-results/           # regenerated results_*.json, H1_results.json, exhibits/ (figures + tables)
-paper/
-  scientific_reports/  # Scientific Reports manuscript (sn-jnl template) + figures + cover letter
+results/           # regenerated results_*.json (incl. results_tier, results_extended) + exhibits
+paper/ISWA/        # manuscript (Elsevier CAS single-column), figures, highlights, cover letter, .docx
 docs/              # reports, appendix D, changelog
-manifest/          # SHA-256 manifests for every frozen stage
+manifest/          # SHA-256 manifests for every frozen stage (incl. MANIFEST_FLAGSHIP)
 PREREGISTRATION.md, PREREGISTRATION_AMENDMENTS.md
 README.md, LICENSE, CITATION.cff, DATA_AVAILABILITY.md, reproduce.sh
 ```
@@ -40,20 +62,24 @@ README.md, LICENSE, CITATION.cff, DATA_AVAILABILITY.md, reproduce.sh
 pip install -r requirements.txt   # numpy, pandas, pyarrow, statsmodels (pinned; Python 3.10)
 bash reproduce.sh
 ```
-All `results/results_*.json`, `results/H1_results.json`, and `results/exhibits/*` regenerate
-byte-for-byte from the frozen data (verified in a clean virtualenv from the pinned
-`requirements.txt`). No network access is required. Confirmatory headline:
-`primary Δκ(HOM−HET) = 0.336`; real-arm WATCH-stratum flip-share difference `−0.09 (95% CI −0.21, 0.03; not distinguishable from zero)`.
+All `results/results_*.json` regenerate byte-for-byte from the frozen data (verified in a clean
+virtualenv from the pinned `requirements.txt`); no network access is required. Headline results:
+per-comparison IG/HY flip **25.2%** (95% CI 19.7–31.2); pure within-cell seed variance **8.1%**;
+determinism-subgrid permutation **p = 0.001**; flagship tier shows **no evidence of attenuation**
+(paired Δ −1.1 pp, 95% CI −7.6 to +6.0); SIS validation **ROC-AUC 0.94** (held-out specifications).
 
 ## Notes
-- `capture/` is provided for transparency only; reproduction never calls a model API.
-- The disposable SEC 10-K / company-facts cache used to *build* the real-firm battery is not shipped
-  and is **not needed to reproduce any result**. It is re-fetchable for free from the public SEC
-  EDGAR system (keyless; a descriptive `User-Agent` header is the only requirement,
+- `capture/` is provided for transparency only; reproduction never calls a model API. Provider API keys
+  are required solely to *collect* a corpus and are never committed (`.gitignore` blocks `keys.env.txt`
+  and any `API Keys/` folder).
+- The disposable SEC 10-K / company-facts cache used to *build* the real-firm battery is not shipped and
+  is **not needed to reproduce any result**. It is re-fetchable for free from the public SEC EDGAR system
+  (keyless; a descriptive `User-Agent` header is the only requirement,
   <https://www.sec.gov/os/webmaster-faq#developers>):
-  - **10-K filings** — the permanent document URL for every issuer is in the `url` column of
-    `data/frozen/realarm/ratings_provenance.csv` (e.g. `https://www.sec.gov/Archives/edgar/data/<CIK>/<ACCESSION>/<doc>.htm`); the `efts_verify` column gives the matching EDGAR full-text-search link.
+  - **10-K filings** — permanent document URLs are in the `url` column of
+    `data/frozen/realarm/ratings_provenance.csv`; the `efts_verify` column gives the matching EDGAR
+    full-text-search link.
   - **Company facts (XBRL)** — `https://data.sec.gov/api/xbrl/companyfacts/CIK<10-digit-CIK>.json`
   - **Filing index / submissions** — `https://data.sec.gov/submissions/CIK<10-digit-CIK>.json`
-  The collector that rebuilds the cache from these endpoints is `capture/realarm_collect.py`.
+  The collector that rebuilds the cache is `capture/realarm_collect.py`.
 - Manifest hashes in `manifest/` fix every frozen stage.

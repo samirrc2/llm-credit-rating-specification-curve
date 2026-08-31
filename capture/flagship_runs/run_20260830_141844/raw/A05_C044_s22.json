@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB\",\"confidence\":3,\"rationale\":\"Exceptional margins and profitability support debt service, but negative equity, deeply negative retained earnings, and very weak current ratio indicate meaningful balance-sheet and liquidity risk.\"}",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 252,
+ "out_tok": 299,
+ "usd": 0.02172,
+ "utc": "2026-08-30T20:22:08.275828+00:00"
+}

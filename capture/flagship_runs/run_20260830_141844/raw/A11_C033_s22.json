@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears highly leveraged: total liabilities exceed total assets, shareholders\u2019 equity is negative, and retained earnings are deeply negative, all of which are strong signs of balance-sheet weakness. While EBIT is solidly positive and liquidity is just above 1x, the capital structure points to a highly speculative credit profile rather than investment grade.\n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 523,
+ "usd": 0.03501,
+ "utc": "2026-08-30T19:51:53.487264+00:00"
+}

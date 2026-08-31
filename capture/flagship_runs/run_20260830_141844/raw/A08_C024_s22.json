@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 2, \"rationale\": \"High asset base and strong equity capitalization are offset by very low profitability and a current ratio below 1.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 268,
+ "out_tok": 44,
+ "usd": 0.00266,
+ "utc": "2026-08-30T19:25:43.932604+00:00"
+}

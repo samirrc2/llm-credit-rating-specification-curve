@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High current ratio and strong EBIT margin are offset by very high total leverage (90% of assets) and low return on assets.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 51,
+ "usd": 0.00291,
+ "utc": "2026-08-30T18:23:10.070792+00:00"
+}

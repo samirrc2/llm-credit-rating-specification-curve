@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High total liabilities resulting in negative equity indicate significant leverage, though positive EBIT and adequate current ratio provide some offset, pointing to speculative grade.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 278,
+ "out_tok": 50,
+ "usd": 0.00289,
+ "utc": "2026-08-30T19:50:11.046617+00:00"
+}

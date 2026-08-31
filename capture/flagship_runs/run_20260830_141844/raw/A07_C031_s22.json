@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Very weak liquidity (current ratio 0.34) and extremely high leverage (liabilities are about 92% of assets; equity is only about 8% of assets) materially constrain credit quality, despite positive retained earnings and modest operating profitability. The issuer appears vulnerable to funding stress and balance-sheet shocks, which is more consistent with speculative-grade credit than investment grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 239,
+ "out_tok": 273,
+ "usd": 0.019965,
+ "utc": "2026-08-30T19:44:18.470115+00:00"
+}

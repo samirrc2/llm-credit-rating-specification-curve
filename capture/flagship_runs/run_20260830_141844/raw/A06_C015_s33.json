@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong profitability with an operating margin of 14% and a solid net income of $2,401 million. However, the leverage is somewhat elevated, with total liabilities of $77,267 million compared to shareholders' equity of $21,318 million, offset by adequate liquidity (current ratio of 1.44) and substantial retained earnings, supporting a solid investment-grade profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 96,
+ "usd": 0.00428,
+ "utc": "2026-08-30T18:59:28.661353+00:00"
+}

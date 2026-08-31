@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":4,\"rationale\":\"Exceptional margins and earnings support solid debt service, but weak current ratio, high liabilities, thin equity, and negative retained earnings constrain the rating.\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 261,
+ "out_tok": 253,
+ "usd": 0.019095,
+ "utc": "2026-08-30T20:03:55.039204+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB\",\"confidence\":3,\"rationale\":\"Profitable operations support debt service, but negative equity, liabilities exceeding assets, sub-1 current ratio, and accumulated deficits indicate elevated leverage and balance-sheet risk.\"}",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 285,
+ "usd": 0.021015,
+ "utc": "2026-08-30T20:17:51.098407+00:00"
+}

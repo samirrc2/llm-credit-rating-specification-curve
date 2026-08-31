@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows adequate near-term liquidity (current ratio 1.44) and a sizeable retained earnings base, but balance-sheet leverage is fairly high (liabilities about 78% of assets; liabilities/equity about 3.6x) and operating returns are only moderate (EBIT margin about 14%, EBIT/assets about 2.7%). Overall, that supports a lower investment-grade profile rather than a strong single-A or above rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 471,
+ "usd": 0.031755,
+ "utc": "2026-08-30T18:59:33.930559+00:00"
+}

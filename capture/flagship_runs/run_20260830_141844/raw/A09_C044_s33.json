@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB\",\"confidence\":4,\"rationale\":\"Asset-light franchisor economics support strong margins and cash flow, but negative equity, weak liquidity, and high liabilities constrain rating to low investment grade.\"}",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 261,
+ "out_tok": 280,
+ "usd": 0.020715,
+ "utc": "2026-08-30T20:22:58.796901+00:00"
+}

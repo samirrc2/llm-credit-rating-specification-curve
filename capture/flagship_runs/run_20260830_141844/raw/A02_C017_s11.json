@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company demonstrates exceptional financial health, characterized by a massive asset base ($171 billion), robust profitability with an operating margin of 42%, and a solid current ratio of 1.71. The strong equity position ($81.3 billion) relative to liabilities and significant net income indicate superior capacity to meet financial commitments, warranting a high investment-grade rating.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 287,
+ "out_tok": 83,
+ "usd": 0.003925,
+ "utc": "2026-08-30T19:03:59.595379+00:00"
+}

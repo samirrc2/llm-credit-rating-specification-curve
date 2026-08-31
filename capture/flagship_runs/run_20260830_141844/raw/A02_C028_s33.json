@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With immense scale (total assets over $916 billion), highly robust profitability (net income of $30.2 billion), and a very strong balance sheet with shareholders' equity of nearly $442 billion, the issuer possesses exceptional financial flexibility and capacity to meet its obligations. The healthy current ratio and massive retained earnings further underscore its elite credit quality, typical of mega-cap industry leaders.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 296,
+ "out_tok": 87,
+ "usd": 0.00409,
+ "utc": "2026-08-30T19:35:10.088079+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company demonstrates solid profitability with over $24 billion in revenue and an 11% operating margin, along with a positive net income of $1.79 billion. While liquidity is adequate (current ratio of 1.22), the company has a moderately high leverage profile, with total liabilities making up about 78% of total assets, positioning its credit risk in the lower-investment-grade tier.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 286,
+ "out_tok": 92,
+ "usd": 0.00419,
+ "utc": "2026-08-30T19:10:12.237215+00:00"
+}

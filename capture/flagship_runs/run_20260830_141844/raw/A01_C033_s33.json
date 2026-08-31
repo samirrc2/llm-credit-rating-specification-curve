@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB\",\"confidence\":4,\"rationale\":\"Large scale and solid profitability support creditworthiness, but negative equity, negative retained earnings, and liabilities exceeding assets constrain the rating to low investment grade.\"}",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 161,
+ "usd": 0.013605,
+ "utc": "2026-08-30T19:49:22.886765+00:00"
+}

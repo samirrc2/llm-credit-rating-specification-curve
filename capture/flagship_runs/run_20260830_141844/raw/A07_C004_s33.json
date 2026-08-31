@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Strong liquidity (current ratio 2.04) and a conservative balance sheet (equity of 84,113M versus liabilities of 58,979M) support solid credit quality, with sizable retained earnings adding resilience. However, profitability is relatively weak for the asset base (EBIT 941M on 143,724M of assets and 22,387M of revenue), which tempers the rating into the low investment-grade range.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 231,
+ "out_tok": 424,
+ "usd": 0.028905,
+ "utc": "2026-08-30T18:28:52.669249+00:00"
+}

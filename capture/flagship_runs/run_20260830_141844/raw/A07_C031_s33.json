@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Very weak liquidity (current ratio 0.34) and a highly leveraged balance sheet (liabilities are about 92% of assets; equity is only about 8% of assets) materially constrain credit quality. While the company remains profitable at the operating level, the combination of thin capitalization and poor near-term coverage is more consistent with a speculative-grade issuer in the lower BB/high B area.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 239,
+ "out_tok": 301,
+ "usd": 0.021645,
+ "utc": "2026-08-30T19:44:22.388337+00:00"
+}

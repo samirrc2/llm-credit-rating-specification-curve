@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong financial health, characterized by a substantial asset base ($113.3B), healthy profitability with a 17% operating margin, and a solid liquidity position (current ratio of 1.53). Total liabilities are well-covered by shareholders' equity ($51.9B) and retained earnings ($60.6B), indicating moderate leverage and strong capacity to meet financial commitments, aligning with a solid investment-grade profile.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 289,
+ "out_tok": 99,
+ "usd": 0.004415,
+ "utc": "2026-08-30T18:54:53.075382+00:00"
+}

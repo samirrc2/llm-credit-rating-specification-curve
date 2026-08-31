@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows weak near-term liquidity (current ratio 0.79) and fairly high leverage (liabilities about 73% of assets; liabilities/equity about 2.7x), which constrain credit quality. Still, the company has a meaningful equity base, positive retained earnings, and positive operating income, supporting a low investment-grade assessment rather than a speculative-grade one.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 472,
+ "usd": 0.03192,
+ "utc": "2026-08-30T20:00:25.983677+00:00"
+}

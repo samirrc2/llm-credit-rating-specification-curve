@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet looks solid for an investment-grade issuer: liquidity is adequate (current ratio 1.39), equity is substantial relative to liabilities, and retained earnings are strong, indicating meaningful accumulated capital and resilience. However, EBIT is modest relative to the very large asset base, which points to only moderate operating strength and supports a mid-to-lower investment-grade assessment rather than a high-grade one.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 392,
+ "usd": 0.02712,
+ "utc": "2026-08-30T18:48:04.389241+00:00"
+}

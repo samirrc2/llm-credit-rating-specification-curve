@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a very strong balance sheet, with low leverage (liabilities/assets ~36%), high equity support, positive retained earnings, and solid liquidity (current ratio 1.52). While operating profitability is positive and margins are healthy, EBIT is modest relative to the large asset base, which supports a strong but not top-tier investment-grade assessment.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 439,
+ "usd": 0.029835,
+ "utc": "2026-08-30T18:34:33.683519+00:00"
+}

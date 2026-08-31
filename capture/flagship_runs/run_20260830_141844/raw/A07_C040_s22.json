@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak near-term liquidity (current ratio 0.63) and high balance-sheet leverage (liabilities are about 73% of assets), which constrains credit quality. Offsetting that, it remains profitable at the operating level and has substantial positive equity and retained earnings, supporting a low investment-grade but vulnerable profile.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 284,
+ "usd": 0.020535,
+ "utc": "2026-08-30T20:11:28.798571+00:00"
+}

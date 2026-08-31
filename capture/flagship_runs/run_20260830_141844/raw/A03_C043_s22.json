@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet looks moderately stretched for the earnings base: current ratio is slightly below 1.0, total liabilities are high relative to equity, and EBIT margin is thin at about 3.8%, which limits cushion against downturns. Positive retained earnings and a still-meaningful equity base support credit quality, but overall the metrics fit a speculative-grade profile near the investment-grade boundary.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 402,
+ "usd": 0.02769,
+ "utc": "2026-08-30T20:19:09.130666+00:00"
+}

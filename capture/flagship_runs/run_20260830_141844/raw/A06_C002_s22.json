@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates exceptional profitability with an 89% gross margin and 44% operating margin, generating significant net income. Furthermore, its massive liquidity position, evidenced by a 12.41 current ratio and massive current assets, provides an extremely strong buffer against its substantial total liabilities. \n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 283,
+ "out_tok": 67,
+ "usd": 0.003425,
+ "utc": "2026-08-30T18:22:45.173772+00:00"
+}

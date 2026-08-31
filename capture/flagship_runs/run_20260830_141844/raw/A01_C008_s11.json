@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA-\",\"confidence\":4,\"rationale\":\"Exceptional profitability and likely strong cash generation support high quality; negative equity and weak current ratio reflect capital structure, tempering rating below higher AA.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 238,
+ "usd": 0.018225,
+ "utc": "2026-08-30T18:38:43.526335+00:00"
+}

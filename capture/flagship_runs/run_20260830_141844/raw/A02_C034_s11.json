@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong profitability with high operating margins (41%) and a substantial asset base, indicating a strong market position and stable cash flow generation typical of capital-intensive sectors like utilities, REITs, or telecommunications. However, the high leverage (liabilities of $43.5 billion vs. equity of $12.8 billion), significant negative retained earnings, and weak liquidity (current ratio of 0.53) constrain the rating to the lower end of investment grade. \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 107,
+ "usd": 0.004615,
+ "utc": "2026-08-30T19:52:32.876738+00:00"
+}

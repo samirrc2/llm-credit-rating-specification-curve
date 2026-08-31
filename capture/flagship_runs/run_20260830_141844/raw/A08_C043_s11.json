@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 2, \"rationale\": \"High leverage, tight liquidity with a current ratio below 1, and very low operating margins suggest a borderline investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 270,
+ "out_tok": 50,
+ "usd": 0.00285,
+ "utc": "2026-08-30T20:20:06.058197+00:00"
+}

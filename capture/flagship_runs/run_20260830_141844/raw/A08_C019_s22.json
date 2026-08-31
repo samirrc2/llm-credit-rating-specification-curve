@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High total liabilities relative to equity and EBIT indicate significant leverage, but large scale and substantial retained earnings support an investment-grade rating.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 49,
+ "usd": 0.002835,
+ "utc": "2026-08-30T19:11:23.159728+00:00"
+}

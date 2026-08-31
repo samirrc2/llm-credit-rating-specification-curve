@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":3,\"rationale\":\"Solid profitability, adequate liquidity, and strong retained earnings support investment grade; however, sizable liabilities and moderate equity cushion constrain the rating.\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 312,
+ "usd": 0.022695,
+ "utc": "2026-08-30T19:00:00.833680+00:00"
+}

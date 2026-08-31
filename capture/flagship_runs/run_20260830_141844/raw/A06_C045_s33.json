@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates robust profitability with a 65% gross margin and 23% operating margin, generating significant net income on a large asset base. However, the substantial debt load reflected in total liabilities of $84.8 billion and a weak current ratio of 0.53 indicate material leverage and liquidity constraints, characteristic of capital-intensive sectors. These factors balance out to an investment-grade rating in the lower-middle tier.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 96,
+ "usd": 0.00426,
+ "utc": "2026-08-30T20:25:03.748819+00:00"
+}

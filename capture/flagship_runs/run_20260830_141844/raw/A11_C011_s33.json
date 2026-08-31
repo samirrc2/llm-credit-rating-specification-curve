@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet looks solid for an investment-grade issuer: liquidity is adequate (current ratio 1.39), equity covers a large portion of assets, and retained earnings are very strong relative to the asset base. Offsetting that, operating income is only moderate versus the large liability load and asset base, which tempers the rating into the mid-investment-grade range rather than the high-A/AA category.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 403,
+ "usd": 0.02781,
+ "utc": "2026-08-30T18:49:56.211926+00:00"
+}

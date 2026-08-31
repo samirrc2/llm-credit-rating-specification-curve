@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows meaningful leverage (liabilities/assets about 78%, equity/liabilities about 29%) and only modest liquidity (current ratio 1.22), while profitability is positive but not especially strong (EBIT margin about 10.5%, EBIT/assets about 3.5%). Those figures fit a speculative-grade but near-investment-grade profile, with enough earnings and retained capital to avoid a lower rating but not enough strength for solid BBB territory.\n\nDECISION: BB+",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 356,
+ "usd": 0.024855,
+ "utc": "2026-08-30T19:11:07.566793+00:00"
+}

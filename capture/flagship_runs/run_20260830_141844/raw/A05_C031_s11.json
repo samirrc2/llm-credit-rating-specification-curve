@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":3,\"rationale\":\"Large, consistently profitable financial profile with strong retained earnings and equity base; however, very high leverage and weak current ratio constrain rating below AA.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 274,
+ "usd": 0.02037,
+ "utc": "2026-08-30T19:43:47.601327+00:00"
+}

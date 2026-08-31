@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA\",\"confidence\":3,\"rationale\":\"Exceptional scale, profitability, and retained earnings with solid equity cushion; leverage appears moderate. Near-1x current ratio and absent debt/cash-flow detail temper to AA.\"}",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 256,
+ "out_tok": 148,
+ "usd": 0.01272,
+ "utc": "2026-08-30T18:36:53.695962+00:00"
+}

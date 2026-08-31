@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows adequate near-term liquidity (current ratio 1.39) and a meaningful equity base, but leverage is still substantial with liabilities at about 71% of assets and operating profitability relatively modest (EBIT of 886M on 73,988M of assets). With retained earnings at zero and only moderate earnings cushion, this looks more like a lower-tier investment-grade credit than a strongly capitalized issuer.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 236,
+ "out_tok": 367,
+ "usd": 0.02556,
+ "utc": "2026-08-30T19:27:18.498328+00:00"
+}

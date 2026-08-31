@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a large scale of operations with annualized revenues of over $36 billion and healthy profitability (39% gross margin and 10% operating margin). Its liquidity position is adequate with a current ratio of 1.39, though the relatively high proportion of total liabilities to equity ($52.6B to $21.3B) indicates moderate leverage, supporting a mid-to-lower investment-grade rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 277,
+ "out_tok": 96,
+ "usd": 0.004265,
+ "utc": "2026-08-30T19:27:09.384859+00:00"
+}

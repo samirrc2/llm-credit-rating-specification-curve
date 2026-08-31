@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a high operating margin of 42% and positive net income, which supports its ability to service obligations. However, its highly leveraged balance sheet, marked by total liabilities of $52.8 billion, a weak current ratio of 0.63, and negative retained earnings, introduces significant financial risk. \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 273,
+ "out_tok": 76,
+ "usd": 0.003645,
+ "utc": "2026-08-30T20:05:14.490926+00:00"
+}

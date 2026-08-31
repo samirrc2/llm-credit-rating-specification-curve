@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates colossal scale with over $181 billion in revenue and a massive asset base of $916 billion, supported by exceptionally strong capitalization (equity of $441 billion). Its robust profitability, highlighted by a 52% gross margin and substantial net income, along with a healthy current ratio, indicates exceptional financial flexibility and low credit risk.\n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 297,
+ "out_tok": 79,
+ "usd": 0.003855,
+ "utc": "2026-08-30T19:37:03.822056+00:00"
+}

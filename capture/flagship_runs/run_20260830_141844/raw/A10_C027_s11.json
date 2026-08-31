@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a 51% gross margin and 24% operating margin, generating significant operating and net income. However, its total liabilities are relatively high compared to its equity and annualized revenue, though the current ratio of 1.18 indicates adequate short-term liquidity. This balance of strong earnings generation against moderate leverage is consistent with a solid investment-grade profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 86,
+ "usd": 0.003975,
+ "utc": "2026-08-30T19:34:01.734567+00:00"
+}

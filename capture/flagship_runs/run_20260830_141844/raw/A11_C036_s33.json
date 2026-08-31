@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows weak near-term liquidity (current ratio 0.79) and a heavy liability load relative to earnings capacity, with total liabilities at about 73% of assets while EBIT is modest versus the asset base. Positive retained earnings and a meaningful equity cushion support some stability, but on these figures alone the credit profile looks more like a lower speculative-grade issuer than investment grade.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 483,
+ "usd": 0.03258,
+ "utc": "2026-08-30T20:00:32.713770+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer\u2019s balance sheet is very weak: liabilities exceed assets, shareholders\u2019 equity and retained earnings are deeply negative, and the current ratio below 1.0 points to constrained liquidity. While positive EBIT on a sizable revenue base supports ongoing operations, the capital structure appears highly leveraged and vulnerable, consistent with a highly speculative profile rather than imminent default.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 220,
+ "usd": 0.01677,
+ "utc": "2026-08-30T20:16:40.034486+00:00"
+}

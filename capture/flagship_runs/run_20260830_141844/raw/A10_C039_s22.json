@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company's massive asset base of over $1.8 trillion paired with $125 billion in equity suggests a large, systemically important financial institution or bank, which typically benefits from implicit or explicit institutional support. While profitability metrics like ROA and ROE are relatively modest for the asset size, the substantial equity cushion, massive scale, and stable operating margins support an investment-grade rating profile typical of major financial institutions. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 302,
+ "out_tok": 94,
+ "usd": 0.00433,
+ "utc": "2026-08-30T20:09:14.270664+00:00"
+}

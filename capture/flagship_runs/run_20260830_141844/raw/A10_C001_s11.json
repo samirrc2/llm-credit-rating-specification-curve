@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong financial health with large scale (annualized revenue of ~$72 billion), solid profitability (14% operating margin), and a conservative capital structure (liabilities represent only about 51% of total assets). Its healthy liquidity (current ratio of 1.34) and substantial retained earnings further support a robust investment-grade profile, though the moderate gross margin restrains it from the highest rating tiers.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 92,
+ "usd": 0.0042,
+ "utc": "2026-08-30T18:20:34.689231+00:00"
+}

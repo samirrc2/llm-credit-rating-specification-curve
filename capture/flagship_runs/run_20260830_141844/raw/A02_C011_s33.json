@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a robust financial profile characterized by a large asset base ($110B), strong capitalization with substantial shareholders' equity ($52B), and high profitability (56% gross margin, 16% operating margin). Its moderate leverage and healthy liquidity (current ratio of 1.39) combined with a massive retained earnings cushion ($49.9B) indicate significant stability and capacity to meet financial obligations, aligning with a solid upper-medium investment-grade rating.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 105,
+ "usd": 0.00459,
+ "utc": "2026-08-30T18:47:47.800359+00:00"
+}

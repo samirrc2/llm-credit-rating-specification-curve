@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 3, \"rationale\": \"High operating margin (29%), moderate leverage (58% liabilities to assets), and significant retained earnings indicate strong financial health and debt service capacity.\"}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 53,
+ "usd": 0.00301,
+ "utc": "2026-08-30T18:38:40.511251+00:00"
+}

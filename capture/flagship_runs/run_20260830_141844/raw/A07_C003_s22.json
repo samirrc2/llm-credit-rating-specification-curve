@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows solid balance-sheet strength, with liabilities at about 47% of assets, strong equity capitalization, and a reasonable current ratio of 1.32. Profitability is healthy but not exceptional (EBIT margin about 18%), supporting an upper-medium-grade profile rather than a top-tier one.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 178,
+ "usd": 0.014175,
+ "utc": "2026-08-30T18:25:58.337840+00:00"
+}

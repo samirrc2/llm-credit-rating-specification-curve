@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB\",\"confidence\":3,\"rationale\":\"Profitable with solid equity base and retained earnings, but liabilities are sizable and liquidity is weak (0.59 current ratio), supporting a mid-investment-grade profile.\"}",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 252,
+ "out_tok": 196,
+ "usd": 0.01554,
+ "utc": "2026-08-30T19:19:20.385341+00:00"
+}

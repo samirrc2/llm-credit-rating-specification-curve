@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"Massive asset base and solid EBIT margin offset the low current ratio and relatively high leverage, typical for utilities or real estate.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 272,
+ "out_tok": 48,
+ "usd": 0.0028,
+ "utc": "2026-08-30T20:25:23.905047+00:00"
+}

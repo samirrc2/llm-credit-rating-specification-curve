@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company exhibits strong profitability with high operating margins (41%) and positive net income, suggesting a stable, high-margin business model (often seen in infrastructure, real estate, or telecom towers). However, the credit profile is constrained by substantial total liabilities ($43.5 billion) relative to its revenue size, a weak current ratio (0.53), and a significant accumulated deficit, indicating high leverage and weak short-term liquidity. These factors position the credit rating in the non-investment grade category, reflecting vulnerability to financial stress despite strong core operations.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 282,
+ "out_tok": 119,
+ "usd": 0.00498,
+ "utc": "2026-08-30T19:54:25.503618+00:00"
+}

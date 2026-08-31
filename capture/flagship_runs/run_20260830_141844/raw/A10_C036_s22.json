@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a large asset base ($79.1 billion) and solid profitability with a 19% operating margin, which are characteristic of stable, capital-intensive businesses such as utilities or real estate investment trusts. Although the current ratio is below 1.0x, the substantial shareholders' equity ($21.1 billion) and consistent net income indicate adequate financial flexibility and debt service capacity, supporting a solid investment-grade profile. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 97,
+ "usd": 0.004305,
+ "utc": "2026-08-30T20:00:09.906531+00:00"
+}

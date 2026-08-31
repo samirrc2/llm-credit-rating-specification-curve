@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company possesses substantial scale with over $19 billion in quarterly revenue and strong profitability, evidenced by a 17% operating margin and strong net income. However, the high proportion of total liabilities relative to equity and a current ratio below 1.0 indicate notable leverage and modest short-term liquidity constraints, positioning its credit profile in the mid-to-lower investment grade tier.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 84,
+ "usd": 0.00396,
+ "utc": "2026-08-30T19:03:11.568792+00:00"
+}

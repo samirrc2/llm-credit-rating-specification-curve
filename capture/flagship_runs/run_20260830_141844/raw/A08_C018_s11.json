@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High leverage with liabilities at 96% of assets and very thin profit margins indicate significant financial risk, balanced by adequate liquidity.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 50,
+ "usd": 0.00287,
+ "utc": "2026-08-30T19:08:32.496274+00:00"
+}

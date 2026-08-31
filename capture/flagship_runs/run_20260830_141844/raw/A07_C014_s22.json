@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is solid for a borderline investment-grade profile, with a reasonable current ratio (1.30) and moderate leverage (equity about 39% of assets), but operating profitability is thin: EBIT is only about 4.4% of revenue and roughly 2.0% of assets. That combination suggests adequate financial capacity but limited cushion against downturns, consistent with the upper speculative-grade / lowest investment-grade boundary.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 446,
+ "usd": 0.030255,
+ "utc": "2026-08-30T18:56:51.453138+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company demonstrates massive scale (annualized revenues of ~$90 billion and total assets of $143 billion) and an exceptionally strong balance sheet with low leverage (total liabilities are well below shareholders' equity of $84 billion). Liquidity is also very robust, evidenced by a current ratio of 2.04; however, thin operating margins (4%) and relatively weak net income returns constrain the rating from reaching the highest tiers. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 97,
+ "usd": 0.00433,
+ "utc": "2026-08-30T18:29:24.984069+00:00"
+}

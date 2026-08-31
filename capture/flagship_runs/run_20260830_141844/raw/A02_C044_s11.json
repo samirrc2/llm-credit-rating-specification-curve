@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong profitability with high gross (74%) and operating margins (46%), and generates positive net income. However, its financial risk is substantial, marked by negative shareholders' equity, a significant retained earnings deficit, and a very weak current ratio (0.27), indicating high leverage and potential liquidity pressures. These factors constrain the rating to the speculative grade, reflecting strong cash flow generation offset by an aggressive capital structure.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 279,
+ "out_tok": 94,
+ "usd": 0.004215,
+ "utc": "2026-08-30T20:21:29.489685+00:00"
+}

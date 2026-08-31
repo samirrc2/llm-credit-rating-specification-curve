@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA+\",\"confidence\":3,\"rationale\":\"Exceptional scale, margins, earnings, liquidity, and very strong equity capitalization support very high credit quality; absent debt/cash-flow detail, slightly below unquestioned AAA.\"}",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 344,
+ "usd": 0.024585,
+ "utc": "2026-08-30T18:50:25.946922+00:00"
+}

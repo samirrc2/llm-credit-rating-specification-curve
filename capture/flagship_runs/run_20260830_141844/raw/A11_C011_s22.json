@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows a strong balance sheet, with equity covering nearly half of assets, very large retained earnings, and only moderate leverage relative to capitalization. Liquidity is adequate and operating profitability remains solid, supporting an upper-medium-grade profile, though the current ratio and limited visibility into debt structure keep it below the highest categories.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 332,
+ "usd": 0.02355,
+ "utc": "2026-08-30T18:49:51.303416+00:00"
+}

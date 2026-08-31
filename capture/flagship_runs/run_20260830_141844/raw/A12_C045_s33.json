@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage, negative working capital, and very low asset turnover indicate significant financial risk, balanced by positive equity and operating income.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 280,
+ "out_tok": 48,
+ "usd": 0.00284,
+ "utc": "2026-08-30T20:26:35.397329+00:00"
+}

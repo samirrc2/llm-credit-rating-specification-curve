@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows adequate near-term liquidity (current ratio 1.44) and remains solidly profitable, but leverage is meaningful with liabilities at about 78% of assets and equity covering only about 22% of the balance sheet. That mix suggests a stable but not especially strong credit profile, consistent with the low end of investment grade rather than a higher rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 295,
+ "usd": 0.0213,
+ "utc": "2026-08-30T18:58:40.614026+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows meaningful operating profitability and adequate near-term liquidity, but its balance sheet is very weak: liabilities exceed assets, shareholders\u2019 equity is deeply negative, and retained earnings are substantially negative. That combination is more consistent with a speculative-grade credit profile with elevated refinancing and downturn risk, though not immediate distress given positive EBIT.\n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 269,
+ "usd": 0.01974,
+ "utc": "2026-08-30T19:49:52.982367+00:00"
+}

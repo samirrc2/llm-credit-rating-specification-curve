@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears highly leveraged and balance-sheet stressed: shareholders\u2019 equity and retained earnings are deeply negative, liabilities exceed assets, and liquidity is tight with a current ratio below 1. While positive EBIT and meaningful revenue indicate it remains an operating business rather than an imminent default case, the financial profile is clearly consistent with a highly speculative credit.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 191,
+ "usd": 0.01506,
+ "utc": "2026-08-30T20:18:17.355949+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company operates with extremely high leverage, as evidenced by total liabilities of $158.8 billion compared to just $6.0 billion in shareholders' equity. Combined with thin operating margins (2%) and a net loss for the quarter, the financial profile suggests significant financial risk, though the large asset base and revenue scale provide some offset. \n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 276,
+ "out_tok": 77,
+ "usd": 0.00369,
+ "utc": "2026-08-30T19:08:12.209798+00:00"
+}

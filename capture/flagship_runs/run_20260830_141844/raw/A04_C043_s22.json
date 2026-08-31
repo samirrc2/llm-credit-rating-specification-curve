@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB+\", \"confidence\": 3, \"rationale\": \"High leverage with total liabilities at 74% of assets, weak liquidity (current ratio 0.97), and low EBIT margins suggest a non-investment grade rating.\"}\n```",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 277,
+ "out_tok": 59,
+ "usd": 0.003155,
+ "utc": "2026-08-30T20:19:22.995523+00:00"
+}

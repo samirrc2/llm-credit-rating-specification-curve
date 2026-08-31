@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Despite positive EBIT and adequate current ratio, the company exhibits negative equity and very high leverage, typical of non-investment grade speculative profiles.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 279,
+ "out_tok": 50,
+ "usd": 0.002895,
+ "utc": "2026-08-30T19:52:15.917839+00:00"
+}

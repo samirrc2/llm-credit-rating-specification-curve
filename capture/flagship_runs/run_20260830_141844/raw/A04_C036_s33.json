@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High total assets but significant leverage. Low current ratio and ROA indicate potential liquidity and profitability challenges, aligning with a mid-to-lower investment grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 54,
+ "usd": 0.00299,
+ "utc": "2026-08-30T19:58:56.925580+00:00"
+}

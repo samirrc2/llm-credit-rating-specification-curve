@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":3,\"rationale\":\"Large scale, positive earnings, solid equity base and adequate liquidity support investment grade; thin margins and limited visibility into debt burden constrain rating.\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 234,
+ "usd": 0.017985,
+ "utc": "2026-08-30T18:55:37.108770+00:00"
+}

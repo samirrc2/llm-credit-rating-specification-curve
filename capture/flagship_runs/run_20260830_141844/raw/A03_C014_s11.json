@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company appears moderately leveraged and only modestly profitable: EBIT margin is about 4.4%, assets-to-liabilities coverage is acceptable, and liquidity is adequate with a 1.30 current ratio, but earnings power relative to its large balance sheet is fairly weak. The sizable retained earnings and equity base support credit quality, yet the overall profile looks more like a lower investment-grade issuer than a strong single-A credit.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 362,
+ "usd": 0.02532,
+ "utc": "2026-08-30T18:55:59.124192+00:00"
+}

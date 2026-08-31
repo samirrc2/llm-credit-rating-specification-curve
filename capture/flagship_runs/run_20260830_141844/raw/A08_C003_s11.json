@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A+\", \"confidence\": 3, \"rationale\": \"High retained earnings, strong equity base, and moderate leverage indicate financial stability, despite a relatively low ROA.\"}\n```",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 45,
+ "usd": 0.00272,
+ "utc": "2026-08-30T18:26:06.121445+00:00"
+}

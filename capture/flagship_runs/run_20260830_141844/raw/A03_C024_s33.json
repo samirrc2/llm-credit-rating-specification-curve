@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows moderate leverage and a meaningful equity cushion (equity of 36,034M against 50,185M of liabilities), which supports credit quality, but liquidity is weak with a current ratio below 1.0 and operating earnings are thin relative to the asset base. Overall, this looks like a borderline investment-grade profile with limited near-term cushion for deterioration.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 238,
+ "out_tok": 454,
+ "usd": 0.03081,
+ "utc": "2026-08-30T19:24:42.923388+00:00"
+}

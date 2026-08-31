@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company's massive asset base ($3.4 trillion) and high leverage (assets-to-equity ratio around 11x) are characteristic of a major, systemically important financial institution or money center bank. The firm demonstrates strong profitability with an operating margin of 25% and substantial retained earnings, though typical financial sector risks and significant short-term liabilities constrain the rating from the AAA tier. Therefore, a solid investment-grade rating in the upper-medium tier is appropriate.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 302,
+ "out_tok": 106,
+ "usd": 0.00469,
+ "utc": "2026-08-30T19:55:21.853035+00:00"
+}

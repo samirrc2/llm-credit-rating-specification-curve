@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With over $110 billion in total assets and strong quarterly revenue of $11.1 billion, the company demonstrates massive scale and market presence. The balance sheet is robust, with a moderate leverage profile (liabilities to assets around 52%) and substantial retained earnings of nearly $50 billion, indicating a long history of sustained profitability and financial stability. These factors firmly place the issuer in the upper echelons of investment-grade territory.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 97,
+ "usd": 0.004315,
+ "utc": "2026-08-30T18:48:40.668089+00:00"
+}

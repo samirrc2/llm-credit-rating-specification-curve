@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With quarterly revenue of nearly $83 billion, an exceptional operating margin of 46%, and a massive equity base of $414 billion, the issuer demonstrates unmatched financial strength and profitability. Its immense scale, highly lucrative operations, and fortress balance sheet warrant the highest possible credit rating.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 64,
+ "usd": 0.00336,
+ "utc": "2026-08-30T18:51:33.227769+00:00"
+}

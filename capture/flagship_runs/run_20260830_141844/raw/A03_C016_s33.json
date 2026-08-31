@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have an adequate but not strong credit profile: liquidity is weak with a current ratio of 0.90, and leverage is fairly high with liabilities equal to about 81% of assets and equity covering only a modest share of the balance sheet. Offsetting that, the company is solidly profitable at the operating level and has very substantial retained earnings, which supports financial resilience consistent with lower investment-grade credit quality.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 399,
+ "usd": 0.02754,
+ "utc": "2026-08-30T19:01:35.413802+00:00"
+}

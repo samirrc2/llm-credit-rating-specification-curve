@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows good near-term liquidity (current ratio 2.29) and a meaningful equity base, which supports balance-sheet stability. However, profitability is fairly modest relative to its large asset and liability base (EBIT of 811M on 58,167M of assets), which points to limited cushion for creditors compared with stronger investment-grade peers.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 501,
+ "usd": 0.03363,
+ "utc": "2026-08-30T19:40:48.047876+00:00"
+}

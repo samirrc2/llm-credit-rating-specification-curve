@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Very strong balance sheet metrics support a high-grade rating: liabilities are only about 40% of assets, equity is nearly 60% of assets, and retained earnings are exceptionally large relative to the balance sheet. Liquidity is adequate rather than exceptional (current ratio 1.28), so the profile looks stronger than typical single-A or low-AA issuers but not clearly at the absolute AAA level on the figures alone.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 225,
+ "usd": 0.016995,
+ "utc": "2026-08-30T18:51:38.938002+00:00"
+}

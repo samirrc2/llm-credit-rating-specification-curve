@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company's massive asset base ($404B) and strong equity cushion ($104B) indicate immense scale, typical of a major telecommunications or infrastructure provider. While profitability is stable (14% operating margin), the substantial liability load ($298B) and slightly weak current liquidity (0.91) constrain the rating to the mid-investment-grade tier.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 290,
+ "out_tok": 86,
+ "usd": 0.00403,
+ "utc": "2026-08-30T19:12:44.954838+00:00"
+}

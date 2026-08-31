@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet appears highly leveraged and liquidity is weak: current assets cover only about 35% of current liabilities, and liabilities are nearly 89% of total assets, leaving a relatively thin equity cushion. While the issuer is profitable and has meaningful retained earnings, the combination of very weak short-term liquidity and heavy balance-sheet leverage is more consistent with lower-tier speculative-grade credit.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 518,
+ "usd": 0.03471,
+ "utc": "2026-08-30T19:48:50.113191+00:00"
+}

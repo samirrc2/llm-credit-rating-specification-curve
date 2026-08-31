@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Negative equity, severe liquidity crunch (current ratio 0.27), and massive liabilities relative to operating income indicate very high default risk despite positive EBIT.\"}\n```",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 54,
+ "usd": 0.00299,
+ "utc": "2026-08-30T20:22:00.995521+00:00"
+}

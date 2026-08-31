@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows a large, profitable issuer with substantial accumulated earnings and a solid equity base, but liquidity is only adequate (current ratio 1.07) and overall leverage is moderate rather than exceptionally conservative. That supports a strong investment-grade profile, though not one consistent with the very highest rating tiers.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 276,
+ "usd": 0.020055,
+ "utc": "2026-08-30T18:37:13.137196+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":3,\"rationale\":\"Large scale, solid profitability and equity base, with adequate liquidity. Thin margins and likely cyclical, low-margin business model constrain rating above mid-investment grade.\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 268,
+ "usd": 0.020055,
+ "utc": "2026-08-30T18:57:11.892340+00:00"
+}

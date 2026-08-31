@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates exceptional financial strength, characterized by massive scale (quarterly revenue of $82.9 billion), extremely high operating margins (46%), and a fortress balance sheet with over $414 billion in shareholders' equity. This unparalleled profitability and robust capitalization justify the highest possible credit rating.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 66,
+ "usd": 0.00342,
+ "utc": "2026-08-30T18:51:28.169968+00:00"
+}

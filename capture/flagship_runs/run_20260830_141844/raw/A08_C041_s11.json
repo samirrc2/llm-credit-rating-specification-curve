@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Large asset base and strong equity cushion, though low asset turnover and current ratio suggest a financial or utility firm with stable but leveraged operations.\"}\n```",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 51,
+ "usd": 0.0029,
+ "utc": "2026-08-30T20:14:46.268320+00:00"
+}

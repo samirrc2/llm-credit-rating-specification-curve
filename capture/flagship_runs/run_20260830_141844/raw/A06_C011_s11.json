@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a very strong balance sheet with $110 billion in total assets and $52 billion in shareholders' equity, reflecting a robust capital structure. Furthermore, its healthy quarterly revenue of $11.1 billion, strong margins, and solid current ratio of 1.39 indicate high financial stability and significant capacity to meet financial commitments. \n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 78,
+ "usd": 0.003745,
+ "utc": "2026-08-30T18:48:35.212251+00:00"
+}

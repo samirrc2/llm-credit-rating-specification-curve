@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows high leverage and weak short-term liquidity: current assets cover only 0.63x current liabilities, and liabilities are about 73% of assets. Still, the company remains solidly profitable at the operating level and has a large equity base, which supports a low investment-grade assessment rather than a speculative-grade one.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 281,
+ "usd": 0.02049,
+ "utc": "2026-08-30T20:12:35.181343+00:00"
+}

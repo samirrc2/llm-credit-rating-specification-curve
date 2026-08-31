@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage, extremely low Altman Z-score, weak asset turnover, and zero retained earnings point to significant credit risk and distress potential.\"}\n```",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 273,
+ "out_tok": 51,
+ "usd": 0.002895,
+ "utc": "2026-08-30T19:29:21.636823+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet looks solid for an investment-grade issuer: liquidity is adequate (current ratio 1.34), leverage is moderate (liabilities roughly 1.1x equity), and the company has a substantial retained earnings base and equity cushion. Profitability is positive but not exceptionally strong relative to the asset base, so the credit profile appears comfortably investment grade but not strong enough to justify a high-A category.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 304,
+ "usd": 0.02184,
+ "utc": "2026-08-30T18:19:18.040345+00:00"
+}

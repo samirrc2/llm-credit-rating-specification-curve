@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company demonstrates substantial scale, strong profitability with a 17% operating margin, and a very healthy balance sheet featuring over $51 billion in equity and moderate leverage. The robust liquidity (current ratio of 1.53) and significant accumulated retained earnings further underscore its exceptional financial stability and low credit risk.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 70,
+ "usd": 0.00354,
+ "utc": "2026-08-30T18:53:08.932488+00:00"
+}

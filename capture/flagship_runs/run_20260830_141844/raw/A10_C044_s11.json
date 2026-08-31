@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company's underlying operations are highly profitable, as evidenced by a 46% operating margin and positive net income, which supports its ability to service debt. However, its capital structure is highly leveraged with negative shareholders' equity and a severely weak current ratio of 0.27, indicating significant near-term liquidity risks and a heavy debt burden relative to its size. This combination of strong operating performance but weak financial position and high leverage points to a highly speculative rating.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 280,
+ "out_tok": 102,
+ "usd": 0.00446,
+ "utc": "2026-08-30T20:23:04.654841+00:00"
+}

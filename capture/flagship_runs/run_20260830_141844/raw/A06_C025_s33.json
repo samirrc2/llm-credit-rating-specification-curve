@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a large scale of operations with annualized revenues around $36 billion and a robust asset base of $74 billion. Profitability is solid with a 10% operating margin, and liquidity is adequate with a current ratio of 1.39, supporting an investment-grade profile despite moderate leverage. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 270,
+ "out_tok": 72,
+ "usd": 0.00351,
+ "utc": "2026-08-30T19:28:01.097639+00:00"
+}

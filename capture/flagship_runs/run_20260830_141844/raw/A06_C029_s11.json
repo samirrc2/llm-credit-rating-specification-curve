@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong profitability with a 15% operating margin and a large scale with over $25 billion in total assets and annualized revenues exceeding $16 billion. While the current ratio is marginally below 1.0, substantial retained earnings and a solid equity base of $10 billion support a strong investment-grade profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 74,
+ "usd": 0.003585,
+ "utc": "2026-08-30T19:38:40.794231+00:00"
+}

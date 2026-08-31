@@ -41,3 +41,11 @@ _to_del/
 
 # Microsoft Office lock/temp files
 ~\$*
+
+# LaTeX/CAS build extras + docx build scratch
+*.abs
+paper/ISWA/cas-sc-docx.tex
+paper/ISWA/fig_governance.png
+paper/ISWA/fig_selfconsistency.png
+paper/ISWA/figure1_ighy.png
+paper/ISWA/figureA_kappa.png

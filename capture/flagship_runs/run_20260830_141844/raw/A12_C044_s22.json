@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Negative equity, enormous liabilities relative to EBIT, and a severe liquidity shortfall (current ratio 0.27) indicate very high default risk and financial distress.\"}\n```",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 275,
+ "out_tok": 55,
+ "usd": 0.003025,
+ "utc": "2026-08-30T20:23:37.277923+00:00"
+}

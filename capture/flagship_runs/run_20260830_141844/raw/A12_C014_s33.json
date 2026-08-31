@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"The low Altman Z-score of 1.63 suggests distress, with weak EBIT margins and moderate leverage pointing to speculative grade.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 281,
+ "out_tok": 51,
+ "usd": 0.002935,
+ "utc": "2026-08-30T18:58:08.969682+00:00"
+}

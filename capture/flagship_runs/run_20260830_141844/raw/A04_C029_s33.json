@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"Large asset base with moderate leverage, adequate EBIT margin, but low ROA and slightly tight current ratio support a mid-to-low investment grade rating.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 275,
+ "out_tok": 54,
+ "usd": 0.002995,
+ "utc": "2026-08-30T19:38:26.259825+00:00"
+}

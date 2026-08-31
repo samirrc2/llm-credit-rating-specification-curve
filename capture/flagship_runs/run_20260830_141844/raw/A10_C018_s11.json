@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company operates with extremely high leverage (liabilities constitute over 96% of total assets) and generates very thin operating margins (2%), culminating in a net loss for the recent quarter. While its large scale and adequate current ratio provide some liquidity, the very thin equity cushion and lack of profitability indicate substantial financial risk, characteristic of a speculative-grade profile. \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 284,
+ "out_tok": 80,
+ "usd": 0.00382,
+ "utc": "2026-08-30T19:09:01.813195+00:00"
+}

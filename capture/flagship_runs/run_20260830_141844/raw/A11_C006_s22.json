@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is strong: liabilities are modest relative to assets and equity, retained earnings are very large, and liquidity is adequate with a 1.52 current ratio. However, operating scale and earnings are only moderate relative to the asset base, so while credit quality appears solid, the data do not clearly support the very highest rating tiers.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 223,
+ "usd": 0.01701,
+ "utc": "2026-08-30T18:35:28.115610+00:00"
+}

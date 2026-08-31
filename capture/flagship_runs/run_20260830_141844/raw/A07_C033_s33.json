@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows meaningful credit weakness: liabilities exceed assets, shareholders\u2019 equity and retained earnings are deeply negative, and liquidity is only modestly above 1x current liabilities. While positive EBIT and a decent operating margin support ongoing debt service capacity, the balance-sheet insolvency profile is more consistent with a highly speculative issuer than with the BBB category.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 265,
+ "usd": 0.019395,
+ "utc": "2026-08-30T19:50:52.514860+00:00"
+}

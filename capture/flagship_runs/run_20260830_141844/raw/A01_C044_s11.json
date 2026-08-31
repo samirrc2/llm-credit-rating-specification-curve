@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":2,\"rationale\":\"Exceptional margins and earnings support debt service, but negative equity, very weak current ratio, and liabilities exceeding assets indicate meaningful leverage/refinancing risk.\"}",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 259,
+ "out_tok": 370,
+ "usd": 0.026085,
+ "utc": "2026-08-30T20:21:14.776974+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows materially weak credit fundamentals: negative shareholders\u2019 equity (-8,465M), large accumulated deficits (retained earnings of -8,881M), liabilities exceeding assets, and sub-1.0 liquidity (current ratio 0.92), all of which indicate balance-sheet stress. While positive EBIT of 777M on 9,532M revenue provides some operating support, the overall profile remains highly vulnerable and best fits a low speculative-grade rating.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 301,
+ "usd": 0.021525,
+ "utc": "2026-08-30T20:17:31.542165+00:00"
+}

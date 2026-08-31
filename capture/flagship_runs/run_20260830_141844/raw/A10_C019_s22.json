@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company generates substantial revenue ($24.48 billion) and maintains consistent profitability with an 11% operating margin and $1.79 billion in net income. However, its total liabilities are quite high compared to its equity base (leverage of roughly 3.5x), which constrains the rating despite adequate liquidity (current ratio of 1.22). This financial profile\u2014strong market presence and profitability balanced by elevated leverage\u2014is characteristic of a mid-tier investment-grade profile.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 287,
+ "out_tok": 109,
+ "usd": 0.004705,
+ "utc": "2026-08-30T19:11:47.164525+00:00"
+}

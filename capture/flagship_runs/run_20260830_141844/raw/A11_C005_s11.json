@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows meaningful leverage (total liabilities of about 79% of assets; liabilities/equity near 3.8x), which constrains the rating, but liquidity is adequate with a 1.55 current ratio and retained earnings are strong relative to equity. Profitability is also solid, with EBIT covering a large share of revenue, supporting an investment-grade but not high-grade assessment.\n\nDECISION: BBB+",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 267,
+ "usd": 0.01965,
+ "utc": "2026-08-30T18:32:37.339922+00:00"
+}

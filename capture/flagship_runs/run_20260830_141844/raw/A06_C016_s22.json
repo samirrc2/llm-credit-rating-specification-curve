@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates substantial scale with annualized revenues approaching $78 billion and strong profitability, as evidenced by a 17% operating margin and significant net income. However, the high proportion of total liabilities to assets (80%) and a current ratio below 1.0 indicate substantial leverage and tighter short-term liquidity, positioning it solidly in the mid-to-lower investment grade tier.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 85,
+ "usd": 0.00395,
+ "utc": "2026-08-30T19:02:10.946714+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have adequate near-term liquidity (current ratio 1.44) and a meaningful retained earnings base, but the balance sheet is fairly leveraged, with liabilities representing roughly 78% of assets and equity covering only a modest portion of the capital structure. Positive EBIT and a reasonable operating margin support investment-grade quality, though the relatively weak asset coverage and leverage keep it in the lower BBB range.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 296,
+ "usd": 0.02136,
+ "utc": "2026-08-30T18:58:48.701338+00:00"
+}

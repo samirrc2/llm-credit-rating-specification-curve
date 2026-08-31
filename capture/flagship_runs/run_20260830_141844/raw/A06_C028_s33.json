@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With immense scale, generating over $181 billion in quarterly revenue and holding over $440 billion in shareholders' equity, the issuer demonstrates exceptional financial strength and earnings power. The substantial asset base and conservative leverage provide an extraordinary buffer against financial stress. \n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 289,
+ "out_tok": 57,
+ "usd": 0.003155,
+ "utc": "2026-08-30T19:36:01.816872+00:00"
+}

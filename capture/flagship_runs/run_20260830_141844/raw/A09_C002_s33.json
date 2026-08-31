@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA\",\"confidence\":4,\"rationale\":\"Exceptional margins, very strong earnings, and fortress liquidity support high quality; however, very large liabilities relative to equity temper an AAA-level assessment.\"}",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 704,
+ "usd": 0.046215,
+ "utc": "2026-08-30T18:23:33.993717+00:00"
+}

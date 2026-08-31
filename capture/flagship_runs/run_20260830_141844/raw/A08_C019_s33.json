@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High total liabilities compared to equity, but solid retained earnings and positive EBIT margin indicate a stable, mature company with moderate leverage risk.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 49,
+ "usd": 0.002835,
+ "utc": "2026-08-30T19:11:28.218599+00:00"
+}

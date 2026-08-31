@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a strong balance sheet, with substantial equity support (shareholders\u2019 equity nearly 58% of assets), solid liquidity (current ratio 1.92), and very strong operating profitability (EBIT margin around 44%). While total liabilities are meaningful in absolute size, the capitalization and retained earnings profile point to a conservatively financed, high-quality investment-grade credit, though not enough information is present to justify the very highest AA/AAA range.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 311,
+ "usd": 0.02226,
+ "utc": "2026-08-30T18:45:06.306867+00:00"
+}

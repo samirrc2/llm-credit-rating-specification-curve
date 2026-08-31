@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB-\",\"confidence\":2,\"rationale\":\"Strong equity and moderate leverage support investment grade, but break-even liquidity, deeply negative retained earnings, and unusual negative gross margin temper credit quality.\"}",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 252,
+ "out_tok": 210,
+ "usd": 0.01638,
+ "utc": "2026-08-30T20:02:01.217247+00:00"
+}

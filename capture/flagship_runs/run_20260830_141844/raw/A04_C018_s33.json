@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High leverage and low margins suggest risk, but substantial asset base and positive equity support an investment-grade rating, likely a financial institution.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 50,
+ "usd": 0.002905,
+ "utc": "2026-08-30T19:07:41.874394+00:00"
+}

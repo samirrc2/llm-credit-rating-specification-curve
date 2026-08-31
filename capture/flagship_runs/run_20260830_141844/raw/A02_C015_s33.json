@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company demonstrates significant scale and consistent profitability, as evidenced by its $19.1 billion in revenue, $2.4 billion in net income, and a strong current ratio of 1.44. However, its somewhat high total liabilities relative to shareholders' equity ($77.3 billion vs $21.3 billion) constrains the rating to the mid-investment-grade tier, reflecting solid financial health but meaningful leverage. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 287,
+ "out_tok": 97,
+ "usd": 0.004345,
+ "utc": "2026-08-30T18:58:36.903329+00:00"
+}

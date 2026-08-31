@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is highly leveraged: liabilities are about 89% of assets, equity is thin, and the current ratio of 0.35 signals very weak near-term liquidity on its face. Still, the company remains solidly profitable at the operating level and has meaningful retained earnings, which supports some ongoing debt capacity; taken together, this looks more like the low end of investment grade or the cusp of speculative grade rather than deep distress.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 467,
+ "usd": 0.03165,
+ "utc": "2026-08-30T19:48:38.882901+00:00"
+}

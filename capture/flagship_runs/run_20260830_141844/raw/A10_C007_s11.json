@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates an exceptionally strong financial profile, characterized by massive scale (quarterly revenue of ~$24 billion), excellent profitability (70% gross margin and 30% operating margin), and robust net income generation. Furthermore, its massive asset base, substantial retained earnings ($167 billion), and manageable leverage indicate prime credit quality and an unparalleled ability to meet financial commitments.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 291,
+ "out_tok": 82,
+ "usd": 0.003915,
+ "utc": "2026-08-30T18:37:56.114846+00:00"
+}

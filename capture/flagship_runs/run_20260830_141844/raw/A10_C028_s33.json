@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates immense scale with over $900 billion in total assets and highly profitable operations, underscored by a massive equity base of over $440 billion. The manageable leverage (liabilities to equity near 1:1) and strong liquidity metrics reflect exceptional financial health, characteristic of a top-tier investment-grade issuer. \n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 297,
+ "out_tok": 75,
+ "usd": 0.003735,
+ "utc": "2026-08-30T19:37:10.773775+00:00"
+}

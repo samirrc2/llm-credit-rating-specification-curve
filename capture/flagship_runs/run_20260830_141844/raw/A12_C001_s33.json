@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Moderate leverage with 51% debt-to-assets, solid retained earnings indicating historical profitability, but low asset turnover and ROA suggest average operational efficiency.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 55,
+ "usd": 0.003055,
+ "utc": "2026-08-30T18:21:16.160089+00:00"
+}

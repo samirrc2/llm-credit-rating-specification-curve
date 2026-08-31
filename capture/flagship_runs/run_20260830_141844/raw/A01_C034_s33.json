@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":4,\"rationale\":\"Exceptional margins support credit quality, but leverage is elevated, current liquidity is weak, and negative retained earnings constrain flexibility despite solid earnings generation.\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 261,
+ "out_tok": 341,
+ "usd": 0.024375,
+ "utc": "2026-08-30T19:52:26.334710+00:00"
+}

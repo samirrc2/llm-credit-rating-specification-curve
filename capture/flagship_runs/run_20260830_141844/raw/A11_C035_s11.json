@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows very weak near-term liquidity (current ratio 0.42) and high leverage, with liabilities equal to roughly 91% of assets and equity forming only a thin cushion. While the company has meaningful retained earnings and positive EBIT, the capital structure looks stretched enough to constrain financial flexibility, consistent with the low end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 250,
+ "out_tok": 353,
+ "usd": 0.02493,
+ "utc": "2026-08-30T19:57:35.687136+00:00"
+}

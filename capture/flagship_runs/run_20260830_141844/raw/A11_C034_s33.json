@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears highly leveraged, with weak liquidity (current ratio 0.53) and a very large accumulated deficit, which are meaningful credit constraints. While positive EBIT and substantial asset/equity support temper default risk, the balance sheet profile and limited revenue base relative to liabilities are more consistent with speculative-grade credit than solid investment grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 212,
+ "usd": 0.01635,
+ "utc": "2026-08-30T19:54:43.143393+00:00"
+}

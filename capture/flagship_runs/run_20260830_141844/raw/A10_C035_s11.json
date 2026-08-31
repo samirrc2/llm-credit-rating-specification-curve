@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company exhibits the financial profile of a Global Systemically Important Bank (G-SIB), evidenced by its massive $3.4 trillion asset base and high leverage typical of financial institutions. Its strong operating margin of 25% and substantial shareholders' equity of $303 billion demonstrate robust capitalization and earnings capacity, securing a solid investment-grade profile. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 303,
+ "out_tok": 79,
+ "usd": 0.003885,
+ "utc": "2026-08-30T19:57:17.034919+00:00"
+}

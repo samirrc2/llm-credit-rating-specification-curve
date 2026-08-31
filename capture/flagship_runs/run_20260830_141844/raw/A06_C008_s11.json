@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates exceptionally strong profitability, with a 62% operating margin and $2.37 billion in net income for the quarter. Although the balance sheet shows negative equity and a low current ratio, this is typical for highly cash-generative, mature companies that return significant capital to shareholders, supported by robust retained earnings and formidable debt servicing capacity.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 77,
+ "usd": 0.00369,
+ "utc": "2026-08-30T18:40:00.532247+00:00"
+}

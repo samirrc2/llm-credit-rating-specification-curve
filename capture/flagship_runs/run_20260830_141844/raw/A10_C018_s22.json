@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits extremely high financial leverage, with total liabilities of $158.8 billion nearly equal to total assets of $164.8 billion, leaving a thin equity cushion of $6 billion. While it maintains a massive revenue base and adequate liquidity (current ratio of 1.18), its razor-thin operating margins (2%) and negative net income reflect weak profitability and high vulnerability to economic stress. \n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 284,
+ "out_tok": 93,
+ "usd": 0.00421,
+ "utc": "2026-08-30T19:09:08.028709+00:00"
+}

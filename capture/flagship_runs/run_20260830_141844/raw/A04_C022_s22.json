@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Large asset base and revenue scale offset by weak liquidity (current ratio 0.59) and modest profitability metrics, suggesting a lower-medium investment grade rating.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 56,
+ "usd": 0.00307,
+ "utc": "2026-08-30T19:19:04.514038+00:00"
+}

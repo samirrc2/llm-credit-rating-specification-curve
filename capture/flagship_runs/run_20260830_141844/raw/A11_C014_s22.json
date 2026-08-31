@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows adequate liquidity (current ratio 1.30) and a solid equity base, with equity covering about 39% of assets, which supports balance-sheet resilience. However, leverage is still meaningful (liabilities about 59% of assets) and operating profitability is fairly thin (EBIT margin roughly 4.4%), which limits rating strength and points to the lower end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 285,
+ "usd": 0.02073,
+ "utc": "2026-08-30T18:57:44.608122+00:00"
+}

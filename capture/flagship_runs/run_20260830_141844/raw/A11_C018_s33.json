@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears **highly leveraged**: equity is only about **3.6% of assets** and liabilities nearly equal assets, leaving a very thin capital cushion. While liquidity is adequate with a **1.18 current ratio** and EBIT is still positive, profitability is extremely weak relative to the balance sheet and revenue base, which is more consistent with a **highly speculative** credit profile than investment grade.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 403,
+ "usd": 0.02778,
+ "utc": "2026-08-30T19:09:27.035185+00:00"
+}

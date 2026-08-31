@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Moderate debt levels, good retained earnings, and solid profit margins suggest a strong investment-grade rating, though ROA is somewhat modest.\"}\n```",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 51,
+ "usd": 0.002895,
+ "utc": "2026-08-30T18:20:15.027940+00:00"
+}

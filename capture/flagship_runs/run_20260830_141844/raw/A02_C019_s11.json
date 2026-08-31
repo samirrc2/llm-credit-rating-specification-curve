@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability and a substantial revenue base, generating $1.79 billion in net income with an operating margin of 11%. However, the capital structure is highly leveraged, with total liabilities representing approximately 78% of total assets and a debt-to-equity ratio of 3.5, which restricts the rating from higher investment-grade tiers. Adequate liquidity is present with a current ratio of 1.22, supporting a mid-tier investment-grade profile.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 286,
+ "out_tok": 106,
+ "usd": 0.00461,
+ "utc": "2026-08-30T19:10:01.935767+00:00"
+}

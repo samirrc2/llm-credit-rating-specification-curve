@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA-\",\"confidence\":4,\"rationale\":\"Strong profitability, very low leverage versus equity, ample liquidity, and large retained earnings support high-grade credit; absent debt/cash-flow detail limits to AA-.\"}",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 184,
+ "usd": 0.014985,
+ "utc": "2026-08-30T18:34:55.887441+00:00"
+}

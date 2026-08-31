@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates exceptional profitability with an 83% gross margin and 48% operating margin, generating massive quarterly net income of $5.58 billion. While total liabilities are relatively high compared to shareholders' equity, the company maintains strong liquidity with a current ratio of 1.55 and substantial current assets ($62 billion), easily supporting its debt obligations and warranting a high investment-grade rating.\n\nDECISION: AA-",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 91,
+ "usd": 0.00417,
+ "utc": "2026-08-30T18:30:42.135360+00:00"
+}

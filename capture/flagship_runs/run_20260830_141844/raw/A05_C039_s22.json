@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":4,\"rationale\":\"Strong profitability and massive scale support credit quality; however, very high leverage and current liabilities exceeding current assets constrain the rating.\"}",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 264,
+ "out_tok": 156,
+ "usd": 0.01332,
+ "utc": "2026-08-30T20:07:56.456582+00:00"
+}

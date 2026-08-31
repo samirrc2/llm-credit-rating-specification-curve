@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA-\",\"confidence\":4,\"rationale\":\"Strong profitability, low leverage, large equity cushion, and adequate liquidity support high-grade credit; limited debt/cash-flow detail constrains rating below top tiers.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 254,
+ "out_tok": 164,
+ "usd": 0.01365,
+ "utc": "2026-08-30T18:34:04.143318+00:00"
+}

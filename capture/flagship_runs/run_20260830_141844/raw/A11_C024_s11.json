@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows meaningful equity support and substantial accumulated retained earnings, but liquidity is weak (current ratio below 1.0) and operating earnings are very small relative to the asset and liability base, which limits financial flexibility. On balance, this looks more consistent with a low speculative-grade profile than investment grade.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 371,
+ "usd": 0.02586,
+ "utc": "2026-08-30T19:26:20.230629+00:00"
+}

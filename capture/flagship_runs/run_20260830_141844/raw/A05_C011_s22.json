@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":3,\"rationale\":\"Strong profitability, sizable equity base, moderate leverage, and adequate liquidity support upper-medium investment grade; limited debt-detail prevents higher confidence or AA-range rating.\"}",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 256,
+ "out_tok": 254,
+ "usd": 0.01908,
+ "utc": "2026-08-30T18:48:27.551940+00:00"
+}

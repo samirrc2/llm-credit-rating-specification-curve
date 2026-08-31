@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"Large asset base and moderate leverage support an investment grade rating, though ROA and revenue to assets ratio are relatively low.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 47,
+ "usd": 0.00278,
+ "utc": "2026-08-30T19:33:01.708735+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A\",\"confidence\":3,\"rationale\":\"Strong profitability, solid equity base, and adequate liquidity support investment grade; cyclical end markets and sizable liabilities temper rating below high-A.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 239,
+ "usd": 0.018315,
+ "utc": "2026-08-30T18:26:24.835601+00:00"
+}

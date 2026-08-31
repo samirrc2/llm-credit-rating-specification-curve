@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong financial health with a large asset base ($58.1B), solid liquidity (current ratio of 2.29), and moderate leverage (total liabilities represent only 47% of total assets). Sustained profitability with a 14% operating margin and positive net income supports a solid investment-grade profile, though the relatively low gross margin (18%) may constrain a higher rating. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 92,
+ "usd": 0.004125,
+ "utc": "2026-08-30T19:41:23.303457+00:00"
+}

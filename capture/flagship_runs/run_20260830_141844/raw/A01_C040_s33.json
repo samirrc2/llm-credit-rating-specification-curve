@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":3,\"rationale\":\"Strong profitability and sizable equity support credit quality, but weak current ratio and large liabilities versus equity/assets constrain the rating to lower investment grade.\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 292,
+ "usd": 0.021465,
+ "utc": "2026-08-30T20:10:09.825339+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is very highly leveraged (liabilities are about 93% of assets, with equity only about 7% of assets) and liquidity is weak (current ratio 0.83), which is not consistent with strong investment-grade credit quality on the figures alone. While the company is profitable and has substantial retained earnings, EBIT is small relative to the asset and liability base, supporting a speculative-grade but not distressed assessment.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 241,
+ "out_tok": 353,
+ "usd": 0.024795,
+ "utc": "2026-08-30T20:08:27.456346+00:00"
+}

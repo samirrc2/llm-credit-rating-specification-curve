@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very strong balance-sheet strength, with equity covering about 48% of assets and retained earnings that are exceptionally large relative to the asset base, alongside solid operating profitability (EBIT margin around 13%). Liquidity is only moderate at a 1.18 current ratio, but overall the figures support a high-grade, low-credit-risk profile consistent with the low-AA range.\n\nDECISION: AA",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 305,
+ "usd": 0.021795,
+ "utc": "2026-08-30T19:36:05.354773+00:00"
+}

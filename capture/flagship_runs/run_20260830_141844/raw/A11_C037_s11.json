@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows moderate overall leverage, with liabilities at roughly 48% of assets and substantial book equity, but liquidity is very tight with current assets only matching current liabilities. The very large accumulated deficit and relatively modest EBIT/revenue base versus the size of the balance sheet suggest limited operating cushion, so the credit profile looks more like the low end of investment grade / high end of speculative grade; on balance I would place it at **BB+**.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 415,
+ "usd": 0.0285,
+ "utc": "2026-08-30T20:03:23.210701+00:00"
+}

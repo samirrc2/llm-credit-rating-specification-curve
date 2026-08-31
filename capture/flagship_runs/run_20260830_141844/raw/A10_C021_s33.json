@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates exceptional profitability with a 70% gross margin and a 48% operating margin, generating strong quarterly net income. While the current ratio is below 1.0, total liabilities are comfortably covered by a large equity base and substantial retained earnings, indicating very strong overall solvency and cash flow generation. \n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 285,
+ "out_tok": 71,
+ "usd": 0.003555,
+ "utc": "2026-08-30T19:17:44.019582+00:00"
+}

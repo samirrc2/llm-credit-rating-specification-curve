@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a strong financial profile with significant scale (annualized revenue of ~$44 billion), healthy profitability (17% operating margin), and a robust balance sheet (total assets of $113 billion against $51.9 billion in equity). The solid current ratio of 1.53 and massive retained earnings demonstrate excellent liquidity and a long track record of generating consistent cash flows, characteristic of an upper-medium investment-grade issuer.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 97,
+ "usd": 0.00435,
+ "utc": "2026-08-30T18:53:13.446906+00:00"
+}

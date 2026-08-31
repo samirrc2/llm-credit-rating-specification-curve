@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Large scale with $25B revenue, but offset by high leverage, thin operating margins (3.8%), and a current ratio slightly below 1.0.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 277,
+ "out_tok": 58,
+ "usd": 0.003125,
+ "utc": "2026-08-30T20:19:19.268328+00:00"
+}

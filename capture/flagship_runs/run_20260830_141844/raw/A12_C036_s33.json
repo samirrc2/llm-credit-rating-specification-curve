@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High total assets and equity suggest scale, but high leverage, low asset turnover, and a weak current ratio point to increased financial risk.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 275,
+ "out_tok": 51,
+ "usd": 0.002905,
+ "utc": "2026-08-30T20:00:52.649739+00:00"
+}

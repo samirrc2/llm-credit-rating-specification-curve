@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 2, \"rationale\": \"High EBIT margin indicates strong profitability and cash flow, offsetting negative equity likely caused by share buybacks, though liquidity and leverage metrics remain weak.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 269,
+ "out_tok": 52,
+ "usd": 0.002905,
+ "utc": "2026-08-30T18:40:36.885218+00:00"
+}

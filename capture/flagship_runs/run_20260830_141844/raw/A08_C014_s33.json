@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Large revenue and asset base with moderate leverage, but low profitability margins constrain the rating to the low investment grade spectrum.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 46,
+ "usd": 0.002745,
+ "utc": "2026-08-30T18:57:08.510699+00:00"
+}

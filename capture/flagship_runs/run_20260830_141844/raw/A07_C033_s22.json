@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows meaningful credit stress: liabilities exceed assets and shareholders\u2019 equity is deeply negative, while retained earnings are substantially negative, indicating a weak capital structure. Although operations are still profitable and short-term liquidity is just above 1x, the balance-sheet weakness is consistent with a highly speculative profile rather than imminent default.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 197,
+ "usd": 0.015315,
+ "utc": "2026-08-30T19:50:48.560942+00:00"
+}

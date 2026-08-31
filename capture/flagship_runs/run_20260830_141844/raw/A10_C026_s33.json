@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates massive scale with an annualized revenue run-rate approaching $50 billion and excellent profitability, highlighted by a 72% gross margin and 30% operating margin. However, the balance sheet shows significant leverage with total liabilities of roughly $78 billion compared to $18.5 billion in equity, which restricts the rating to the mid-to-lower investment grade tiers despite strong cash flow generation. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 93,
+ "usd": 0.00423,
+ "utc": "2026-08-30T19:31:37.303775+00:00"
+}

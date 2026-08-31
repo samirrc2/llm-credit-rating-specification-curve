@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows a very weak balance sheet: liabilities exceed assets, shareholders\u2019 equity is deeply negative, and retained earnings are substantially negative, all of which are consistent with highly leveraged, below-investment-grade credit quality. While positive EBIT and a current ratio slightly above 1.0 indicate the firm is still operating and not in immediate distress, the capital structure appears too impaired for the BB category, pointing more toward the single-B range.\n\nDECISION: B+",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 254,
+ "usd": 0.01887,
+ "utc": "2026-08-30T19:51:57.266737+00:00"
+}

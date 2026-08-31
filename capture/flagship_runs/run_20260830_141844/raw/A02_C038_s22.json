@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with an impressive 42% operating margin and consistent net income generation. However, its credit profile is constrained by substantial leverage (liabilities are over 14x shareholders' equity) and a weak current ratio of 0.63, which are typical of capital-intensive sectors like REITs or infrastructure but still elevate financial risk. \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 81,
+ "usd": 0.00383,
+ "utc": "2026-08-30T20:04:19.048329+00:00"
+}

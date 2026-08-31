@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Very low Z-score (0.67) driven by low asset turnover and profitability relative to assets, indicating high financial distress risk despite moderate leverage.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 275,
+ "out_tok": 55,
+ "usd": 0.003025,
+ "utc": "2026-08-30T19:34:34.871152+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"High operating margins and adequate liquidity offset high leverage, supporting an investment-grade rating in the A- or BBB+ tier.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 49,
+ "usd": 0.002875,
+ "utc": "2026-08-30T18:31:02.001057+00:00"
+}

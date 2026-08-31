@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet appears highly leveraged and weak on conventional liquidity metrics (current ratio 0.34; liabilities nearly equal to assets), which would normally pressure the rating materially. However, the company also shows a very large absolute equity/retained earnings base and remains EBIT-positive, suggesting a still-investment-grade but only moderate capacity to absorb stress.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 248,
+ "out_tok": 435,
+ "usd": 0.02982,
+ "utc": "2026-08-30T19:45:29.669465+00:00"
+}

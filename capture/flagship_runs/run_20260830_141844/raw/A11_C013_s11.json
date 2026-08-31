@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is strong for credit: liquidity is adequate (current ratio 1.53), equity makes up a sizable share of assets, and retained earnings are very large relative to the asset base, indicating substantial accumulated financial cushion. However, operating scale and earnings are only moderate relative to total assets and liabilities, so despite solid credit quality, the figures do not clearly support the very highest rating tiers.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 304,
+ "usd": 0.02187,
+ "utc": "2026-08-30T18:55:01.812163+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":4,\"rationale\":\"Exceptional margins, strong earnings and liquidity support high credit quality; however, sizable liabilities versus equity constrain rating from AA range.\"}",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 256,
+ "out_tok": 233,
+ "usd": 0.01782,
+ "utc": "2026-08-30T18:31:13.368691+00:00"
+}

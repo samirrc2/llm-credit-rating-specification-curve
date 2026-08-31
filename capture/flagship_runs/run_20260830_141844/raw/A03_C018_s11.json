@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is extremely leveraged, with liabilities consuming about 96% of assets and equity representing only a thin cushion, while EBIT is very small relative to both assets and revenue. Although liquidity is adequate and retained earnings are positive, the weak profitability and very limited capitalization point to meaningful credit risk consistent with the lower speculative-grade range.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 502,
+ "usd": 0.03369,
+ "utc": "2026-08-30T19:07:15.710325+00:00"
+}

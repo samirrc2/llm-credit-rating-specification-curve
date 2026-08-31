@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates extraordinary financial strength, characterized by massive scale (annualized revenue exceeding $300 billion), exceptional profitability (46% operating margin), and a highly robust balance sheet with over $414 billion in shareholders' equity. The low proportion of total liabilities relative to assets and the staggering level of retained earnings indicate minimal financial risk and immense capacity to meet financial commitments. These superlative metrics align with the highest possible tier of creditworthiness.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 296,
+ "out_tok": 95,
+ "usd": 0.00433,
+ "utc": "2026-08-30T18:52:20.085521+00:00"
+}

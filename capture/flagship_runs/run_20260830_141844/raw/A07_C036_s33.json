@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Weak liquidity (current ratio 0.79) and a very low EBIT-to-assets ratio imply limited near-term financial flexibility, while liabilities are high relative to equity despite a still-positive equity base and retained earnings. Positive operating income and substantial shareholder equity support credit quality above deep-speculative levels, but the balance sheet and coverage profile look more consistent with non-investment-grade risk.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 394,
+ "usd": 0.027105,
+ "utc": "2026-08-30T19:59:32.959441+00:00"
+}

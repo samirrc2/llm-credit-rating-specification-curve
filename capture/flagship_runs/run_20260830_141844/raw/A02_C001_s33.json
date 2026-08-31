@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company exhibits significant scale ($67 billion in total assets, $18 billion in quarterly revenue), strong profitability (14% operating margin), and robust capitalization with a healthy current ratio of 1.34. The low leverage, evidenced by shareholders' equity nearly matching total liabilities, combined with consistent and substantial net income generation, positions this issuer comfortably in the upper-medium investment grade tier.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 287,
+ "out_tok": 87,
+ "usd": 0.004045,
+ "utc": "2026-08-30T18:19:09.086685+00:00"
+}

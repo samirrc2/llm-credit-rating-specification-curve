@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer\u2019s balance sheet looks solid for investment grade: equity covers about 46% of assets, liabilities are moderate at roughly 51% of assets, retained earnings are strong, and liquidity is acceptable with a 1.34 current ratio. Profitability is decent but not exceptional (EBIT margin about 13.8%, EBIT/Assets about 3.7%), which supports a mid-to-upper investment-grade assessment rather than a high-A or AA category.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 259,
+ "usd": 0.019035,
+ "utc": "2026-08-30T18:20:06.613495+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 3, \"rationale\": \"Massive asset base and solid equity buffer offset low profitability margins, indicating strong financial flexibility and low default risk.\"}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 289,
+ "out_tok": 45,
+ "usd": 0.002795,
+ "utc": "2026-08-30T19:37:39.957145+00:00"
+}

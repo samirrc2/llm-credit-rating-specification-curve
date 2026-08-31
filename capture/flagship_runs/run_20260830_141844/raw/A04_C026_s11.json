@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High leverage (80% debt/assets) offset by large scale, adequate liquidity, and strong operating margins (29.8%).\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 51,
+ "usd": 0.00293,
+ "utc": "2026-08-30T19:30:09.304414+00:00"
+}

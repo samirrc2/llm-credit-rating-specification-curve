@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Strong liquidity (current ratio 2.29), positive retained earnings, and a moderate balance sheet leverage profile (liabilities about 1.45x equity, equity roughly 32% of assets) support solid investment-grade credit quality. Profitability is respectable but not strong enough on the provided figures alone to justify a higher single-A category, so the profile fits the upper BBB range.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 231,
+ "out_tok": 333,
+ "usd": 0.023445,
+ "utc": "2026-08-30T19:41:36.162352+00:00"
+}

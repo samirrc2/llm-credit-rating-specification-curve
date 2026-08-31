@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong revenue generation and current profitability, which indicates operational viability and capacity to service debt in the near term. However, the significantly negative shareholders' equity and a current ratio below 1.0 highlight substantial leverage and liquidity risks, constraining the rating to the non-investment grade or lower tier.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 279,
+ "out_tok": 67,
+ "usd": 0.003405,
+ "utc": "2026-08-30T20:16:22.625545+00:00"
+}

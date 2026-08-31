@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates exceptional financial strength, characterized by massive scale (quarterly revenue of ~$24B), highly robust profitability (70% gross margin and 30% operating margin), and a very strong balance sheet with substantial retained earnings and shareholders' equity. These metrics indicate a highly entrenched market position and immense cash-flow generation capacity, justifying a very high investment-grade rating.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 290,
+ "out_tok": 84,
+ "usd": 0.00397,
+ "utc": "2026-08-30T18:36:18.628184+00:00"
+}

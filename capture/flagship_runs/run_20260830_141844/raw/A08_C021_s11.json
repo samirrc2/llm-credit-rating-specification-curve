@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 3, \"rationale\": \"High EBIT margins and strong capitalization with low leverage support an investment grade rating, though a low current ratio presents some short-term liquidity risk.\"}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 270,
+ "out_tok": 51,
+ "usd": 0.00288,
+ "utc": "2026-08-30T19:17:03.370931+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage with liabilities over 70% of assets, low ROA, and modest EBIT margin suggest a speculative grade rating.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 50,
+ "usd": 0.002825,
+ "utc": "2026-08-30T19:28:24.614808+00:00"
+}

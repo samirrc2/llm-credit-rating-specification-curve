@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"High retained earnings and substantial total assets indicate stability, though moderate EBIT margin, low ROA, and a current ratio just under 1 constrain the rating.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 268,
+ "out_tok": 54,
+ "usd": 0.00296,
+ "utc": "2026-08-30T19:39:07.321790+00:00"
+}

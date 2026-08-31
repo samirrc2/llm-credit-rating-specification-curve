@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB\",\"confidence\":3,\"rationale\":\"Large, profitable issuer with solid margins and adequate near-term liquidity, but negative equity, accumulated deficits, and elevated balance-sheet leverage constrain the rating.\"}",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 310,
+ "usd": 0.022545,
+ "utc": "2026-08-30T19:49:17.645926+00:00"
+}

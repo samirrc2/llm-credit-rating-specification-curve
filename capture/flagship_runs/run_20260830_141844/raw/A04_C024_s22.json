@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High asset base and equity provide stability, but very low EBIT relative to massive total liabilities suggests weak interest coverage and profitability.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 275,
+ "out_tok": 48,
+ "usd": 0.002815,
+ "utc": "2026-08-30T19:24:53.907466+00:00"
+}

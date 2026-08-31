@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company exhibits massive scale (annualized revenue >$70B) and exceptional profitability, with an 83% gross margin and 48% operating margin. Although total liabilities ($91 billion) are large relative to shareholders' equity ($23.8 billion), the extremely strong cash generation and comfortable current ratio (1.55) support a high investment-grade rating.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 86,
+ "usd": 0.003985,
+ "utc": "2026-08-30T18:31:23.302104+00:00"
+}

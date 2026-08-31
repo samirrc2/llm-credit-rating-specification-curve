@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the company's massive revenue scale, exceptional profitability (70% gross margin and 30% operating margin), and substantial asset base with strong retained earnings, the financial profile reflects a highly entrenched market position and robust cash flow generation. The leverage is manageable given the strong equity base and liquidity, though the current ratio is slightly tight, supporting a strong investment-grade rating. \n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 291,
+ "out_tok": 85,
+ "usd": 0.004005,
+ "utc": "2026-08-30T18:38:02.525307+00:00"
+}

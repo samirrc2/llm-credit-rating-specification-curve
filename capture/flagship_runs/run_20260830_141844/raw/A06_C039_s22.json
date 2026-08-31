@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company possesses a massive asset base of over $1.8 trillion and strong equity of $125 billion, indicative of a large, systematically important financial institution. Consistent profitability with $4.6 billion in net income supports robust capitalization and creditworthiness, warranting a solid investment-grade rating despite typical financial sector leverage.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 294,
+ "out_tok": 71,
+ "usd": 0.0036,
+ "utc": "2026-08-30T20:08:12.830016+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High total assets and substantial equity suggest stability, despite a low current ratio and high leverage, typical of capital-intensive industries.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 48,
+ "usd": 0.00281,
+ "utc": "2026-08-30T20:14:55.883945+00:00"
+}

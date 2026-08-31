@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AAA\",\"confidence\":4,\"rationale\":\"Exceptional profitability, enormous equity cushion, moderate liabilities, positive working capital, and vast retained earnings support the highest credit quality.\"}",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 256,
+ "out_tok": 202,
+ "usd": 0.01596,
+ "utc": "2026-08-30T18:51:19.261507+00:00"
+}

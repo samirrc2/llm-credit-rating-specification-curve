@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company generates substantial revenue and positive operating and net income, indicating a strong market position and ability to service debt through ongoing cash flows. However, the significantly negative shareholders' equity, high total liabilities relative to assets, and tight current ratio highlight substantial leverage and limited balance sheet flexibility. These factors balance out to a lower investment-grade or upper speculative-grade profile.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 79,
+ "usd": 0.003765,
+ "utc": "2026-08-30T20:16:32.918249+00:00"
+}

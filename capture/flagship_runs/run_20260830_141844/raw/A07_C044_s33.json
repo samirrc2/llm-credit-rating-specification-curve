@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Very weak credit profile: liquidity is extremely strained (current ratio 0.27), shareholders\u2019 equity is negative, and retained earnings are deeply negative, indicating an overleveraged balance sheet with liabilities exceeding assets. Although EBIT is positive, it is small relative to total liabilities and does not offset the severe solvency and refinancing risk.\n\nDECISION: CCC-",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 202,
+ "usd": 0.015585,
+ "utc": "2026-08-30T20:22:33.013080+00:00"
+}

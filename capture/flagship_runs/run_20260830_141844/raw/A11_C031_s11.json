@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is highly leveraged, with liabilities covering about 92% of assets and equity only ~8% of the asset base, while liquidity is very weak given a 0.34 current ratio and deeply negative working capital. Although the company remains profitable at the EBIT level and has positive retained earnings, the capital structure and short-term liquidity profile point to meaningful credit risk consistent with the lower speculative-grade range.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 248,
+ "out_tok": 416,
+ "usd": 0.02868,
+ "utc": "2026-08-30T19:45:18.474741+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows weak liquidity (current ratio 0.83) and very high leverage, with liabilities equal to about 93% of assets and only a thin equity cushion. While the company is still profitable at the operating level and has meaningful retained earnings, the modest EBIT relative to its asset base supports only a speculative-grade profile rather than investment grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 250,
+ "out_tok": 390,
+ "usd": 0.02715,
+ "utc": "2026-08-30T20:09:26.172904+00:00"
+}

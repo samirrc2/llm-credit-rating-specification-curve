@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"High profitability and strong liquidity, offset by high leverage (liabilities/assets ~79%) and asset-heavy capital structure.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 49,
+ "usd": 0.002875,
+ "utc": "2026-08-30T18:31:06.847776+00:00"
+}

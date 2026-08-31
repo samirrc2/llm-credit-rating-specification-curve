@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong balance sheet with equity exceeding total liabilities, solid EBIT margins, and good liquidity, though ROA is somewhat low.\"}\n```",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 48,
+ "usd": 0.00281,
+ "utc": "2026-08-30T18:26:10.532798+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows only marginal liquidity (current ratio 1.04) and very high balance-sheet leverage, with liabilities equal to about 86% of assets and equity covering only a modest share of obligations. While retained earnings are strong and EBIT is positive, operating income is relatively small versus the asset base, which supports a speculative-grade but not deeply distressed assessment.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 492,
+ "usd": 0.033015,
+ "utc": "2026-08-30T19:22:45.096885+00:00"
+}

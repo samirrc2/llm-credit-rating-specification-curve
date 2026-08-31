@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows moderate leverage and a meaningful equity cushion (liabilities about 60% of assets; equity about 40% of assets), with substantial retained earnings indicating an established issuer. However, liquidity is tight with a current ratio just under 1.0, and EBIT is modest relative to the asset base and liability load, which constrains the rating to the low end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 342,
+ "usd": 0.02412,
+ "utc": "2026-08-30T19:39:39.255769+00:00"
+}

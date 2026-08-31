@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 2, \"rationale\": \"High leverage, low current ratio, and low revenue relative to total assets suggest financial strain, though total equity provides some buffer.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 49,
+ "usd": 0.002875,
+ "utc": "2026-08-30T20:12:51.465400+00:00"
+}

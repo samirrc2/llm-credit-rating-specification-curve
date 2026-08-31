@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company's extremely high leverage (liabilities constitute over 96% of total assets) and weak profitability, evidenced by thin operating margins and a net loss, reflect significant financial risk. However, its massive revenue scale, adequate liquidity (current ratio of 1.18), and substantial retained earnings provide some cushion, supporting a lower-tier investment-grade or high speculative-grade rating. \n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 88,
+ "usd": 0.00406,
+ "utc": "2026-08-30T19:09:14.804986+00:00"
+}

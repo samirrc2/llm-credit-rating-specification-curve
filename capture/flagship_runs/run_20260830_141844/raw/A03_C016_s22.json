@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows weak near-term liquidity (current ratio 0.90) and fairly high leverage, with liabilities about 4.2x equity and liabilities representing roughly 81% of assets. Offsetting that, the issuer is still solidly profitable at the operating level (EBIT margin around 16.5%) and has very large accumulated retained earnings, which supports some financial resilience; overall this looks like a borderline investment-grade/speculative-grade profile.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 496,
+ "usd": 0.03336,
+ "utc": "2026-08-30T19:01:30.907825+00:00"
+}

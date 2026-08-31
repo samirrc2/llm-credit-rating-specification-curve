@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company exhibits exceptional profitability and scale, with an annualized revenue run-rate of over $70 billion, an impressive 83% gross margin, and a 48% operating margin. Liquidity is robust with a current ratio of 1.55, though the relatively high proportion of total liabilities to equity tempers the rating slightly, pointing toward a strong investment-grade profile rather than the highest tiers. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 289,
+ "out_tok": 92,
+ "usd": 0.004205,
+ "utc": "2026-08-30T18:32:34.170203+00:00"
+}

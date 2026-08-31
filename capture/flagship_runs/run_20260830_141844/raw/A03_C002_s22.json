@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows exceptional near-term liquidity and a meaningful equity base, but leverage is very high overall: liabilities are about 90% of assets, while EBIT is modest relative to the balance sheet and only supported by a small revenue base. That combination suggests adequate solvency today but limited cushion against stress, consistent with a lower investment-grade / upper speculative profile.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 417,
+ "usd": 0.02862,
+ "utc": "2026-08-30T18:21:57.942932+00:00"
+}

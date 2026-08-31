@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 2, \"rationale\": \"Large scale and positive EBIT suggest operational stability, but negative equity and high total liabilities indicate significant leverage and financial risk.\"}\n```",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 278,
+ "out_tok": 47,
+ "usd": 0.0028,
+ "utc": "2026-08-30T19:50:03.794185+00:00"
+}

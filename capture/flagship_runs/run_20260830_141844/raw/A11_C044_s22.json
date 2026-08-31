@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very weak credit fundamentals: severe liquidity pressure (current ratio 0.27), negative equity, and liabilities exceeding assets, all of which indicate a highly leveraged and financially fragile balance sheet. Although EBIT is positive, the combination of negative retained earnings and poor short-term coverage suggests substantial default risk, but not enough evidence here to conclude default is imminent.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 258,
+ "usd": 0.01908,
+ "utc": "2026-08-30T20:23:23.700401+00:00"
+}

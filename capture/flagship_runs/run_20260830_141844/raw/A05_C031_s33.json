@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":3,\"rationale\":\"Large, consistently profitable balance sheet with substantial retained earnings and solid capital for a financial issuer, though leverage is inherently high and liquidity metrics are weak.\"}",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 262,
+ "out_tok": 282,
+ "usd": 0.02085,
+ "utc": "2026-08-30T19:43:55.173762+00:00"
+}

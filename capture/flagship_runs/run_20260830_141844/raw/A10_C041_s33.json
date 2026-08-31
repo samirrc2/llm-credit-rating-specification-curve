@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates massive scale with over $204 billion in total assets and strong profitability, evidenced by a 32% operating margin and high net income. However, the balance sheet shows substantial leverage with nearly $140 billion in liabilities and a weak current ratio of 0.55, which is typical for highly capital-intensive industries but constrains the rating to the mid-to-lower investment grade range. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 289,
+ "out_tok": 94,
+ "usd": 0.004265,
+ "utc": "2026-08-30T20:15:37.681840+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company has a massive asset base and strong equity buffer, indicating significant scale and financial stability. However, the current ratio is below 1, and the profitability relative to the asset base is very weak (net income of $102M on $86.8B of assets), which constrains the rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 71,
+ "usd": 0.0035,
+ "utc": "2026-08-30T19:25:17.410716+00:00"
+}

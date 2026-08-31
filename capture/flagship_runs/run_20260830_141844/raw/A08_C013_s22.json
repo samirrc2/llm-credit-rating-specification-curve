@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"Large asset base and moderate leverage, but profitability metrics like ROA are relatively low, suggesting a stable investment-grade profile.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 48,
+ "usd": 0.00281,
+ "utc": "2026-08-30T18:54:27.575498+00:00"
+}

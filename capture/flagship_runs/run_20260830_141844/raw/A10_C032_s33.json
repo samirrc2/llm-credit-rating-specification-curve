@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with high gross (85%) and operating (32%) margins, generating substantial net income on a massive revenue base. However, the balance sheet is highly leveraged with total liabilities of $274.9 billion dwarfing shareholders' equity of $34 billion, and liquidity appears strained given the low current ratio of 0.35. This combination of strong cash-flow generation capability offset by significant debt and working capital deficits is typical of capital-intensive, investment-grade issuers.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 291,
+ "out_tok": 111,
+ "usd": 0.004785,
+ "utc": "2026-08-30T19:48:33.066875+00:00"
+}

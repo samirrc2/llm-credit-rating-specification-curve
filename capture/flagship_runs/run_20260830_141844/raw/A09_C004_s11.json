@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB+\",\"confidence\":3,\"rationale\":\"Strong liquidity, very low leverage, and large equity base support IG; however, thin 4% operating margin and cyclical execution risk constrain rating.\"}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 261,
+ "out_tok": 434,
+ "usd": 0.029955,
+ "utc": "2026-08-30T18:29:11.688622+00:00"
+}

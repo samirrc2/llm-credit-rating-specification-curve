@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"Moderate leverage, adequate liquidity (current ratio 1.34), and solid profitability margins support an investment-grade rating, likely in the BBB+ tier.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 55,
+ "usd": 0.003015,
+ "utc": "2026-08-30T18:20:10.213095+00:00"
+}

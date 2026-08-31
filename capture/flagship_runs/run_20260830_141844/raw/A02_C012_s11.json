@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With a massive asset base of nearly $694 billion, relatively low leverage (total liabilities represent just 40% of total assets), and extremely high profitability (46% operating margin on ~$83 billion in quarterly revenue), this issuer demonstrates exceptional financial strength and capacity to meet its financial commitments. The enormous retained earnings and strong liquidity position further cement its status as a top-tier credit profile.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 295,
+ "out_tok": 87,
+ "usd": 0.004085,
+ "utc": "2026-08-30T18:50:34.755629+00:00"
+}

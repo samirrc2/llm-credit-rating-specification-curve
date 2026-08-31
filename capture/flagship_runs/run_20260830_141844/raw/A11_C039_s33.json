@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows weak balance-sheet and liquidity metrics for a nonfinancial issuer: current ratio below 1.0, very high liabilities relative to equity, and only modest EBIT relative to its large asset/liability base. While it remains profitable and has substantial retained earnings, the leverage and thin equity cushion are more consistent with lower investment-grade to high-yield credit quality.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 250,
+ "out_tok": 459,
+ "usd": 0.03129,
+ "utc": "2026-08-30T20:09:37.846128+00:00"
+}

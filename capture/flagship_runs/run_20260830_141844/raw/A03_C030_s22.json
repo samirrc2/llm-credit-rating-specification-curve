@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a solid balance sheet, with a strong current ratio of 2.29 and moderate leverage (total liabilities of about 47% of assets), supported by a sizable equity base. However, earnings are only moderate relative to its asset and liability load, so while credit quality appears investment grade, it does not look strong enough for the higher A-category based on these metrics alone.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 238,
+ "out_tok": 306,
+ "usd": 0.02193,
+ "utc": "2026-08-30T19:40:42.248593+00:00"
+}

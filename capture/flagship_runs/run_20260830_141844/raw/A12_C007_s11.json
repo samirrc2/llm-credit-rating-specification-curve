@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Moderate Z-score around 1.9, high EBIT margin, but significant leverage and low asset turnover suggest an investment-grade rating in the BBB tier.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 55,
+ "usd": 0.00307,
+ "utc": "2026-08-30T18:38:28.781553+00:00"
+}

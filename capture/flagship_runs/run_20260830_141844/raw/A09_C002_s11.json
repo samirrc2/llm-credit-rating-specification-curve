@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA-\",\"confidence\":4,\"rationale\":\"Exceptional profitability, very strong liquidity, and large retained earnings support high quality; elevated total liabilities versus equity temper an otherwise top-tier profile.\"}",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 247,
+ "usd": 0.018795,
+ "utc": "2026-08-30T18:23:23.598022+00:00"
+}

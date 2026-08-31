@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"High retained earnings and strong equity base indicate stability, though low return on assets limits the upside. Moderate leverage supports investment grade.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 48,
+ "usd": 0.00281,
+ "utc": "2026-08-30T18:49:11.360620+00:00"
+}

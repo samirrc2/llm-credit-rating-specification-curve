@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Extremely high leverage, weak liquidity, and significant accumulated deficit indicate a highly speculative credit profile, despite positive EBIT margins.\"}\n```",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 276,
+ "out_tok": 47,
+ "usd": 0.00279,
+ "utc": "2026-08-30T20:06:46.095963+00:00"
+}

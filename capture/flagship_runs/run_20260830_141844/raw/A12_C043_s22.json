@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B\", \"confidence\": 4, \"rationale\": \"High leverage, negative working capital, and low profitability yield a very low Altman Z-score, indicating financial distress and speculative-grade credit quality.\"}\n```",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 278,
+ "out_tok": 52,
+ "usd": 0.00295,
+ "utc": "2026-08-30T20:21:06.468157+00:00"
+}

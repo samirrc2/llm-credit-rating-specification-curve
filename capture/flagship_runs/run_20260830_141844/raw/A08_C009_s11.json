@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A+\", \"confidence\": 3, \"rationale\": \"Strong liquidity, very high EBIT margins, and low leverage indicate a highly stable financial position, supporting a strong investment-grade rating.\"}\n```",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 270,
+ "out_tok": 49,
+ "usd": 0.00282,
+ "utc": "2026-08-30T18:43:22.140825+00:00"
+}

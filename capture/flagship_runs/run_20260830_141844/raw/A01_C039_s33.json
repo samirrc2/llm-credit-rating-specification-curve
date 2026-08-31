@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A\",\"confidence\":4,\"rationale\":\"Large, highly profitable, and well-capitalized for a financial institution; leverage remains inherently high and liquidity metrics are weak outside banking context, supporting solid single-A credit quality.\"}",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 271,
+ "out_tok": 183,
+ "usd": 0.015045,
+ "utc": "2026-08-30T20:07:03.740070+00:00"
+}

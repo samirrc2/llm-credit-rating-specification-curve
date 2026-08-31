@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company displays the highly leveraged balance sheet typical of a financial institution, with massive total assets ($493B) and total liabilities ($444B) supported by a solid equity base ($49B). Its extremely strong liquidity (current ratio of 12.41) and robust profitability (44% operating margin) demonstrate excellent financial health and low default risk, warranting a solid investment-grade rating.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 290,
+ "out_tok": 92,
+ "usd": 0.00421,
+ "utc": "2026-08-30T18:21:42.283045+00:00"
+}

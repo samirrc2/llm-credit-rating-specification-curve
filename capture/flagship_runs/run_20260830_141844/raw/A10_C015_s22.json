@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong liquidity with a current ratio of 1.44 and solid profitability, evidenced by an operating margin of 14% and $2.4 billion in net income on $19.1 billion in revenue. However, its substantial total liabilities ($77.2 billion) relative to shareholders' equity ($21.3 billion) indicate high leverage, constraining the rating to the mid-to-lower investment grade tier despite the maturity implied by its massive retained earnings.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 106,
+ "usd": 0.00462,
+ "utc": "2026-08-30T19:00:17.663162+00:00"
+}

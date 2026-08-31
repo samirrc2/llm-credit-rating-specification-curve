@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have a large, asset-heavy balance sheet with moderate leverage (equity about 27% of assets) and positive retained earnings, which supports investment-grade credit quality. However, the weak current ratio (0.63) and only modest operating earnings relative to its very large liability base limit rating strength, pointing to the lower-medium investment-grade range.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 297,
+ "usd": 0.02142,
+ "utc": "2026-08-30T20:10:31.003165+00:00"
+}

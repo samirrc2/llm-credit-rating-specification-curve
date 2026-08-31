@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet is mixed: liquidity is only just adequate (current ratio ~1.0) and the very large accumulated deficit points to a long history of losses, which weakens financial flexibility. While leverage is not extreme given the sizable equity base and the company is EBIT-positive, earnings scale remains modest relative to the asset base, supporting a speculative-grade but not distressed assessment.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 239,
+ "usd": 0.01794,
+ "utc": "2026-08-30T20:03:26.770472+00:00"
+}

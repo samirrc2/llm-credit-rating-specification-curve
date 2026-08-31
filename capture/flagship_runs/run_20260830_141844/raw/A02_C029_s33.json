@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a 15% operating margin and an annualized ROE of over 17%, supported by a substantial asset base of $25 billion. However, a somewhat elevated leverage profile (liabilities to equity of 1.5x) and a tight current ratio of 0.99 constrain the rating slightly. Overall, these metrics indicate a solid investment-grade profile with manageable financial risk.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 93,
+ "usd": 0.00419,
+ "utc": "2026-08-30T19:38:02.194856+00:00"
+}

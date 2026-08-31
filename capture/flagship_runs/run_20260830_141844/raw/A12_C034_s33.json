@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Negative working capital, significant negative retained earnings, high leverage, and low asset turnover indicate high default risk despite positive EBIT and equity.\"}\n```",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 278,
+ "out_tok": 49,
+ "usd": 0.00286,
+ "utc": "2026-08-30T19:55:00.235864+00:00"
+}

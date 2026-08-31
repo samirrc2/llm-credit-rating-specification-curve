@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":4,\"rationale\":\"Large scale, very strong margins and profitability, solid equity base and retained earnings; near-term liquidity is only modest and debt/cash-flow detail is absent.\"}",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 306,
+ "usd": 0.022335,
+ "utc": "2026-08-30T18:37:37.886602+00:00"
+}

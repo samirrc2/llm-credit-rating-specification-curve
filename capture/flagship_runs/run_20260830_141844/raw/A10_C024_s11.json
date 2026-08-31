@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a massive asset base ($86.7 billion) and a very strong equity cushion ($36.0 billion), which provides substantial downside protection and solvency. However, its low revenue relative to assets, weak profitability (ROA near 0.1%), and a slightly weak current ratio of 0.94 constrain the rating. These factors balance a strong balance sheet against weak earnings generation, typical of a mid-tier investment-grade profile.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 282,
+ "out_tok": 99,
+ "usd": 0.00438,
+ "utc": "2026-08-30T19:26:02.516565+00:00"
+}

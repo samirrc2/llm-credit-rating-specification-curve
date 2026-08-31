@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High total assets and solid equity base offset weak liquidity (current ratio 0.53) and low asset turnover, typical of capital-intensive or financial firms.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 280,
+ "out_tok": 56,
+ "usd": 0.00308,
+ "utc": "2026-08-30T20:26:21.060511+00:00"
+}

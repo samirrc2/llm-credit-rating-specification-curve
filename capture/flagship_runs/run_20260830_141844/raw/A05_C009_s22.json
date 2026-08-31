@@ -1,0 +1,21 @@
+{
+ "spec_id": "A05",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA\",\"confidence\":4,\"rationale\":\"Exceptional 56% operating margin, strong profitability, current ratio 2.29, and moderate liabilities support very high credit quality; absent debt/cash-flow detail tempers rating below AAA.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 256,
+ "out_tok": 209,
+ "usd": 0.01638,
+ "utc": "2026-08-30T18:42:48.699204+00:00"
+}

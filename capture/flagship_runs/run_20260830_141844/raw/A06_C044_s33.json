@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong operating profitability with a 46% operating margin and positive net income. However, its financial risk is severe, characterized by a massive debt burden leading to negative shareholders' equity (-$1.9B) and very weak liquidity (current ratio of 0.27). This combination of strong underlying business economics but highly leveraged balance sheet typically corresponds to a highly speculative credit profile.\n\nDECISION: B",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 86,
+ "usd": 0.00394,
+ "utc": "2026-08-30T20:22:25.005983+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This issuer demonstrates massive scale with over $122 billion in total assets and strong profitability, yielding $1.7 billion in net income for the period. Leverage is very manageable, as evidenced by total liabilities being lower than shareholders' equity ($57.5 billion vs. $64.9 billion), providing substantial balance sheet strength and a strong capacity to meet debt obligations. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 84,
+ "usd": 0.003925,
+ "utc": "2026-08-30T18:25:49.080354+00:00"
+}

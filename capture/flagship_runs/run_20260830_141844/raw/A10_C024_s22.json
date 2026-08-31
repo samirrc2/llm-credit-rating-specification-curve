@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company has a very large asset base ($86.8 billion) with a solid equity cushion ($36.0 billion), indicating strong overall capitalization and scale. However, its profitability is quite weak relative to its asset size (net income of $102 million) and its liquidity position is slightly constrained with a current ratio below 1.0x (0.94). These factors, combined with negative diluted EPS, suggest a lower-tier investment grade or upper-tier speculative grade profile, consistent with a moderate credit risk.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 282,
+ "out_tok": 116,
+ "usd": 0.00489,
+ "utc": "2026-08-30T19:26:08.965021+00:00"
+}

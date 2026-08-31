@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong liquidity with a current ratio of 2.29 and moderate leverage given total liabilities of $27.4 billion against $18.9 billion in shareholders' equity. While profitability is steady with positive net income and a 14% operating margin, the return on large total assets ($58.1 billion) is somewhat modest, aligning with a solid investment-grade profile.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 88,
+ "usd": 0.004005,
+ "utc": "2026-08-30T19:41:27.611978+00:00"
+}

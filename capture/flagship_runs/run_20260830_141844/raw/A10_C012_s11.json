@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates exceptional financial health, characterized by massive scale (total assets of $694 billion), outstanding profitability (46% operating margin), and a highly robust balance sheet with over $414 billion in shareholders' equity. The strong liquidity, enormous retained earnings, and immense cash flow generation capacity are indicative of the highest level of creditworthiness, matching the profile of a prime-tier mega-cap technology corporation.\n\nDECISION: AAA",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 296,
+ "out_tok": 91,
+ "usd": 0.00421,
+ "utc": "2026-08-30T18:52:09.051796+00:00"
+}

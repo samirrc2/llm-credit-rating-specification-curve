@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":3,\"rationale\":\"Exceptional profitability and earnings support strong debt service, but negative equity and weak current ratio constrain the rating below AA.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 604,
+ "usd": 0.040215,
+ "utc": "2026-08-30T18:40:43.951609+00:00"
+}

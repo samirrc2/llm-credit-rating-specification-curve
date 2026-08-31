@@ -11,7 +11,11 @@ abstract: >
   real-firm arm (31 anonymized, perturbed issuers benchmarked to disclosed agency ratings; a
   pre-registered fingerprinting gate) shows the WATCH-stratum flip-share replicates (not
   distinguishable from the constructed battery; a formal TOST equivalence test is inconclusive
-  at this sample size).
+  at this sample size). A post-hoc flagship model-tier arm (gpt-5.4 + gemini-3.1-pro-preview on the
+  frozen 12-specification grid, 1,620 elicitations) finds no evidence that the instability attenuates
+  on larger models. The artifact also derives and validates a deployable specification-instability
+  score (ROC-AUC 0.94 on held-out specifications; 0.70 on the real-issuer arm) with a self-consistency
+  curve and per-issuer cost model. Repository: https://github.com/samirrc2/llm-credit-rating-specification-curve
 type: software
 doi: "10.5281/zenodo.21953935"
 identifiers:

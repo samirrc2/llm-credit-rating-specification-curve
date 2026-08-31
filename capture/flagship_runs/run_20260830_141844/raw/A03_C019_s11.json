@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows adequate liquidity and solid scale, but its balance sheet is highly leveraged: liabilities are about 78% of assets and over 3.5x equity, while EBIT is only modest relative to the asset base. Strong retained earnings and positive operating profitability support credit quality, but the leverage profile keeps it near the lower end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 423,
+ "usd": 0.02898,
+ "utc": "2026-08-30T19:10:17.344788+00:00"
+}

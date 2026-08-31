@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a strong balance sheet with substantial total assets ($48.8 billion) and a healthy equity base ($23.3 billion), indicating moderate leverage. Although retained earnings are negative and liquidity is tight (current ratio of 1.00), the firm is generating solid operating margins (17%) and positive net income, supporting an investment-grade profile.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 81,
+ "usd": 0.00382,
+ "utc": "2026-08-30T20:01:21.077360+00:00"
+}

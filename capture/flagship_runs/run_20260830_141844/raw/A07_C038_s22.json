@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Very weak liquidity (current ratio 0.63), thin equity relative to assets/liabilities, and deeply negative retained earnings point to a highly leveraged, financially fragile profile despite positive EBIT. The balance sheet offers only modest loss-absorption capacity, consistent with substantial credit risk and vulnerability to adverse conditions.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 233,
+ "out_tok": 455,
+ "usd": 0.030795,
+ "utc": "2026-08-30T20:05:29.091599+00:00"
+}

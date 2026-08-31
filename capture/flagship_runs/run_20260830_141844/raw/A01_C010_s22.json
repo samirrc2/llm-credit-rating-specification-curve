@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":3,\"rationale\":\"Exceptional margins, strong liquidity, low balance-sheet leverage, and large retained earnings support high-grade credit; moderate scale and weaker net conversion temper against AA.\"}",
+ "parsed_letter": "AA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 261,
+ "out_tok": 418,
+ "usd": 0.028995,
+ "utc": "2026-08-30T18:44:41.623556+00:00"
+}

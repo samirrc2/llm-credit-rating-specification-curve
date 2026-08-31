@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB\",\"confidence\":3,\"rationale\":\"Solid capitalization and positive earnings support investment grade, but weak liquidity, large retained deficit, and unusual negative gross margin constrain the rating.\"}",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 259,
+ "out_tok": 225,
+ "usd": 0.017385,
+ "utc": "2026-08-30T20:00:56.088785+00:00"
+}

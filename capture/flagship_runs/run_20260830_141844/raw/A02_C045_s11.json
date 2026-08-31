@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates immense scale with total assets of $117.8 billion and solid profitability, indicated by a 23% operating margin and $874 million in quarterly net income. However, the high total liabilities ($84.8 billion) and weak liquidity profile (current ratio of 0.53) constrain the rating to the lower-to-middle investment-grade tiers. \n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 283,
+ "out_tok": 88,
+ "usd": 0.004055,
+ "utc": "2026-08-30T20:23:59.744777+00:00"
+}

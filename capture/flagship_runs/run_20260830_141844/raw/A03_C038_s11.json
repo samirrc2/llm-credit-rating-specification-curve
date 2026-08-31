@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer\u2019s balance sheet appears highly leveraged, with liabilities equal to roughly 84% of assets, a weak current ratio of 0.63, and deeply negative retained earnings indicating a history of cumulative losses or heavy distributions. While it remains profitable at the operating level and still has positive equity, the overall credit profile looks meaningfully weaker than investment grade and most consistent with a speculative-grade rating.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 282,
+ "usd": 0.02052,
+ "utc": "2026-08-30T20:04:29.397180+00:00"
+}

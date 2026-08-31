@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This issuer demonstrates massive operational scale and a highly robust balance sheet, evidenced by $143.7 billion in total assets against just $58.9 billion in total liabilities, alongside a strong current ratio of 2.04. While profitability margins are relatively thin (4% operating margin), the substantial retained earnings ($39.5 billion) and low leverage provide exceptional financial flexibility and justify a strong investment-grade rating.\n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 93,
+ "usd": 0.00417,
+ "utc": "2026-08-30T18:28:32.086322+00:00"
+}

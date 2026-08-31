@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a massive asset base and significant shareholders' equity, indicating strong market presence and structural stability. While profitability is positive with an 80% gross margin and 14% operating margin, the relatively high total liabilities and a current ratio slightly below 1.0 suggest some leverage and liquidity constraints, aligning with a mid-to-lower investment grade profile. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 290,
+ "out_tok": 82,
+ "usd": 0.00391,
+ "utc": "2026-08-30T19:12:59.458722+00:00"
+}

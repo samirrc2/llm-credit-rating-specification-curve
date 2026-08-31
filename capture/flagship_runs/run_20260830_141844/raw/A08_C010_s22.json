@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"AA-\", \"confidence\": 3, \"rationale\": \"High EBIT margin (44%), strong current ratio (1.92), and moderate leverage (total liabilities/equity around 0.73) suggest a very strong financial profile, justifying an AA-.\"}\n```",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 270,
+ "out_tok": 67,
+ "usd": 0.00336,
+ "utc": "2026-08-30T18:46:26.067073+00:00"
+}

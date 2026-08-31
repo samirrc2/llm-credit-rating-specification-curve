@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company's significant negative shareholders' equity and a current ratio below 1 indicate high leverage and potential liquidity constraints. However, its large revenue base and positive profitability (net income of $511 million) provide some capacity to service debt, supporting a speculative-grade rating.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 62,
+ "usd": 0.00322,
+ "utc": "2026-08-30T20:17:17.856111+00:00"
+}

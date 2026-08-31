@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer is a massive financial institution (likely a G-SIB such as JPMorgan Chase or Bank of America, given total assets exceeding $3.4 trillion) with strong profitability and a robust equity base of over $300 billion. The low current ratio is typical for banks due to large deposit liabilities, and the immense scale and systemic importance strongly support an investment-grade rating in the upper-middle tier.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 295,
+ "out_tok": 89,
+ "usd": 0.004145,
+ "utc": "2026-08-30T19:56:18.684687+00:00"
+}

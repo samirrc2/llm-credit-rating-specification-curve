@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows a mixed credit profile: very strong profitability (EBIT of 3,230M on 5,251M revenue) and substantial cumulative retained earnings support credit quality, but liquidity is weak (0.62 current ratio) and the balance sheet is aggressive, with negative equity and liabilities exceeding assets. On balance, this looks more consistent with a lower investment-grade profile than a highly rated issuer.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 625,
+ "usd": 0.04113,
+ "utc": "2026-08-30T18:41:29.975577+00:00"
+}

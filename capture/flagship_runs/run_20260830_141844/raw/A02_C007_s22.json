@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates massive scale with annualized revenues approaching $100 billion and highly robust profitability, evidenced by a 70% gross margin and 30% operating margin. Its balance sheet is very strong with nearly $80 billion in shareholders' equity and substantial retained earnings, though the current ratio is somewhat tight at 1.07, which is typical for highly efficient large-cap corporations. \n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 290,
+ "out_tok": 89,
+ "usd": 0.00412,
+ "utc": "2026-08-30T18:36:12.586288+00:00"
+}

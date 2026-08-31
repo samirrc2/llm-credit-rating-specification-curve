@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet looks strong for creditors: liquidity is adequate (current ratio 1.52) and leverage is moderate, with equity covering a large share of assets and exceeding total liabilities by a wide margin. However, operating earnings are only modest relative to the asset base and liabilities, which tempers the otherwise solid credit profile and points to upper-medium investment-grade rather than high-grade strength.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 406,
+ "usd": 0.027855,
+ "utc": "2026-08-30T18:34:28.546731+00:00"
+}

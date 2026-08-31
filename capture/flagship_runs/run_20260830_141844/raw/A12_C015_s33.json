@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage, weak ROA, and low asset turnover lead to an Altman Z-score in the distress zone, indicating speculative grade credit quality.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 281,
+ "out_tok": 52,
+ "usd": 0.002965,
+ "utc": "2026-08-30T19:00:56.690034+00:00"
+}

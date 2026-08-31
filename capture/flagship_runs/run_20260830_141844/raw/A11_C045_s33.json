@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows meaningful financial risk: very weak short-term liquidity (current ratio 0.53) and high leverage (liabilities about 72% of assets, debt-like obligations large relative to earnings capacity). Still, the company has substantial equity, positive retained earnings, and positive EBIT, which supports a borderline investment-grade profile rather than a deeply speculative one.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 339,
+ "usd": 0.02397,
+ "utc": "2026-08-30T20:26:13.278011+00:00"
+}

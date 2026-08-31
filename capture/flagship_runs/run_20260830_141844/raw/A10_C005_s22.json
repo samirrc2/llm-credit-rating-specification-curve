@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates massive scale and exceptional profitability, with annualized revenue exceeding $70 billion and an operating margin of 48%, which provides tremendous cash flow generation. However, total liabilities are quite substantial at $91 billion compared to shareholders' equity of $23.8 billion, keeping the rating solidly in the mid-to-lower investment-grade tier despite the strong liquidity (current ratio of 1.55). \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 289,
+ "out_tok": 94,
+ "usd": 0.004265,
+ "utc": "2026-08-30T18:32:26.708364+00:00"
+}

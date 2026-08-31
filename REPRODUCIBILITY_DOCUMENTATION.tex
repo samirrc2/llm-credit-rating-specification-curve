@@ -1,0 +1,188 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{seqsplit}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+% \code renders monospace and lets long tokens (paths, snake_case) wrap only when needed
+\newcommand{\code}[1]{\texttt{\small\seqsplit{#1}}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Supporting Data and Code: Reproducibility Documentation}\\[4pt]
+{\itshape Evaluating LLM-Based Credit Rating Systems: A Pre-Registered Specification-Curve Analysis}\\[2pt]
+Companion to the \emph{Intelligent Systems with Applications} submission
+\end{center}
+
+\section{Purpose and scope}
+This document describes the supporting data-and-code archive that accompanies the manuscript. The archive
+is a self-contained, \textbf{offline, deterministic} reproduction: from a single command it regenerates
+every reported number, table, and figure from frozen inputs, with \textbf{no network access, no API keys,
+and no paid model calls}. The permanent citable version is the Zenodo archive at
+\href{https://doi.org/10.5281/zenodo.21953935}{\code{10.5281/zenodo.21953935}} (code MIT-licensed); the
+same tree is mirrored at \url{https://github.com/samirrc2/llm-credit-rating-specification-curve}.
+
+A strict wall separates two phases. An \emph{offline analysis} reproduces every claim from frozen inputs
+(documented here). A \emph{live capture} phase originally queried commercial model APIs and is retained
+for transparency only (Section~8). Because commercial models change over time, capture is deliberately not
+part of the reproducible core; the frozen model-response corpora it produced are shipped and hash-verified.
+The confirmatory data are synthetic firm profiles benchmarked to an objective Altman Z$''$ reference; the
+real-firm arm uses only publicly available SEC filings, anonymized and perturbed.
+
+\section{Quick start}
+\begin{quote}\code{pip install -r requirements.txt}\\ \code{bash reproduce.sh}\end{quote}
+\textbf{Expected result:} the full analysis regenerates every \code{results/results\_*.json}; a second
+independent run is byte-identical (the SHA-256 of each JSON result matches), and the run exits 0. Total
+runtime is a few minutes on a standard laptop. No network access is required at any point.
+
+\section{Archive layout}
+\begin{longtable}{@{}L{0.36\textwidth} L{0.58\textwidth}@{}}
+\toprule
+\code{reproduce.sh} & one-command offline reproduction of all results \\
+\code{requirements.txt} & pinned Python dependencies (analysis only; Python 3.10) \\
+\code{config/} & specification grid, paraphrase templates, rating scale, run config \\
+\code{analysis/} & all analysis code (Section~5) \\
+\code{capture/} & live data-collection harness (reference only; not run here, Section~8) \\
+\code{data/frozen/main/} & pre-registered inputs: \code{battery\_90.json}, \code{grid\_definition.json}, \code{paraphrase\_templates.json}, \code{rating\_scale.json}, \code{capital\_map.json}, manifests \\
+\code{data/frozen/realarm/} & real-firm arm artifacts: anonymized battery, sealed crosswalk, rating provenance, 12-spec grid \\
+\code{data/frozen/market\_data/} & FRED option-adjusted-spread series (cached) \\
+\code{data/raw/main/} & frozen response corpus (per-call JSON) \\
+\code{data/raw/realarm/} & real-firm arm model-output panels (arm / comparator / fingerprint) \\
+\code{capture/flagship\_runs/} & flagship model-tier arm corpus (1{,}620 per-call JSON), fixed by \code{MANIFEST\_FLAGSHIP} \\
+\code{data/panel/panel.parquet} & analysis panel, built once from raw (the confirmatory analysis input) \\
+\code{results/} & all generated outputs (Section~6) \\
+\code{paper/ISWA/} & manuscript (Elsevier CAS), figures, highlights, cover letter, \code{.docx} \\
+\code{manifest/} & SHA-256 manifests for every frozen stage \\
+\code{docs/} & reports, appendix, changelog \\
+\code{PREREGISTRATION.md}, \code{PREREGISTRATION\_AMENDMENTS.md} & frozen pre-registration and amendments \\
+\bottomrule
+\end{longtable}
+
+\section{Data (inputs and metadata)}
+\subsection{Frozen inputs}
+Every input the pipeline reads is a frozen artifact. The analysis is a pure, seeded function of these files.
+\begin{longtable}{@{}L{0.30\textwidth} r L{0.50\textwidth}@{}}
+\toprule
+\textbf{File} & \textbf{Rows} & \textbf{Unit of observation / key fields} \\
+\midrule
+\endhead
+\code{data/frozen/main/battery\_90.json} & 90 & one synthetic firm profile; 45 credit-health items (SAFE/WATCH/DISTRESS, 15 each) with an Altman Z$''$ benchmark band $+$ 45 directional items (buy/hold/sell). Fields: \code{item\_id}, \code{family}, \code{benchmark\_label}, \code{facts\_kv}, \code{facts\_text} \\
+\code{data/raw/main/run\_20260707\_185649/} & 12{,}960 & one row = one model call across the pre-registered grid; the \textbf{confirmatory} analysis uses the two providers with complete current$+$prior coverage (OpenAI, Google) = $90\times32\times3=8{,}640$ cells. An excluded third-provider pilot is retained for transparency. Fields: spec axes, \code{item\_id}, \code{seed}, \code{provider}, \code{model}, \code{raw\_response} \\
+\code{data/frozen/realarm/battery\_real45.json} & 31 & anonymized, perturbed real B2B issuers with disclosed agency ratings; benchmarked in \code{ratings\_provenance.csv} (verbatim 10-K quote, SEC URL, document SHA-256) \\
+\code{data/frozen/realarm/spec\_grid\_12.json} & 12 & the frozen 12-specification grid (presentation $\times$ provider $\times$ paraphrase $\times$ format) shared by the real-firm and flagship arms \\
+\code{capture/flagship\_runs/run\_20260830\_141844/} & 1{,}620 & flagship model-tier arm: \code{gpt-5.4} $+$ \code{gemini-3.1-pro-preview} on the 12-spec grid $\times$ 45 credit items $\times$ 3 seeds \\
+\code{config/grid\_definition.json} & --- & the balance-constrained D-optimal specification grid \\
+\code{data/frozen/main/rating\_scale.json} & --- & 21-grade letter scale and the letter$\to$notch/band/IG-HY maps \\
+\code{data/frozen/main/capital\_map.json} & --- & Basel CRE20 ECRA risk-weight map (quote-verified; post-hoc) \\
+\bottomrule
+\end{longtable}
+
+\subsection{Provenance and integrity}
+\code{manifest/} holds a SHA-256 manifest for every frozen stage: \code{MANIFEST\_INPUTS} (pre-registered
+inputs), \code{MANIFEST\_RAW} (response corpus), \code{MANIFEST\_PANEL} (analysis panel),
+\code{MANIFEST\_ANALYSIS}, \code{MANIFEST\_CAPITAL}, \code{MANIFEST\_MARKET}, \code{MANIFEST\_REALARM}, and
+\code{MANIFEST\_FLAGSHIP} (flagship arm). \code{PREREGISTRATION.md} and \code{PREREGISTRATION\_AMENDMENTS.md}
+freeze the design, so any silent change to an input or to the pre-registered plan is detectable before the
+analysis runs. Post-hoc analyses (the flagship tier arm, the self-consistency curve, and the score
+validation) are labelled as such in both the manuscript and this document.
+
+\subsection{Data sources}
+All confirmatory inputs are synthetic and self-contained: the 90-item battery is frozen and its Altman
+Z$''$ benchmark is independently computable before any model is queried. The real-firm arm uses only
+public SEC 10-K filings and XBRL company facts (keyless EDGAR; permanent URLs in
+\code{ratings\_provenance.csv}); the disposable build cache is not shipped and is not needed to reproduce
+any result. The original capture queried the OpenAI and Google APIs; those responses are frozen under
+\code{data/raw/} and \code{capture/flagship\_runs/} and are the only trace of the live phase the
+reproduction consumes.
+
+\section{Code (what it consumes and runs)}
+\subsection{Analysis scripts}
+All code is in \code{analysis/}; each module is deterministic (seed 42) and reads only frozen data.
+\begin{longtable}{@{}L{0.24\textwidth} L{0.42\textwidth} L{0.26\textwidth}@{}}
+\toprule
+\textbf{Script} & \textbf{Purpose} & \textbf{Produces} \\
+\midrule
+\endhead
+\code{run\_analysis.py} & confirmatory analysis: OLS Type-II ANOVA variance decomposition (item / axes / provider$\times$item / pure-seed / other), determinism-subgrid permutation test, within/cross-vendor agreement, granularity $\kappa$, IG/HY flip & \code{results.json}, \code{spec\_curves.json}, \code{H1\_results.json}, \code{MANIFEST\_ANALYSIS} \\
+\code{capital\_analysis.py} & post-hoc Basel CRE20 capital recast on the frozen panel & \code{results\_capital.json} \\
+\code{market\_analysis.py} & Cornaggia-anchored implied-spread translation & \code{results\_market.json} \\
+\code{addenda.py} & supplementary robustness figures/numbers & \code{results\_addenda.json} \\
+\code{benchmark\_validation.py} & power / benchmark validation checks & \code{benchmark\_validation.*}, \code{MANIFEST\_VALIDATION} \\
+\code{analyze\_realarm.py} & real-firm arm: fingerprint gate, WATCH-stratum flip-share, TOST equivalence & real-arm results \\
+\code{tier\_analysis.py} & flagship vs nano/flash IG/HY \& band flip on the 12-spec grid, issuer-clustered CIs & \code{results\_tier.json} \\
+\code{extended\_analysis.py} & specification-instability score validation (ROC-AUC, held-out \& real-issuer), self-consistency curve, ordinal-weighted agreement, per-stratum flips, deployment cost & \code{results\_extended.json} \\
+\code{build\_panel.py} & (audit) rebuild \code{panel.parquet} from the raw corpus & panel (row-identical) \\
+\code{make\_figures.py}, \code{make\_extended\_figures.py} & regenerate manuscript figures (optional; needs matplotlib) & \code{paper/ISWA/*.pdf,png} \\
+\bottomrule
+\end{longtable}
+
+\subsection{Pipeline order}
+\code{reproduce.sh} runs the modules in dependency order; all JSON outputs are timestamp-free, so re-runs
+are byte-identical:
+\begin{quote}\code{run\_analysis $\to$ capital\_analysis $\to$ market\_analysis $\to$ addenda $\to$
+benchmark\_validation $\to$ analyze\_realarm $\to$ tier\_analysis $\to$ extended\_analysis}\end{quote}
+
+\section{Results (generated outputs)}
+Running the pipeline regenerates the following under \code{results/}. In a clean checkout these already
+exist; the reproduction overwrites them and confirms they are unchanged.
+\begin{longtable}{@{}L{0.34\textwidth} L{0.60\textwidth}@{}}
+\toprule
+\textbf{Output} & \textbf{Contents} \\
+\midrule
+\endhead
+\code{results.json} & headline confirmatory numbers: variance shares (with issuer-clustered CIs), agreement ladder, IG/HY flip (25.2\%, 95\% CI 19.7--31.2), determinism permutation $p=0.001$ \\
+\code{spec\_curves.json} & per-specification accuracy / IG-share for the specification-curve figure \\
+\code{results\_tier.json} & flagship vs nano/flash flip shares and paired differences \\
+\code{results\_extended.json} & score validation (held-out ROC-AUC 0.94, CI 0.86--0.99; real-issuer 0.70), self-consistency curve ($k=1\ldots15$), Krippendorff $\alpha$, per-stratum flips, deployment cost \\
+\code{results\_capital.json}, \code{results\_market.json}, \code{results\_addenda.json} & economic translations (capital recast, implied spread, addenda) \\
+\code{H1\_results.json} & real-firm arm hypothesis-test outputs \\
+\code{benchmark\_validation.\{json,csv\}} & power / benchmark validation \\
+\code{results/exhibits/} & regenerated tables \\
+\bottomrule
+\end{longtable}
+
+\section{Reproduction and verification}
+\code{reproduce.sh} performs, and exits non-zero if any stage fails:
+\begin{enumerate}
+\item \textbf{Integrity.} Each frozen stage carries a SHA-256 manifest (\code{manifest/}); the raw-corpus
+freeze rejects any capture file above the pre-set error threshold (observed non-substantive rate 0.08\%,
+7 of 8{,}640 confirmatory cells, dropped listwise).
+\item \textbf{Regeneration.} The full analysis (Section~5.2) runs from the frozen inputs only.
+\item \textbf{Byte-identical re-run.} Re-running \code{reproduce.sh} regenerates every
+\code{results/results\_*.json} byte-for-byte (verified); the results of record are the committed JSON files.
+\end{enumerate}
+\textbf{Determinism.} All stochastic steps use fixed seeds (analysis seed 42; issuer-clustered bootstraps
+use fixed-seed resamples), so confidence intervals are exactly reproducible. \emph{Note:} Parquet
+serialization is not byte-deterministic, so a rebuilt \code{panel.parquet} may hash differently while
+containing row-identical data; the confirmatory analysis reads the released frozen panel, so every
+reported number reproduces exactly.
+
+\textbf{Environment.} Pinned analysis environment: \code{numpy==2.2.6}, \code{pandas==2.2.3},
+\code{pyarrow==24.0.0}, \code{statsmodels==0.14.6}, \code{scipy==1.15.3}, \code{patsy==1.0.2}, on
+Python~3.10 (exact pins in \code{requirements.txt}). Figures are optional and need \code{matplotlib},
+which is not part of the pinned analysis dependencies.
+
+\section{Live data collection (not part of the reproduction)}
+\code{capture/} documents how the model-response corpora were originally collected: \code{collect.py}
+drives the main confirmatory grid; \code{run\_arm.py} and \code{realarm\_collect.py} run the real-firm arm;
+\code{run\_flagship.py} runs the flagship model-tier arm; \code{freeze\_flagship.py} writes its SHA-256
+manifest; \code{fingerprint\_pilot.py} runs the decontamination gate; \code{list\_models.py} enumerates
+served models. This phase requires internet access and OpenAI/Google API keys, incurs cost, and is
+intentionally excluded from the reproducible core. API keys are never distributed (\code{.gitignore}
+blocks \code{keys.env.txt} and any \code{API~Keys/} folder); all reported results derive only from the
+frozen corpora.
+
+\section{Licensing and data availability}
+Code is released under the MIT Licence (see \code{LICENSE}); data, analysis outputs, and text are released
+under CC-BY-4.0. The confirmatory data are synthetic; the real-firm arm uses only public SEC filings
+(anonymized and perturbed). The permanent citable archive is the Zenodo deposit at
+\href{https://doi.org/10.5281/zenodo.21953935}{\code{10.5281/zenodo.21953935}}, which reproduces every
+reported number, table, and figure offline, deterministically, and at zero cost.
+\end{document}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company demonstrates massive scale and exceptional profitability, with a 72% gross margin and 30% operating margin, generating over $2.2 billion in net income for the quarter. However, its somewhat elevated leverage profile (total liabilities of $78.3 billion compared to $18.6 billion in equity) constrains the rating slightly, keeping it in the lower-to-middle tiers of investment grade. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 287,
+ "out_tok": 94,
+ "usd": 0.004255,
+ "utc": "2026-08-30T19:29:49.919521+00:00"
+}

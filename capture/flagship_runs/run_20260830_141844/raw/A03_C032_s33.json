@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very weak balance-sheet flexibility, with a current ratio of just 0.35 and liabilities equal to about 89% of assets, which points to high leverage and limited near-term liquidity. While positive retained earnings and solid operating profit provide some support, the overall profile looks more consistent with a speculative-grade credit than investment grade.\n\nDECISION: BB",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 299,
+ "usd": 0.02154,
+ "utc": "2026-08-30T19:46:36.392787+00:00"
+}

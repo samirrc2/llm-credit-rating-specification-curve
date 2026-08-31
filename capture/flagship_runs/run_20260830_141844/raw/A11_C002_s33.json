@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows very strong near-term liquidity and positive earnings, but also extremely high leverage, with liabilities making up roughly 90% of assets and equity only about 10% of the balance sheet. Given that mix of strong liquidity but thin capitalization and modest operating return on a very large asset base, a mid investment-grade rating is the most supportable based on these figures alone.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 332,
+ "usd": 0.02355,
+ "utc": "2026-08-30T18:24:05.995693+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong revenue generation, solid profitability with a 10% operating margin, and a healthy asset base with a current ratio of 1.39. However, the moderate leverage (total liabilities to equity around 2.5x) constrains the rating to the mid-to-lower investment-grade tier. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 277,
+ "out_tok": 74,
+ "usd": 0.003605,
+ "utc": "2026-08-30T19:26:59.472873+00:00"
+}

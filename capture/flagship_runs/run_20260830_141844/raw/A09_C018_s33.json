@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB\",\"confidence\":3,\"rationale\":\"Large scale and adequate liquidity support credit, but very high leverage, minimal operating margin, and near-breakeven earnings constrain rating below investment grade.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 345,
+ "usd": 0.024615,
+ "utc": "2026-08-30T19:08:53.720103+00:00"
+}

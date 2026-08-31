@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates a substantial asset base ($79.1 billion) and solid profitability with an operating margin of 19% and positive net income. However, the current ratio is below 1.0 (0.79) and total liabilities are relatively high, which is typical for capital-intensive industries like utilities or real estate but constrains the rating to the lower investment-grade tier. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 88,
+ "usd": 0.00403,
+ "utc": "2026-08-30T19:58:21.373499+00:00"
+}

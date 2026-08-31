@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates robust profitability with a high operating margin of 32% and significant scale, generating nearly $3 billion in quarterly net income. However, its credit profile is constrained by substantial leverage (liabilities of $275 billion compared to $34 billion in equity) and weak short-term liquidity (current ratio of 0.35), which is typical for highly capitalized sectors but limits a higher rating. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 290,
+ "out_tok": 93,
+ "usd": 0.00424,
+ "utc": "2026-08-30T19:46:23.867259+00:00"
+}

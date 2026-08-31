@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 3, \"rationale\": \"Very strong balance sheet with high equity and retained earnings relative to liabilities, though low asset turnover and profitability metrics limit higher rating potential.\"}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 49,
+ "usd": 0.00286,
+ "utc": "2026-08-30T18:35:44.425631+00:00"
+}

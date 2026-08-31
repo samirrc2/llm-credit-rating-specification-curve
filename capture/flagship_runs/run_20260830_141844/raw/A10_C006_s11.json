@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With strong operating margins (19%) and excellent profitability on a substantial revenue base, the company demonstrates significant cash-generation capabilities. Furthermore, its balance sheet is exceptionally well-capitalized, featuring a conservative leverage profile (total liabilities are only about 36% of total assets) and robust liquidity (current ratio of 1.52), which collectively support a strong investment-grade profile. \n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 283,
+ "out_tok": 87,
+ "usd": 0.004025,
+ "utc": "2026-08-30T18:35:07.561106+00:00"
+}

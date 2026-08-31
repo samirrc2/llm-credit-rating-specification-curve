@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer is a very large financial institution, evidenced by over $2.2 trillion in assets and highly leveraged balance sheet typical of banks (current ratio 0.34). Its strong quarterly net income of $5.29 billion and substantial equity base demonstrate solid profitability and capitalization, which support a strong investment-grade rating despite the inherent leverage. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 291,
+ "out_tok": 78,
+ "usd": 0.003795,
+ "utc": "2026-08-30T19:44:05.741103+00:00"
+}

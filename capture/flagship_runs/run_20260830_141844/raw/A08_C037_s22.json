@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Moderate leverage with a healthy equity base, though revenue and EBIT are low relative to total assets, typical of capital-intensive or REIT structures.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 267,
+ "out_tok": 51,
+ "usd": 0.002865,
+ "utc": "2026-08-30T20:02:39.821551+00:00"
+}

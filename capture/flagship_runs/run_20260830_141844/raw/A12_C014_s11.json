@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High retained earnings but low EBIT margin and working capital result in a weak Z-score, indicating speculative-grade credit quality despite moderate leverage.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 281,
+ "out_tok": 51,
+ "usd": 0.002935,
+ "utc": "2026-08-30T18:57:55.619166+00:00"
+}

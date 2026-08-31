@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"Massive asset base and solid equity suggest investment grade, but very low current ratio and high total liabilities constrain the rating.\"}\n```",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 279,
+ "out_tok": 47,
+ "usd": 0.002805,
+ "utc": "2026-08-30T20:24:27.447482+00:00"
+}

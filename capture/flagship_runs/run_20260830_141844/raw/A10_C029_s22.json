@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates solid profitability with an annualized revenue base of over $16 billion, a strong 44% gross margin, and a healthy 15% operating margin. However, the moderate leverage profile (total liabilities to equity around 1.5x) and relatively tight liquidity (current ratio of 0.99) constrain the rating from the upper investment-grade tiers. Overall, the financial profile suggests a stable, lower-to-mid investment grade position.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 102,
+ "usd": 0.004465,
+ "utc": "2026-08-30T19:39:29.931034+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Balanced capital structure and positive EBIT support some credit strength, but the issuer\u2019s liquidity is only just adequate (current ratio 1.00) and the very large accumulated deficit (retained earnings of -6,947M) points to a weaker financial track record. On balance, the figures fit the low end of investment grade.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 231,
+ "out_tok": 281,
+ "usd": 0.020325,
+ "utc": "2026-08-30T20:02:29.877482+00:00"
+}

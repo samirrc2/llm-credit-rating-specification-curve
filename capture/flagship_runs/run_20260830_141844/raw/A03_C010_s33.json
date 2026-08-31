@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong credit fundamentals: liquidity is solid (current ratio 1.92), leverage is moderate-to-low (liabilities are about 42% of assets, with equity covering about 58%), and profitability is robust (EBIT of 2,489M on 5,638M revenue). The large retained earnings base and strong capitalization support a high investment-grade profile, though the absence of explicit debt and interest-coverage data tempers the case for the very top tiers.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 240,
+ "out_tok": 332,
+ "usd": 0.02352,
+ "utc": "2026-08-30T18:45:13.666548+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears highly leveraged and balance-sheet insolvent on an accounting basis, with negative shareholders\u2019 equity, deeply negative retained earnings, and liabilities exceeding assets, while liquidity is also weak with a current ratio below 1. Although positive EBIT and a modest operating margin show the business is still functioning, the capital structure suggests very high credit risk consistent with the low end of speculative grade.\n\nDECISION: CCC+",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 290,
+ "usd": 0.02097,
+ "utc": "2026-08-30T20:16:43.866978+00:00"
+}

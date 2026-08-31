@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High retained earnings and strong EBIT margin offset low asset turnover and weak liquidity, resulting in a Z-score indicating moderate credit risk.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 49,
+ "usd": 0.00289,
+ "utc": "2026-08-30T18:38:35.130150+00:00"
+}

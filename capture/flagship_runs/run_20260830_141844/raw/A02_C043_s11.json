@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits massive scale with annualized revenues exceeding $100 billion, which provides significant market position and stability, though operating margins are relatively thin at 4%. Leverage is moderate with total liabilities to equity at roughly 2.9x and a nearly balanced current ratio, supporting a solid investment-grade profile but constrained from higher tiers by the lower margin and liquidity buffer. \n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 82,
+ "usd": 0.003865,
+ "utc": "2026-08-30T20:18:50.288812+00:00"
+}

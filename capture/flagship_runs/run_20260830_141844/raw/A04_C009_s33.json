@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong liquidity, low leverage, and exceptional EBIT margins indicate robust financial health and a very strong capacity to meet financial commitments.\"}\n```",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 277,
+ "out_tok": 47,
+ "usd": 0.002795,
+ "utc": "2026-08-30T18:42:42.762895+00:00"
+}

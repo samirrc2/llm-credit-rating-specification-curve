@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 2, \"rationale\": \"High leverage and low operating margins suggest elevated risk, though adequate liquidity provides some near-term stability.\"}\n```",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 281,
+ "out_tok": 44,
+ "usd": 0.002725,
+ "utc": "2026-08-30T19:07:36.291131+00:00"
+}

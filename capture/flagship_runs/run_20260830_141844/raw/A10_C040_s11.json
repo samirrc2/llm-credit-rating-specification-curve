@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits a very large asset base ($192 billion) supported by a substantial equity cushion ($51.4 billion), indicating strong capital adequacy. While the current ratio is low (0.63), the high operating margin (27%) and consistent profitability suggest strong cash flow generation typical of a well-established, investment-grade financial or asset-heavy institution. \n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 84,
+ "usd": 0.00396,
+ "utc": "2026-08-30T20:12:14.765541+00:00"
+}

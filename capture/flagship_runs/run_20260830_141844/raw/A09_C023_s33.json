@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":3,\"rationale\":\"Large scale, strong profitability and retained earnings support credit quality; however, very high liabilities relative to equity and only adequate liquidity constrain the rating.\"}",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 378,
+ "usd": 0.026655,
+ "utc": "2026-08-30T19:23:11.942471+00:00"
+}

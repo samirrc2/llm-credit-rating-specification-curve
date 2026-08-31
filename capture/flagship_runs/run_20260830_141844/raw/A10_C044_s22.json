@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong profitability with high gross (74%) and operating (46%) margins, indicating a robust underlying business model capable of generating positive net income. However, its balance sheet is severely distressed, featuring massive negative shareholder equity (-$1.92B), a massive debt load relative to its revenue base, and a critically low current ratio of 0.27, signaling substantial liquidity and refinancing risks. This combination of healthy operating cash flow generation offset by extreme leverage and poor liquidity is characteristic of highly speculative issuers.\n\nDECISION: B-",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 280,
+ "out_tok": 113,
+ "usd": 0.00479,
+ "utc": "2026-08-30T20:23:11.602625+00:00"
+}

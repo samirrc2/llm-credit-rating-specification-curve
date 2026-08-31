@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"AA-\", \"confidence\": 3, \"rationale\": \"High operating margin, massive retained earnings, low leverage, and very strong equity base suggest a high investment-grade rating.\"}\n```",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 288,
+ "out_tok": 48,
+ "usd": 0.00288,
+ "utc": "2026-08-30T18:52:50.783995+00:00"
+}

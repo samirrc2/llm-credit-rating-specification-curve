@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Moderate leverage but low profitability and weak liquidity (current ratio < 1) constrain the rating to the speculative grade.\"}\n```",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 276,
+ "out_tok": 45,
+ "usd": 0.00273,
+ "utc": "2026-08-30T19:39:58.869195+00:00"
+}

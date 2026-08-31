@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"A\",\"confidence\":3,\"rationale\":\"Strong profitability and large scale support credit quality, but weak current liquidity and sizable liabilities versus equity constrain the rating below high-grade AA.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 363,
+ "usd": 0.025755,
+ "utc": "2026-08-30T20:15:11.738825+00:00"
+}

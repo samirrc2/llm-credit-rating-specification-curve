@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "With massive scale, highly robust margins (70% gross, 30% operating), and substantial equity ($79.3 billion), the issuer demonstrates exceptionally strong cash-flow generation and profitability. Its strong asset base and manageable leverage point to an exceptionally high credit quality, though the current ratio is somewhat tight.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 283,
+ "out_tok": 70,
+ "usd": 0.003515,
+ "utc": "2026-08-30T18:36:58.974472+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet looks solid with good liquidity (1.53x current ratio) and a strong equity base relative to assets, which supports investment-grade credit quality. However, operating earnings are only moderate relative to the liability load, so despite the large retained earnings cushion, the metrics point more to the lower-to-mid investment-grade range than to a high-A or AA profile.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 321,
+ "usd": 0.02289,
+ "utc": "2026-08-30T18:55:08.800004+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company displays strong profitability with high gross (71%) and operating margins (42%), indicating a robust core business. However, it is highly leveraged with total liabilities making up nearly 84% of total assets, a weak current ratio of 0.63, and negative retained earnings, reflecting significant financial risk. These factors balance out to a lower-tier investment grade or upper-tier speculative rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 273,
+ "out_tok": 90,
+ "usd": 0.004065,
+ "utc": "2026-08-30T20:05:20.079098+00:00"
+}

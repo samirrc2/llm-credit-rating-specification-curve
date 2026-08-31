@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The balance sheet shows solid capitalization, with shareholders\u2019 equity of $36.0B against $86.8B of assets and substantial retained earnings, which supports credit quality. However, liquidity is a bit tight (current ratio 0.94) and operating earnings are modest relative to the size of the balance sheet and liability load, pointing to only moderate debt-service capacity rather than strong upper-tier investment-grade strength.\n\nDECISION: BBB",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 238,
+ "out_tok": 377,
+ "usd": 0.02619,
+ "utc": "2026-08-30T19:24:36.779760+00:00"
+}

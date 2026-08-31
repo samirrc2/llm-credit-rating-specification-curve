@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer appears to have a very strong balance sheet, with high liquidity, modest leverage relative to equity, and substantial retained earnings. Profitability is also strong on the figures given, but without debt composition, cash flow coverage, or business risk detail, I would stop short of the highest categories and place it in the high investment-grade range.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 242,
+ "out_tok": 260,
+ "usd": 0.01923,
+ "utc": "2026-08-30T18:44:04.843651+00:00"
+}

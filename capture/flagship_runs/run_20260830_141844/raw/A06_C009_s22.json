@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates exceptional profitability with an operating margin of 56% and a strong net margin. Furthermore, its balance sheet is highly robust, featuring low leverage (liabilities of $23B compared to equity of $33.8B) and strong liquidity with a current ratio of 2.29. These characteristics reflect a highly stable, investment-grade financial profile.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 277,
+ "out_tok": 84,
+ "usd": 0.003905,
+ "utc": "2026-08-30T18:43:00.143828+00:00"
+}

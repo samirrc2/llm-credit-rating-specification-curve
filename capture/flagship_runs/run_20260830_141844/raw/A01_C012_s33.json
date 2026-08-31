@@ -1,0 +1,21 @@
+{
+ "spec_id": "A01",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\":\"AA+\",\"confidence\":4,\"rationale\":\"Exceptional scale, 46% operating margin, huge earnings, strong equity base, and solid liquidity support very high quality; absent explicit debt/cash detail, slightly below AAA.\"}",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 273,
+ "usd": 0.020325,
+ "utc": "2026-08-30T18:50:30.962415+00:00"
+}

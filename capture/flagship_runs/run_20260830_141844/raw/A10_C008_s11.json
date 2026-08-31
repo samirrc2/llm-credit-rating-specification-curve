@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates exceptionally strong profitability, with a 62% operating margin and significant net income generation, indicating excellent cash flow capacity. However, the balance sheet features negative shareholders' equity and a weak current ratio (0.62), largely indicative of aggressive capital returns (such as massive share buybacks, evidenced by high retained earnings) and a heavy reliance on debt financing. This combination of formidable earnings power offset by a highly leveraged and structurally illiquid balance sheet supports an investment-grade, but mid-tier, credit rating.\n\nDECISION: BBB+",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 284,
+ "out_tok": 114,
+ "usd": 0.00484,
+ "utc": "2026-08-30T18:41:04.635850+00:00"
+}

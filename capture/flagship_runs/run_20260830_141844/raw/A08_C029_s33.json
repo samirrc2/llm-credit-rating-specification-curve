@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Moderate leverage, low asset turnover, and adequate operating margin suggest an investment-grade profile, though liquidity is just under 1.0x.\"}\n```",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 268,
+ "out_tok": 51,
+ "usd": 0.00287,
+ "utc": "2026-08-30T19:39:11.919507+00:00"
+}

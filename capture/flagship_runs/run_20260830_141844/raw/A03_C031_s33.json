@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows very weak short-term liquidity (current ratio 0.34) and high balance-sheet leverage, with liabilities equal to about 92% of assets and equity only around 8% of the asset base. While it remains profitable at the EBIT level and has substantial accumulated retained earnings, the thin equity cushion relative to liabilities points to meaningful credit risk more consistent with the lower end of non-investment-grade.\n\nDECISION: BB-",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 246,
+ "out_tok": 348,
+ "usd": 0.02457,
+ "utc": "2026-08-30T19:43:28.726176+00:00"
+}

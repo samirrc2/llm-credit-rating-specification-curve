@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Very strong balance sheet metrics support a high investment-grade view: liquidity is robust (current ratio 2.29), leverage is moderate (liabilities are about 40% of assets, with equity exceeding liabilities), and profitability is exceptionally strong (EBIT of 3,688M on 6,571M revenue). The lack of debt-service details and cash flow coverage data argues against the very top tiers, but the provided figures are consistent with a strong upper-medium-grade profile.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 233,
+ "out_tok": 297,
+ "usd": 0.021315,
+ "utc": "2026-08-30T18:43:07.637638+00:00"
+}

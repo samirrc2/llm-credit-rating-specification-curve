@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"AA+\", \"confidence\": 4, \"rationale\": \"Massive scale, exceptional EBIT margins (46%), low leverage, and enormous retained earnings indicate a dominant market position and extremely strong financial health.\"}\n```",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 287,
+ "out_tok": 51,
+ "usd": 0.002965,
+ "utc": "2026-08-30T18:51:05.194997+00:00"
+}

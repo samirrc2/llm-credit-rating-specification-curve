@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "google",
+ "model": "gemini-3.1-pro-preview",
+ "tier": "flagship",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "This company demonstrates strong profitability with a 24% operating margin and substantial annualized revenue around $9.8 billion. Its balance sheet is solid, with a massive asset base of $40.9 billion, healthy shareholders' equity of $14.3 billion, and adequate liquidity (current ratio of 1.18), supporting an investment-grade profile.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 81,
+ "usd": 0.00382,
+ "utc": "2026-08-30T19:32:30.157698+00:00"
+}

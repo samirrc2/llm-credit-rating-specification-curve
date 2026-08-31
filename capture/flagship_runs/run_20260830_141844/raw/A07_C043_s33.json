@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openai",
+ "model": "gpt-5.4",
+ "tier": "flagship",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Weak liquidity (current ratio 0.97), fairly high leverage (liabilities are about 74% of assets and nearly 2.9x equity), and thin operating profitability (EBIT margin about 3.8%, EBIT/assets about 1.6%) point to a meaningful but not distressed credit risk profile. Positive retained earnings and a substantial equity base support the balance sheet, but overall the metrics fit best at the high end of speculative grade rather than investment grade.\n\nDECISION: BB+",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 231,
+ "out_tok": 438,
+ "usd": 0.029745,
+ "utc": "2026-08-30T20:20:02.631995+00:00"
+}
