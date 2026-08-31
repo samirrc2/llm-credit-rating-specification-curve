@@ -1,0 +1,7 @@
+Highlights
+
+Prompt and model choices move ~25% of AI credit ratings across the IG/HY line.
+No single elicitation axis explains >5% of variance; pure seed noise is ~8%.
+Instability persists even under deterministic execution (one provider, temp 0).
+Unweighted cross-specification agreement stays modest (Fleiss kappa <= 0.49).
+Validated score (held-out ROC-AUC 0.94) is a deployable model-risk control.
