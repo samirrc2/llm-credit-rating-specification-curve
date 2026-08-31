@@ -6,7 +6,7 @@ Reproducibility artifact for the manuscript of the same title (target journal: I
 **ORCID:** [0009-0007-2779-3492](https://orcid.org/0009-0007-2779-3492) · [0009-0007-2807-3948](https://orcid.org/0009-0007-2807-3948)
 **Contact:** robin.chawla.cse14@iitbhu.ac.in · samir.chincholikar@gmail.com
 **Repository:** https://github.com/samirrc2/llm-credit-rating-specification-curve
-**Zenodo DOI:** [10.5281/zenodo.21953935](https://doi.org/10.5281/zenodo.21953935)
+**Zenodo DOI:** [10.5281/zenodo.21953934](https://doi.org/10.5281/zenodo.21953934)
 
 ## Reproducibility documentation
 

@@ -3,7 +3,7 @@
 All data required to reproduce every result are included in this repository and are released under
 MIT. No proprietary data and no live model access are needed to reproduce the paper. The archived,
 citable reproducibility artifact is deposited on Zenodo:
-**DOI [10.5281/zenodo.21953935](https://doi.org/10.5281/zenodo.21953935)**.
+**DOI [10.5281/zenodo.21953934](https://doi.org/10.5281/zenodo.21953934)**.
 
 See **[`REPRODUCIBILITY_DOCUMENTATION.pdf`](REPRODUCIBILITY_DOCUMENTATION.pdf)** for the single-file
 companion that explains the whole archive (inputs, code, one-command reproduction, verification,

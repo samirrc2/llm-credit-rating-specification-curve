@@ -17,10 +17,10 @@ abstract: >
   score (ROC-AUC 0.94 on held-out specifications; 0.70 on the real-issuer arm) with a self-consistency
   curve and per-issuer cost model. Repository: https://github.com/samirrc2/llm-credit-rating-specification-curve
 type: software
-doi: "10.5281/zenodo.21953935"
+doi: "10.5281/zenodo.21953934"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.21953935"
+    value: "10.5281/zenodo.21953934"
     description: "Zenodo archive of the reproducibility artifact"
 authors:
   - family-names: "Chincholikar"
