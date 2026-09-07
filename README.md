@@ -22,12 +22,14 @@ calls and at zero cost.** The study comprises:
   32-specification factorial grid × 3 seeds = **8,640 elicitations** across four model snapshots, with an
   objective Altman Z″ benchmark. (The released raw corpus additionally retains an excluded third-provider
   pilot for transparency; the confirmatory analysis uses only the two providers with complete coverage.)
-- **Decontaminated real-firm arm:** 31 anonymized, perturbed issuers benchmarked to disclosed agency
-  ratings, under a pre-registered fingerprinting gate.
+- **Perturbed, fingerprint-screened real-firm arm:** 31 anonymized, perturbed issuers benchmarked to
+  disclosed agency ratings, under a pre-registered fingerprint-identification gate.
 - **Flagship model-tier robustness arm (post-hoc):** `gpt-5.4` + `gemini-3.1-pro-preview` on the frozen
   12-specification grid × 45 credit-health items × 3 seeds = **1,620 elicitations**, fixed by
   `MANIFEST_FLAGSHIP.sha256`.
-- **A deployable control:** a *specification-instability score* (SIS), validated on held-out
+- **Reasoning-architecture arm (post-hoc):** `deepseek-r1` (native chain-of-thought) on the same frozen
+  12-specification grid × 45 items × 3 seeds = **1,620 elicitations**, fixed by `MANIFEST_REASONING.sha256`.
+- **A candidate operational control:** a *specification-instability score* (SIS), validated on held-out
   specifications (ROC-AUC 0.94; ROC-AUC 0.70 on the real-issuer arm), with a self-consistency curve and a
   per-issuer cost model.
 
@@ -67,8 +69,11 @@ bash reproduce.sh
 All `results/results_*.json` regenerate byte-for-byte from the frozen data (verified in a clean
 virtualenv from the pinned `requirements.txt`); no network access is required. Headline results:
 per-comparison IG/HY flip **25.2%** (95% CI 19.7–31.2); pure within-cell seed variance **8.1%**;
-determinism-subgrid permutation **p = 0.001**; flagship tier shows **no evidence of attenuation**
-(paired Δ −1.1 pp, 95% CI −7.6 to +6.0); SIS validation **ROC-AUC 0.94** (held-out specifications).
+rating-invariance permutation on the temperature-0-honored subgrid **p = 0.0005** (η² = 0.46); flagship
+tier **does not detect attenuation** (paired Δ −1.1 pp, 95% CI −7.6 to +6.0) and the reasoning arm shows
+comparable instability (25.5%, paired Δ +0.9 pp); SIS validation **ROC-AUC 0.94** (held-out
+specifications), with cross-model transfer moderate but inconsistent (Spearman 0.14–0.73) and design
+aliasing bounded (main off-diagonal 0.062; main × 2FI 0.333).
 
 ## Notes
 - `capture/` is provided for transparency only; reproduction never calls a model API. Provider API keys
