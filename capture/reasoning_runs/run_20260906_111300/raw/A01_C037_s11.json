@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Negative gross margin, current ratio of 1.00, and large negative retained earnings indicate high risk despite recent profits.\"}",
+ "reasoning_tail": "uick ratio approximately. But not given components of current assets. If inventory is illiquid, quick ratio could be less than 1, worse.\n\nOperating margin 17% is good, so if they can sustain, but negative gross is strange.\n\nPerhaps for the purpose of exercise, let's assign.\n\nI think it's speculative grade.\n\nI'll go with BB- , which is the lowest BB.\n\nOr B+.\n\nconfidence level: 3 medium\n\nRationale short.\n\nFinal answer in JSON.\n\nValid label like \"BB-\" etc.\n\nSo, decision BB-\n\nconfidence 3\n\nrationale: Negative gross margin, weak liquidity, negative retained earnings, despite recent profits.\n\nThat's 10 words.\n\nOr less.\n\n\" Poor core profitability, tight liquidity, high leverage risk.\"\n\nBut leverage not high, but risks.\n\nDebt-to-equity 1.0 is not high, it's moderate.\n\nIn context, with negative re, it might be leveraged.\n\nI think BB- is reasonable.\n\nBut let's see the scale.\n\nAnother thing: all metrics are as of Q1, but we don't know trends.\n\nFrom retained earnings -6,947M and equity 23,369M, the loss is about 30% of equity, so significant deficit.\n\nCurrent ratio exactly 1, no room for error.\n\nI think it's low speculative grade.\n\nPossibly \"B+\" or \"B\".\n\nBut net income is positive, so not distressed.\n\nOperating margin 17% is strong.\n\nBut gross margin negative is contradictory.\n\nAssume it's an anomaly or industry-specific.\n\nBut no industry given, so general.\n\nPerhaps for rating, we downgrade due to margin issue and liquidity.\n\nI'll go with B+ or BB-\n\nFinal choice: BB-\n\nThen confidence 3.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 3569,
+ "usd": 0.007966,
+ "utc": "2026-09-06T19:29:39.458024+00:00"
+}

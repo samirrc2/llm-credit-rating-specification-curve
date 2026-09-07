@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Current ratio below 1 indicates severe liquidity risk; high leverage and low interest coverage suggest default vulnerability.\"}",
+ "reasoning_tail": "If EBIT / interest < 1, it can't cover interest.\n\nHere, if interest is around 2,732M, EBIT 3,213M, ratio ~1.18, which is barely above 1, so very weak.\n\nTypically, for investment grade, interest coverage above 3-4.\n\nBelow 2 is speculative, below 1 is distressed.\n\nHere, around 1.18, so distressed.\n\nMoreover, with liquidity issues.\n\nSo rating should be CCC+ or lower.\n\nCCC+ is for currently vulnerable.\n\nCC for highly vulnerable.\n\nBut EBIT covers interest barely, so not immediate default.\n\nRevenue is there, so probably CCC+ or CCC.\n\nBut let's confirm.\n\nCurrent ratio below 1 means they might default on short-term debts if not rolled over.\n\nSo high vulnerability.\n\nPerhaps CCC+.\n\nBut retained earnings large, but not helpful for debt payment directly.\n\nI think CCC+ or B-.\n\nB- is below B, which is \"highly speculative\".\n\nCCC is \"currently vulnerable\".\n\nWith current ratio below 1, it is currently vulnerable to default on current liabilities.\n\nFor example, if they can't pay suppliers or short-term debt.\n\nSo CCC range.\n\nEBIT covers interest, so not CC or C.\n\nCC is for default probable, C for imminent or defaulted.\n\nHere, not defaulted, EBIT positive.\n\nSo CCC+ or CCC.\n\nI'll go with CCC+.\n\nConfidence: 3\n\nRationale: Weak liquidity with current ratio below 1 and high leverage indicate high default risk.\n\nNow, for the JSON.\n\nDecision: CCC+\n\nConfidence: 3 (medium)\n\nRationale: \"Weak liquidity and high leverage suggest high default vulnerability.\"\n\nThat's 7 words.\n\nWithin 25 words.\n\nFinal answer.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 4687,
+ "usd": 0.010409,
+ "utc": "2026-09-06T17:39:53.941624+00:00"
+}

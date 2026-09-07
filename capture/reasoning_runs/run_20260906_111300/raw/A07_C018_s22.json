@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided figures, the issuer exhibits extremely high leverage with a debt-to-equity ratio of approximately 26.5 (calculated as total liabilities / shareholders' equity = 158,800M / 5,987M), which indicates severe financial risk. Combined with a low operating margin of about 2% (EBIT / revenue = 446M / 22,217M) and tight liquidity (current ratio of 1.18), the issuer is vulnerable to default, placing it in the speculative grade range near the lower end of the scale.\n\nDECISION: CCC",
+ "reasoning_tail": "r investment grade.\n\nSimilarly, EBIT/interest, if interest ~ say 5% * debt = 0.05*158,800 = 7,940M, coverage ratio = 446 / 7940 = 0.056, negative coverage.\n\nFor rating, coverage below 1 is deep junk, CCC territory.\n\nSimilarly, leverage ratio debt/equity 26.52, very high.\n\nOn liquidity, current ratio 1.18, which may imply difficulty in meeting short-term obligations.\n\nTherefore, the issuer is vulnerable, with high default risk.\n\nSo, likely CCC rating or lower.\n\nSpecifically, since it can be on the finer scale, perhaps CCC+.\n\nBut I think CCC is fine.\n\nThe scale has CCC+, CCC, CCC-.\n\nSince not all data is available, I'll go with CCC.\n\nBut let's see retained earnings: 17,162M seems high, but with low equity, it might be a misnomer or for a specific company.\n\nFor example, if this is a large company, but figures are in millions, revenue 22B, assets 165B, so sizeable.\n\nBut ratios poor.\n\nI think the rating should be B- or lower.\n\nOutput required: DECISION: <label>\n\nAnd reason briefly.\n\nReason: Extremely high leverage with debt-to-equity ratio of approximately 26.5, low operating margin around 2%, and tight liquidity with current ratio of 1.18 imply high default risk.\n\nThus, a speculative grade rating in the CCC range.\n\nAssign CCC to indicate vulnerability.\n\nTo be finer, but I think CCC is justified.\n\nThe issuer might be rated C or CC, but since EBIT positive, not near default yet, so CCC.\n\nCC is for imminent default, but not specified.\n\nI think CCC for this context.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 4239,
+ "usd": 0.009417,
+ "utc": "2026-09-06T17:49:39.983214+00:00"
+}

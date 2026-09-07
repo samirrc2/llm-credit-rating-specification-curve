@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extremely low current ratio, high leverage, weak profitability indicate severe distress.\"}",
+ "reasoning_tail": "onable.\n\nRationale: \"Poor liquidity, high leverage, low profitability.\"\n\nNow, confidence: since metrics are clear, confidence 4 or 5.\n\nI'll say 4, as I don't have full context.\n\nBut based on data, strong evidence.\n\nFinal decision: CCC\n\nBut let's confirm the scale.\n\nThe scale includes CCC+, CCC, CCC-.\n\nI need to choose finest granularity I can justify.\n\nWith current ratio 0.34, it's very bad.\n\nPerhaps CCC-.\n\nBut EBIT is positive, so not the worst.\n\nRevenue is low, but EBIT margin is decent.\n\nThe problem is size of operations relative to debt.\n\nI think CCC is fine.\n\nPerhaps B-, but liquidity is critical.\n\nIn credit ratings, liquidity is key for short-term.\n\nBut ratings are for long-term debt, I think.\n\nStill, low current ratio affects ability to pay interest or other obligations.\n\nI think CCC.\n\nLet's see if there's a specific model.\n\nSince the user said \"knowledge predating the most recent fiscal year,\" but I don't have historical data, so only current.\n\nPerhaps retained earnings high suggests past profitability, but current situation is dire.\n\nRetained earnings 232,459M is large, but with equity only 178,396M, it might be offset by other losses.\n\nFor example, comprehensive income or something.\n\nBut I think for rating, focus on current metrics.\n\nDecision: CCC\n\nConfidence: 4\n\nRationale: \"Extremely low current ratio, high debt burden, weak interest coverage.\"\n\nRationale must be <=25 words.\n\n\"Extremely low current ratio, high leverage, poor profitability.\" 5 words.\n\nNow for JSON.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 268,
+ "out_tok": 3642,
+ "usd": 0.008123,
+ "utc": "2026-09-06T19:05:02.730328+00:00"
+}

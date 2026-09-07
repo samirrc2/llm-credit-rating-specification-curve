@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB+\", \"confidence\": 3, \"rationale\": \"High debt-to-equity ratio (4.22) and weak current ratio (1.27) indicate speculative risk, despite strong profitability (30% operating margin).\"}",
+ "reasoning_tail": "\nDebt-to-EBITDA of 4.69 is high; above 4 is often speculative grade.\n\nFor example, BB ratings might have 3-6x, BBB 2-4x.\n\nCurrent ratio 1.27 is weak.\n\nProfitability is strong with 30% operating margin.\n\nOverall, I think this points to a speculative grade rating.\n\nPossible rating: BB+ or BB.\n\nBB+ is the highest speculative grade.\n\nConfidence: since I have limited data, confidence might be medium.\n\nRationale should be concise.\n\nThe scale includes BBB-, which is lowest investment grade.\n\nBut with debt-to-EBITDA around 4.7 and interest coverage 4.27, it might be borderline.\n\nInterest coverage 4.27: for large companies, above 4 could be BBB, but with high leverage.\n\nAlso, liquidity is a concern with current ratio 1.27.\n\nMoreover, the company has retained earnings, showing profitability.\n\nBut the high liabilities suggest it might be capital-intensive or leveraged.\n\nPerhaps assign BB+.\n\nLet's see the exact figures.\n\nAnother thing: shareholders' equity is 18,552M, which is positive, and retained earnings 17,093M, so net worth is growing.\n\nBut leverage is high.\n\nI think BB+ is reasonable.\n\nBB+ means \"less vulnerable in the near-term but faces major ongoing uncertainties\" compared to BB.\n\nSince profitability is strong, it might support a higher rating.\n\nBut leverage is key.\n\nPerhaps BBB-.\n\nI need to decide.\n\nFinal decision: I'll go with BB+.\n\nConfidence: 3, since I have to estimate some things.\n\nRationale: High leverage and weak liquidity offset strong profitability.\n\nWithin 25 words.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 276,
+ "out_tok": 3137,
+ "usd": 0.007022,
+ "utc": "2026-09-06T18:34:29.659450+00:00"
+}

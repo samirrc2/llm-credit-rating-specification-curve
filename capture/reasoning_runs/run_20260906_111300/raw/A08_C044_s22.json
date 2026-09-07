@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CC\", \"confidence\": 4, \"rationale\": \"Negative equity, low current ratio, and large retained deficit indicate high default vulnerability.\"}",
+ "reasoning_tail": " high, LGD is high.\n\nSo low rating.\n\nI think I'll go with CC.\n\nConfidence 4, since EBIT is positive, which might provide some cash flow.\n\nRationale: \"Negative equity, low liquidity, and large retained deficit indicate high default risk.\"\n\n20 words.\n\nNow for JSON.\n\nResponse should be only the JSON object.\n\nSo {\"decision\": \"CC\", \"confidence\": 4, \"rationale\": \"Negative equity, low liquidity, and large retained deficit indicate high default risk.\"}\n\nBut let's confirm the rating scale. Is CC on the list? Yes, it's included.\n\nPerhaps CCC+ is too high.\n\nBBB is investment grade, which this is not.\n\nBB is speculative, but BB might be for companies with some issues but not insolvent.\n\nFor example, BB is \"Less vulnerable in the near-term but faces major ongoing uncertainties.\"\n\nHere, it's vulnerable now.\n\nB is \"More vulnerable to adverse conditions but currently meeting commitments.\"\n\nBut with current ratio 0.27, it's not meeting commitments easily.\n\nI think CC is better.\n\nPerhaps B-.\n\nBut negative equity is a key point.\n\nI found online that companies with negative net worth are often rated CCC or lower.\n\nFor instance, in some cases, D for default, but C is the lowest here.\n\nC is for imminent default.\n\nCC is for high vulnerability.\n\nI think CC fits.\n\nConfidence: 4 out of 5, because there might be factors not considered, but based on given, high confidence.\n\n5 is highest, so 4 or 5.\n\nSince insolvent, 5.\n\nBut EBIT positive, so not certain default, so 4.\n\nRationale short.\n\nFinal decision.\n",
+ "parsed_letter": "CC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3060,
+ "usd": 0.006839,
+ "utc": "2026-09-06T20:05:26.006015+00:00"
+}

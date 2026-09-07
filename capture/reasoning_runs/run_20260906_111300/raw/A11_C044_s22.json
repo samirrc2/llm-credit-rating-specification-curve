@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial distress based on the provided metrics. The current ratio of 0.27 indicates critical liquidity issues, as current assets cover only 27% of current liabilities, suggesting imminent default risk on short-term obligations. Additionally, negative shareholders' equity (-1,920M) and deeply negative retained earnings (-20,476M) reflect substantial insolvency and accumulated losses, outweighing the positive EBIT of 465M. These factors collectively point to a high probability of default, aligning with a low speculative grade rating.\n\nDECISION: CC",
+ "reasoning_tail": "y vulnerable to nonpayment of debt, and default of some kind is probable.\"\n\nC: \"Default of some kind is imminent.\"\n\nWith EBIT positive, not imminent, so CC.\n\nCurrent ratio 0.27 suggests it might be imminent if liabilities are due.\n\nBut not specified.\n\nI think CC is reasonable.\n\nBut let's see the retained earnings: -20,476M, which is huge, and equity -1,920M, so it's deeply insolvent.\n\nEBIT 465M is small.\n\nSo, I think CC.\n\nPerhaps in practice, such companies are rated CCC or B- , but based on data, it should be low.\n\nI recall that companies like this might be in Chapter 11 or something, but not given.\n\nBased solely on data, I'll go with CC.\n\nBut let's check the current ratio calculation.\n\nCurrent ratio is given as 0.27, and it's correct.\n\nPerhaps there's a mistake, but I have to use the data.\n\nAnother point: total assets 31,391M, total liabilities 33,311M, so net worth negative.\n\nIn credit rating, this is a strong indicator for low rating.\n\nI think CCC or CC.\n\nI'll choose CC.\n\nBut let's see the answer.\n\nPerhaps B- for the positive EBIT.\n\nBut I think that's not conservative.\n\nI think CC is better.\n\nThe scale has CCC+, etc., so CCC- might be between.\n\nCCC- is \"vulnerable, within CCC category.\"\n\nBut CC is lower.\n\nI think for negative equity, ratings are often CCC or lower.\n\nFor example,  1 800-Flowers had negative equity and was rated B-, but that was during growth phase or something.\n\nNot comparable.\n\nI think for this case, with such low current ratio, it's CC.\n\nFinal decision.\n",
+ "parsed_letter": "CC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 4762,
+ "usd": 0.010566,
+ "utc": "2026-09-06T20:08:13.862110+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Weak liquidity with current ratio 1.00 and negative gross margin indicate high credit risk.\"}",
+ "reasoning_tail": "e equity: shareholders' equity 23,369M vs liabilities 23,463M, so leverage is almost 1, which is ok, but with negative retained earnings, it's not strong.\n\nNet income 179M for quarter, so if annual, about 700M, which can cover interest.\n\nBut no interest expense given.\n\nAssume that liabilities include interest-bearing debt.\n\nSuppose long-term liabilities 19,601M, if all debt at 5% interest, interest expense ~980M annual, net income 700M annualized, so coverage less than 1, which is bad.\n\nBut net income is after interest and tax, so I need EBIT.\n\nOperating income is 283M quarterly, so annualized ~1,132M.\n\nIf interest expense, say on long-term debt.\n\nBut not all liabilities are debt; some are non-interest bearing like payables.\n\nCurrent liabilities 3,862M, which may include short-term debt and payables.\n\nLong-term liabilities 19,601M, may include long-term debt and other.\n\nWithout breakdown, it's hard.\n\nBut roughly, if we assume half of long-term liabilities are debt, say 10,000M at 5%, interest 500M annual.\n\nEBIT annualized 1,132M, so interest coverage 1,132 / 500 = 2.26, which is ok but not great. Below 2 is poor.\n\nIf more debt, coverage lower.\n\nWith current ratio 1.00, it's risky.\n\nI think speculative grade is appropriate.\n\nRating: B+ or BB-.\n\nLet's choose BB-, which is the lower end of BB.\n\nBB- is still speculative.\n\nOr B+.\n\nI think BB-.\n\nRationale: \"Poor liquidity and negative gross margin indicate high credit risk.\"\n\nConfidence: 3, since some uncertainty.\n\nFinal decision.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 3971,
+ "usd": 0.008845,
+ "utc": "2026-09-06T19:30:22.958969+00:00"
+}

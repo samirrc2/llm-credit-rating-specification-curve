@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"CCC\",\n  \"confidence\": 3,\n  \"rationale\": \"Low current ratio (0.79), high leverage (debt/equity 2.74), and weak implied coverage indicate severe financial distress and vulnerability.\"\n}",
+ "reasoning_tail": " 0.79, which might be due to seasonal or temporary, but I have to take at face value.\n\nRatings agencies might rate it as speculative.\n\nI recall that for companies like this, rating can be CCC if distressed.\n\nFor example, a current ratio below 1 and debt-to-equity above 2 often leads to B or CCC.\n\nHere debt-to-equity 2.74.\n\nAnother metric: interest coverage, if I can assume.\n\nE  bit no interest.\n\nLet's calculate using all liabilities for conservatism.\n\nEBIT / total liabilities = ~0.0129, which is very low.\n\nEven if only 50% are debt, ratio 0.258, still bad.\n\nI think the rating should be on low end.\n\nFinal decision: given the above, I'll go with CCC, vulnerable.\n\nConfidence: since some data missing like interest, but I have to use what's given, so confidence 3 or 4? Let's say 3.\n\nRationale: \"High leverage, low liquidity, weak coverage indicate substantial risk.\"\n\nOr something like that.\n\nNow for the JSON.\n\nLabel: I think CCC.\n\nBut let's see if BBB- possible? Probably not, as current ratio below 1 is non-investment grade usually.\n\nBB+ for strong speculative, but here data shows weakness.\n\nEBIT 749M might cover interest if debt is low, but liabilities high.\n\nAssume that interest-bearing debt is less than liabilities.\n\nFor example, current liabilities 7.1B, may include payables, etc.\n\nLong-term liabilities 50.8B, may include long-term debt.\n\nBut still, no figures.\n\nI think I have to be conservative.\n\nPerhaps based on Altman score, distress.\n\nSo rating CCC.\n\nFinest: I can say CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 4079,
+ "usd": 0.009077,
+ "utc": "2026-09-06T19:29:45.510547+00:00"
+}

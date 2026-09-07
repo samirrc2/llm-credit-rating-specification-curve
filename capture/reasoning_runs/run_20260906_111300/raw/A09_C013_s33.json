@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A\", \"confidence\": 3, \"rationale\": \"Strong operating margin (17%), moderate leverage (debt-to-equity 1.18), and healthy liquidity (current ratio 1.53) support investment grade, but size and stability unknown.\"}",
+ "reasoning_tail": "think A.\n\nNet income to debt service.\n\nAssume annual net income ~6,604 M.\n\n total liabilities 61,341M, but not all debt.\n\nSuppose long-term debt is, say, 30,000M annual interest at 5% is 1,500M, so coverage with EBIT 7,452 / 1,500 = 4.968, about 5, which is BBB to A range.\n\nIf debt less, coverage better.\n\nBut it's rough.\n\nSimilarly, net income 6,604, less than EBIT.\n\nInterest 1,500, pre-tax income 7,452 - 1,500 = 5,952, tax at 21% 1,249, net income 4,703, but actual net income annualized is 6,604, which is higher than that, so interest must be low or debt less.\n\nFrom earlier, if net income is 1,651, but it's inconsistent.\n\nPerhaps for this company, interest is small.\n\nI think the data suggests low leverage.\n\nFor example, with net income high and no mention of high interest, likely.\n\nIn credit rating, if no red flags, it could be high.\n\nBut current ratio 1.53 is not great;  22,316 current assets, 14,621 current liabilities, so net working capital 7,695M, positive.\n\nI think A- or BBB+.\n\nI'll go with A-.\n\nDecision: A-\n\nConfidence: 3, medium, because some ratios missing.\n\nRationale: Strong profitability, moderate leverage, good liquidity.\n\nWords.\n\n\"Strong margins, low risk profile, investment grade.\"\n\nBut leverage moderate.\n\n\"Healthy operations, retained earnings solid, investment grade.\"\n\nSpecific rating.\n\nFinal JSON.\n\nSo, {{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"High profitability and retained earnings with moderate leverage\"}} \n\nRationale <=25 words.\n\n19 words.\n\nOk.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 4995,
+ "usd": 0.011092,
+ "utc": "2026-09-06T17:21:38.493433+00:00"
+}

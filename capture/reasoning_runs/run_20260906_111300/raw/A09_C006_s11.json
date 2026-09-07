@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"AAA\",\n  \"confidence\": 4,\n  \"rationale\": \"Exceptional margins (19% operating), ultra-low leverage (D/E ~0.56), massive retained earnings ($45.9B), strong liquidity (CR 1.52). Minimal credit risk profile.\"\n}",
+ "reasoning_tail": "ell above what most investment-grade companies maintain. Then there's the net income of $908M on $6B revenue, showing solid profitability. \n\nLooking at the balance sheet - wow, that equity position jumps out. Shareholders' equity stands at $51B against only $28.8B liabilities, so the debt-to-equity ratio is about 0.56. That's exceptionally low leverage. Plus, retained earnings are massive at nearly $46B, indicating years of consistent profits. \n\nThe liquidity position seems adequate with a current ratio of 1.52, meaning they can comfortably cover short-term obligations. No apparent liquidity concerns there. \n\nConsidering credit rating factors: profitability is top-tier, leverage is minimal, cash flow generation appears strong (implied by high retained earnings), and they've got a fortress balance sheet. This screams \"minimal credit risk\" to me. \n\nThe only hesitation is that we have limited data points - just one quarter's snapshot without historical trends or cash flow details. But everything we do see aligns with the highest credit quality tier. \n\nComparing to real-world examples, low leverage combined with high margins is characteristic of AAA-rated tech giants like Apple in strong financial positions. While conservative analysts might cap at AA+ without more data, the metrics are overwhelmingly positive. \n\nMy confidence is high because the indicators are exceptionally strong and consistent with the very best credit profiles. So I'm leaning towards AAA with 4/5 confidence.\n",
+ "parsed_letter": "AAA",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 435,
+ "usd": 0.001104,
+ "utc": "2026-09-06T16:35:05.330873+00:00"
+}

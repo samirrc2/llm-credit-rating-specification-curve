@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Critical liquidity and solvency: current ratio 0.55 indicates severe short-term risk, leverage high, operating income insufficient for likely interest coverage.\"}",
+ "reasoning_tail": "ayment.\n\nBut with EBIT positive, not C yet.\n\nCC: Highly vulnerable, very speculative.\n\nBut let's see.\n\nI think CCC is appropriate.\n\nIn the Z-score, very low.\n\nAnother metric: Times Interest Earned, not available, but inferred.\n\nI'll go with CCC.\n\nFor granularity, as per scale.\n\n\"finest granularity you can justify\" so I can choose, say, CCC.\n\nBut there are CCC+, CCC, CCC-.\n\nI think CCC or B- etc.\n\nGiven the data, I think CCC.\n\nConfidence: 3 or 4? I'll say 4.\n\nRationale <=25 words: \"Extreme liquidity crunch with current ratio 0.55 and high leverage, EBIT may not cover interest.\"\n\nThat's 12 words.\n\nOr something better.\n\n\"Severe liquidity risk and leverage imply high default probability, supported by low Altman Z-Score.\"\n\nBut Altman not standard for credit rating, so keep simple.\n\n\"Critical liquidity situation with negative working capital and high debt burden, suggesting imminent default risk.\"\n\nImminent might be strong, EBIT positive.\n\n\"Very low current ratio and high debt indicate speculative grade with high default risk, rating CCC.\"\n\nBut needs to be concise.\n\nRationale should be short.\n\nFinal decision: CCC\n\nBut let's confirm numbers.\n\nCurrent assets 12,671, liabilities 22,911, ratio 0.55\n\nDebt-to-equity 139,758 / 54,181 = about 2.58, which is not extremely high for some industries, but with low liquidity it's bad.\n\nFor capital intensive, 2-3 might be ok, but here issues.\n\nEBIT/revenue good, but EBIT/assets low.\n\nPerhaps industry matters, but not given.\n\nI think CCC is safe.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 4944,
+ "usd": 0.010973,
+ "utc": "2026-09-06T19:54:52.061661+00:00"
+}

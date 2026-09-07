@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company shows critical weaknesses in liquidity and solvency. The current ratio of 0.27 indicates severe short-term liquidity risk, as current assets cover only 27% of current liabilities, making near-term default likely without external support. Negative shareholders' equity (-1,920M) and deeply negative retained earnings (-20,476M) reflect insolvency and poor historical performance, outweighing the positive EBIT of 465M. These factors place the issuer in the lowest speculative grade, specifically CCC-, due to the high vulnerability to non-payment and imminent default risk.\n\nDECISION: CCC-",
+ "reasoning_tail": " vulnerable and dependent on favorable conditions\n\n- CCC : Vulnerable\n\n- CCC- : Default possible in the near term\n\nWith current ratio 0.27, default is possible in the near term.\n\nEBIT positive might provide some buffer.\n\nRevenue is only 1,010M, current liabilities 4,705M, which is about 4.6 times revenue, meaning it would take over 4 years of revenue to cover current liabilities, but since EBIT is 465M, it could cover if converted to cash, but there are operating expenses, etc.\n\nNet cash from operations isn't given.\n\nBut EBIT 465M, after interest and taxes, but taxes might be low due to losses.\n\nStill, the immediate liquidity crisis suggests high vulnerability.\n\nI think CCC- is reasonable.\n\nCC is for highly vulnerable, with default likely.\n\nBut EBIT positive, so not imminent.\n\nLet me assign.\n\nPerhaps I can look at the net income implied.\n\nRetained earnings changed by net income minus dividends, but not given.\n\nFrom the data, retained earnings are -20,476M, but that's cumulative.\n\nFor the year, I don't have net income.\n\nEBIT is operating income, so before interest and tax.\n\nBut I think the balance sheet insolvency and liquidity are key.\n\nFinal decision: I think the rating should be CCC-.\n\nReason: The company exhibits severe liquidity issues with a current ratio of 0.27, negative shareholders' equity, and significant accumulated losses, indicating high default risk despite positive operating income.\n\nThen DECISION: CCC-\n\nBut let's confirm the scale: CCC- is one of the options.\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 2839,
+ "usd": 0.006354,
+ "utc": "2026-09-06T20:05:53.688026+00:00"
+}

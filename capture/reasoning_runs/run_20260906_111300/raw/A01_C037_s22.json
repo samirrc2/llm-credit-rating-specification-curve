@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Tight liquidity with current ratio 1.00 and negative retained earnings indicate risk; recent profits insufficient for higher grade.\"}",
+ "reasoning_tail": " not 48,860M. Inconsistency.\n\nAssets 48,860, liabilities + equity should equal, but 23,463 + 23,369 = 46,832, not 48,860. Difference of about 2,028M.\n\nMust be minority interest or something not listed. Problem.\n\nThe data might have errors, but I have to use it as is. Perhaps \"total assets\" includes something else, or total liabilities doesn't include all.\n\nIt says \"total assets 48,860M, total liabilities 23,463M, shareholders' equity 23,369M\", so liabilities + equity = 23,463 + 23,369 = 46,832, but assets 48,860, so there's a gap of 2,028M. That could be minority interest or other equity-like items.\n\nFor credit rating, I might ignore or assume it's covered.\n\n   But it's a red flag that data doesn't balance, but perhaps in context it's minor.\n\nProceed.\n\nSo liabilities + equity should equal -assets, but here it doesn't, error in the given data? Or it's part of equity.\n\nShareholders' equity might be just common equity, with minorities.\n\nFor debt holders, total obligations matter.\n\nTo simplify, I'll use the given figures as is for ratios.\n\nCurrent ratio is given as 1.00, so it's accurate.\n\nI think for rating, with tight liquidity and mixed signals, speculative grade is appropriate.\n\nRating: BB\n\nConfidence: 3\n\nRationale: \"Tight liquidity and historical losses weigh on rating, despite recent profits.\"\n\nWithin 25 words: \"Weak current ratio and negative retained earnings offset by positive margins, suggesting speculative grade.\"\n\nOr something.\n\nChoose the JSON output.\n\nFinal answer.\n",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 4010,
+ "usd": 0.008931,
+ "utc": "2026-09-06T19:30:00.616809+00:00"
+}

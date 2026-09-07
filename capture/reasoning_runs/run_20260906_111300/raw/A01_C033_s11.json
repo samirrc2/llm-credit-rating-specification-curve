@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative shareholders' equity, weak liquidity (current ratio 1.09), and high bankruptcy risk per Altman Z-score.\"}",
+ "reasoning_tail": "ot necessarily.\n\nAssume annual EBIT 10,000M roughly.\n\nInterest coverage: if interest expense is, say, from liabilities.\n\nBut liabilities include non-debt items.\n\nSuppose half of liabilities are debt, 32,000M debt.\n\nIf interest rate 5%, interest expense 1,600M annually.\n\nEBIT 10,000M, coverage 6.25, which is good.\n\nBut this is arbitrary.\n\nIf debt is higher, coverage lower.\n\nBut I don't know.\n\nWith negative equity, lenders would be wary.\n\nI think the balance sheet insolvency dominates.\n\nIn credit rating, agencies might downgrade to CCC if equity negative.\n\nFor example, I recall S&P downgrades to CCC if default is imminent or leverage extremely high.\n\nHere, not imminent, but high risk.\n\nPerhaps BB- or B+.\n\nBut Z-score suggests CCC.\n\nLet's see the rating scale finer.\n\nI think CCC is reasonable.\n\nCCC+ is a bit higher, CCC- lower.\n\nSince current ratio is above 1 and profitable, perhaps CCC+.\n\nBut negative equity is severe.\n\nRetained earnings -9,884M, which is bad.\n\nI think CCC.\n\nConfidence 3, since I have limited data.\n\nRationale: \"Negative shareholders' equity and weak liquidity indicate high default risk.\"\n\n20 words.\n\nNow for JSON.\n\n{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity and low current ratio imply high default risk.\"}\n\nRationale <=25 words, yes.\n\nIs there a better rating?\n\nPerhaps B-, but I think CCC is more accurate for such distress.\n\nBB is for less severe, like high leverage but positive equity.\n\nHere equity negative, so CCC.\n\nI think CCC is fine.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 3603,
+ "usd": 0.008041,
+ "utc": "2026-09-06T19:10:53.775854+00:00"
+}

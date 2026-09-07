@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"A+\",\n  \"confidence\": 4,\n  \"rationale\": \"High operating margin (18%), low leverage (debt-to-equity ~0.89), strong net income, though liquidity is moderate (current ratio 1.32).\"\n}",
+ "reasoning_tail": "Here, no other issues.\n\nI think on the 21-grade scale, A is reasonable.\n\nBut confidence level from 1 to 5.\n\nI need to provide JSON.\n\nFirst, decision.\n\nPossible ratings: I think BBB+ to A+ range.\n\nLet's calculate a quick score.\n\nMake a simple model.\n\nProfitability strong: net margin 11.5%, operating mtar  18% \u2013 good.\n\nLeverage: debt/equity 0.89 \u2013 low risk.\n\nLiquidity: current ratio 1.32 \u2013 fair but weak.\n\nSize: large assets and revenue.\n\nSo, likely A or A-.\n\nBut many highly rated companies have higher current ratios.\n\nFor example, Apple has around 1, but high cash.\n\nHere, current assets 15,884M, current liabilities 12,009M, so net working capital 3,875M, which is positive but not huge.\n\nWith annual operating income of about 10,808M (4*2,702), so sufficient.\n\nI think A- or BBB+ is too low given the margins.\n\nPerhaps A.\n\nThe confidence is how sure I am.\n\nSince we lack interest coverage, it's a bit uncertain.\n\nBut overall, assign A.\n\nOr A-.\n\nLet's see the exact scales.\n\nI recall that S&P ratings have BBB as investment grade threshold.\n\nWith low leverage and good margins, A is  appropriate.\n\nDecision: A\n\nConfidence: 3, since no debt details.\n\nRationale should be concise, <=25 words.\n\nRationale: Strong profitability and low leverage support creditworthiness; liquidity adequate, leading to A rating.\n\nWords: Strong profitability (2), low leverage (2), creditworthiness (1), liquidity adequate (2), leading to (2) A rating (1). Total about 10 words.\n\nIn JSON.\n\nFinally, return only JSON.\n",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 4177,
+ "usd": 0.009299,
+ "utc": "2026-09-06T15:58:34.036196+00:00"
+}

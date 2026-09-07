@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Critical liquidity risk (current ratio 0.35) and extreme leverage (debt/equity ~8.1) indicate severe distress; positive EBIT prevents CC or C.\"}",
+ "reasoning_tail": "or 4.\n\nNow, for the rating, I'll go with CCC.\n\nBut let's see if B- is possible.\n\nB is highly speculative, CCC is vulnerable.\n\nWith negative working capital, vulnerable.\n\nPerhaps CCC+.\n\nI think CCC is fine.\n\nAnother way: the current ratio is 0.35, which is less than 0.5, often associated with CCC ratings.\n\nSimilarly, debt/equity over 8.\n\nSo I think CCC.\n\nBut let's confirm the figures.\n\nRevenue 20,880M, EBIT 6,598M, so net income might be lower, but not given.\n\nTotal assets 308,894M, so it's a large company, but in trouble.\n\nPerhaps it's a company like an airline or something cyclical, but no info.\n\nBased on data, I think CCC.\n\nFor confidence, I'll say 3, since no interest expense.\n\nRationale: \"Critical liquidity risk and extreme leverage despite positive EBIT.\"\n\nWithin 25 words.\n\nFinal decision: CCC\n\nConfidence: 3\n\nRationale: \"Extremely low current ratio and high debt/equity indicate severe distress; positive EBIT prevents lower rating.\"\n\nNow, for the JSON.\n\n{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extremely low current ratio and high debt/equity indicate severe distress; positive EBIT prevents lower rating.\"}\n\nBut is CCC the right choice? CCC+ or CCC-?\n\nThe scale has CCC+, CCC, CCC-.\n\nI think CCC is appropriate.\n\nPerhaps B-, but I think CCC is finer.\n\nAnother thought: retained earnings are high, 26,088M, which might indicate historical profitability, but current situation is bad.\n\nBut retained earnings don't help with liquidity.\n\nSo I think CCC.\n\nI'll go with that.\n",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 4760,
+ "usd": 0.010564,
+ "utc": "2026-09-06T19:09:52.744281+00:00"
+}

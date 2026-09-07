@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Negative gross margin, low current ratio (1.00), and negative retained earnings indicate high credit risk despite positive operating income.\"}",
+ "reasoning_tail": "e for credit risk.\n\nI think a rating of B+ or B is appropriate.\n\nSince current ratio is exactly 1, it might be CCC, but net income positive suggests it can operate.\n\nBut for short-term obligations, it's risky.\n\nIn credit rating, current ratio below 1.5 is often sub-investment grade.\n\n1.00 is very low.\n\nRetained earnings negative is another distress signal.\n\nSo I'll go with B.\n\nBut let's see the scale: B is \"more vulnerable to adverse business, financial, and economic conditions but currently has the capacity to meet financial commitments.\"\n\nThat seems fitting.\n\nB- is \"more vulnerable,\" but similar.\n\nCCC is \"currently vulnerable.\"\n\nWith net income positive, it's not currently vulnerable, so B might be better.\n\nOperating income positive, so it can cover interest if any.\n\nBut I don't know.\n\nPerhaps BB-.\n\nBB is \"less vulnerable,\" but with negative gross margin and low liquidity, it seems vulnerable.\n\nI think B is reasonable.\n\nConfidence: 2 or 3, since data is limited.\n\nRationale should be <=25 words.\n\nFinal decision.\n\nAnother thing: the company has filed this, and it's Q1, but retained earnings are cumulative, so it includes past.\n\nBased on this, I'll assign B.\n\nBut let's see if there's a better fit.\n\nCCC+ for very weak liquidity.\n\nBut profitability is there.\n\nI think B.\n\nSo label: B\n\nConfidence: 3\n\nRationale: \"Negative gross margin, low current ratio, and negative retained earnings indicate high credit risk despite current profitability.\"\n\nThat's 15 words.\n\nNow for JSON format.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 4184,
+ "usd": 0.009313,
+ "utc": "2026-09-06T19:33:29.587498+00:00"
+}

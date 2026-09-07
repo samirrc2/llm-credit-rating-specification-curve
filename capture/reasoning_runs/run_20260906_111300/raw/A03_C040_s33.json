@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe liquidity issues with a current ratio of 0.63, well below 1, and negative net working capital, indicating difficulty meeting short-term obligations. Additionally, high leverage is evident with a debt-to-equity ratio of approximately 2.7 and a low EBIT-to-total-liabilities ratio of about 1.7%, signaling weak coverage and high default risk. These factors align with CCC ratings, reflecting current vulnerability and dependence on favorable conditions.\n\nDECISION: CCC",
+ "reasoning_tail": "tions; B is below BB, etc.\n\nB ratings might be for companies with moderate risk but higher debt or less liquidity.\n\nHere, liquidity is severe.\n\nFor example, a company with current ratio below 1 might not be investment grade, below BB if other factors weak.\n\nWith CR 0.63, likely CCC.\n\nI can look for historical analogies, but I don't recall.\n\nBased on general knowledge, ratings agencies have defined metrics.\n\nFor instance, S&P: for CCC, typically interest coverage below 1x or negative, but coverage not defined here.\n\nLeverage ratio high.\n\nI think CCC is the right ballpark.\n\nSince the prompt says \"finest granularity you can justify,\" I need to pick one.\n\nPerhaps I can say CCC- because of the very low current ratio.\n\nBut let's decide.\n\nFinal decision: considering all, the company is vulnerable and the financial metrics indicate high default risk, so I assign CCC.\n\nIn the answer format, I need to reason briefly.\n\nReason: Poor liquidity with current ratio of 0.63, high leverage (debt-to-equity ~2.7), and low operating profitability relative to debt suggest high default risk, consistent with CCC ratings.\n\nThen DECISION: CCC\n\nBut I have CCC+, CCC, CCC-.\n\nPerhaps due to positive retained earnings and EBIT, it might be CCC+ for a chance, but I doubt.\n\nCCC+ is the highest in CCC.\n\nFor rating scales, CCC+ is better than CCC, which is better than CCC-.\n\nWith a Z-score of 0.3, most distressed companies are CCC or C.\n\nBut C is for imminent default; here, EBIT positive, so not yet.\n\nSo CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4302,
+ "usd": 0.009559,
+ "utc": "2026-09-06T19:45:48.327152+00:00"
+}

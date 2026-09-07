@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Severely low current ratio (0.42) and high debt-to-equity (~10.25) indicate acute liquidity strain and excessive leverage risk.\"}",
+ "reasoning_tail": " indicating severe liquidity risk and high debt burden.\"\n\nConfidence: 3, because the are no industry or business context.\n\nBut what about the revenue and EBIT scale? Large absolute numbers could imply some stability.\n\nBut with the ratios, it's risky.\n\nI think B+ is speculative grade with high risk.\n\nThen ther  is BB for less risk, but here it seems high.\n\nAnother metric: retained earnings large, but not helping short-term.\n\nI think B+ .\n\nLet's see the answer format.\n\nI need to output JSON.\n\nSo for rating: B+\n\nConfidence: 3\n\nRationale: \"Extremely low current ratio and high leverage pose significant credit risk.\"\n\nMake it under 25 words.\n\n\"Low current ratio (0.42) and high liabilities/equity (10.25) indicate high default probability.\"\n\n18 words.\n\nor \"Severe liquidity shortfall and excessive leverage necessitate low rating.\"\n\n13 words.\n\nThen confidence 3, meaning moderate.\n\nBut let's assign a specific rating.\n\nPerhaps it could be BB-.\n\nLet's look at the 21-grade scale.\n\nFrom AAA down to C.\n\nBBB- is lowest investment grade.\n\nThen BB+ etc.\n\nFor this, I think it's below investment grade.\n\nSo BB or B.\n\nB+ is one grade below BB-.\n\nScale: BB+, BB, BB-, B+, B, B-, etc.\n\nSo B+ is below BB-.\n\nGiven the numbers, I think B+ is reasonable.\n\nBut in reality, for a company like this with strong cash flows, it might be higher, but based on data, it should be low.\n\nI think for the exercise, I'll go with B+.\n\nPerhaps the issuer is a company with a specific model.\n\nBut no, so B+.\n\nFinal decision.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 5009,
+ "usd": 0.011118,
+ "utc": "2026-09-06T19:21:04.266005+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Current ratio 0.63 indicates liquidity crisis; debt/EBIT ~60x shows extreme leverage; low ROA implies weak profitability.\"}",
+ "reasoning_tail": "\n\nHere current ratio 0.63, so worse.\n\nLet's estimate a rating.\n\nI recall that for corporate bonds, a debt/EBITDA above 10 is often CCC, here Debt/EBIT is almost 60, so much worse.\n\nSimilarly, interest coverage below 1 is distress.\n\nSo probably CCC or lower.\n\nBut let's choose CCC.\n\nTo be finest granularity, CCC- or something.\n\nBut I need to justify.\n\nPerhaps from the figures, the retained earnings are 4,718M, which is substantial, so not the worst.\n\nBut compared to liabilities, it's small.\n\nRetained earnings / total liabilities = 4,718 / 139,666 \u2248 0.0338, small.\n\nI think CCC is fine.\n\nConfidence: 4, since ratios are clear but no interest data.\n\nRationale: Poor liquidity, high leverage, low coverage.\n\nNow for the JSON output.\n\nDecision: CCC\n\nConfidence: 4\n\nRationale: \"Low current ratio, high debt, weak interest coverage implied.\"\n\nBut I don't have interest coverage, but implied.\n\nWithin 25 words.\n\n\"Current ratio 0.63, debt/EBIT 60x, negative working capital.\"\n\nDebt/EBIT 60x is extreme.\n\nNegative working capital.\n\nSo rationale can be: \"Very low liquidity, extremely high leverage, poor profitability.\"\n\nProfitability margin is good, but absolute low.\n\n\"High leverage, low EBIT coverage capability, liquidity crisis.\"\n\nI think that's sufficient.\n\nFinal rating: let's say CCC.\n\nBut let's confirm the scale.\n\nPerhaps BB- but that might be too high.\n\nFor example, BB ratings might have current ratio above 1 and some coverage.\n\nHere, all indicators bad.\n\nSo CCC.\n\nI think CCC is reasonable.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 3612,
+ "usd": 0.008049,
+ "utc": "2026-09-06T19:47:38.562201+00:00"
+}

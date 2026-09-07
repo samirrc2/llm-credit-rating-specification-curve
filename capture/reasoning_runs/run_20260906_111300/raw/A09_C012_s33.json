@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"AA+\", \"confidence\": 4, \"rationale\": \"Strong profitability with 46% operating margin, low leverage (debt-to-equity 0.68), adequate liquidity (current ratio 1.28).\"}",
+ "reasoning_tail": "y.\n\nBut profitability offsets.\n\nPerhaps AA+ or AA.\n\nLet's see the exact scale: AAA, AA+, AA, AA-, etc.\n\nI need to choose one.\n\nAnother ratio: net income to total assets = 31,778M / 694,228M \u2248 4.58% for the quarter, annualized ~18.3%, which is good ROA.\n\nROE 7.67% quarterly, annualized ~30.7%, which is strong.\n\nAnnualized ROE: net income quarterly 31,778M, equity 414,367M, so quarterly ROE 7.67%, annual ROE roughly 4*7.67% = 30.68%, since equity doesn't change much quarterly, but it's approximate.\n\n30% ROE is excellent.\n\nSimilarly, ROA annualized ~18.3%, very good.\n\nFor credit rating, high profitability reduces risk.\n\nLiquidity is adequate with current ratio 1.28.\n\nLeverage low.\n\nSo, I think AA+ or AAA.\n\nBut AAA might be too high without perfect liquidity.\n\nFor example, if current ratio was higher, it might be AAA.\n\nBut 1.28 is acceptable.\n\nPerhaps AA+.\n\nThe rationale must be <=25 words.\n\nFinal decision.\n\nI think AA+ with high confidence.\n\nConfidence: 4 or 5? Since no debt details, maybe 4.\n\nBut the data is strong.\n\nPerhaps A+ to be conservative.\n\nNo, let's see.\n\nAnother thing: the company has retained earnings of 302,526M, which is large, indicating no need for external financing.\n\nSo, low default risk.\n\nI think AA+ is appropriate.\n\nRating: AA+\n\nConfidence: 4 (high, but not absolute due to missing interest data)\n\nRationale: Strong profitability, low leverage, adequate liquidity.\n\nWithin 25 words.\n\n\"Strong margins, low debt-to-equity, sufficient current ratio.\"\n\nNow for JSON.\n",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 3332,
+ "usd": 0.007449,
+ "utc": "2026-09-06T17:14:27.395482+00:00"
+}

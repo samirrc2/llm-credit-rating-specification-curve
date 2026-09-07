@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong profitability with an EBIT margin of approximately 46.3%, which is exceptional and supports a high credit rating. Leverage is moderate, with a debt-to-equity ratio of approximately 0.68 and a debt-to-assets ratio of about 40.3%, indicating good solvency. However, the current ratio of 1.28 is below the typical threshold of 1.5 for higher investment grades, suggesting some liquidity risk. Considering the high retained earnings of $302,526M, which reflects a strong history of profitability and internal funding, the overall credit profile is very strong but not pristine, justifying an A+ rating on the 21-grade scale.\n\nDECISION: A+",
+ "reasoning_tail": "e it's given, and it's 1.28, which is below 1.5, it might indicate a lower rating.\n\nIn credit analysis, current ratio below 1.2 is often speculative grade, 1.2 to 2.0 is gray, but depends.\n\n1.28 is above 1.2, so investment grade.\n\nEBIT margin high.\n\nLeverage moderate.\n\nSo probably A or BBB+.\n\nLet's calculate the interest coverage assuming.\n\nSuppose that current liabilities include short-term debt, and non-current include long-term debt.\n\nBut not specified.\n\nAssume that total debt is, say, 50% of total liabilities, so 139,930.5M.\n\nInterest at 4% = 5,597.22M.\n\nEBIT/interest = 38,398 / 5,597.22 \u2248 6.86, which is good, AA range.\n\nAt 5% interest, 6,996.525, coverage 5.49, A range.\n\nAt 6% interest, 8,395.83, coverage 4.57, A- to BBB+.\n\nSo it varies.\n\nBut with high margin, cost of debt might be low.\n\nI think on balance, it's strong.\n\nPerhaps AA-.\n\nBut let's see the retained earnings: 302,526M, which is huge, suggesting a long history of strong performance, so high rating.\n\nCurrent ratio might be a temporary issue.\n\nSo I'll go with AA-.\n\nOr A+.\n\nI think AA- is reasonable.\n\nBut let's check the numbers again.\n\nTotal assets 694,228M, revenue 82,886M, so revenue to assets ratio low, but margin high.\n\nPerhaps for rating, it's fine.\n\nFinal decision.\n\nI think the issuer should be rated A+.\n\nReason: High EBIT margin and moderate leverage indicate strong profitability and solvency, while the slightly low current ratio suggests some liquidity risk, but not severe.\n\nSo A+.\n\nOr A.\n\nLet's output.\n",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 251,
+ "out_tok": 5683,
+ "usd": 0.012584,
+ "utc": "2026-09-06T17:16:55.799701+00:00"
+}

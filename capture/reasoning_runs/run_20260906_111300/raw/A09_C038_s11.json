@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"High leverage (debt-heavy), weak liquidity (current ratio 0.63), negative retained earnings, despite strong profitability.\"}",
+ "reasoning_tail": "e cash to cover the gap. But note: the net income is $821M for the year, which is less than the current liability gap. However, the operating income is $1,161M, which is closer.\n\nBut the company also has long-term liabilities that are substantial.\n\nGiven the negative retained earnings and high leverage, the company's capital structure is risky.\n\nI would place this company in the **B** category. It's vulnerable but not yet in the CCC range because of the strong operating performance.\n\nHowever, note that the current ratio is very low (0.63) and the retained earnings are deeply negative. This suggests that the company has been burning through equity and relying on debt. The recent profitability is a positive, but the balance sheet is weak.\n\nAlternative: BBB- is investment grade. This company does not qualify because of the leverage and liquidity.\n\nBB range (non-investment grade but less risky) might be too high because of the current ratio and negative retained earnings.\n\nLet's compare:\n\n- BB: speculative, but less vulnerable. This company has a current ratio below 1 and negative retained earnings, so it's more vulnerable.\n\n- B: currently vulnerable. This seems to fit.\n\nTherefore, I assign **B**.\n\nConfidence: 3 (moderate) because we don't have the full picture (like cash flow, debt maturity, industry, etc.), but based on the given numbers, B is appropriate.\n\nRationale: High leverage and poor liquidity despite recent profitability.\n\nFinal decision: B\n\nReturning JSON as required.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 1376,
+ "usd": 0.003164,
+ "utc": "2026-09-06T19:36:09.199226+00:00"
+}

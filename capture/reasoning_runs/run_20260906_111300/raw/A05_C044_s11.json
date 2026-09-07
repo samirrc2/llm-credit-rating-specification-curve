@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Negative shareholders' equity, critically low current ratio (0.27), and large retained losses indicate high default risk despite current profitability.\"}",
+ "reasoning_tail": " corporate ratings, negative net worth often leads to C or similar if not addressed.\n\nBut with profits, it might not be C yet.\n\nC is for imminent default or default.\n\nHere, not default yet.\n\nCCC is appropriate.\n\nThe current ratio is 0.27, which is extremely low. Rule of thumb: less than 1 is bad, and 0.27 is horrific.\n\nRetained earnings -20,476M vs. revenue of 1,010M for the quarter, so annualize roughly 4,040M, but retained earnings are cumulative deficit.\n\nStill, massive.\n\nI think low end of CCC.\n\nNow, confidence level: I need to give confidence 1 to 5, 5 highest.\n\nI have only this data, no history, no industry context.\n\nThe industry isn't given; revenue is 1,010M Q1, which is about 4B annual, so mid-sized company?\n\nBut not specified.\n\nBased solely on figures, I'd say CCC.\n\nAnd confidence, I think 3 or 4, since it's clear from balance sheet.\n\nRationale must be <=25 words.\n\nFinal decision: CCC\n\nPerhaps CCC- to be finer, but I can justify CCC.\n\nCCC means CCC, without + or -.\n\nThe options are CCC+, CCC, CCC-, so I can choose CCC.\n\nOr to be precise.\n\nSince they have positive ops income, I'll go with CCC.\n\nRating agencies might look at cash flow from operations, but not given.\n\nI have to use what's provided.\n\nSo, issuer is at high default risk due to negative equity and poor liquidity.\n\nTherefore: CCC\n\nConfidence: let's say 4, as the weaknesses are stark.\n\nRationale: \"Negative equity, low current ratio, historical losses but profitable operations.\"\n\nThat's about 8 words.\n\nFits.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 2366,
+ "usd": 0.005327,
+ "utc": "2026-09-06T20:04:01.455110+00:00"
+}

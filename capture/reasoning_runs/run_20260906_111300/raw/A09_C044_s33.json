@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 4, \"rationale\": \"Negative equity, critically low current ratio (0.27), and massive retained earnings deficit indicate severe liquidity risk and high default vulnerability.\"}",
+ "reasoning_tail": "minent default.\n\nHere, with positive earnings, not imminent default, but liquidity crisis possible.\n\nSo, perhaps CCC+ or CCC.\n\nCCC+ is between CCC and B-.\n\nThe scale has CCC+, CCC, CCC-.\n\nCCC+ is the highest in CCC category.\n\nI think B- might be appropriate, but current ratio 0.27 is very bad.\n\nFor example, in credit analysis, a current ratio below 1 is poor, below 0.5 is critical.\n\n0.27 is well below 0.5.\n\nAlso, negative equity.\n\nIn addition, retained earnings negative and large.\n\nSo, I think CCC+ or CCC.\n\nLet's choose CCC+.\n\nBut net income positive might suggest B-.\n\nHowever, the current ratio dominates for short-term credit risk.\n\nPerhaps B- with low confidence.\n\nBut I need to decide.\n\nAnother thing: the fiscal period is Q1, filed in May, so it's recent, but we have no prior data except retained earnings which is cumulative.\n\nThe instruction says \"based only on the above and knowledge predating the most recent fiscal year,\" but no such knowledge is provided, so only this data.\n\nSo, based on this.\n\nI think CCC+ is reasonable.\n\nConfidence: 4, since the data is clear.\n\nRationale: \"Negative equity, low current ratio, and large retained deficit indicate high default risk.\"\n\nLet's count words: Negative, equity, low, current, ratio, and, large, retained, deficit, indicate, high, default, risk. That's 13 words.\n\nUnder 25.\n\nNow for rating: CCC+.\n\nBut let's confirm the scale: CCC+ is listed.\n\nPerhaps B-.\n\nI think CCC+ is better.\n\nIn the JSON, it should be a string.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 2867,
+ "usd": 0.006428,
+ "utc": "2026-09-06T20:05:31.685031+00:00"
+}

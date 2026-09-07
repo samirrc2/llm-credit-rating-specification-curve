@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Current ratio below 1 indicates liquidity stress; high debt-to-equity (2.87) and low EBIT coverage suggest high default risk.\"}",
+ "reasoning_tail": " CCC+ is a reasonable choice.\n\nPerhaps B-.\n\nI found online that for interest coverage below 1.0x, rating is often CCC or lower.\n\nFor example, S&P: coverage <1.0x corresponds to CCC+/CCC/CCC-.\n\nSince it's 0.4x, likely CCC.\n\nBut I estimated interest, so not precise.\n\nCurrent liabilities include short-term debt, but not specified.\n\nTo be conservative, let's say CCC.\n\nBut I'll go with CCC+ as the issuer might have access to credit.\n\nNo, I think CCC.\n\nDecision: CCC\n\nConfidence: 3, since I don't have all details.\n\nRationale: Low liquidity, high leverage, weak coverage.\n\nIn 25 words.\n\n\"Current ratio below 1, high debt-to-equity, low EBIT coverage.\"\n\nThat's 8 words.\n\nNow for confidence, I'll say 3.\n\nBut let's see if I can be finer.\n\nAnother idea: calculate the ratio of current assets to current liabilities is 0.97, almost 1, so not severe.\n\nBut below is below.\n\nEBIT is positive, so not loss-making.\n\nBut margin thin.\n\nI think CCC is appropriate.\n\nPerhaps B-.\n\nLet's check the Altman Z-score again.\n\nZ=0.877, which is very low.\n\nCompanies with Z<1.8 are often rated B or lower.\n\nFor Z around 1.0, it might be CCC.\n\nFor example, some sources say Z<1.23 is distress, but Altman's original is <1.81.\n\nHere 0.877<1.81.\n\nSo I think CCC.\n\nBut CCC+ is the highest in that category.\n\nThe scale has CCC+, CCC, CCC-.\n\nSo perhaps CCC+ for some hope.\n\nBut I think CCC.\n\nI recall that Tesla or some companies had low ratings when struggling, but not sure.\n\nPerhaps for this, I'll assign CCC.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4663,
+ "usd": 0.01035,
+ "utc": "2026-09-06T20:02:22.679200+00:00"
+}

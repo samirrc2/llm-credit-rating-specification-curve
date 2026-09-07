@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Weak liquidity (current ratio 1.00), negative retained earnings, low EBIT/assets (0.58%).\"}",
+ "reasoning_tail": "rowth prospects.\n\nHere, no prospects given.\n\nSo based on fundamentals, I think CCC+ or B-.\n\nBut let's see EBIT is positive, so not currently losing money.\n\nRetained earnings negative is historical.\n\nBut for rating, it's considered.\n\nPerhaps BB- is possible, but I think too optimistic.\n\nLet's check the current ratio: 1.00 is poor.\n\nIn some industries, 1.0 might be acceptable, but generally not.\n\nI think I should go with B or B-.\n\nConfidence: since I don't have all data, like interest, confidence might be 2 or 3.\n\nBut I have to choose.\n\nPerhaps for the rating, based on Altman Z-score of 0.45, which is very low, it should be CCC or lower.\n\nZ-score below 1.8 is distress, below 1.0 is severe.\n\n0.45 is very bad.\n\nIn practice, Z-score below 1.0 is often associated with CCC ratings or lower.\n\nFor example, companies near bankruptcy.\n\nHere, with positive EBIT, it's not imminent, but high risk.\n\nSo perhaps CCC+ or CCC.\n\nCCC+ is above CCC.\n\nScale: CCC+, CCC, CCC-.\n\nI think CCC+ or B-.\n\nB- is above CCC+.\n\nThe scale is: ... B+, B, B-, CCC+, CCC, ...\n\nSo B- is better than CCC+.\n\nB- is speculative, CCC+ is highly speculative.\n\nGiven the numbers, I think CCC+ or B-.\n\nBut let's decide.\n\nRevenue is 1,635M, which is substantial, so not a small company.\n\nBut ratios are weak.\n\nPerhaps assign B- with low confidence.\n\nI think I'll go with B-.\n\nRationale: weak liquidity, negative retained earnings, low profitability.\n\nConfidence 3, since no interest data.\n\nBut I need to output JSON.\n\nFinal decision.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4401,
+ "usd": 0.009776,
+ "utc": "2026-09-06T19:33:12.574153+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits moderate leverage with a debt-to-equity ratio of approximately 1.49 and a debt-to-assets ratio of 58.9%, which is manageable but not strong. However, weak liquidity (current ratio of 1.30) and low profitability (EBIT margin of 4.4%) increase credit risk, as they suggest potential difficulty in meeting short-term obligations and servicing debt. High retained earnings provide some financial cushion, but the low EBIT relative to assets (2.03%) and implied poor interest coverage indicate elevated default risk, supporting a speculative grade rating.\n\nDECISION: B+",
+ "reasoning_tail": "n equity before tax, but after interest, it would be lower.\n\nI think BB- is a compromise.\n\nPerhaps BBB-.\n\nLet's see the rating scale and typical ratios.\n\nI recall that for BBB, debt/EBITDA < 3, EBIT/Interest > 4.\n\nHere, if I assume EBITDA similar to EBIT since no depreciation given, EBIT=1,498.\n\nIf debt is, say, 30,000M (estimate), then debt/EBIT = 30,000/1,498 \u2248 20, which is very high, or if debt is 15,000M, debt/EBIT = 10, still high.\n\nEBIT/Interest, if interest is 300M, coverage 5, but I don't know.\n\nI think it's not investment grade.\n\nSo, speculative grade: BB+, BB, BB-, B+, etc.\n\nWith current ratio 1.30, it's not critical, so not CCC.\n\nBB- or B+.\n\nI'll go with BB-.\n\nReason: Moderate leverage and high retained earnings are positives, but weak liquidity and low profitability indicate credit risk, placing the issuer in the lower speculative grade.\n\nDECISION: BB-\n\nBut let's confirm the retained earnings.\n\nRetained earnings 33,239M, equity 29,093M, so there must be negative other equity, like treasury stock, so net equity is less, which is a negative sign.\n\nFor example, if retained earnings are 33,239M but equity is only 29,093M, it means that common stock or additional paid-in capital is negative or something, which could be due to share buybacks, but it reduces the equity base.\n\nSo, effectively, the company has returned capital, which might not be good for creditors.\n\nSo, that's a negative point.\n\nTherefore, lower rating.\n\nI think B+ is better.\n\nDECISION: B+\n\nFinal answer.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 5590,
+ "usd": 0.01238,
+ "utc": "2026-09-06T17:29:06.690774+00:00"
+}

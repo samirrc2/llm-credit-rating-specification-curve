@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The current ratio of 0.42 indicates severe liquidity issues, as current liabilities significantly exceed current assets, suggesting imminent difficulty in meeting short-term obligations. The debt-to-equity ratio of approximately 10.25 (calculated as total liabilities / shareholders' equity = 3,107,151M / 303,243M) reflects extremely high leverage, far above investment-grade thresholds. Although EBIT margin is healthy at around 25% (EBIT / revenue = 12,435M / 49,691M), the absolute EBIT is insufficient relative to the massive liabilities, implying poor debt coverage and high default risk.\n\nDECISION: C",
+ "reasoning_tail": "CC for \"highly vulnerable\", C for \"imminent default\".\n\nWith current ratio below 1 and large negative working capital, default is imminent unless refinanced.\n\nBut no info on refinancing.\n\nBased on data, I think C is appropriate.\n\nBut let's confirm the figures.\n\nPerhaps I misread the units.\n\nCurrent liabilities: 2,559,605M \u2013 that's 2.56e6 million, which is 2.56e9, or 2.56 billion? No.\n\n2,559,605M \u2013 M for million, so 2,559,605 million.\n\nSince 1 million = 10^6, so 2,559,605 * 10^6 = 2.559605 * 10^12, or 2.559605 trillion.\n\nSimilarly, revenue 49,691 * 10^6 = 4.9691 * 10^10, or 49.691 billion.\n\nEBIT 12.435 billion.\n\nSo yes, liabilities in trillions, revenue in billions, mismatch.\n\nThis seems like a company with massive debt burden.\n\nPerhaps it's a holding company or something, but based on data, rating should be low.\n\nFinal decision: I think CCC- or lower.\n\nBut let's see the options.\n\nCC or C.\n\nSince EBIT is positive, maybe not C, but CC.\n\nC is for \"extremely poor prospects and perhaps in default\", CC is \"currently highly vulnerable\".\n\nWith current ratio 0.42, they can't pay current debts, so likely in default or restructuring.\n\nTherefore, C rating.\n\nBut to be precise, in practice, ratings might consider other factors, but I have only these figures.\n\nPerhaps I can calculate quick ratio, but no inventory given, so not possible.\n\nAnother ratio: cash flow from operations not given.\n\nSo, based on liquidity and leverage, it's critical.\n\nI think DECISION: C\n\nBut let's see the reasoning.\n",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 250,
+ "out_tok": 3813,
+ "usd": 0.008488,
+ "utc": "2026-09-06T19:21:03.985227+00:00"
+}

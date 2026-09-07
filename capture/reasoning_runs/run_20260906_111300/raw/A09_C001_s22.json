@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A\", \"confidence\": 3, \"rationale\": \"Strong operating margin (14%), inferred high interest coverage, moderate leverage (D/E ~1.1), acceptable liquidity (current ratio 1.34).\"}",
+ "reasoning_tail": "ong profitability and inferred high interest coverage, moderate leverage.\n\nIn 25 words or less.\n\n\"Good operating margin, solid liquidity, moderate debt levels.\"\n\nBut liquidity current ratio 1.34 is not solid; it's adequate.\n\n\"High profitability, strong coverage, acceptable leverage and liquidity.\"\n\nNow, for the grade.\n\nPerhaps A- to account for the liquidity.\n\nBut coverage is strong.\n\nAnother thing: the fiscal period is Q2, so if there's seasonality, annualizing might not be accurate, but I think it's fine.\n\nI think A is reasonable.\n\nLet's see the answer format.\n\n{\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}\n\nSo for label, choose from the list.\n\nI'll go with A.\n\nConfidence: 3, since interest expense inferred.\n\nRationale: \"Strong operating margin, inferred high interest coverage, moderate leverage.\"\n\n20 words.\n\nOr shorter.\n\n\"Profitability robust, coverage strong, leverage moderate, liquidity adequate.\"\n\n19 words.\n\nNow for confidence, 3 out of 5, as some estimation.\n\nIf I use BBB+, confidence higher, but I think A is better.\n\nBBB+ is lower.\n\nWith coverage around 17, it's very strong, so A or higher.\n\nOperating margin 14% is good.\n\nLet's compare to real companies.\n\nFor example, Apple has operating margin around 25-30%, D/E low, AAA equivalent.\n\nThis company has lower margin but still good.\n\nPerhaps A or A-.\n\nI think A is fine.\n\nDecision: A\n\nConfidence: 3\n\nRationale: \"High profitability and coverage, moderate leverage, liquidity acceptable.\"\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 4314,
+ "usd": 0.009599,
+ "utc": "2026-09-06T15:40:36.751825+00:00"
+}

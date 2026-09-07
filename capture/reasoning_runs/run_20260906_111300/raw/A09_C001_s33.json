@@ -1,0 +1,21 @@
+{
+ "spec_id": "A09",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A+\", \"confidence\": 4, \"rationale\": \"Strong profitability with 14% operating margin, inferred high interest coverage, moderate leverage (debt-to-equity 1.10), adequate but low liquidity (current ratio 1.34).\"}",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 3969,
+ "usd": 0.008844,
+ "utc": "2026-09-06T15:22:55.505150+00:00"
+}

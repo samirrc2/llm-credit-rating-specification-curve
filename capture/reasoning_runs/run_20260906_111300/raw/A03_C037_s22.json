@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The current ratio of 1.00 indicates weak liquidity, barely covering short-term obligations. Deeply negative retained earnings (-6,947M) reflect a history of significant losses and poor profitability, compounded by low ROA (0.58%) and asset turnover (3.35%), signaling inefficiency. Moderate leverage (debt-to-equity ~1) is manageable but concerning given low earnings, suggesting high credit risk and speculative grade.\n\nDECISION: B-",
+ "reasoning_tail": ".\n\nLet's check the numbers again.\n\nCurrent assets 3,857M, current liabilities 3,862M, so if they have to pay all current liabilities immediately, they might not have enough, but in practice, not all are due at once.\n\nBut still, it's tight.\n\nRevenue 1,635M, so annual revenue can cover if managed.\n\nBut for credit rating, I think it's speculative grade B.\n\nPerhaps BB+ is too high.\n\nLet's see the decision.\n\nI think I'll go with B-.\n\nBut let's see the options.\n\nValid answers: AAA down to C.\n\nI think B- or CCC+.\n\nBut CCC+ is for high vulnerability.\n\nWith positive EBIT, B- might be better.\n\nB- is \"Highly speculative\"\n\nCCC+ is \"Currently vulnerable\"\n\nHere, with current ratio 1.00, they are currently able to meet, but vulnerable to changes.\n\nSo perhaps B-.\n\nI think for the final decision.\n\nReason step by step.\n\nReasoning:\n\n- The current ratio of 1.00 indicates weak liquidity, with no buffer for short-term obligations.\n\n- Retained earnings are deeply negative at -6,947M, suggesting a history of significant losses and poor profitability.\n\n- Low ROA (0.58%) and asset turnover (3.35%) indicate inefficiency in asset utilization.\n\n- Moderate leverage (debt-to-equity ~1) is manageable but concerning given low earnings.\n\n- Without interest expense, interest coverage cannot be calculated, but EBIT of 283M is low relative to the liability base, implying potential coverage issues.\n\nOverall, the issuer exhibits high credit risk, fitting a speculative grade rating.\n\nFinal rating: B-\n\nDECISION: B-\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 247,
+ "out_tok": 5967,
+ "usd": 0.013204,
+ "utc": "2026-09-06T19:32:33.584627+00:00"
+}

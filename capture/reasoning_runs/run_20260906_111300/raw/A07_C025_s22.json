@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits high financial risk due to elevated leverage (debt-to-equity ratio of approximately 2.47, with total liabilities at 71.2% of total assets), weak liquidity (current ratio of 1.39), and very low profitability coverage (EBIT to total liabilities at 1.68%). Retained earnings of $0 million indicate no cumulative profits, increasing vulnerability. Based on the figures, this aligns with a speculative grade rating.\n\nDECISION: BB-",
+ "reasoning_tail": "ee if I can find similar companies.\n\nAnother ratio: quick ratio, but no inventory or receivables given, only total current assets, so can't calculate.\n\nWith current assets 30,590 and liabilities 22,085, working capital is positive, 8,505M.\n\nBut not sufficient.\n\nI think the issuer has high financial risk due to leverage and low coverage, despite some profitability.\n\nSo, I'll place it in the B range.\n\nB rated companies typically have high leverage and weak coverage.\n\nWith EBIT/liabilities 1.68%, it's very low.\n\nIf we take just current liabilities, EBIT / current liabilities = 886 / 22,085 \u2248 4.01%, still low for covering short-term obligations if needed, but EBIT is annual, liabilities are snapshot.\n\nRatios are mixed.\n\nThe retained earnings at 0 is concerning for long-term health.\n\nI think the assignment should be BB- .\n\nOr B+.\n\nBut let's aim for the rating.\n\nPerhaps CCC, but I think it's not that bad since EBIT is positive.\n\n   CCC and below are for very high risk or default possible.\n\n   Here, with positive EBIT, I think BB- is reasonable.\n\n   BB- is the lowest in BB, above B+.\n\n   BB- is equivalent to Ba3 in Moody's, which is moderate risk.\n\n   Given the data, I think BB-.\n\nBut let's see the figures again.\n\nAnother thing: revenue 9,143M, EBIT 886M, so operating profit.\n\nBut no interest, so we don't know net income.\n\nBut retained earnings 0, so net income might be break even or something, but not clear.\n\nI think I should conclude.\n\nReasoning in 1-3 sentences.\n\nFinal decision.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 4534,
+ "usd": 0.010061,
+ "utc": "2026-09-06T18:29:26.433850+00:00"
+}

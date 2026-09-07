@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress with a critically low current ratio of 0.27, indicating acute liquidity issues and inability to cover short-term obligations. Negative shareholders' equity (-1,920M) and deeply negative retained earnings (-20,476M) reflect insolvency and substantial accumulated losses, despite a positive EBIT margin. High leverage (total liabilities exceed total assets) and low profitability relative to assets further confirm high default risk, aligning with the CCC category, which denotes current vulnerability to non-payment.\n\nDECISION: CCC-",
+ "reasoning_tail": "ll that S&P defines CCC as \"currently vulnerable and dependent on favorable business, financial, and economic conditions to meet financial commitments.\"\n\nCC is \"currently highly vulnerable.\"\n\nC is \"currently highly vulnerable obligations and are defined as having a 'default imminent' with little prospect for recovery.\"\n\nGiven that, with current ratio 0.27, it's highly vulnerable to default on current liabilities.\n\nSo perhaps CC.\n\nBut let's see the revenue and EBIT: it's generating income, so not completely dead.\n\nRevenue 1,010M, EBIT 465M, so it has operations.\n\nBut the balance sheet is terrible.\n\nI think CCC- could be justified.\n\nBut I need to choose.\n\nPerhaps B- or something, but that seems too high.\n\nB- is still speculative but not as bad.\n\nFor example, BB is less speculative, B is more speculative.\n\nCCC is high risk.\n\nWith negative equity, it's worse.\n\nNegative equity is a strong indicator of distress.\n\nIn fact, for credit ratings, negative net worth often leads to low ratings.\n\nSo I think CCC or below.\n\nLet me assign CCC-.\n\nBut let's confirm the figures.\n\nCurrent ratio: 0.27 \u2013 critically low\n\nRetained earnings: -20,476M \u2013 massive deficit\n\nEquity: negative\n\nLiabilities > assets\n\nEBIT positive but small relative to liabilities\n\nRevenue small\n\nSo, I think CCC- is reasonable.\n\nPerhaps CC.\n\nBut I'll go with CCC-.\n\nThe scale has CCC+, CCC, CCC-, so CCC- is the lowest in CCC.\n\nThen CC is lower.\n\nCCC- might be appropriate.\n\nI think for finest granularity, CCC-.\n\nFinal decision.\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 2979,
+ "usd": 0.006656,
+ "utc": "2026-09-06T20:05:10.346993+00:00"
+}

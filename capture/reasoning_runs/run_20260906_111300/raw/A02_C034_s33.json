@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity stress with a current ratio of 0.53, indicating inability to cover short-term obligations, coupled with high leverage (debt-to-equity ratio of approximately 3.4) and deeply negative retained earnings (-12,237M), reflecting significant historical losses and credit risk despite current profitability (operating margin of 41%). These factors outweigh the strong margins and suggest high vulnerability to default, aligning with a CCC rating on the 21-grade scale.\n\nDECISION: CCC",
+ "reasoning_tail": "ditions to meet obligations.\n\nProfitability helps, but liquidity is tight.\n\nI think CCC+ could be appropriate, acknowledging the profitability.\n\nCCC is \"currently highly vulnerable\".\n\nI'll go with CCC.\n\nBut in the scale, CCC+ is above CCC.\n\nCCC+ is better than CCC.\n\nCCC+ is the highest in CCC tier.\n\nGiven the high profitability, I might say CCC+.\n\nBut the liquidity is so low.\n\nDiluted EPS 0.6, which might be low, but not sure.\n\nNet income 734M, diluted EPS 0.6, so shares outstanding = 734M / 0.6 \u2248 1,223 million shares, which is reasonable.\n\nBut not relevant.\n\nI think the rating should be CCC.\n\nFinal decision.\n\nReason briefly: The company exhibits severe liquidity issues with a current ratio of 0.53 and negative working capital, coupled with high leverage (debt-to-equity ratio of 3.4) and deeply negative retained earnings, indicating significant credit risk despite current profitability.\n\nTherefore, a CCC rating is assigned due to current vulnerability.\n\nCCC or CCC+?\n\nTo be finest granularity, perhaps CCC+ since operating margin is high.\n\nBut I think CCC is fine.\n\nPerhaps B-.\n\nI found a reference in my mind: companies like Tesla in 2019 had ratings around B- or B+ when they had losses, but liquidity was better.\n\nTesla's current ratio was around 1.1 or so in tough times.\n\nHere, 0.53 is worse.\n\nFor example, a current ratio of 0.5 is often associated with CCC ratings.\n\nI think CCC is appropriate.\n\nSo, DECISION: CCC\n\nBut let's make sure the scale: CCC is one of the options.\n\nYes.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 4741,
+ "usd": 0.010526,
+ "utc": "2026-09-06T19:15:43.983235+00:00"
+}

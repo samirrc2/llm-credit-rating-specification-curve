@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity ~2.47), weak liquidity (current ratio 1.39), zero retained earnings, indicating elevated credit risk.\"}",
+ "reasoning_tail": "k value.\n\nSales / total assets: revenue 9,143M quarterly / 73,988M \u2248 0.1236 quarterly, annualized ~0.494\n\nAltman Z-score for mfg: 1.2*WC/TA + 1.4*RE/TA + 3.3*EBIT/TA + 0.6*MVE/BV + 1.0*Sales/TA\n\nBut MVE not given, assume same as BV for simplicity.\n\nRE/TA = 0\n\nEBIT/TA annualized ~0.048\n\nSales/TA annualized ~0.494\n\nWC/TA = 0.115\n\nMVE/BV =1\n\nSo Z = 1.2*0.115 + 1.4*0 + 3.3*0.048 + 0.6*1 + 1.0*0.494 = 0.138 + 0 + 0.1584 + 0.6 + 0.494 = 1.3904\n\nZ-score below 1.8 indicates distress, here 1.39, so high risk of bankruptcy.\n\nBut this is rough, and for non-manufacturing, thresholds differ, but still indicative.\n\nSo, credit rating should be low.\n\nProbably B or B-.\n\nB- is \"highly speculative\".\n\nWith positive earnings, maybe B.\n\nBut retained earnings 0 is bad.\n\nPerhaps B+.\n\nI think B is reasonable.\n\nConfidence 3, since estimates involved.\n\nRationale: \"High leverage, weak liquidity, no retained earnings.\"\n\nNow for the JSON.\n\nDecision: B\n\nConfidence: 3\n\nRationale: \"High debt, low coverage estimate, weak current ratio, zero retained earnings.\"\n\nRationale <=25 words.\n\n\"High leverage, tight liquidity, no retained earnings, indicating high credit risk.\"\n\n20 words.\n\nNow, rating: B\n\nBut let's confirm the scale: B is \"Highly vulnerable to adverse business, financial and economic conditions\"\n\nYes.\n\nBB is \"Less vulnerable in the near term but faces major ongoing uncertainties\"\n\nHere, with low coverage, it's vulnerable.\n\nSo B.\n\nPerhaps BB-.\n\nBut with Z-score low, B.\n\nI think B is fine.\n\nFinal answer.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 268,
+ "out_tok": 4288,
+ "usd": 0.009538,
+ "utc": "2026-09-06T18:26:47.548803+00:00"
+}

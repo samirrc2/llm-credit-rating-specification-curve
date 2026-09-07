@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity ratio ~4.17) and poor liquidity (current ratio 0.90) indicate substantial credit risk, despite retained earnings strength.\"}",
+ "reasoning_tail": "r 10 CCC, but here i have debt/EBIT 27, so even if EBITDA higher, say if EBITDA = EBIT + D&A, no D&A, so similar.\n\nSuppose D&A is 10% of revenue, so ~1,944M, EBITDA ~3,213 + 1,944 = 5,157M, then   debt/EBITDA = 89,110 / 5,157 ~ 17.28, still very high.\n\nBBB is 2-3, BB 3-4, B 5-6, CCC >6 or so.\n\n17 is far above, so CCC range.\n\nSimilarly, coverage, if interest expense, say on long-term debt portion.\n\nLong-term liabilities 54,633M, assume 40,000M debt, 5% interest, interest 2,000M, EBITDA 5,157M,   EBITDA/interest ~ 2.58, which is below 3.\n\nFor coverage, EBITDA/interest below 2 is often CCC.\n\n2.58 might be B or B+.\n\nBut leverage high, so perhaps B or CCC+.\n\nI think given the current ratio below 1, it's a CCC or B.\n\nIn practice, companies with current ratio below 1 are often downgraded or low rated.\n\nFor example, some retailers with thin margins and high inventory have low current ratios, but not below 1.\n\nHere, it is below 1, and negative working capital.\n\nI think CCC+ or B-.\n\nI'll go with B-.\n\nFinal decision.\n\nFor confidence, 3.\n\nRationale: \"Poor liquidity with current ratio below 1 and high leverage indicate high credit risk.\"\n\nLabel: B-\n\nThe JSON format.\n\nSo {\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Poor liquidity and high leverage indicate substantial credit risk.\"}\n\nRationale less than 25 words, 7 words.\n\nYes.\n\nBut let's confirm the rating scale: B- is valid.\n\nOptions: B+, B, B-, so yes.\n\nPerhaps BBB- if I ignore some, but not enough.\n\nNo.\n\nI think B- is reasonable.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 6011,
+ "usd": 0.013308,
+ "utc": "2026-09-06T17:38:36.569568+00:00"
+}

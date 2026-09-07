@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company exhibits extremely high leverage with a debt-to-equity ratio of approximately 14.5 (total liabilities of 52,835M divided by shareholders' equity of 3,652M), indicating severe financial risk. Additionally, the current ratio of 0.63 (current assets of 2,495M versus current liabilities of 3,973M) shows critical liquidity constraints, raising immediate default concerns despite current profitability (operating margin of 42% and net income of 821M). Negative retained earnings of -5,086M further reflect accumulated losses and a weak equity base, supporting a speculative-grade rating with high vulnerability.\n\nDECISION: CCC+",
+ "reasoning_tail": " they can service debt if interest is reasonable, but no interest given.\n\nOperating income 1,161M quarterly, 4.644B annual.\n\nIf interest expense is, say, 500M annually, coverage is good, but I don't know.\n\nWith liabilities 52,835M, if all debt at 5% interest, interest is 2,642M annually, operating income 4,644M, so coverage about 1.76, which is low but ok, but that's rough.\n\nBut current liabilities include short-term debt that might be due.\n\nCurrent liabilities 3,973M, which may include accounts payable, short-term debt, etc.\n\nIf they can't pay, it's a problem.\n\nWith current assets only 2,495M, they need to use cash or other sources.\n\nSo, liquidity risk is high.\n\nI think CCC+ or B-.\n\nI'll go with CCC+ as it reflects vulnerability.\n\nBut let's see the answer format.\n\nPerhaps I can assign B-.\n\nI recall that for companies like this, ratings are often B or lower.\n\nFor example, if this is a company like AMC or something, but not specified.\n\nBased on data, I think CCC+.\n\nFinal decision: CCC+\n\nReason: Extremely high leverage with debt-to-equity ratio of approximately 14.5 and poor liquidity with current ratio of 0.63 indicate high default risk, despite current profitability.\n\nThen DECISION: CCC+\n\nBut the scale has CCC+, CCC, CCC-, etc.\n\nCCC+ is one level above CCC.\n\nPerhaps CCC is also possible.\n\nBut I think CCC+ is fine.\n\nSince net income is positive, B- might be better.\n\nB- is for substantial risk, CCC+ for vulnerable.\n\nWith current ratio below 1, vulnerable is apt.\n\nI think CCC+.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 4212,
+ "usd": 0.009369,
+ "utc": "2026-09-06T19:38:46.134494+00:00"
+}

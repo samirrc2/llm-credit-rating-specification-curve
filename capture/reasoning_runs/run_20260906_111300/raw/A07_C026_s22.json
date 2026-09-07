@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits high financial leverage with a debt-to-equity ratio of approximately 4.22 (total liabilities / shareholders' equity = 78,289M / 18,552M) and low profitability relative to assets, with an EBIT to total assets ratio of about 3.76% (3,639M / 96,889M). The Altman Z-score, calculated as approximately 0.73 using the provided figures (including working capital, retained earnings, EBIT, and sales relative to total assets, with book equity substituting for market value), falls deep within the distress zone (Z < 1.81), indicating a high probability of financial distress and significant credit risk. Although retained earnings are substantial and the current ratio is above 1, these positives are outweighed by the leverage and low return on assets, pointing to a speculative grade rating in the CCC range.\n\nDECISION: CCC",
+ "reasoning_tail": "mmon ratio for credit rating is the ratio of earnings to fixed charges, but not available.\n\nI think B- might be reasonable.\n\nBut Altman Z 0.73 suggests CCC.\n\nIn practice, companies with Z<1.8 are often rated B or lower.\n\nFor example, some sources map Z-scores to ratings:\n\n- Z>3: AAA to A\n\n- 2.7-3.0: AA\n\n- 2.4-2.7: A\n\n- 2.1-2.4: BBB\n\n- 1.8-2.1: BB\n\n- 1.5-1.8: B\n\n- 1.2-1.5: CCC\n\n- Below 1.2: CC or C\n\nThis is approximate; I don't have a standard mapping.\n\nHere Z=0.73, below 1.2, so CC or C.\n\nBut that might be too severe.\n\nPerhaps with high retained earnings, it's not that bad.\n\nRetained earnings are part of equity, but the low profitability and high leverage dominate.\n\nEBIT/TA is only 3.76%, which is poor.\n\nFor comparison, average ROA for S&P 500 is around 8-10%, so 3.76% is low.\n\nWith high leverage, risk is high.\n\nI think CCC is appropriate.\n\nBut let's see the options; CCC+ is available.\n\nPerhaps B-.\n\nI need to decide.\n\nAnother thought: the current ratio is 1.27, which is not critical, but with high liabilities.\n\nPerhaps assign CCC+.\n\nI'll go with CCC.\n\nReason briefly: High leverage with debt-to-equity ratio of 4.22 and low EBIT coverage capacity indicate significant credit risk, supported by a low Altman Z-score of 0.73.\n\nThen DECISION: CCC\n\nBut CCC is on the scale.\n\nThe scale has CCC+, CCC, CCC-.\n\nCCC is specific.\n\nPerhaps CCC-.\n\nBut I think CCC is fine.\n\nTo be conservative, since retained earnings are high, maybe B-.\n\nBut the Z-score is very low.\n\nI think CCC is reasonable.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 4798,
+ "usd": 0.010641,
+ "utc": "2026-09-06T18:34:30.901793+00:00"
+}

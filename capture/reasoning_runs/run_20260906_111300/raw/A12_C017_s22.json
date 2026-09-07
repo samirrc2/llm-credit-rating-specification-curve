@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"High EBIT margin (41.7%), moderate leverage (debt-to-equity 1.1), and strong liquidity (current ratio 1.71) support investment grade, but low ROA (4.4%) limits higher rating.\"}",
+ "reasoning_tail": "s high, but ROA low due to low turnover.\n\nFor credit rating, ROA is less direct than coverage.\n\nBut without interest, hard.\n\nPerhaps the retained earnings to total assets is a factor in some models.\n\nRetained earnings / total assets = 9,761 / 171,092 = 5.7%, which is low; for healthy companies, it's often higher.\n\nBut for a new company, it might be low, but retained earnings 9,761M suggests accumulated profits.\n\nShareholders' equity 81,292M, so common stock might be high, but not given.\n\nI think I'm overcomplicating.\n\nLet's assign a rating.\n\nI'll go with BBB+ as it seems adequate but not strong.\n\nOr A-.\n\nLet's box it.\n\nDecision: A-\n\nConfidence: 3 (medium)\n\nRationale: High EBIT margin, moderate leverage, good liquidity.\n\nWithin 25 words.\n\n\"Strong profitability with 41.7% EBIT margin, debt-to-equity 1.1, current ratio 1.71.\"\n\nYes.\n\nBut the low ROA is a concern, but I think for credit, margin and coverage are key.\n\nSince no coverage, leverage and margin.\n\nAnother ratio: EBIT to interest, but missing.\n\nPerhaps from the data, it's fine.\n\nI think A- is reasonable.\n\nBut let's see if AA is possible.\n\nAA is very strong, but with leverage over 100% and low ROA, probably not.\n\nA+ might be stretch.\n\nSo A-.\n\nOr BBB+.\n\nI recall that for investment grade, BBB- is the lowest.\n\nWith high margin, it should be higher.\n\nLet's calculate the interest burden indirectly.\n\nSuppose the company has debt, and interest is a percentage of EBIT.\n\nBut no.\n\nPerhaps the rating is A.\n\nI think I'll go with A-.\n",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 262,
+ "out_tok": 5180,
+ "usd": 0.011488,
+ "utc": "2026-09-06T17:47:12.266239+00:00"
+}

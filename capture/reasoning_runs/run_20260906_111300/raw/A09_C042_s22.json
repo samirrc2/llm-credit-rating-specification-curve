@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Negative equity, below 1 current ratio, profitable but high distress risk.\"}",
+ "reasoning_tail": "rom the choices: AAA down to C.\n\nI think BB is for less risky, B for high risk, CCC for vulnerable.\n\nConfidence levels.\n\nDecision: I'll go with B- as it's high risk but not immediately defaulting.\n\nRationale: \"Negative equity, weak liquidity, profitable operations.\"\n\nOr something.\n\nThen confidence: 4, thinking based on numbers.\n\nThe EPS is 0.45, but diluted, so low, might imply many shares.\n\nFiscal Q2, so not full year, but annualized isn't given.\n\nRevenue 9,532M for quarter? The fiscal period is 2026 Q2, which is quarter 2, so revenue of 9,532M might be for the quarter, similar to quarterly filings.\n\nThat's possible. Let's check.\n\nRevenue 9,532M for Q2, if annualized, it would be around 38,128M, but operating margins might differ.\n\nBut in the data, it's presented as is, with margins based on that.\n\nTotal assets are as of that date, so balance sheet is position, income is flow.\n\nFor rating, we use the numbers given.\n\nI think B+ or B is fine.\n\nBut with negative equity, I think B is better.\n\nLook at shareholder equity: -8,465M, which is a large deficit relative to assets of 30,558M.\n\nDebt to capital not defined due to negative equity.\n\nLeverage ratio.\n\nI think B is appropriate.\n\nLet's see the confidence scale: 1-5, with 5 highest.\n\nI think I can be confident at 4 because negative equity is unambiguous.\n\nFinal decision:\n\nRating: B\n\nRationale: \"Negative shareholders' equity and current ratio below 1 indicate financial distress.\"\n\nWord count: That's 9 words.\n\nNow, to fit in JSON.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 3104,
+ "usd": 0.006948,
+ "utc": "2026-09-06T19:57:05.364943+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely high financial leverage, with a debt-to-equity ratio of approximately 26.5 (total liabilities of $158,800M divided by shareholders' equity of $5,987M), indicating severe reliance on debt financing. Liquidity is weak, as evidenced by a current ratio of 1.18, which is barely above the threshold for covering short-term obligations, and profitability is poor with an EBIT margin of only 2.0% ($446M EBIT / $22,217M revenue). Additionally, estimated interest coverage is below 1.0 based on reasonable assumptions about interest-bearing liabilities, suggesting the company cannot cover interest expenses from operating income, placing it in a vulnerable position. These factors align with a credit rating in the CCC category, reflecting current vulnerability to non-payment.\n\nDECISION: CCC",
+ "reasoning_tail": "this, CCC+ might be too high; CCC is more likely.\n\nIn the rating scale, CCC is \"currently vulnerable to non-payment\", which fits.\n\nCC is \"currently highly vulnerable\", C is \"imminent default\".\n\nHere, not imminent, since current ratio >1 and EBIT>0.\n\nSo CCC.\n\nBut let's confirm with the numbers.\n\nPerhaps B- is for less vulnerable, but with coverage below 1, it's worse.\n\nB is \"more vulnerable to adverse conditions\" but not currently.\n\nCCC is \"currently vulnerable\".\n\nWith interest coverage below 1, it is currently vulnerable.\n\nSo CCC.\n\nAnd since we have CCC+, CCC, CCC-, I think CCC is appropriate.\n\nPerhaps CCC+ if we consider retained earnings, but I think not.\n\nSo, I'll go with CCC.\n\nBut in the decision, I need to output exactly.\n\nReason briefly: High leverage with debt-to-equity ratio of approximately 26.5, weak liquidity with current ratio of 1.18, and low profitability with EBIT margin of 2.0% suggest severe financial distress. Estimated interest coverage is below 1, indicating inability to cover interest expenses from operating income.\n\nTherefore, the issuer is currently vulnerable to non-payment.\n\nRating: CCC\n\nBut let's see if CCC+ is possible.\n\nCCC+ is slightly better than CCC.\n\nBut here, all metrics are poor.\n\nPerhaps BB- or B+, but I think not.\n\nAnother point: retained earnings are high, which could be a positive, but since equity is low, it doesn't help the credit position.\n\nFor creditors, retained earnings don't directly protect; equity does.\n\nSo, I think CCC is fine.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 247,
+ "out_tok": 5477,
+ "usd": 0.01213,
+ "utc": "2026-09-06T17:49:48.499339+00:00"
+}

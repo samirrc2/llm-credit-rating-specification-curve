@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the primary concerns are the critically low current ratio of 0.53, indicating severe liquidity issues and difficulty meeting short-term obligations, negative retained earnings of -12,237M reflecting cumulative losses, and high leverage with a debt-to-equity ratio of approximately 3.4. Despite a strong EBIT margin of ~40.9%, the company's financial position is precarious, with negative working capital and a high risk of default from weak solvency and liquidity metrics. This combination suggests very high credit risk, placing the issuer in the lower speculative grade.\n\nDECISION: CCC+",
+ "reasoning_tail": "- is possible, but given the Z-score, perhaps lower.\n\nAnother metric: EBIT / Interest, but not available.\n\nPerhaps the current ratio is the critical factor.\n\nIn credit analysis, a current ratio below 1 can indicate the need for refinancing or asset sales.\n\nHere it's 0.53, so a big gap.\n\nMoreover, current liabilities due soon.\n\nSo, credit rating should reflect high default probability.\n\nTherefore, I'll assign CCC+.\n\nAnd in the scale, CCC+ is between B- and CCC.\n\nLet's see the scale:\n\nAfter B- is CCC+, then CCC, CCC-, CC, C.\n\nB- then CCC+.\n\nFor rating, CCC+ is for companies with current vulnerability and dependent on favorable conditions.\n\nWhich fits here, as they need to manage liquidity.\n\nSo, CCC+ seems appropriate.\n\nTo be conservative, CCC.\n\nBut let's go with CCC+.\n\nNow, for the response, I need to reason in 1-3 sentences.\n\nThen output DECISION: <label>\n\nSo, reasoning:\n\n\"The very low current ratio of 0.53 indicates severe liquidity risk, coupled with negative retained earnings and high leverage, suggesting high credit risk and vulnerability to default.\"\n\nThen DECISION: CCC+\n\nIs that too low?\n\nPerhaps B-.\n\nBut I think CCC+ is fine.\n\nAnother thought: why is EBIT so high with low revenue? 1,307M EBIT on 3,198M revenue, that seems odd, like very high margin.\n\nBut in the data, it's given, so I must use it.\n\nEBIT 1,307M, revenue 3,198M, so margin 40.9%, possible for some businesses.\n\nBut with high leverage, it might be okay if stable, but liquidity issue dominates.\n\nI think CCC+.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 253,
+ "out_tok": 4308,
+ "usd": 0.009574,
+ "utc": "2026-09-06T19:18:49.332128+00:00"
+}

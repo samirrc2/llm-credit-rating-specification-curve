@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A+\", \"confidence\": 3, \"rationale\": \"High EBIT margin and moderate leverage support strength, but current ratio indicates liquidity risk.\"}",
+ "reasoning_tail": " long-term debt is less.\n\nLong-term debt = total liabilities - current liabilities = 279,861 - 136,661 = 143,200M\n\nEquity 414,367M\n\nSo net debt or something.\n\nEBIT 38,398M\n\nIf interest on long-term debt, say 4%, interest 5,728M, coverage 6.7, very good.\n\nCurrent liabilities may have short-term debt, but if not, it's fine.\n\nI think the company is strong.\n\nPerhaps AA-.\n\nBut current ratio 1.28 is low for AA.\n\nAA ratings usually have stronger liquidity.\n\nFor example, Microsoft current ratio is over 2.\n\nApple around 1.1-1.2, and Apple is AA+ or something.\n\nApple's credit rating is AA+ with current ratio around 1.1, but high cash.\n\nHere, current assets include cash, but I don't know how much.\n\nSimilarly, Apple has low debt.\n\nHere debt-to-equity 0.675, Apple's is lower.\n\nApple debt-to-equity is around 1.5 or higher? No, Apple has equity $60B, debt $100B+? In 2023, Apple total liabilities $287B, equity $62B, so debt-to-equity high, but they have huge cash.\n\nI'm confused.\n\nFor this company, shareholders' equity $414B, total liabilities $280B, so better than Apple.\n\nApple has high leverage but large cash holdings.\n\nHere, current assets $175B, current liabilities $137B, so net $38B, and EBIT $38B, so they can cover.\n\nI think A+ is reasonable.\n\nOr A.\n\nLet's decide.\n\nI'll go with A+.\n\nConfidence 3.\n\nRationale: High profitability and low leverage offset by tight liquidity.\n\n20 words.\n\nOr for the rating.\n\nAnother idea: the revenue seems low, but EBIT high, so it might be fine.\n\nI think A+.\n",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 262,
+ "out_tok": 5316,
+ "usd": 0.011786,
+ "utc": "2026-09-06T17:16:47.864840+00:00"
+}

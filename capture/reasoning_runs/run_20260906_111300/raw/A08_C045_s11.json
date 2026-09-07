@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"CCC\",\n  \"confidence\": 3,\n  \"rationale\": \"Critical liquidity (current ratio 0.53), high leverage (debt-to-equity 2.67), and low EBIT relative to liabilities imply high default risk.\"\n}",
+ "reasoning_tail": "\nConfidence: 3 (medium, since some assumptions)\n\nRationale: Very low current ratio, high leverage, and implied poor interest coverage indicate high default risk.\n\nRationale must be <=25 words.\n\n\"Low liquidity, high debt, weak coverage, high bankruptcy risk per Altman Z-score.\"\n\nThat's 8 words.\n\nBut I need to specify the rating.\n\nThe rationale is for the decision.\n\nNow, confidence: I'll say 3.\n\nSince I used Altman Z-score, but it's not perfect.\n\nBut based on figures.\n\nAnother thing: the task says \"finest granularity you can justify\", so CCC is specific.\n\nThere is CCC+, CCC, CCC-, so I can choose CCC.\n\nPerhaps CCC-.\n\nBut I think CCC is fine.\n\nSo, decision: CCC\n\nConfidence: 3\n\nRationale: \"Critical liquidity issues, high leverage, and low profitability relative to debt suggest imminent default risk.\"\n\nCount: \"Critical liquidity issues, high leverage, and low profitability relative to debt suggest imminent default risk.\" That's 11 words.\n\nGood.\n\nIn the rationale, I should not say \"imminent\" as CCC is vulnerable, not imminent; CC is imminent.\n\nCCC: Currently vulnerable and dependent on favorable business, financial, and economic conditions to meet financial commitments.\n\nCC: Currently highly vulnerable.\n\nC: Currently highly vulnerable obligations and defined default imminent.\n\nWith EBIT positive, not imminent, so CCC.\n\nRationale: \"Severe liquidity shortfall, excessive debt burden, and inadequate operating income coverage indicate high credit risk.\"\n\n15 words.\n\nFine.\n\nNow for JSON.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 4179,
+ "usd": 0.009291,
+ "utc": "2026-09-06T20:10:54.984823+00:00"
+}

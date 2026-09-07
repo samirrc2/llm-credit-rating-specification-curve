@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"B+\",\n  \"confidence\": 4,\n  \"rationale\": \"Severe liquidity risk from current ratio below 1; low profitability offsets retained earnings and leverage.\"\n}",
+ "reasoning_tail": "IT $979M;   assume interest expense. Say from total liabilities, if 50% is debt, at 5% interest, debt roughly $22,798M, interest $1,140M, then EBIT/Interest = 979/1140 <1, so coverage negative, which is bad for any rating above CCC.\n\nIf debt is less, it might be better.\n\nBut I don't have data, so this is speculation.\n\nFocus on provided metrics.\n\nCurrent liabilities are $21,864M, which is high compared to current assets.\n\nPerhaps the rating is B or CCC.\n\nLet's think BBB- : e. g. for borderline investment grade.\n\nBut with current ratio 0.59, it's unlikely.\n\nRatios for S&P ratings (from memory):\n\n- BBB: Current ratio >1.5 typically, or at least above 1.\n\n- BB: Could have lower, around 1 or below if other factors strong.\n\nHere, other factors not strong.\n\nROA is low.\n\nSo, mid speculative grade.\n\nI'll go with BB- or B+.\n\nBut confidence needed.\n\nPerhaps calculate the net debt or something.\n\nAnother metric: fixed charge coverage, not available.\n\nI think I have to make a decision.\n\nFinal rating: because of severe liquidity issue, B+ or B.\n\nLet's choos B+.\n\nOr BB-.\n\nScale has BB+ , BB, BB- , B+ ...\n\nBB- is better than B+.\n\nOrder from high to low: AAA down to C.\n\nSo BB+ > BB > BB- > B+ > B > B- > etc.\n\nBB- is three notched above B+, so lower risk than B+.\n\nBB- has less risk than B+.\n\nBB- : speculative, moderate risk\n\nB+ : highly speculative\n\nB : high credit risk\n\nHere, based on liquidity, I think B+ or B.\n\nBut retained earnings large, so maybe BB-.\n\nUgh, difficult.\n\nPerhaps B+ is fair.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3385,
+ "usd": 0.007556,
+ "utc": "2026-09-06T18:11:36.590300+00:00"
+}

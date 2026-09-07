@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits significant financial weaknesses: a low current ratio of 1.04 indicates poor liquidity, a high debt-to-equity ratio of approximately 5.96 (111,269M / 18,677M) suggests excessive leverage, and a low EBIT to total assets ratio of about 1.81% (2,359M / 130,169M) reflects weak profitability relative to asset base. The Altman Z-score, calculated as approximately 1.2 using available figures (including retained earnings to total assets of 67.3%), falls within the distress zone (below 1.8), indicating a high risk of financial distress or bankruptcy. These factors collectively point to a substantial credit risk.\n\nDECISION: CCC",
+ "reasoning_tail": "ial risk.\n\nBut to choose a specific grade.\n\nPerhaps CCC+.\n\nBut let's see the scale: CCC+, CCC, CCC-, etc.\n\nWith liquidity issue, CCC might be appropriate.\n\nIn the Altman Z-score, companies with Z<1.8 are often rated B or lower.\n\nFor example, some CCC rated companies have Z-scores below 1.5.\n\nBut I think CCC is reasonable.\n\nPerhaps B-.\n\nBut current ratio is critical.\n\nLet's calculate the quick ratio approximately.\n\nCurrent assets: 40,596M, current liabilities 38,980M.\n\nIf I assume inventory is, say, half of current assets or something, but not given.\n\nWithout inventory, I can't.\n\nBut with current ratio 1.04, even if inventory is illiquid, it's tight.\n\nSo I think CCC rating.\n\nBut let's output the decision.\n\nReason: The issuer has weak liquidity with a current ratio of 1.04, high leverage with debt-to-equity ratio of approximately 6, and low profitability relative to assets (EBIT/TA ~1.81%). The Altman Z-score of approximately 1.2 indicates high distress risk.\n\nTherefore, credit rating is CCC.\n\nBut to be finer, perhaps CCC+ or CCC.\n\nSince the Z-score is 1.215, not extremely low, CCC+ might be possible.\n\nCCC+ is above CCC.\n\nIn the scale, CCC+ is better than CCC.\n\nBut with current ratio barely above 1, it might be CCC.\n\nI think CCC is fine.\n\nPerhaps B-, but I think CCC is more appropriate.\n\nAnother thing: retained earnings are high, which might be a positive, but in the Z-score it's included.\n\nInconsistency with equity, but I used the figures.\n\nSo I'll go with CCC.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 4945,
+ "usd": 0.010963,
+ "utc": "2026-09-06T18:19:09.440939+00:00"
+}

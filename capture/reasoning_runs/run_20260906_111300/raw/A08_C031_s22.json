@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extremely low current ratio (0.34) and high debt-to-equity (~11.35) indicate severe liquidity risk and financial distress.\"}",
+ "reasoning_tail": "oughly, financial debt might be part.\n\nFor example, long-term debt might be interest-bearing.\n\nBut not given.\n\nEBIT 5,851M, if interest is say 10% of revenue or something, but arbitrary.\n\nRevenue 31,795M, EBIT 5,851M, so operating profit.\n\nInterest might be deducted to get net, but not given.\n\nI think it's safer to go with CCC.\n\nIn the rating scale, CCC is \"currently vulnerable\", which matches.\n\nCC is \"highly vulnerable\", but since not default, CCC.\n\nC is for default or near default.\n\nSo CCC.\n\nGranularity: I'll go with CCC, as middle of the range.\n\nOr CCC- since ratios are very bad.\n\nBut EBIT positive, so perhaps not worst.\n\nRetained earnings large, but not helping liquidity.\n\nI think CCC is fine.\n\nConfidence: I'd say 4, because current ratio is clearly bad, and leverage high.\n\nBut I have no comparison, so based on standards.\n\nRationale should be <=25 words.\n\nSo rationale: \"Extremely low current ratio and high leverage indicate severe liquidity risk and financial distress.\"\n\nNow for the JSON: {\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extremely low current ratio and high leverage indicate severe liquidity risk.\"}\n\nBut I need to choose the rating.\n\nPerhaps CCC+ if there's profitability, but I think not.\n\nAnother thing: revenue 31,795M, EBIT 5,851M, but current liabilities 1,775,239M, which is much larger, so even if revenue covers, it's not immediate.\n\nI think CCC is appropriate.\n\nFinal decision: CCC\n\nConfidence: 4 out of 5, since numbers are clear.\n\nRationale: short.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 259,
+ "out_tok": 4253,
+ "usd": 0.009457,
+ "utc": "2026-09-06T19:05:20.862668+00:00"
+}

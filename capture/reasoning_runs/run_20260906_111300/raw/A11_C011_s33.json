@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial metrics, the company exhibits a high level of leverage, with a debt-to-equity ratio of approximately 1.11, and low profitability as indicated by an EBIT return on assets of 1.67% (1,842M / 110,429M). The current ratio of 1.39 suggests adequate liquidity for short-term obligations, but the implied interest coverage is weak based on EBIT relative to total liabilities, which may only cover interest at minimal levels depending on debt composition and interest rates. The strong retained earnings (49,956M) and substantial shareholders' equity provide some financial cushion, but the low revenue-to-total-assets ratio of 10.1% and overall risk profile align with a highly speculative credit rating.\n\nDECISION: B+",
+ "reasoning_tail": "t must be lower.\n\nI recall that companies with high debt and low coverage are rated B or below.\n\nFor example, some leveraged buyouts.\n\nSo I think B- or CCC+.\n\nBut let's choose.\n\nAlso, for the current ratio, it is above 1, so not immediate default.\n\nRetained earnings high, so it can issue equity or cut dividends, but no dividend data.\n\nassume for credit rating.\n\nI think B+ or B.\n\nLet's decide.\n\nI'll go with B+, as it has some cushion from equity.\n\nIn the data, shareholders equity 52,061M vs liabilities 57,728M, so debt net of equity is small.\n\nNet debt = debt minus cash, but no cash given, current assets include cash.\n\nSuppose current assets 25,508M include cash and equivalents.\n\nIf let's say 20% is cash, 5,101.6M, then net debt = total debt minus cash.\n\nTotal debt not known, assume total liabilities minus non-interest-bearing.\n\nSuppose total liabilities 57,728M, if 60% is debt, 34,636.8M, cash 5,101.6M, net debt 29,535.2M, but EBIT covera interest of 34.6B at 5% 1.73B, EBIT 1.842B, coverage ~1.06x, poor.\n\nNo matter how I cut it, coverage is weak.\n\nThus, assign B or B+.\n\nOn the rating scale, let's say B+.\n\nThen for the answer.\n\nReason in 1-3 sentences.\n\nThe company has high leverage and weak interest coverage implied by low EBIT relative to liabilities, combined with low asset efficiency. However, strong retained earnings provide some equity cushion. This suggests a highly speculative credit profile.\n\nRating: B+\n\nBut B+ is B+, which is below investment grade.\n\nFinal decision.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 6883,
+ "usd": 0.015213,
+ "utc": "2026-09-06T17:13:59.684155+00:00"
+}

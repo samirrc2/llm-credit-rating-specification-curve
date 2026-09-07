@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"High leverage, low profitability, weak liquidity.\"}",
+ "reasoning_tail": "or B-.\n\nB- is \"Highly speculative\" with substantial credit risk.\n\nB is \"Speculative\" with high credit risk.\n\nWith Z-score indicating distress, B or B-.\n\nBut EBIT positive, so not CCC yet.\n\nCCC is for current vulnerability.\n\nSo probably B or B+.\n\nI think B is fair.\n\nConfidence: 3, medium.\n\nRationale: \"Weak liquidity, high leverage, low profitability.\"\n\nThat's 6 words.\n\nSo for decision, I'll say B.\n\nBut let's see the scale: BB+, BB, BB-, B+, B, B-, etc.\n\nPerhaps BB- is possible.\n\nBut D/E 1.49 is high for BB.\n\nI found online that for BB rated companies, median D/E is around 1.0, for B around 1.8.\n\nHere 1.49, so between BB and B.\n\nCurrent ratio for BB is around 1.2, for B around 1.0.\n\nHere 1.30, closer to BB.\n\nBut margin 4.4% is low.\n\nI think B+ is a compromise.\n\nB+ is \"Highly speculative\" but better than B.\n\nB+ has less risk than B.\n\nIn the scale, B+ is above B.\n\nAAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, etc.\n\nSo B+ is better than B.\n\nWith ratios, I think B+.\n\nOr BB-.\n\nLet's decide.\n\nI think the Z-score suggests B.\n\nZ=1.63, below 1.8, so distress likely, which is B or lower.\n\nBut for rating, let's say B.\n\nConfidence 3.\n\nRationale: \"High leverage, low margin, weak liquidity.\"\n\n22 characters, but words: high, leverage, low, margin, weak, liquidity \u2014 6 words.\n\n\"High leverage and low profitability with weak liquidity.\" 7 words.\n\nFine.\n\nSo decision: B\n\nConfidence: 3\n\nRationale: \"High leverage, low profitability, weak liquidity.\"\n\nNow for the JSON.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 5715,
+ "usd": 0.01266,
+ "utc": "2026-09-06T17:29:24.244585+00:00"
+}

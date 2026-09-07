@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided figures, the issuer exhibits high financial risk due to low liquidity and weak coverage ratios. The current ratio of 1.22 indicates marginal liquidity, and estimated interest coverage is approximately 1.25x (assuming a 5% interest rate on long-term liabilities), which is very low and characteristic of high default risk. Additionally, the debt-to-equity ratio of 3.50 reflects high leverage. These factors place the issuer in the high-risk speculative grade.\n\nDECISION: CCC+",
+ "reasoning_tail": "ple, S&P considers coverage below 1.5x as high risk, CCC.\n\nSimilarly, Moody's might have similar.\n\nAlso, current ratio 1.22 is weak.\n\nTherefore, I think CCC+ or CCC.\n\nBut retained earnings are high, which might suggest some resilience, but with low coverage, it might not help.\n\nPerhaps B-, but I think CCC is more appropriate.\n\nLet's see the decision.\n\nI need to output one label.\n\nPerhaps CCC+.\n\nBut let's confirm.\n\nAnother thing: EBIT is operating income, 2,575M, which is positive, so not in distress yet.\n\nBut coverage is thin.\n\nIn the Altman Z-score, it was 1.06, in distress zone.\n\nSo likely CCC range.\n\nI think CCC+ is reasonable.\n\nCCC+ is still speculative but not the lowest.\n\nCC is for high default probability, C for imminent.\n\nHere, with positive EBIT and working capital, not imminent default.\n\nSo CCC+ or CCC.\n\nBut let's see the scale: CCC+, CCC, CCC-.\n\nPerhaps CCC+.\n\nI recall that for some ratings, coverage below 1.0x is CCC, but here it might be above.\n\nIn my calc, 1.25x if 5% rate.\n\nBut interest rates could be higher or lower.\n\nSince no industry, assume average.\n\nPerhaps I can use the current ratio as well.\n\nCurrent ratio 1.22 is below 1.5, which is typical for lower ratings.\n\nFor example, BBB companies have current ratio above 1.5 often.\n\nHere 1.22 is low.\n\nSo overall, I think speculative grade with high risk.\n\nTherefore, I'll go with CCC+.\n\nBut let's see if B- is possible.\n\nB- might have coverage around 2-3x, here it's lower.\n\nI think CCC+ is better.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 4880,
+ "usd": 0.01082,
+ "utc": "2026-09-06T17:56:05.904896+00:00"
+}

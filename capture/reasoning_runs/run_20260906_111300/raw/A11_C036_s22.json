@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning\nThe company exhibits significant financial distress, primarily due to a very low current ratio of 0.79, indicating severe liquidity issues as it cannot cover short-term obligations. High leverage is evident with a debt-to-equity ratio of approximately 2.74 (57,973M / 21,181M) and low EBIT to total assets (~0.95%), raising solvency concerns. While retained earnings of 8,995M provide some cushion, the overall profile aligns with a high default risk category, supported by an Altman Z-score of approximately 0.44, which falls in the distress zone (<1.81). Given these factors, a speculative grade rating is appropriate, with CCC+ reflecting imminent liquidity pressures but ongoing operations (positive EBIT of 749M).\n\nDECISION: CCC+",
+ "reasoning_tail": " suggests distress, and here z=0.44, so very poor.\n\nLikely CCC or C.\n\nBut C is for imminent default, which might not yet.\n\nThe company has EBIT positive, 749M, so they have operating income.\n\nBut with liquidity crunch, they might face default on short-term obligations.\n\nThus, speculative with high risk.\n\nI think CCC or B.\n\nBut let's say CCC+.\n\nOr B-.\n\nPerhaps I can think of another metric.\n\nInterest coverage: assume interest expense. But not given.\n\nTotal liabilities include non-interest-bearing like accounts payable, so not all debt.\n\nCurrent liabilities might include short-term debt, but not specified.\n\nAssume from data.\n\nCurrent liabilities: 7,148M, could be trade payables, short-term debt, etc.\n\nNot all require interest.\n\nBut EBIT 749M, if interest expense were, say,  100M, coverage 7.49, good; if 500M, 1.5, poor.\n\nBut no data.\n\nPerhaps in credit ratings, with current ratio below 0.8, it's often CCC or lower.\n\nFor example, companies in Chapter 11 might have low current ratios pre-filing.\n\nI think I'm overthinking.\n\nWith the data, the clearest red flag is the current ratio of 0.79, which is below 1.\n\nCombined with high leverage, it's risky.\n\nRetained earnings are positive, so not accumulated losses, which is a positive, but not enough.\n\nShareholders' equity 21,181M vs total assets 79,154M, so equity ratio = equity/assets = 21,181/79,154 \u2248 0.267 or 26.7%, so leverage high.\n\nFor rating, let's assign.\n\nI think  B or CCC range.\n\nI'll go with  CCC+ as a starting point, or B- .\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3476,
+ "usd": 0.00775,
+ "utc": "2026-09-06T19:29:08.762781+00:00"
+}

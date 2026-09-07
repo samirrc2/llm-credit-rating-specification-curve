@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Negative equity and sub-1 current ratio indicate high solvency and liquidity risks despite positive earnings.\"}",
+ "reasoning_tail": "ome industries, low current ratio is normal, but here not specified.\n\nAssume general case.\n\nI think the rating should be in the B range.\n\nB+ or B or B-.\n\nB is \"more vulnerable to adverse business conditions.\"\n\nWith negative equity, that fits.\n\nCCC is \"currently vulnerable,\" which might be too low since they are profitable.\n\nSo, perhaps B.\n\nBut confidence.\n\nRationale in <=25 words.\n\nFinal decision.\n\nLet me assign.\n\nI think B- or B.\n\nLook at the options: BB+, BB, BB-, B+, B, B-, CCC+, etc.\n\nPerhaps B.\n\nConfidence: 3, since I have to estimate interest.\n\nBut based on given, I'll go with B.\n\nRationale: Negative equity, weak liquidity, but positive earnings.\n\n<=25 words.\n\n\"Negative equity and current ratio below 1 indicate high risk, despite profitability.\"\n\nThat's 10 words.\n\nNow, confidence: I'll say 3, medium confidence because missing cash flow details.\n\nBut I have to choose.\n\nPerhaps CCC+ is possible, but I think B is better.\n\nAnother thought: diluted EPS 0.45, which might be low, but not informative.\n\nI think B is reasonable.\n\nBut let's see if AA or something, no way.\n\nLowest investment grade is BBB-, but with negative equity, unlikely.\n\nBBB- requires some stability.\n\nHere, solvency is questionable.\n\nSo, speculative grade.\n\nBB might be for companies with high leverage but positive equity.\n\nFor example, a company with debt/equity of 2 or 3 might be BB.\n\nHere, equity negative, so worse.\n\nThus, B or lower.\n\nI think B is appropriate.\n\nPerhaps B-.\n\nBut let's pick B.\n\nFinal answer.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 3780,
+ "usd": 0.008427,
+ "utc": "2026-09-06T19:54:50.352904+00:00"
+}

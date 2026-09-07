@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows weak liquidity with a current ratio below 1 (0.99) and negative working capital (-53M), indicating significant short-term risk. However, profitability is strong with a 15.3% EBIT margin, retained earnings are substantial at 13,060M, and leverage is moderate with a debt-to-equity ratio of 1.5. These factors suggest a speculative grade rating due to the liquidity concerns, but the solid profitability and retained earnings support a mid-tier BB rating.\n\nDECISION: BB",
+ "reasoning_tail": "low rating.\n\nBut not all liabilities are debt.\n\nAssume debt is 10,000M, then debt/EBIT = 16.08, still high.\n\nIf debt is 5,000M, debt/EBIT = 8.04, which is high for BB; BB might have 4-5x.\n\nBut 8x is high.\n\nFor example, debt/EBITDA above 5x is often B or CCC.\n\nHere, if debt/EBIT is 8x, it could be B.\n\nBut EBIT is not EBITDA.\n\nEBITDA would be higher.\n\nSuppose EBITDA = EBIT + depreciation.\n\nIf depreciation is 200M, EBITDA = 822M, then if debt 8,000M, debt/EBITDA = 9.73, still high.\n\nIf debt 6,000M, 7.3x.\n\nFor industrial, above 6x is often B or lower.\n\nWith current ratio below 1, it might be B+ or B.\n\nI think B+ is possible.\n\nBut retained earnings high, so not distressed.\n\nPerhaps BB-.\n\nI think I'm overcomplicating.\n\nLet's go with the liquidity as key.\n\nCurrent ratio below 1, so at least BB or lower.\n\nSince it's close to 1, BB.\n\nBut in the context, the company has current liabilities slightly exceeding current assets, so for rating, I'll say BB.\n\nThen for the decision.\n\nReason: The issuer exhibits weak liquidity with a current ratio below 1 and negative working capital, while demonstrating strong profitability with a 15.3% EBIT margin and high retained earnings. Leverage is moderate, but the liquidity risk suggests a speculative grade rating.\n\nDECISION: BB\n\nBut BB is one of the options.\n\nThe options include BB+, BB, BB-, so BB is available.\n\nPerhaps BB-.\n\nI think BB is fine.\n\nOr to be finer, since current ratio is 0.99, almost 1, BB+ might be too high, BB is middle.\n\nI think BB.\n",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 247,
+ "out_tok": 5778,
+ "usd": 0.01279,
+ "utc": "2026-09-06T18:50:13.206481+00:00"
+}

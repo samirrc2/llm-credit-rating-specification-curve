@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress, primarily due to an extremely low current ratio of 0.35, indicating inability to cover short-term obligations, and high leverage with a debt-to-asset ratio of 89% and debt-to-equity ratio of 8.09. Additionally, a negative Altman Z-score (approximately -0.07) places the issuer in the distress zone, signaling a high risk of bankruptcy despite positive EBIT and retained earnings.\n\nDECISION: CCC",
+ "reasoning_tail": "lity is high due to liquidity.\n\nCurrent liabilities are 159,640M, EBIT is 6,598M annual, so monthly EBIT is about 550M, but EBIT is not cash flow, and current liabilities due soon.\n\nThe company needs to pay 159,640M with only 56,524M in current assets, so it must refinance or sell assets.\n\nThis is critical.\n\nTherefore, I think the rating should be CCC.\n\nFor finer granularity, since current ratio is 0.35, which is very low, and Z-score negative, CCC- might be appropriate.\n\nBut CCC- is not always used; the scale includes it.\n\nIn the list: CCC+, CCC, CCC- are options.\n\nI think CCC is sufficient.\n\nAnother thing: retained earnings are positive, EBIT positive, so not in default, hence not C or CC.\n\nCC is for highly vulnerable, perhaps default imminent.\n\nC is for default or similar.\n\nSo CCC seems right.\n\nPerhaps B-, but B- is higher.\n\nLet's compare ratios.\n\nI recall that companies with debt-to-equity above 5 or 6 are often rated B or lower.\n\nHere it's 8.09, so lower.\n\nCurrent ratio below 0.5 is very poor.\n\nI think CCC.\n\nFinal decision: CCC.\n\nBut in the Altman Z-score, negative is bad, but for ratings, it's one input.\n\nPerhaps I should look at coverage.\n\nSince interest not given, I can't.\n\nAnother ratio: EBIT / total liabilities = 6,598 / 274,899 \u2248 0.024, or 2.4%, which is low, meaning EBIT covers only 2.4% of liabilities, so repayment would take many years, ignoring interest.\n\nThat's poor.\n\nSimilarly, operating income to debt ratio.\n\nI think CCC is justified.\n\nSo, I'll go with CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3131,
+ "usd": 0.00699,
+ "utc": "2026-09-06T19:07:50.896715+00:00"
+}

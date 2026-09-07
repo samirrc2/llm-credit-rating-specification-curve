@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the key concerns are the extremely weak liquidity position, with a current ratio of 0.53 indicating significant short-term refinancing risk, and negative working capital (current liabilities exceed current assets by $2,862M). High leverage is evident, with a debt-to-equity ratio of approximately 3.4 and total liabilities at 74% of assets, compounded by deeply negative retained earnings, signaling historical losses and financial instability. Although profitability metrics such as a 41% operating margin are strong, the severe balance sheet weaknesses and immediate liquidity pressures outweigh these positives, pointing to high default vulnerability.\n\nDECISION: CCC+",
+ "reasoning_tail": "ancing risk. Additionally, high leverage (debt/equity ~3.4) and significant accumulated losses (retained earnings -$12.2B) further impair creditworthiness. Despite strong profitability margins, the balance sheet weaknesses justify a speculative grade with high vulnerability.\n\nThen, decision: CCC+ or B-.\n\nI think CCC+.\n\nBut the current ratio is extremely low.\n\n  0.53 is rare for a going concern; it might   be in distress.\n\nPerhaps B-, but let's compare the scales.\n\nB- is \"Highly   speculative; default is a real possibility, but some margin of safety remains.\"\n\nCCC+ is \"Currently vulnerable and dependent on favorable business, financial, and economic conditions to meet financial commitments.\"\n\nHere, with current ratio 0.53, it is dependent on favorable conditions to refinance or generate cash.\n\n   So CCC+ might be better.\n\nCCC is \"Currently vulnerable, and default is a   possibility.\"\n\nCCC+ is   slightly better.\n\nSince I can choose, I'll go with CCC+.\n\nTo be conservative, B-.\n\nBut   let's see net income positive, so not defaulting yet.\n\nBut the current liabilities are high.\n\n   Another point: the current ratio is given as 0.53, and it's filed, so it's official.\n\n   I think CCC+ is reasonable.\n\nFinal label; from the list, CCC+ is there.\n\n   \"CCC+, CCC,   CCC-\" so yes.\n\n   On the separate line, DECISION: CCC+\n\n   But let's confirm the   rating scale: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\n   So CCC+ is available.\n\n   Yes.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 3942,
+ "usd": 0.008779,
+ "utc": "2026-09-06T19:18:13.855654+00:00"
+}

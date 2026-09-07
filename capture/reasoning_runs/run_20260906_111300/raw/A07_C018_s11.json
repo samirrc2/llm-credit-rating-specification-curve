@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely high leverage with a debt-to-equity ratio of approximately 26.5 (total liabilities / shareholders' equity = 158,800M / 5,987M), indicating severe financial risk. Additionally, the low EBIT margin of about 2.01% (EBIT / revenue = 446M / 22,217M) and a tight current ratio of 1.18 suggest weak profitability and liquidity constraints. The Altman Z-score, calculated at approximately 0.45 using available data, falls deep into the distress zone, signaling a high risk of bankruptcy and current vulnerability to non-payment, consistent with a CCC rating.\n\nDECISION: CCC",
+ "reasoning_tail": "<2 for IG.\n\nEBIT margin 2% vs. higher for IG.\n\nCurrent ratio 1.18 vs. >1.5 for safety.\n\nSo speculative grade, and low end.\n\nBB might be for moderate risk, B for high risk, CCC for very high risk.\n\nHere, with high leverage and low coverage, B or CCC.\n\nBut since I can't calculate coverage, but leverage is extreme.\n\nRetained earnings are high, 17,162M, which might provide some buffer, but compared to liabilities, it's small.\n\nRetained earnings / total liabilities = 17,162 / 158,800 \u2248 0.108, so about 10.8%, not great.\n\nIn Altman, RE/TA is 10.4%, which is low.\n\nI think CCC is the best fit.\n\nBut let's see the decision.\n\nPerhaps I should output the rating.\n\nThe task says \"finest granularity you can justify.\"\n\nWith the data, I can justify CCC.\n\nSome might say B, but I think CCC is more accurate.\n\nAnother thing: revenue is 22,217M, which is substantial, but profit is low.\n\nSize might not matter if ratios are poor.\n\nI think CCC.\n\nBut let's confirm the figures.\n\nTotal assets 164,787M\n\nTotal liabilities 158,800M\n\nEquity 5,987M\n\nYes.\n\nEBIT 446M\n\nRevenue 22,217M\n\nCurrent ratio 1.18\n\nNow, for comparison, a company like this might be rated CCC by agencies.\n\nFor example, during financial distress.\n\nSo, I'll go with CCC.\n\nBut CCC+, CCC, or CCC-?\n\nThe scale has CCC+, CCC, CCC-.\n\nSince EBIT is positive and equity positive, not the worst, so perhaps CCC.\n\nCCC- is lower.\n\nBut I think CCC is fine.\n\nPerhaps I can say CCC.\n\nIn the Altman Z-score, it's very low, so CCC.\n\nI think for the final answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 3814,
+ "usd": 0.008485,
+ "utc": "2026-09-06T17:49:22.014970+00:00"
+}

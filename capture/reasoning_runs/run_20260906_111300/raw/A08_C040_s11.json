@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Current ratio below 1 indicates liquidity crisis; high leverage and inferred poor interest coverage suggest imminent default risk.\"}",
+ "reasoning_tail": "uggests CCC category.\n\nA current ratio below 1 is also a signal for CCC.\n\nFor example, companies with liquidity issues often get downgraded to CCC.\n\nSo I think CCC is appropriate.\n\nFinest granularity: I don't have finer detail, so CCC, or perhaps CCC-.\n\nBut let's see.\n\nZ-score below 1.0 is critical distress.\n\n0.3 is very low.\n\nSimilarly, Ohlson O-score, but I don't have the data.\n\nI think CCC is reasonable.\n\nThe rating choices include CCC+, CCC, CCC-, etc.\n\nSince it's borderline, but leaning towards high risk, let's say CCC.\n\nFor confidence, I need to provide 1-5.\n\nBased on the data, since liquidity is clearly weak and leverage high, but coverage is inferred, confidence might be medium.\n\nRationale should be concise.\n\nFinal decision: let's assign CCC.\n\nBut which sub-rating? Since I have no data for differentiation, just CCC.\n\nThe scale has CCC, CCC+, CCC-, so I can choose CCC as middle.\n\nCCC+ might be for slightly better situations, but here it's bad.\n\nCurrent ratio 0.63 is a red flag.\n\nSimilarly, implied coverage ratio less than 1.\n\nSo I think CCC is fine.\n\nPerhaps B- is possible, but I think worse.\n\nB- might have better liquidity.\n\nHere, liquidity crisis.\n\nIn credit terms, CCC entities have current default vulnerability.\n\nSo I go with CCC.\n\nRating choice: use CCC.\n\nConfidence: I have most data except interest expense, so 4? But since coverage is inferred, confidence 3 or 4.\n\nLet's say 3.\n\nRationale: Poor liquidity and high leverage imply high default risk.\n\nWithin 25 words.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 255,
+ "out_tok": 4484,
+ "usd": 0.00996,
+ "utc": "2026-09-06T19:47:21.944069+00:00"
+}

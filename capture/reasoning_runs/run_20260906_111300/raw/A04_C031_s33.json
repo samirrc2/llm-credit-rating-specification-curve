@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"CCC-\",\n  \"confidence\": 3,\n  \"rationale\": \"Critical liquidity (current ratio 0.34), extremely high leverage (debt-to-equity ~11.4), implied weak interest coverage risk default despite positive EBIT.\"\n}",
+ "reasoning_tail": "m debt, 250,200M at say 4% interest, interest 10,008M, but EBIT 5,851M, coverage 0.585, less than 1, so cannot cover interest.\n\nIf only part is debt, but even if debt is 100B, at 6%, interest 6B, EBIT 5.85B, coverage less than 1.\n\nSo interest coverage must be very low or negative.\n\nIt must be low for this company.\n\nWith current liabilities high, including short-term debt that needs rolling over.\n\nSo very high default risk.\n\nTherefore, I think the rating is CCC or lower.\n\nSince EBIT is positive, let's say CCC- or CC.\n\nBut let's pick from the list.\n\nThe scale has CCC+, CCC, CCC-, CC, C.\n\nI think CC or C might be too severe if the company is operating.\n\nAnother idea: retained earnings are huge at 232,459M, but equity is small, so it could be that the company has good earnings history but high payouts or something, but for credit, we care about ability to pay debt.\n\nLiquidity is key here.\n\nPerhaps the company is Berkshire Hathaway or similar, but Ber rkshire has high cash, not low current ratio.\n\nNot matching.\n\nOr Tesla, no.\n\nt's a specific case.\n\nI think I have to assign based on numbers.\n\nI recall that for companies with serious issues, ratings can be B- or CCC.\n\nBut with current ratio 0.34, it's worse.\n\nDefault is likely if they can't refinance.\n\nSo I'll say CCC.\n\nBut to be finer, CCC-.\n\nNow, confidence: I'm not sure, but let's say 3 for moderate.\n\nRationale: Poor liquidity with current ratio 0.34, high leverage, weak interest coverage implied.\n\n25 words max.\n\nFinal decision.\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 268,
+ "out_tok": 4112,
+ "usd": 0.009153,
+ "utc": "2026-09-06T19:02:16.127898+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"CCC+\",\n  \"confidence\": 3,\n  \"rationale\": \"Weak liquidity with current ratio below 1, estimated low interest coverage ~1.4x, and negative diluted EPS indicate high vulnerability.\"\n}",
+ "reasoning_tail": "nd dependent on favorable conditions to meet commitments.\n\nCC: highly vulnerable.\n\nWith large assets, it might have some cushion.\n\nBut based on numbers.\n\nPerhaps CCC or B-.\n\nB- is one notch above CCC+.\n\nThe scale has CCC+, CCC, CCC-, CC, C.\n\nB- is above CCC+.\n\nB- is rated higher than CCC+ .\n\nIn S&P scale: B- is three notches above CCC+? Let's list:\n\nHighest to lowest:\n\nAAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is above CCC+ by a little: B- , then CCC+, CCC, CCC-, etc.\n\nWith the data, I think CCC+ or B-.\n\nBut confidence low due to assumptions.\n\nRationale must be short.\n\nI think B- might be appropriate, considering size and retained earnings.\n\nBut financials point to distress.\n\nPerhaps BBB- for investment grade, but current ratio and coverage suggest not.\n\nI think B or CCC+.\n\nLet's decide.\n\nI'll go with CCC+ because of low coverage and liquidity, with weak profitability.\n\nOr B- to be conservative.\n\nAnother thing: retained earnings 21,891M, which is part of equity, so it has equity cushion for debt.\n\nBut for repayment, it's cash flow that matters.\n\nI think based on my calculation, interest coverage low and liquidit  poor.\n\nThe decision: let's say CCC+\n\nConfidence 3, since I made assumptions.\n\nRationale: Weak interest coverage, negative working capital, low profitability.\n\nNeed less than 25 words.\n\nFinal choice.\n\nI think B- or CCC+.\n\nWith diluted EPS negative, that might indicate issues.\n\nSet as CCC+.\n\nThen confidence.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 273,
+ "out_tok": 4930,
+ "usd": 0.010947,
+ "utc": "2026-09-06T18:22:33.818699+00:00"
+}

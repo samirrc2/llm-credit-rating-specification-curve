@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Critical liquidity (current ratio 0.34) and very high leverage (debt-to-equity ~11.35) indicate imminent default risk despite positive EBIT.\"}",
+ "reasoning_tail": "rent ratio 0.34 implies high liquidity risk.\n\nLeverage very high.\n\nProfitability low but positive.\n\nRevenue size small to medium, not a major player.\n\nSo, likely CCC+ or CCC.\n\nBut I need to pick one.\n\nPerhaps B or B- for high yield, but liquidity worse.\n\nIn standard terms, poor solvency and liquidity suggest CCC.\n\nFinal answer.\n\nAlso, confidence: based on the ratios, I can be fairly confident.\n\nConfidence 4 out of 5, since I have incomplete data but key metrics show weakness.\n\nLabel: let's say CCC+ or CCC.\n\nBut CCC+ to CCC- are for very weak, tending to default.\n\nWith positive EBIT, maybe not imminent.\n\nBut the current ratio is the killer.\n\nAnother ratio: current liabilities to assets, etc.\n\nI think CCC- or CCC.\n\nBut let's choose.\n\nPerhaps B- for speculative with high risk.\n\nBut   current ratio 0.34 is so low that it suggests default risk within months if not resolved.\n\nSo, I think CCC is appropriate.\n\nFor example, if a company has a covenant requiring certain ratios, it might breach.\n\nBut not specified.\n\nI will go with CCC.\n\nSo, decision: CCC\n\nConfidence: 4\n\nRationale: Very low liquidity (current ratio 0.34) and high leverage indicate high default risk.\n\nRationale must be <=25 words, that's  words.\n\n\"Very low liquidity (current ratio 0.34) and high leverage imply near-term default risk.\" 7 words.\n\nOr \"Critical liquidity issues and excessive leverage pose high default probability.\" 6 words.\n\nWith <=25 words, it's fine.\n\nNow, for the JSON.\n\nBut I need to output only the JSON.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 268,
+ "out_tok": 4375,
+ "usd": 0.009729,
+ "utc": "2026-09-06T19:02:10.740672+00:00"
+}

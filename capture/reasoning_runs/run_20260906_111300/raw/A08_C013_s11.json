@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Low Altman Z-score (1.01) indicates distress; high leverage (debt-to-equity 1.18), low profitability (EBIT/assets 1.64%).\"}",
+ "reasoning_tail": "ces have 1.23 as cutoff, but 1.1 is also used.\n\nHere Z=1.006 < 1.1, so distress.\n\nTherefore, high default risk.\n\nCredit rating CCC or lower.\n\nSince not imminent default, perhaps CCC+ or CCC.\n\nBut let's see the figures: current ratio 1.53 shows some liquidity, EBIT positive, so not the worst.\n\nPerhaps CCC+.\n\nBut I need to choose from the scale.\n\nThe scale has CCC+, CCC, CCC-.\n\nCC and C are for very high risk.\n\nI think CCC is appropriate.\n\nConfidence: since I have limited data, confidence might be low.\n\nBut I used all available figures.\n\nRationale: Low Z-score indicates high default risk.\n\nFor the JSON, I need to output {\"decision\": \"CCC\", \"confidence\": integer, \"rationale\": \"<=25 words\"}\n\nDecision: let's say CCC.\n\nConfidence: 3, medium, since no industry context.\n\nRationale: \"Low Altman Z-score, high leverage, low profitability.\"\n\nWithin 25 words.\n\nZ-score is 1.01, leverage high, ROA low.\n\nYes.\n\nBut let's confirm the rating.\n\nPerhaps I can assign based on ratios.\n\nAnother ratio: retained earnings to total assets is high, which is good, but other ratios poor.\n\nIn credit rating, retained earnings can be a factor for stability.\n\nBut here, with inconsistency, it might not be reliable.\n\nI think CCC is reasonable.\n\nPerhaps B-.\n\nBut let's see the scale.\n\nI recall that for companies with Z-score below 1.23, ratings are often CCC or lower.\n\nFor example, some sources map Z-score to ratings roughly.\n\nBut I don't have precise mapping.\n\nI think for this task, CCC is fine.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 6466,
+ "usd": 0.0143,
+ "utc": "2026-09-06T17:21:13.699263+00:00"
+}

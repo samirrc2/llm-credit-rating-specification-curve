@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits poor liquidity with a current ratio of exactly 1.00, indicating minimal short-term financial flexibility. Leverage is high with a debt-to-equity ratio near 1.00 (23,463M / 23,369M \u2248 1.004), and retained earnings are deeply negative at -6,947M, signaling significant past losses and financial distress. Although the operating margin is decent at approximately 17.3% (283M EBIT / 1,635M revenue), it is insufficient to offset the cumulative losses and high leverage, placing the issuer in a vulnerable position.\n\nDECISION: CCC",
+ "reasoning_tail": " definitions.\n\nTypically:\n\n- CCC: Currently vulnerable and dependent on favorable conditions to meet commitments.\n\n- CC: Highly vulnerable, very speculative bonds.\n\n- C: Imminent default or similar.\n\nHere, with EBIT positive, not imminent default, so probably CCC.\n\nWith Z-score 0.45, it's very distressed.\n\nPerhaps CCC-.\n\nBut I think for this task, I'll go with CCC.\n\nThe task says \"finest granularity you can justify.\"\n\nWith the information, I can justify CCC.\n\nPerhaps B- or something, but I think CCC is better.\n\nLet's see the leverage.\n\nDebt-to-equity ~1, which for some industries is normal, but with low coverage, it's risky.\n\nEBIT/TA low.\n\nI think CCC is reasonable.\n\nSo, decision: CCC.\n\nBut in the response, I need to reason briefly.\n\nReason: Poor liquidity with current ratio of 1.00, high leverage with debt-to-equity near 1, and significant negative retained earnings indicating financial distress. Operating margin is decent but not sufficient to offset past losses.\n\nThen DECISION: CCC\n\nBut the rating scale includes CCC+, CCC, CCC-, so I need to choose one.\n\nSince current ratio is exactly 1, it might be slightly better than if lower, so CCC.\n\nOr CCC-.\n\nBut I think CCC is fine.\n\nPerhaps B- , but B- is higher.\n\nB- is still speculative, but CCC is lower.\n\nThe scale: BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nB- is above CCC+.\n\nWith EBIT positive, it might be B-, but the negative retained earnings and low liquidity suggest lower.\n\nI think CCC is appropriate.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 4994,
+ "usd": 0.011069,
+ "utc": "2026-09-06T19:33:28.598068+00:00"
+}

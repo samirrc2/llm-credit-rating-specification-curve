@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress, primarily due to negative shareholders' equity (-9,270M), negative retained earnings (-9,884M), and total liabilities exceeding total assets (64,211M vs. 54,941M), indicating insolvency risk. While the current ratio (1.09) shows marginal short-term liquidity and EBIT (2,554M) suggests operational viability, the high leverage and accumulated losses place the issuer in a highly speculative category with substantial default risk.\n\nDECISION: CCC",
+ "reasoning_tail": "en.\n\nAssume it's similar.\n\nEBIT margin 11% is okay, but leverage kills it.\n\nI think CCC is the level.\n\nPerhaps B-, but I think CCC is more accurate for negative equity.\n\nFor example, companies like Tesla during tough times had negative equity but improved, but ratings were low.\n\nBut I need to base on this data.\n\nFinal decision: I think CCC.\n\nBut let's confirm the scale.\n\nThe scale given: AAA down to C.\n\nCCC is one of them.\n\nPerhaps CCC-.\n\nBut I think CCC is reasonable.\n\nSince current ratio is 1.09 >1, and EBIT positive, not the worst, so CCC.\n\nCCC+ might be too high.\n\nCCC+ is higher than CCC.\n\nIn S&P scale, CCC+ is better than CCC.\n\nBut with negative equity, it's poor.\n\nI found online that negative net worth often leads to CCC or lower ratings.\n\nFor instance, in Altman Z-score, Z<1.8 is distress, and here Z~0.36, very low.\n\nSo CCC.\n\nPerhaps CC, but EBIT positive, so not yet.\n\nCC is for imminent default, I think.\n\nHere, they can operate.\n\nSo I'll go with CCC.\n\nBut let's see the answer format.\n\nReason briefly: Due to negative shareholders' equity, high leverage (liabilities exceed assets), negative retained earnings, and weak current ratio, indicating high financial distress and bankruptcy risk.\n\nThen DECISION: CCC\n\nBut is there a better one?\n\nPerhaps B-, but I think CCC is more precise.\n\nAnother thing: EBIT / operating income is given, and revenue, so they are profitable at operating level, but burdened by debt.\n\nBut with negative equity, it's still bad.\n\nI think CCC is fine.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3223,
+ "usd": 0.007191,
+ "utc": "2026-09-06T19:12:21.622345+00:00"
+}

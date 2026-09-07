@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"BB+\",\n  \"confidence\": 3,\n  \"rationale\": \"High gross margin and profitability offset by weak liquidity (current ratio 0.63) and high leverage (D/E ~2.71), indicating speculative grade.\"\n}",
+ "reasoning_tail": "s the concern.\n\nIn credit rating models, liquidity ratios are weighed.\n\nA current ratio below 1 might indicate need for surveillance, and ratings could be reduced.\n\nPerhaps this is borderline BBB- to BB+.\n\nSince the problem asks for finest granularity, I need to pick one.\n\nConfidence: since I have limited data and no industry comparison, confidence is medium.\n\nBut the rational must be short, <=25 words.\n\nSo for JSON, decision, confidence, rationale.\n\nLet me propose: BB+ or something.\n\nBBB- is possible but liquidity might pull it down.\n\nLook at existing ratings for similar companies.\n\nBut I don't have specific.\n\nFrom the numbers, D/E around 2.7, current ratio 0.63.\n\nFor example, in 2022, some companies with D/E over 2 and current ratio below 1 have ratings like B+ or BB, but it varies.\n\nI recall that BBB ratings often have current ratio above 1.\n\nFor instance, S&P considers liquidity a key factor.\n\nPerhaps it's speculative grade.\n\nAnother tought: the company has been profitable, so why are retained earnings only 4,718M? It could be they pay high dividends or have buybacks, which is good for investors but may reduce liquidity.\n\nBut for creditors, high payouts can be a risk.\n\nNot specified.\n\nI think the balance sheet shows tension.\n\nSo I'll go with BB+ as the rating, as it's upper speculative grade with some strengths.\n\nConfidence: 3, medium.\n\nRationale: \"High profitability offset by weak liquidity and leverage, indicating speculative grade.\"\n\nThat's 9 words.\n\nNow for the JSON.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 278,
+ "out_tok": 3591,
+ "usd": 0.008017,
+ "utc": "2026-09-06T19:47:34.717211+00:00"
+}

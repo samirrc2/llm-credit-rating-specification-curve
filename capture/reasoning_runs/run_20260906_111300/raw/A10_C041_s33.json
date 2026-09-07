@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with high gross and operating margins (66% and 32%, respectively), which supports debt servicing capacity. However, it faces severe liquidity issues with a current ratio of 0.55, indicating insufficient short-term assets to cover current liabilities, and high leverage with a debt-to-equity ratio of approximately 2.58. These factors significantly elevate credit risk, placing it in the speculative grade range.\n\nDECISION: B+",
+ "reasoning_tail": ".\n\nBut let's see the scale.\n\nCCC is very high risk, but here profitability is strong, so not that low.\n\nB is highly speculative, but with capacity to pay if no liquidity crisis.\n\nBut current ratio 0.55 suggests high risk of liquidity crisis.\n\nPerhaps B-.\n\nBut retained earnings might provide cushion.\n\nI think BB- might be possible, but current ratio is too low for BB.\n\nBB ratings can have current ratio below 1 sometimes, but 0.55 is very low.\n\nFor example, some companies have current ratio 0.8 or so, but 0.55 is critical.\n\nPerhaps it's a company like Amazon in early days, but Amazon had losses sometimes.\n\nHere profit is high.\n\nI think I should go with B+.\n\nBut let's decide.\n\nFinal answer.\n\nReason briefly: The company exhibits strong profitability with high gross and operating margins, but has very weak liquidity as evidenced by a current ratio of 0.55, indicating potential difficulty in meeting short-term obligations. High leverage with a debt-to-equity ratio of approximately 2.58 further increases credit risk.\n\nTherefore, the issuer is assigned a speculative grade rating.\n\nLabel: B+ or B.\n\nI think B+ is for issuers with good ability to pay but vulnerable, B for high credit risk.\n\nHere, with strong earnings, B+ might be appropriate.\n\nBut liquidity is poor.\n\nPerhaps BB-.\n\nI'll go with B+.\n\nBut let's see the options.\n\nDECISION: B+\n\nOr BB-.\n\nAnother ratio: retained earnings to total assets: 34,747 / 204,354 \u2248 17%, which is ok, but not directly helpful.\n\nI think B+ is reasonable.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 3896,
+ "usd": 0.008678,
+ "utc": "2026-09-06T19:53:32.865184+00:00"
+}

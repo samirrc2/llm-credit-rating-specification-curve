@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage (debt/equity ~2.86), low interest coverage (~2.7x), weak liquidity (current ratio 0.91).\"}",
+ "reasoning_tail": " income 2,342M, diluted EPS 0.55, so number of shares = net income / EPS = 2,342 / 0.55 = 4,258.18 million shares approximately.\n\nBut not relevant.\n\nRetained earnings 94,744M, which is large, but not affecting credit directly.\n\nI think BB- is appropriate.\n\nPerhaps B+.\n\nBut let's see the equity: shareholders' equity 104,460M, but calculated assets - liabilities = 404,258 - 298,517 = 105,741M, but given as 104,460M, difference of 1,281M, perhaps treasury stock or something. Ignore.\n\nCurrent ratio 0.91 is key.\n\nIn practice, a current ratio below 1 can lead to rating downgrades.\n\nSo, I'll go with BB-.\n\nConfidence 3.\n\nRationale: High leverage, low interest coverage, and current ratio below 1 indicate elevated credit risk.\n\nNow, for JSON: {\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage, low coverage, weak liquidity\"}\n\nRationale <=25 words: \"High leverage, low coverage, weak liquidity\" is 5 words.\n\nFull rationale: \"Elevated credit risk due to high debt-to-equity, low interest coverage, and current ratio below 1.\"\n\nBut \"interest coverage\" I estimated, so maybe avoid.\n\nSay \"high liabilities, low profitability relative to debt, poor liquidity.\"\n\nProfitability: net income 2,342M on assets 404B, return on assets low, but not given.\n\nROA = net income / total assets = 2,342 / 404,258 \u2248 0.58%, very low.\n\nThat's another point; low ROA suggests inefficiency.\n\nBut for credit, it's about ability to pay debt.\n\nWith low coverage and liquidity, risk is high.\n\nI think BB- is fine.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 4067,
+ "usd": 0.009057,
+ "utc": "2026-09-06T17:58:19.310467+00:00"
+}

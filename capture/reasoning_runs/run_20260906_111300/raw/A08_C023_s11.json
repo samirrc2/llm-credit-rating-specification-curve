@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"CCC\",\n  \"confidence\": 3,\n  \"rationale\": \"High debt/EBIT, low current ratio, implied interest coverage <1\"\n}",
+ "reasoning_tail": "nt on favorable conditions to meet commitments.\"\n\nWith low liquidity and high leverage, that fits.\n\nCCC+ is slightly better, CCC- worse.\n\nSince EBIT is positive, perhaps CCC.\n\nBut let's see the scale.\n\nPerhaps B- if there is some strength, but retained earnings might be a strength, but inconsistent.\n\nI think CCC.\n\nConfidence: 3, since some ratios are missing.\n\nRationale: High leverage, low liquidity, poor interest coverage implied.\n\nWord count: must be <=25 words.\n\nSo rationale: \"Extremely high leverage, tight liquidity, implied negative interest coverage.\"\n\nNow for rating: CCC.\n\nBut let's confirm the scale: CCC+, CCC, CCC-, etc.\n\nCCC is one of them.\n\nPerhaps BB or B, but I think CCC is better.\n\nAnother way: calculate the interest coverage roughly.\n\nAssume average interest rate on debt.\n\nSay, if debt is total liabilities, and interest rate 5%, interest expense ~5,563M, EBIT 2,359M, coverage <1.\n\nIf interest rate 3%, interest ~3,338M, EBIT 2,359M, coverage 0.7, still less than 1.\n\nOnly if interest rate very low, but unlikely with high leverage.\n\nSo coverage below 1.\n\nTimes interest earned below 1 is very bad.\n\nRating agencies might have D rating, but here the scale has CC and C.\n\nC is for imminent default, but here EBIT positive, so not imminent.\n\nCC is for highly vulnerable.\n\nCCC for vulnerable.\n\nSo CCC or CC.\n\nI think CCC is fine.\n\nDecision: CCC\n\nConfidence: 3\n\nRationale: \"High debt/EBIT, low current ratio, implied interest coverage <1.\"\n\nWord count: 8 words.\n\nNow for JSON.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 4823,
+ "usd": 0.010702,
+ "utc": "2026-09-06T18:19:31.473227+00:00"
+}

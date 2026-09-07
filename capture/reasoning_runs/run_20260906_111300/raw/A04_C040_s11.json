@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Poor liquidity (current ratio 0.63) and high leverage (debt-to-equity 2.71) indicate high credit risk despite positive EBIT.\"}",
+ "reasoning_tail": "%, which is low; below 30% is often risky.\n\nFor investment grade, equity ratio above 30-40% is common.\n\nHere 26.7%, below.\n\nSo, likely speculative.\n\nNow, within speculative, BB to B.\n\nWith current ratio 0.63, it's worse than typical BB.\n\nBB rated companies might have current ratio above 1.\n\nFor example, a BB company might have current ratio 1.0 to 1.2, debt-to-EBITDA 4-6, etc.\n\nHere, unknown coverage.\n\nBut liquidity is poor.\n\nI think B+.\n\nLet's look at the revenue and EBIT.\n\nRevenue 8,669M, EBIT 2,334M, so the company is profitable, which is good.\n\nIf it can manage the liquidity, it might be ok.\n\nBut with the gap, it needs financing.\n\nIn credit terms, it's risky.\n\nPerhaps BB-.\n\nBut I think B+ is better.\n\nLet's see the confidence.\n\nI need to output a JSON with decision, confidence, rationale.\n\nRationale should be <=25 words.\n\nSo, I need to summarize.\n\nDecision: B+\n\nConfidence: 3 or 4? I'm not very confident because of missing data like interest expense.\n\nBut based on what I have, confidence 3.\n\nRationale: Poor liquidity with current ratio 0.63 and high leverage indicate high credit risk.\n\nThat's 12 words.\n\nNow, for the rating, is B+ justified?\n\nPerhaps BBB- is possible if I ignore liquidity, but I can't.\n\nAnother thought: the current ratio might be industry-specific, but I don't know the industry.\n\nGeneral knowledge, for most industries, below 1 is bad.\n\nSo, I think B+.\n\nBut let's see the options: B+ is available.\n\nPerhaps CCC+.\n\nBut I think B+ is reasonable.\n\nFinal decision.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 4625,
+ "usd": 0.010272,
+ "utc": "2026-09-06T19:46:14.731209+00:00"
+}

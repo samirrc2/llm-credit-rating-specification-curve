@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A+\", \"confidence\": 4, \"rationale\": \"Strong profitability with 17% operating margin, moderate leverage (debt-to-equity ~1.18), good liquidity (current ratio 1.53), and high retained earnings support high investment grade.\"}",
+ "reasoning_tail": "th current ratio 1.53, it might be lower.\n\nI recall that for credit ratings, investment grade starts at BBB-, so above that.\n\nWith these metrics, it should be well above BBB.\n\nLet's assume for large companies, debt-to-EBITDA or something.\n\nAnnual operating income 7,452M.\n\nIf EBI  T is similar.\n\nIf we assume debt is, say, from liabilities, but total liabilities 61,341M.\n\nIf all were debt, which it's not, debt-to-EBITDA = 61,341 / 7,452 \u2248 8.23, which is high, but not all liabilities are debt.\n\nSuppose interest-bearing debt is 50% of liabilities, 30,670M, then debt-to-EBITDA = 30,670 / 7,452 \u2248 4.1, which is reasonable for BBB to A.\n\nSimilarly, if lower.\n\nBut not known.\n\nWith equity of 51,940M, net income 6,604M, the company is profitable.\n\nI think a fair rating is A+ with medium confidence.\n\nBut let's see the retained earnings being higher than equity; it might indicate that there are no or few dilutive elements, or treasury shares, but not specified.\n\nFor example, if retained earnings are 60,632M and equity is 51,940M, the difference might be due to accumulated other comprehensive loss or treasury stock reducing equity.\n\nBut I think for rating, it shows the has accumulated profits.\n\nSo, I think A+ is reasonable.\n\nSome might say AA-.\n\nBut let's check the filing date; it's 2026-05-01, which is prompt, so no concerns.\n\nTherefore, I will assign A+.\n\nFor confidence, since key metrics missing, confidence 3 or 4.\n\n5 is high, so 4.\n\nRationale must be 25 words or less.\n\nFinal decision.\n",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 4280,
+ "usd": 0.009526,
+ "utc": "2026-09-06T17:21:00.913334+00:00"
+}

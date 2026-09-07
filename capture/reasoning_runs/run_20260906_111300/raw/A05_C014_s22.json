@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB+\", \"confidence\": 3, \"rationale\": \"Low operating margin (4%), moderate leverage (debt-to-equity ~1.49), and tight liquidity (current ratio 1.30) indicate elevated credit risk, offset somewhat by positive net income.\"}",
+ "reasoning_tail": " \u2248 0.669\n\nThen 0.6 * 0.669 = 0.4014\n\nSales/total assets = 0.461\n\nSo Z-score = 1.2*(0.0535) + 1.4*(0.451) + 3.3*(0.0203) + 0.6*(0.669) + 1.0*(0.461) = 0.0642 + 0.6314 + 0.067 + 0.4014 + 0.461 = let's add: 0.0642+0.6314=0.6956, +0.067=0.7626, +0.4014=1.164, +0.461=1.625\n\nZ-score 1.625 < 1.8, which is in the grey area, but below 1.8 suggests distress possibility.\n\nThis indicates higher credit risk.\n\nTherefore, speculative grade rating.\n\nNow, for granularity, BB+ or BB.\n\nBB+ is the highest speculative grade.\n\nWith current ratio 1.30 and margins, perhaps BB.\n\nBut retained earnings high, so not immediate distress.\n\nI think BB+ is possible.\n\nBut let's see the rating scale.\n\nPerhaps BBB- if I consider net income.\n\nBut operating performance is weak.\n\nAnother point: the fiscal period is 2025 Q4, filed 2026-02-20, so it's recent.\n\nI think based on Altman Z-score implication, it's speculative grade.\n\nSo, I'll go with BB+.\n\nConfidence: not high, because no industry context, but based on data, I'll say confidence 3.\n\nRationale in 25 words.\n\nRationale: Low margins, moderate leverage, tight liquidity indicate higher credit risk.\n\nFor rating, BB+.\n\nBB+ is below BBB-, so speculative.\n\nFinal decision.\n\nPerhaps BBB- with low confidence.\n\nBut I think BB+ is more justified.\n\nLet's see the current ratio: 1.30 is often minimum for investment grade, but below 1.5 can be downgraded.\n\nIn practice, companies with current ratio 1.3 might be BBB if other factors strong.\n\nHere, margins weak.\n\nI think BB+.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 267,
+ "out_tok": 4847,
+ "usd": 0.010762,
+ "utc": "2026-09-06T17:25:12.201979+00:00"
+}

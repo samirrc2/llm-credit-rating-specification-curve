@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely high leverage with a debt-to-equity ratio of approximately 10.25 (total liabilities / shareholders' equity) and critically poor liquidity with a current ratio of 0.42, indicating severe short-term refinancing risk despite solid profitability margins (25% operating margin, 15% net margin). These factors, combined with a low return on equity of about 2.48%, place the issuer in a highly vulnerable position, warranting a speculative grade with substantial default risk.\n\nDECISION: CCC+",
+ "reasoning_tail": " B or CCC range.\n\nMoreover, with high debt, it's worse.\n\nSo, I'll go with CCC+ or CCC.\n\nThe scale has CCC+, CCC, CCC-.\n\nCCC+ is the highest in CCC.\n\nSince the company is profitable, CCC+ might be reasonable.\n\nBut liquidity is critical.\n\nRetained earnings are large, but that's not liquid.\n\nThe company might need to refinance or sell assets.\n\nBut with low current ratio, it's risky.\n\nI think CCC is appropriate.\n\nBut let's see the answer format.\n\nI need to reason briefly.\n\nFinal decision.\n\nAnother idea: perhaps the issuer is a government or something, but it says \"issuer\" and with equity, it's likely a corporation.\n\nThe figures are for a company.\n\nI think I'm overcomplicating.\n\nBased on the data, the credit rating should be low.\n\nLet's assign B- or CCC+.\n\nI'll say CCC+.\n\nBut let's box it.\n\nReason: High leverage with debt-to-equity ratio of 10.25 and poor liquidity with current ratio of 0.42 indicate significant credit risk and vulnerability to short-term obligations.\n\nProfitability is solid but insufficient to offset the high debt burden.\n\nTherefore, speculative grade with high risk.\n\nOn the scale, CCC+ is for currently vulnerable but not immediately in default.\n\nB- might be a bit high.\n\nB- is for highly speculative, but with current ratio 0.42, it's worse.\n\nFor example, Tesla in tough times had current ratio around 1, rated B+ or something.\n\nBut here it's 0.42, much lower.\n\nSo, CCC+.\n\nPerhaps CCC.\n\nBut I think CCC+ is fine.\n\nThe decision should be one label.\n\nI'll go with CCC+.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 4232,
+ "usd": 0.009413,
+ "utc": "2026-09-06T19:21:18.461675+00:00"
+}

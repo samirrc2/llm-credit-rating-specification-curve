@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits significant credit risk due to weak liquidity (current ratio of 0.94 < 1), high leverage (debt-to-equity ratio of approximately 1.39), and low profitability (EBIT to total assets ratio of approximately 0.54%). The implied interest coverage is extremely low, estimated below 0.3x based on reasonable assumptions for interest-bearing debt, indicating an inability to cover interest expenses from operating earnings. These factors place the rating firmly in speculative grade, specifically in the B- category due to the substantial risk, despite the substantial retained earnings providing some financial flexibility.\n\nDECISION: B-",
+ "reasoning_tail": "ult possible in near term.\n\nHere, with positive EBIT, it can cover some, but not all interest, so net loss likely.\n\nBut rating is for ability to meet obligations, so if not covering interest, high risk.\n\nTherefore, I think B- or CCC+.\n\nBut let's see the scale.\n\nB- is \"Highly speculative\" with substantial credit risk.\n\nCCC+ is \"Current vulnerability to non-payment\".\n\nSince EBIT positive, not vulnerable immediately, so B-.\n\nPerhaps B.\n\nBut coverage very low.\n\nRetained earnings high, so they can use reserves, but for rating, it's about ongoing ability.\n\nI think B- is appropriate.\n\nBut let's confirm with current ratio.\n\nCurrent ratio 0.94, close to 1, so not terrible, but below 1.\n\nIn some cases, companies manage.\n\nBut with low coverage, it's bad.\n\nAnother thing: revenue 5,013M, EBIT 467M, so if interest high, net income negative, but retained earnings can absorb for a while.\n\nBut for rating, it's speculative.\n\nI think B-.\n\nPerhaps B.\n\nBut I'll go with B-.\n\nThe answer choices include CCC+, etc.\n\nCCC+ is lower.\n\nBut I think B- is fine.\n\nPerhaps BB- is too high.\n\nLet's see the retained earnings: 21,891M, which is large, so financial flexibility.\n\nBut for credit rating, it might not offset the poor ratios.\n\nI think for consistency, with low coverage and low liquidity, B-.\n\nFinal decision: B-\n\nReason: The issuer has a current ratio below 1 indicating liquidity stress, high leverage with debt-to-equity of 1.39, and extremely low implied interest coverage, suggesting high credit risk.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 247,
+ "out_tok": 5492,
+ "usd": 0.012163,
+ "utc": "2026-09-06T18:23:42.442528+00:00"
+}

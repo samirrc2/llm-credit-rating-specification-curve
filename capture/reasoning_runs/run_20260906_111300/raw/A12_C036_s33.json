@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Low current ratio (0.79) and high leverage (debt-to-equity ~2.74) indicate severe liquidity and solvency risks.\"}",
+ "reasoning_tail": "o, below BBB-.\n\nBB+ to B- could be possible, but with the Z-score low, CCC.\n\nThe rationale should be concise.\n\nFinal decision.\n\nI think CCC+ or CCC.\n\nCCC+ is higher than CCC.\n\nThe scale: CCC+ is better than CCC.\n\nBut based on data, probably CCC.\n\nConfidence: not high because I lack some data, but based on given, I'll go with CCC.\n\nRationale: Poor liquidity and high leverage indicate high credit risk.\n\nNow, confidence level from 1 to 5, 5 highest.\n\nI'd say 3, medium, because I inferred some things.\n\nBut based on data, it's clear.\n\nPerhaps B- or something.\n\nLet's see if there's a better match.\n\nRetained earnings are high, 8,995M, which is positive.\n\nBut it doesn't offset the current issues.\n\nRevenue 3,915M, EBIT 749M, so net income might be lower.\n\nAssume interest expense: suppose total debt is, say, 40,000M (guessing), interest at 5% = 2,000M, then EBIT 749 < interest, so loss.\n\nTax not applicable if loss.\n\nSo net loss.\n\nWith negative working capital, it's bad.\n\nTherefore, I think CCC is appropriate.\n\nRating: CCC\n\nConfidence: 3\n\nRationale: \"Low current ratio and high leverage suggest financial distress.\"\n\nWithin 25 words.\n\nThe JSON format.\n\n{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Low current ratio and high leverage indicate high credit risk.\"}\n\nBut let's see if CCC- or something.\n\nCCC is fine.\n\nPerhaps BB-, but I think CCC is better.\n\nAnother thought: the current ratio might be industry-specific, but no industry given.\n\nSo based on general, CCC.\n\nI think that's it.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 4434,
+ "usd": 0.009853,
+ "utc": "2026-09-06T19:30:36.414783+00:00"
+}

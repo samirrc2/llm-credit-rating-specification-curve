@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress, primarily due to negative shareholders' equity (-8,465M), indicating insolvency on a book-value basis, and a current ratio of 0.92, suggesting acute liquidity issues. Although EBIT is positive at 777M, the high leverage (total liabilities exceed total assets by 8,457M) and deeply negative retained earnings (-8,881M) imply substantial default risk, placing it in the CCC category.\n\nDECISION: CCC",
+ "reasoning_tail": "be liquid.\n\nBut not given.\n\nI think CCC is appropriate.\n\nBut let's check the figures again.\n\nShareholders' equity is -8,465M, which is a large deficit.\n\nRetained earnings -8,881M, similar.\n\nTotal liabilities 39,015M vs assets 30,558M, so leverage is high.\n\nEBIT 777M, so return on assets is low: 777 / 30,558 \u2248 2.54%.\n\nNot great.\n\nIn credit rating models, a common approach is to look at interest coverage and leverage.\n\nSince interest not given, I have to infer.\n\nPerhaps the rating should be B- or CCC.\n\nLet's think about the scale.\n\nBB is speculative but less vulnerable; here with negative equity, it's more vulnerable.\n\nB is more vulnerable; CCC is currently vulnerable.\n\nI think CCC is fitting.\n\nTo be finer, since EBIT is positive, maybe CCC+.\n\nBut negative equity is severe.\n\nPerhaps CCC.\n\nI found a guideline: agencies often downgrade to CCC when there is a high risk of default, such as when interest coverage is less than 1x or negative equity.\n\nHere, estimated interest coverage is less than 1, and negative equity.\n\nSo CCC.\n\nCC is for when default is probable, but here operations are ongoing with positive EBIT.\n\nC is for default imminent or filed.\n\nSo CCC seems right.\n\nBut let's see the options: CCC+, CCC, CCC-.\n\nI think plain CCC is fine.\n\nPerhaps CCC- due to the large deficit.\n\nBut I'll go with CCC.\n\nReason briefly: Negative shareholders' equity, current ratio below 1, and poor estimated interest coverage indicate high default risk, despite positive EBIT.\n\nFinal decision: CCC\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 2468,
+ "usd": 0.005537,
+ "utc": "2026-09-06T19:55:38.051061+00:00"
+}

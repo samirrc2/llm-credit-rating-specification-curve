@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Severe negative equity, high leverage, insufficient liquidity, history of losses create material default risk.\"}",
+ "reasoning_tail": "Alright, let me try to figure out this credit rating step by step. The company's financials show some red flags. First off, shareholders' equity is negative at -8,465M, and retained earnings are also deeply negative at -8,881M. That's a big concern because it means the company has accumulated losses over time. \n\nNext, total liabilities are 39,015M against total assets of 30,558M, so the debt-to-asset ratio is over 128%. That's really high leverage. The current ratio is 0.92, which is below 1, indicating they might struggle to cover short-term obligations with their current assets. \n\nEven though they reported a net income of 511M, which is positive, the negative equity and low liquidity suggest financial distress. The gross margin is 20% and operating margin 8%, which aren't terrible, but the balance sheet issues are severe. \n\nGiven that and considering the 21-grade scale, this seems to align with a CCC or B category. But because of the negative equity and liquidity crunch, it's probably in the low B tier. Looking at the choices, B- appears justified. Confidence level? Maybe a 3 because while the problems are clear, without sector context, it's harder to gauge.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 306,
+ "usd": 0.00082,
+ "utc": "2026-09-06T19:52:13.891695+00:00"
+}

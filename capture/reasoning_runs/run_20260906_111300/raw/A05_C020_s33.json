@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Weak liquidity with current ratio 0.91 and high leverage, but profitable with 14% operating margin.\"}",
+ "reasoning_tail": "e, BBB often has coverage above 4-5x.\n\nBB might be 2-4x.\n\nCurrent ratio for investment grade should be above 1.2 or so, although varies.\n\nHere, 0.91 is weak.\n\nOverall, I think the issuer might be rated BB+ or BB.\n\nThe high gross margin and retained earnings suggest it's not distressed, but current challenges.\n\nAlso, filed in 2026-02-17, but data to 2025, so we don't know future.\n\nMust use only provided information.\n\nNow, about the rating scale: 21-grade s ale from AAA to C.\n\nConsidering the evidence, a BB rating might be appropriate.\n\nBB is below BBB-, which is investment grade cut-off.\n\nConfidence level: not very high because o the lack of industry context and only quarterly data, but we have to decide.\n\nRationale in 25 words or less.\n\nAlso, confidence from 1 to 5, 5 high.\n\nI think confidence 3, medium.\n\nRationale: Weak liquidity with current ratio 0.91 and low interest coverage, but profitable.\n\nEarlier I estimated coverage 2.45x.\n\nFrom the figures, with no debt details, it's inferred.\n\nPerhaps just state the issues.\n\nFinal decision.\n\nPotential ratings:\n\n- BBB-: if we ignore current ratio or assume temporary.\n\nBut current ratio 0.91 is hard to ignore.\n\nOr BB+: moderate speculative grade.\n\nGiven the size, it might have access to capital, but the numbers don't lie.\n\nAnother ratio: return on equity, net income/equity = 2,342 / 104,460 for quarter, say annual 9,368, /104,460 = ~9%, which is decent.\n\nBut liquidity and leverage are concerns.\n\nI think BB+ or BB.\n\nI'll go with BB.\n",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 269,
+ "out_tok": 4702,
+ "usd": 0.010445,
+ "utc": "2026-09-06T18:00:43.098080+00:00"
+}

@@ -38,10 +38,12 @@ config/            # grid, paraphrase templates, rating scale, run config
 capture/           # collection code (NOT needed to reproduce): main collector, real-firm collector,
                    #   run_flagship.py (flagship arm), freeze_flagship.py, list_models.py
 analysis/          # offline analysis:
-                   #   run_analysis, capital_analysis, market_analysis, addenda, benchmark_validation,
-                   #   analyze_realarm, tier_analysis (flagship vs nano/flash),
-                   #   extended_analysis (SIS validation, self-consistency, weighted agreement, cost),
-                   #   make_figures, make_extended_figures
+                   #   run_analysis, addenda, benchmark_validation,
+                   #   analyze_realarm, realarm_speccurve, realarm_scale_sensitivity,
+                   #   tier_analysis (flagship vs nano/flash), extended_analysis (SIS validation,
+                   #   self-consistency, weighted agreement, cost), revision_analysis,
+                   #   permtest_and_tau, variance_model_range, crossmodel_aliasing,
+                   #   reasoning_analysis, make_figures, make_extended_figures
 data/
   frozen/main/     # battery_90, grid, capital_map, rating_scale, manifests (pre-registered inputs)
   frozen/realarm/  # real-firm arm frozen artifacts (battery, sealed crosswalk, provenance, spec grid)

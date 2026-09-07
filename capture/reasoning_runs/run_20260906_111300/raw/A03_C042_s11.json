@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst using the provided information, the issuer exhibits severe financial distress. Key concerns include a current ratio below 1 (0.92), indicating immediate liquidity issues and inability to cover short-term obligations without external financing. More critically, shareholders' equity is deeply negative (-$8,465M), reflecting insolvency with total liabilities ($39,015M) exceeding total assets ($30,558M). Although operating income is positive ($777M, yielding an EBIT margin of ~8.15%), it is insufficient relative to the massive liabilities\u2014implying unsustainable leverage (implied EBIT coverage of interest is likely negative, though interest expense not provided). Retained earnings of -$8,881M confirm ongoing losses and eroding capital. These factors point to a high risk of default or restructuring, aligning with a speculative-grade rating in the highly vulnerable range.\n\nDECISION: CCC",
+ "reasoning_tail": "at's unsustainable; EBIT barely covers a fraction of interest, let alone principal.\n\nAssume average interest rate. If interest is 5%, interest expense on 39B liabilities is 1,950M, but EBIT only 777M, so coverage ratio EBIT/Interest = 777 / 1950 \u2248 0.4, way below 1, meaning not even covering interest.\n\nBut liabilities include non-interest bearing items.\n\nFor example, current liabilities may have payables, which don't incur interest.\n\nSimilarly, long-term might have deferred taxes, etc.\n\nBut we don't know; some portion is debt with interest.\n\nProbably a significant portion is interest-bearing debt.\n\nMoreover, since equity negative, no buffer.\n\nTherefore, the company is likely not covering interest from operations, leading to cash burn.\n\nRevenues are 9.5B, with EBIT 0.78B, so after operating expenses, they have some margin, but with high interest, it could be net loss.\n\nBut net income not provided.\n\nFrom retained earnings decreasing or negative, it suggests net losses.\n\nCurrent retained earnings -8,881M, but not given previous, but negative implies cumulated losses.\n\nSo overall, high probability of default or restructuring.\n\nThus, credit rating should be in the CCC range to reflect vulnerability.\n\nSpecifically, since there's some operating income, perhaps not the lowest.\n\nSo likely CCC or CCC+.\n\nBut let's see the options.\n\nCCC+, CCC, CCC-.\n\nI think CCC.\n\nNow, to justify granularity: based on severe leverage and liquidity issues.\n\nFinal decision.\n\nThe answer should be one label.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 249,
+ "out_tok": 3103,
+ "usd": 0.006933,
+ "utc": "2026-09-06T19:54:55.366613+00:00"
+}

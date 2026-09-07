@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Low current ratio (0.79) and high debt-to-equity (~2.74) indicate significant liquidity and leverage risks.\"}",
+ "reasoning_tail": "very confident because of missing data like interest expense, but based on given, I'll go with B.\n\nRationale should be short.\n\nThe JSON should have decision, confidence, rationale.\n\nDecision: let's say B.\n\nBut is there a better choice?\n\nBB- might be possible if I ignore the interest coverage issue.\n\nBut current ratio is key.\n\nLet's calculate the quick ratio approximately.\n\nCurrent assets 5,681M, if I assume inventory is, say, 50% of current assets, but I don't know.\n\nWithout inventory, I can't.\n\nBut with current ratio 0.79, quick ratio would be lower if inventory is significant.\n\nBut not given.\n\nI think B is reasonable.\n\nPerhaps CCC, but EBIT positive, so not yet.\n\nCCC is for vulnerable to default.\n\nHere, with negative working capital, it might be close.\n\nBut revenue and EBIT positive, so not immediate.\n\nSo B or B-.\n\nI'll go with B.\n\nConfidence: 3, medium.\n\nRationale: \"Poor liquidity with current ratio below 1 and high leverage indicate high credit risk.\"\n\nWithin 25 words.\n\nNow for the rating: B.\n\nBut let's see the scale: B is between BB- and B-, so B is the middle of speculative.\n\nBB is less speculative, B more.\n\nWith the ratios, B seems ok.\n\nPerhaps BB-.\n\nBut current ratio 0.79 is very low.\n\nIn practice, companies can have low current ratios if they have good cash management, but based on data, it's risky.\n\nI think B is fine.\n\nFinal decision: B\n\nConfidence: 3\n\nRationale: \"Low current ratio and high debt-to-equity suggest significant default risk.\"\n\n18 words.\n\nNow for JSON.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 258,
+ "out_tok": 4223,
+ "usd": 0.00939,
+ "utc": "2026-09-06T19:26:42.732908+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits extreme financial leverage with a debt-to-equity ratio of approximately 9.02 (total liabilities / shareholders' equity = 444,085M / 49,234M), indicating high solvency risk. Additionally, implied interest coverage is significantly below 1 based on reasonable interest rate assumptions (e.g., 3-5%), suggesting inability to service debt from operating income (EBIT of 3,188M). While the current ratio of 12.41 shows strong short-term liquidity, it does not mitigate the severe long-term solvency concerns and low return on assets (approximately 0.65%). This profile is characteristic of high default risk, warranting a CCC rating due to vulnerability and dependence on favorable conditions for meeting obligations.\n\nDECISION: CCC",
+ "reasoning_tail": "ssets, but that might not be at book value.\n\nWith low ROA, market value might be lower.\n\nBut not specified.\n\nIn credit rating, agencies might consider liquidity as a buffer.\n\nBut with such high leverage, it's still risky.\n\nI think CCC is fine.\n\nPerhaps the rating is B or B-.\n\nLet's think of typical ratings.\n\nFor instance, a company with debt/EBITDA above 10 is often BB or B, but here debt/EBIT is over 100, so much worse.\n\nEBIT is 3,188, debt ~429,000, ratio 134.\n\nEven if EBITDA is higher, say if depreciation is 10% of assets, but assets 493,319, depreciation not given.\n\nAssume depreciation is small, EBIT \u2248 EBITDA.\n\nSo debt/EBITDA ~134, which is enormous.\n\nFor comparison, highly leveraged firms might have 5-10, distressed 10+, here 134, so extreme distress.\n\nTherefore, CCC.\n\nAnd since the scale has CCC+, CCC, CCC-, and it's very weak, but not in default, I'll say CCC.\n\nCCC is \"currently vulnerable and dependent on favorable conditions\".\n\nYes.\n\nCCC- is \"currently vulnerable to non-payment\".\n\nSimilar.\n\nBut I think CCC is standard for such cases.\n\nPerhaps from the data, it's Apple or something, but Apple has high revenue and cash.\n\nApple's revenue is in hundreds of billions, not 7.3B.\n\nHere revenue 7,300M = 7.3B, assets 493B, so not Apple.\n\nPerhaps it's a different company.\n\nAnyway, based on numbers.\n\nFinal decision.\n\nI think DECISION: CCC\n\nBut let's see if the high retained earnings suggest strength, but it's historical.\n\nCurrent profitability is low relative to size.\n\nSo, CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 5130,
+ "usd": 0.011372,
+ "utc": "2026-09-06T15:45:56.118860+00:00"
+}

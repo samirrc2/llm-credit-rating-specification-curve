@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely high leverage with a debt-to-equity ratio of 14.46 and severe liquidity issues with a current ratio of 0.63, indicating elevated default risk despite strong profitability metrics like a 42% operating margin. Negative retained earnings of -5,086M further erode the equity base, amplifying financial vulnerability and dependence on favorable conditions.\n\nDECISION: CCC",
+ "reasoning_tail": " = 2,000M interest, > OI, so negative coverage.\n\nBut not all liabilities are interest-bearing.\n\nUsually, current liabilities include payables, which may not have interest, and long-term debt has interest.\n\nBut not separated.\n\nTherefore, assume the worst.\n\nI think CCC is fair.\n\nSince they are profitable, CCC+.\n\nCCC+ is the upper end of CCC.\n\nRatings typically:\n\nAAA to BBB- : investment grade\n\nBB+ to C : speculative grade\n\nBB and B are medium to high speculative, CCC to C are high risk to default.\n\nBased on figures, likely CCC.\n\nAnother point: retained earnings negative and large, which directly impacts equity, so low tangible net worth.\n\nTherefore, assign CCC.\n\nBut let's see the answer format.\n\nReason in 1-3 sentences.\n\nFinal decision.\n\nSo, brief reason: The issuer has extremely high leverage with a debt-to-equity ratio of 14.46 and poor liquidity with a current ratio of 0.63, indicating high default risk despite strong profitability.\n\nTherefore, the rating is in the CCC category.\n\nNow, to choose one, I'll say CCC.\n\nBut is CCC justified?\n\nPerhaps B- .\n\nB- is for more stable but speculative.\n\nHere liquidity is critical.\n\nI think CCC is correct.\n\nI recall that companies current ratio below 1 often have downgraded ratings.\n\nSo, DECISION: CCC\n\nBut the scale has CCC+, CCC, CCC-, so I need to pick one.\n\nLet's say CCC as baseline.\n\nSince operating margin is high, maybe CCC+.\n\nBut liquidity trumps in my view.\n\nFinal answer: the high current deficit and leverage point to a CCC rating.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 256,
+ "out_tok": 3510,
+ "usd": 0.007828,
+ "utc": "2026-09-06T19:36:11.119268+00:00"
+}

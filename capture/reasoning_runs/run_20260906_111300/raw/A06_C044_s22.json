@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress with negative shareholders' equity (-1,920M) and a critically low current ratio (0.27), indicating insolvency and acute liquidity issues that heighten default risk. Despite strong operating margins (46%) and positive net income (151M), the balance sheet weaknesses dominate credit risk assessment.\n\nDECISION: CCC",
+ "reasoning_tail": "al is under 5 or so.\n\nEven if annualize, Q1 operating income 465M, so annual might be around 1,860M, but it's quarterly, so for the quarter.\n\nAnnualizing: revenue 1,010M for Q1, so annual revenue ~4,040M, operating income annual ~1,860M.\n\nThen total liabilities 33,311M.\n\nLiabilities / annual operating income \u2248 33,311 / 1,860 \u2248 17.9, still very high.\n\nNet income annual ~604M, liabilities / net income \u2248 33,311 / 604 \u2248 55.1, meaning it would take 55 years to pay off liabilities with net income, ignoring interest.\n\nThat's unsustainable.\n\nSo, definitely distressed.\n\nTherefore, I think CCC is the right category.\n\nNow between CCC+, CCC, CCC-.\n\nSince operating margin is high, I'll go with CCC to not be too harsh.\n\nCCC+ might be too optimistic.\n\nCCC- might be too pessimistic.\n\nCCC is middle.\n\nThe rating scale: CCC+ is above CCC, CCC above CCC-.\n\nIn terms of risk, CCC+ has lower risk than CCC.\n\nFor example, CCC+ is closer to B-, CCC is mid, CCC- is higher risk.\n\nGiven the numbers, CCC seems fair.\n\nPerhaps I can look at the trend, but I only have one quarter, so no trend.\n\nFiscal period is 2026 Q1, filed 2026-05-07, so it's the latest.\n\nNo prior data.\n\nSo, based on this snapshot.\n\nI think DECISION: CCC\n\nBut let's confirm the scale: it includes CCC+, CCC, CCC-, etc.\n\nPerhaps I should output CCC.\n\nReason briefly: Negative shareholders' equity and extremely low current ratio indicate high financial distress and liquidity crisis, despite positive operating income.\n\nThen DECISION: CCC\n\nYes.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 252,
+ "out_tok": 3694,
+ "usd": 0.008228,
+ "utc": "2026-09-06T20:05:40.515549+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Current ratio 0.35 shows severe liquidity risk; debt-to-equity ~8 indicates high leverage despite strong profitability.\"}",
+ "reasoning_tail": " is possible, but with current ratio 0.35, it's too low for BB.\n\nBB ratings usually have current ratio above 1, I think.\n\nFor example, BB rated companies might have current ratio around 1 or higher.\n\nHere it's 0.35, so lower.\n\nSimilarly, leverage.\n\nI think B or B-.\n\nLet's go with B-.\n\nThen confidence 3.\n\nRationale: \"Extremely low liquidity and high leverage offset strong profitability.\"\n\nThat's 7 words.\n\nNow, for the JSON response.\n\nI need to return exactly that JSON object.\n\nSo, {\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Extremely low liquidity and high leverage offset strong profitability.\"}\n\nBut is B- on the scale? Yes, it's listed.\n\nThe scale includes B-.\n\nCCC+ is also there.\n\nBut I think B- is appropriate.\n\nPerhaps CCC+ if liquidity is critical.\n\nBut since net income is positive, it might not be immediate default.\n\nCurrent ratio 0.35 means it can't cover current liabilities with current assets, so it needs to generate cash flow or refinance.\n\nOperating cash flow not given, only income statement and balance sheet.\n\nWith operating income 6,598M, it might generate cash, but not specified.\n\nI think B- is reasonable.\n\nAnother way: the current ratio is given as 0.35, which is highlighted, so it's a key point.\n\nIn the rationale, I should mention it.\n\nRationale: \"Current ratio 0.35 indicates severe liquidity risk; high debt leverage.\"\n\n18 words.\n\nOkay.\n\nDecision: B-\n\nConfidence: 3\n\nRationale: \"Current ratio 0.35 indicates severe liquidity risk; high debt leverage.\"\n\nYes.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 267,
+ "out_tok": 3778,
+ "usd": 0.008421,
+ "utc": "2026-09-06T19:08:00.247433+00:00"
+}

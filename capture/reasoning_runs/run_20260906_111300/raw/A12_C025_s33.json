@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt-to-equity ~2.47), zero retained earnings, and low implied EBIT coverage suggest severe financial distress.\"}",
+ "reasoning_tail": "ulative.\n\nI think CCC+ or CCC.\n\nLet's pick one.\n\nRationale: \"High leverage, zero retained earnings, low EBIT coverage capability.\"\n\nConfidence: 3, since interest not known, but inferred low coverage.\n\nLabel: Let's say CCC+\n\nOr B-.\n\nB- has higher rating than CCC+? No.\n\nThe scale from highest: AAA, AA+, ..., BBB-, BB+ , BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo BBB- is lowest investment grade, then BB+ is best speculative, then BB, BB-, B+, B, B-, CCC+, etc.\n\nCCC+ is lower than B-.\n\nB- is above CCC+.\n\nAAA to C, 21 grades.\n\nList: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is 16th from top, CCC+ is 17th, so B- is better than CCC+.\n\nYes.\n\nWith coverage potentially below 1, it could be CCC.\n\nBut let's see.\n\nin the data, EBIT is positive, so they are operating, not in default.\n\nCurrent assets > current liabilities.\n\nSo not immediately distressed.\n\nProbably CCC+ or B-.\n\nI think CCC+ is reasonable.\n\nBut with retained earnings zero, it's bad.\n\nPerhaps B- is possible if coverage is adequate, but I think not.\n\nI'm going with CCC+.\n\nConfidence 3.\n\nRationale: \"Extremely high leverage and zero retained earnings imply high distress risk.\"\n\nUnder 25 words.\n\nNow, for JSON.\n\n{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Extremely high leverage and zero retained earnings imply high distress risk.\"}\n\nBut the rationale should be <= 25 words.\n\n\"High debt, no retained earnings, poor coverage capability.\" 5 words.\n\nFinal answer.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 5032,
+ "usd": 0.011163,
+ "utc": "2026-09-06T18:31:44.732606+00:00"
+}

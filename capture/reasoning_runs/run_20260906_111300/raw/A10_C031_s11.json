@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates severe liquidity risk with a current ratio of 0.34, indicating insufficient short-term assets to cover current liabilities, and extreme leverage with a debt-to-equity ratio of approximately 11.35, reflecting high financial risk. Despite strong profitability metrics (gross margin of 64% and operating margin of 18%), these weaknesses pose a substantial default threat, placing the issuer in the vulnerable, high-risk category.\n\nDECISION: CCC",
+ "reasoning_tail": "ets, not easily liquidated.\n\nCurrent liabilities 1,775,239M\n\nSo to cover current liabilities, they need to sell long-term assets or refinance.\n\nWith net income, they can generate cash, but 5,290M per quarter vs 1,775,239M due, so it's insufficient for immediate needs.\n\nTherefore, high default risk.\n\nSo rating should be CCC or lower.\n\nCCC+ is the highest of CCC, so CCC+ or CCC.\n\nI think CCC+ might be too optimistic.\n\nPerhaps CCC.\n\nBut let's see if there's a standard.\n\nI recall that credit rating agencies have guidelines, but I don't have them.\n\nFor example, S&P might consider current ratio below 0.5 as very weak.\n\nHere 0.34, so weak.\n\nLeverage high.\n\nProfitability good, but not enough to offset.\n\nSo I think CCC+ or CCC.\n\nI'll go with CCC.\n\nBut let's see the answer choices: CCC+, CCC, CCC-.\n\nPerhaps CCC.\n\nReason: The issuer exhibits critical liquidity issues with a current ratio of 0.34 and extreme leverage (debt-to-equity ratio of 11.35), posing a high default risk despite solid profitability.\n\nDECISION: CCC\n\nBut CCC+ is slightly better.\n\nSince profitability is strong, CCC+.\n\nCCC+ is \"currently vulnerable\", CCC is \"currently vulnerable, dependent on favorable conditions\".\n\nWith current ratio 0.34, dependent on refinancing.\n\nSo CCC or CCC+.\n\nI think CCC is fine.\n\nPerhaps B-.\n\nB- is \"highly speculative\", which might fit.\n\nBut current ratio 0.34 is worse than \"highly speculative\"; it's \"vulnerable\".\n\nCCC is for vulnerable to default.\n\nI think CCC is appropriate.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 271,
+ "out_tok": 5432,
+ "usd": 0.012045,
+ "utc": "2026-09-06T19:06:02.419372+00:00"
+}

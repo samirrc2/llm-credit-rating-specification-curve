@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows severe liquidity issues with a current ratio of 0.91 (below 1), indicating an inability to cover short-term obligations with current assets, and negative working capital of -5,448M. High leverage is evident with a debt-to-equity ratio of approximately 2.86 and a debt-to-assets ratio of 73.8%, compounded by low profitability (EBIT/Total Assets \u2248 1.24%). These factors signal significant financial distress and high credit risk, aligning with a speculative grade rating.\n\nDECISION: B",
+ "reasoning_tail": "warranting a speculative grade rating.\n\nGiven the Altman Z-score estimate in the distress zone, a rating of B is appropriate.\n\nB is more vulnerable, but not imminent default.\n\nCCC is for default possible.\n\nHere, EBIT positive, so B.\n\nPerhaps B-.\n\nBut B is fine.\n\nThe labels include B+, B, B-.\n\nI think B is okay.\n\nBut let's see the scale: B+ is higher than B.\n\nWith the numbers, B might be too low? No, I think it's fair.\n\nAnother metric: interest coverage, if I assume.\n\nSuppose that current liabilities include some short-term debt, but not specified.\n\nAssume that total interest-bearing debt is, say, 200,000M for estimation.\n\nInterest at 4% = 8,000M, EBIT 5,004M, coverage 0.625, less than 1, so not covering interest.\n\nThis implies losses, so rating could be CCC.\n\nBut retained earnings are positive, so accumulated profits, but current EBIT not covering interest.\n\nIn this case, if EBIT < interest expense, it's bad.\n\nBut I don't know interest expense.\n\nFrom the balance sheet, net income might be negative, but not given.\n\nShareholders' equity increased from prior, but not given.\n\nI think it's safer to go with B.\n\nPerhaps the rating is BB- or something.\n\nBut I think B is reasonable.\n\nLet's look for clues.\n\nThe current ratio is 0.91, which is very close to 1, but still below.\n\nIn some industries, low current ratio is normal, but not specified.\n\nHere, no industry, so assume general.\n\nI think for credit rating, below 1 is a red flag.\n\nFinal decision: B.\n\nBut let's see the answer format.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 5186,
+ "usd": 0.011495,
+ "utc": "2026-09-06T18:04:43.538745+00:00"
+}

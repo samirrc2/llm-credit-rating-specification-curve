@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CC\", \"confidence\": 4, \"rationale\": \"Negative equity, liabilities exceed assets, and current ratio below 1 indicate severe distress and high default risk.\"}",
+ "reasoning_tail": "sk.\n\nI think CCC- or CC.\n\nRationale must be short, <=25 words.\n\nAlso, confidence: I'm fairly confident, but not 100%, so 4?\n\nNow, for the rating, I'll go with CCC- or something.\n\nPerhaps B-, but I think lower.\n\nEBIT is positive, so not the worst.\n\nBut negative equity and current ratio below 1 are severe.\n\nLet's see if the current ratio can be improved, but from numbers, it's fixed.\n\nAnother ratio: quick ratio, but inventory unknown.\n\nI think it's poor.\n\nI believe CCC- is appropriate.\n\nBut let's confirm the scale.\n\nAvailable ratings: from AAA to C, with + and - for some.\n\nSo for CCC, there is CCC+, CCC, CCC-.\n\nI think CCC or lower.\n\nPerhaps compare to ratings of similar companies, but no data.\n\nI can consider the probability.\n\nStandard & Poor\u2019s ratings, for example:\n\nCCC: Currently vulnerable to nonpayment, dependent on favorable conditions.\n\nCC: Currently highly vulnerable to nonpayment.\n\nC: Currently highly vulnerable to nonpayment, and perhaps in default.\n\nWith EBIT positive, not in default, but vulnerable.\n\nSo CCC or CC.\n\nCurrent liabilities exceed current assets, so liquidity crisis possible.\n\nMoreover, total liabilities exceed assets, so solvency issue.\n\nThus, highly vulnerable, CC or CCC.\n\nCCC is \"vulnerable,\" CC is \"highly vulnerable.\"\n\nPerhaps CC.\n\nBut let me see EBIT relative to interest, but interest not given.\n\nI think I have to make a call.\n\nI'll go with CC.\n\nRationale: negative equity, low liquidity, high leverage.\n\nIn 25 words or less.\n\nConfidence: let's say 4.\n",
+ "parsed_letter": "CC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 3131,
+ "usd": 0.006996,
+ "utc": "2026-09-06T19:56:38.958582+00:00"
+}

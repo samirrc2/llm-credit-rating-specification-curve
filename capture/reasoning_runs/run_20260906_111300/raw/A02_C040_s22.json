@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a 99% gross margin and 27% operating margin, indicating efficient operations and high earnings potential. However, it faces significant credit risks due to high leverage, with a debt-to-equity ratio of approximately 2.71, and critically poor liquidity, evidenced by a current ratio of 0.63, which suggests potential difficulty in meeting short-term obligations without external financing. Given these factors, the issuer falls into the highly speculative category, warranting a B+ rating on the 21-grade scale.\n\nDECISION: B+",
+ "reasoning_tail": "atio 0.63\n\n- Strong profitability: operating margin 27%, net margin about 16.4% (1,421/8,669)\n\nSize is large, which is good.\n\nBut the liquidity issue is severe.\n\nIn credit rating, a current ratio below 1 can lead to downgrades to B or lower if not addressed.\n\nFor instance, companies like AMC or others have been rated B- or CCC+ with similar issues.\n\nBut they had losses, here there is profit.\n\nSo, perhaps B+.\n\nLet's calculate the net working capital: current assets - current liabilities = 12,208 - 19,405 = -7,197M, deficit.\n\nWith annual net income 5,684M, it can cover, but short-term it needs financing.\n\nSo, credit rating might be in the B range.\n\nI think B+ is reasonable.\n\nPerhaps BB-, but I think the current ratio is too low for BB.\n\nBB is for speculative but less immediate risk.\n\nHere, current ratio 0.63 suggests immediate risk.\n\nSo, B+.\n\nB+ is \"Highly speculative\" according to S&P.\n\nB is \"More vulnerable\".\n\nWith strong profit, B+ might be okay.\n\nCCC is \"Currently vulnerable\", which might be too low.\n\nSo, I'll go with B+.\n\nBut let's confirm the scale.\n\nValid answers include B+.\n\nNow, for the reasoning.\n\nReason briefly in 1-3 sentences.\n\nThen DECISION: B+\n\nReasoning: The company exhibits strong profitability with high gross and operating margins, but it has high financial leverage with a debt-to-equity ratio of approximately 2.71 and critically poor liquidity with a current ratio of 0.63, indicating potential difficulty in meeting short-term obligations.\n\nThat should be it.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 4008,
+ "usd": 0.008922,
+ "utc": "2026-09-06T19:45:21.829198+00:00"
+}

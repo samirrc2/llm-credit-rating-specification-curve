@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows critical weaknesses in liquidity and leverage. The current ratio of 0.83 indicates insufficient short-term assets to cover immediate obligations, and the debt-to-equity ratio of approximately 13.48 reflects extreme financial leverage, far above typical investment-grade thresholds. Additionally, implied interest coverage is likely negative or very low given the high liabilities relative to EBIT, suggesting the company is currently vulnerable and dependent on favorable conditions to meet its commitments.\n\nDECISION: CCC",
+ "reasoning_tail": "C for imminent default.\n\nHere, EBIT positive, so probably CCC range.\n\nBut current ratio below 1 might force default soon if not managed.\n\nPerhaps CCC+ or CCC.\n\nThe scale has CCC+, CCC, CCC-.\n\nI need to choose one.\n\nAlso, revenue is given, but small.\n\nAnother ratio: EBIT / interest, but unknown.\n\nPerhaps based on the current ratio and leverage, it's below B.\n\nB ratings are for more vulnerable, but CCC for currently vulnerable.\n\nFor example, a company with liquidity issues might be CCC.\n\nIn this case, with negative working capital and high leverage.\n\nFinal decision.\n\nI think CCC is appropriate.\n\nBut let's see if it's CCC+ or CCC.\n\nSince no other information, and numbers are severe, probably CCC.\n\nThe retained earnings are large, but that might be a red flag if equity is small, indicating possible accounting issues.\n\nPerhaps it's a data error, but I have to use it.\n\nSo, issuer credit rating: CCC\n\nBut the label should be from the list.\n\nChoose one: CCC+, CCC, CCC-, etc.\n\nI think CCC is fine.\n\nPerhaps B- but with current ratio <1, worse.\n\nB- is for highly speculative, CCC for substantial risks.\n\nI think CCC is better.\n\nReason briefly: The company exhibits severe liquidity issues with a current ratio below 1, extremely high leverage (debt-to-equity ratio over 13), and low profitability relative to its debt load, indicating high financial distress and vulnerability to default.\n\nTherefore, CCC rating.\n\nDECISION: CCC\n\nBut the output should be DECISION: <label>\n\nAnd reason separately.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 259,
+ "out_tok": 4209,
+ "usd": 0.00936,
+ "utc": "2026-09-06T19:43:51.461991+00:00"
+}

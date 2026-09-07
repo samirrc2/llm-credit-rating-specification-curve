@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"AA+\",\n  \"confidence\": 4,\n  \"rationale\": \"Exceptional profitability (46% EBIT margin) and low leverage (debt-to-equity 0.68) outweigh adequate liquidity (current ratio 1.28) for investment grade.\"\n}",
+ "reasoning_tail": "re higher than annual revenue, which is concerning? Current liabilities 136.6B, revenue 82.9B, so liabilities due soon are larger than annual revenue, but with high margin, it might be manageable.\n\nRevenue covers it easily with EBIT to cover interest and principal payments.\n\nBut with cash flow, it should be fine.\n\nAlso, part of current liabilities are non-debt like payables, which are rolled over.\n\nSo not a big issue.\n\nI think overall high rating.\n\nBut to choose the label.\n\nLet's list the ratios:\n\n- Debt-to-equity: 0.68 (excellent)\n\n- EBIT margin: 46.3% (excellent)\n\n- Current ratio: 1.28 (fair, but okay)\n\n- Size: large (good)\n\n- Retained earnings high (good)\n\nSo for confidence, I think AA+.\n\nBut in the rating scale, AA+ is the second highest.\n\nAAA might be a stretch.\n\nThis seems like a strong AA+ company.\n\nPerhaps the revenue number is misread.\n\nRevenue: 82,886M, is that 82.886 billion? Yes.\n\nEBIT 38,398M, so operating income almost half revenue.\n\nLet me confirm if that's possible.\n\nFor example, a company with high fixed costs would have lower margin, but if digital or intellectual property, high margin.\n\nSo plausible.\n\nI think for credit purposes, it's strong.\n\nFinal decision: AA+\n\nRationale: Strong profitability and low leverage offset adequate liquidity.\n\nConfidence: 4 out of 5, since no industry detail.\n\nThe output must be JSON with decision, confidence (1-5), rationale <=25 words.\n\nRationale short.\n\n\"Strong earnings, low debt; current ratio adequate for industry norms.\"\n",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 262,
+ "out_tok": 5139,
+ "usd": 0.011399,
+ "utc": "2026-09-06T17:13:41.140331+00:00"
+}

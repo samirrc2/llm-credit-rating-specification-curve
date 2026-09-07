@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong profitability with a 64% gross margin and 18% operating margin, indicating efficient operations. However, it faces severe liquidity issues with a current ratio of 0.34, well below the safe threshold of 1.0, and extremely high leverage with a debt-to-equity ratio of approximately 11.35, reflecting significant financial risk and vulnerability to short-term obligations. These factors outweigh the profitability and place the issuer in the speculative grade range.\n\nDECISION: B",
+ "reasoning_tail": "able.\n\nBut let's look for a similar example.\n\nSuppose a company has high debt and low liquidity but profitable, it might be rated B.\n\nFor instance, some leveraged buyouts or highly leveraged firms are rated B or BB.\n\nHere, with current ratio 0.34, it's worse.\n\nPerhaps CCC+.\n\nBut I think for the sake of this task, I'll go with B-.\n\nThe answer must be exact label.\n\nReason briefly.\n\nReason: The issuer exhibits strong profitability with high gross and operating margins, but severe liquidity issues as indicated by a very low current ratio of 0.34 and extremely high leverage with a debt-to-equity ratio of approximately 11.35, suggesting high financial risk and speculative grade rating.\n\nThen, DECISION: B\n\nBut B is one of the options.\n\nB+ or B-?\n\nB is \"B\", which is between B+ and B-.\n\nThe scale has B+, B, B-, so B is a specific grade.\n\nSimilarly, CCC+, CCC, CCC-.\n\nI think B is fine.\n\nPerhaps B- to emphasize the risk.\n\nBut let's see the equity: shareholders' equity is 178,396M, which is positive, so not insolvent.\n\nRetained earnings 232,459M > equity, so there might be negative other components, like treasury stock or accumulated other comprehensive loss, but not specified, so I shouldn't infer.\n\nI think B is appropriate.\n\nDECISION: B\n\nBut in the scale, it's listed as \"B\", so that's fine.\n\nPerhaps CCC+.\n\nI think B is reasonable.\n\nAnother way: the current ratio is 0.34, which is less than 0.5, often associated with CCC ratings.\n\nBut with profitability, it might be B.\n\nI'll go with B.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 4324,
+ "usd": 0.009614,
+ "utc": "2026-09-06T19:03:58.729074+00:00"
+}

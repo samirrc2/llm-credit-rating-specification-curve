@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial weaknesses, including extremely high leverage with a debt-to-equity ratio of approximately 26.5 (total liabilities of $158,800M divided by shareholders' equity of $5,987M), a low operating margin of 2.01% (EBIT of $446M divided by revenue of $22,217M), and weak liquidity with a current ratio of 1.18. These factors indicate high vulnerability to default, as the company is likely not covering interest expenses adequately and depends on favorable conditions to meet obligations, placing it in the CCC category.\n\nDECISION: CCC",
+ "reasoning_tail": "g EBIT doesn't cover interest, so operating loss after interest.\n\nBut EBIT is before interest, so EBT would be negative.\n\nEBIT 446M, interest 4241M, EBT = 446 - 4241 = -3795M, loss.\n\nSo indeed, the company is not covering interest from operations, which is very bad.\n\nTherefore, it must rely on other sources or refinancing, so vulnerable.\n\nThus, CCC rating seems appropriate.\n\nMoreover, with current ratio 1.18, liquidity is tight.\n\nSo I think CCC+ or CCC.\n\nCCC+ is \"Currently vulnerable but within a favorable category\" or something, but I think CCC is fine.\n\nThe options include CCC+, CCC, CCC-.\n\nI think CCC is suitable.\n\nBut let's see if CCC+ is better.\n\nPerhaps B- if I underestimate debt.\n\nBut based on the calculation, coverage is poor.\n\nRetained earnings could be used, but it's not cash flow.\n\nSo I think CCC.\n\nFinal decision: CCC.\n\nBut the issuer might have other strengths, but only given data.\n\nReason briefly.\n\nReason: Extremely high leverage with debt-to-equity ratio of approximately 26.5, low operating margin of 2.01%, and weak liquidity with current ratio of 1.18 indicate high financial risk and vulnerability to default.\n\nThen DECISION: CCC\n\nBut CCC+ or CCC? I think CCC is fine.\n\nSince the scale has CCC+, which might be slightly better, but I think CCC is appropriate.\n\nPerhaps B- , but I think CCC based on coverage.\n\nAnother way: the company has retained earnings of 17,162M, which could be a buffer, but since equity is low, it might be tied up.\n\nI think CCC is reasonable.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 4486,
+ "usd": 0.009961,
+ "utc": "2026-09-06T17:52:21.495102+00:00"
+}

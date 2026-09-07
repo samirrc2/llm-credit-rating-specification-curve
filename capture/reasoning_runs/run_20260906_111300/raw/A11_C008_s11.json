@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows critical weaknesses in liquidity and solvency. The current ratio of 0.62 indicates an inability to cover short-term obligations, and negative shareholders' equity (-2,646M) confirms balance sheet insolvency, with total liabilities exceeding total assets. Although EBIT is positive at 3,230M, suggesting some operational profitability, the severe liquidity crunch and high leverage (total liabilities to EBIT of approximately 11.6x) place the company in a highly vulnerable position, dependent on favorable conditions to meet debt commitments.\n\nDECISION: CCC",
+ "reasoning_tail": "current ratio 0.62, it's vulnerable to any adverse event.\n\nEBIT 3,230M could cover interest, but without interest expense, hard to say.\n\nLet's estimate interest.\n\nSuppose average interest rate, say 5% on total debt, but total liabilities include non-debt items.\n\nTotal liabilities 37,604M, but not all are debt; it includes payables, deferred revenue, etc.\n\nCurrent liabilities 8,286M, which may include short-term debt.\n\nBut not specified.\n\nPerhaps assume that a portion is debt.\n\nBut it's messy.\n\nI think based on standard analysis, the combination of low liquidity and negative equity warrants a CCC rating.\n\nMoreover, the Altman Z-score is below 1.81, indicating distress.\n\nSo I'll go with CCC.\n\nBut which one? CCC+, CCC, or CCC-?\n\nSince current ratio is very low, 0.62, and negative equity, perhaps CCC.\n\nThe rating scale has CCC+, CCC, CCC-, so I need to choose.\n\nWithout more granularity, CCC is fine.\n\nPerhaps B- but I think CCC is more appropriate.\n\nAnother thing: retained earnings are high, which might indicate profitability, but the negative equity overshadows that.\n\nIn fact, negative equity means net worth is negative, so creditors are at risk.\n\nTherefore, I think CCC is justified.\n\nFinal decision.\n\nReason briefly: The company exhibits severe liquidity issues with a current ratio of 0.62 and insolvency as indicated by negative shareholders' equity. Despite positive EBIT, the high leverage and poor liquidity position it in the vulnerable CCC category.\n\nThen output DECISION: CCC\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3991,
+ "usd": 0.008878,
+ "utc": "2026-09-06T16:51:29.457587+00:00"
+}

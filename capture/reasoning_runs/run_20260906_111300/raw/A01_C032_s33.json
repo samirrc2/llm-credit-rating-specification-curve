@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Severe liquidity crisis with current ratio 0.35 and high leverage (debt-to-equity ~8.1), despite strong profitability.\"}",
+ "reasoning_tail": " B+ or B.\n\nBut here, the current ratio is extremely low.\n\nAnother point: diluted EPS 4.28, but not helpful for credit rating.\n\nAssets include long-term assets, but current assets are low.\n\nTotal assets 308B, current assets 56B, so most assets are long-term, illiquid.\n\nTo pay current liabilities, they need to convert assets or refinance.\n\nRefinancing might be difficult with high leverage.\n\nI think the rating should be in the B range.\n\nPerhaps BB- or B+.\n\nBut let's see the confidence.\n\nI recall that in credit rating models, a current ratio below 0.5 is often associated with CCC ratings.\n\nFor instance, Altman Z-score for bankruptcy prediction has working capital/total assets as a component.\n\nHere, working capital/total assets = -103,116 / 308,894 \u2248 -0.334, which is negative, indicating distress.\n\nAltman Z-score for manufacturing firms, but not specified.\n\nGenerally, negative working capital is bad.\n\nSo, I think CCC is appropriate.\n\nBut let's check the options: CCC+, CCC, CCC-.\n\nCCC is \"currently vulnerable\" and CC is \"highly vulnerable\".\n\nWith positive earnings, it might not be CC.\n\nCCC+ or CCC.\n\nRationale: \"Severe liquidity crisis with very low current ratio and high leverage.\"\n\nConfidence: I'm not sure, say 3, medium.\n\nBut let's see.\n\nPerhaps B- for vulnerability.\n\nI think CCC is better.\n\nAnother thing: the company has retained earnings 26,088M, which means it has been profitable, so not in immediate default, but liquidity issue.\n\nSo, currently vulnerable, CCC.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 3192,
+ "usd": 0.007141,
+ "utc": "2026-09-06T19:05:13.792891+00:00"
+}

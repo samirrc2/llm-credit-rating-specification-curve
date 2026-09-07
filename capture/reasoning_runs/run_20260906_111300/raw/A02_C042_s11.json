@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows severe financial distress with negative shareholders' equity (-8,465M) and negative retained earnings (-8,881M), indicating insolvency on a balance sheet basis and a history of substantial losses. Additionally, the current ratio of 0.92 highlights acute liquidity risk, as current liabilities exceed current assets, raising concerns about meeting short-term obligations despite recent profitability (net income of 511M in Q2 2026). Overall, the high leverage and weak liquidity position the issuer in a highly vulnerable credit category.\n\nDECISION: CCC+",
+ "reasoning_tail": "ers' equity: insolvent on balance sheet\n\n- Negative retained earnings: history of losses\n\n- Currentratio below 1: liquidity crisis risk\n\n- Positive recent profits: mitigates somewhat\n\n- Decent operating margin: 8% is ok\n\nFor a credit rating, the negative equity is a strong indicator for non-investment grade and low within that.\n\nI think BB is too high; probably B or lower.\n\nBetween B and CCC.\n\nB- or CCC+.\n\nPerhaps B-.\n\nLet's see the exact figures.\n\nCurrent ratio 0.92: very close to 1, so not disastrous.\n\nNet income 511M quarterly, which could help.\n\nBut the leverage is extreme.\n\nI think a reasonable rating is B.\n\nOr B-.\n\nCCC might be too low since they are profitable.\n\nStandard rating actions: For example, if a company has negative equity, rating might be downgraded to B or CCC depending on outlook.\n\nIn this case, with positive earnings, but negative equity and low liquidity, I think B- is appropriate.\n\nFinal decision? I'll go with CCC+ as they are vulnerable.\n\nBut let's check online or think.\n\nI recall that for companies like J.C. Penney before bankruptcy, rating was CCC, but it had losses.\n\nHere, despite negative equity, they have profits.\n\nSimilarly, some technology companies with negative equity were rated B or so if high growth.\n\nBut here, gross margin 20% might indicate not high tech, could be retail or something with thin margins.\n\nGross margin 20% is low, suggesting a competitive industry or low pricing power.\n\nOperating margin 8% is better, but still.\n\nI think CCC+.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 4306,
+ "usd": 0.009574,
+ "utc": "2026-09-06T19:55:17.188231+00:00"
+}

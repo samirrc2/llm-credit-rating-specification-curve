@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial distress with negative shareholders' equity (-8,465M), negative retained earnings (-8,881M), a current ratio below 1 (0.92), and total liabilities exceeding total assets, resulting in high leverage. Although operating income is positive (777M), indicating ongoing operations, the overall financial health points to high vulnerability and dependence on favorable conditions to meet obligations, aligning with a CCC rating.\n\nDECISION: CCC",
+ "reasoning_tail": "ting.\n\nBut let's see the retained earnings figure.\n\nRetained earnings -8,881M, which is a large deficit.\n\nTotal liabilities 39,015M, assets 30,558M, so net deficit 8,457M, close to equity number.\n\nIt's a highly leveraged, loss-making company with liquidity issues.\n\nSo, I think CCC is appropriate.\n\nPerhaps B- , but I think CCC is for vulnerable.\n\nRating scale: CCC: Currently vulnerable and dependent on favorable business, financial, and economic conditions to meet financial commitments.\n\nThat seems fitting.\n\nCC: Currently highly vulnerable.\n\nC: Currently highly vulnerable, and obligations have been suspended.\n\nWith positive EBIT, not C.\n\nCurrent ratio just below 1, not highly vulnerable, but vulnerable.\n\nSo CCC.\n\nCCC- or CCC+.\n\nI think standard is CCC.\n\nSince we need finest granularity, but with given info, hard to justify small differences.\n\nThe operating margin is 8.15%, which is not bad, but the leverage and losses overshadow it.\n\nPerhaps I can compute an approximate coverage.\n\nAssume interest expense: but not given.\n\nEBIT 777M, if interest is high, low coverage.\n\nFor high yield companies, if coverage below 1, very bad; above 2 might be okay, but not here.\n\nWith liabilities 39,015M, if average interest 5%, interest = 1950M approximately, but EBIT only 777M, so coverage less than 1, which is critical.\n\nThus, interest coverage likely very low.\n\nTherefore, high risk.\n\nBased on this, I think CCC rating.\n\nBut let's confirm the scale.\n\nFinal decision.\n\nI think CCC is reasonable.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3223,
+ "usd": 0.007191,
+ "utc": "2026-09-06T19:56:20.491812+00:00"
+}

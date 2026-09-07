@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"BBB-\",\n  \"confidence\": 3,\n  \"rationale\": \"High leverage (debt-to-equity ~3.83) offset by strong EBIT margin (47.6%) and substantial retained earnings, indicating adequate but cautious investment grade capacity.\"\n}",
+ "reasoning_tail": "rise, problem.\n\nSo BB+ might be appropriate.\n\nBut BBB- is investment grade, which might be preferred by some.\n\nI think BBB- is possible.\n\nLet's calculate the times interest earned roughly.\n\nSuppose average interest rate on debt is 5%, and assume that 70% of liabilities are interest-bearing, so interest-bearing debt = 0.7*91,085 = 63,759.5M, interest expense = 0.05*63,759.5 = 3,187.975M.\n\nCoverage = 8,386 / 3,188 \u2248 2.63, which is below 3, so weak, suggesting BB or B.\n\nIf 60% interest-bearing, debt 54,651M, interest 2,732.55M, coverage 3.07, around 3.\n\nSo borderline.\n\nWith current ratio 1.55, it's not strong liquidity.\n\nSo I think BB+ is reasonable.\n\nBB+ is \"speculative with low default risk\" or something.\n\nBBB- is \"adequate capacity to meet financial commitments, but subject to adverse conditions.\"\n\nWith coverage around 3, it could be BBB-.\n\nBut let's see the retained earnings: 22,252M, which is large, indicating a strong history, so perhaps investment grade.\n\nI think I'll go with BBB-.\n\nDecision: BBB-\n\nConfidence: 3\n\nRationale: High leverage but strong EBIT margin and retained earnings support investment grade with caution.\n\nRationale <=25 words.\n\n\"High debt offset by robust profitability and solid retained earnings, indicating adequate payment capacity.\"\n\n22 words.\n\nOr shorter.\n\n\"Strong EBIT margin and retained earnings mitigate high leverage, supporting low investment grade rating.\"\n\n19 words.\n\nYes.\n\nConfidence 3 because of the interest expense assumption.\n\nFinal decision.\n",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 260,
+ "out_tok": 5286,
+ "usd": 0.011719,
+ "utc": "2026-09-06T16:30:23.860270+00:00"
+}

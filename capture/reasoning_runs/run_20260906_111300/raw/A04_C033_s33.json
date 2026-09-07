@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Negative shareholders' equity and retained earnings, low current ratio (1.09), high liabilities vs. assets, despite positive EBIT, indicating high default risk.\"}",
+ "reasoning_tail": "oo high; B- is possible.\n\nBut let's see the  20,274M current liabilities; if they have short-term debt that needs repaying or refinancing, with low current ratio, it could be tough.\n\nSimilarly, total liabilities are high.\n\nI think CCC+ or B-.\n\nI'll go with B-, since E  BIT is positive and not small.\n\nRevenue 23,078M, so it's a going concern.\n\nBut rationale short.\n\nPerhaps B-.\n\nRating agencies might have specific cutoff.\n\nI recall that for a company with negative net worth, rating is typically CCC or B, depending.\n\nI think for this case, B-.\n\nThen confidence.\n\nConfidence from 1 to 5, 5 high.\n\nI'm moderately confident because of the negative equity and low liquidity, but positive EBIT prevents it from being CCC.\n\nSo confidence 4.\n\nRationale in 25 words or less.\n\nFirst, define rating.\n\n  I think: B-\n\n  Then JSON.\n\n  So {\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Negative equity and weak liquidity with positive but insufficient EBIT for liabilities.\"}\n\n  Rationale must be <=25 words.\n\n  Let's count: Negative equity and weak liquidity with positive but insufficient EBIT for liabilities. \u2014 6 words.\n\n  Words: Negative, equity, and, weak, liquidity, with, positive, but, insufficient, EBIT, for, liabilities. 12 words.\n\n  Okay.\n\n  To be more precise.\n\n  Another possibility: the current ratio is 1.09, which might be industry specific, but no industry given, so I assume it's low.\n\nRetained earnings negative large.\n\nShareholders' equity negative.\n\nI think B- is appropriate.\n\n  Yes.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 3946,
+ "usd": 0.008786,
+ "utc": "2026-09-06T19:12:00.518538+00:00"
+}

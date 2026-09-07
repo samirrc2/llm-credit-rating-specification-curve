@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"AA+\", \"confidence\": 4, \"rationale\": \"Strong profitability with 19% operating margin, low liabilities-to-equity (0.56), and ample retained earnings.\"}",
+ "reasoning_tail": " we ignore, EBIT coverage could be high.\n\nFrom retained earnings 45,920M, it can cover liabilities many times over.\n\nI think at least AA- or better.\n\nOn the 21-grade scale, BBB+ to AA- are investment grade.\n\nLet's assign.\n\nI think AA- is reasonable.\n\nOr A+.\n\nConfidence 3, since some data missing.\n\nRationale: Strong profitability, low leverage, high retained earnings.\n\nIn 25 words.\n\nFinal decision.\n\nPerhaps A+ to be conservative.\n\nBut with current ratio 1.52 and high equity, it should be better.\n\nList the scale:\n\nAAA, AA+, AA, AA-, A+, A, A-, BBB+, etc.\n\nFrom data, I think AA-.\n\nI am considering the numbers again.\n\nTotal assets 79,897M\n\nEquity 51,071M, so equity / assets = 51,071/79,897 = 0.639, so about 64% equity ratio.\n\nLiabilities only 36%, as I had.\n\nSo very conservative financial structure.\n\nOperating margin 19% stable.\n\nLiquidity adequate.\n\nTherefore, I think it merits AA+.\n\nMicrosoft has AAA with similar or higher, but lower equity ratio sometimes.\n\nIn 2021, Microsoft liabilities higher.\n\nBut I think for this, AA+ is fine.\n\nSince AAA is rare, I'll go with AA+.\n\nDecision: AA+\n\nConfidence: 4 (high, but not absolute since we don't have debt breakdown or industry)\n\nRationale: \"Strong margins, low leverage, ample retained earnings.\"\n\nWords: 6 words, under 25.\n\nOr \"High profitability and low debt support excellent credit quality.\"\n\nBut let's fit.\n\nNow for JSON.\n\n{ \"decision\": \"AA+\", \"confidence\": 4, \"rationale\": \"Strong profitability, low leverage, and large equity base.\" }\n",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 3918,
+ "usd": 0.008732,
+ "utc": "2026-09-06T16:38:18.206860+00:00"
+}

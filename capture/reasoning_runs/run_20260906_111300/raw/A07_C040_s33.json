@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity issues with a current ratio of 0.63, indicating insufficient current assets to cover current liabilities. High leverage is evident with a debt-to-equity ratio of approximately 2.71, and a low EBIT to total assets ratio of about 1.21% reflects weak profitability relative to asset base. Despite a strong EBIT margin of about 26.9%, the negative working capital of approximately -7,197 million and the distress signal from an estimated Altman Z-score of 0.3 suggest high bankruptcy risk, placing the issuer in the speculative grade with high vulnerability.\n\nDECISION: CCC+",
+ "reasoning_tail": "y finer granularity.\n\nThe task says \"finest granularity you can justify.\"\n\nBriefly reason in 1-3 sentences.\n\nI think with the information, B- or CCC+.\n\nBut let me see if there's a way to be more precise.\n\nPerhaps calculate quick ratio, but no inventory, etc., given.\n\nCurrent assets include cash, inventory, receivables, but not detailed, so can't calculate quick ratio.\n\nOnly current ratio given.\n\nRetained earnings 4,718M, which was earnings kept, but not helping immediate liquidity.\n\nShareholders' equity 51,462M, so book value exists, but if market value is low, company is undervalued.\n\nBut no market data.\n\nI think based on financial health, it's poor.\n\nI recall that for credit ratings, agencies like S&P or Moody's have criteria, but without specifics, I must rely on ratios.\n\nAnother ratio: EBIT to Interest, but no interest.\n\nPerhaps total liabilities / EBIT = 139,666 / 2,334 \u2248 59.84, so high leverage.\n\nDebt-to-EBITDA often, but no EBITDA, EBIT is similar.\n\nSo, I think speculative grade with high risk.\n\nI'll go with B-.\n\nOr CCC+, but let's see the ratings.\n\nThe scale has BBB-, BB+, BB, BB-, B+, B, B-, CCC+, etc.\n\nB- is Lower Medium Grade, High Risk.\n\nB- is already in high risk.\n\nGiven current ratio 0.63, it's critical.\n\nSome companies operate with low current ratio, but not below 0.7 or so, 0.63 is very low.\n\nFor example, if accounts payable is high, but still risky.\n\nI think rating should be CCC range.\n\nLet me search my knowledge.\n\nAltman Z-core 0.3 is deep distress, so CCC.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 244,
+ "out_tok": 3484,
+ "usd": 0.007764,
+ "utc": "2026-09-06T19:46:36.588088+00:00"
+}

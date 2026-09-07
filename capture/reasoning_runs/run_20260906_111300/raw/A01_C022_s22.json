@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Low current ratio (0.59) and high leverage offset strong interest coverage, indicating speculative grade risk.\"}",
+ "reasoning_tail": " unknown.\n\nAssume market cap is, say, P/E ratio, but no.\n\nDiluted EPS 0.51, but no shares, so can't find market cap.\n\nSo not possible.\n\nBut retained earnings/total assets = 36,413 / 71,487 \u2248 0.509\n\nEBIT/total assets = 979 / 71,487 \u2248 0.0137\n\nSales/total assets = 10,496 / 71,487 \u2248 0.147\n\nWorking capital/total assets = -8,913 / 71,487 \u2248 -0.1247\n\nWithout market cap, Z-score incomplete.\n\nBut the terms: negative working capital reduces score, retained earnings high is good, EBIT low, sales low.\n\nLikely low Z-score, indicating distress.\n\nSo supports speculative grade.\n\nI think BB is fine.\n\nNow, between BB+, BB, BB-, I'll choose BB as mid-point.\n\nOr BB- due to low current ratio.\n\nBut let's see the confidence.\n\nI think I'll go with BB-.\n\nNo, coverage is good.\n\nPerhaps BB.\n\nFinal decision: BB\n\nConfidence: 3\n\nRationale: \"Low liquidity and high leverage despite good coverage warrant speculative grade.\"\n\nWords: 8\n\nFor the rating, BB.\n\nBut the scale has BB+, BB, BB-.\n\nPerhaps I can say BB.\n\nIn the answer, I need to choose one.\n\nAnother thought: the operating margin 9% is decent, and revenue is good size.\n\nBut the current ratio is critical.\n\nPerhaps it's BBB- with a negative outlook or something, but I have to assign a rating.\n\nI think BB is reasonable.\n\nLet's look for similar examples, but I can't.\n\nPerhaps from the numbers, it could be BBB-.\n\nBut current ratio 0.59 is too low.\n\nFor instance, if current ratio was 0.9, it might be BBB-, but 0.59 is severe.\n\nSo I think BB.\n\nI'll go with BB.\n",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 5864,
+ "usd": 0.012991,
+ "utc": "2026-09-06T18:12:11.359809+00:00"
+}

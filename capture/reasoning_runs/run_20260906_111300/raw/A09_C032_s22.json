@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High profitability offset by extreme leverage (debt-to-equity ~8) and critical liquidity risk (current ratio 0.35).\"}",
+ "reasoning_tail": "ity to assets ratio: 33,995 / 308,894 \u2248 11%, low.\n\nLeverage is high.\n\nI think rating should be BB or B.\n\nLet me assign.\n\nI'll go with BB-, which is speculative, vulnerable.\n\nConfidence 3, since no debt maturity or interest info.\n\nRationale: High profitability offset by severe liquidity risk and extreme leverage.\n\nCount words: High profitability offset by severe liquidity risk and extreme leverage. 6 words.\n\nWithin limit.\n\nNow, for the JSON.\n\nDecision: BB-\n\nConfidence: 3\n\nRationale: \"High profitability offset by severe liquidity risk and extreme leverage.\"\n\nBut let's confirm the rating scale: BB- is on the list.\n\nPerhaps I can be finer.\n\nWith operating margin 32%, they might generate cash, but current liabilities are too high.\n\nCurrent liabilities 159,640M vs operating income 6,598M per quarter, so annualized op income ~26,392M, but current liabilities are due within a year, so coverage is poor if much of it is debt.\n\nBut not all current liabilities are debt; it could include payables, deferred revenue, etc.\n\nStill, it's a risk.\n\nI think BB- is reasonable.\n\nSome might say B+.\n\nBut let's see.\n\nAnother thought: the company has total assets 308,894M, so it's huge, and with good profits, it might be able to manage, but the ratios are alarming.\n\nI think for credit rating, agencies would downgrade for such liquidity.\n\nFor example, companies with current ratio below 1 often have ratings below investment grade.\n\nSpecifically, 0.35 is very low.\n\nSo, I'll stick with BB-.\n\nFinal answer.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 276,
+ "out_tok": 3128,
+ "usd": 0.007002,
+ "utc": "2026-09-06T19:08:48.978856+00:00"
+}

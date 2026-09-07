@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits significant financial weaknesses: a current ratio of 0.97 indicates immediate liquidity issues, while the high debt-to-equity ratio (~2.87) and low EBIT margin (~3.75%) suggest substantial solvency and profitability concerns. Implied interest coverage is likely below 1x, pointing to a high default risk and vulnerability under adverse conditions, aligning with a distressed credit profile.\n\nDECISION: CCC",
+ "reasoning_tail": "est granularity, since current ratio is almost 1 and EBIT positive, not CCC-, so probably CCC.\n\nCCC+ if slightly better, but not.\n\nI think assign CCC.\n\nNow, to confirm the scale: from BBB and below.\n\nBBB is lowest investment grade, which requires strong metrics, not here.\n\nBB might have moderate risk, but here risk seems high.\n\nBB+ is above BB.\n\nStandard ratings: BB+ to B- are speculative, with increasing risk.\n\nCCC is for higher vulnerability.\n\nS&P definition: CCC: Currently vulnerable and dependent on favorable conditions to meet commitments.\n\nThat seems to fit.\n\nB: More vulnerable than BB but currently has the capacity to meet its financial commitments. Adverse conditions will impair capacity or willingness.\n\nWith coverage likely below 1, capacity might not be there.\n\nSo I lean towards CCC.\n\nSimilarly, based on my earlier Z-score of 0.875, it suggests high distress.\n\nThus, I'll go with CCC.\n\nBut in the response, I need to output DECISION: <label>\n\nAnd be concise.\n\nReason in 1-3 sentences.\n\nSo: The issuer has poor liquidity with a current ratio below 1, high leverage (debt-to-equity ~2.87), and low profitability (EBIT margin ~3.75%). Implied interest coverage is below 1x, indicating high financial risk and distress. Therefore, the credit rating should be speculative with high vulnerability.\n\nThen assign CCC.\n\nBut I didn\"t include retained earnings, which is positive, but not sufficient to offset current issues.\n\nRevenue size, but ratios weak.\n\nSo I think CCC is reasonable.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 4100,
+ "usd": 0.009112,
+ "utc": "2026-09-06T20:00:32.495467+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong profitability (30% operating margin) and scale support rating, but weak liquidity (current ratio 1.07) increases risk.\"}",
+ "reasoning_tail": "152/7,096 \u2248 0.726, t=0.274 or 27.4%.\n\nThen EBT = net income / (1-t) = 5,152 / (1-0.274) = 5,152 / 0.726 \u2248 7,094.77M (close to EBIT)\n\nThen I = EBIT - EBT = 7,096 - 7,094.77 = 1.23M, very small.\n\nInterest coverage huge.\n\nBut this assumes almost no interest, which may not be true.\n\nFrom the difference: EBIT - net income = 7,096 - 5,152 = 1,944M = I + T\n\nT = t * EBT, EBT = EBIT - I\n\nSo 1,944 = I + t * (EBIT - I)\n\nBut t unknown.\n\nSince EBIT and net income are close, interest must be low, or taxes low.\n\nBut liabilities are high, so interest might be significant.\n\nPerhaps for this company, interest expense is low relative to EBIT.\n\nIn that case, interest coverage is high.\n\nWith high coverage and high margins, rating should be high.\n\nBut liquidity is poor.\n\nWith high profitability, they can manage liquidity.\n\nSo I think A- or BBB+.\n\nI'll go with A-.\n\nRationale: High profitability and margins, but low current ratio.\n\nConfidence 3.\n\nOr BBB+ to be conservative.\n\nLet's see the retained earnings.\n\nRetained earnings 167,281M, while equity is 79,277M, so as I thought, there must be negative components, like treasury stock.\n\nThat means the company has returned capital to shareholders, which is good for them, but for creditors, it reduces the equity cushion.\n\nSo leverage might be higher effectively.\n\nFor example, without buybacks, equity might be higher.\n\nBut as is, D/E is 1.43.\n\nWith high retained earnings, it suggests strong historical performance.\n\nI think A- is reasonable.\n\nFinal answer.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 5191,
+ "usd": 0.011519,
+ "utc": "2026-09-06T16:41:49.018291+00:00"
+}

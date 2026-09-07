@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows critical liquidity issues with a current ratio of 0.62, well below the healthy threshold of 1.0, indicating an inability to cover short-term obligations. Additionally, negative shareholders' equity of -2,646M demonstrates technical insolvency, as liabilities exceed assets, heightening default risk despite positive EBIT. These factors place the issuer in a highly vulnerable position, dependent on favorable conditions to meet financial commitments.\n\nDECISION: CCC",
+ "reasoning_tail": "vere liquidity risk, and negative shareholders' equity of -2,646M showing technical insolvency, despite positive EBIT. The company is highly vulnerable.\n\nSo rating CCC.\n\nBut retained earnings are high, which might suggest some strength, but it's contradicted by negative equity.\n\nI think CCC is reasonable.\n\nPerhaps B- , but I think CCC is better.\n\nLet's compare to real-world examples.\n\nI recall that when a company has negative tangible equity, ratings are often low.\n\nFor instance, in 2020, some airlines had negative equity and were rated B or CCC.\n\nHere, EBIT margin is high, which is odd.\n\nRevenue 5,251M, EBIT 3,230M, so operating expenses are only 2,021M, which is low, so high margin.\n\nBut with assets 35,008M, it might be a company with valuable assets but low revenue, like a patent company or something.\n\nBut for credit, the ratios are poor.\n\nI think I should go with CCC.\n\nSo, decision: CCC\n\nBut let's confirm the scale: CCC+, CCC, CCC-, CC, C.\n\nCCC is \"currently vulnerable\"\n\nCC is \"highly vulnerable\"\n\nC is \"imminent default\"\n\nSince EBIT is positive, not imminent default, so CCC or CC.\n\nBut current ratio very low, so CCC.\n\nPerhaps CCC+ if there's some strength.\n\nBut I think CCC is fine.\n\nOutput format: reason in 1-3 sentences, then DECISION: <label>\n\nSo, reason: The company exhibits severe liquidity risk with a current ratio of 0.62 and technical insolvency with negative shareholders' equity, indicating high vulnerability despite positive operating income.\n\nThen DECISION: CCC\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3818,
+ "usd": 0.008499,
+ "utc": "2026-09-06T16:51:28.005243+00:00"
+}

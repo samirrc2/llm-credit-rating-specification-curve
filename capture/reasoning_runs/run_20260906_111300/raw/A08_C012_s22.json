@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"AA-\", \"confidence\": 4, \"rationale\": \"High EBIT margin (46%), low debt-to-equity (0.68), but current ratio (1.28) suggests liquidity risk.\"}",
+ "reasoning_tail": " sgge  not capital-sensitive.\n\nI think it's fine for AA-.\n\nLets assume a standard rating.\n\nPerhaps BBB+ or A-.\n\nBut retained earnings large.\n\nLet's calculate the Altman Z-score for non-manufacturer.\n\nhe general formula is similar but with different weights.\n\nI think I should go with A+ or AA-.\n\nI found online that for investment grade:\n\n- Debt/EBITDA below 3 for BBB to A, but no EBITDA.\n\nEBITDA can be approximated as EBIT since depreciation not given.\n\nSo Liabilities/EBIT = 7.29, which is high, meaning debt burden is moderate to high.\n\n7.29 times EBIT to cover liabilities.\n\nBut liabilities include non-debt.\n\nLong-term liabilities 143,200M, EBIT 38,398M, so about 3.73 times, so  3.73 years of EBIT to cover long-term debt, which is okay.\n\nInterest coverage, if interest is, say, 5% of long-term debt, interest expense would be  0.05*143,200 = 7,160M, then EBIT/ interest = 38,398 / 7,160 \u2248 5.36, which is good, above 5 is strong for investment grade.\n\nSo coverage is good.\n\nSimilarly for short-term, but not necessary.\n\nSo coverage should be fine.\n\nLiquidity is the only concern with current ratio 1.28.\n\nBut for a large company,   be acceptable.\n\nSo overall, I think AA- or A+.\n\nI'll go with AA-.\n\nFor confidence, I'd say  3 or 4.\n\nRationale: \"Strong profitability and low leverage with satisfactory liquidity.\"\n\nLess than 25 words.\n\nDecision: AA-\n\nConfidence: 4\n\nRationale: \"High EBIT margin, moderate debt, adequate liquidity.\"\n\n20 words.\n\nBut I need to justify the rating.\n\nFinal answer.\n",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 255,
+ "out_tok": 4492,
+ "usd": 0.009978,
+ "utc": "2026-09-06T17:15:00.832205+00:00"
+}

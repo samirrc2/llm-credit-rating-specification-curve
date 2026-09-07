@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High leverage (debt/equity ~8x), critical liquidity (current ratio 0.35), strong profitability offset by refinancing risk.\"}",
+ "reasoning_tail": "nce: 3\n\nRationale: \"High debt, low current ratio, good margins but liquidity risk.\"\n\nCount words: High (1), debt (2), low (3), current (4), ratio (5), good (6), margins (7), but (8), liquidity (9), risk (10). 10 words.\n\nOr \"Elevated leverage and poor liquidity despite strong profitability.\"\n\nElevated (1), leverage (2), and (3), poor (4), liquidity (5), despite (6), strong (7), profitability (8). 8 words.\n\nGood.\n\nBut is B+ appropriate?\n\nPerhaps BB-.\n\nBB- is higher.\n\nBB- might be for companies with moderate risk.\n\nHere, current ratio 0.35 is severe.\n\nFor example, in retail, some companies have low current ratios but manage with cash flow.\n\nBut here, current liabilities are almost three times current assets.\n\nThe gap is large: 159,640M - 56,524M = 103,116M shortfall.\n\nWith annual operating income 26,392M, it could cover, but operating income is not cash flow; it includes non-cash items.\n\nStill, it indicates ability to generate cash.\n\nBut short-term, it might need refinancing.\n\nI think it's risky, so B+.\n\nLet's see diluted EPS 4.28, but not helpful.\n\nShareholders' equity is small, 33,995M vs liabilities 274,899M.\n\nBook value per share or something, but not given.\n\nI think B+ is reasonable.\n\nDecision: B+\n\nConfidence: 3\n\nRationale: \"High leverage, critical liquidity, strong operations.\"\n\n8 words.\n\nNow, JSON format: {\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High leverage, critical liquidity, strong operations.\"}\n\nBut rationale must be <=25 words, which it is.\n\nFinal answer.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 3876,
+ "usd": 0.008639,
+ "utc": "2026-09-06T19:05:17.299211+00:00"
+}

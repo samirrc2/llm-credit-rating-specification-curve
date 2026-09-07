@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Moderate leverage (debt-to-equity 1.45) but low profitability (ROA 1.4%) and potential weak interest coverage suggest speculative grade.\"}",
+ "reasoning_tail": "th current ratio good, it might be BB.\n\nBut let's decide.\n\nI think BB+ or BB.\n\nConfidence low because missing key data.\n\nBut I have to work with what I have.\n\nAnother metric: Shareholders' equity / Total liabilities = 18,899 / 27,401 \u2248 0.69, which is less than 1, so liabilities exceed equity, which is common but not ideal.\n\nDebt-to-capital = total liabilities / (total liabilities + equity) = 27,401 / (27,401 + 18,899) = 27,401 / 46,300 \u2248 0.592 or 59.2%, which is moderate.\n\nBut with low earnings, it's risky.\n\nI think I'll go with BB.\n\nBut let's see if there's a better fit.\n\nPerhaps BBB- if I assume conservative debt levels.\n\nBut EBIT is only 811M, and liabilities 27,401M, so even if half is debt, interest at 4% on 13,700M is 548M, coverage 811/548\u22481.48x, still low.\n\nFor BBB, coverage should be higher.\n\nS&P rating criteria: for BBB, EBITDA coverage around 3-4x, leverage 3-4x debt/EBITDA.\n\nHere, if EBITDA ~1000M, debt/EBITDA ~13-14 if debt 13,700M, which is high.\n\nSo probably not investment grade.\n\nAA or A is too high with this leverage and low earnings.\n\nA companies have strong coverage and low leverage.\n\nHere, leverage is moderate, coverage weak.\n\nSo likely BB or B.\n\nWith good liquidity, perhaps BB.\n\nRetained earnings low, but that might not be critical.\n\nI think BB is reasonable.\n\nBB+ or BB.\n\nLet's say BB.\n\nConfidence: 3, since missing interest expense.\n\nRationale: Moderate leverage but weak profitability and potential low interest coverage.\n\nUnder 25 words.\n\nFinal decision.\n",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 5178,
+ "usd": 0.011483,
+ "utc": "2026-09-06T19:01:08.943448+00:00"
+}

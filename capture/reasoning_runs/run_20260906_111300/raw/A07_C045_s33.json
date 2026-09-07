@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress based on key ratios: a critically low current ratio of 0.53 indicates poor short-term liquidity, a high debt-to-equity ratio of approximately 2.67 suggests excessive leverage, and implied interest coverage is likely below 1 (using reasonable assumptions for interest expense), meaning EBIT cannot cover interest costs. These factors, combined with negative working capital and low asset turnover, point to substantial credit risk.\n\nDECISION: CCC",
+ "reasoning_tail": "letter credit rating on the 21-grade scale\" and \"finest granularity you can justify.\"\n\nBased on the figures, I think CCC is appropriate.\n\nBut let's see if there's a standard mapping.\n\nI recall that for corporate bonds, ratings below B are for highly leveraged or distressed companies.\n\nFor example, companies with interest coverage below 1 are often CCC or lower.\n\nSimilarly, negative working capital is a red flag.\n\nSo, I think CCC is reasonable.\n\nPerhaps CCC-.\n\nBut I'll go with CCC.\n\nIn the Altman Z-score, Z<1.8 is distress, and below 1.0 is severe.\n\nHere 0.44, so very severe.\n\nBut credit ratings are forward-looking, but I have to use current figures.\n\nThe task says \"use only the figures provided and knowledge available on or before the most recent fiscal year.\"\n\nNo future info.\n\nSo, based on current ratios.\n\nFinal decision.\n\nI think CCC.\n\nBut let's confirm the rating scale.\n\nThe options are: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo CCC is one option.\n\nPerhaps I should specify.\n\nReason briefly: Poor liquidity with current ratio of 0.53, high leverage with debt-to-equity of 2.67, and implied interest coverage below 1 indicating inability to cover interest expenses, suggesting substantial credit risk.\n\nSo, DECISION: CCC\n\nBut CCC+ or CCC-? I think CCC is fine.\n\nSince EBIT is positive, not CC or C yet.\n\nC is default imminent, which isn't the case.\n\nCC is very high risk, but CCC might be better.\n\nI think CCC is appropriate.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3165,
+ "usd": 0.007064,
+ "utc": "2026-09-06T20:09:25.414184+00:00"
+}

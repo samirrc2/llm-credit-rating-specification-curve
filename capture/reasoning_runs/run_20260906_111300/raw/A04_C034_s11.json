@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Critical liquidity with current ratio 0.53, negative retained earnings, and high leverage indicate high default risk.\"}",
+ "reasoning_tail": "er current liabilities in about 4.67 years, but that's not direct since EBIT is pre-tax and not cash flow.\n\nCash flow might be less.\n\nBut no data.\n\nI think I'm overcomplicating.\n\nBased on standard analysis, this company has significant financial weaknesses.\n\nFinal decision: CCC+\n\nConfidence: 3\n\nRationale: Critical liquidity with current ratio 0.53, high debt, and accumulated losses point to high default risk.\n\n20 words.\n\nOr B- : \"Poor liquidity, negative retained earnings, and high leverage suggest speculative grade with high risk.\"\n\nBut CCC might be better.\n\nLet's see the numbers again.\n\nCurrent liabilities: 6,106M\n\nCurrent assets: 3,244M\n\nDeficit: 2,862M\n\nEBIT 1,307M, so if EBIT is cash flow, it could cover the deficit in about 2.2 years, but EBIT not cash flow, and there are other obligations.\n\nAlso, interest payments, etc.\n\nI think CCC is reasonable.\n\nBut let's check retained earnings: -12,237M is large, total assets 58,573M, so about 21% of assets are negative retained earnings, which is bad.\n\nShareholders' equity is positive, so not technically insolvent.\n\nBut for rating, I think B or CCC.\n\nI found online or recall that companies with current ratio below 1 often have ratings below B.\n\nFor example, some distressed companies have CCC ratings.\n\nHere, EBIT positive, so perhaps B-.\n\nI'll go with B-.\n\nDecision: B-\n\nConfidence: 3\n\nRationale: Very low current ratio, negative retained earnings, and high leverage indicate substantial credit risk.\n\n21 words.\n\nNow for JSON output.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3422,
+ "usd": 0.007637,
+ "utc": "2026-09-06T19:15:25.533441+00:00"
+}

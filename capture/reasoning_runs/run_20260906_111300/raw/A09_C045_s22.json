@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Severe liquidity risk with current ratio 0.53 and high leverage, partially offset by strong profitability margins.\"}",
+ "reasoning_tail": "0.53, it's below investment grade.\n\nTypically, investment grade requires current ratio above 1, and better ratios.\n\nFor example, BBB companies often have current ratios above 1.2 or so.\n\nHere it's 0.53, so speculative grade.\n\nBB range might be for companies with moderate risk.\n\nBut 0.53 is severe.\n\nPerhaps B+.\n\nLet's assign.\n\nI think B+ with medium confidence.\n\nConfidence: 3, since no trend or industry.\n\nRationale: \"Low current ratio of 0.53 indicates severe liquidity risk despite good margins.\"\n\nIn 25 words or less.\n\n\"Severe liquidity risk due to current ratio 0.53, high leverage, partially offset by strong profitability.\"\n\nBut profitability doesn't directly help short-term.\n\nPerhaps B-.\n\nLet's look for similar cases.\n\nIn reality, companies like some in energy or airlines might have low current ratios during crises and be rated CCC, but here profitability is strong.\n\nGross margin 65%, operating margin 23%, so likely a good business.\n\nBut the balance sheet is weak.\n\nShareholders' equity is 31,808M, which is reasonable.\n\nBut current liabilities are high relative to current assets.\n\nPerhaps the company has a line of credit or can refinance, but no information.\n\nBased solely on data, I think speculative grade with high risk.\n\nRating: B+\n\nConfidence: 3\n\nRationale: \"Very low current ratio of 0.53 poses high liquidity risk.\"\n\nOr to include more.\n\n\"High leverage and poor liquidity offset by strong profitability; rating reflects default risk.\"\n\nBut need to be concise.\n\nFinal answer.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 2733,
+ "usd": 0.006136,
+ "utc": "2026-09-06T20:10:26.508640+00:00"
+}

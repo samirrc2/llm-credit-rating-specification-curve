@@ -1,0 +1,97 @@
+{
+ "_meta": {
+  "seed": 42,
+  "providers": [
+   "openai",
+   "google"
+  ],
+  "n_models": 4,
+  "models": [
+   "gemini-2.5-flash",
+   "gemini-3.5-flash",
+   "gpt-5-nano-2025-08-07",
+   "gpt-5.4-nano"
+  ],
+  "score": "per-item Gini-Simpson SIS on IG/HY across each model's spec x seed cells",
+  "transfer_defn": "Spearman(SIS_A, SIS_B) and AUC of SIS_A flagging items with above-median SIS_B"
+ },
+ "crossmodel_transfer": {
+  "pairs": [
+   {
+    "model_a": "gemini-2.5-flash",
+    "model_b": "gemini-3.5-flash",
+    "cross_provider": false,
+    "n_items": 45,
+    "spearman": 0.248,
+    "auc": 0.598
+   },
+   {
+    "model_a": "gemini-2.5-flash",
+    "model_b": "gpt-5-nano-2025-08-07",
+    "cross_provider": true,
+    "n_items": 45,
+    "spearman": 0.512,
+    "auc": 0.745
+   },
+   {
+    "model_a": "gemini-2.5-flash",
+    "model_b": "gpt-5.4-nano",
+    "cross_provider": true,
+    "n_items": 45,
+    "spearman": 0.727,
+    "auc": 0.907
+   },
+   {
+    "model_a": "gemini-3.5-flash",
+    "model_b": "gpt-5-nano-2025-08-07",
+    "cross_provider": true,
+    "n_items": 45,
+    "spearman": 0.592,
+    "auc": 0.814
+   },
+   {
+    "model_a": "gemini-3.5-flash",
+    "model_b": "gpt-5.4-nano",
+    "cross_provider": true,
+    "n_items": 45,
+    "spearman": 0.138,
+    "auc": 0.529
+   },
+   {
+    "model_a": "gpt-5-nano-2025-08-07",
+    "model_b": "gpt-5.4-nano",
+    "cross_provider": false,
+    "n_items": 45,
+    "spearman": 0.386,
+    "auc": 0.699
+   }
+  ],
+  "all_pairs": {
+   "n": 6,
+   "spearman_median": 0.449,
+   "spearman_mean": 0.434,
+   "spearman_min": 0.138,
+   "spearman_max": 0.727,
+   "auc_median": 0.722,
+   "auc_mean": 0.715
+  },
+  "cross_provider_pairs": {
+   "n": 4,
+   "spearman_median": 0.552,
+   "spearman_mean": 0.492,
+   "spearman_min": 0.138,
+   "spearman_max": 0.727,
+   "auc_median": 0.779,
+   "auc_mean": 0.749
+  },
+  "note": "Transfer is inconsistent across model pairs (see range); a new model should be re-scored on the grid rather than reusing another model's scores."
+ },
+ "aliasing_diagnostics": {
+  "n_runs": 48,
+  "coding": "effect coding (k-1 columns per k-level factor)",
+  "main_effect_max_offdiag_corr_distinct_axes": 0.062,
+  "main_x_2FI_max_abs_corr_nonparent": 0.333,
+  "main_x_2FI_max_abs_corr_raw": 0.333,
+  "note": "Main effects are near-orthogonal across factors (max off-diagonal correlation between distinct main effects); the largest correlation between a main effect and a two-factor interaction of OTHER factors quantifies residual aliasing. Variance decomposition reported descriptively only."
+ }
+}

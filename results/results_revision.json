@@ -1,0 +1,38 @@
+{
+ "_meta": {
+  "seed": 42,
+  "purpose": "NLP major-revision offline analyses",
+  "n_items_with_Zpp": 45
+ },
+ "R3_7.boundary_distance_severity": {
+  "spearman_flip_vs_distance": -0.049,
+  "by_proximity_tercile": [
+   {
+    "band": "near boundary",
+    "n": 15,
+    "mean_flip": 0.2071
+   },
+   {
+    "band": "mid",
+    "n": 15,
+    "mean_flip": 0.2773
+   },
+   {
+    "band": "far",
+    "n": 15,
+    "mean_flip": 0.2711
+   }
+  ],
+  "note": "distance = |Altman Z'' - 2.60| (the IG/HY cut). Negative Spearman = instability concentrates near the boundary; SIS(=flip) tracks it."
+ },
+ "R3_6.turnover_recast": {
+  "pct_items_with_any_modal_call_change_across_specs": 1.0,
+  "mean_frac_specs_deviating_from_global_modal": 0.4097,
+  "note": "Replaces the 'mechanical modal-follow turnover' construct with a direct instability measure: how often the modal buy/hold/sell call changes across specifications."
+ },
+ "R3_2.aliasing_diagnostics": {
+  "main_effect_max_offdiag_corr": 0.062,
+  "main_x_2FI_max_abs_corr": 0.333,
+  "note": "Reproducibly recomputed from the frozen specification grid in analysis/crossmodel_aliasing.py (effect-coded, full 48-run design). Main effects mutually near-orthogonal; residual main-vs-2FI aliasing up to 0.333. Variance shares reported as descriptive partitions."
+ }
+}

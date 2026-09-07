@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extreme leverage (debt/equity 11.35) and critically low liquidity (current ratio 0.34) indicate high default risk.\"}",
+ "reasoning_tail": " a few companies like Apple or Microsoft have that scale, but their liabilities are not that high proportionally.\n\nApple in 2023 had total assets around $350B, liabilities $280B, equity $70B, debt-to-equity about 4, which is high but not 11.\n\nAnd current ratio was better.\n\nBut this is hypothetical.\n\nBased on data, I think CCC.\n\nPerhaps B-.\n\nLet's think about the numbers.\n\nNet income 5,290M quarterly, so about 21B annualized.\n\nIf interest expense were, say, high, but not given.\n\nAssume that with high liabilities, interest is high.\n\nBut no data.\n\nThe current ratio is the biggest concern.\n\nIn credit analysis, a current ratio below 0.5 is often associated with CCC ratings.\n\nFor example, companies in Chapter 11 might have ratios like that.\n\nSo, I think CCC is justified.\n\nPerhaps CC, but that might be too low if they are still profitable.\n\nCCC is for \"currently vulnerable\" and CC for \"highly vulnerable\".\n\nWith profitability, CCC might be better.\n\nBut liquidity is critical.\n\nI think CCC.\n\nFor confidence, since the ratios are extreme, I can be confident.\n\nConfidence 4 out of 5, since I don't have all details like interest coverage.\n\nRationale: \"Extreme leverage (debt/equity 11.35) and critically low liquidity (current ratio 0.34) indicate high default risk.\"\n\nThat's 13 words.\n\nSo, decision: CCC\n\nBut let's confirm the scale: CCC is one of the options.\n\nCCC+, CCC, CCC- are separate.\n\nI think CCC is fine.\n\nPerhaps CCC- to be conservative.\n\nBut I think CCC is appropriate.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 273,
+ "out_tok": 3343,
+ "usd": 0.007471,
+ "utc": "2026-09-06T19:02:01.319360+00:00"
+}

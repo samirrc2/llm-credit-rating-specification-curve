@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company exhibits severe financial distress with a current ratio below 1 (0.92), indicating liquidity issues as current assets cannot cover current liabilities. Negative shareholders' equity (-8,465M) and extremely high leverage (total liabilities of 39,015M exceed total assets of 30,558M) signal insolvency risk. While EBIT is positive (777M), reflecting operational viability, retained earnings (-8,881M) show substantial accumulated losses, outweighing profitability. Based on these factors and historical credit rating principles (e.g., Altman Z-score equivalents indicating high distress), the issuer falls into the speculative-grade category with very high default risk, aligning with the CCC tier due to high vulnerability but not imminent default.\n\nDECISION: CCC",
+ "reasoning_tail": "81M could be improving if the company is turning around, but I have to go by current data.\n\nEBIT is positive, so it might be recovering, but with the given data, the situation is still bad.\n\nFor credit rating, it's forward-looking to some extent, but based on current information.\n\nSince I need to use knowledge predating, I should not assume improvement.\n\nSo, I think a rating in the CCC range is reasonable.\n\nSpecifically, perhaps CCC.\n\nLooking back, in the Altman Z-score, it's very negative, so CCC.\n\nBut let's see if there are specific rating guidelines.\n\nI recall that in Moody's or S&P, negative equity often leads to B or lower.\n\nFor example, companies rated B have high yield and high risk, CCC have substantial risk.\n\nEBIT is positive, so not in immediate default.\n\nTherefore, I think it could be CCC+ or CCC.\n\nBut with current ratio below 1, that points to liquidity crisis possible.\n\nHence, CCC.\n\nMoreover, in the scale, BB and above might have positive equity.\n\nHere, equity is negative, so speculative grade low.\n\nBB might still have some financial flexibility.\n\nHere, no flexibility.\n\nSo, I think B- or CCC.\n\nB- is \"more vulnerable\", CCC is \"vulnerable and dependent on favorable conditions\".\n\nWith negative equity and low current ratio, favorable conditions needed.\n\nCCC- might be too low since it's not yet defaulting.\n\nC is near default.\n\nCC is highly vulnerable, probably in distress.\n\nI think CCC is appropriate.\n\nBut let's see the decision.\n\nPerhaps I can output.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3841,
+ "usd": 0.00855,
+ "utc": "2026-09-06T19:57:50.061478+00:00"
+}

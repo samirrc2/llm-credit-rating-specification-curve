@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity issues with a current ratio of 0.53, indicating inability to cover short-term obligations, and negative retained earnings of -12,237M reflect accumulated losses and weak financial health. High leverage is evident from a debt-to-equity ratio of approximately 3.4, and while EBIT is positive at 1,307M, it is insufficient to mitigate the elevated default risk given the liquidity and solvency concerns.\n\nDECISION: CCC",
+ "reasoning_tail": " is reasonable.\n\nBut let's see if BB- is possible.\n\nBB- is below BB, but still, with current ratio 0.53, it's too low for BB.\n\nBB ratings might have current ratio above 1.\n\nFor example, a company with current ratio 1.2 might be BB-, but 0.53 is much worse.\n\nSimilarly, negative retained earnings.\n\nSo, I think B or CCC.\n\nNow, B+ to B- range.\n\nB+ is higher than B.\n\nPerhaps B-.\n\nBut CCC might be better.\n\nI recall that CCC ratings are for companies with high default risk, possibly in distress but not defaulted.\n\nThis seems to fit.\n\nMoreover, the retained earnings are deeply negative, which might indicate severe past issues.\n\nBut EBIT positive, so operations are ongoing.\n\nTherefore, I'll go with CCC.\n\nBut let's confirm the decision.\n\nFinal answer must be one label.\n\nReason briefly: Based on extremely low current ratio (0.53), negative retained earnings, and high leverage, the issuer exhibits significant liquidity and solvency risks, indicating high vulnerability to default.\n\nThus, a CCC rating is assigned.\n\nCCC+ or CCC-?\n\nThe scale has CCC+, CCC, CCC-.\n\nSince EBIT is positive, perhaps CCC+.\n\nBut current ratio is very low, so maybe CCC.\n\nI think CCC is fine.\n\nPerhaps B-, but I think CCC is more indicative of current vulnerability.\n\nAnother thought: shareholders' equity is positive, so not CCC-.\n\nCCC- is for very weak companies.\n\nHere, equity is 12.8B, assets 58.6B, so not near zero.\n\nBut with negative working capital, short-term risk.\n\nI think CCC is appropriate.\n\nSo, decision: CCC\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 3378,
+ "usd": 0.007535,
+ "utc": "2026-09-06T19:15:16.066142+00:00"
+}

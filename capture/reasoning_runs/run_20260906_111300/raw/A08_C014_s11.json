@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity 1.49), low EBIT margin (4.4%), and estimated weak interest coverage suggest high default risk.\"}",
+ "reasoning_tail": "\n\nBut current performance is weak.\n\nI think CCC+ or CCC.\n\nBut let's confirm with the data.\n\nPerhaps I can calculate the Altman Z-score more accurately.\n\nEarlier Z=1.63.\n\nAltman Z for non-manufacturing might be different, but I used the manufacturing formula.\n\nFor private companies, there is a modified Z-score.\n\nBut similar.\n\nZ<1.8 indicates high risk.\n\nIn rating terms, that might be B or CCC.\n\nFor example, a Z-score below 1.8 often corresponds to ratings below B.\n\nBut it's not direct.\n\nI think based on the low coverage and high leverage, I'll go with CCC+ or CCC.\n\nThe rating scale has CCC+, CCC, CCC-.\n\nWith confidence.\n\nRationale in 25 words.\n\nFinal decision.\n\nPerhaps BB- since it has some strengths.\n\nBut the numbers suggest worse.\n\nLet's see the retained earnings: 33,239M, which is large, so it can absorb losses.\n\nBut with EBIT only 1,498M, it might not be sufficient.\n\nI think CCC+.\n\nBut let's choose.\n\nI'll go with CCC+.\n\nConfidence: 3, since I have to estimate interest.\n\nRationale: Low interest coverage and high leverage indicate high default risk.\n\nWithin 25 words.\n\n\"Low EBIT margin, high leverage, and weak liquidity suggest high credit risk.\"\n\nNow for the JSON.\n\nBut I need to pick one label.\n\nCCC+ is on the scale.\n\nOr B-.\n\nBut from the coverage estimate, below 1.5x is CCC.\n\nSo CCC+.\n\nDecision: CCC+\n\nConfidence: 3 (medium, because of estimates)\n\nRationale: \"High leverage, low profitability, and estimated weak interest coverage indicate high default risk.\"\n\n20 words.\n\nYes.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 5750,
+ "usd": 0.012732,
+ "utc": "2026-09-06T17:26:25.042556+00:00"
+}

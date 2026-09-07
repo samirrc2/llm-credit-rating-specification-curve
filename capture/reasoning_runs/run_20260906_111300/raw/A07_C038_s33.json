@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress based on the provided figures. The current ratio of 0.63 indicates critical liquidity issues, as current assets (2,495M) cannot cover current liabilities (3,973M), suggesting imminent short-term payment difficulties. High leverage is evident with total liabilities at 52,835M versus shareholders' equity of only 3,652M, yielding a debt-to-equity ratio of approximately 14.5, which is unsustainable. Additionally, retained earnings of -5,086M reflect significant historical losses, compounding default risk despite a positive operating income. These metrics collectively point to vulnerability to non-payment.\n\nDECISION: CCC",
+ "reasoning_tail": "es + equity = 52,835 + 3,652 = 56,487M\n\nBut total assets are 63,190M, so there must be non-controlling interest or something, but it's not given. Equity should include that, or perhaps it's a mistake.\n\nPerhaps current liabilities are part of total liabilities, but let's check.\n\nGenerally, total liabilities include both current and non-current.\n\nBut 52,835 + 3,652 = 56,487 \u2260 63,190; difference is 6,703M.\n\nThat means there is other equity or misstatement, but for credit rating, we have to go with the figures.\n\nI think the equity or liabilities are misstated here.\n\nPerhaps \"shareholders' equity\" is only for common, and there is preferred, but not given.\n\nI think we use the given.\n\nTotal capital = total assets = 63,190M.\n\nFor ratios, debt to assets is 52,835 / 63,190 \u2248 83.6%.\n\nSimilarly, equity ratio 3,652 / 63,190 \u2248 5.78%.\n\nReturn on equity: EBIT / equity = 1,161 / 3,652 \u2248 0.318 or 31.8%, which is high, but with leverage amplifying.\n\nBut risk is high with low coverage.\n\nI think I should conclude for rating.\n\nBased on liquidity crisis and high leverage, the issuer is vulnerable to default, so CCC rating.\n\nFor granularity, since no other info, I'll go with CCC, the base, not plus or minus.\n\nOr B-, but I think CCC is for vulnerable.\n\nIn practice, current ratio below 1 is a serious red flag.\n\nEB positive means not loss-making currently, but past losses.\n\nRetained earnings negative 5,086M while equity 3,652M, so magnitude large.\n\nTherefore, CCC is appropriate.\n\nI think DECISION: CCC\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 244,
+ "out_tok": 3933,
+ "usd": 0.008747,
+ "utc": "2026-09-06T19:36:56.936798+00:00"
+}

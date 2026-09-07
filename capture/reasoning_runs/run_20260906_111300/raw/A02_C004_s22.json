@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the issuer exhibits moderate credit risk primarily due to low profitability, with an operating margin of 4% and net margin of approximately 2.2%, which could pressure debt servicing ability. The estimated interest coverage ratio is around 3x (using an assumed 21% tax rate), which is borderline for investment grade, but this is partially offset by strong liquidity (current ratio of 2.04) and a solid equity base with low leverage (debt-to-equity of approximately 0.7). Considering the size and retained earnings, the issuer fits at the lower end of investment grade.\n\nDECISION: BBB-",
+ "reasoning_tail": "erage is borderline.\n\nOperating income 941M, if I assume depreciation, say 20% of revenue or something, but arbitrary.\n\nRevenue 22,387M, operating expenses 3,760.27M as I calculated earlier, but operating expenses include SG&A and depreciation.\n\nIf depreciation is, say, 10% of revenue, ~2,239M, then EBITDA = EBIT + depreciation = 941 + 2,239 = 3,180M, but depreciation is part of operating expenses, so if I add back, EBITDA could be higher.\n\nOperating income is EBIT, so EBITDA = EBIT + depreciation and amortization.\n\nBut I don't have D&A.\n\nFrom the difference, gross profit 4,701M, operating income 941M, so operating expenses 3,760M, which includes D&A.\n\nIf D&A is, say, 1,000M, then EBITDA = 941 + 1,000 = 1,941M for quarter, annualized 7,764M.\n\nThen debt/EBITDA, if total debt is, say, 50,000M (estimate), debt/EBITDA = 50,000 / 7,764 \u2248 6.44, which is high, around B or BB.\n\nBut too many assumptions.\n\nI think it's better to stick with the coverage ratio.\n\nEstimated interest coverage 2.94x.\n\nIn credit rating, for industrial companies, coverage below 3x may be BB+ or BBB- depending on other factors.\n\nHere, with good liquidity and size, I'll go with BBB-.\n\nSo rating BBB-.\n\nBut let's confirm the scale.\n\nThe scale has BBB+, BBB, BBB-, then BB+, etc.\n\nBBB- is the lowest investment grade.\n\nDECISION: BBB-\n\nReason: Low operating margin of 4% and estimated interest coverage around 3x indicate moderate credit risk, offset by strong liquidity with current ratio of 2.04 and large equity base.\n",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 259,
+ "out_tok": 4829,
+ "usd": 0.010718,
+ "utc": "2026-09-06T16:15:05.605261+00:00"
+}

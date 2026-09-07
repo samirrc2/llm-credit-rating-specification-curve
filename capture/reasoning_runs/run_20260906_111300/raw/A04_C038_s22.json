@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extremely high debt-to-equity ratio (14.47), poor liquidity (current ratio 0.63), negative retained earnings, and low EBIT relative to liabilities indicate high default risk.\"}",
+ "reasoning_tail": "quity is only about 6.5% of total capital (equity / (liabilities + equity) = 3,652 / (52,835 + 3,652) = 3,652 / 56,487 \u2248 0.0646 or 6.46%).\n\nSo highly leveraged.\n\nIn credit rating, such companies are rated low.\n\nPerhaps BB or B, but I think lower.\n\nLet's see retained earnings -5,086M, which is worse than negative equity in some cases, but equity is positive.\n\nShareholders' equity 3,652M, so not negative equity.\n\nBut still.\n\nI think rating should be CCC+ or CCC.\n\nBut Z-score suggests distress.\n\nPerhaps CCC.\n\nFinal decision.\n\nI'll go with CCC.\n\nConfidence: 4, since I don't have interest coverage directly.\n\nRationale: Very high leverage, poor liquidity, negative retained earnings, low EBIT coverage implied.\n\nIn 25 words: \"Extremely high debt-to-equity ratio, low current ratio, negative retained earnings, and marginal profitability indicate high default risk.\"\n\nWord count: \"Extremely high debt-to-equity ratio, low current ratio, negative retained earnings, and marginal profitability indicate high default risk.\" That's 12 words.\n\nMarginal profitability? EBIT margin is high, but absolute EBIT low relative to debt.\n\n\"High leverage, poor liquidity, historical losses, and low interest coverage implied.\"\n\nBut not specified.\n\nI think CCC is fine.\n\nPerhaps B- but I think CCC is better.\n\nAnother thing: revenue is 2,738M, total assets 63,190M, which is unusual; high assets low revenue, might be a utility or capital-intensive, but EBIT margin high, so perhaps not.\n\nBut anyway.\n\nI think CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 4054,
+ "usd": 0.009021,
+ "utc": "2026-09-06T19:36:15.703453+00:00"
+}

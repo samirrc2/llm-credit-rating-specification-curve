@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress with an extremely low current ratio of 0.35, indicating insufficient liquidity to cover short-term obligations, and high leverage with a debt-to-equity ratio of approximately 8.09, suggesting unsustainable debt levels. Additionally, implied interest coverage is likely below 1 (based on reasonable interest rate assumptions), further signaling vulnerability to default despite positive EBIT.\n\nDECISION: CCC-",
+ "reasoning_tail": "ke a non-financial company.\n\nI think I have to assign a low rating.\n\nI'll go with CCC-.\n\nOr CC.\n\nLet's decide.\n\nSince the current ratio is below 0.5, and leverage high, I think CCC- is appropriate.\n\nCCC- is defined as \"currently vulnerable to nonpayment\" by S&P.\n\nCC is \"currently highly vulnerable to nonpayment.\"\n\nGiven the positive EBIT, CCC- might be better.\n\nBut the deficit is large.\n\nPerhaps B- , but that seems too high.\n\nB- is for more stable situations.\n\nFor example, a company with current ratio around 1 might be B.\n\nHere 0.35 is worse.\n\nI think CCC.\n\nBut to be finest granularity, CCC-.\n\nThe scale has CCC+, CCC, CCC-, so CCC- is finer than CCC.\n\nSimilarly, CC is lower.\n\nI think CCC- is reasonable.\n\nOr perhaps CC.\n\nLet's calculate the interest coverage if I assume short-term debt.\n\nBut no data.\n\nAnother ratio: Cash flow from operations to current liabilities, but not given.\n\nI think based on available, CCC-.\n\nSo, reason: The issuer has extremely low current ratio (0.35), high leverage (debt-to-equity ~8.09), and implied interest coverage below 1, indicating severe financial distress and high default risk.\n\nThen DECISION: CCC-\n\nBut let's confirm the debt-to-equity.\n\nTotal liabilities / equity = 274,899 / 33,995 = let's calculate exactly: 274899 / 33995 = ?\n\n33995 * 8 = 271960, subtract from 274899 = 2939, so 8 + 2939/33995 \u2248 8 + 0.0865 = 8.0865, so 8.09.\n\nYes.\n\nEBIT / total liabilities = 6598 / 274899 \u2248 0.024, very low.\n\nFor rating, it's poor.\n\nI think CCC- is justified.\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 5074,
+ "usd": 0.011245,
+ "utc": "2026-09-06T19:09:24.849019+00:00"
+}

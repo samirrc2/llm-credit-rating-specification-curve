@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows moderate leverage with a debt-to-equity ratio of approximately 0.70 (total liabilities / shareholders' equity = 58,979 / 84,113), indicating reasonable financial structure. However, profitability is weak with a low operating margin of 4% and an annualized ROE of about 2.3%, suggesting limited earnings capacity. Liquidity is strong with a current ratio of 2.04, providing good short-term resilience. Based on the estimated interest coverage ratio of approximately 3.3x (assuming a 25% tax rate), which is at the lower end for investment grade, and considering the thin margins, the issuer fits a BBB rating, reflecting adequate but vulnerable creditworthiness.\n\nDECISION: BBB",
+ "reasoning_tail": ".\n\nSo BBB seems reasonable.\n\nPerhaps A- if I'm optimistic, but margin is low.\n\nA- might have higher margins.\n\nFor example, a company with 4% operating margin might be rated lower if in a volatile industry.\n\nBut no industry, so general.\n\nI think BBB is fine.\n\nFinal decision.\n\nThe scale has BBB+, BBB, BBB-.\n\nWith coverage 3.3x, it might be BBB.\n\nBut let's confirm the calculation.\n\nNet income 491M\n\nTax rate assumed 25%, so EBT = 491 / (1-0.25) = 491 / 0.75 = 654.666... M\n\nEBIT = operating income = 941M\n\nInterest = EBIT - EBT = 941 - 654.666 = 286.334 M\n\nCoverage = EBIT / interest = 941 / 286.334 \u2248 3.285\n\nYes.\n\nIf tax rate is 30%, EBT = 491 / 0.7 \u2248 701.428M\n\nInterest = 941 - 701.428 = 239.572M\n\nCoverage = 941 / 239.572 \u2248 3.926, which is better.\n\nBut tax rate not given, so I used 25% as a common assumption.\n\nIn 2026, corporate tax rate might be different, but around 21% in US, but varies.\n\nUS federal corporate tax rate is 21%, but with state taxes, effective higher.\n\nAssume 25% for simplicity.\n\nWith 25%, coverage 3.3x.\n\nIf tax rate higher, coverage better.\n\nBut I think 3.3x is plausible.\n\nThus, for BBB rating, coverage around 3-4x is typical.\n\nLeverage moderate.\n\nSo I'll assign BBB.\n\nBut the task says \"finest granularity you can justify\", so I can use plus or minus.\n\nWith low margin, perhaps BBB-.\n\nBut liquidity good.\n\nI think BBB is appropriate.\n\nPerhaps A- but margin too low.\n\nA- might have operating margin above 5-6%.\n\nHere it's 4%.\n\nSimilarly, ROE low.\n\nSo BBB.\n\nFinal answer.\n",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 252,
+ "out_tok": 4444,
+ "usd": 0.009871,
+ "utc": "2026-09-06T16:20:14.669830+00:00"
+}

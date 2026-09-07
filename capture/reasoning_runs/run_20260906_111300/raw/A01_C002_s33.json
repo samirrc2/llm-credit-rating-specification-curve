@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"AA+\", \"confidence\": 4, \"rationale\": \"Exceptional operating margin (44%) and liquidity (current ratio 12.41) with low interest expense indicate strong creditworthiness, offsetting high leverage concerns.\"}",
+ "reasoning_tail": " difference, EBIT 3,188M, net income 2,479M, difference 709M for interest and taxes.\n\nIf taxes are 21%, EBT = 2,479 / 0.79 = 3,138M, interest = 3,188 - 3,138 = 50M, as I calculated earlier.\n\nSo interest expense is 50M, which is very low.\n\nThen interest coverage = EBIT / interest = 3,188 / 50 = 63.76, extremely high.\n\nSo debt must be low.\n\nTherefore, the high liabilities are not debt, but other liabilities like deferred revenue.\n\nFor example, in a subscription model, deferred revenue is high.\n\nSo credit risk is low.\n\nThus, high rating.\n\nLikely AAA or AA+.\n\nBut revenue is 7.3B, which is not huge, but for credit rating, it's fine.\n\nDiluted EPS 1.37, but not relevant.\n\nI think AAA is possible, but AA+ for safety.\n\nMicrosoft is AAA.\n\nApple is AA+.\n\nHere, with similar profile.\n\nBut let's assign.\n\nRationale: Exceptional profitability and liquidity with minimal interest expense indicate low credit risk.\n\nRating: AA+\n\nConfidence: 4 out of 5, since not all details are known.\n\nRationale must be <=25 words.\n\nSo: \"Strong margins, high liquidity, low interest burden, high leverage mitigated by cash.\"\n\nBut leverage is high, but interest low.\n\nSo decision: AA+\n\nConfidence: 4\n\nRationale: \"High profitability and liquidity with low interest expense support strong creditworthiness despite high liabilities.\"\n\n23 words.\n\nNow for JSON.\n\n{\"decision\": \"AA+\", \"confidence\": 4, \"rationale\": \"High profitability and liquidity with low interest expense support strong creditworthiness.\"}\n\n20 words.\n\nFinal.\n",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 5035,
+ "usd": 0.011177,
+ "utc": "2026-09-06T15:44:37.867755+00:00"
+}

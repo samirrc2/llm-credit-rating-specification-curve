@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Annualized profitability and liquidity are adequate, but moderate leverage and estimated ~3x interest coverage align with BBB.\"}",
+ "reasoning_tail": "atio strong.\n\nSo overall, I think BBB is appropriate.\n\nPerhaps BBB-.\n\nBut with good liquidity, it might be BBB.\n\nThe rating scale has BBB+, BBB, BBB-.\n\nI think BBB is fine.\n\nConfidence: since I have to estimate interest, and no industry, confidence might be 3 or 4.\n\nRationale in 25 words or less.\n\nFinal decision.\n\nI think BBB.\n\nBut let's see if AA or A is possible.\n\nOperating margin 14% is good, but leverage and coverage suggest lower.\n\nGross margin 18% low, so not high quality.\n\nRetained earnings low, but not critical.\n\nI think BBB.\n\nPerhaps A- but coverage weak.\n\nNo, coverage 3x is not for A.\n\nA typically has coverage above 5x.\n\nSo BBB.\n\nNow, within BBB, BBB, BBB+, BBB-.\n\nWith debt/EBITDA around 5x, it might be BBB-.\n\nBut current ratio 2.29 good, so BBB.\n\nI'll go with BBB.\n\nConfidence 3, since assumptions made.\n\nRationale: Moderate leverage, good liquidity, but low interest coverage and profitability concerns.\n\nIn 25 words.\n\n\"Moderate leverage, strong liquidity, but estimated interest coverage ~3x and low ROE suggest lower investment grade.\"\n\nBut ROE annualized 8.6% not low.\n\nROE 8.6% is okay.\n\nProfitability is fine annualized.\n\nSo rationale: \"Annualized metrics show adequate profitability and liquidity, but moderate leverage and interest coverage around 3x support BBB rating.\"\n\nAbout 15 words.\n\nNow for the JSON.\n\nDecision: BBB\n\nConfidence: 3\n\nRationale: \"Adequate profitability and liquidity, but moderate leverage and interest coverage justify BBB rating.\"\n\nUnder 25 words.\n",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 270,
+ "out_tok": 5152,
+ "usd": 0.011431,
+ "utc": "2026-09-06T18:54:49.182746+00:00"
+}

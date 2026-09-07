@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Very low Altman Z-score of 0.88 and current ratio below 1 indicate high financial distress risk.\"}",
+ "reasoning_tail": "use it.\n\nPerhaps I should consider it as of the year before or something, but no, it's the most recent data.\n\nAssigning the rating.\n\nI think B- or CCC+.\n\nLet's pick CCC+.\n\nBut confidence?\n\nI think confidence: 3 or 4? Since I have the Z-score and it's clear, but not all info, like interest not given.\n\nRationale should be short.\n\n<=25 words.\n\nSo rationale: \"Low Altman Z-score of 0.88 indicating high distress, poor liquidity with current ratio below 1.\"\n\nNow label: I think CCC+ is reasonable.\n\nPerhaps B-, but I think CCC+ is better.\n\nThe scale has CCC+, then CCC, CCC-, etc.\n\nI think for Z<1.0, CCC is fair.\n\nAnother thing: revenue is 25,270M, assets 59,991M, so sales growth or something, but not given.\n\nBased on given data.\n\nPerhaps I can argue for B-.\n\nBut with interest coverage implied poor, I think CCC+.\n\nI recall that credit ratings also consider size and other factors, but not given.\n\nShareholders' equity 15,501M is sizeable, but low compared to liabilities.\n\nDecision: CCC+ or CCC.\n\nLet's set confidence 3, meaning medium.\n\nThen rationale.\n\nJSON format.\n\nFinal decision.\n\nI think: \n\nLabel: CCC+\n\nConfidence: 3\n\nRationale: \"Very low Altman Z-score and current ratio below 1 signal high financial distress risk.\"\n\nWithin 25 words.\n\nCount: \"Very low Altman Z-score and current ratio below 1 signal high financial distress risk.\" \u2013 11 words.\n\nGood.\n\nSome might say C, but EBIT positive, not imminent default.\n\nSo CCC+.\n\nThe 21-grade scale includes CCC+ explicitly.\n\nSo I think that's it.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 3777,
+ "usd": 0.008416,
+ "utc": "2026-09-06T20:02:37.627878+00:00"
+}

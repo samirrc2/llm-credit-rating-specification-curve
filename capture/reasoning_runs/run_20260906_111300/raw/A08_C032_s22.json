@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extremely low current ratio (0.35) and high leverage (debt-to-equity ~8.1) indicate severe liquidity risk and high default probability.\"}",
+ "reasoning_tail": "e, rating should be low.\n\nLet's say CCC+.\n\nOr B-.\n\nLook at the scale: BB is less vulnerable, B is more vulnerable, CCC currently vulnerable.\n\nWith current ratio 0.35, it's currently vulnerable.\n\nEBIT positive but may not cover interest.\n\nSo CCC+ or CCC.\n\nI think CCC is reasonable.\n\nBut let's see if there's a better way.\n\nAnother ratio: retained earnings to total liabilities: 26,088 / 274,899 \u2248 0.095, low.\n\nOr EBIT to total interest burden, but missing.\n\nI think I have to go with CCC.\n\nPerhaps B-.\n\nLet's decide.\n\nI'll go with CCC.\n\nConfidence: 3, since I lack interest expense.\n\nRationale: \"Extremely low liquidity and high leverage indicate high default risk.\"\n\nNow for JSON.\n\nResponse should be only the JSON object.\n\n{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extremely low liquidity and high leverage indicate high default risk.\"}\n\nBut CCC is CCC, not CCC+ or CCC-.\n\nThe scale has CCC+, CCC, CCC-, so I need to choose one.\n\nPerhaps CCC.\n\nOr CCC- for worse.\n\nBut EBIT margin is good, so not the worst.\n\nCCC+ might be too high.\n\nCCC is middle.\n\nI think CCC is fine.\n\nSome might say B-, but leverage is very high.\n\nDebt-to-equity 8 is extreme.\n\nIn practice, ratings below B are rare for operating companies, but possible.\n\nI think CCC is appropriate.\n\nFinal decision: CCC\n\nConfidence: 3\n\nRationale: \"Severe liquidity shortfall and excessive leverage with poor coverage.\"\n\nBut coverage not computed.\n\n\"Low current ratio and high debt-to-equity imply high credit risk.\"\n\nWithin 25 words.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 4291,
+ "usd": 0.009536,
+ "utc": "2026-09-06T19:09:09.076527+00:00"
+}

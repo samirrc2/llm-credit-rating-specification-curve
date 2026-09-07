@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Severe liquidity risk with current ratio 0.59 and negative working capital.\"}",
+ "reasoning_tail": "tal assets = (12,951 - 21,864) / 71,487 = (-8,913) / 71,487 \u2248 -0.1247\n\nRetained earnings / total assets = 36,413 / 71,487 \u2248 0.5093\n\nEBIT / total assets = 979 / 71,487 \u2248 0.0137\n\nSales / total assets = 10,496 / 71,487 \u2248 0.1469\n\nFor manufacturing firms, Z-score = 1.2*(WC/TA) + 1.4*(RE/TA) + 3.3*(EBIT/TA) + 0.6*(MVE/BVL) + 1.0*(Sales/TA)\n\nBut MVE (market value equity) not given, BVL is book value liabilities, which is total liabilities 45,596M.\n\nAssume MVE is not available, so I can't compute.\n\nFor non-manufacturing, it's different.\n\nBut roughly, WC/TA negative, EBIT/TA low, RE/TA high, Sales/TA moderate.\n\nNegative WC/TA is bad.\n\nTypically, Z-score below 1.8 indicates distress.\n\nBut without MVE, I can't say.\n\nPerhaps estimate.\n\nBut it's not reliable.\n\nI think based on liquidity, rating should be B or lower.\n\nLet's decide.\n\nI'll go with B- , confidence 3.\n\nRationale: \"Very low current ratio and negative working capital indicate high liquidity risk.\"\n\nNow for the JSON.\n\nThe scale includes CCC+, etc.\n\nPerhaps CCC+.\n\nBut EBIT positive, so not imminent default.\n\nB- might be appropriate.\n\nBB is for less vulnerable, but here with current ratio 0.59, it's vulnerable.\n\nCurrent ratio 0.59 means it can cover only 59% of current liabilities with current assets, so 41% must come from other sources, which is risky.\n\nSo, I think B- or CCC+.\n\nLet's choose B-.\n\nConfidence 3.\n\nRationale: \"Severe liquidity issues with current ratio below 1 and negative working capital.\"\n\n20 words.\n\nFinal decision.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3708,
+ "usd": 0.008264,
+ "utc": "2026-09-06T18:14:53.004869+00:00"
+}

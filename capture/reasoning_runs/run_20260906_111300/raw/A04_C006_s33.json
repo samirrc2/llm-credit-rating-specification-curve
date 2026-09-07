@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C006",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"A+\",\n  \"confidence\": 3,\n  \"rationale\": \"Low leverage (debt-to-equity 0.56), strong liquidity (current ratio 1.52), high EBIT margin (19%), but low ROA (1.44%) limits higher rating.\"\n}",
+ "reasoning_tail": "nd 1.5 or so, not 0.56.\n\nHere debt to equity is 0.56, much lower.\n\nSo stronger balance sheet.\n\nTherefore, rating should be higher.\n\nLet's calculate interest coverage roughly.\n\nSuppose total debt is long-term debt. Current liabilities include some debt, but assume that interest-bearing debt is 50% of total liabilities, so 14,413M.\n\nInterest rate 4%, interest expense 576.52M.\n\nEBIT 1,154M, so coverage 1,154 / 576.52 \u2248 2.00x.\n\n2x interest coverage is low for investment grade; typically BBB is 2-3x, A is 3-4x, etc.\n\nWith 2x, it might be BBB or BBB+.\n\nIf debt is less, coverage better.\n\nIf only long-term liabilities are debt, 22,502M, interest at 4% = 900M, coverage 1,154 / 900 = 1.28x, which is poor.\n\nBut not all long-term liabilities are debt; it could include pensions, etc.\n\nSo it's ambiguous.\n\nPerhaps for this company, debt is low.\n\nCurrent liabilities 6,324M, some may be short-term debt.\n\nBut let's assume that the company has minimal debt because of high equity.\n\nIn that case, interest coverage is high.\n\nFor example, if debt is only 5,000M, interest 200M, coverage 5.77x, good.\n\nBut I don't know.\n\nI think the safest is to go with A- or BBB+.\n\nBut let's see the answer choices.\n\nPerhaps from the ratios, it's A.\n\nAnother ratio: retained earnings to total assets is 57.5%, very high, which is good for credit rating.\n\nIn credit analysis, high retained earnings indicate internal financing strength.\n\nSo I think A or A+.\n\nI'll go with A+.\n\nConfidence level.\n\nRationale.\n\nFinal decision.\n",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 260,
+ "out_tok": 5495,
+ "usd": 0.012177,
+ "utc": "2026-09-06T16:37:20.334871+00:00"
+}

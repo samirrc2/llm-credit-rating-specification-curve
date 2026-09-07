@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company exhibits strong profitability with a high operating margin (19%) and gross margin (53%), which support debt servicing. However, significant concerns arise from high leverage (total liabilities to shareholders' equity ratio of approximately 2.74) and poor liquidity (current ratio of 0.79, well below the 1.0 threshold), indicating vulnerability to short-term obligations and adverse conditions. This financial risk profile is characteristic of speculative-grade ratings, specifically at the BB level, where there is less near-term vulnerability but ongoing uncertainties.\n\nDECISION: BB+",
+ "reasoning_tail": "\n\nThe data doesn't specify debt, only total liabilities and current liabilities.\n\nCurrent liabilities are 7,148M, so long-term liabilities are 57,973M - 7,148M = 50,825M.\n\nBut long-term liabilities aren't all debt; they could include pension obligations, etc.\n\nFor simplicity, often total liabilities are used or total debt if available.\n\nHere, we have to work with total liabilities.\n\nFor credit rating, debt refers to financial debt, like bonds, loans, etc.\n\nBut we don't have a breakdown.\n\nI think I should use the given numbers.\n\nPerhaps calculate int   erest coverage if I can, but no.\n\nWith the data, the low current ratio is the key issue.\n\nI think the rating should be in the BB range.\n\nLet me assign BB+.\n\nOr BB.\n\nDecision final: I think BBB- is possible, but with current ratio 0.79, it s probably BB.\n\nBut many investment grade companies have current ratio below 1 in some situations, but ratings agencies downgrade if persistent.\n\nSince we have only this data, we go with it.\n\nProfitability is strong, so let's say BB+.\n\nReasoning: The company demonstrates strong profitability with a 19% operating margin, supporting debt servicing capability. However, high leverage (debt-to-equity ratio of approximately 2.74) and poor liquidity (current ratio of 0.79) indicate significant financial risk, particularly in meeting short-term obligations. This aligns with a speculative grade rating.\n\nFinal rating: BB+ (highest speculative grade).\n\nBut BB+ is speculative.\n\nThe scale has BB+, BB, BB-.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 4026,
+ "usd": 0.008962,
+ "utc": "2026-09-06T19:29:28.722976+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely high leverage with a debt-to-equity ratio of approximately 26.5 (total liabilities of 158,800M / equity of 5,987M), negative net income (-4M), and inferred interest coverage below 1 (operating income of 446M vs. estimated interest expense around 450M), indicating severe financial risk and current vulnerability. Additionally, the weak current ratio of 1.18 suggests liquidity pressures. These factors align with a CCC rating, reflecting high credit risk and dependence on favorable conditions to meet obligations.\n\nDECISION: CCC",
+ "reasoning_tail": "ould be rated in the CCC range.\n\nSpecifically, since operating income is positive, it might not be the worst, so CCC+ or CCC.\n\nCCC+ is better than CCC.\n\nThe scale has CCC+, CCC, CCC-.\n\nCCC+ is higher than CCC.\n\nSo, for moderate vulnerability, CCC+.\n\nB- might be too high.\n\nB- is for highly speculative, but not currently vulnerable.\n\nHere, with interest coverage below 1, it is currently vulnerable.\n\nInterest coverage inferred <1, so CCC is appropriate.\n\nCC is for highly vulnerable, C for imminent default.\n\nSince operating income covers interest almost, and loss is small, not imminent default.\n\nSo CCC or CCC+.\n\nI think CCC+ could be justified.\n\nBut let's see the answer format.\n\nI need to reason briefly.\n\nReason: High leverage with debt-to-equity ratio over 26, negative net income, and weak interest coverage indicate high credit risk and current vulnerability.\n\nTherefore, a CCC+ rating is assigned.\n\nBut CCC+ might be a bit high; CCC could be better.\n\nStandard & Poor's rating definitions:\n\n- B: More vulnerable to adverse business conditions but currently has capacity to meet payments.\n\n- CCC: Currently vulnerable and dependent on favorable conditions to meet commitments.\n\nGiven interest coverage below 1, it is dependent on favorable conditions to cover interest, so CCC.\n\nSimilarly, liquidity is tight.\n\nSo CCC.\n\nBut let's confirm the scale: CCC+, CCC, CCC-.\n\nI think CCC is fine.\n\nPerhaps CCC-.\n\nBut operating income is positive, so not the worst.\n\nI'll go with CCC.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 252,
+ "out_tok": 3260,
+ "usd": 0.007278,
+ "utc": "2026-09-06T17:48:58.174501+00:00"
+}

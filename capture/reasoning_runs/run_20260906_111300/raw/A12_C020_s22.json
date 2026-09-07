@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Low current ratio (0.91), high debt/equity (2.86), and weak implied interest coverage suggest high default risk.\"}",
+ "reasoning_tail": " liabilities are interest-bearing, so 31,185M, total interest-bearing debt \u2248 236,147 + 31,185 = 267,332M.\n\nThen interest expense, assume 4% rate, interest = 0.04 * 267,332 = 10,693.28M.\n\nEBIT 5,004M, so coverage = 5,004 / 10,693.28 \u2248 0.468, less than 1.\n\nIf coverage <1, it's critical.\n\nFor credit ratings, coverage below 1 is often D or C, but if temporary, might be higher.\n\nBut here, with current ratio low, it's bad.\n\nPerhaps CCC.\n\nBut EBIT is positive, so not default.\n\nI think B- or CCC+.\n\nLet's go with CCC+.\n\nRationale: \"Extremely low liquidity and high leverage with weak profitability suggest high default risk.\"\n\nConfidence: 3, since I made some assumptions.\n\nBut I need to be precise.\n\nPerhaps from the data, the company is Apple or similar, but I shouldn't assume.\n\nThe numbers: revenue 36,381M, but Apple has higher revenue, this might be different.\n\nFor example, Apple's revenue is much higher, so this is not Apple.\n\nAnyway, based on ratios.\n\nCurrent ratio 0.91 is critical.\n\nIn practice, companies can have current ratio below 1 if they have good cash management, but for rating, it's negative.\n\nI think CCC+ is appropriate.\n\nOr B-.\n\nLet's check the retained earnings: 94,744M, which is large, so it can cover losses.\n\nBut for debt payment, it's not direct.\n\nI think B- for moderate risk with high leverage.\n\nBut with coverage implied low, CCC+.\n\nI'll go with CCC+.\n\nConfidence 3.\n\nRationale: \"Low current ratio, high debt/equity, and marginal EBIT coverage indicate vulnerability.\"\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 5343,
+ "usd": 0.011845,
+ "utc": "2026-09-06T18:05:22.917587+00:00"
+}

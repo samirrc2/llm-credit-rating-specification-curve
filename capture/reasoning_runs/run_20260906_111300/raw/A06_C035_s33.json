@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability with a 25% operating margin and 15% net margin, but this is overshadowed by critical weaknesses: an extremely high debt-to-equity ratio of approximately 10.25 (total liabilities / shareholders' equity = 3,107,151 / 303,243) and severely poor liquidity with a current ratio of 0.42, indicating inability to cover short-term obligations without external financing or asset sales. These factors suggest substantial default risk and high vulnerability, aligning with a CCC rating, which denotes current vulnerability and dependence on favorable conditions to meet financial commitments.\n\nDECISION: CCC",
+ "reasoning_tail": "en, so assume similar to current ratio.\n\nOr net debt, but not given.\n\nI think based on the information, the issuer has strong profitability but extremely poor liquidity and high leverage, making it currently vulnerable to default.\n\nTherefore, a CCC rating is appropriate.\n\nBut let's see if it can be B-.\n\nB- is \"highly speculative\" while CCC is \"substantial risks, vulnerable.\"\n\nWith current ratio 0.42, vulnerable is key.\n\nSo I'll go with CCC+ or CCC.\n\nThe scale has CCC+, CCC, CCC-.\n\nSince operating margin is 25%, which is good, it might have some capacity, so CCC+.\n\nCCC+ is defined as \"vulnerable, dependent on favorable conditions.\"\n\nThat fits.\n\nCCC is \"currently vulnerable and dependent on favorable conditions,\" similar.\n\nBut CCC+ is slightly better.\n\nIn practice, CCC+ might have interest coverage above 1, which it does.\n\nHere coverage is 4.28, so not imminent default.\n\nBut leverage and liquidity are poor.\n\nI think CCC+ is reasonable.\n\nPerhaps B-, but current ratio is too low.\n\nLet's look for the current ratio.\n\nIf current ratio < 0.5, it's often CCC territory.\n\nFor instance, S&P ratings for companies with current ratio below 0.5 are typically CCC or lower.\n\nSimilarly, high leverage.\n\nSo I think CCC+ or CCC.\n\nI'll choose CCC.\n\nBut let's confirm the decision.\n\nFinal decision: CCC\n\nReason: Extremely high leverage (debt-to-equity ratio ~10.25) and very poor liquidity (current ratio 0.42) indicate substantial credit risk and vulnerability to default, despite strong profitability.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 4864,
+ "usd": 0.010797,
+ "utc": "2026-09-06T19:21:59.457654+00:00"
+}

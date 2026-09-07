@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Very high leverage (debt-to-equity 4.22) and low liquidity (current ratio 1.27) indicate significant default risk, partially offset by strong EBIT margin (29.76%).\"}",
+ "reasoning_tail": "e options: B+, B, B-.\n\nI think B+ might be a bit high; B is more appropriate.\n\nBut let's check the numbers again.\n\nRevenue 12,222M, EBIT 3,639M, so operating cash flow is strong.\n\nIf interest is manageable, it could be ok.\n\nBut with liabilities high, it's risky.\n\nPerhaps assign BB-.\n\nBut Z-score is low.\n\nI think I'm overcomplicating.\n\nLet's look for a key metric.\n\nCurrent liabilities 28,136M, current assets 35,630M, so net working capital 7,494M.\n\nTotal liabilities 78,289M, so long-term debt-like liabilities are high.\n\nEBIT 3,639M.\n\nAssume that annual interest expense is, say, 2,000M, then coverage 1.8, which is below 2, so speculative grade.\n\nWith current ratio 1.27, it might be BB or B.\n\nBB has less vulnerability in near term.\n\nB has more vulnerability.\n\nHere, with low coverage, it's vulnerable.\n\nSo B+ or B.\n\nI'll go with B.\n\nConfidence 3.\n\nRationale: Very high leverage and moderate liquidity suggest elevated default risk despite good profitability.\n\nWord count: \"Very high leverage and moderate liquidity suggest elevated default risk despite good profitability.\" That's 10 words.\n\nUnder 25.\n\nNow for the JSON.\n\nDecision: \"B\"\n\nConfidence: 3\n\nRationale: as above.\n\nBut the scale has B+, B, B-, so I need to choose one.\n\nPerhaps B is fine.\n\nSome might say BB-, but I think B is more conservative.\n\nAnother thought: retained earnings are 17,093M, which is large, so the company has a cushion.\n\nBut for credit rating, it's about debt repayment.\n\nI think B is appropriate.\n\nFinal answer.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 5091,
+ "usd": 0.011293,
+ "utc": "2026-09-06T18:36:55.001099+00:00"
+}

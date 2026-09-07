@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Negative equity, low current ratio (0.62), high leverage despite positive EBIT.\"}}",
+ "reasoning_tail": "y is rare for operating companies; it often leads to bankruptcy or restructuring.\n\nBut EBIT is positive, so not yet failing.\n\nRevenue 5,251M, EBIT 3,230M, so it's profitable.\n\nBut the balance sheet is weak.\n\nPerhaps BB- or B+.\n\nI recall that credit ratings for companies with negative equity are usually B- or lower.\n\nFor example, in 2023, companies like Hertz during bankruptcy had negative equity but were rated D or something, but here EBIT positive.\n\nAnother metric: debt to capital. Since equity negative, debt to capital is over 100%.\n\nIn summary, I think the issuer has high credit risk.\n\nI will go with B- or CCC+.\n\nBut I need to choose one.\n\nLet's see the options: BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nGiven the negative equity and low liquidity, I think B- is possible, but CCC+ might be more appropriate.\n\nEBIT is strong, which might support a higher rating.\n\nBut the solvency issue overrides.\n\nPerhaps BB-, but that seems too high.\n\nBB- is still speculative, but negative equity is worse.\n\nBB is for less vulnerable, B for more vulnerable, CCC for vulnerable.\n\nWith negative equity, it's vulnerable.\n\nCurrent ratio 0.62 suggests liquidity crisis.\n\nSo I think CCC+ or CCC.\n\nConfidence: I'm not sure because of the retained earnings anomaly, but I'll go with medium confidence.\n\nRationale must be <=25 words.\n\nSo decision: let's say CCC+\n\nConfidence: 3\n\nRationale: Negative equity, low current ratio, high leverage despite positive EBIT.\n\nNow for JSON output.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3758,
+ "usd": 0.008373,
+ "utc": "2026-09-06T16:48:46.787187+00:00"
+}

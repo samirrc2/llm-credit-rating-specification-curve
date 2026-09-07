@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe liquidity issues with a current ratio of 0.35, indicating insufficient short-term assets to cover liabilities, and high leverage with a debt-to-equity ratio of approximately 8.09 (total liabilities/shareholders' equity), suggesting elevated financial risk despite a solid EBIT margin of approximately 31.6%. These factors point to a high probability of default, placing the issuer in the speculative grade category with significant vulnerability.\n\nDECISION: B-",
+ "reasoning_tail": ".\n\nRetained earnings indicate historical profitability, but with high liabilities, it doesn't reduce risk.\n\nAnother metric: The company has negative working capital, which can be efficient if managed well, but with current ratio 0.35, it's extreme.\n\nI think for credit rating, this points to a low rating.\n\nPerhaps BB-, but I think lower.\n\nLet's calculate the cash flow.\n\nEBIT 6,598M, but depreciation and taxes not given, so cash flow unknown.\n\nRevenue 20,880M, so size is large, which might support a higher rating, but ratios are poor.\n\nI think the liquidity risk dominates.\n\nFinal decision.\n\nI will assign B-.\n\nOr CCC+.\n\nLet's see the scale.\n\nCCC+ is for high default risk, vulnerable to adverse conditions.\n\nWith current ratio 0.35, it is vulnerable.\n\nEBIT positive, so not CCC.\n\nPerhaps B+.\n\nI think B- is reasonable.\n\nBut let's see the answer format.\n\nReason in 1-3 sentences.\n\nSo: The company has extremely poor liquidity with a current ratio of 0.35 and very high leverage with debt-to-equity ratio above 8, indicating high financial risk despite good profitability. This suggests a speculative grade rating with high default risk.\n\nThen rating B-.\n\nDebt-to-equity is total liabilities to equity, which is common, but technically, debt might be less.\n\nBut in absence, I'll use that.\n\nSo DECISION: B-\n\nBut let's confirm the ratio.\n\nCurrent ratio 0.35 is critical.\n\nIn some contexts, companies with such ratios are rated CCC.\n\nBut with positive EBIT, B- might be ok.\n\nI think I'll go with B-.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 4800,
+ "usd": 0.010649,
+ "utc": "2026-09-06T19:08:07.360010+00:00"
+}

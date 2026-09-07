@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress based on the provided figures. The current ratio of 0.27 indicates critical liquidity issues, as current assets cover only 27% of current liabilities, and negative shareholders' equity (-1,920M) confirms insolvency with liabilities exceeding assets. Despite a positive EBIT margin (46%), the massive retained earnings deficit (-20,476M) and high leverage (total liabilities to assets ratio of 1.06) suggest unsustainable financial health and high default risk, aligning with a very low credit rating.\n\nDECISION: CC",
+ "reasoning_tail": "ly vulnerable obligations, and perhaps in default or with a bankruptcy petition.\"\n\nSince no default mentioned, and EBIT positive, perhaps CC.\n\nEBIT positive but may not cover interest.\n\nAssume interest expense.\n\nTotal liabilities 33,311M, not all debt, but let's say financial debt is part.\n\nCurrent liabilities 4,705M, which may include short-term debt.\n\nBut not specified.\n\nPerhaps use EBIT to total liabilities ratio low.\n\nI think based on liquidity and solvency, CC is reasonable.\n\nAnother figure: retained earnings -20,476M, which is huge, indicating massive losses.\n\nRevenue only 1,010M, so accumulated losses are 20 times revenue, which is unsustainable.\n\nSo, financial distress is severe.\n\nTherefore, I think the rating should be CC.\n\nBut let's see if there's a better match.\n\nPerhaps B- or CCC, but I think lower.\n\nB- is \"more vulnerable to adverse business, financial and economic conditions but currently has the capacity to meet financial commitments.\"\n\nHere, with negative equity and low liquidity, capacity is questionable.\n\nCCC: \"currently vulnerable and dependent on favorable conditions to meet commitments.\"\n\nBut with current ratio 0.27, it's beyond vulnerable; it's critical.\n\nCC: \"currently highly vulnerable and default is a real possibility.\"\n\nC: \"currently highly vulnerable to default, and obligations expected to be in default soon.\"\n\nSince EBIT positive, not in default yet, so CC might be appropriate.\n\nFinal decision.\n\nSo, DECISION: CC\n\nBut let's make sure the reasoning.\n",
+ "parsed_letter": "CC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 4075,
+ "usd": 0.009056,
+ "utc": "2026-09-06T20:06:15.456685+00:00"
+}

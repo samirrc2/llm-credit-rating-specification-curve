@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Negative gross margin, weak liquidity (current ratio 1.00), and large negative retained earnings, offset by positive operating income.\"}",
+ "reasoning_tail": "ted with ratings below B.\n\nBut here it's exactly 1.0.\n\nRetained earnings negative is common for startups, but for credit, it's risky.\n\nPerhaps for this issuer, it's B.\n\nBut let's see the decision.\n\nAnother idea: the filed date is 2026-05-01 for Q1 2026, so most recent fiscal year is 2025, but no data given, only Q1 2026.\n\nI have to use only this.\n\nPerhaps the negative retained earnings are from past, but equity is positive.\n\nI think I'll go with B+ or B.\n\nLet's choose B+.\n\nConfidence 2 or 3.\n\nRationale short.\n\nThe output should be JSON with decision, confidence 1-5, rationale <=25 words.\n\nSo, decision: one of the labels.\n\nI think B+.\n\nOr BBB- if we overlook gross margin.\n\nBut gross margin negative is too big to overlook.\n\nPerhaps it's a data error, but I have to proceed.\n\nIn some contexts, gross margin can be negative if inventory write-downs, but still.\n\nI think for safety, assign a lower rating.\n\nLet's say BB-.\n\nBB- is speculative, moderate risk.\n\nB is high risk.\n\nWith operating income positive, BB- might be ok.\n\nBut liquidity poor.\n\nPerhaps BB-.\n\nI think I'll go with BB-.\n\nConfidence 3.\n\nRationale: Negative gross margin, tight liquidity, historical losses, but currently profitable.\n\nWords: \"Negative gross margin, current ratio 1.00, negative retained earnings, but positive net income.\"\n\nThat's 9 words.\n\nNow for confidence, since inconsistency, confidence 3.\n\nSo, decision BB-.\n\nBut let's see if there's a better fit.\n\nPerhaps B+.\n\nI think BB- is reasonable.\n\nFinal decision.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 4373,
+ "usd": 0.009722,
+ "utc": "2026-09-06T19:32:04.657829+00:00"
+}

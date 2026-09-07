@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"B+\",\n  \"confidence\": 3,\n  \"rationale\": \"High debt-to-equity ratio of 4.22 and low current ratio of 1.27 indicate significant risk despite strong EBIT margin of 29.76%.\"\n}",
+ "reasoning_tail": ", but not sufficient.\n\nI think the leverage is the key issue.\n\nDebt-to-equity 4.22 is very high.\n\nIn credit ratings, a D/E above 2 is often non-investment grade.\n\nHere 4.22, so likely BB or lower.\n\nEBIT coverage low.\n\nSo I'll go with B+.\n\nConfidence: 3, medium.\n\nRationale: High leverage and weak liquidity offset strong profitability.\n\nFinal rating: B+\n\nBut let's see if BB- is possible.\n\nBB- might have better metrics.\n\nFor example, current ratio higher or leverage lower.\n\nHere, both are weak.\n\nEBIT margin strong, so B+.\n\nPerhaps B.\n\nI think B+ is reasonable.\n\nCCC is for vulnerable, which might be if coverage very low.\n\nBut here, with EBIT 3,639M, it can cover some interest.\n\nAssume interest is 1,000M, coverage 3.6, which is okay for BB.\n\nBut liabilities high, so debt might be high.\n\nI think I'm overcomplicating.\n\nDecision: B+\n\nConfidence: 3\n\nRationale: \"High debt-to-equity ratio of 4.22 and low current ratio of 1.27 indicate significant risk despite strong EBIT margin.\"\n\nWithin 25 words.\n\nNow for JSON.\n\nBut let's confirm the scale.\n\nThe scale has BB+, BB, BB-, B+, B, B-, etc.\n\nB+ is below BB-.\n\nBB- is higher than B+.\n\nOrder: AAA down to C.\n\nBBB, then BBB-, then BB+, BB, BB-, B+, B, B-, etc.\n\nSo BB- is above B+.\n\nBB- is better than B+.\n\nIn terms of risk, BB- is less risky than B+.\n\nFor this company, with high leverage, B+ might be appropriate.\n\nPerhaps BB- if we weight profitability more.\n\nBut I think B+ is fine.\n\nAnother ratio: Fixed charge coverage, but no data.\n\nI think B+.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 5737,
+ "usd": 0.012707,
+ "utc": "2026-09-06T18:32:11.973053+00:00"
+}

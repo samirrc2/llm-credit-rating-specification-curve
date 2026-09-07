@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits high financial risk based on key credit metrics: a low current ratio of 1.18 indicates weak short-term liquidity, high leverage with a debt-to-equity ratio of approximately 1.86 (total liabilities of 26,603M / equity of 14,298M), and low profitability with EBIT to total assets of about 1.41% (577M / 40,898M). Additionally, an Altman Z-score of approximately 0.676 suggests a high risk of financial distress, well below the safe threshold of 1.8. These factors collectively point to a highly speculative credit quality with substantial vulnerability to adverse conditions.\n\nDECISION: CCC+",
+ "reasoning_tail": " Z-score is below 1.8, so distress.\n\nI think CCC+ is appropriate.\n\nThe scale has CCC+, CCC, CCC-.\n\nWith current ratio 1.18, it might be able to pay short-term debts, but barely.\n\nEBIT 577M, revenue 2,444M, so it's operating.\n\nBut high debt load.\n\nPerhaps assign CCC+.\n\nI recall that for companies in financial distress, ratings are CCC or lower.\n\nSo I'll go with CCC+.\n\nBut let's confirm the figures.\n\nCurrent assets: 5,346M\n\nCurrent liabilities: 4,538M\n\nDifference 808M, so some buffer, but small.\n\nTotal liabilities 26,603M, equity 14,298M, so liabilities are 65% of capital structure.\n\nEBIT 577M.\n\nRevenue 2,444M.\n\nAnother metric: Interest coverage, but missing.\n\nI think DECISION: CCC+\n\nBut the task says \"finest granularity you can justify\", so I need to be precise.\n\nPerhaps B- if I consider retained earnings.\n\nBut Z-score suggests CCC.\n\nIn Altman, Z<1.8 is distress, and 0.676 is far below.\n\nSo CCC.\n\nBut CCC+ is a notch better.\n\nCCC+ is higher than CCC.\n\nIn the scale, CCC+ is above CCC.\n\nSo for moderate distress, CCC+, for severe, CCC or lower.\n\nHere Z=0.676, which is very low.\n\nTypically, Z<1.23 is considered high risk, and 1.23-2.9 grey, >2.9 safe.\n\n1.23 is the lower bound for grey, below 1.23 is distress.\n\n0.676 < 1.23, so high distress.\n\nTherefore, CCC or lower.\n\nBut the company has positive retained earnings and EBIT, so not in default yet.\n\nSo CCC+ or CCC.\n\nI think CCC+ is reasonable.\n\nPerhaps CCC.\n\nBut let's see if there's a way to be finer.\n\nI think CCC+.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 4292,
+ "usd": 0.009531,
+ "utc": "2026-09-06T18:39:26.417940+00:00"
+}

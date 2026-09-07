@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt/equity ~6), low liquidity (current ratio 1.04), and Altman Z-score ~1.22 indicate high distress risk.\"}",
+ "reasoning_tail": "-3, but no EBITDA.\n\nEBIT can be proxy.\n\nEBIT 2,359M.\n\nTotal liabilities 111,269M, so liabilities/EBIT = 111,269 / 2,359 \u2248 47.2, which is very high, meaning it would take 47 years to pay off liabilities from EBIT, ignoring taxes and interest, which is absurd.\n\nThat indicates high risk.\n\nSimilarly, for BB or B, it might be higher.\n\nFor instance, a company with high leverage might have debt/EBITDA of 5-10, but here liabilities/EBIT is 47, so worse.\n\nLiabilities include non-debt, so it's overstated.\n\nSuppose core debt is 80,000M, then debt/EBIT = 80,000 / 2,359 \u2248 33.9, still very high.\n\nEBITDA would be higher than EBIT, say if depreciation is 500M, EBITDA = EBIT + depreciation, but not given.\n\nAssume depreciation is, say, 10% of revenue or something, but arbitrary.\n\nRevenue 12,717M, EBIT 2,359M, so cost of goods sold etc. not given.\n\nI think it's futile.\n\nI should assign a rating based on overall picture.\n\nDecision: Likely B or CCC.\n\nLet's say B- for high risk.\n\nOr CCC+.\n\nBut with Z-score 1.22, it's below 1.8, so distress, so CCC or lower.\n\nCCC is for current vulnerability, CC for highly vulnerable, C for imminent default.\n\nHere, with EBIT positive, not imminent default, so CCC or B.\n\nB is for highly speculative, CCC for vulnerable.\n\nWith current ratio 1.04, they are vulnerable to short-term shocks.\n\nSo probably CCC+ or CCC.\n\nI'll go with CCC.\n\nConfidence: 3, since missing interest expense.\n\nRationale: High leverage, low liquidity, distress risk.\n\nIn <=25 words.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 4677,
+ "usd": 0.010387,
+ "utc": "2026-09-06T18:21:25.332322+00:00"
+}

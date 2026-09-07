@@ -1,0 +1,21 @@
+{
+ "spec_id": "A08",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"BBB+\",\n  \"confidence\": 3,\n  \"rationale\": \"Moderate leverage, solid retained earnings, but current ratio tight at 1.34.\"\n}",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 255,
+ "out_tok": 4868,
+ "usd": 0.010801,
+ "utc": "2026-09-06T15:23:25.696365+00:00"
+}

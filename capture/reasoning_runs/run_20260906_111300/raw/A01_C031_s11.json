@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Extreme leverage (debt-to-equity >11x) and critical liquidity (current ratio 0.34) indicate high default risk despite strong profitability.\"}",
+ "reasoning_tail": "le.\n\nd for decision.\n\nSo, I think B-.\n\nPerhaps CCC+.\n\nBut net income is positive, so not CCC yet.\n\nCCC is currently vulnerable, which it is.\n\nLet's choose B.\n\nI found a reference online in my mind:  0.24, the probability of default can be linked to rating.\n\nFor example, B rating has about 4-5% default probability within 5 years, CCC 15-20%.\n\nWith this situation, if they can refinance, they survive; if not, default.\n\n50-50 chance, so around CCC+ or B-.\n\nBut I need to be precise.\n\nPerhaps BB-, since profitability is strong.\n\nBut liquidity is too poor.\n\nI think for now, based on common practice.\n\nI will go with CCC+.\n\nLet's see the numbers again.\n\nShareholders' equity $178B,  2,025,439M liabilities, so leverage >11x.\n\nCurrent ratio 0.34.\n\nFor comparison, let's take a real company in distress.\n\nCarnival Cruise Lines during COVID had ratings downgraded to Caa2 or CCC.\n\nBut they had losses.\n\nHere, net income positive.\n\nSo, not as bad.\n\nAnother example: General Electric had BBB+ with high leverage.\n\nCurrent ratio was around 1.0.\n\nHere 0.34 is worse.\n\nI th ink it's CCC territory.\n\nBut let's decide.\n\nI think the rating should be CCC+.\n\nConfidence 2.\n\nRationale: Poor liquidity and very high leverage make the issuer vulnerable.\n\n20 words.\n\nFinal answer.\n\nOr B-.\n\nI recall that credit rating agencies downgrade to B or lower if liquidity crisis impending.\n\nWith no specific event, but the ratio suggests a crisis is possible.\n\ngven the information, I'll assign B-.\n\nBut let's box the answer.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 282,
+ "out_tok": 4997,
+ "usd": 0.011099,
+ "utc": "2026-09-06T19:01:19.749437+00:00"
+}

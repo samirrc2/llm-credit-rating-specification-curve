@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress, primarily due to a critically low current ratio of 0.42, indicating acute liquidity problems and an inability to cover short-term obligations with current assets. Additionally, the debt-to-equity ratio is approximately 10.25, reflecting unsustainable leverage, and the negative working capital of -1,492,522 thousand exacerbates the risk. Despite a reasonable EBIT margin of around 25%, the extremely low return on assets (approximately 0.37%) and estimated interest coverage well below 1 (based on implied interest expense) suggest high vulnerability to default. This combination of poor liquidity, excessive leverage, and weak profitability aligns with a highly speculative rating in the CCC range. The retained earnings strength is insufficient to offset these risks. On the 21-grade scale, a CCC rating is most justified given the imminent vulnerability.\n\nDECISION: CCC",
+ "reasoning_tail": ": total liabilities 3,107,151 thousand = 3,107.151 million\n\nIf interest rate 5%, interest expense 0.05 * 3,107.151 = 155.35755 million\n\nEBIT 12.435 million, so EBIT / interest = 12.435 / 155.35755 \u2248 0.08, way below 1.\n\nInterest coverage below 1 is critical; it means they can't ear their interest from operations, so default is likely soon.\n\nThis suggests CCC or lower rating.\n\nSimilarly, for liquidity, they can't cover short-term obligations.\n\nSo, the rating should be low.\n\nNow, for the 21-grade scale, I think CCC or CC.\n\nCC is highly vulnerable, C is imminent default.\n\nWith EBIT covering only 8% of interest, it's dire. But this is an estimate; not all liabilities bear interest, so it could be better.\n\nCurrent liabilities include payables that may not have interest, but short-term debt might.\n\nWithout breakdown, I have to assume.\n\nProbably, the company has debt that requires interest, and if EBIT is low, it's stressed.\n\nratings are for the ability to meet financial obligations, which includes both interest and principal repayment.\n\nWith low coverage and poor liquidity, it's high risk.\n\nTherefore, I would assign a CCC rating.\n\nBetween CCC+, CCC, or CCC-, based on granularity.\n\nThe Z-score was negative, indicating high distress.\n\nSo, DECISION: CCC\n\nBut let's see if I can be more specific.\n\nPerhaps BB- or B, but I think CCC is appropriate.\n\nAnother ratio: quick ratio or something, but not enough data.\n\nI think based on all, CCC is reasonable.\n\nSo, the credit rating should be CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 259,
+ "out_tok": 5007,
+ "usd": 0.011108,
+ "utc": "2026-09-06T19:20:31.305142+00:00"
+}

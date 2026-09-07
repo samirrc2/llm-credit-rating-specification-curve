@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows critical liquidity stress with a current ratio of 0.35, far below the typical threshold of 1.0, indicating an inability to cover short-term obligations without external financing. Additionally, the debt-to-equity ratio of approximately 8.09 (274,899M / 33,995M) reflects extreme leverage, heightening solvency risks despite a solid EBIT margin of 31.6%. These factors place the issuer in the CCC category, signifying high vulnerability and dependence on favorable conditions to avoid default.\n\nDECISION: CCC",
+ "reasoning_tail": " but not critical.\n\nEBIT margin is high, so profitability is good, but leverage kills it.\n\nI think the rating should be in the CCC range.\n\nPerhaps B- or something, but B is less vulnerable than CCC.\n\nStandard:\n\nBB: speculative, major uncertainties\n\nB: highly speculative\n\nCCC: vulnerable, default possible\n\nCC: imminent default\n\nC: default imminent or in default\n\nHere, with current ratio 0.35, default could be imminent if they can't pay obligations.\n\nBut EBIT positive, so maybe not CC yet.\n\nAssume that the company can refinance or something, but based on data, it's risky.\n\nPerhaps I should consider the size; large companies might have better access to credit.\n\nBut still, the ratios are poor.\n\nAnother thing: retained earnings 26,088M, which is part of equity, but it's not cash.\n\nI think I'm overcomplicating.\n\nDecision: based on severe liquidity crisis and high leverage, rating should be CCC.\n\nTo be precise, let's say CCC.\n\nBut in the scale, there is CCC+, CCC, CCC-.\n\nI think CCC is fine.\n\nPerhaps CCC-.\n\nBut I don't have strong justification for minus.\n\nThe current ratio is extremely low, which might warrant CCC-.\n\nBut let's see the answer format.\n\nI need to output DECISION: <label>\n\nReason briefly.\n\nReason: The company exhibits severe liquidity issues with a current ratio of 0.35 and high leverage with debt-to-equity ratio above 8, indicating high default risk despite positive EBIT.\n\nTherefore, CCC rating.\n\nCCC is \"currently vulnerable to nonpayment\".\n\nYes.\n\nSo, final decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3411,
+ "usd": 0.007608,
+ "utc": "2026-09-06T19:10:18.768757+00:00"
+}

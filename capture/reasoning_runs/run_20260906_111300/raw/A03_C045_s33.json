@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows critical liquidity weakness with a current ratio of 0.53 and negative working capital, indicating an inability to meet short-term obligations without external support. High leverage is evident with a debt-to-equity ratio of approximately 2.67 and an estimated EBIT interest coverage ratio below 1, suggesting the company is vulnerable to default under current conditions. Despite positive retained earnings and an EBIT margin of 22.6%, these factors are insufficient to offset the severe liquidity and leverage risks, placing the issuer in the CCC category due to its dependence on favorable conditions to avoid default.\n\nDECISION: CCC",
+ "reasoning_tail": "ities, which is not good.\n\nEBIT to current liabilities: 1,360 / 12,594 \u2248 0.108, so about 10.8%, low.\n\nI think CCC is reasonable.\n\nBut retained earnings are high, which might indicate a history of profitability, but current situation is poor.\n\nPerhaps the company has a liquidity crisis but is otherwise profitable.\n\nStill, for credit rating, the ability to meet obligations is key.\n\nI think speculative grade, low end.\n\nPerhaps BB, but BB is higher.\n\nBB is for less vulnerable, but here with current ratio 0.53, it's vulnerable.\n\nLet's compare to typical ratios.\n\nFor example, a BBB rating might have current ratio above 1.5, debt-to-EBITDA below 3, etc.\n\nHere, current ratio 0.53, debt-to-equity 2.67, which is high.\n\nEBIT is 1,360M, EBITDA might be higher, but not given.\n\nAssume EBITDA similar to EBIT for simplicity, debt/EBIT = 84,798 / 1,360 \u2248 62.35, which is extremely high. Normally, above 5-6 is risky.\n\nDebt/EBITDA above 5 is high yield territory.\n\nHere 62, so very high.\n\nThus, rating should be low.\n\nTherefore, I think CCC is appropriate.\n\nAmong CCC+, CCC, CCC-, since the ratios are very poor, perhaps CCC-.\n\nBut let's see the decision.\n\nFinally, output DECISION: <label>\n\nI need to choose one.\n\nBased on the analysis, I'll go with CCC.\n\nReason: The company exhibits severe liquidity issues with a current ratio of 0.53 and negative working capital, high leverage with debt-to-equity ratio of 2.67, and estimated interest coverage below 1, indicating high default risk.\n\nSo, rating CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 3926,
+ "usd": 0.008735,
+ "utc": "2026-09-06T20:08:45.959074+00:00"
+}

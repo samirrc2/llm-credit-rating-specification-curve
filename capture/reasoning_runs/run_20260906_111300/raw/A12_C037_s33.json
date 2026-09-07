@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Weak liquidity (current ratio 1.00), large negative retained earnings, and low ROA indicate high default risk.\"}",
+ "reasoning_tail": "\n\nBB to B: speculative\n\nCCC to C: vulnerable to default\n\nWith current ratio 1.00, it indicates liquidity risk.\n\nNegative retained earnings indicate poor historical performance.\n\nLow ROA.\n\nSo, I think speculative grade with high risk, so CCC category.\n\nSpecifically, since EBIT is positive, not the lowest.\n\nCCC+ might be too high.\n\nCCC is \"currently vulnerable\", which fits.\n\nCCC- is \"vulnerable, dependent on favorable conditions\".\n\nCC is \"highly vulnerable\".\n\nHere, with positive EBIT, CCC or CCC-.\n\nBut let's see the numbers.\n\nRevenue 1,635M, EBIT 283M, so they are making operating profit.\n\nBut retained earnings negative, so past losses may have eroded capital.\n\nEquity is still positive.\n\nFor confidence, I'll say 3, since not all data is available.\n\nRationale in 25 words.\n\nFinal decision.\n\nI think CCC is appropriate.\n\nLabel: CCC\n\nConfidence: 3\n\nRationale: Weak liquidity, negative retained earnings, low profitability indicate high credit risk.\n\nThat's 9 words.\n\nNow for JSON format.\n\n{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Weak liquidity, negative retained earnings, low profitability indicate high credit risk.\"}\n\nBut is CCC the best? Perhaps CCC-.\n\nSince current ratio is exactly 1, very tight.\n\nBut I think CCC is fine.\n\nAnother thought: total liabilities and equity sum to less than assets, but I'll ignore that discrepancy.\n\nPerhaps \"total liabilities\" is only interest-bearing, but it says \"total liabilities\", so probably all.\n\nI think it's okay.\n\nSo, I'll go with that.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 4189,
+ "usd": 0.009317,
+ "utc": "2026-09-06T19:35:21.096140+00:00"
+}

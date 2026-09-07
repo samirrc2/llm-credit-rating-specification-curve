@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"B\",\n  \"confidence\": 3,\n  \"rationale\": \"High leverage (debt-to-equity 1.86) and low current ratio (1.18) indicate default risk, partially offset by solid EBIT margin (23.6%).\"\n}",
+ "reasoning_tail": "T is positive, so not in default.\n\nCCC: Vulnerable, dependent on favorable conditions.\n\nB: Has capacity but vulnerable.\n\nWith quick ratio 0.7, it's vulnerable.\n\nSo perhaps CCC+ or CCC.\n\nBut let's see the options.\n\nCCC+, CCC, CCC-.\n\nI think CCC+ or CCC.\n\nBut retained earnings are high, which might provide some buffer.\n\nRetained earnings are part of equity, not liquid.\n\nFor liquidity, quick ratio is key.\n\nI think CCC+ is possible.\n\nBut let's see EBIT.\n\nIf interest expense is high, they might not cover.\n\nBut I think for rating, based on liquidity, it's low.\n\nPerhaps B-.\n\nI need to decide.\n\nAnother ratio: Liabilities to equity 1.86, which is not extreme; some companies have higher.\n\nBut with low coverage, it's bad.\n\nI think I'll go with B, as it has capacity but is vulnerable.\n\nRationale: High leverage, low liquidity, but profitable operations.\n\nIn 25 words.\n\nConfidence 3, since missing interest expense.\n\nBut I have to box the answer.\n\nPerhaps BBB- is too optimistic.\n\nLet's look at the numbers again.\n\nTotal assets 40,898M, revenue 2,444M, so revenue to assets ratio low, which might indicate inefficiency or capital-intensive, but in credit rating, it's a negative.\n\nEBIT 577M, so for rating, let's say B.\n\nI think B is appropriate.\n\nSo decision: B\n\nConfidence: 3\n\nRationale: \"High debt, low liquidity, but solid EBIT margin; speculative grade due to default risk.\"\n\nWithin 25 words.\n\n\"High leverage and tight liquidity offset by profitability; rated B for vulnerability.\"\n\nNow for JSON.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 258,
+ "out_tok": 4914,
+ "usd": 0.010904,
+ "utc": "2026-09-06T18:38:30.746150+00:00"
+}

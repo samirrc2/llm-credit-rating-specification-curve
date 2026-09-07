@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity, low current ratio (0.62), and high leverage indicate severe financial distress and default vulnerability.\"}",
+ "reasoning_tail": "iquidity suggest vulnerability.\n\nPerhaps B-.\n\nI recall that companies like Tesla during tough times had B ratings, but with positive equity.\n\nHere equity is negative.\n\nFor example, some companies in Chapter 11 have negative equity.\n\nBut this one has positive EBIT.\n\nSo, let's say CCC+.\n\nBut I need to choose one label.\n\nThe confidence: 1-5, 5 being highest.\n\nI'm not very confident because some data is missing, like interest expense.\n\nBut based on given, I'll go with CCC.\n\nRationale: Poor liquidity, negative equity, high leverage.\n\nUnder 25 words.\n\nFinal decision.\n\nPerhaps BB- but that seems too optimistic.\n\nAnother metric: Interest coverage, but not given.\n\nEBIT 3,230M, if interest expense is, say, based on liabilities.\n\nAssume average interest rate. Say 5%, then interest on total liabilities 37,604M * 0.05 = 1,880.2M, so EBIT / interest = 3,230 / 1,880.2 \u2248 1.72, which is below 2, indicating low coverage, risk of default if EBIT falls.\n\nWith coverage below 2, it's risky.\n\nAlso, current ratio low.\n\nSo, rating should be B or lower.\n\nB+ for coverage around 2, but here estimated coverage is 1.72, and with negative equity, worse.\n\nSo, B or B-.\n\nBut let's see the rating scale.\n\nI think CCC+ is reasonable.\n\nCCC+ is between B- and CCC, but in S&P scale, it's CCC+.\n\nLabels given: CCC+, CCC, CCC-, etc.\n\nPerhaps CCC.\n\nI think I'll go with CCC.\n\nConfidence: 3, since some assumptions.\n\nRationale: \"Negative equity, low current ratio, high leverage indicate high default risk.\"\n\nNow for JSON.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 4475,
+ "usd": 0.009944,
+ "utc": "2026-09-06T16:52:17.374175+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt-to-equity ~14.5) and poor liquidity (current ratio 0.63) outweigh strong profitability, indicating elevated default risk.\"}",
+ "reasoning_tail": " 2738 / 63190 \u2248 0.043, very low, meaning assets are not efficiently generating revenue. But this might be due to the nature of the business, e.g., capital-intensive.\n\nNot directly relevant for credit rating.\n\nFocus on solvency and liquidity.\n\nSolvency: debt to equity high, but interest coverage might be ok if interest is low.\n\nLiquidity: current ratio poor.\n\nOverall, I think speculative grade with high risk.\n\nPerhaps BB-, but current ratio 0.63 is too low for BB.\n\nBB ratings might have current ratio above 1, though not always.\n\nFor example, a company with current ratio below 1 might be downgraded.\n\nHere, it's given as 0.63, so likely CCC or B.\n\nLet's assign.\n\nI think B- or CCC+.\n\nConfidence: not high, since limited data.\n\nRationale must be <=25 words.\n\nFinal decision.\n\nPerhaps B, with confidence 3.\n\nLet's see the scale.\n\nAAA to C.\n\nBased on similar cases.\n\nAssume this is a tech company or something, but not specified.\n\nRetained earnings negative, so perhaps a startup that scaled, but revenue $2.7B is large.\n\nFiscal year 2025, filed 2026, so recent.\n\nBut knowledge predating, so no new info.\n\nI think the rating should be low due to liquidity and leverage.\n\nDecision: B-\n\nConfidence: 3 (medium)\n\nRationale: High leverage and poor liquidity despite strong profitability.\n\nWithin 25 words.\n\nRationale: \"Extremely high debt-to-equity ratio and current ratio below 1 indicate significant default risk, offset partially by strong operating margins.\"\n\nBut need to be concise.\n\nFinal choice.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 2713,
+ "usd": 0.006092,
+ "utc": "2026-09-06T19:37:17.752058+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Negative equity and low current ratio indicate high risk, partially offset by profitability.\"}",
+ "reasoning_tail": " That would be huge, like $23 billion in a quarter, so annual revenue around $92 billion, which is large.\n\nBut the financials are as of the fiscal year, I think.\n\nThe information says \"Fiscal period 2026 Q1\", so it's quarterly data.\n\nRevenue 23,078M for Q1, so if annualized, it's about 92B, but we should use the given data.\n\nOperating income 2,554M for Q1, so annualized about 10,216M.\n\nNet income 1,628M annualized about 6,512M.\n\nBut it's quarterly, so not directly annual, but for rating, we use the snapshot.\n\nAssets and liabilities are as of that date.\n\nShareholders' equity -9,270M.\n\nWith net income positive, equity might improve over time, but for rating, we assess current position.\n\nI think B is fair.\n\nPerhaps the rating is BB-.\n\nLet me decide.\n\nI recall that credit ratings for companies with negative equity are often B or lower.\n\nFor example, in 2024, companies like Beyond Meat or others with losses had ratings around B.\n\nBut here net income is positive.\n\nAnother thing: retained earnings -9,884M, which is worse than equity, but equity includes other items.\n\nEquity is negative, retained earnings are a component.\n\nI think B is appropriate.\n\nFinal answer: B\n\nConfidence: 3, since no interest coverage or cash flow.\n\nRationale: Negative equity and tight liquidity offset by profitability.\n\nThat's 7 words.\n\nNow, for JSON: {\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Negative equity and low current ratio, but positive net income.\"}\n\nRationale should be <=25 words, that's fine.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 3299,
+ "usd": 0.007376,
+ "utc": "2026-09-06T19:10:42.583763+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB+\", \"confidence\": 3, \"rationale\": \"Low profitability and moderate leverage indicate speculative risk, but strong liquidity provides near-term stability.\"}",
+ "reasoning_tail": "nterest coverage, and low margins, I'll go with speculative grade.\n\nThe rating scale has BB+, BB, BB-, etc.\n\nBB+ is \"less vulnerable in the near term\" but speculative.\n\nWith current ratio 2.04, they can cover short-term obligations.\n\nBut long-term, low profitability is a concern.\n\nNet income 491M, if they have debt, interest could eat into it.\n\nAssume interest expense: suppose average interest rate 5%, debt 30,000M, interest 1,500M annual, net income annualized 1,964M, so after interest, net income low, but EBIT covers interest.\n\nEBIT annual 3,764M, interest 1,500M, coverage 2.5, which is borderline.\n\nFor BBB, coverage should be above 3 or so.\n\nS&P for BBB, interest coverage > 3x.\n\nHere estimated 2.5, so below.\n\nThus, likely BB+ or lower.\n\nBB+ has coverage around 2-3 sometimes.\n\nBut let's assign.\n\nPerhaps BBB- with low confidence.\n\nBut I think BB+ is more appropriate.\n\nAnother ratio: retained earnings to total assets or something.\n\nRetained earnings 39,480M, total assets 143,724M, so about 27.5%, which is okay.\n\nBut not decisive.\n\nI think I have to make a decision.\n\nFinal rating: let's say BB+.\n\nConfidence: not high, since missing data.\n\nRationale in <=25 words.\n\nThe JSON format.\n\nSo, decision: BB+\n\nConfidence: 3 out of 5, medium.\n\nRationale: Low profitability and moderate leverage suggest speculative grade, with good liquidity.\n\nWords: \"Low margins and estimated weak interest coverage indicate speculative credit risk, mitigated by strong liquidity.\"\n\nCount: 10 words.\n\nOkay.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 3661,
+ "usd": 0.008166,
+ "utc": "2026-09-06T16:12:10.118167+00:00"
+}

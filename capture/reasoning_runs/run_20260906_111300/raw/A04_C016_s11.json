@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"High leverage, negative working capital, and low current ratio indicate financial distress.\"}",
+ "reasoning_tail": "t.\n\nSince I have limited data, and no interest coverage, confidence might be low.\n\nRationale in 25 words.\n\nFirst, let's assign rating.\n\nI think B- or CCC+.\n\nLook at the scale.\n\nMaybe B+ for some chance.\n\nBut negative working capital and low current ratio.\n\n   Another ratio: Equity to Total Liabilities = 21,383 / 89,110 \u2248 0.24, very low.\n\nFor credit rating, leverage is critical.\n\nI think it's speculative grade with high risk.\n\nLet's go with CCC+ or CCC.\n\nCCC means currently vulnerable, and dependent on favorable business conditions to meet commitments.\n\nThat seems fitting.\n\nB means more capable, but highly speculative.\n\nWith current ratio below 1, I think CCC is possible.\n\nBut let's see if I can be more precise.\n\nFrom the data, total assets  110,646M, current assets 30,916M, so non-current assets 110,646 - 30,916 = 79,730M\n\nTotal liabilities 89,110M, current liabilities 34,477M, long-term 54,633M\n\nIf the company has to refinance short-term debt, with current assets < current liabilities, it may have difficulty.\n\nSo vulnerable.\n\nEBIT covers operating expenses, but interest may be high.\n\nI think CCC+ is reasonable.\n\nCCC or B-.\n\nI'll go with CCC+.\n\nNow confidence: I have most needed ratios except coverage, so confidence 3 or 4. I'll say 3.\n\nRationale: High leverage, negative working capital, and low liquidity indicate distress.\n\n21 words.\n\nFine.\n\nSo decision: CCC+\n\nConfidence: 3\n\nRationale: \"High leverage, negative working capital, and low liquidity indicate financial distress.\"\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 4129,
+ "usd": 0.009187,
+ "utc": "2026-09-06T17:36:53.463777+00:00"
+}

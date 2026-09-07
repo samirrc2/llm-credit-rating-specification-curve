@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress based on key metrics: the current ratio of 0.53 indicates critical liquidity issues, as current assets cannot cover current liabilities. Negative retained earnings of -12,237M reflect cumulative losses, and high leverage is evident with total liabilities at 43,578M versus shareholders' equity of 12,807M, resulting in a debt-to-equity ratio of approximately 3.4. Additionally, EBIT of 1,307M suggests weak interest coverage (likely below 1x given the context), further supporting a high risk of default. These factors align with a CCC rating, indicating vulnerability and dependence on favorable economic conditions to meet obligations.\n\nDECISION: CCC",
+ "reasoning_tail": "uivalent to B or lower rating.\n\nRatings below B are CCC, CC, C.\n\nC is imminent default, CC is very high risk, CCC is vulnerable.\n\nWith EBIT positive, it might be CCC.\n\nRevenue is positive, so not dormant.\n\nSo, I think CCC or CCC-.\n\nBut let's see if I can justify finer granularity.\n\nPerhaps based on the ratios.\n\nI think CCC is reasonable.\n\nThe task says \"finest granularity you can justify.\"\n\nWith limited data, I can't be too fine.\n\nBut I have EBIT, etc.\n\nAnother ratio: Quick ratio, but I don't have inventory, so can't calculate.\n\nCurrent ratio includes inventory, but here it's given as 0.53, which is low.\n\nI think overall, the issuer has very high credit risk.\n\nFinal decision: I'll go with CCC.\n\nBut let's confirm the scale: CCC+, CCC, CCC-, etc.\n\nPerhaps CCC+ is a bit better.\n\nCCC+ is still speculative grade with substantial risk.\n\nBut here, with current ratio 0.53, it's critical.\n\nFor example, some companies with current ratio below 1 might be rated B if they have good access to credit, but here retained earnings negative, so history poor.\n\nI think CCC is safer.\n\nPerhaps B-, but I think CCC is better.\n\nLet's see the retained earnings magnitude.\n\nRetained earnings -12,237M, equity 12,807M, so accumulated losses are almost equal to equity, meaning net worth is low.\n\nEquity is 12,807M, retained earnings -12,237M, so contributed capital must be high, but still, the losses are significant.\n\nFor instance, book value is positive, but with losses.\n\nI think CCC.\n\nSo, I'll assign CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 4073,
+ "usd": 0.009053,
+ "utc": "2026-09-06T19:16:49.450675+00:00"
+}

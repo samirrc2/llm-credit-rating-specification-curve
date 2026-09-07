@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits significant financial weaknesses, including a current ratio of 0.79 (below 1), indicating poor short-term liquidity and difficulty meeting immediate obligations. Leverage is high with a debt-to-equity ratio of approximately 2.74 and a debt-to-assets ratio of 73.3%, suggesting elevated financial risk. Although the operating margin is a relatively strong 19.1%, the return on assets is low at approximately 0.95%, reflecting inefficient asset utilization. These factors, combined with negative working capital, point to a high credit risk consistent with a speculative grade rating. The positive EBIT and retained earnings provide some cushion but are insufficient to offset the liquidity and leverage concerns.\n\nDECISION: B-",
+ "reasoning_tail": "0.04946\n\nMarket value unknown; assume same as book for simplicity, but it's not, and book value liabilities is total liabilities 57,973, equity 21,181, so book value liabilities per share not known.\n\nAssume equity market value same as book for estimation.\n\nBut it's rough.\n\nZ-score = 1.2*(-0.0185) + 1.4*(0.1136) + 3.3*(0.00946) + 0.6*( market value equity / book value liabilities) + 1.0*(0.04946)\n\nFirst, market value equity / book value liabilities: if market value = book value, then 21,181 / 57,973 \u2248 0.365\n\nSo Z-score \u2248 1.2*(-0.0185) = -0.0222\n\n1.4*0.1136 = 0.15904\n\n3.3*0.00946 = 0.031218\n\n0.6*0.365 = 0.219\n\n1.0*0.04946 = 0.04946\n\nSum: -0.0222 + 0.15904 = 0.13684\n\n+0.031218 = 0.168058\n\n+0.219 = 0.387058\n\n+0.04946 = 0.436518\n\nZ-score \u2248 0.437\n\nAltman Z-score: below 1.8 indicates distress, between 1.8 and 3.0 is gray area, above 3.0 is safe.\n\n0.437 is well below 1.8, suggesting high bankruptcy risk.\n\nTherefore, credit rating should be low, like CCC or B.\n\nSince Z-score is not the only factor, but it supports a low rating.\n\nEBIT is positive, so not CCC- or CC.\n\nCCC is for currently vulnerable, B for high speculative.\n\nWith Z-score 0.437, it's distress zone.\n\nSo rating around B- or CCC+.\n\nBut let's see the options.\n\nPerhaps B-.\n\nI think for the purpose of this, I'll assign B-.\n\nBut let's confirm with the ratios.\n\nCurrent ratio 0.79: very poor.\n\nDebt-to-equity 2.74: high.\n\nROA 0.95%: low.\n\nNegative working capital.\n\nSo, I think speculative grade with high risk.\n\nFinal decision: B-\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 247,
+ "out_tok": 4729,
+ "usd": 0.010492,
+ "utc": "2026-09-06T19:26:37.685382+00:00"
+}

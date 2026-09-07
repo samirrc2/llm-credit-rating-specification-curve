@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability with high gross and operating margins (71% and 42%, respectively), but this is overshadowed by severe financial weaknesses: extremely high leverage (debt-to-equity ratio of approximately 14.5), poor liquidity (current ratio of 0.63 indicating inability to cover short-term obligations), and negative retained earnings (-5,086M) reflecting accumulated losses and eroded equity. These factors indicate substantial vulnerability and a high risk of default, placing the issuer in the speculative grade with current vulnerability.\n\nDECISION: CCC",
+ "reasoning_tail": "rable\", but CCC is \"currently vulnerable\", which might fit.\n\nB is \"more vulnerable to adverse business conditions\", CCC is \"currently vulnerable\".\n\nWith current ratio below 1, they are currently vulnerable to liquidity issues.\n\nSo CCC.\n\nBut to be precise, let's assign CCC.\n\nThe rating scale has CCC+, CCC, CCC-, so I need to choose one.\n\nWith strong profitability, maybe CCC+ to indicate some strength.\n\nCCC+ is higher than CCC.\n\nCCC+ is better than CCC.\n\nIn the scale, CCC+ is above CCC, which is above CCC-.\n\nSo for a bit of strength, CCC+.\n\nBut the weaknesses are severe.\n\nNet income is 821M, which is good, but leverage is too high.\n\nI think CCC is appropriate.\n\nPerhaps B-, but B- is for more vulnerable, but not currently vulnerable.\n\nThe definitions:\n\nB-: \"Highly speculative; 'junk' bonds; greater risk of default.\"\n\nCCC: \"Substantial risks; vulnerable to adverse conditions; currently may not have capacity.\"\n\nCC: \"Highly vulnerable; very speculative; often in default.\"\n\nC: \"Extremely speculative; near default or in bankruptcy.\"\n\nWith positive earnings, not CC or C.\n\nBetween B- and CCC.\n\nB- is \"greater risk of default,\" CCC is \"currently may not have capacity.\"\n\nThe current ratio suggests they currently may not have capacity to meet short-term obligations, so CCC fits.\n\nAlso, retained earnings negative indicates past losses.\n\nSo I think CCC.\n\nBut let's see if there's a way to justify higher.\n\nNo, I think CCC is the best fit.\n\nPerhaps CCC-.\n\nBut I'll go with CCC.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 3790,
+ "usd": 0.008444,
+ "utc": "2026-09-06T19:35:37.572101+00:00"
+}

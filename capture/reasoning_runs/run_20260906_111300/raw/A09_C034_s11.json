@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Low liquidity (current ratio 0.53) and negative retained earnings indicate high vulnerability, offset by strong profitability with 41% operating margin.\"}",
+ "reasoning_tail": "profitability.\"\n\nThen label B+.\n\nOr perhaps BBB- if we focus on profitability, but current ratio is too low.\n\nn  ormal companies like   with high r tio have lower ratings.\n\nFor example, some companies with high leverage have BB rating.\n\nBut current ratio below 1 is unusual I think for going concern.\n\nPerhaps this company is in turnaround, profitable now, but history issues.\n\nI think BBB- is investment grade, which requires strong capacity,   here liquidity weak, leverage high, so at best BB+.\n\nBB+ is highest speculative.\n\nWith operating margin 41%, they have good cash flow, so they can service debt.\n\nBut short-term, if they can't roll over debt, it could be trouble.\n\nBut for rating, it's medium-term view.\n\nI'll go with BB-, spec grade, less vulnerable.\n\nScale BB+ to BB-.\n\nBB- is \"less vulnerable in the near term\"\n\nB+ is \"more vulnerable but currently has capacity\"\n\nWith current assets < current liabilities, they do not currently have the assets to cover, so need cash flow, so B+ might be appropriate.\n\nB+ rating means \"High credit risk; capacity to meet financial commitments is very sensitive to adverse changes in business/economic conditions\" .\n\nYes, with low current ratio, it's sensitive.\n\nCCC is \"Currently vulnerable to not meeting financial commitments\" .\n\nWith operating income high, they can meet, so not CCC.\n\nSo B to B+ range.\n\nI think B+.\n\nConfidence 3, medium.\n\nRationale: \"Poor liquidity (current ratio 0.53), high leverage, but strong operating margins mitigate risk.\"\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 276,
+ "out_tok": 4968,
+ "usd": 0.011032,
+ "utc": "2026-09-06T19:18:17.938526+00:00"
+}

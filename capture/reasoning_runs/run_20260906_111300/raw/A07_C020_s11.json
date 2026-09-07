@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The provided financial metrics indicate severe financial stress. The current ratio of 0.91 and negative working capital (current assets - current liabilities = 56,922M - 62,370M = -5,448M) point to critical liquidity issues, with insufficient short-term assets to cover obligations. Additionally, high leverage is evident from the debt-to-equity ratio (total liabilities / shareholders' equity = 298,517M / 104,460M \u2248 2.86), while the low EBIT to total liabilities ratio (5,004M / 298,517M \u2248 1.68%) implies weak coverage of debt by operating earnings. These factors, combined with a low Altman Z-score (estimated at 0.65), indicate a high risk of distress or bankruptcy, aligning with a speculative-grade rating in the CCC tier.\n\nDECISION: CCC",
+ "reasoning_tail": "or something, but I shouldn't guess.\n\nBased on data: poor liquidity, high leverage, mediocre profitability.\n\nRating: B-\n\nI think B- might be too high; let's go with CCC+.\n\nThe task is to use only provided figures and be as granular as justified.\n\nPerhaps I can calculate interest coverage if I assume an interest rate, but that's not reliable.\n\nNotice that current liabilities are 62,370M, total liabilities 298,517M, so long-term liabilities: 298,517 - 62,370 = 236,147M.\n\nEBIT 5,004M.\n\nIf I ignore short-term for leverage, debt/EBIT = 298,517/5,004 \u2248 59.65, very high.\n\nEven net debt: but no cash given.\n\nCurrent assets 56,922M, which includes cash, but unknown.\n\nSo little cash, I assume.\n\nI think rating is low.\n\nDecision: CCC\n\nOr CCC-.\n\nTo be precise, with retained earnings high, it has some buffer.\n\nLet's see the ratio of retained earnings to total liabilities: 94,744/298,517 \u2248 0.317, not great.\n\nI think CCC is reasonable.\n\nThe Z-score is below 1.8, so non-investment grade and high risk.\n\nTypically, Z-score below 1.8 corresponds to ratings below B or so.\n\nZ-score below 1.8 is distress, which might be CCC or lower.\n\nFor example, companies with Z-score below 1.0 are very high risk.\n\nHere 0.65, so CCC or CC.\n\nBut C is for imminent default, which not necessarily here.\n\nSo CCC.\n\nPerhaps CCC-.\n\nSince revenue exists, it's operational, so not C.\n\nSo DECISION: CCC\n\nBut the options include CCC+, CCC, CCC-.\n\nI think CCC is fine.\n\nPerhaps I can justify CCC-.\n\nLet's list the reasons briefly.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 244,
+ "out_tok": 4044,
+ "usd": 0.008991,
+ "utc": "2026-09-06T18:01:08.932475+00:00"
+}

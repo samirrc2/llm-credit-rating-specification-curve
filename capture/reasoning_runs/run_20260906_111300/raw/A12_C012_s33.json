@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong EBIT margin (46.3%), moderate leverage (debt-to-equity 0.68), adequate liquidity (current ratio 1.28).\"}",
+ "reasoning_tail": "ut which one?\n\nPerhaps BBB+ to be conservative.\n\nI recall that for S&P, BBB- and above are investment grade.\n\nBBB+ is upper medium grade.\n\nA- is strong payment capacity.\n\nWith high profitability, it could be A-.\n\nLet's calculate the quick ratio mentally.\n\nCurrent assets 175,329M, current liabilities 136,661M, but quick assets exclude inventory.\n\nIf I assume inventory is, say, 50,000M, then quick assets = 175,329 - 50,000 = 125,329M, quick ratio = 125,329 / 136,661 \u2248 0.92, which is below 1, indicating liquidity risk.\n\nBut I don't have inventory, so I can't calculate quick ratio.\n\nWithout inventory, I can't.\n\nSo I have to use current ratio.\n\nCurrent ratio 1.28 means that even with some inventory, it might be okay, but not great.\n\nSo for rating, it might be lower.\n\nPerhaps BB+ or BBB-.\n\nBut that seems too low given profitability.\n\nLet's assume that the company has low inventory or something.\n\nBut no data.\n\nI think I should go with BBB+.\n\nDecision: BBB+\n\nConfidence: 3\n\nRationale: \"Strong profitability but liquidity only adequate; moderate leverage.\"\n\n18 words.\n\nOr \"High EBIT margin, but current ratio weak, leverage moderate.\"\n\nBut \"weak\" might be strong; 1.28 is not weak, just not strong.\n\n\"Adequate\" is better.\n\nPerhaps A- is possible.\n\nLet's look at the numbers: current assets 175,329M, current liabilities 136,661M, so net working capital 38,668M, which is positive, so no immediate concern.\n\nEBIT 38,398M, which can cover interest.\n\nI think A-.\n\nI'll go with A-.\n\nFinal decision.\n",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 262,
+ "out_tok": 5624,
+ "usd": 0.012461,
+ "utc": "2026-09-06T17:17:08.102934+00:00"
+}

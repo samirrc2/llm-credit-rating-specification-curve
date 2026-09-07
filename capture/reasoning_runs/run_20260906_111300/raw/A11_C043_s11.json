@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits poor liquidity with a current ratio below 1 (0.97), indicating difficulty in meeting short-term obligations. High leverage is evident from a debt-to-equity ratio of approximately 2.87 (total liabilities / shareholders' equity = 44,490M / 15,501M), and low profitability with an EBIT margin of 3.75% (EBIT / revenue = 948M / 25,270M). These factors collectively suggest high credit risk and vulnerability, aligning with a speculative grade rating in the CCC category.\n\nDECISION: CCC",
+ "reasoning_tail": "eet financial commitments, but more subject to adverse conditions.\n\n- BB: Less vulnerable in the near term but faces major ongoing uncertainties.\n\n- B: More vulnerable to adverse business, financial, economic conditions.\n\n- CCC: Currently vulnerable and dependent on favorable conditions.\n\n- CC: Currently highly vulnerable.\n\nHere, with current ratio below 1, it's vulnerable to meeting short-term obligations.\n\nSo CCC seems appropriate.\n\nEBIT is positive, so not CC or C.\n\nTherefore, I think CCC or CCC-.\n\nBut let's see the exact label.\n\nPerhaps I can use the data to justify.\n\nAnother ratio: Interest coverage, but missing.\n\nTotal debt service, but no.\n\nI think I have to go with the liquidity issue.\n\nSo for the reason: Poor liquidity as indicated by current ratio below 1, high leverage, and low profitability suggest high credit risk.\n\nThus, rating in the CCC category.\n\nSince current ratio is 0.97, very close to 1, maybe CCC+.\n\nBut Z-score low, so CCC.\n\nI think CCC is fine.\n\nThe options include CCC+, CCC, CCC-.\n\nI'll go with CCC.\n\nBut let's see the retained earnings: 8,777M is large, which could be used to weather issues, but the current deficit is immediate.\n\nIn practice, companies can refinance, but based on ratios, it's weak.\n\nPerhaps assign BB-.\n\nBut current ratio below 1 is a big red flag.\n\nFor example, in credit agreements, covenants often require current ratio above 1 or 1.2.\n\nViolation could trigger default.\n\nSo likely rated low.\n\nI think CCC is reasonable.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 3948,
+ "usd": 0.008783,
+ "utc": "2026-09-06T20:02:44.329313+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Poor liquidity (current ratio <1), high leverage, low profitability.\"}",
+ "reasoning_tail": "e should be <=25 words.\n\nFinal decision.\n\nLet's look for a key ratio.\n\nThe current ratio is critical here at 0.97.\n\nIn credit analysis, a current ratio below 1 is often a red flag and can lead to downgrades.\n\nSimilarly, the Altman Z-score is low.\n\nI think the rating should be B.\n\nBut let's see if there's a standard way.\n\nPerhaps I can calculate the net working capital.\n\nNegative 540M.\n\nAs a percentage of revenue, 540 / 25,270 \u2248 2.14%, not huge, but significant.\n\nEBIT 948M, so they have operating profit, but it might be needed for interest and other things.\n\nI think B is reasonable.\n\nBut let's consider the retained earnings. 8,777M is large, so they have reserves, which could be used to cover shortfalls, but retained earnings are not cash; it's accounting.\n\nThey might have cash or other assets, but not specified.\n\nIn current assets, there might be cash, but I don't know.\n\nSo based on ratios, I think speculative grade with high risk.\n\nI'll go with B.\n\nConfidence: 3, since missing some info.\n\nRationale: Poor liquidity (current ratio <1), high leverage, low profitability.\n\nNow for the JSON.\n\nDecision: B\n\nConfidence: 3\n\nRationale: \"Low current ratio, high debt, thin EBIT margin.\"\n\nThat's 7 words.\n\nOr \"Poor liquidity, high leverage, low profitability.\" 5 words.\n\nGood.\n\nBut is B the best?\n\nPerhaps B-.\n\nDebt-to-equity 2.87, EBIT margin 3.75%, current ratio 0.97.\n\nFor B-, it might be worse.\n\nI think B is fine.\n\nCCC+ or CCC is for imminent default risk, not here.\n\nSo B.\n\nFinal answer.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4196,
+ "usd": 0.009327,
+ "utc": "2026-09-06T20:01:47.966081+00:00"
+}

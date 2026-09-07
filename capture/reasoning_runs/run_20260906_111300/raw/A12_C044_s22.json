@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"CCC\",\n  \"confidence\": 4,\n  \"rationale\": \"Critical liquidity shortfall (current ratio 0.27) and negative equity indicate high default vulnerability despite positive EBIT.\"\n}",
+ "reasoning_tail": "uld be about 1,665M, which is more than EBIT 465M, so interest coverage is poor if debt is high.\n\nTotal liabilities include non-debt items like accounts payable, but probably a lot is debt.\n\nCurrent liabilities include short-term debt, but not specified.\n\nAssuming a portion is debt, interest might still be high.\n\nFor example, if long-term debt is part of total liabilities.\n\nBut I don't have breakdown, so I should not assume.\n\nBased on given data, negative equity and low current ratio point to high risk.\n\nI think CCC is appropriate.\n\nConfidence: 4, because EBIT positive provides some hope, but overall weak.\n\nRationale: \"Extremely weak liquidity and negative net worth indicate high default risk.\"\n\nNow, for the JSON: {\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extremely weak liquidity and negative equity\"}\n\nRationale must be <=25 words; that's short.\n\n\"Severe liquidity crisis with negative equity; operating profit insufficient to offset historical losses.\" That's 9 words.\n\nGood.\n\nBut is CCC the best? Let's see if CC might be better.\n\nCC is for default probable, but EBIT positive, so not imminent.\n\nCCC is vulnerable.\n\nI think CCC is fine.\n\nPerhaps B-, but with current ratio 0.27, it's worse.\n\nB ratings might have current ratio above 1 sometimes.\n\nFor example, a company with current ratio 0.8 might be B, but 0.27 is much lower.\n\nI think CCC.\n\nFinal decision: CCC\n\nConfidence: 4\n\nRationale: \"Critical liquidity shortfall and negative equity signal high default vulnerability.\"\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 2409,
+ "usd": 0.005419,
+ "utc": "2026-09-06T20:06:17.247549+00:00"
+}

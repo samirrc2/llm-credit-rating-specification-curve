@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits high financial leverage with a debt-to-equity ratio of 2.47 (total liabilities / shareholders' equity = 52,676 / 21,312), which is elevated and increases default risk. Retained earnings of 0M indicate no accumulated profits for financial flexibility, and the EBIT margin of approximately 9.7% (EBIT / revenue = 886 / 9,143) is modest, suggesting limited earnings capacity to service debt. Although the current ratio of 1.39 provides some short-term liquidity, it is not strong, and inferred interest coverage is likely below 1.5 (based on reasonable interest rate assumptions and EBIT), placing the issuer in a vulnerable position. Given these factors, the credit risk aligns with the CCC+ rating, indicating current vulnerability and dependence on favorable conditions to meet obligations.\n\nDECISION: CCC+",
+ "reasoning_tail": ".72.\n\nBoth below 1.\n\nSo, EBIT does not cover interest, meaning the company is losing money after interest.\n\nTherefore, it is currently vulnerable, so CCC rating.\n\nWith current assets covering current liabilities, it's not CC or C.\n\nSo, CCC+ or CCC.\n\nCCC+ is for those with a slightly higher chance of recovery, but here it's weak.\n\nI think CCC is appropriate.\n\nBut let's confirm with the current ratio.\n\nCurrent ratio 1.39 means it can pay short-term obligations, but long-term is the issue.\n\nSo, for issuer rating, it's about overall ability to meet obligations.\n\nGiven that, I think CCC.\n\nBut in the scale, CCC+, CCC, CCC-.\n\nPerhaps CCC+.\n\nI think I'll go with CCC+.\n\nBut let's see if there's a better way.\n\nAnother ratio: shareholders' equity is 21,312M, total liabilities 52,676M, so equity is less than half of liabilities.\n\nEBIT to interest, but no interest.\n\nI think based on the data, the company has high debt, low earnings, and no retained earnings, so it's in a vulnerable position.\n\nTherefore, I assign CCC+.\n\nBut CCC+ might be too low; let's see if it can be B-.\n\nB is for more vulnerable, but CCC is currently vulnerable.\n\nWith EBIT not covering interest, it's vulnerable.\n\nSo, DECISION: CCC+\n\nBut I need to reason briefly.\n\nReason: High leverage with debt-to-equity ratio of 2.47 and inferred interest coverage below 1 indicate significant credit risk. Retained earnings of 0M suggest no financial cushion, and low EBIT margin of 9.7% further weakens the profile.\n\nSo, rating is CCC+.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 245,
+ "out_tok": 4658,
+ "usd": 0.010336,
+ "utc": "2026-09-06T18:27:09.428762+00:00"
+}

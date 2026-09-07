@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extremely high leverage (debt-to-equity ~14.5), critical liquidity (current ratio 0.63), and significant retained earnings deficit.\"}",
+ "reasoning_tail": " rating, financial health is paramount.\n\nI think CCC- might be too low; CCC is standard for vulnerable.\n\nFor example, companies on the brink might be CC or C.\n\nHere, net income positive, so not imminent default.\n\nDiluted EPS 1.75, positive.\n\nSo CCC seems appropriate.\n\nPerhaps B+ or B, but I think CCC is lower.\n\nB is highly speculative, CCC is vulnerable.\n\nWith current ratio below 1, vulnerable is better.\n\nI recall that S&P defines CCC as \"currently vulnerable and dependent on favorable business, financial, and economic conditions to meet financial commitments.\"\n\nThat seems to fit.\n\nCC is \"highly vulnerable\", C is \"imminent default\".\n\nHere, not imminent, so CCC.\n\nAnd with the negative retained earnings and high leverage, it supports.\n\nSo decision: CCC\n\nConfidence: 4\n\nRationale: \"High leverage, poor liquidity with current ratio 0.63, negative retained earnings.\"\n\n19 words.\n\nNow for JSON: {\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"High leverage, poor liquidity with current ratio 0.63, negative retained earnings.\"}\n\nBut in the rationale, I should be precise.\n\n\"High leverage (debt-to-equity ~14.5), low liquidity (current ratio 0.63), negative retained earnings.\"\n\nBut debt-to-equity I calculated, not directly given, but I can infer.\n\nThe figures provided include total liabilities and equity, so I can use that.\n\nSimilarly, current ratio given.\n\nSo in rationale, I can say \"Extremely high leverage, critical liquidity, accumulated losses.\"\n\nBut to be clear.\n\nI think it's fine.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 3802,
+ "usd": 0.008472,
+ "utc": "2026-09-06T19:36:25.765492+00:00"
+}

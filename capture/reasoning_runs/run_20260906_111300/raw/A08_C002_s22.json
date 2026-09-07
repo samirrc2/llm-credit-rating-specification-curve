@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Extremely high leverage with debt-to-equity of 9.02 and inferred poor interest coverage, offset by strong liquidity with current ratio at 12.41.\"}",
+ "reasoning_tail": "uring or distressed, rated B- or lower.\n\nSo likely CCC range.\n\nWith strong liquidity, not CC or C.\n\nSo let's say CC C+ or CCC.\n\nBut let's assign.\n\nI recall that in Al nan Z-score, a score below 1.8 is distress zone.\n\nEstimate Z-score approximately.\n\nA = WC/TA = 171,243/493,319 \u2248 0.347\n\nB = RE/TA = 45,912/493,319 \u2248 0.093\n\nC = EBIT/TA = 3,188/493,319 \u2248 0.00646\n\nE = S/TA = 7,300/493,319 \u2248 0.0148\n\nD missing.\n\nZ = 1.2*0.347 + 1.4*0.093 + 3.3*0.00646 + 1.0*0.0148  (ignoring D for now)\n\nCalculate:\n\n1.2*0.347 = 0.4164\n\n1.4*0.093 = 0.1302\n\n3.3*0.00646 \u2248 3.3*0.006 = 0.0198, 3.3*0.00046\u22480.001518, total 0.021318\n\n1.0*0.0148 = 0.0148\n\nSum Z ~0.4164 + 0.1302 = 0.5466; +0.021318 = 0.567918; +0.0148 = 0.582718\n\nZ about 0.58, which is well below 1.8, indicating high distress.\n\nThis suggests a low rating.\n\nGiven that, the credit rating should be in the C or CCC range.\n\nBut with high current ratio, not immediate bankruptcy.\n\nSo CCC+ or CCC.\n\nFor confidence, I have some uncertainty due to lack of interest data, but from the numbers, it's bad.\n\nPerhaps the revenue is misstated, but I have to go with it.\n\nAnother thought: EBIT is 3,188M, but if there are large non-operating items, but it's given as operating income.\n\nI think B- or CCC+.\n\nLet's choose CCC+.\n\nBut let's see the options.\n\nPossible ratings include CCC+, CCC, CCC-, etc.\n\nI think CCC+ is reasonable.\n\nConfidence: since some data missing, but strong leverage signal, confidence 3 or 4.\n\nI'd say 3.\n\nRationale in <=25 words.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 255,
+ "out_tok": 5271,
+ "usd": 0.011684,
+ "utc": "2026-09-06T15:53:25.632702+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage (D/E 3.50), weak liquidity (current ratio 1.22), low profitability (ROA 3.52%), Altman Z-score 1.065 indicates distress.\"}",
+ "reasoning_tail": "dence.\n\nBut I need to choose a rating.\n\nAnother ratio: current ratio 1.22, which for some industries is acceptable, but generally low for good rating.\n\nI think I'll go with B-.\n\nBut let's see the answer format.\n\nI need to provide a JSON with decision, confidence, rationale.\n\nRationale in 25 words or less.\n\nSo decision: B-\n\nConfidence: 2 or 3, since not all information.\n\nRationale: High leverage, weak liquidity, low profitability per Altman Z-score.\n\nWord count: 6 words.\n\nFine.\n\nBut is there a better rating?\n\nPerhaps CCC+.\n\nLet's calculate the interest coverage if I assume short-term debt.\n\nCurrent liabilities 15,620M, if 50% is interest-bearing, say 7,810M, long-term debt from liabilities, total liabilities 56,835M, current 15,620M, so non-current 41,215M.\n\nIf non-current liabilities include long-term debt, say 30,000M, and current portion 5,000M, total debt 35,000M.\n\nInterest at 5% = 1,750M.\n\nEBIT 2,575M, so coverage = 2,575 / 1,750 = 1.47, which is below 1.5, so B- or CCC+.\n\nFor B rating, coverage is 1.5 to 2.0, for B- 1.25 to 1.5, for CCC+ below 1.25.\n\n1.47 is around B-.\n\nSimilarly, leverage high.\n\nSo B- seems reasonable.\n\nEBIT / total liabilities = 4.53%, which is low.\n\nFor comparison, a company with rating B might have EBIT/interest around 1.5-2.0.\n\nHere, if interest is high, coverage is low.\n\nBut I think B- is fine.\n\nSo decision: B-\n\nConfidence: 3, medium.\n\nRationale: \"High debt, low liquidity, distress Z-score.\"\n\nWithin 25 words.\n\nBut Z-score is 1.065, distress.\n\nYes.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 5541,
+ "usd": 0.012274,
+ "utc": "2026-09-06T17:56:55.763157+00:00"
+}

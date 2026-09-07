@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided data, the issuer exhibits severe liquidity and solvency issues. The current ratio of 0.53 indicates extreme difficulty in meeting short-term obligations, while high leverage (debt-to-equity ratio of approximately 267%) suggests substantial financial risk. Although retained earnings are significant, the negative working capital, low asset turnover (approximately 5.1%), and low EBIT return on assets (approximately 1.15%) point to financial distress and high vulnerability, aligning with a non-investment grade rating.\n\nDECISION: CCC",
+ "reasoning_tail": "is in trouble.\n\nTherefore, I think a CCC rating is justified.\n\nNow, between CCC+, CCC, CCC-, I'll choose CCC as a medium.\n\nOr look for slight indications.\n\nRevenue 6,020M is small, but EBIT 1,360M, margin high, so costs controlled, but scale small.\n\nPerhaps the company is efficient in what it does, but assets are high due to investments.\n\nBut without context, I have to go with the numbers.\n\nI think DECISION: CCC\n\nBut let's see if there's reason for higher.\n\nRetained earnings 15,795M is large, but already included in equity.\n\nTotal assets 117,776M, equity 31,808M, about 27% equity ratio, which is low but not negative.\n\nFor comparison, some distressed firms have negative equity.\n\nSo not the worst.\n\nCurrent ratio 0.53 is the critical point.\n\nIn S&P criteria, I think for liquidity, if ratio below 1 and declining, it triggers review.\n\nBut here, it's given as of fiscal year end.\n\nSo, probably CCC.\n\nI found online or recall that Altman Z below 1.8 is distressed, which corresponds to ratings like C or CC.\n\nWith Z=0.44, it's very low.\n\nSome sources say Z<1.23 indicates bankruptcy likely.\n\n1.23 to 2.90 gray area.\n\nOurs is 0.44, so very high risk.\n\nThus, rating should be low.\n\nCCC or C.\n\nBut C is for imminent default, which we don't know.\n\nCC is highly vulnerable.\n\nPerhaps CCC- or CC.\n\nThe scale has B-, etc.\n\nB- is lower medium grade, still speculative.\n\nBut with such low current ratio, it's more severe.\n\nI think CCC is the safe choice.\n\nOr since EBIT is positive, CCC.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 4567,
+ "usd": 0.010141,
+ "utc": "2026-09-06T20:11:32.992676+00:00"
+}

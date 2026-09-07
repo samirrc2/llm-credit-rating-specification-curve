@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability with high gross and operating margins (85% and 32%, respectively), and positive net income. However, it has extremely high leverage (debt-to-equity ratio of approximately 8.1) and critically poor liquidity (current ratio of 0.35), indicating severe short-term refinancing risk and vulnerability to default despite operational strength. These weaknesses outweigh profitability, placing the issuer in the high-risk speculative grade.\n\nDECISION: CCC+",
+ "reasoning_tail": "r.\n\nBut liquidity is key.\n\nI think CCC+ or CCC.\n\nCCC+ is the highest in CCC.\n\nWith profitability, perhaps CCC+.\n\nBut current ratio is so low.\n\nPerhaps B-.\n\nB- : Speculative and currently has high credit risk.\n\nCCC+ : Vulnerable.\n\nI think vulnerable is more accurate.\n\nFinal decision: I'll go with CCC+.\n\nBut let's see the retained earnings: 26,088M, which is high, suggesting strong historical profits, but current situation overrides.\n\nRetained earnings are part of equity, so it's included.\n\nBut the liquidity gap is large.\n\nPerhaps they can sell assets, but not specified.\n\nBased on what's given, CCC+.\n\nOr CCC.\n\nI think CCC+ is reasonable.\n\nBut let's see the answer format.\n\nI need to choose one.\n\nPerhaps B+ is too high.\n\nLet's list the issues:\n\nStrengths: High profitability (gross margin 85%, operating margin 32%), positive net income, large revenue.\n\nWeaknesses: Very high leverage (D/E 8.09), extremely poor liquidity (current ratio 0.35), negative working capital.\n\nThe liquidity weakness is severe and dominates for short-term credit risk.\n\nTherefore, I assign CCC+.\n\nCCC+ is for situations where default is a real possibility but not imminent, or something.\n\nWith current ratio 0.35, default could be imminent if they can't pay.\n\nBut net income positive, so they might manage.\n\nIn practice, companies can have low current ratios if they have good banking relationships, but based on numbers, it's risky.\n\nI think CCC+ is appropriate.\n\nPerhaps B-.\n\nBut I think CCC+.\n\nLet's go with that.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 3378,
+ "usd": 0.007542,
+ "utc": "2026-09-06T19:06:46.882457+00:00"
+}

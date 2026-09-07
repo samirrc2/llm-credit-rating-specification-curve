@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company shows strong profitability with high gross and operating margins (74% and 46%, respectively), indicating efficient operations. However, it faces severe financial distress due to negative shareholders' equity (-$1,920M), a critically low current ratio (0.27), and deeply negative retained earnings (-$20,476M), signaling high default risk and liquidity issues that overshadow operational strengths. This combination justifies a low speculative grade rating, reflecting substantial vulnerability to non-payment.\n\nDECISION: CCC",
+ "reasoning_tail": "so debt ratio >100%, which is bad.\n\nEquity negative.\n\nI think CCC is justified.\n\nFor the final decision, I'll say CCC.\n\nBut let's confirm the reasoning.\n\nReason briefly in 1-3 sentences.\n\nThen DECISION: label.\n\nSo reasoning: The company exhibits severe financial distress with negative shareholders' equity, a critically low current ratio of 0.27, and deeply negative retained earnings, indicating high default risk despite strong operating margins.\n\nTherefore, a low speculative grade rating is appropriate.\n\nFinal rating: CCC.\n\nSince there's CCC+, CCC, CCC-, and the situation seems dire, I'll choose CCC.\n\nPerhaps CCC- to reflect the extreme liquidity issue.\n\nCCC- is the lowest CCC, one above CC.\n\nWith current ratio 0.27, it might be CC.\n\nBut let's see the definitions.\n\nCC: \"Currently highly vulnerable to nonpayment.\"\n\nC: \"Currently highly vulnerable to nonpayment, with default imminent.\"\n\nHere, net income is positive, so default not imminent, but liquidity is tight.\n\nOperating income can help generate cash.\n\nBut current ratio suggests they can't pay current debts with current assets.\n\nHowever, companies can roll over debt or use operating cash flow.\n\nBut based solely on the data, I think CCC is a safe choice.\n\nPerhaps B- would be too high.\n\nAnother thought: the revenue is 1,010M for Q1, and assets are large, 31,391M, so it might be a large company with operations that can generate cash.\n\nBut liabilities are higher, and current ratio poor.\n\nI think CCC is fine.\n\nI'll go with CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 2832,
+ "usd": 0.006346,
+ "utc": "2026-09-06T20:05:38.291244+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Exceptional profitability (48% operating margin) offsets high leverage (debt-to-equity ~3.83); current ratio (1.55) adequate but not strong.\"}",
+ "reasoning_tail": "1.5, which it is, but higher is better.\n\n1.55 is above 1.5, so it meets minimum.\n\nBut with high leverage, it might be lower.\n\nI found a reference in my mind: for industrial companies, debt-to-capital below 25% for AAA, 25-35% for AA, 35-45% for A, 45-50% for BBB, etc., but I'm not sure.\n\nDebt-to-capital here is about 79%, which is very high.\n\nDebt-to-capital = total liabilities / (total liabilities + equity) = 91,085 / (91,085 + 23,793) = 91,085 / 114,878 \u2248 79.3%\n\nFor BBB, it might be up to 60%, but 79% is high.\n\nBut for different industries, it varies.\n\nWith high margins, it might be acceptable.\n\nBut I think for safety, I'll go with BBB+.\n\nConfidence low.\n\nPerhaps BBB.\n\nBut let's see the operating margin.\n\nAnother idea: the net income is 5,582M, which is for the quarter, so annualized 22,328M, total liabilities 91,085M, so net income to liabilities about 24.5%, which means it can pay down debt in a few years.\n\nBut debt is not all interest-bearing.\n\nI think I'm overcomplicating.\n\nI will assign BBB+ with confidence 3.\n\nRationale: Strong profitability but high leverage and moderate liquidity.\n\nOr A-.\n\nLet's choose A-.\n\nI think A- is better.\n\nFinal decision: A-\n\nConfidence: 3\n\nRationale: Exceptional margins offset high leverage; current ratio adequate.\n\nBut leverage is very high.\n\nPerhaps BBB+.\n\nLet's box it.\n\nI recall that for some tech companies, ratings are high despite leverage if cash flows are strong.\n\nHere, with no cash flow data, but income is high.\n\nI think A- is fine.\n",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 267,
+ "out_tok": 5299,
+ "usd": 0.011752,
+ "utc": "2026-09-06T16:29:33.474484+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Severe liquidity risk with current ratio below 1, mitigated by strong profitability; overall high default risk.\"}",
+ "reasoning_tail": "icate inability to meet short-term obligations.\n\nI think a  B rating might be appropriate.\n\nB for high credit risk.\n\nOr BB- for speculative with some strength.\n\nBut let's compare to real-world, but no specific.\n\nI recall companies like Tesla in tough times had current ratio below 1 but high growth, but ratings were low.\n\nFor example, Tesla was rated B- at some point.\n\nWith high margin, perhaps B or B-.\n\nBut let's calculate the cash conversion.\n\nNo cash flow.\n\nI think I should go with B- based on implied coverage and liquidity.\n\nConfidence 3 or 4.\n\nRationale: Poor liquidity with current ratio below 1, high leverage implied.\n\nIn 25 words.\n\nLet's decide.\n\nRating: let's say B-  '\n\nScale has B+, B, B-.\n\nB- is lower.\n\nCCC+ is higher risk.\n\nWith EBIT coverage around 1.6, if assumed, it's at the lower end of B.\n\nS&P global ratings criteria: for industrials, interest coverage below 1.5 is typically CCC.\n\nCurrent ratio below 1 for many CCC rated firms.\n\nHere, coverage assumed 1.63, so maybe B.\n\nBut current assets low.\n\nAnother metric: EBIT to interest not known, so hard.\n\nPerhaps the rating is BB- or B+.\n\nretained earnings high,  24.8 billion, which for a company with revenue 4.2 billion, it accumulated over time, so financially stable in the past.\n\nSo not a startup.\n\nThus, credit risk from liquidity.\n\nBut they may have plans.\n\nBased on data, I think B-.\n\nFinal decision: B- with confidence 3.\n\nRationale: High profitability but severe liquidity crisis increases default risk.\n\n20 words.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 4829,
+ "usd": 0.010721,
+ "utc": "2026-09-06T18:10:40.770769+00:00"
+}

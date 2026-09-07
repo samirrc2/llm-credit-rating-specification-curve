@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"B-\",\n  \"confidence\": 3,\n  \"rationale\": \"Distressed Altman Z-score (1.07), high leverage (D/E: 3.62), weak EBIT coverage.\"\n}",
+ "reasoning_tail": "s the way to go.\n\nFinal decision: CCC\n\nBut let's double-check the Altman Z-score calculation:\n\nWorking Capital: 52,485M - 36,558M = 15,927M -> Ratio: 15,927 / 98,585 = 0.1616 (OK)\n\nRetained Earnings: 65,448M -> Ratio: 65,448 / 98,585 = 0.6639 (OK)\n\nEBIT: 2,660M -> Ratio: 0.0270 (OK)\n\nBook Equity / Liabilities: 21,318 / 77,267 = 0.2759 (OK)\n\nSales/Total Assets: 19,133 / 98,585 = 0.1941 (OK)\n\nZ' = 0.717*0.1616 \u2248 0.1159 (exactly: 0.717*0.1616 = let me recalculate: 0.717 * 0.1616 = 0.1158672)\n     0.847*0.6639 \u2248 0.847*0.6639 = 0.5623033\n     3.107*0.0270 = 0.083889\n     0.420*0.2759 = 0.115878\n     0.998*0.1941 = 0.1937518\n\nSum = 0.1158672 + 0.5623033 + 0.083889 + 0.115878 + 0.1937518 = 1.0716893\n\nYes, about 1.07.\n\nTherefore, I stick with CCC.\n\nBut note: the Altman Z-score for public companies (which we are probably analyzing since the company is large) would give a lower score because the coefficients for the market value factor (which we don't have) are higher? Also, in the public company model, the market value might be lower than book value given the high leverage. So even if we had market cap, it might be very low. So the public company Z-score might be even worse.\n\nGiven that, CCC or even lower? But we don't have that data.\n\nSo I think CCC is appropriate.\n\nTherefore, output in JSON.\n\nBut note the requirement: exactly one label from the list.\n\nCCC is in the list.\n\nFinal:\n\n{\n  \"decision\": \"CCC\",\n  \"confidence\": 2,\n  \"rationale\": \"Distress Altman Z-score and high leverage.\"\n}\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 2890,
+ "usd": 0.006474,
+ "utc": "2026-09-06T17:33:34.604168+00:00"
+}

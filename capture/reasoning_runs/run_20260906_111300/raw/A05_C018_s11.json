@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Extremely high leverage (debt-to-equity ~26.5), negative net income, and weak liquidity (current ratio 1.18) indicate significant credit risk.\"}",
+ "reasoning_tail": "s 105,547M, so non-current liabilities = 158,800 - 105,547 = 53,253M.\n\nBut not all liabilities are debt; there might be accounts payable, deferred revenue, etc.\n\nSimilarly, assets include various items.\n\nBut for simplicity, credit ratings often look at total debt to equity or similar.\n\nWith equity only 5,987M, it's highly leveraged.\n\nStandard: if debt-to-equity > 2, it's risky; here it's 26.5, so definitely speculative grade.\n\nNet income negative, so probably B range.\n\nCurrent ratio 1.18 is low, but not critical.\n\nI think B- is reasonable.\n\nCCC might be too low if operating income is positive.\n\nBut let's see the rating scale.\n\nPerhaps BB-.\n\nBB is \"speculative\" but not as bad as B.\n\nFor instance, BB might have debt issues but positive earnings.\n\nHere net income negative, so B or lower.\n\nDiluted EPS -0.11, so loss per share.\n\nRetained earnings 17,162M, which is high, but equity is low, so it might have paid dividends or had losses.\n\nBut current quarter loss.\n\nI think B- is appropriate.\n\nConfidence: I'll say 3, medium, since I don't have full financials.\n\nRationale: High leverage, negative net income, weak liquidity.\n\nIn 25 words or less.\n\nFinal answer format: JSON with decision, confidence, rationale.\n\nDecision: let's go with B-.\n\nPerhaps CCC+ if vulnerable.\n\nBut operating income positive, so not CCC yet.\n\nCCC is for companies likely to default without restructuring.\n\nHere, it might be struggling but not imminent default.\n\nCurrent ratio >1, so can pay bills.\n\nSo B- seems fair.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 2260,
+ "usd": 0.005094,
+ "utc": "2026-09-06T17:47:12.262903+00:00"
+}

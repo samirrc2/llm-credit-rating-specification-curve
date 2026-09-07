@@ -1,0 +1,21 @@
+{
+ "spec_id": "A07",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided figures, the issuer exhibits a moderate current ratio of 1.34, indicating acceptable liquidity, and strong retained earnings of $22,804 million, reflecting a history of profitability. However, with a debt-to-equity ratio of approximately 1.10 (34,289 / 31,211) and an EBIT of $2,494 million that implies low interest coverage relative to high total liabilities, the leverage is elevated, suggesting potential vulnerability to financial stress, supporting a borderline investment-grade rating.\n\nDECISION: BBB-",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 244,
+ "out_tok": 6287,
+ "usd": 0.013903,
+ "utc": "2026-09-06T15:22:15.508644+00:00"
+}

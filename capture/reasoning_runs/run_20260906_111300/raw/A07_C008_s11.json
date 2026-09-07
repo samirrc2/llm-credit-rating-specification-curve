@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress with negative shareholders' equity (-2,646M) and a current ratio of 0.62, indicating critical solvency and liquidity issues that heighten default risk, despite positive EBIT (3,230M) and high retained earnings, which may reflect past profitability but do not offset current weaknesses.\n\nDECISION: CCC",
+ "reasoning_tail": " Sales/Total Assets = 5,251 / 35,008 \u2248 0.1500\n\nWithout fourth term, Z-score incomplete.\n\nBut roughly, first term negative, second high positive, third low positive, fifth low.\n\nBut since equity negative, it's distressed.\n\nI think CCC is reasonable.\n\nPerhaps CCC+ to indicate not the worst.\n\nBut I need to justify.\n\nAnother way: the company has total liabilities 37,604M, current liabilities 8,286M, so short-term debt pressure.\n\nWith current assets only 5,119M, it can't cover.\n\nUnless it generates cash, EBIT 3,230M, but that's annual, not immediate.\n\nSo liquidity risk high.\n\nTherefore, I think credit rating should be CCC.\n\nNow, for the response: reason in 1-3 sentences, then DECISION: <rating>\n\nReason: The issuer has negative shareholders' equity and a current ratio below 1, indicating severe solvency and liquidity issues, despite positive EBIT.\n\nThen DECISION: CCC\n\nBut is CCC too low? EBIT is high, retained earnings large.\n\nRetained earnings 36,115M, but equity negative, so it might be misleading.\n\nPerhaps the company has high debt but good cash flow.\n\nBut solvency is key.\n\nI recall that ratings below B- are for imminent default risk.\n\nWith positive EBIT, it might not be imminent.\n\nBut current ratio 0.62 suggests short-term default risk.\n\nFor example, if it can't pay bills, it might default.\n\nSo CCC is appropriate.\n\nPerhaps B-.\n\nBut let's see the scale; CCC+ is above CCC.\n\nCCC+ is better than CCC.\n\nCCC ratings are for currently vulnerable.\n\nI think CCC is fine.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3297,
+ "usd": 0.007354,
+ "utc": "2026-09-06T16:49:31.338559+00:00"
+}

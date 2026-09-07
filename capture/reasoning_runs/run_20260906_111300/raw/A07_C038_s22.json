@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits critical liquidity issues with a current ratio of 0.63 (less than 1), indicating it cannot cover short-term obligations. Leverage is extremely high with a debt-to-equity ratio of approximately 14.46 and negative retained earnings of -5,086M, reflecting historical losses and financial distress. While the operating margin is 42.4%, the operating income is insufficient relative to total liabilities, implying poor interest coverage and high default risk, aligning with a distressed credit profile.\n\nDECISION: CCC",
+ "reasoning_tail": " burden is overwhelming.\n\nSo, the financial position is weak.\n\nPerhaps a B, but high yield B is still better.\n\nRating agencies have criteria.\n\nFor example, S&P: for leverage, total debt to EBITDA above 10x could be B or lower.\n\nHere, EBIT ~1161, assuming similar to EBITDA since no depreciation given, so debt/EBITDA ~52,835 / 1,161 \u2248 45.5, so way higher.\n\nInterest coverage: if interest is say 5% of 50,000 debt = 2,500, then coverage = 1,161/2,500 = 0.46 <1, which is very poor.\n\nS&P ratings: interest coverage below 1 could be CCC or lower.\n\nAlso, current ratio below 1 indicates liquidity crisis imminent.\n\nSo, I think CCC is appropriate.\n\nPerhaps CCC-.\n\nBut I need to pick one.\n\nThe decision line should be exact.\n\nAlso, reason briefly.\n\nReason: The company has severe liquidity issues with a current ratio less than 1, extremely high leverage evidenced by debt-to-equity ratio above 14, negative retained earnings, and thin operating income relative to total liabilities, indicating high default risk.\n\nThen assign CCC or similar.\n\nFinally, output DECISION: <rating>\n\nBut which one? CCC, CCC+, etc.\n\nFrom the scale, I think CCC.\n\nPerhaps I should consider if it's CCC+ or not, but no, it's deeply distressed.\n\nAnother thing: the figures are in millions, units consistent.\n\nTotal assets 63,190M, revenue 2,738M, which is low for the asset size, suggesting inefficiency.\n\nBut ultimately, credit rating is about default probability.\n\nI think it's speculative with poor ratings.\n\nI'll go with CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 244,
+ "out_tok": 3256,
+ "usd": 0.007265,
+ "utc": "2026-09-06T19:36:30.393924+00:00"
+}

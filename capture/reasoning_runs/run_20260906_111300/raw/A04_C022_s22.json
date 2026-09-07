@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Critical liquidity shortage (current ratio 0.59), high leverage (debt ratio 64%), and weak profitability (EBIT margin 9.3%) indicate high default risk.\"}",
+ "reasoning_tail": "necessary.\n\nAltman Z-score for manufacturing: 1.2*working capital/total assets + 1.4*retained earnings/total assets + 3.3*EBIT/total assets + 0.6*market value/equity + 1.0*sales/total assets.\n\nBut I don't have market value, and it's for public companies.\n\nWorking capital/total assets = -8,913 / 71,487 \u2248 -0.1247\n\nRetained earnings/total assets = 36,413 / 71,487 \u2248 0.5093\n\nEBIT/total assets = 979 / 71,487 \u2248 0.0137\n\nSales/total assets = 10,496 / 71,487 \u2248 0.1469\n\nMarket value not given, so omit or assume.\n\nIf I assume market value is book value, equity 25,838, so market value/equity =1, but it's not.\n\nTypically, Z-score:\n\nZ = 1.2*(WC/TA) + 1.4*(RE/TA) + 3.3*(EBIT/TA) + 0.6*(MVE/BVE) + 1.0*(S/TA)\n\nMVE not given, so I'll skip.\n\nWith available:\n\n1.2*(-0.1247) = -0.14964\n\n1.4*0.5093 = 0.71302\n\n3.3*0.0137 = 0.04521\n\n1.0*0.1469 = 0.1469\n\nSum = -0.14964 + 0.71302 + 0.04521 + 0.1469 = let's calculate: -0.14964 + 0.71302 = 0.56338; +0.04521 = 0.60859; +0.1469 = 0.75549\n\nSo Z \u2248 0.755 without MVE term.\n\nAltman Z-score:\n\n- Below 1.8: distress zone\n\n- 1.8 to 3.0: grey zone\n\n- Above 3.0: safe zone\n\nHere 0.755 < 1.8, so in distress zone, which suggests high risk of bankruptcy.\n\nTherefore, credit rating should be low, like CCC or B.\n\nSince Z-score indicates distress, CCC+ or CCC.\n\nI think CCC+ is appropriate.\n\nDecision: CCC+\n\nConfidence: 3\n\nRationale: \"Critical liquidity shortage with current ratio 0.59, high leverage, and weak profitability indicate high default risk.\"\n\n20 words.\n\nNow for JSON.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 258,
+ "out_tok": 4841,
+ "usd": 0.010744,
+ "utc": "2026-09-06T18:13:06.031177+00:00"
+}

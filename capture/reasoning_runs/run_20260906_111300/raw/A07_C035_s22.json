@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial weaknesses, including a critically low current ratio of 0.42, indicating acute liquidity issues, and an extremely high debt-to-equity ratio of approximately 10.25, reflecting unsustainable leverage. Despite a positive EBIT margin of around 25%, the very low asset turnover (approximately 1.46%) and negative Altman Z-score (approximately -0.33) signal high bankruptcy risk and vulnerability to default.\n\nDECISION: CCC",
+ "reasoning_tail": "\n\nSo I think CCC or lower.\n\nBut EBIT is positive, so not CC or C.\n\nCC is for default probable, C for default imminent.\n\nHere, with positive EBIT, it can operate, but with difficulty.\n\nSo perhaps CCC.\n\nCCC+ is slightly better, CCC- worse.\n\nSince leverage is extreme, CCC- might be justified.\n\nBut retained earnings are positive, so not the worst.\n\nLet's assign CCC.\n\nI need to reason briefly.\n\nPerhaps I can look at the equity to liabilities ratio.\n\nEquity / total liabilities = 303,243 / 3,107,151 \u2248 0.0976, so about 9.76%, meaning liabilities are 10 times equity, which is very high.\n\nIn credit metrics, a leverage ratio like that suggests low rating.\n\nCurrent ratio 0.42 also suggests liquidity problems.\n\nSo I think the rating should be CCC.\n\nFor the output, I need to say DECISION: <label>\n\nSo I'll go with CCC.\n\nBut let's confirm the scale: CCC+, CCC, CCC- are options.\n\nSince EBIT is positive, perhaps CCC.\n\nOr B-.\n\nB- is higher than CCC.\n\nThe scale from high to low: AAA, AA+, ..., B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is better than CCC+.\n\nB- is speculative, CCC+ is substantial risk.\n\nGiven the numbers, I think CCC is more appropriate.\n\nPerhaps I can calculate the debt ratio.\n\nDebt to capital: total liabilities / (total liabilities + equity) = 3,107,151 / (3,107,151 + 303,243) = 3,107,151 / 3,410,394 \u2248 0.911, so 91.1% debt to capital.\n\nHigh yield bonds are usually below 60% or so, above that is riskier.\n\n91% is very high.\n\nSo low rating.\n\nI think CCC is fine.\n\nSo decision: CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 250,
+ "out_tok": 4381,
+ "usd": 0.009732,
+ "utc": "2026-09-06T19:21:38.534062+00:00"
+}

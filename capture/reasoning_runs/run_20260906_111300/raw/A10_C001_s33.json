@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates moderate financial leverage with a debt-to-equity ratio of approximately 1.1 (derived from total liabilities of $34,289M and shareholders' equity of $31,211M) and adequate liquidity with a current ratio of 1.34. However, these are balanced by strong profitability metrics, including a 14% operating margin and a 10.3% net margin, alongside substantial retained earnings of $22,804M, indicating consistent earnings retention and good debt-servicing capability. Based on standard credit rating criteria predating 2026, this profile aligns with an upper-medium grade, but the liquidity position is slightly weaker than typical for higher A-tier ratings.\n\nDECISION: A-",
+ "reasoning_tail": ".6M.\n\nThen EBIT quarterly 2,494M, so interest coverage ratio (EBIT/interest) = 2,494 / 428.6 ~ 5.82, which is good, above 5, suggesting A rating.\n\nIf debt is lower, coverage higher.\n\nFor example, if interest-bearing debt is say 50% of liabilities, then debt around 17,144.5M, interest at 5% annual, 857.2M annual, quarterly 214.3M, coverage 2,494 / 214.3 ~ 11.6, very high.\n\nIf debt is high, say 80% of liabilities, interest higher.\n\nReasonable to assume that for many companies, interest-bearing debt is a portion of liabilities.\n\nAverage EBIT coverage for A rated companies is around 6-8 times, I think, from memory.\n\nHere, with coverage around 5-6 if I estimate, it could be A- or BBB+.\n\nWith high margins, it might be A.\n\nI think I'm overcomplicating.\n\nLet's choose A-.\n\nBut I need to output one label from the list.\n\nThe scale says \"finest granularity you can justify.\" So I can pick with + or - if I can.\n\nReason briefly.\n\nThen \"DECISION: <label>\"\n\nFinal decision.\n\nI think BBB+ or A-.\n\nLet's go with A-.\n\nReason: Moderate leverage with debt-to-equity around 1.1 and current ratio of 1.34, balanced by strong operating margin of 14%. This suggests a strong capacity for debt repayment but with some liq1idity risk.\n\nSo A- rating.\n\nOr BBB+ for the lower current ratio.\n\nBut operating margin high, so A- is better.\n\nAnother thing: the company has significant retained earnings, indicating a history of profitability, supporting creditworthiness.\n\nSo I think A-.\n\nBut let's see the answer format.\n",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 267,
+ "out_tok": 5439,
+ "usd": 0.012058,
+ "utc": "2026-09-06T15:43:01.955779+00:00"
+}

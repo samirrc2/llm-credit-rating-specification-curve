@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{{\"decision\": \"AA+\", \"confidence\": 4, \"rationale\": \"Exceptional profitability (44% op margin), very low leverage (liabilities/assets ~42%), strong liquidity (current ratio 1.92), massive retained earnings.\"}}",
+ "reasoning_tail": "ext, the balance sheet shows total assets of $51,799M against total liabilities of $21,966M, giving shareholders' equity of $29,833M. That means the debt-to-equity ratio is low\u2014liabilities are only about 42% of total assets. The company isn't heavily leveraged, which reduces default risk.\n\nLiquidity looks good too: current assets are $7,091M versus current liabilities of $3,702M, resulting in a current ratio of 1.92. This indicates they can comfortably cover short-term obligations. Retained earnings are very high at $29,765M, showing a history of profitability and reinvestment.\n\nNow, considering credit ratings: AAA is the highest, reserved for extremely stable companies. While this firm has strong metrics, its net income margin is about 12.4% ($701M/$5,638M), which is solid but not exceptional for AAA. The AA range might be more fitting. Companies like Apple or Microsoft often have AA ratings with similar profiles\u2014high margins, strong equity, and good liquidity.\n\nThe debt levels are particularly low here. With liabilities only 42% of assets, leverage is minimal. Most AA-rated firms maintain conservative leverage like this. The current ratio of 1.92 is healthy, though not ultra-high, but sufficient for this tier.\n\nGiven all this, AA+ seems appropriate. It's one notch below AAA, reflecting minor room for improvement\u2014perhaps in net income scalability or diversification\u2014but overall very robust. Confidence is high (4/5) because the data consistently points to low-risk operations.\n",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 486,
+ "usd": 0.001215,
+ "utc": "2026-09-06T16:59:37.463301+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Very high leverage (debt/equity ~9), low EBIT/assets (0.65%), strong liquidity (current ratio 12.41).\"}",
+ "reasoning_tail": "ded: CCC+, CCC, CCC-, etc.\n\nI think CCC is appropriate.\n\nConfidence: since I inferred interest coverage, but based on the ratios, it's clear, so confidence 3 or 4.\n\nRationale: \"High leverage, low EBIT coverage, strong liquidity.\"\n\nNow for JSON: {\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"High leverage, low EBIT coverage, strong liquidity\"}\n\nRationale should be <=25 words: that's 5 words.\n\nWords: High, leverage, low, EBIT, coverage, strong, liquidity \u2014 7 words.\n\nFine.\n\nBut EBIT coverage is inferred, not directly given.\n\nPerhaps I should say \"inferred low interest coverage\" or something.\n\nBut the task says \"use only the figures provided\", so I should stick to given data.\n\nGiven data: I have EBIT, but no interest, so I can't directly say coverage.\n\nBetter to use ratios I can calculate directly.\n\nDirect ratios: debt-to-equity = 9.02, very high.\n\nEBIT to total assets = 0.65%, low.\n\nCurrent ratio = 12.41, high.\n\nRetained earnings to equity: 45,912 / 49,234 \u2248 93%, high, but equity is small.\n\nRevenue to assets low.\n\nSo rationale: \"Very high debt/equity, low EBIT/assets, high current ratio.\"\n\nThen rating CCC.\n\nPerhaps BB- or something, but I think CCC is better.\n\nAnother thing: retained earnings are large, which might indicate historical profitability, but current EBIT is low relative to debt.\n\nEBIT is 3,188M, which is not nothing, but compared to liabilities, it's small.\n\nPerhaps for a large company, but the ratios are what matter.\n\nI think CCC is reasonable.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 3686,
+ "usd": 0.008211,
+ "utc": "2026-09-06T15:51:24.638360+00:00"
+}

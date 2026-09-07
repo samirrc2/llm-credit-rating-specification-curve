@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits significant financial weaknesses, including a current ratio below 1 (0.99), indicating liquidity issues where current assets cannot cover current liabilities, and negative working capital of -53M. Additionally, the Altman Z-score of approximately 1.37 falls within the distress zone (below 1.81), signaling a high risk of bankruptcy due to poor liquidity, high leverage (debt-to-equity ratio of 1.50), and low profitability (EBIT/total assets of 2.48%). Despite substantial retained earnings, these factors collectively point to high credit risk and vulnerability.\n\nDECISION: CCC",
+ "reasoning_tail": "le, if EBITDA ~700M, debt ~15,000M, ratio ~21.4, extremely high, not sustainable.\n\nInterest coverage: if interest rate 5%, interest ~750M, EBIT 622M, coverage <1, so cannot cover interest.\n\nThis implies high default risk.\n\nTherefore, very low credit rating.\n\nLikely CCC or C.\n\nBut C is for imminent default, which may not be the case.\n\nCCC is for vulnerable.\n\nPerhaps CCC+ or CCC.\n\nBut let's see the options.\n\nThe scale has CCC+, CCC, CCC-, CC, C.\n\nWith current ratio below 1, it might be on the brink.\n\nBut retained earnings large, so perhaps not imminent.\n\nI think CCC is reasonable.\n\nPerhaps B-, but I think CCC is better.\n\nAnother thought: the Altman Z-score is for manufacturing, but here revenue is given, so might be applicable.\n\nPerhaps for all corporations.\n\nI think based on the analysis, the issuer has poor liquidity, high leverage, and low profitability relative to assets, indicating high credit risk.\n\nTherefore, I assign a rating of CCC.\n\nBut let's confirm the figures.\n\nCurrent assets: 6,043M\n\nCurrent liabilities: 6,096M\n\nDifference -53M, so negative working capital.\n\nTotal liabilities 15,009M, equity 10,004M, so debt-heavy.\n\nEBIT 622M, which is modest.\n\nRevenue 4,066M, so not a high-growth company.\n\nRetained earnings 13,060M, but equity only 10,004M, suggesting possible share buybacks or other adjustments, but still, the financial position is weak.\n\nSo, I think CCC is appropriate.\n\nPerhaps CCC+.\n\nBut CCC+ might be too high.\n\nThe rating should be low.\n\nFinal decision: CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 4350,
+ "usd": 0.009658,
+ "utc": "2026-09-06T18:51:33.117874+00:00"
+}

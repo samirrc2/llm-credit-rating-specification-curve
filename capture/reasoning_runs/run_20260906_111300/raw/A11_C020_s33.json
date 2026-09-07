@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company's current ratio of 0.91 indicates poor short-term liquidity, as current assets cannot cover current liabilities, raising immediate refinancing risks. High leverage is evident from a debt-to-equity ratio of approximately 2.86 (total liabilities / shareholders' equity = 298,517M / 104,460M), and EBIT of 5,004M is insufficient relative to total liabilities, suggesting potential inability to cover interest expenses (e.g., if interest rates are moderate, coverage could be below 1). Despite retained earnings of 94,744M showing historical profitability, the combination of weak liquidity, high leverage, and low earnings relative to debt points to high default risk, aligning with the CCC category due to vulnerability and dependence on favorable conditions.\n\nDECISION: CCC",
+ "reasoning_tail": "ependent on favorable conditions.\n\nCCC- is for vulnerable to default.\n\nWith current ratio below 1, immediate liquidity issue.\n\nSo, perhaps CCC-.\n\nBut let's see if I can justify BBB or something, but no, ratios are too weak.\n\nFor instance, BBB- might have interest coverage above 2, debt/EBITDA below 6, etc.\n\nHere, it's worse.\n\nPerhaps B, but B is for highly speculative, but with interest coverage possibly negative, CCC is more appropriate.\n\nI think CCC is reasonable.\n\nNow, for the label: I'll go with CCC.\n\nBut let's see the options: CCC+, CCC, CCC-.\n\nWith negative working capital and low EBIT, CCC- might be better.\n\nBut retained earnings are large, which could be used, but it's not cash.\n\nPerhaps the company can sell assets or something, but not specified.\n\nI think CCC is fine.\n\nDecision: CCC\n\nBut in the output, I need to say DECISION: CCC\n\nReason briefly.\n\nReason: The company exhibits poor liquidity with a current ratio below 1, high leverage with debt-to-equity ratio of approximately 2.86, and low profitability relative to debt, indicating high default risk. The Altman Z-score of approximately 0.65 confirms financial distress.\n\nThen DECISION: CCC\n\nBut the Z-score is not part of the given data; I calculated it.\n\nI should stick to the given ratios.\n\nReason: Current ratio below 1 indicates severe liquidity constraints, and high total liabilities relative to EBIT suggest inability to cover interest expenses, implying high credit risk.\n\nTherefore, a CCC rating is assigned.\n\nYes.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3869,
+ "usd": 0.008611,
+ "utc": "2026-09-06T18:03:55.624751+00:00"
+}

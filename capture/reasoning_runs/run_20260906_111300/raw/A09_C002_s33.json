@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Strong profitability and liquidity offset high leverage, but debt-to-equity ratio of 9.02 indicates elevated risk.\"}",
+ "reasoning_tail": "rage, that seems optimistic.\n\nGross margin 89% is Apple-like, Apple is rated AA+ or something.\n\nApple's rating is AA+ by S&P.\n\nApple's debt-to-equity is about 1.7, not 9.\n\nHere it's 9, so much higher leverage.\n\nBut for this company, revenue is smaller.\n\nRevenue 7,300M Q1, annual ~29,200M, while Apple is ~360B annual, so this is smaller.\n\nBut size isn't the only factor.\n\nPerhaps this company has a niche with high margins.\n\nBut leverage is key.\n\nI think I need to go with BB+ or BBB-.\n\nLet's decide.\n\nRationale must be short.\n\nConfidence: not high because of lack of data.\n\nConfidence 3, medium.\n\nRating: let's say BBB- , lowest investment grade, because of strong profitability and liquidity, but high leverage.\n\nOr BB+, speculative grade.\n\nBut with current ratio 12.41, they can cover all liabilities easily.\n\nCurrent liabilities are 15,003M, current assets 186,246M, so they can pay off all current liabilities and have excess.\n\nLong-term liabilities are 429,082M, but with annual operating income 12,752M, it would take time, but they can service debt.\n\nSince net income is positive and interest seems low based on earlier calculation, it might be fine.\n\nFrom earlier, interest expense appears low, so debt might not be high.\n\nTherefore, I think investment grade is possible.\n\nBBB-.\n\nOr A- if we ignore the leverage ratio.\n\nBut the leverage ratio is there.\n\nPerhaps the company is like a holding company or something.\n\nI think BBB- is reasonable.\n\nLet's see the answer format.\n\nFinal decision.\n",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 4260,
+ "usd": 0.009481,
+ "utc": "2026-09-06T15:53:16.110154+00:00"
+}

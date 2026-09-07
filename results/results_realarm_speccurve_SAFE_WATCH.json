@@ -1,0 +1,61 @@
+{
+ "_meta": {
+  "benchmark": "disclosed agency ratings (external; NOT used to construct the real firms)",
+  "grid": "31 real issuers x 12 specs x 3 seeds",
+  "strata": [
+   "SAFE",
+   "WATCH"
+  ],
+  "seed": 42,
+  "panel": "run_20260710_095040"
+ },
+ "n_specs": 12,
+ "per_spec_band_accuracy": {
+  "A01": 0.5667,
+  "A02": 0.5111,
+  "A03": 0.5222,
+  "A04": 0.6111,
+  "A05": 0.5444,
+  "A06": 0.5667,
+  "A07": 0.4889,
+  "A08": 0.5667,
+  "A09": 0.5778,
+  "A10": 0.5778,
+  "A11": 0.4889,
+  "A12": 0.4222
+ },
+ "spec_curve_sorted": [
+  0.4222,
+  0.4889,
+  0.4889,
+  0.5111,
+  0.5222,
+  0.5444,
+  0.5667,
+  0.5667,
+  0.5667,
+  0.5778,
+  0.5778,
+  0.6111
+ ],
+ "mean_accuracy": 0.537,
+ "min_spec_accuracy": 0.4222,
+ "max_spec_accuracy": 0.6111,
+ "range_pp": 18.9,
+ "issuer_clustered_mean": 0.537,
+ "issuer_clustered_95CI": [
+  0.4102,
+  0.663
+ ],
+ "spread_permutation_test": {
+  "scheme": "issuer-preserving (spec labels permuted within issuer)",
+  "observed_spread_sd": 0.0502,
+  "null_mean": 0.0346,
+  "null_sd": 0.0073,
+  "n_perm": 2000,
+  "n_exceed": 41,
+  "p_value": 0.021
+ },
+ "pct_specs_majority_correct": 0.75,
+ "note": "External-benchmark specification curve: each point is one specification's exact credit-band accuracy against the firms' disclosed agency ratings. Because the agency rating is independent of profile construction, this is the benchmark-independent curve requested by R3-1. The spread across specifications (range 18.9 pp) shows the specification sensitivity persists against a truly external reference."
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows strong profitability with a 60% gross margin and 25% operating margin, but it faces severe liquidity issues with a current ratio of only 0.42 and high financial leverage (debt-to-equity ratio of ~10.25), indicating significant refinancing risk and vulnerability to adverse conditions. Based on these red flags, particularly the critical liquidity shortfall against current liabilities, the issuer falls well below investment grade and into high-risk speculative territory.\n\nDECISION: B",
+ "reasoning_tail": "ulnerable, so B.\n\nBut let's see the numbers again.\n\nTotal liab 3,107,151M, current liab 2,559,605M, so most liabilities are current, which is bad because it means short-term pressure.\n\nCurrent liab / total liab = 2,559,605 / 3,107,151 \u2248 82.3%, so over 80% of liabilities are short-term, high refinancing risk.\n\nCurrent assets only cover part.\n\nequity 303,243M is a buffer.\n\nBut to cover the shortfall, they need to sell assets or borrow.\n\nIf assets are liquid, it might be ok, but not specified.\n\nFor a financial firm, assets might be securities or loans, which can be sold or pledged.\n\nBut in a crisis, fire sales happen.\n\nOverall, credit risk is high.\n\nI will go with B.\n\nBut let's see if the market sees it as investment grade or not.\n\nBased on data, I think speculative grade.\n\nDecision: B or B+.\n\nThe 21-grade scale has CCC+, etc.\n\nI think B is appropriate.\n\nReason in 1-3 sentences.\n\nThen DECISION: <label>\n\nSo reason: The company exhibits high financial leverage with a debt-to-equity ratio of approximately 10.25 and critically low liquidity with a current ratio of 0.42, indicating significant refinancing risk despite strong profitability.\n\nTherefore, it falls into the speculative grade with high credit risk.\n\nLabel: B\n\nB+ might be slightly better.\n\nOr BB-.\n\nBB- is the highest speculative, Ba3 in Moody's.\n\nBut with current ratio 0.42, it might be lower.\n\nSome companies with liquidity issues are rated B or CCC.\n\nBut here net income positive.\n\nI think B is reasonable.\n\nFinal decision.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 275,
+ "out_tok": 4081,
+ "usd": 0.009089,
+ "utc": "2026-09-06T19:23:36.546655+00:00"
+}

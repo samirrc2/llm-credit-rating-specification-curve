@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided figures, the issuer displays severe financial distress: negative shareholders' equity of -1,920M and massively negative retained earnings of -20,476M indicate deep insolvency and cumulative losses, while the critically low current ratio of 0.27 suggests an acute inability to meet short-term obligations, pointing to a high risk of imminent default. Although EBIT is positive at 465M, it is insufficient to offset the substantial liabilities and historical deficits.\n\nDECISION: C",
+ "reasoning_tail": "ion. Unless it has asset sales or financing lined up, it can't pay.\n\nBut no information, so we assume based on figures.\n\nTherefore, I think the rating should be C.\n\nIn some contexts, negative equity automatically implies distress.\n\nMoreover, from the figures, it resembles companies rated CCC or C.\n\nSince I need to output exactly on the 21-grade scale.\n\nPerhaps CC.\n\nBut I think C is defensible.\n\nAnother thing: revenue and EBIT are there, so it must be operating, so not in default yet.\n\nBut credit rating reflects the risk.\n\nPerhaps I can consider the industry, but no industry given, so assume general.\n\nUsing the given, let's compute leverage.\n\nCapital structure: debt to capital, but equity negative.\n\nLiabilities to assets >100%.\n\nInterest coverage unknown.\n\nI think based on liquidity, it's critical.\n\nI recall that current ratio below 0.5 is very bad.\n\n0.27 is extremely low.\n\nIn fact, any current ratio below 1 is negative working capital, which is risky.\n\nCompanies survive with that, like Walmart sometimes, but not with such high leverage and negative equity.\n\nHere everything points down.\n\nFinal decision: I think C rating for highly vulnerable to default.\n\nBut let's see the answer format.\n\nReason briefly: 1-3 sentences.\n\nThen DECISION: <label>\n\nSo reason: Based on severely negative shareholders' equity, large negative retained earnings, and critically low current ratio indicating imminent liquidity crisis, the issuer is highly vulnerable to default.\n\nTherefore, assign C rating.\n",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3069,
+ "usd": 0.006854,
+ "utc": "2026-09-06T20:05:12.006710+00:00"
+}

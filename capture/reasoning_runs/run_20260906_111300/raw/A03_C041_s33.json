@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe liquidity issues with a current ratio of 0.55, indicating insufficient short-term assets to cover liabilities, and negative working capital. High leverage is evident with a debt-to-equity ratio of approximately 2.58, increasing default risk. While the operating margin is strong at 31.7%, the Altman Z-score of approximately 0.49 suggests a high probability of financial distress, consistent with a very high credit risk rating.\n\nDECISION: CCC",
+ "reasoning_tail": "y, for B rating, current ratio around 1, leverage manageable.\n\nHere, not.\n\nAnother ratio: debt to EBITDA, but no EBITDA or interest.\n\nI think based on information, CCC is justified.\n\nFinal decision.\n\nBut let's confirm the figures.\n\nTotal assets: 204,354M\n\nShareholders' equity: 54,181M\n\nSo, leverage multiple: total liabilities/total equity = 139,758 / 54,181 \u2248 2.58, as before.\n\nCurrent ratio: 12,671 / 22,911 = 0.55 exactly.\n\nEBIT margin: 2527/7966\u224831.7%\n\nBut with such assets, revenue small, so poor efficiency.\n\nRetained earnings 34,747M, which is part of equity.\n\nHowever, the liquidity is the immediate concern for credit rating.\n\nIn credit analysis, the ability to meet short-term obligations is key.\n\nThus, I think speculative grade with high risk.\n\nHence, assign CCC.\n\nBut which one? Let's say CCC as mid-point.\n\nCCC+ might be for better cases.\n\nBut I think it fits.\n\nPerhaps BB-, but that seems too high given current ratio <1.\n\nBB- is below investment grade, but not as risky.\n\nFor example, BB rating might have current ratio around 1.0 or better.\n\nHere 0.55 is severe.\n\nI found online sources or general knowledge: companies with current ratio below 1 often face rating of B or lower.\n\nSpecific to the case.\n\nPerhaps this is similar to a company in trouble.\n\nEBIT 2,527M, if we relate to liabilities.\n\nFor instance, current liabilities 22,911M, even if covered by cash flow, but with negative working capital, it's an issue.\n\nI think CCC is fine.\n\nSo, I'll go with CCC.\n\nThen for output.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3936,
+ "usd": 0.008758,
+ "utc": "2026-09-06T19:50:17.764161+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Severe liquidity (current ratio 0.42), high leverage (debt/equity 10.25), and low profitability (ROA 0.365%) indicate high default risk.\"}",
+ "reasoning_tail": "intensive with low returns.\n\nOverall, credit rating should be B or lower.\n\nI think BBB is out of question.\n\nBB is speculative, but with liquidity risk, lower.\n\nBB- or B+.\n\nBut let's be conservative.\n\nPerhaps the company has access to credit, but based on figures, it's bad.\n\nAnother point: retained earnings large, so historically profitable, but current issues.\n\nBut current ratios show stress.\n\nI think for the rating, I'll choose B- with confidence 2.\n\nCconfidence 1-5, 5 high.\n\nI think confidence 2 because missing key inputs.\n\nRationale: \"Severe liquidity and leverage issues with low profitability suggest high default risk.\"\n\nLabel B-.\n\nBut let's see if I can justify finer grain.\n\nAAA to CCC.\n\nB- is B minus, which is low.\n\nPerhaps CCC+ is better.\n\nI recall that companies with interest coverage below 1 are rated CCC.\n\nHere, assume interest expense.\n\nSuppose interest expense is 2% on liabilities, since much might be non-interest bearing.\n\nTotal liabilities 3,107,151M, say 50% interest-bearing at 4%, so interest expense = 0.5*3,107,151*0.04 = 0.5*124,286.04 = 62,143.02M\n\nEBIT 12,435M, coverage ratio = 12,435 / 62,143.02 \u2248 0.20, which is less than 1, so cannot cover interest.\n\nTherefore, default likely if not refinanced.\n\nRating CCC or lower.\n\nWith current ratio 0.42, refinancing might be difficult.\n\nSo, CCC+ or CCC.\n\nSay CCC.\n\nConfidence 3.\n\nFinest granularity: CCC.\n\nBut there's CCC+ , CCC, CCC-.\n\nSo perhaps CCC.\n\nOr based on the data.\n\nI think I'll go with CCC.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 4779,
+ "usd": 0.010611,
+ "utc": "2026-09-06T19:23:01.849955+00:00"
+}

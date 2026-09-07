@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong profitability with high gross and operating margins (85% and 32%, respectively), but faces severe financial risks due to extremely high leverage (debt-to-equity ratio of approximately 8.09) and critically poor liquidity (current ratio of 0.35, indicating insufficient short-term assets to cover liabilities). These factors, particularly the liquidity crisis and high leverage, outweigh profitability and suggest substantial credit risk, placing the issuer in the speculative grade with high vulnerability.\n\nDECISION: B",
+ "reasoning_tail": "iabilities / (total liabilities + equity) = 274,899 / (274,899 + 33,995) = 274,899 / 308,894 \u2248 0.89, high.\n\nEBIT to interest coverage 2.32, low.\n\nCurrent ratio 0.35, very low.\n\nFor B rating, interest coverage might be between 1.5 and 2.5, current ratio below 1.\n\nHere coverage 2.32 is within that range, current ratio 0.35 is very low.\n\nCCC might have coverage below 1.5.\n\nHere 2.32 is above 2, so not CCC.\n\nB+ or B.\n\nB+ is one notch above B.\n\nBut I think B is fine.\n\nPerhaps BB- with a negative outlook, but I have to assign a letter, not outlook.\n\nThe scale has BB-, B+, etc.\n\nI think B+ could be justified by the profitability.\n\nBut liquidity is a major concern.\n\nIn credit rating, liquidity is key for short-term ratings, but for long-term, it's part of the assessment.\n\nOverall, I think it's B.\n\nFinal decision: B\n\nBut let's confirm the scale: B is between B+ and B-, so B is specific.\n\nThe scale has B+, B, B-.\n\nSo I need to choose one.\n\nPerhaps B.\n\nReasoning briefly: The issuer exhibits strong profitability with high margins, but has extremely high leverage and poor liquidity, indicating high credit risk.\n\nTherefore, speculative grade B.\n\nBut let's see if I can go to BB-.\n\nBB- might be too high given the current ratio.\n\nFor example, a current ratio of 0.35 is often associated with distressed companies.\n\nBut net income positive, so not distressed.\n\nI think B is reasonable.\n\nPerhaps CCC+, but coverage is above 2, so not that low.\n\nCCC is for coverage below 1.5 or so.\n\nI'll go with B.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 256,
+ "out_tok": 4152,
+ "usd": 0.009234,
+ "utc": "2026-09-06T19:08:38.550262+00:00"
+}

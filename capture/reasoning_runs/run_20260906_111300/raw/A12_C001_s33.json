@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Altman Z-score of 1.54 in distress zone, high leverage, low liquidity indicate elevated bankruptcy risk.\"}",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 5228,
+ "usd": 0.011595,
+ "utc": "2026-09-06T15:27:41.529528+00:00"
+}

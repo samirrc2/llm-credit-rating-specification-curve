@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity issues with a current ratio of 0.63, indicating inability to cover short-term obligations, and high leverage with a debt-to-equity ratio of approximately 2.71, suggesting elevated financial risk. Despite a reasonable EBIT margin of approximately 26.9%, the low asset turnover (about 4.5%) and potential interest coverage below 1 (inferred from high liabilities and moderate EBIT) point to significant default vulnerability, placing the rating in the CCC range due to current financial distress.\n\nDECISION: CCC",
+ "reasoning_tail": "-term debt high.\n\nEBIT 2,334M, if all used to pay debt, it would take many years.\n\nBut interest must be paid first.\n\nSince I don't have interest, I have to infer high risk.\n\nPerhaps for the purpose of this task, based on current ratio alone, it should be low.\n\nBut ratings consider multiple factors.\n\nAnother ratio: equity to total assets 26.7%, which is low.\n\nRetained earnings to total assets 2.45%, low.\n\nI think CCC is reasonable.\n\nBut let's see the options: CCC+, CCC, CCC-, etc.\n\nPerhaps CCC- for highly vulnerable.\n\nSince EBIT is positive, maybe CCC.\n\nI think I should go with CCC.\n\nBut let's see if there's a way to be more granular.\n\nThe task says \"finest granularity you can justify\".\n\nWith the data, I can't be precise, but based on severity.\n\nPerhaps calculate a score.\n\nFor example, assign points.\n\nBut that might be arbitrary.\n\nStandard rating agencies might have benchmarks.\n\nFor instance, a current ratio below 1.0 is often associated with ratings below BB.\n\nSimilarly, debt-to-equity above 2.0 is speculative grade.\n\nWith 0.63 and 2.71, it should be low.\n\nEBIT margin is good, but leverage too high.\n\nI think CCC.\n\nPerhaps B-.\n\nLet's look at revenue size: 8,669M is not small, but relative to assets.\n\nI think I'm overcomplicating.\n\nDecision: based on poor liquidity and high leverage, rating should be CCC.\n\nSo, CCC.\n\nBut let's see the retained earnings: 4,718M, which is substantial, but not enough to cover the shortfall.\n\nIt's part of equity, not liquid.\n\nSo, no.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3762,
+ "usd": 0.008372,
+ "utc": "2026-09-06T19:46:52.912243+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company exhibits significant credit weaknesses. The current ratio of 1.00 indicates minimal liquidity buffer, and negative net working capital (current assets - current liabilities = -5M) suggests vulnerability to short-term obligations. EBIT to total assets ratio is low at approximately 0.58%, reflecting poor asset efficiency and weak profitability. Deeply negative retained earnings (-6,947M) signal a history of losses, increasing default risk. These factors, combined with moderate leverage (debt-to-equity \u2248 1.00), place the issuer firmly in speculative grade, specifically B+, due to ongoing operational viability (positive EBIT) but elevated liquidity and profitability concerns.\n\nDECISION: B+",
+ "reasoning_tail": "ht be BBB-, but 1.00 is too low.\n\nSimilarly, ROA 0.58% is very low; for investment grade, ROA should be higher.\n\nSo, I think BB- or lower.\n\nBB- is Ba3 in Moody's, which is speculative.\n\nB+ is B1, etc.\n\nI think B+ is reasonable.\n\nBut let's see the numbers again.\n\nRevenue 1,635M, EBIT 283M, so they are profitable at operating level.\n\nIf they can manage liquidity, they might be ok.\n\nBut with negative working capital, it's a concern.\n\nAlso, the asset discrepancy: total assets 48,860M, liabilities + equity 46,832M, difference 2,028M. Perhaps it's a mistake in the data, or minority interest. But since not mentioned, I'll assume it's an error and use the ratios as is.\n\nFor retained earnings, it's -6,947M, which is large.\n\nCompared to revenue, it's about 4.25 times revenue, so significant deficit.\n\nBut retained earnings is cumulative, so it doesn't directly affect current ability, but it shows weakness.\n\nI think the credit rating should be B+.\n\nOr B.\n\nLet's decide.\n\nPerhaps BB-.\n\nI think I'll go with B+.\n\nFinal decision.\n\nReasoning: The company has weak liquidity with a current ratio of 1.00 and negative net working capital, indicating potential short-term funding issues. Profitability is low with an EBIT to total assets ratio of approximately 0.58%, and the deeply negative retained earnings reflect a history of losses, contributing to higher credit risk. These factors suggest a speculative grade rating.\n\nThen rating: B+\n\nThe scale has B+.\n\nValid answers include B+.\n\nSo DECISION: B+\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 247,
+ "out_tok": 5119,
+ "usd": 0.011346,
+ "utc": "2026-09-06T19:31:57.988193+00:00"
+}

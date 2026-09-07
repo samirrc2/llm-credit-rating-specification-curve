@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Negative equity and tight liquidity indicate high leverage risk, partially mitigated by current profitability.\"}",
+ "reasoning_tail": " company has filed this, and it's Q1, so annual might be different, but we have to use this.\n\n\"Based only on the above and knowledge predating\" \u2013 since no predating knowledge given, I use only this.\n\nSo, from this, negative equity suggests high leverage risk.\n\nI recall that companies with negative equity often have ratings in the B range.\n\nFor example, in 2020, some airlines had negative equity and were rated B or CCC.\n\nBut here, profitability is strong.\n\nOperating income 2.5B, net 1.6B.\n\nLet's calculate return on assets: net income / total assets = 1,628 / 54,941 \u2248 2.96%, which is low.\n\nReturn on equity: net income / equity, but equity negative, so not meaningful.\n\nROA 3% is not great.\n\nGross margin 33% is okay.\n\nI think the rating should be BB- or B+.\n\nNow, between BB- and B+.\n\nBB- is Ba3 equivalent, B+ is B1.\n\nWith current ratio 1.09, it's weak liquidity.\n\nPerhaps B+.\n\nBut let's see the confidence.\n\nI think I'll go with B+.\n\nRationale: Negative equity and tight liquidity indicate high credit risk.\n\nConfidence: 3, since no cash flow or debt details.\n\nBut confidence 1-5, 3 is medium.\n\nPerhaps 4.\n\nI think 3.\n\nNow for the JSON.\n\nDecision: B+\n\nConfidence: 3\n\nRationale: <=25 words.\n\n\"Negative shareholders' equity and weak current ratio suggest high leverage and liquidity risk, offset partially by profitability.\"\n\nThat's 11 words.\n\nOr \"High liabilities relative to assets with negative equity, but positive earnings provide some coverage.\"\n\nBut need to be precise.\n\nFinal decision.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 276,
+ "out_tok": 3026,
+ "usd": 0.006779,
+ "utc": "2026-09-06T19:13:13.438251+00:00"
+}

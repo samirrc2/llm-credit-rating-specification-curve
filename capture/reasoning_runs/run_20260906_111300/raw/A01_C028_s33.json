@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A+\", \"confidence\": 4, \"rationale\": \"Strong profitability and low leverage, but current ratio of 1.18 indicates liquidity risk.\"}",
+ "reasoning_tail": "is is quarterly data.\n\nFiscal period is Q1, so operating income for one quarter.\n\nAnnualize it? But credit ratings are based on annual performance, but since it's a snapshot, we use the data as is.\n\nThe data is for Q1, but it might not be representative if seasonal.\n\nNot specified, so I'll use it.\n\nAnnualized operating income: 23,852 * 4 = 95,408M\n\nAnnualized revenue: 181,519 * 4 = 726,076M\n\nAssets 916,630M, so annualized ROA = 95,408 / 916,630 \u2248 10.4%, which is good.\n\nSimilarly, net income annualized 121,020M, ROE 121,020 / 441,914 \u2248 27.4%, very high.\n\nLeverage low.\n\nCurrent ratio low.\n\nI think A+ is appropriate.\n\nConfidence: I'm not entirely sure, but based on the data, let's say confidence 3 or 4.\n\nRationale must be <=25 words.\n\nFinal decision.\n\nPerhaps AA- to account for size.\n\nBut liquidity is key for short-term rating, but credit rating is for long-term debt.\n\nStandard credit ratings are for overall creditworthiness.\n\nCurrent ratio affects liquidity risk.\n\nIn the rating, it might be a factor.\n\nI think A+.\n\nLet's see the scale: AAA to C.\n\nAnother thing: shareholders' equity is 441,914M, total assets 916,630M, so equity ratio about 48.2%, which is high.\n\nDebt ratio 51.8%, but includes all liabilities.\n\nFor credit rating, debt-to-EBITDA is common, but not given.\n\nI have to work with what's there.\n\nI think the rating should be A+.\n\nRationale: Strong profitability and solvency, but low liquidity.\n\nConfidence: 3, since I'm not sure about industry norms.\n\nOr 4.\n\nLet's decide.\n",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 3685,
+ "usd": 0.008221,
+ "utc": "2026-09-06T18:42:05.698710+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the issuer exhibits severe financial distress with a current ratio below 1 (0.92), negative retained earnings (-8,881M), and negative shareholders' equity (-8,465M), indicating insolvency on a book-value basis and significant liquidity risk. The positive EBIT (777M) shows some operating profitability, but it is insufficient relative to the high total liabilities (39,015M), leading to a very high leverage position with total liabilities exceeding total assets. This combination of negative equity, weak liquidity, and poor solvency metrics places the issuer in the highest risk category, warranting a speculative grade deep within the \"CCC\" range due to substantial credit risk and default vulnerability.\n\nDECISION: CCC-",
+ "reasoning_tail": "e, infinite.\n\nDebt to EBITDA: no EBITDA, EBIT is 777M.\n\nTotal liab to EBIT = 39,015 / 777 \u2248 50.2, while for good credit, it might be under 4 or something.\n\nEven for lower, say BB, it might be 5-10, but 50 is too high.\n\nThus, very high risk.\n\nTherefore, I think the rating should be in the CCC range.\n\nCCC+: currently vulnerable, and dependent upon favorable business, financial, and economic conditions to meet financial commitments.\n\nThat seems fitting.\n\nSince there's some operating income, CCC+ rather than CC.\n\nCC is for default probable, but here EBIT positive.\n\nSo, CCC+.\n\nBut let's confirm with numbers.\n\nAnother metric: retained losses and negative equity suggest that the company might be considered for bankruptcy protection, hence low rating.\n\nI think I'm overcomplicating.\n\nSimplify: negative equity is a strong indicator for low rating.\n\nIn many cases, companies with negative equity are rated CCC or C.\n\nFor instance, some distressed firms.\n\nHere, with slight positive EBIT, but not enough to cover the liabilities quickly.\n\nReturn on assets is low, 777/30558=2.54%, so not growing equity.\n\nTherefore, I think CCC+ or B-.\n\nB- is a B rating with minus.\n\nB ratings are for highly speculative, but CCC is for vulnerable.\n\nWith current ratio under 1, vulnerable to any hiccup.\n\nSo, CCC+.\n\nPerhaps B-.\n\nI need to decide.\n\nLet's see the fiscal year data only.\n\nThe information is \"as of the most recent fiscal year,\" so it's a snapshot.\n\nBased on that, rating should be low.\n\nFinal decision.\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 3034,
+ "usd": 0.006781,
+ "utc": "2026-09-06T19:55:07.753306+00:00"
+}

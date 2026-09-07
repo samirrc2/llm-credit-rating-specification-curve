@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A-\", \"confidence\": 4, \"rationale\": \"Strong profitability (14% operating margin), moderate leverage (debt-to-equity 1.10), adequate liquidity (current ratio 1.34), but not top-tier.\"}",
+ "reasoning_tail": " think Altman Z-score is not reliable here.\n\nBetter to stick with credit metrics.\n\nI think based on the data, the company is investment grade with some weakness in liquidity.\n\nSo, I'll go with BBB+.\n\nOr A-.\n\nLet's see the confidence.\n\nPerhaps A-.\n\nFinal decision.\n\nRationale: Strong profitability and moderate leverage, but current ratio indicates some liquidity risk.\n\nRating: BBB+\n\nConfidence: 3, medium.\n\nOr A-.\n\nI think BBB+ is appropriate.\n\nBut let's check the retained earnings: 22,804M, which is large, so it can absorb shocks.\n\nBut for credit rating, it's about debt payment.\n\nI think BBB+.\n\nThen rationale: \"Good profitability and coverage, moderate leverage, adequate liquidity.\"\n\nBut current ratio 1.34 is adequate but low.\n\nPerhaps A- is better.\n\nI recall that for companies with operating margin above 10%, leverage reasonable, rating A or better.\n\nHere operating margin 14%, net margin 10.3%, leverage debt-to-equity 1.10, which is not high.\n\nIn many contexts, debt-to-equity under 1.5 is manageable for investment grade.\n\nCurrent ratio 1.34 is above 1.2, so acceptable.\n\nSo I think A-.\n\nThen confidence 4.\n\nBut let's box it.\n\nThe answer should be JSON.\n\nSo, {\"decision\": \"A-\", \"confidence\": 4, \"rationale\": \"Strong profitability with 14% operating margin, moderate leverage, and adequate liquidity.\"}\n\nRationale <=25 words.\n\n\"Strong profitability, moderate leverage (debt-to-equity 1.10), adequate current ratio 1.34.\"\n\n20 words.\n\nConfidence 4 out of 5.\n\nOr BBB+.\n\nI think A- is fine.\n",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 5495,
+ "usd": 0.012185,
+ "utc": "2026-09-06T15:37:18.133319+00:00"
+}

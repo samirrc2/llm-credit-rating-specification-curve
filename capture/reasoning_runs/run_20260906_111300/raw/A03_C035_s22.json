@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial distress, primarily due to an extremely low current ratio of 0.42, indicating insufficient liquidity to cover short-term obligations, and a high debt-to-equity ratio of approximately 10.25, reflecting excessive leverage. Additionally, estimated interest coverage is critically low (below 1 based on conservative assumptions), suggesting vulnerability to default despite a healthy EBIT margin of 25%. These factors align with a CCC rating, which denotes current vulnerability and dependence on favorable conditions to meet commitments.\n\nDECISION: CCC",
+ "reasoning_tail": ".\n\nPossible ratings: CCC+, CCC, CCC-, CC, C.\n\nC is for imminent default, but here EBIT is positive, so not imminent.\n\nCC is for highly vulnerable, perhaps default imminent without restructuring.\n\nCCC is vulnerable.\n\nGiven that, I think CCC is appropriate.\n\nBut current ratio is very low, so maybe CCC-.\n\nLet's see the retained earnings: 261,693M, which is substantial, meaning it has reserves, but current liabilities are huge, so it might not help immediately.\n\nThe company could sell assets to pay debts, but total assets 3.41 trillion, liabilities 3.11 trillion, so net assets 0.3 trillion, but it might not be liquid.\n\nCurrent assets are only 1.07 trillion vs current liabilities 2.56 trillion, so even if it sells all current assets, it covers only 42%, still short.\n\nNon-current assets would need to be sold, but that takes time.\n\nSo liquidity crisis.\n\nTherefore, I think credit rating should be low.\n\nPerhaps B- or CCC+.\n\nLet's think of comparable.\n\nIn reality, companies with such ratios are rare, but for example, distressed companies.\n\nAnother ratio: Quick ratio, but I don't have inventory, so can't calculate.\n\nCurrent ratio includes inventory, but here it's given as 0.42, which is low.\n\nEBIT / revenue = 25%, good, but revenue small.\n\nI think the key is the inability to cover interest and short-term debts.\n\nSo, I'll go with CCC.\n\nBut let's see the options: CCC+, CCC, CCC-, etc.\n\nPerhaps CCC- to reflect the severity.\n\nSince I have to choose one, and reason briefly.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 257,
+ "out_tok": 3031,
+ "usd": 0.006779,
+ "utc": "2026-09-06T19:19:03.657332+00:00"
+}

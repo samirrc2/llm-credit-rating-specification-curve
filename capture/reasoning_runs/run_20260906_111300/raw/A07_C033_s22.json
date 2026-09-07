@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress with negative shareholders' equity (-9,270M) and retained earnings (-9,884M), indicating insolvency on a book-value basis and cumulative losses. Despite positive EBIT (2,554M) and reasonable liquidity (current ratio of 1.09), the leverage ratio of total liabilities to total assets is 1.17, and EBIT coverage of liabilities is minimal at 4.0%, suggesting high default risk. These factors align with a highly speculative rating, reflecting vulnerability to adverse conditions.\n\nDECISION: CCC",
+ "reasoning_tail": ", EBIT 2,554M, so operating margin 11%, but after interest and taxes, it might be negative if interest high.\n\nTherefore, it's likely that the company has difficulty covering interest.\n\nAlso, with negative equity, high leverage.\n\nSo I think rating should be low.\n\nPerhaps B- or CCC+.\n\nBut let's see the most recent fiscal year; no date, so as is.\n\nI think CCC is for weak entities or vulnerable to default.\n\nWith positive EBIT, but marginal, it might be CCC or B-.\n\nAnother factor: revenue to debt ratio.\n\nRevenue 23,078M, total liabilities 64,211M, ratio about 0.36, low.\n\nDebt to EBIT: liabilities to EBIT 64,211 / 2,554 \u2248 25, which is high; times interest earned inverse.\n\nIn terms of rating, I think based on standard cutoffs.\n\nFor example, S&P ratings for B are for highly speculative, and CCC for vulnerable.\n\nWith negative equity, it might be CCC.\n\nI found a guideline: companies with negative equity are often rated B- or lower.\n\nBut let's be precise.\n\nPerhaps I can infer from the figures: shareholders' equity is negative 9,270M, so if market cap is positive, but not given, assumed low.\n\nDecision: I think a rating of CCC is appropriate due to the high likelihood of financial distress indicated by negative equity, high leverage, and marginal liquidity.\n\nBut EBIT is positive, so not CCC- or CC.\n\nCCC for currently vulnerable, if adverse conditions, but not imminent default.\n\nWhereas B- might be for less vulnerable.\n\nI recall that some companies with negative equity are rated CCC or B.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 244,
+ "out_tok": 3441,
+ "usd": 0.00767,
+ "utc": "2026-09-06T19:12:32.143355+00:00"
+}

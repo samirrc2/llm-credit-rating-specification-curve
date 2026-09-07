@@ -76,22 +76,16 @@ def main():
     out={}
     # H1 primary: WATCH stratum
     aW=flip_share_by_item(A,"WATCH"); bW=flip_share_by_item(B,"WATCH")
-    MARGIN=0.15
     d,lo,hi,bs=boot_diff_ci(aW,bW); reps=len(bs)
-    ci90=[round(bs[int(.05*reps)],4), round(bs[int(.95*reps)],4)]
-    p_lower=round(sum(1 for x in bs if x<=-MARGIN)/reps,4)   # two-one-sided-tests (TOST)
-    p_upper=round(sum(1 for x in bs if x>= MARGIN)/reps,4)
-    tost_p=max(p_lower,p_upper)                              # equivalence p-value (larger one-sided)
-    equiv=bool(ci90[0]>-MARGIN and ci90[1]<MARGIN)          # 90% CI within +/-margin => equivalent
-    sig=bool(lo>0 or hi<0)                                  # 95% CI excludes 0 => differ
+    # Descriptive real-arm comparison only. The pre-registered TOST equivalence test was removed
+    # in the major revision (R2/R3): the WATCH sample is too small to establish equivalence, so the
+    # arm is reported descriptively with no equivalence claim.
     out["H1_primary_WATCH"]={
         "arm_flip_share":boot_ci(aW),"battery_flip_share":boot_ci(bW),
-        "diff_arm_minus_battery":d,"diff_95CI":[lo,hi],"diff_90CI":ci90,
+        "diff_arm_minus_battery":d,"diff_95CI":[lo,hi],
         "n_watch_arm":len(aW),"n_watch_battery":len(bW),
-        "equivalence_margin":MARGIN,"tost_p_lower":p_lower,"tost_p_upper":p_upper,"tost_p":tost_p,
-        "equivalence_established":equiv,"differs_from_zero_95":sig,
-        "decision":("EQUIVALENT within +/-%.2f (90%% CI %s; TOST p=%.3f)"%(MARGIN,ci90,tost_p) if equiv
-            else "INCONCLUSIVE: not distinguishable from zero (95%% CI includes 0) and point estimate within +/-%.2f, but equivalence NOT formally established (90%% CI %s exceeds the margin; TOST p=%.3f; underpowered at n=%d)"%(MARGIN,ci90,tost_p,len(aW)))}
+        "decision":("DESCRIPTIVE: WATCH-stratum arm-minus-battery difference %.3f (95%% CI %s); "
+                    "not distinguishable from zero at n=%d. No equivalence test is claimed."%(d,[lo,hi],len(aW)))}
     # H1 secondary: raw whole-sample
     aAll=flip_share_by_item(A); bAll=flip_share_by_item(B)
     d2,lo2,hi2,_=boot_diff_ci(aAll,bAll)

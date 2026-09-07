@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity stress with a current ratio of 0.53, indicating imminent difficulty meeting short-term obligations, compounded by high leverage (debt-to-equity around 3.4) and a significant retained earnings deficit of -12,237M, which signals historical financial weakness and heightened default risk despite strong operating margins.\n\nDECISION: CCC",
+ "reasoning_tail": "ating margin 41%, which is very strong.\n\nBut liquidity deficit might dominate.\n\nIn credit ratings, liquidity is a key factor, especially for near-term risk.\n\nWith current ratio 0.53, and current liabilities exceeding current assets by ~2,862M, they are technically insolvent on a short-term basis unless they have access to credit.\n\nTherefore, I believe the rating is in the CCC category.\n\nTo pick a specific grade, perhaps CCC.\n\nCCC+ might be if there are mitigating factors, but I don't see any from data.\n\nThey have significant assets ($58B), so they might secure financing, but with equity only $12.8B, it's leveraged.\n\nI think CCC is fair.\n\nB- might also be possible with coverage above 3.\n\nB- is speculative but not as imminent.\n\nCCC indicates vulnerability.\n\nI am considering BB-, but current ratio 0.53 is too low for BB.\n\nBB companies generally have current ratio closer to or above 1.\n\nFor example, typical B ratings have current ratios below 1, e.g., 0.8 to 0.5, and CCC below that.\n\nSo here 0.53, likely CCC.\n\nAnswer format: Reason in 1-3 sentences, then DECISION: label.\n\nReason: Very low current ratio of 0.53 indicating acute liquidity risk, high leverage with debt-to-equity around 3.4, and large retained earnings deficit, despite strong operating margins.\n\nDECISION: CCC\n\nBut let's be specific on the grade. The scale has CCC+, CCC, CCC-.\n\nI think CCC is fine, as CCC+ might be too high.\n\nAlternatively, B- could be considered with interest coverage 3.46.\n\nBut liquidity is severe.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 256,
+ "out_tok": 4641,
+ "usd": 0.010305,
+ "utc": "2026-09-06T19:17:11.156641+00:00"
+}

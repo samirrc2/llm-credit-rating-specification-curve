@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Moderate leverage (debt-to-equity 1.18), good liquidity (current ratio 1.53), high retained earnings, but low ROA (1.64%) and weak implied coverage.\"}",
+ "reasoning_tail": " is BB+ justified?\n\nPerhaps BBB-.\n\nLet's see if there's a standard.\n\nI recall that for investment grade, current ratio above 1.2 or so, here 1.53 ok.\n\nDebt to equity below 2, here 1.18 ok.\n\nBut coverage is key.\n\nSince no coverage, perhaps I can use EBIT to total obligations.\n\nBut I think BB is reasonable.\n\nThe Altman Z-score was 1.49, which is distress zone, so perhaps B or CCC.\n\nBut Z-score is for bankruptcy, not rating.\n\nFor example, a Z-score below 1.8 might correspond to ratings below B.\n\nBut let's check typical mappings.\n\nUpon quick search in memory, Z-score above 3 is safe, 2.7-3.0 might be A, 2.4-2.7 BBB, etc., but not direct.\n\nWith Z 1.49, it might be CCC or B.\n\nBut here, the company has high retained earnings and revenue, so it might not be that bad.\n\nPerhaps the low ROA is due to high assets, but EBIT is decent.\n\nEBIT 1,863M is not small.\n\nBut assets are large.\n\nI think I'll go with B+ or B.\n\nLet's decide.\n\nDecision: B+\n\nConfidence: 3\n\nRationale: \"Low ROA and high leverage imply high risk; profitability margin good but coverage weak.\"\n\nOr something.\n\nPerhaps BB-.\n\nI think B+ is too low.\n\nLet's calculate the ratio of retained earnings to total liabilities: 60,632 / 61,341 \u2248 0.988, almost 1, so retained earnings cover liabilities, which is good for buffer.\n\nThat's a positive.\n\nWith that, perhaps BB.\n\nSo, let's say BB.\n\nRating: BB\n\nConfidence: 3\n\nRationale: \"Moderate leverage, good liquidity, high retained earnings, but low ROA and asset efficiency.\"\n\nWithin 25 words.\n",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 5988,
+ "usd": 0.013253,
+ "utc": "2026-09-06T17:21:02.802774+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress based on key ratios: the current ratio of 0.55 indicates critical liquidity issues, as current assets are insufficient to cover current liabilities, and the debt-to-equity ratio of approximately 2.58 reflects high leverage. Additionally, the Altman Z-score of approximately 0.49, calculated using the provided figures (including negative working capital and low EBIT relative to assets), falls deep within the distress zone, signaling a high probability of bankruptcy. These factors justify a very low credit rating due to the issuer's vulnerability to default.\n\nDECISION: CC",
+ "reasoning_tail": "re long-term, I think.\n\nLetter credit ratings are for long-term debt.\n\nFor long-term rating, they look at ability to pay long-term debt, but current ratio affects short-term ability, which impacts overall credit.\n\nIf they default on short-term, it triggers cross-default.\n\nSo it's all connected.\n\nI think for safety, I'll assign CC.\n\nBut let's see if there's a better way.\n\nPerhaps calculate the net worth.\n\nShareholders' equity 54,181M, which is positive, so not insolvent.\n\nBut illiquid.\n\nI think CCC+ to CCC- range.\n\nBut Z-score suggests lower.\n\nI recall that for corporates, S&P rating for interest coverage below 1 is CCC or lower.\n\nBut I don't have coverage.\n\nEBIT / Interest, unknown.\n\nAssume that interest expense is, say, 5% of total debt.\n\nBut I don't have total debt.\n\nEstimate from liabilities.\n\nSuppose that 50% of liabilities are interest-bearing debt, so debt ~ 69,879M.\n\nInterest at 5% = 3,494M.\n\nEBIT 2,527M < interest 3,494M, so coverage < 1, which is bad.\n\nIf debt is less, say 30% of liabilities, debt ~41,927M, interest at 5% = 2,096M, coverage 2,527/2,096 \u2248 1.2, which is poor.\n\nIf interest rate higher, worse.\n\nSo likely coverage is low.\n\nWith coverage below 1.5, rating is typically B or lower.\n\nCoverage below 1 is CCC or lower.\n\nHere, it could be below 1 or above, but likely low.\n\nGiven current ratio, I think CCC is reasonable.\n\nBut let's pick a rating.\n\nI think CCC- or CC.\n\nPerhaps CCC-.\n\nBut to be conservative, let's say CC.\n\nI think I'll go with CC.\n\nFinal decision.\n",
+ "parsed_letter": "CC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 5606,
+ "usd": 0.01241,
+ "utc": "2026-09-06T19:53:41.584198+00:00"
+}

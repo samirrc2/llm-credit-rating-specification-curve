@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 2, \"rationale\": \"Extremely high debt-to-equity (~13.5) and low current ratio (0.83) indicate severe credit risk despite profitability.\"}",
+ "reasoning_tail": "t income 4,617M annual, EBIT 5,855M annual, assets 1,809,320M, ROA 0.255%, very low.\n\nLiabilities 1,684,348M, liabilities/EBIT = 1,684,348 / 5,855 \u2248 287.6, even worse.\n\nThat can't be right.\n\nWith current ratio 0.83, it must be quarterly revenue, as 30B quarterly revenue implies 120B annual, s  ROA 1% is low but possible for some industries.\n\nLiabilities/EBIT annualized 1,684/23.4 = 72, still high.\n\nBut with retained earnings 165B, it has cushion.\n\nI think for a company like this, it could be rated investment grade if it's a utility or telecom with stable cash flows.\n\nBut no industry given.\n\nI think I should aSsign a low rating.\n\nFinal decision: B- with confidence 2.\n\nRationale: \"Extremely high leverage and weak liquidity pose default risk.\"\n\n20 words.\n\nOr CCC: \" critical liquidity crisis\".\n\nBut with profitability, not yet.\n\nI think B-.\n\nLet's see the current ratio: curr assets 1,018,577M, curr liabilities 1,226,809M, difference 208,232M deficit, but total equity 124,972M, so negative working capital large, likely need to refinance.\n\nIf it cannot refinance, default possible.\n\nSo rating B or CCC.\n\nBut net income positive, so B or B-.\n\nI'll go with B-.\n\nConfidence 2 due to lack of interest coverage data.\n\nFor the sake of this, I'll choose BB- to be conservative.\n\nNo, let's stick with B-.\n\nBut earlier I thought of BB-.\n\nI found that in some ratings, for example, companies with D/E > 5  are below investment grade, here 13.5, so B range.\n\nCurrent ratio < 1, B or lower.\n\nI think B.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 286,
+ "out_tok": 6302,
+ "usd": 0.013959,
+ "utc": "2026-09-06T19:44:41.604353+00:00"
+}

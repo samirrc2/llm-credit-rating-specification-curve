@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity 2.74), poor liquidity (current ratio 0.79), but strong profitability (19% operating margin).\"}",
+ "reasoning_tail": "complete.\n\nBut roughly: working capital/total assets = -1467/79154 \u2248 -0.0185\n\nRetained earnings/total assets = 8995/79154 \u2248 0.1136\n\nEBIT/total assets = 749/79154 \u2248 0.00946\n\nSales/total assets = 3915/79154 \u2248 0.0494\n\nIf I use the formula without market cap, it's not accurate.\n\nBut Z-score = 1.2*(-0.0185) + 1.4*(0.1136) + 3.3*(0.00946) + 1.0*(0.0494) = calculate:\n\n1.2 * -0.0185 = -0.0222\n\n1.4 * 0.1136 = 0.15904\n\n3.3 * 0.00946 \u2248 3.3*0.0095 = 0.03135, roughly 0.031218\n\n1.0 * 0.0494 = 0.0494\n\nSum: -0.0222 + 0.15904 = 0.13684\n\n0.13684 + 0.031218 = 0.168058\n\n0.168058 + 0.0494 = 0.217458\n\nZ-score around 0.22, which is in the distress zone (below 1.8).\n\nAltman Z-score below 1.8 indicates high risk of bankruptcy.\n\nBut this is for manufacturing, and I missed the market cap term.\n\nWith market cap, it might be different, but not given.\n\nSo, this suggests high risk.\n\nTherefore, rating should be low, like B or CCC.\n\nBut net income positive, so not default imminent.\n\nCCC is for vulnerable, but here they are profitable.\n\nPerhaps B-.\n\nBut let's not rely solely on this.\n\nIn the context, with the data, I think B+ or B.\n\nI think B+ is a reasonable choice.\n\nRationale: High leverage, low liquidity, but strong profitability.\n\nConfidence: 3, since I don't have full data like interest coverage.\n\nFinal decision: B+\n\nThen JSON.\n\nBut let's confirm the rating.\n\nPerhaps BB- for the profitability.\n\nBut liquidity is critical.\n\nI think B+.\n\nLet's see the answer format.\n\nOutput only JSON.\n\nSo, I'll go with B+.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 4164,
+ "usd": 0.009264,
+ "utc": "2026-09-06T19:26:35.359292+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Critical liquidity (current ratio 0.63), extreme leverage (debt/equity ~14.5), and negative retained earnings indicate high default risk.\"}",
+ "reasoning_tail": ", current ratio < 1 is bad.\n\nNegative retained earnings.\n\nSo, I think CCC+ or CCC.\n\nBut let's pick one.\n\nPerhaps CCC+.\n\nConfidence: not high because I don't have full data, like interest expense or industry.\n\nBut based on given, I'll go with CCC+.\n\nRationale: Poor liquidity, high leverage, negative retained earnings.\n\nIn 25 words.\n\nFinal decision.\n\nPerhaps B- might be too high.\n\nLet's see the numbers again.\n\nTotal assets 63,190M, revenue 2,738M, that seems odd; revenue is only 2.7B with 63B assets? That might be a typo or for a specific industry like real estate, but I have to take as is.\n\nSimilarly, EBIT 1,161M on revenue 2,738M, margin high, but revenue low.\n\nBut in credit terms, it's the ability to service debt.\n\nI think CCC+ is reasonable.\n\nSo, decision: CCC+\n\nConfidence: 3, since no industry context.\n\nRationale: \"Critical liquidity, extreme leverage, losses indicate high default risk.\"\n\nNow for JSON.\n\n{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Critical liquidity, extreme leverage, losses indicate high default risk.\"}\n\nRationale should be <=25 words; that's 6 words.\n\nNow, confidence 1-5; 3 is medium.\n\nI could go lower.\n\nAnother thought: shareholders' equity is positive, EBIT positive, so not the worst.\n\nBut with current ratio 0.63, it's bad.\n\nPerhaps B-.\n\nBut I think CCC+ is better.\n\nLet's count the position.\n\nCCC+ is 17th from top, out of 21, so low.\n\nB- is 16th.\n\nSimilar.\n\nBut with negative retained earnings and high leverage, CCC+.\n\nI think I'll go with that.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 3580,
+ "usd": 0.007984,
+ "utc": "2026-09-06T19:38:50.369667+00:00"
+}

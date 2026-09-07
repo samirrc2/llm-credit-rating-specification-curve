@@ -24,7 +24,7 @@ plt.rcParams.update({"font.family": "sans-serif", "font.size": 10, "axes.spines.
                      "axes.spines.right": False, "figure.dpi": 200})
 
 # ---- Figure 1: specification curve, two panels --------------------------------------
-# (a) per-spec credit-band accuracy vs Altman (benchmark-referenced)
+# (a) per-spec design-label recovery vs the constructed Altman strata (not external accuracy)
 # (b) per-spec investment-grade share (benchmark-free: pure dispersion of the verdict)
 c1 = sorted(SC["C1"].values())
 import pandas as pd
@@ -35,11 +35,11 @@ ig_share = sorted((_CR.assign(ig=(_CR.dec_ighy == "IG").astype(float))
                    .groupby("spec_id").ig.mean()).values)
 fig, (axL, axR) = plt.subplots(1, 2, figsize=(7.4, 3.3))
 axL.scatter(range(1, len(c1) + 1), c1, s=16, color="#1f4e79", zorder=3)
-axL.axhline(0.5, color="#c0392b", lw=1, ls="--", label="majority-correct (0.5)")
+axL.axhline(0.5, color="#c0392b", lw=1, ls="--", label="majority threshold (0.5)")
 axL.set_xlabel(f"specification (ordered), n={len(c1)}")
-axL.set_ylabel("credit-band accuracy vs Altman Z''")
+axL.set_ylabel("design-label recovery vs Altman Z'' strata")
 axL.set_ylim(0, 1); axL.legend(frameon=False, fontsize=8, loc="upper left")
-axL.set_title("(a) benchmark-referenced", fontsize=9)
+axL.set_title("(a) design-label recovery", fontsize=9)
 axR.scatter(range(1, len(ig_share) + 1), ig_share, s=16, color="#2e6f4e", zorder=3)
 axR.set_xlabel(f"specification (ordered), n={len(ig_share)}")
 axR.set_ylabel("investment-grade share")

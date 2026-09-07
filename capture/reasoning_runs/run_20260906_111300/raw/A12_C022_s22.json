@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Very low current ratio (0.59) and high leverage (debt-to-equity 1.76) indicate severe liquidity and solvency risks.\"}",
+ "reasoning_tail": "mpany has total assets 71B, so it's large, which might give it some resilience, but the ratios are poor.\n\nPerhaps B-.\n\nLet me assign.\n\nI'll go with B- , confidence 3 or 4.\n\nRationale: Poor liquidity with current ratio below 1 and high leverage.\n\nIn 25 words.\n\nFinal decision.\n\nPerhaps calculate a score.\n\nAssume a simple model.\n\nFor example, assign points:\n\n- Current ratio: 0.59, below 1, very bad, say 1 point out of 10.\n\n- Debt-to-equity: 1.76, high, say 3 out of 10.\n\n- EBIT margin: 9.3%, decent, 6 out of 10.\n\n- ROA: 1.37%, poor, 2 out of 10.\n\nBut arbitrary.\n\nThen average low.\n\nOr focus on key issues.\n\nI think B- is reasonable.\n\nCCC+ might be too low if EBIT is positive.\n\nBut let's see the scale: CCC is \"currently vulnerable\", CC \"highly vulnerable\", C \"imminent default\".\n\nWith EBIT positive, not imminent default.\n\nB- is \"highly speculative\".\n\nYes.\n\nConfidence: 3, medium, since I don't have all data like interest coverage.\n\nRationale: \"Very low current ratio and high leverage indicate high credit risk.\"\n\nThat's 9 words.\n\nSo, decision: B-\n\nConfidence: 3\n\nRationale: \"Very low current ratio and high leverage indicate high credit risk.\"\n\nBut let's confirm the numbers.\n\nCurrent ratio: current assets / current liabilities = 12,951 / 21,864 = 0.592, yes about 0.59.\n\nDebt-to-equity: total liabilities / equity = 45,596 / 25,838 \u2248 1.765.\n\nYes.\n\nEBIT / revenue = 979 / 10,496 \u2248 9.33%.\n\nBut ROA low.\n\nAlso, retained earnings high, but not helping short-term.\n\nSo, I think B- is appropriate.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3457,
+ "usd": 0.007714,
+ "utc": "2026-09-06T18:14:42.090370+00:00"
+}

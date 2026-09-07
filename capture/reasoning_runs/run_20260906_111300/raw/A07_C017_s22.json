@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial figures, key ratios indicate moderate to high leverage and weak interest coverage, offset by strong profitability and liquidity. The estimated interest coverage ratio is approximately 2.1 (assuming a 5% interest rate on long-term liabilities of 71,286M), which falls into the speculative grade range (BB category). Strong EBIT margin (41.7%) and current ratio (1.71) provide some support, but high debt relative to EBIT and low asset turnover suggest vulnerability to economic stress.\n\nDECISION: BB+",
+ "reasoning_tail": " but not definitive for rating.\n\nStep 4: Assign rating.\n\nGiven the weak coverage and high leverage, but strong margins and liquidity, a mid-speculative grade rating like BB or BB+.\n\nBB+ is for companies with adequate capacity to meet financial commitments, but vulnerable to adverse conditions.\n\nBB is less strong.\n\nWith coverage above 2, BB+ might be appropriate.\n\nBBB- would require coverage above 3, which is not met.\n\nSo, I think BB+.\n\nBut let's confirm the interest assumption.\n\nLong-term liabilities: 71,286M\n\nIf interest rate 5%, interest = 3,564M\n\nEBIT 7,508M, coverage = 7,508 / 3,564 \u2248 2.106\n\nIf interest rate is 4%, interest = 2,851M, coverage = 7,508 / 2,851 \u2248 2.633, which is better, around BB+ to BBB-.\n\nBut 4% might be low; current rates might be higher, but I should use historical or average.\n\nSince no information, 5% is reasonable.\n\nIn the context, with revenue and EBIT, it might be a stable business.\n\nBut I think BB+ is fair.\n\nPerhaps BBB- if we are optimistic.\n\nBut let's see the retained earnings; it's positive, so profitable.\n\nBut I think the coverage is key.\n\nAnother point: EBIT / Revenue is high, so if revenue grows, EBIT grows, but no trend given.\n\nI have to go with current figures.\n\nFinal decision: BB+\n\nReason: Moderate to high leverage with estimated interest coverage ratio of approximately 2.1, indicating vulnerability to economic stress, offset by strong profitability and good liquidity.\n\nThen DECISION: BB+\n\nBut the rating scale includes BB+, so that's fine.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 6107,
+ "usd": 0.013507,
+ "utc": "2026-09-06T17:44:30.065341+00:00"
+}

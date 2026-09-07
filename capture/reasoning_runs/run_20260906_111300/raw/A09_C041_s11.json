@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Strong profitability offset by critically low current ratio (0.55) and high leverage.\"}",
+ "reasoning_tail": " ratio and high debt.\"\n\n20 words? \"Strong margins but critically low current ratio and high debt.\" That's 7 words.\n\nNow for the rating, B+ is speculative.\n\nBB+ is less speculative, but I think B+ might be better.\n\nScale: BBB- is lowest investment grade, then BB+, BB, BB-, etc.\n\nWith current ratio 0.55, it's likely BB or lower.\n\nLet's calculate quick ratio; assume no inventory, quick assets = current assets if all liquid, but still 12,671 vs 22,911, ratio 0.55.\n\nSo, not good.\n\nI think BB- is reasonable.\n\nBut let's see the answer format.\n\nI need to output JSON.\n\n{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Strong profitability but very weak liquidity with current ratio 0.55\"}\n\nRationale <=25 words: that's 9 words.\n\nConfidence 3 out of 5, since no cash flow data.\n\nPerhaps I can go with BBB- if I think profitability compensates.\n\nBut current ratio 0.55 is too low for investment grade.\n\nFor example, Apple has high current ratios, Microsoft too.\n\nCompanies with low current ratios are often in trouble.\n\nNet income is high, so it can pay debts from earnings, but short-term it might struggle.\n\nI think B+ is appropriate.\n\nDecision: B+\n\nConfidence: 3\n\nRationale: \"High margins and profits, but current ratio 0.55 indicates severe liquidity risk.\"\n\n20 words? \"High margins and profits, but current ratio 0.55 indicates severe liquidity risk.\" 9 words.\n\nNow for the rating label, B+.\n\nBut let's confirm the scale: AAA to C, 21 grades.\n\nB+ is one of them.\n\nPerhaps BB-.\n\nI think B+ is fine.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 276,
+ "out_tok": 3184,
+ "usd": 0.007125,
+ "utc": "2026-09-06T19:52:24.296494+00:00"
+}

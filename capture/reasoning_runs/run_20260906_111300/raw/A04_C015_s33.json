@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity 3.62) and low implied EBIT coverage suggest vulnerability to default.\"}",
+ "reasoning_tail": "coverage below 1.5x is CCC or lower.\n\nHere, estimated around 1.2x, so CCC.\n\nWith current ratio above 1, not immediate default, so CCC+.\n\nCCC+ is defined as \"currently vulnerable\" but not imminent.\n\nB- is \"more vulnerable\" but less than CCC.\n\nB- is higher than CCC.\n\nScale: AAA, AA+, ..., BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is above CCC+.\n\nB- is 14th, CCC+ is 17th.\n\nB- has better credit quality.\n\nWith coverage around 1.2x, it might be CCC+.\n\nBut let's assume my estimation is reasonable.\n\nPerhaps for this company, the rating is B-.\n\nBut I think CCC+ is more appropriate.\n\nAnother metric: The current ratio 1.44 is better than some distressed companies.\n\nBut the solvency ratios are poor.\n\nI think I'll go with CCC+.\n\nRationale: High leverage and low interest coverage indicate high default risk.\n\nConfidence: 3, since some estimation.\n\nBut in the output, confidence 1-5.\n\nDecision: CCC+\n\nRationale: High debt and low EBIT coverage suggest vulnerability.\n\nWords: \"High leverage and low interest coverage imply default risk.\"\n\n<=25 words.\n\nConfidence: 3, as I estimated interest.\n\nBut I used general knowledge.\n\nPerhaps the rating is B with lower confidence.\n\nLet's see the retained earnings: it's very high, which might mean the company has strong reserves, so not worst rating.\n\nBut in credit rating, it's about debt repayment, not reserves.\n\nI think CCC+ is fair.\n\nPerhaps the data has a mistake with retained earnings, but I have to use it.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 6418,
+ "usd": 0.014198,
+ "utc": "2026-09-06T17:32:07.703221+00:00"
+}

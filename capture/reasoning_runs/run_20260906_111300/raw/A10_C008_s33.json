@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability with high gross and operating margins (73% and 62%, respectively), indicating robust operational efficiency. However, negative shareholders' equity (-$2,646M) and a critically low current ratio (0.62) reflect severe balance sheet weakness and liquidity risk, suggesting high financial vulnerability despite earnings strength. These factors align with a highly speculative credit profile.\n\nDECISION: B+",
+ "reasoning_tail": "\nFor credit rating, leverage above 60-70% is high for investment grade.\n\nHere it's over 100%, so definitely speculative.\n\nCurrent ratio 0.62 suggests liquidity crisis possible.\n\nSo, I think B+ or B.\n\nI'll go with B+ because of high profitability.\n\nB+ is \"Highly speculative\" according to S&P definitions.\n\nB is \"More vulnerable\".\n\nBut with operating margin 62%, it's not vulnerable in operations.\n\nBut balance sheet is weak.\n\nSo, perhaps B+.\n\nThe answer should be one label.\n\nAnother thing: diluted EPS 1.41, but not useful for credit rating.\n\nI think I need to decide.\n\nPerhaps BB-.\n\nBut let's see the current ratio: 0.62 is very low.\n\nIn some industries, low current ratio is normal, but not specified.\n\nBut here, with negative equity, it's bad.\n\nI think the rating is B+.\n\nFinal decision.\n\nReason briefly: Negative shareholders' equity and low current ratio indicate high financial risk, despite strong profitability.\n\nSo, assign B+.\n\nBut let's see if CCC is possible.\n\nCCC is \"Currently vulnerable\", and C is \"Imminent default\".\n\nHere, with net income positive, not imminent default.\n\nSo, B+ or B.\n\nI think B+ is fine.\n\nPerhaps BBB- but that would be too optimistic given negative equity.\n\nNo, BBB- is investment grade, which requires adequate liquidity and solvency.\n\nHere, current ratio 0.62 and negative equity, not investment grade.\n\nSo, speculative grade.\n\nBB is \"Less vulnerable in the near term\", B+ is \"Highly speculative\".\n\nGiven the low current ratio, it's highly speculative.\n\nSo, B+.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 3596,
+ "usd": 0.008021,
+ "utc": "2026-09-06T16:50:50.242977+00:00"
+}

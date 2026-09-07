@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC-\", \"confidence\": 3, \"rationale\": \"Critical liquidity with current ratio 0.53 indicates default risk; high leverage; large negative retained earnings; offset somewhat by positive EBIT.\"}",
+ "reasoning_tail": " with current ratio under 0.8 are often rated below investment grade, and under 0.5 in default range.\n\nHere 0.53, so CCC.\n\nSo, I'll use CCC as rating.\n\nFor confidence, since I have to guess interest, confidence 2 or 3.\n\n3 is medium.\n\nRationale short.\n\nSo, decision: \"CCC\"\n\nconfidence: 3\n\nrationale: \"Low liquidity, high leverage, accumulated losses, but positive operating income.\"\n\n20 words.\n\nOr to include numbers, but character limit.\n\n\"Current ratio 0.53 indicates severe liquidity risk; negative retained earnings; high leverage; EBIT positive but may not cover all costs.\"\n\nBut need concise.\n\nFirst I need to output JSON.\n\nBut the label must be exact, like \"CCC\"\n\nNow in the scale: CCC+, CCC, CCC-, etc.\n\nI think plain CCC is fine, or should I specify plus/minus?\n\nThe prompt says: \"assign the issuer a letter credit rating on the 21-grade scale below (finest granularity you can justify)\"\n\nAnd scale includes CCC+, CCC, CCC-, so I need to be specific.\n\nSince EBIT is positive, perhaps CCC+ or CCC.\n\nWith current ratio 0.53, very low, so CCC- might be better.\n\nCCC- is the lowest before CC.\n\nCCC- rating means very weak, default likely without improvements.\n\nHere, it might fit.\n\nCC is for bankruptcy possible soon.\n\nBut since running, not CC.\n\nI think CCC-.\n\nOr let's not overthink.\n\nI'll go with CCC-.\n\nSimilarly, confidence.\n\nSo, decision: \"CCC-\"\n\nconfidence: 3\n\nrationale: \"Immediate liquidity crisis with current ratio 0.53, deep losses, high debt, yet generating EBIT.\"\n\n17 words.\n\nFine.\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 5009,
+ "usd": 0.011115,
+ "utc": "2026-09-06T19:19:31.690379+00:00"
+}

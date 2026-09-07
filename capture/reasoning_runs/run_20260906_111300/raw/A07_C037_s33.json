@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits significant financial distress, with a current ratio of 1.00 indicating severe liquidity constraints and negative retained earnings of -6,947M reflecting substantial accumulated losses. High leverage is evident from a debt-to-equity ratio near 1.0 (23,463M / 23,369M \u2248 1.004), and an Altman Z-score of approximately 0.45, well below the distress threshold of 1.8, signals a high risk of bankruptcy. These factors justify a low speculative-grade rating.\n\nDECISION: CCC",
+ "reasoning_tail": "t liabilities, technically insolvent if it can't pay, but ratio given as 1.00, so perhaps just meeting.\n\n3,857 vs 3,862, so current assets < current liabilities, so working capital negative, which means it might need to sell assets or borrow to pay short-term debts.\n\nThis is a sign of distress.\n\nTherefore, I think CCC is justified.\n\nFor granularity, perhaps CCC.\n\nBut let's see if B- is possible.\n\nB- is higher, and for companies with some profitability but high risk.\n\nHere, with negative retained earnings and tight liquidity, CCC is better.\n\nPerhaps the rating is B-.\n\nI recall that companies with negative net income or losses are often rated B or lower.\n\nHere retained earnings negative, but EBIT positive, so current year might be profitable, but cumulative losses.\n\nStill, credit ratings consider the overall financial health.\n\nI think CCC+ or CCC.\n\nBut let's choose.\n\nPerhaps from the scale, since current ratio is exactly 1.00, it's critical, so CCC.\n\nFinal decision.\n\nReason briefly: The issuer has a low current ratio of 1.00, indicating liquidity stress, negative retained earnings of -6,947M showing accumulated losses, and high leverage with debt-to-equity near 1.0. The Altman Z-score of approximately 0.45 suggests high distress risk.\n\nTherefore, credit rating is CCC.\n\nFor granularity, CCC is within the scale.\n\nCCC+ might be too optimistic.\n\nCCC- is lower, but with EBIT positive, not necessary.\n\nSo CCC.\n\nIn the response, I need to output DECISION: <label>\n\nSo I'll go with CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 5050,
+ "usd": 0.011192,
+ "utc": "2026-09-06T19:33:44.320843+00:00"
+}

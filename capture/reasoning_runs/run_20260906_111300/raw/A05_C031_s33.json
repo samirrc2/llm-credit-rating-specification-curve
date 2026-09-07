@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Extremely low current ratio of 0.34 and high leverage (D/E ~11.35) indicate severe liquidity risk and vulnerability.\"}",
+ "reasoning_tail": "cal liquidity crisis with current ratio 0.34 and excessive leverage.\"\n\nConfidence: 3, since no interest coverage.\n\nBut let's see.\n\nPerhaps B+ is too high.\n\nBB- is \"Less vulnerable in the near term but faces major uncertainties.\"\n\nWith current ratio 0.34, it is vulnerable.\n\nSo BB- might not fit.\n\nB+ is \"Highly speculative with high credit risk.\"\n\nB is \"Highly speculative with significant credit risk.\"\n\nB- is \"Highly speculative; significant credit risk; poor quality.\"\n\nCCC+ is \"Currently vulnerable and dependent on favorable conditions.\"\n\nI think CCC+ might be better.\n\nBut net income is positive, so not dependent on favorable conditions yet.\n\nOperating income 5,851M, which could cover interest if interest is reasonable.\n\nBut current liabilities 1,775,239M, if a portion is debt, interest could be high.\n\nFor example, if all current liabilities are debt, which is unlikely, but say 10% interest, interest expense 177,524M annually, quarterly 44,381M, but operating income is only 5,851M, not enough.\n\nBut current liabilities include payables, accruals, etc., not just debt.\n\nTypically, only a portion is interest-bearing debt.\n\nBut not specified.\n\nSo I cannot assume.\n\nTherefore, based on available figures, the low current ratio is the key issue.\n\nIn practice, rating agencies might have more data, but here I have to use what's given.\n\nSo I'll assign CCC+.\n\nConfidence 3.\n\nRationale: \"Extremely low current ratio of 0.34 indicates severe liquidity risk.\"\n\nWithin 25 words.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 273,
+ "out_tok": 3977,
+ "usd": 0.00886,
+ "utc": "2026-09-06T19:02:45.382740+00:00"
+}

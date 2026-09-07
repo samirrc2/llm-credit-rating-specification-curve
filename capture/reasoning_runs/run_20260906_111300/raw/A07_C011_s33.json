@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial stress due to a high debt-to-EBIT ratio of approximately 31.3 (total liabilities / EBIT = 57,728M / 1,842M), indicating unsustainable leverage, and an implied interest coverage ratio below 1 (assuming a conservative interest rate), suggesting inability to cover interest obligations. Although liquidity is adequate with a current ratio of 1.39, the low return on assets (approximately 1.67%) and high leverage point to a high default risk, consistent with a CCC rating.\n\nDECISION: CCC",
+ "reasoning_tail": "l unless stated.\n\nIn the table, it's \"Revenue\" and \"EBIT / operating income\", likely annual.\n\nSimilarly, balance sheet figures are as of year-end.\n\nSo I think Debt/EBIT of 31 is key.\n\nEven if I use only long-term debt 39,351M, Debt/EBIT = 39,351 / 1,842 \u2248 21.36, still very high.\n\nEBIT/Interest, if interest on long-term debt at 5%, 1,967.55, ratio 0.936 <1.\n\nSo coverage is poor.\n\nTherefore, the credit rating should be in the CCC range.\n\nOn the scale, CCC+, CCC, CCC-.\n\nSince it's not in default, perhaps CCC or CCC-.\n\nBut let's see the Altman Z-score was 1.41, below 1.8, indicating distress.\n\nSo I think CCC is reasonable.\n\nPerhaps B- , but B has higher coverage.\n\nB has interest coverage 1.5-3, here it's below 1, so worse.\n\nSo CCC.\n\nFinal decision.\n\nReason briefly: The issuer has a very high debt-to-EBIT ratio of approximately 31.3 and an implied interest coverage ratio below 1, indicating severe financial stress and high default risk, despite adequate liquidity from a current ratio of 1.39.\n\nThen output DECISION: CCC\n\nBut CCC has three subcategories; I need to choose one.\n\nSince coverage is below 1, perhaps CCC-.\n\nBut let's see the scale: CCC+, CCC, CCC-.\n\nWith current ratio above 1, it might not be the worst.\n\nBut solvency is poor.\n\nI think CCC is fine.\n\nPerhaps BB-, but that might be too high.\n\nNo, Debt/EBIT 31 is too high for BB.\n\nBB might have Debt/EBIT around 4-5.\n\nHere it's 31, so much worse.\n\nSo DECISION: CCC\n\nBut in the output, it should be one label.\n\nI'll go with CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 4981,
+ "usd": 0.011041,
+ "utc": "2026-09-06T17:08:43.425259+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Strong profitability with 32% operating margin offset by weak liquidity (current ratio 0.55) and high leverage (debt-to-equity ~2.58), indicating speculative grade risk.\"}",
+ "reasoning_tail": "calculate quick ratio.\n\nWith current ratio 0.55, it's poor regardless.\n\nFinal decision: I think BB- or B+.\n\nBut let's see the options.\n\nValid answers: BB+, BB, BB-, B+, B, etc.\n\nI think BB- might be appropriate.\n\nRationale: Strong profitability but weak liquidity and high leverage.\n\nConfidence: 3 out of 5, since limited data.\n\nRationale must be <=25 words.\n\nSo, \"High margins offset by low liquidity and high leverage, indicating speculative grade.\"\n\nFor rating, BB-.\n\nBut let's see if it can be higher.\n\nAnother thought: total assets 204,354M, current assets only 12,671M, so most assets are fixed or long-term. That might be normal for capital-intensive industries, but with high margins, it's unusual.\n\nGross margin 66% suggests not capital-intensive; probably tech or services.\n\nBut I have to go with numbers.\n\nPerhaps the current liabilities include something like deferred revenue, which is not debt.\n\nFor example, software companies have high deferred revenue.\n\nBut it's still a liability until service is provided.\n\nIn terms of cash flow, it might not be an issue.\n\nBut for credit rating, it's considered.\n\nHowever, with current ratio 0.55, it's still low.\n\nI think I should assign BB-.\n\nOr B+.\n\nLet's pick.\n\nI think BB- is reasonable.\n\nConfidence 3.\n\nRationale: \"Strong profitability countered by poor liquidity and high debt, warranting speculative grade.\"\n\n25 words or less.\n\n\"Strong margins but low current ratio and high leverage suggest credit risk, rating BB-.\"\n\nYes.\n\nFinal answer.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 3768,
+ "usd": 0.008403,
+ "utc": "2026-09-06T19:49:25.181128+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"Moderate leverage (debt-to-equity ~1.11), strong profitability (EBIT margin 16.5%), but tight liquidity (current ratio 1.39).\"}",
+ "reasoning_tail": "\nPerhaps the company has low debt.\n\nFrom the data, current liabilities include accounts payable, etc., which are not debt.\n\nLong-term liabilities might include deferred taxes, pensions, etc.\n\nSo the actual debt might be lower.\n\nFor example, if net debt is 30,000M, then debt/EBIT = 16.3, still high.\n\nEBIT/interest, if interest 300M, coverage 6.14, which is good.\n\nBut arbitrary.\n\nI think for the purpose of this, I'll assign BBB+ with medium confidence.\n\nThe scale has BBB+, BBB, BBB-.\n\nLet's see the rationale.\n\nFinal decision.\n\nPerhaps A-.\n\nLet's calculate the interest coverage if I assume a typical interest rate.\n\nBut I shouldn't.\n\nAnother ratio: fixed charge coverage, but not available.\n\nI think based on liquidity and leverage, rating is BBB+.\n\nRationale: Moderate leverage with good profitability but tight liquidity.\n\nConfidence 3 out of 5.\n\nRationale under 25 words.\n\nSo \"Moderate leverage, strong profitability, but current ratio low.\"\n\nThen rating BBB+.\n\nOr A-.\n\nLet's see comparable.\n\nFor example, a company with debt/equity 1.1, current ratio 1.4, EBIT margin 16%, might be A-.\n\nBut current ratio is low.\n\nIn practice, credit ratings consider industry norms.\n\nBut here, no industry, so general.\n\nI think BBB+ is safe.\n\nOr BBB.\n\nLet's look at the numbers again.\n\nRevenue 11,164M, EBIT 1,842M, so net income might be lower after interest and taxes.\n\nBut not given.\n\nShareholders' equity 52,061M, so if return on equity, but no net income.\n\nI think I have to decide.\n\nI'll go with BBB+.\n",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 260,
+ "out_tok": 5473,
+ "usd": 0.012129,
+ "utc": "2026-09-06T17:08:14.235276+00:00"
+}

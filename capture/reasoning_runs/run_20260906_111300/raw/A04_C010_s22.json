@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"BBB+\",\n  \"confidence\": 3,\n  \"rationale\": \"High EBIT margin (44.1%) and strong retained earnings offset moderate total liabilities to equity (73.6%), indicating lower investment grade.\"\n}",
+ "reasoning_tail": "is 3x to 5x, D/E up to 50-60%.\n\nHere D/E 73.6%, coverage estimated 3.46x with 4% rate, so likely BBB.\n\nWith 5% rate, less coverage, so BBB- or BB+.\n\nBut current rates are low, so 4% assumption better.\n\nIn historical context, predating recent, say 2019, interest rates were low.\n\nSo assume 4%, coverage 3.46x, d/e 73.6%, so BBB+ or A-.\n\nA- might have coverage above 4x, BBB 3x.\n\nS&P criteria for industrial companies: for BBB, interest coverage 3-4x, for A 4-5x, etc.\n\nHere 3.46x, so BBB+.\n\nAlso, size large, so benefit.\n\nRevenue 5.6B, which is decent size.\n\nso BBB+.\n\nBut let's confirm.\n\nOperating income / revenue 44.1%, very high, so even at low revenue, high profits, so rating support.\n\nPerhaps A-.\n\nBut with low asset turnover, it might be a concern for growth, but credit rating is for existing debt.\n\nOverall, I think BBB+ is reasonable.\n\nConfidence: not high because I have to estimate interest.\n\nRationale in 25 words.\n\nFirst, choose rating.\n\nFinal decision: BBB+ with medium confidence.\n\nConfidence scale 1-5, 5 highest.\n\nI feel around 3.\n\nRationale: \"Moderate leverage with high profitability supports lower investment grade rating.\"\n\nNow, for the JSON.\n\nSo {\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"High EBIT margin and equity cushion offset moderate leverage.\"}\n\nUnder 25 words.\n\nOr \"Strong profitability and liquidity with moderate debt levels.\"\n\nBut leverage moderate.\n\nEBIT margin 44% is strong, equity/ assets 57.6%, good, D/E 73.6% moderate, coverage estimated ok.\n\nBBB+.\n",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 262,
+ "out_tok": 5483,
+ "usd": 0.012152,
+ "utc": "2026-09-06T17:01:12.418520+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning\nThe company exhibits severe financial distress, primarily due to a critically low current ratio of 0.62, indicating insufficient liquidity to cover short-term obligations, and negative shareholders' equity of -$2,646M, reflecting insolvency risk. While EBIT is positive at $3,230M, suggesting operational profitability, the high leverage (total liabilities of $37,604M exceed total assets of $35,008M) and poor liquidity outweigh this strength, pointing to a high default vulnerability consistent with a CCC rating.\n\nDECISION: CCC",
+ "reasoning_tail": "g, I think the solvency and liquidity are key.\n\nI think the issuer should be rated CCC+ or CCC.\n\nBut let's decide.\n\nPerhaps I can consider the EBIT.\n\nAnother idea: times interest earned, but no interest.\n\nI think I have to make a judgment.\n\nBased on similar situations, I would go with CCC.\n\nBut let's see the rating labels: CCC+, CCC, CCC-, CC, C.\n\nI think CCC is reasonable.\n\nWith the high EBIT, it might be slightly better, but the liquidity is pressing.\n\nThe current ratio is the most immediate concern.\n\nSo, I'll go with CCC.\n\nBut let's confirm the calculation.\n\nCurrent assets: 5,119M\n\nCurrent liabilities: 8,286M\n\nRatio: 5,119 / 8,286 = 0.617, approximately 0.62, yes.\n\nNegative equity: -2,646M\n\nEBIT: 3,230M\n\nRevenue: 5,251M\n\nRetained earnings: 36,115M, but not directly helpful.\n\nI think CCC.\n\nPerhaps B-.\n\nBut B- is for highly speculative, while CCC is for vulnerable.\n\nWith current ratio below 1, vulnerable to default.\n\nSo CCC.\n\nFinest granularity: I think CCC is fine, or CCC-.\n\nBut CCC- is worse.\n\nSince EBIT is good, perhaps CCC+.\n\nCCC+ is better than CCC.\n\nIn the scale, CCC+ is above CCC.\n\nAAA, AA+, ..., BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo CCC+ is the highest of the CCC range.\n\nWith such poor liquidity, I think CCC or CCC-.\n\nBut let's see if I can justify.\n\nPerhaps the retained earnings indicate that the company has reserves, but retained earnings are not cash; it's accounting.\n\nCash is needed for payments.\n\nI think CCC is appropriate.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4484,
+ "usd": 0.009958,
+ "utc": "2026-09-06T16:51:57.995818+00:00"
+}

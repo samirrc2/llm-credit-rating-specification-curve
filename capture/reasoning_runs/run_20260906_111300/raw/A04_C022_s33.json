@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Severe liquidity risk with current ratio of 0.59 and negative working capital, weak profitability, and high leverage indicate high default vulnerability.\"}",
+ "reasoning_tail": "turing, the formula differs, but I used manufacturing as default.\n\nIn this case, Z-score suggests distress.\n\nTherefore, I think CCC is appropriate.\n\nNow, which CCC? CCC+, CCC, or CCC-.\n\nSince EBIT is positive, perhaps CCC+.\n\nBut let's see the retained earnings high, which helps the score, but not enough.\n\nI think CCC+.\n\nBut confidence is medium.\n\nRationale: Low current ratio, high leverage, weak profitability indicate high credit risk.\n\nFor the rating, I'll go with CCC+.\n\nBut let's confirm the scale.\n\nValid answers include CCC+, CCC, CCC-.\n\nCCC+ is \"high credit risk, currently vulnerable\"\n\nCCC is \"currently vulnerable, dependent on favorable conditions\"\n\nWith current ratio 0.59, it's vulnerable.\n\nEBIT positive, so not CCC-.\n\nCCC- is \"currently highly vulnerable\"\n\nSo CCC+ or CCC.\n\nI think CCC+ is fine.\n\nPerhaps B-, but Z-score suggests distress.\n\nB- is \"high credit risk\" but not necessarily vulnerable now.\n\nCCC is specifically for vulnerable companies.\n\nI think CCC is better.\n\nBut let's see the decision.\n\nFinal answer.\n\nI'll assign CCC.\n\nConfidence 3, since missing some data.\n\nRationale: Very low current ratio and negative working capital indicate severe liquidity issues.\n\nWithin 25 words.\n\nSo, decision: CCC\n\nConfidence: 3\n\nRationale: \"Severe liquidity risk with current ratio below 1 and negative working capital, indicating high default vulnerability.\"\n\nBut EBIT is positive, so not immediate default.\n\n\"High credit risk due to poor liquidity and leverage.\"\n\nYes.\n\nNow for JSON.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 258,
+ "out_tok": 4977,
+ "usd": 0.011042,
+ "utc": "2026-09-06T18:13:16.578675+00:00"
+}

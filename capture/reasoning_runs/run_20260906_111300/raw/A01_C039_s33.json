@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (D/E ~13.5) and weak liquidity (current ratio 0.83) outweigh strong profitability and margins.\"}",
+ "reasoning_tail": "e rating should be in the B range.\n\nLet's list the issues:\n\n- Very high leverage: D/E ~13.5\n\n- Poor liquidity: current ratio 0.83\n\n- Thin equity base\n\n- But strong profitability\n\nSo, conflicting signals, but leverage and liquidity dominate for credit risk.\n\nPerhaps BB- or B+.\n\nI need to choose one.\n\nThe rating scale has BB+, BB, BB-, B+, B, B-, etc.\n\nBB is less vulnerable, B is more vulnerable.\n\nWith current ratio below 1, it's vulnerable.\n\nSo probably B+ or B.\n\nConfidence: 3 out of 5, since missing interest data.\n\nRationale: High leverage and weak liquidity despite strong profits.\n\nIn <=25 words.\n\nFinal decision.\n\nI think B+ is possible, but let's see.\n\nPerhaps BB-.\n\nAnother ratio: Net debt to EBITDA, but no EBITDA or net debt given.\n\nOperating income 5,855M, which is similar to EBIT.\n\nEBITDA might be higher, but not given.\n\nTotal liabilities 1,684,348M, EBIT 5,855M, so EBIT / Total liabilities = 5,855 / 1,684,348 \u2248 0.0035, or 0.35%, which is very low coverage.\n\nBut not all liabilities require interest; only debt does.\n\nStill, it's indicative.\n\nThe retained earnings vs equity: retained earnings 165,288M, equity 124,972M, so the difference is -40,316M, which could be due to treasury stock or accumulated losses in other comprehensive income. This means the company has reduced equity, perhaps through buybacks, which might not be bad if done wisely, but with high debt, it increases risk.\n\nOverall, I think speculative grade with high risk.\n\nI'll go with B+.\n\nOr B.\n\nLet's decide.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 282,
+ "out_tok": 3457,
+ "usd": 0.007726,
+ "utc": "2026-09-06T19:39:03.400812+00:00"
+}

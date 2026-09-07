@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"BB\",\n  \"confidence\": 3,\n  \"rationale\": \"Low interest coverage (~2.7x), weak profitability (net margin 7.2%), high leverage, but strong liquidity (current ratio 2.29).\"\n}",
+ "reasoning_tail": "of BB range.\n\nGiven net income  406 and revenue 5.6B, it's modest size.\n\nBut assets large, so capital-intensive.\n\nPerhaps industry matters, but not given.\n\nI should go with BB.\n\nAnother thing: diluted EPS 0.28, which is low, but not directly relevant.\n\nI think BB is reasonable.\n\nLet's see the difference between assets and liabilities with equity.\n\nTotal liabilities 27,401 + equity 18,899 = 46,300, but assets 58,167, so there's a big gap.\n\nThis might include intangible assets or goodwill, but for leverage, we often use net debt or tangible capital.\n\nequity includes retained earnings, which is low, 1,385.\n\nOverall, equity to assets ratio: equity/total assets = 18,899 / 58,167 \u2248 32.5%, so liabilities 67.5%, which is not terrible, but not great.\n\ndebt to capital: if we take total liabilities as debt, 27,401, capital = liab + equity = 27,401 + 18,899 = 46,300, so debt/capital = 27,401/46,300 \u2248 59.2%, or leverage ratio 1.45 times.\n\nCommon for corporations, but with low profitability, coverage suffers.\n\nFor all, debt/capital around 60% is high, but not extreme.\n\nInterest coverage is more direct.\n\nI think BB rating.\n\non the scale, BB is one option.\n\nperhaps BBB- if I err on the side of investment grade, but with ICR ~2.7, it's below.\n\nMoody's or S&P, for example, below 3x for high yield.\n\nYes.\n\nrationale: \"Moderate interest coverage, high leverage, weak profitability, but good liquidity.\"\n\nrating: BB- to be cautious, or BB.\n\nLet's choose BB.\n\nConfidence 3.\n\nRationale under 25 words.\n",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 3959,
+ "usd": 0.008821,
+ "utc": "2026-09-06T18:57:53.516332+00:00"
+}

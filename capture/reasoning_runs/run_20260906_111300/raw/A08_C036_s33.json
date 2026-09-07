@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Very low current ratio (0.79), high debt-to-equity (2.74), and weak implied interest coverage indicate high default risk.\"}",
+ "reasoning_tail": "l.\n\nRevenue 3,915M, EBIT 749M, so cost of goods sold or something, but not given.\n\nI think I have to decide.\n\nPerhaps B- , but Z-score suggests lower.\n\nB- is higher than CCC.\n\nThe order is BB, B, CCC from higher to lower risk.\n\nBB is less risky, B more risky, CCC very risky.\n\nSo for high risk, CCC.\n\nWith confidence, since no interest data, confidence might be low.\n\nBut I need to assign.\n\nRationale in <=25 words.\n\nFinal decision.\n\nI think CCC.\n\nBut let's see if AA or something, no, definitely not.\n\nAAA is top, this is bottom.\n\nSo between B and CCC.\n\nPerhaps B- .\n\nBut current ratio below 1 is critical.\n\nFor example, a company with current ratio below 1 might be rated B or lower.\n\nSimilarly, high leverage.\n\nI found online that for S&P, a debt-to-EBITDA ratio above 5 is high risk, but here debt/EBIT ~77, which is extreme.\n\nEBIT is not EBITDA, but close.\n\nAssume EBITDA similar, say 800M, then debt/EBITDA ~72.5, very high.\n\nSo definitely speculative grade with high risk.\n\nCCC rating.\n\nBut which CCC? CCC+, CCC, or CCC-?\n\nSince EBIT positive, not CCC- or CC.\n\nCCC- is still vulnerable.\n\nBut let's choose CCC.\n\nConfidence: 3, since no interest data.\n\nRationale: Poor liquidity, high leverage, low coverage implied.\n\nIn 25 words.\n\n\"Low current ratio, high debt, weak implied interest coverage indicate high default risk.\"\n\nNow for the JSON.\n\nDecision: CCC\n\nConfidence: 3\n\nRationale: \"Very low current ratio, high leverage, and poor implied coverage suggest high credit risk.\"\n\n19 words.\n\nFine.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4151,
+ "usd": 0.009229,
+ "utc": "2026-09-06T19:27:43.126298+00:00"
+}

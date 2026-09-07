@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity ~3.62) and estimated weak interest coverage offset strong profitability (14% operating margin) and adequate liquidity (current ratio 1.44).\"}",
+ "reasoning_tail": ".\n\nFinal decision: I'll go with BB, as it's high yield with some cushion.\n\nBut let's see the options.\n\nThe scale has BB+, BB, BB-.\n\nPerhaps BB-.\n\nConfidence level.\n\nI need to choose a label and confidence from 1 to 5, 5 being highest.\n\nSince I don't have full data, confidence might be low.\n\nRationale in 25 words.\n\nFirst, assign rating.\n\nI think BBB- is possible if leverage is manageable, but with ratios, it seems tight.\n\nAnother thought: total assets 98,585M, current assets 52,485M, so non-current assets 46,100M.\n\nBut not helpful.\n\nPerhaps the company has intangible assets or something, but no.\n\nI think I have to make a call.\n\nLet's say BB.\n\nOr B.\n\nDebt-to-EBITDA estimated high, coverage low.\n\nFor B rating, debt/EBITDA might be above 6, here it's much higher.\n\nBut with my estimate, 16.9, which is extreme, but that might be wrong if EBITDA is higher or debt lower.\n\nFor example, if EBITDA is 6,000M, then debt/EBITDA = 77,267/6,000 = 12.88, still high.\n\nOperating income 2,660M, EBITDA can't be much higher than that unless low D&A.\n\nMax EBITDA, if D&A is small, say 10% of revenue, 1,913M, EBITDA 4,573M as before.\n\nIf revenue is high-margin, but gross margin 29%, not extremely high.\n\nSo I think debt/EBITDA is high.\n\nPerhaps for this company, it's normal, but for rating, it's speculative.\n\nI think BB- or B+.\n\nLet's choose BB-.\n\nConfidence 3, since no industry or interest data.\n\nRationale: High leverage with good profitability but weak coverage metrics.\n\nIn 25 words.\n\nFinal answer.\n",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 276,
+ "out_tok": 5622,
+ "usd": 0.012464,
+ "utc": "2026-09-06T17:34:03.619201+00:00"
+}

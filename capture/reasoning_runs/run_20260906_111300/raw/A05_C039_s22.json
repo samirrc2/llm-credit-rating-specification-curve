@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Extreme leverage (debt-to-equity ~13.5), weak liquidity (current ratio 0.83), but strong profitability (gross margin 52%, net margin 15.3%).\"}",
+ "reasoning_tail": "ey are profitable.\n\nSo probably B or BB.\n\nLet's say B+.\n\nI think I need to make a decision.\n\nPerhaps the rating is BB-.\n\nI'll go with BB-.\n\nConfidence: 3, since I'm not sure about the industry.\n\nBut I have to use only provided figures.\n\nRationale: \"High leverage, low liquidity, strong profitability.\"\n\nHigh leverage: debt-to-equity 13.48\n\nLow liquidity: current ratio 0.83\n\nStrong profitability: margins and net income.\n\nSo speculative grade.\n\nBB- is below BB, above B+.\n\nBB is for less vulnerable, B for more vulnerable.\n\nWith current ratio below 1, they are more vulnerable.\n\nSo B+.\n\nLet's check the scale: BB+, BB, BB-, B+, B, B-.\n\nB+ is below BB-.\n\nBB- is higher than B+.\n\nThe scale from highest to lowest: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo BBB- is lowest investment grade.\n\nBB+ is highest speculative.\n\nThen BB, BB-, B+, B, B-.\n\nBB- is above B+.\n\nBB- is better than B+.\n\nFor example, BB+ is Ba1 in Moody's, BB is Ba2, BB- is Ba3, B+ is B1, B is B2, B- is B3.\n\nBa3 is better than B1.\n\nSo BB- is higher than B+.\n\nIn terms of risk, BB- has lower risk than B+.\n\nWith current ratio below 1, it might be B+ or B.\n\nBut profitability strong, so BB-.\n\nI think BB- is reasonable.\n\nOr B+.\n\nLet's decide.\n\nI'll go with BB-.\n\nConfidence 3.\n\nRationale: \"Extreme leverage, weak liquidity, but strong margins.\"\n\nExtreme leverage: debt-to-equity 13.48\n\nWeak liquidity: current ratio 0.83\n\nStrong margins: gross 52%, operating 19%.\n\nIn 25 words.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 275,
+ "out_tok": 5571,
+ "usd": 0.012352,
+ "utc": "2026-09-06T19:42:41.719659+00:00"
+}

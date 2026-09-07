@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe liquidity issues with a current ratio of 0.83 (below 1.0), indicating an inability to cover short-term obligations, and extreme leverage with a debt-to-equity ratio of approximately 13.48 and a debt-to-assets ratio of 93.1%, signaling high solvency risk. Despite a positive EBIT margin of 19.4%, the massive liabilities relative to EBIT (debt/EBIT \u2248 287.5) imply insufficient interest coverage and high default vulnerability, placing it well below investment grade.\n\nDECISION: CCC",
+ "reasoning_tail": "ash flow for debt repayment.\n\nMoreover, current liabilities include short-term debt that needs repayment.\n\nSo, definitely high default risk.\n\nTherefore, I think CCC- or CC.\n\nBut to be conservative, since EBIT is positive, not CCC-.\n\nCCC is defined as: currently vulnerable and dependent on favorable conditions to meet commitments.\n\nCC: highly vulnerable, very speculative bonds.\n\nC: imminent default.\n\nHere, with positive EBIT, not imminent, so CC or CCC.\n\nBut with liquidity crisis, it might be CC.\n\nI think CCC is appropriate.\n\nPerhaps I can output CCC.\n\nBut let's see the answer format.\n\nI need to reason briefly in 1-3 sentences.\n\nThen DECISION: label.\n\nSo, reasoning: The company has a very low current ratio (0.83), indicating liquidity problems, and extremely high leverage (debt-to-equity ratio of 13.48), suggesting high default risk. Despite positive EBIT, the interest coverage is likely insufficient given the massive liabilities.\n\nTherefore, a low speculative grade rating is warranted.\n\nFinal rating: I think CCC.\n\nBut let's check if BBB- is possible? No, BBB- is investment grade, but with current ratio <1, it's below investment grade.\n\nBB is speculative, but BB might be for companies with moderate risk, here risk is high.\n\nFor example, BB rated companies might have debt/EBITDA around 4-6, here it's orders of magnitude higher.\n\nSo, B or CCC.\n\nB+ to B- might be for higher risk, CCC for very high risk.\n\nI think CCC is fine.\n\nPerhaps CCC-.\n\nBut I'll go with CCC.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 257,
+ "out_tok": 4431,
+ "usd": 0.009845,
+ "utc": "2026-09-06T19:40:23.788429+00:00"
+}

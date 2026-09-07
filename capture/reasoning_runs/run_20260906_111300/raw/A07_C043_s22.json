@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer has a critically low current ratio of 0.97 (<1.0), indicating severe liquidity issues and difficulty meeting short-term obligations. High leverage is evident with a debt-to-equity ratio of approximately 2.87 and debt-to-assets ratio of 0.74, compounded by low profitability (EBIT margin of 3.75% and ROA of 1.58%). An Altman Z-score of approximately 0.876, well below the distress threshold of 1.8, confirms high default risk. Overall, the issuer is vulnerable and dependent on favorable conditions to avoid default, aligning with a CCC rating.\n\nDECISION: CCC",
+ "reasoning_tail": "ratio: interest coverage ratio, but missing.\n\nI found that for BB ratings, interest coverage might be 2-3x or higher, but I don't know.\n\nNet tangible assets: not given.\n\nPerhaps calculate total liabilities to EBITDA, but no EBITDA or depreciation.\n\nEBIT given.\n\nTotal liabilities / EBIT = 44,490 / 948 \u2248 46.9, very high.\n\nIf I assume EBITDA is similar, say 1000 for simplicity, ratio 44.5, still high.\n\nTotal debt service coverage would be poor.\n\nI think it's speculative grade with high risk.\n\nDecision: I'll go with CCC, as it reflects vulnerability.\n\nBut let's confirm with Altman Z-score interpretation.\n\nZ > 2.99: Safe \"Grey\" Zone\n\nZ < 1.8: Distress Zone\n\nIf Z < 1.8, it's non-investment grade.\n\nWith Z = 0.876, it's deep in distress, equivalent to C or D rating sometimes, but for rating scales, B or CCC.\n\nSpecifically, for Z below 0, it's critical; here it's above 0, so not imminent default.\n\nFor example, companies with Z < 1 are often rated CCC or lower.\n\nIn practice, ratings are assigned based on multiple factors.\n\nSince the task is to reason briefly, I should output one rating.\n\nFinal rating: Let's say CCC.\n\nPerhaps B-, but I think CCC is better due to liquidity.\n\nAnother point: the current assets and liabilities are close, so minor improvement could fix it, but based on snapshot, it's weak.\n\nEBIT is positive but low.\n\nRevenue 25,270M, total assets 59,991M, so asset turnover is 0.42, which is low for some industries, but not given.\n\nI think CCC is reasonable.\n\nSo, assign CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3869,
+ "usd": 0.008606,
+ "utc": "2026-09-06T20:00:19.364061+00:00"
+}

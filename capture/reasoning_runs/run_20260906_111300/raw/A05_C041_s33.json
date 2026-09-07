@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Strong profitability (32% operating margin) offset by weak liquidity (current ratio 0.55) and high leverage (debt-to-equity 2.58).\"}",
+ "reasoning_tail": "tionale: High profitability offset by poor liquidity and high leverage.\n\nOr something.\n\nBut let's see.\n\nPerhaps BBB- but with low confidence.\n\nNo, current ratio 0.55 is too low for BBB.\n\nIn S&P ratings, for example, BBB requires adequate liquidity.\n\nA current ratio below 1 is often associated with ratings below BBB.\n\nFor instance, companies rated B often have financial challenges.\n\nHere, net income is high, so it's not distressed.\n\nDiluted EPS 1.18, positive.\n\nBut the current ratio is alarming.\n\nPerhaps the company has a credit facility, but not mentioned.\n\nI think I should go with BB-.\n\nBB- is \"less vulnerable in the near term\" but speculative.\n\nB+ is \"more vulnerable.\"\n\nWith high earnings, BB- might be appropriate.\n\nConfidence: 3, because missing interest coverage.\n\nRationale: Strong margins but weak liquidity and high leverage.\n\nNow for the JSON.\n\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High profitability offset by poor liquidity and leverage.\"}\n\nRationale must be <=25 words.\n\nThat's 5 words.\n\nNow, is there a better rating?\n\nAnother thought: the current ratio is given as 0.55, but it might be industry-specific. But no industry info, so assume general.\n\nRetained earnings 34,747M, which is large, but not liquid.\n\nI think BB- is reasonable.\n\nPerhaps BB.\n\nBut let's see the leverage.\n\nDebt-to-equity 2.58, which is high, but for some industries it's normal, like utilities, but here revenue is high, so maybe tech.\n\nNot specified.\n\nI think BB- is fine.\n\nFinal decision.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 267,
+ "out_tok": 3760,
+ "usd": 0.008381,
+ "utc": "2026-09-06T19:51:34.350889+00:00"
+}

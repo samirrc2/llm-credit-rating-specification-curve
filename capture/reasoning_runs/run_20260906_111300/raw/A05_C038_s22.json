@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High debt leverage (debt/equity ~14.5) and poor liquidity (current ratio 0.63) despite strong profitability (operating margin 42%).\"}",
+ "reasoning_tail": "bout 469.14 million, so mkt cap not given.\n\nNot useful.\n\nEquity small, but market value might be higher if profitable.\n\n   But not known.\n\nStick to financials.\n\nI think the rating should be B- with confidence 3.\n\nOr CCC+.\n\nBut let's see.\n\nCurrent ratio 0.63 is so low that it suggests imminent liquidity risk unless refinanced.\n\nWith positive income, they can manage, but risk is high.\n\nAlso, retained earnings negative, which might indicate past difficulties.\n\nFor 2025 Q4, filed early, so information available.\n\nI think CCC+ or B-.\n\nLook at the scale: CC and C are for severe distress or default.\n\nHere, net income positive, so not near default.\n\nCCC ratings are for vulnerable to default, B for speculative with high risk.\n\nGiven current ratio less than 1, it's vulnerable, so CCC+ might fit.\n\nB- could be possible.\n\nI'll go with B-.\n\nRationale: High debt leverage and poor liquidity despite strong margins.\n\nConfidence: 3, since some estimates like annualizing.\n\nBut I have to use the figures directly.\n\nPerhaps for r rating, agencies look at point-in-time.\n\nAnother idea:  the asset-liability inconsistency may indicate intangible assets or something, but shareholders' equity is 3,652M, while assets - liabilities is 10,355M, so there might be non-controlling interests or perpetual debt classified as equity, but not stated. I should accept the reported equity.\n\nIn many contexts, such a low equity with high assets suggests significant debt.\n\nI think B-.\n\nLet me choose B-.\n\nAnswer in JSON.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 267,
+ "out_tok": 3994,
+ "usd": 0.008894,
+ "utc": "2026-09-06T19:36:10.435486+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company's current ratio of 0.59 indicates severe liquidity stress, as it cannot cover short-term obligations with current assets, and negative working capital exacerbates this risk. High leverage is evident from a debt-to-equity ratio of approximately 1.76 and a debt-to-assets ratio of 64%, signaling solvency concerns. Although EBIT margin is around 9.3% and retained earnings are substantial, these do not mitigate the immediate liquidity and leverage issues, suggesting high vulnerability to default.\n\nDECISION: CCC",
+ "reasoning_tail": ", they might default.\n\nSo, CCC range.\n\nBut let's assign.\n\nPerhaps I can compare to typical ratings.\n\nBut I don't have benchmarks.\n\nAnother ratio: EBIT / total liabilities = 979 / 45,596 \u2248 0.0215, or 2.15%, which is low, meaning EBIT covers only a small portion of liabilities.\n\nNot good.\n\nReturn on assets: EBIT / assets = 979 / 71,487 \u2248 1.37%, low.\n\nSo, profitability is weak with high leverage.\n\nI think rating should be CCC.\n\nBut let's see the retained earnings: 36,413M, which is large, but it's on the balance sheet, not liquid, so it doesn't help with liquidity directly.\n\nIn Z-score, it helped, but for credit, liquidity is key.\n\nPerhaps the rating is B-.\n\nI recall that for corporate bonds, ratings below B are for high yield with high risk.\n\nI think CCC is reasonable.\n\nBut let's choose.\n\nFinal decision.\n\nReason: The company exhibits severe liquidity issues with a current ratio of 0.59 and negative working capital, coupled with high leverage (debt-to-equity ratio of 1.76), indicating high financial risk and vulnerability to default.\n\nTherefore, a CCC credit rating is assigned.\n\nCCC is \"currently vulnerable,\" which matches.\n\nCCC+ or CCC- might be finer, but I think CCC is fine.\n\nSince Z-score is 1.09, close to 1.0, which is distress zone, CCC is appropriate.\n\nCC is for highly vulnerable, but EBIT positive, so not yet.\n\nC is for near default.\n\nSo CCC.\n\nPerhaps B-.\n\nBut I think CCC.\n\nLet's list the rating scale: CCC+, CCC, CCC-, etc.\n\nCCC is the base.\n\nIn my reason, I'll say CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 4048,
+ "usd": 0.009002,
+ "utc": "2026-09-06T18:14:59.286992+00:00"
+}

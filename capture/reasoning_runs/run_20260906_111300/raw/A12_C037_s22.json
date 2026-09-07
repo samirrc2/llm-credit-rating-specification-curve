@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Weak liquidity (current ratio 1.00), large negative retained earnings, and high leverage indicate substantial credit risk.\"}",
+ "reasoning_tail": "sts ongoing issues.\n\nPerhaps B-.\n\nI think I need to make a decision.\n\nFinal answer should be in JSON with rationale <=25 words.\n\nSo, I'll go with B- , confidence 3 or 4.\n\nRationale: Weak liquidity, negative retained earnings, high leverage.\n\nNow, confidence: I'd say 3, since I don't have full data, like interest coverage.\n\nBut based on given, it's indicative.\n\nPerhaps BBB- is possible, but I doubt it.\n\nBBB- is lowest investment grade, which requires adequate protection, but here liquidity is poor and retained earnings negative, so not investment grade.\n\nSimilarly, BB might be too high.\n\nBB ratings can have current ratio below 1.5, but 1.00 is critical.\n\nFor example, some BB companies have current ratio around 1.2.\n\nHere it's 1.00.\n\nNegative retained earnings are a flag.\n\nIn practice, companies with negative retained earnings are often rated B or lower.\n\nFor instance, startups or troubled firms.\n\nSo, I think B- is reasonable.\n\nCCC is for imminent default, which might not be the case, as EBIT positive.\n\nSo B- or B.\n\nB- : \"Substantial credit risk\"\n\nB : \"More vulnerable\"\n\nSimilar.\n\nI'll go with B-.\n\nConfidence: 3 out of 5, as I have key metrics but not all.\n\nRationale: \"Poor liquidity, negative retained earnings, moderate leverage.\"\n\nThat's 7 words.\n\nNow, for JSON: {\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Poor liquidity, negative retained earnings, moderate leverage\"}\n\nBut decision should be the label, like \"B-\".\n\nIn the scale, it's listed as B-, so fine.\n\nFinal answer.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3135,
+ "usd": 0.007009,
+ "utc": "2026-09-06T19:34:19.236832+00:00"
+}

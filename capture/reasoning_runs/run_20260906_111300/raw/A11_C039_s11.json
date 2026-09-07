@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows critical weaknesses in liquidity and solvency. The current ratio of 0.83 indicates severe liquidity stress, as current assets are insufficient to cover current liabilities, raising immediate default risks. Additionally, the debt-to-equity ratio of approximately 13.5 (calculated as total liabilities / shareholders' equity = 1,684,348M / 124,972M) reflects extreme leverage, while the low return on assets (EBIT / total assets \u2248 0.32%) suggests poor profitability and inefficiency. These factors, combined with negative working capital, place the company in a highly vulnerable position, dependent on favorable conditions to meet obligations, aligning with a CCC rating.\n\nDECISION: CCC",
+ "reasoning_tail": "0.32%\n\n- Low efficiency: asset turnover 1.67%\n\n- Negative working capital\n\nPositive: retained earnings positive, EBIT positive.\n\nBut overall, high credit risk.\n\nFor the rating, I'll go with CCC+ as it's vulnerable but not in default.\n\nCCC is for current vulnerability.\n\nCCC+ might be slightly better.\n\nBut in the scale, CCC+ is above CCC.\n\nAAA to C, so CCC+ is better than CCC.\n\nPerhaps B- is above CCC+.\n\nThe scale: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is above CCC+.\n\nB- is three notches above CCC+? Let's see the order:\n\nAfter BBB- comes BB+, BB, BB-, B+, B, B-, then CCC+, CCC, CCC-, CC, C.\n\nSo B- is just above CCC+.\n\nB- to CCC+ is one notch down.\n\nB- is speculative, high risk, CCC is substantial risk.\n\nWith current ratio below 1, it's substantial risk.\n\nI think CCC+ or CCC.\n\nBut to be precise, let's assign CCC.\n\nReason briefly.\n\nReason: The company exhibits severe liquidity issues with a current ratio below 1 (0.83), indicating potential difficulty in meeting short-term obligations. Additionally, extremely high leverage (debt-to-equity ratio of approximately 13.5) and low profitability (ROA of 0.32%) suggest high credit risk and vulnerability to adverse conditions.\n\nTherefore, a low speculative grade rating is warranted.\n\nFinal label: CCC\n\nOr CCC+.\n\nSince EBIT is positive, CCC+.\n\nBut the Altman Z-score was very low, 0.06, which is distress.\n\nSo CCC.\n\nI think CCC is appropriate.\n\nDECISION: CCC\n\nBut let's confirm.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 259,
+ "out_tok": 4372,
+ "usd": 0.009717,
+ "utc": "2026-09-06T19:43:49.884649+00:00"
+}

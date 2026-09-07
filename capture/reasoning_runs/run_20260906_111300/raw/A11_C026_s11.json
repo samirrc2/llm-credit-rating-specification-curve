@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits high leverage with a debt-to-equity ratio of approximately 4.22 (total liabilities / shareholders' equity = 78,289M / 18,552M), indicating significant solvency risk. Additionally, the current ratio of 1.27 suggests weak liquidity, which could strain short-term obligations despite strong profitability reflected in an EBIT margin of about 29.77% (EBIT / revenue = 3,639M / 12,222M). These factors place the issuer in the speculative grade with high vulnerability to adverse conditions.\n\nDECISION: B+",
+ "reasoning_tail": "mpany can weather some issues.\n\nBut I think B+ is reasonable.\n\nPerhaps BB-.\n\nI recall that for some companies, high leverage with good margins can be BB.\n\nBut here EBIT margin 29.77% is good, but ROA is low at 3.755%, which suggests high assets or high leverage.\n\nAsset turnover 12.61% is low, meaning assets are not generating high sales, which might indicate inefficiency or capital intensity.\n\nRevenue 12,222M, total assets 96,889M, so asset turnover 0.126, which is low; typical might be 0.5-1.0 for many industries, but varies.\n\nLow asset turnover with high leverage is risky.\n\nSo I think credit rating is low.\n\nI'll go with B+.\n\nOr B.\n\nLet's see the decision.\n\nPerhaps from the current ratio and leverage, it's B.\n\nAnother idea: the retained earnings to total liabilities ratio.\n\nRetained earnings / Total liabilities = 17,093 / 78,289 \u2248 0.218, or 21.8%, which is low, meaning liabilities are much higher than retained earnings.\n\nNot great.\n\nI think I'm overcomplicating.\n\nAs a credit rating analyst, based on common metrics:\n\n- Weak liquidity (current ratio 1.27)\n\n- High leverage (debt-to-equity 4.22)\n\n- Good profitability (EBIT margin 29.77%)\n\nBut with high leverage, the risk is elevated.\n\nRating: B+\n\nReason: High leverage and weak liquidity indicate elevated credit risk, despite strong profitability.\n\nThen DECISION: B+\n\nBut let's confirm the scale: B+ is part of the list.\n\nList: AAA to C, with + and -.\n\nB+ is there.\n\nPerhaps BB-.\n\nBut I think B+ is fine.\n\nI think I'll go with that.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 5641,
+ "usd": 0.012492,
+ "utc": "2026-09-06T18:36:20.905501+00:00"
+}

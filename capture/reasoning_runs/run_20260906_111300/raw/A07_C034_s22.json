@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress based on key ratios: the current ratio of 0.53 indicates critical liquidity issues, as current liabilities exceed current assets, raising near-term default risk. Leverage is high with a debt-to-equity ratio of approximately 3.4 (43,578M / 12,807M), and retained earnings are deeply negative at -12,237M, reflecting accumulated losses and eroding equity. Although the EBIT margin is strong at approximately 40.9% (1,307M / 3,198M), this is insufficient to offset the poor liquidity and high leverage, placing the issuer in a highly vulnerable position consistent with a CCC rating, indicating current vulnerability and dependence on favorable conditions to meet obligations.\n\nDECISION: CCC",
+ "reasoning_tail": "o, CCC.\n\nTo be finer, perhaps CCC-.\n\nBut I think CCC is fine.\n\nSince Altman Z-score is negative, it's severe distress.\n\nIn practice, ratings also consider industry, but no info.\n\nBased solely on figures.\n\nAnother ratio: Debt / EBITDA, but EBITDA not given, EBIT is 1,307M, assume similar.\n\nTotal liabilities 43,578M, EBIT 1,307M, so Debt/EBIT \u2248 43,578 / 1,307 \u2248 33.33, which is extremely high. Typically, above 5-6 is risky, 33 is unsustainable.\n\nSimilarly, Net Debt / EBITDA, but net debt not known.\n\nCurrent liabilities include short-term debt.\n\nBut anyway, very high.\n\nSo, definitely speculative grade with high risk.\n\nTherefore, I think CCC rating.\n\nBut let's confirm the scale: the options include CCC+, CCC, CCC-, etc.\n\nI think CCC is appropriate.\n\nPerhaps B- or something, but Altman suggests worse.\n\nB ratings might have Z-score above 1.8 but below 2.99 grey area.\n\nHere Z is negative, so below 1.8 distress.\n\nCCC.\n\nIn the Altman Z-score, for public companies, Z < 1.8 is distress, which corresponds to ratings below B typically.\n\nSpecifically, Z-score below 0 indicates high bankruptcy risk.\n\nSo, CCC or lower.\n\nBut since EBIT positive, not C.\n\nSo, DECISION: CCC\n\nBut the task says \"finest granularity you can justify.\"\n\nWith negative retained earnings and low current ratio, perhaps CCC-.\n\nBut I think CCC is fine.\n\nCurrent ratio 0.53 is critical; many companies with such ratios are in CCC.\n\nFor example, companies near bankruptcy often have current ratios below 1.\n\nSo, I'll go with CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3508,
+ "usd": 0.007816,
+ "utc": "2026-09-06T19:16:24.567585+00:00"
+}

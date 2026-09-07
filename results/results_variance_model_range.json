@@ -1,0 +1,26 @@
+{
+ "_meta": {
+  "target": "machine letter rating (0-20 rank)",
+  "n": 4316,
+  "note": "R^2 of the elicitation-axis model under different specifications; item/issuer NOT included, so these isolate the elicitation axes (cf. Table 1 where issuer identity dominates)."
+ },
+ "main_effects_only": {
+  "in_sample_R2": 0.0827
+ },
+ "main_plus_2way": {
+  "in_sample_R2": 0.1193
+ },
+ "regularized_2way_ridge": {
+  "out_of_sample_R2": 0.1009,
+  "lambda": 19.307,
+  "out_of_sample_R2_folds": [
+   0.0124,
+   0.1473,
+   0.1032,
+   0.0582,
+   0.0757
+  ],
+  "cv": "issuer-grouped 5-fold (by item_id), pooled OOS R^2; lambda chosen to maximise grouped-OOS R^2"
+ },
+ "interpretation": "The variance the axes appear to explain rises from the main-effects model to the saturated two-way model in sample, but the issuer-out-of-sample regularized model recovers little of it, confirming the added interaction 'explanation' is largely non-generalizable aliasing. The shifting decomposition across specifications is why we do not attribute variance to individual axes and report the components descriptively only."
+}

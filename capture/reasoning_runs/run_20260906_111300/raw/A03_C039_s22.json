@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided data, the company exhibits a critically low current ratio of 0.83, indicating severe liquidity issues as current liabilities exceed current assets, which raises immediate default risks. The debt-to-equity ratio is extremely high (approximately 13.5), with total liabilities making up about 93% of total assets, reflecting unsustainable leverage and substantial solvency concerns. Although EBIT revenue margin is reasonable at approximately 19.4%, the absolute EBIT is low relative to the massive liability burden, and the negative working capital further underscores high financial vulnerability. Given these factors, alongside the Altman Z-Score calculation indicating distress, a very high-risk speculative grade is warranted.\n\nDECISION: CCC",
+ "reasoning_tail": "bable.\n\nSo I think CCC+ or CCC.\n\nBut to assign exactly.\n\nThe scale has CCC+, CCC, CCC-.\n\nWith current ratio just below 1, it might not be the lowest.\n\nBut leverage is extreme.\n\nAlso, in the Altman z-score, it was 0.06, distress.\n\nSo I think CCC or lower.\n\nPerhaps B- could be possible, but I think it's too weak.\n\nAnother point: the revenue 30,125M with assets 1,809,320M, that ratio is 1.67%, very low, which might indicate inefficiency or industry with low margins.\n\nBut for rating, the key is cash flow coverage.\n\nSince no interest expense, we have to infer from coverage.\n\nFrom the current liabilities, if they include short-term debt, it could be problematic  soon.\n\nBut I think CCC is justified.\n\nLet's check the numbers : Current liabilities 1,226,809M, Current assets 1,018,577M, so deficit over 200B, which is large relative to EBIT.\n\nThis suggests high refinancing risk.\n\nSo  I think a rating on the lower end.\n\nDECISION: CCC\n\nBut to be precise,  CCC+ is an option.\n\nI think CCC is fine.\n\nPerhaps CCC-.\n\nBut without more, CCC.\n\nIn the context, since the ratio values are given, and I need to output.\n\nFinal answer.\n\nSo reasoning summarized:\n\n- Low current ratio (0.83) indicates severe liquidity concerns.\n\n- High leverage (debt-to-equity ~13.5 and liabilities-to-assets ~93%) shows poor solvency.\n\n- Positive EBIT and retained earnings provide some buffer but are insufficient relative to obligations.\n\nTherefore, the issuer is at high risk of financial distress, warranting a CCC rating.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 259,
+ "out_tok": 5191,
+ "usd": 0.011511,
+ "utc": "2026-09-06T19:40:36.253332+00:00"
+}

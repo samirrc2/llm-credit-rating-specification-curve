@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity issues with a current ratio of 0.79, indicating potential difficulty in meeting short-term obligations, and high leverage as debt-to-equity is approximately 2.74 (total liabilities of $57,973M against shareholders' equity of $21,181M). EBIT margin is healthy at 19.1%, but the estimated interest coverage (based on implied interest costs) is below 1.0, suggesting inability to service debt from operating income, positioning it in the high-risk speculative category.\n\nDECISION: CCC",
+ "reasoning_tail": "re ratios are extreme.\n\nBB is upper speculative, but with current ratio below 1 and negative coverage, it should be lower.\n\nStandard & Poor's criteria:\n\nTypically for investment grade, current ratio above 1, debt/EBITDA below 3-4, interest coverage above 4-5.\n\nHere, clearly worse.\n\nFor speculative grade:\n\n- BB: Adequate capacity to meet financial commitments, but more vulnerable to adverse conditions.\n\n- B: More vulnerable; currently has capacity but adverse conditions could impair it.\n\n- CCC: Currently vulnerable, dependent on favorable conditions to meet commitments.\n\n- CC: Highly vulnerable; default a real possibility.\n\n- C: Imminent default.\n\nHere, with EBIT positive, it might be capable but vulnerable.\n\nBut coverage is poor.\n\nI searched online quickly in my mind: companies with similar ratios.\n\nFor instance, let's calculate a few more ratios.\n\nNet debt / EBITDA, but no net debt or EBITDA.\n\nEBIT / Interest expense missing.\n\nPerhaps use EBIT / Total liabilities: 749 / 57,973 = 0.0129 or 1.29%, low return on liabilities.\n\nOr EBIT / Assets: 749 / 79,154 ~ 0.95%, low.\n\nI think CCC is reasonable.\n\nFor granularity, perhaps CCC-, but I think CCC is fine.\n\nLooking at the scale, CCC+, CCC, CCC-.\n\nSince current assets < current liabilities, and EBIT cannot cover interest, let's say CCC.\n\nBut final answer should be one.\n\nI'll go with CCC.\n\nBut let's see retained earnings are positive, so not all losses.\n\nRevenue growth not given, but assuming stable.\n\nI think the decision is clear.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3096,
+ "usd": 0.006913,
+ "utc": "2026-09-06T19:26:27.125222+00:00"
+}

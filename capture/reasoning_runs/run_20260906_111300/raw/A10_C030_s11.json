@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits moderate profitability with a 14% operating margin and strong liquidity with a current ratio of 2.29. However, high leverage is evident from an estimated total liabilities to EBIT ratio of approximately 8.4 (using annualized EBIT) and an interest coverage ratio around 3x (inferred from operating and net income with an assumed 25% tax rate), which places it in speculative grade territory. The low gross margin of 18% suggests business risk, supporting a lower rating.\n\nDECISION: BB+",
+ "reasoning_tail": "p not given, so omit.\n\nZ-score partial: 1.2*0.1336 + 1.4*0.0238 + 3.3*0.0558 + 1.0*0.3874\n\nCalculate:\n\n1.2*0.1336 = 0.16032\n\n1.4*0.0238 = 0.03332\n\n3.3*0.0558 = 0.18414\n\n1.0*0.3874 = 0.3874\n\nSum: 0.16032 + 0.03332 = 0.19364; +0.18414 = 0.37778; +0.3874 = 0.76518\n\nWithout market cap term, Z-score is low. Full Z-score below 1.8 indicates distress, but here partial is 0.765, so if market cap term is positive, it might be okay, but not reliable.\n\nNot helpful.\n\nBack to credit rating.\n\nI think based on leverage and coverage, it should be speculative grade.\n\nWith liquidity good, perhaps BB+.\n\nBB+ is \"high yield\" with low default risk.\n\nB is more speculative.\n\nCoverage around 3x is borderline BB/B.\n\nBut let's assign.\n\nPerhaps BBB- is possible if we consider the operating margin decent.\n\nBut the liabilities/EBIT is too high.\n\nAnother point: shareholders' equity is 18,899M, but total liabilities 27,401M, so net worth is positive, but leveraged.\n\nI think I should go with BB+.\n\nBut let's see the decision format.\n\nReason briefly.\n\nSo, reasoning: The company shows moderate profitability with 14% operating margin but high leverage as evidenced by total liabilities to EBIT ratio around 8.4 and interest coverage estimated at 3x, indicating speculative grade credit quality. Good liquidity with current ratio of 2.29 provides some support.\n\nTherefore, assign BB+.\n\nBB+ is one step below BBB-, which is investment grade.\n\nYes.\n\nPerhaps BBB- if optimistic, but I think BB+ is better.\n\nFinal decision.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 4806,
+ "usd": 0.010669,
+ "utc": "2026-09-06T18:59:01.866970+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Current ratio below 1, high debt/equity (2.87), low EBIT margin (3.75%) indicate high default risk.\"}",
+ "reasoning_tail": "But not yet near default.\n\nC: near default.\n\nI think CCC is appropriate.\n\nRationale: \"Poor liquidity, high leverage, low profitability imply high default risk.\"\n\nWithin 25 words.\n\nConfidence: I'll say 4, because the ratios are clear, but without interest expense, there's some uncertainty.\n\nAltman Z-score gives strong signal.\n\nFinal answer.\n\nSo, decision: CCC\n\nConfidence: 4\n\nRationale: \"Current ratio below 1, high debt/equity, low EBIT margin indicate distress.\"\n\nWord count: 9 words.\n\nGood.\n\nBut is CCC the exact label?\n\nLabels: CCC+, CCC, CCC-, etc.\n\nI think CCC is fine, or CCC-.\n\nBut Z-score is 0.88, which is very low, so perhaps CCC-.\n\nBut let's not split hairs.\n\nIn the scale, CCC is one option.\n\nPerhaps BBB-, but that seems too high.\n\nNo, with current ratio below 1, it can't be investment grade.\n\nInvestment grade starts from BBB-, but here indicators are worse.\n\nFor example, typical investment grade companies have current ratio above 1.2 or so, debt/equity reasonable.\n\nHere debt/equity 2.87, which is high.\n\nEBIT margin low.\n\nSo speculative grade.\n\nBB might be for better situations.\n\nBB: less vulnerable in the near term but faces major ongoing uncertainties.\n\nB: more vulnerable to adverse business conditions.\n\nCCC: currently vulnerable.\n\nI think B or CCC.\n\nWith negative working capital, CCC.\n\nI think CCC is reasonable.\n\nDecision: CCC\n\nConfidence: 4\n\nRationale: \"High leverage, low liquidity, and thin margins suggest vulnerability to default.\"\n\n20 words.\n\nNow for JSON format.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3372,
+ "usd": 0.007528,
+ "utc": "2026-09-06T20:02:27.130441+00:00"
+}

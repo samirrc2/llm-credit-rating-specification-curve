@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Severe liquidity shortfall (current ratio 0.35) and excessive leverage (debt/equity ~8.1) indicate high default risk.\"}",
+ "reasoning_tail": "2139 + 0.07422 = -0.13968\n\n-0.13968 + 0.0676 = -0.07208\n\nSo Z-score \u2248 -0.072, which is negative.\n\nAltman Z-score below 1.8 indicates distress, below 1.2 high risk of bankruptcy.\n\nHere it's negative, so very high risk.\n\nTherefore, consistent with low credit rating.\n\nIn such cases, ratings are CCC or lower.\n\nSince Z-score is negative, perhaps CCC- or CC.\n\nBut Z-score is not directly used by rating agencies, but it supports low rating.\n\nGiven that, I think CCC is appropriate.\n\nNow for the specific grade, I'll choose CCC.\n\nConfidence: 3, since I don't have all details, but based on ratios.\n\nRationale: Severe liquidity crisis with current ratio 0.35 and high leverage.\n\nWithin 25 words.\n\nFinal answer in JSON.\n\nSo, decision: CCC\n\nConfidence: 3\n\nRationale: \"Severe liquidity shortfall and high leverage indicate substantial default risk.\"\n\nThat's 8 words.\n\nOr: \"Very low current ratio and high debt to equity suggest imminent financial distress.\"\n\nBut \"imminent\" might be strong; \"substantial risk\" is better.\n\nUse \"vulnerable to default\" as per rating definitions.\n\nRationale: \"Extremely weak liquidity and excessive leverage point to CCC rating.\"\n\n20 words? \"Extremely weak\" - 2, \"liquidity\" -1, \"and\" -1, \"excessive leverage\" -2, \"point to\" -2, \"CCC rating\" -2, total 10.\n\nFine.\n\nNow, confidence: I'll say 3, medium confidence.\n\nSince ratios are clear, but no industry context, so not high confidence.\n\nGeneral knowledge predating, so assume standard interpretation.\n\nI think CCC is the choice.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3979,
+ "usd": 0.008857,
+ "utc": "2026-09-06T19:07:53.558597+00:00"
+}

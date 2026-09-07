@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Low current ratio (0.53), high leverage (debt-to-equity ~3.4), negative retained earnings indicate severe financial distress.\"}",
+ "reasoning_tail": "\n\nHere, with current vulnerability due to liquidity, I think CCC is appropriate.\n\nBut EBIT is good, so maybe not the lowest.\n\nCCC+ or CCC.\n\nThe scale has CCC+, CCC, CCC-.\n\nPerhaps CCC.\n\nRationale in few words.\n\nFinal decision.\n\nI think B- or CCC+.\n\nLet's see the numbers again.\n\nPerhaps interest coverage can be estimated.\n\nSuppose total debt is, say, 80% of total liabilities, so 34,862M.\n\nInterest at 5% = 1,743M.\n\nEBIT 1,307M, so coverage 1,307/1,743 \u2248 0.75 <1, so insufficient.\n\nIf debt is lower, say 30,000M, interest 1,500M at 5%, coverage 0.87<1.\n\nStill less than 1.\n\nIf EBIT covers interest, but here it seems not.\n\nWith negative retained earnings, net income likely negative.\n\nSo, I think CCC range.\n\nI'll go with CCC.\n\nConfidence: 3 out of 5, since not all data is there.\n\nRationale: Poor liquidity, high leverage, negative retained earnings.\n\nUnder 25 words.\n\nResponse format: JSON with decision, confidence, rationale.\n\nDecision: CCC\n\nConfidence: 3\n\nRationale: \"Low current ratio, high debt, negative retained earnings indicate high default risk.\"\n\nThat's 10 words.\n\nNow, for confidence, 1-5, 5 being highest. I'm somewhat confident but not fully due to limited data.\n\nPerhaps I can use the EBIT margin as a positive, but overall, it's weak.\n\nAnother thing: revenue is 3,198M, which might be small for a company with 58B assets, but not sure scale.\n\nI think CCC is reasonable.\n\nThe rating scale has CC and C, but those are for imminent default, which might not be the case here.\n\nSo CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 4377,
+ "usd": 0.009725,
+ "utc": "2026-09-06T19:17:55.554276+00:00"
+}

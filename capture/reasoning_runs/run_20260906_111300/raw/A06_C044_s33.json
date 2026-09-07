@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress with negative shareholders' equity (-1,920M) and a critically low current ratio (0.27), indicating high solvency and liquidity risks that overshadow strong operating margins. Despite positive net income, the substantial negative retained earnings (-20,476M) and liabilities exceeding assets heighten default vulnerability, placing the rating in the CCC range. Given the acute liquidity crisis and dependence on favorable conditions, CCC- is the most justified granular rating.\n\nDECISION: CCC-",
+ "reasoning_tail": "s, financial, and economic conditions to meet financial commitments\" with a higher vulnerability.\n\nCC is \"highly vulnerable, very speculative bonds\" often with default expected.\n\nSince net income is positive, default might not be immediate, so CCC- might be appropriate.\n\nCCC is the middle.\n\nI think CCC- is fine.\n\nBut let's see if there's a better fit.\n\nThe retained earnings are very negative, which adds to the distress.\n\nBut for rating, liquidity is key for short-term.\n\nI think CCC- is justified.\n\nPerhaps CCC, but I'll go with CCC-.\n\nAnother factor: total assets 31,391M, total liabilities 33,311M, so net assets negative, but current ratio is the acute issue.\n\nIn credit rating models, a low current ratio is a strong predictor of default.\n\nFor example, Altman Z-score uses working capital to total assets, but I don't have all data.\n\nRoughly, with negative equity and low liquidity, Z-score would be low.\n\nI think CCC range.\n\nFinal decision: CCC-\n\nBut let's confirm the answer format.\n\nI need to reason briefly in 1-3 sentences.\n\nThen output DECISION: <label>\n\nReason: The issuer has negative shareholders' equity and a critically low current ratio of 0.27, indicating severe solvency and liquidity risks, despite positive operating income. This high vulnerability suggests a CCC- rating.\n\nYes.\n\nPerhaps CC, but I think CCC- is better because of the profitability.\n\nCC is for very high risk, like imminent default.\n\nHere, with positive net income, they might avoid default for now.\n\nSo CCC-.\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 252,
+ "out_tok": 2580,
+ "usd": 0.005789,
+ "utc": "2026-09-06T20:04:48.849617+00:00"
+}

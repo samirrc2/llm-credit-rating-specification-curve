@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Current ratio <1, extreme leverage (D/E ~14.5), negative retained earnings indicate high default risk.\"}",
+ "reasoning_tail": "C, CCC-, CC, C\n\nSo positions:\n\n1. AAA\n\n2. AA+\n\n3. AA\n\n4. AA-\n\n5. A+\n\n6. A\n\n7. A-\n\n8. BBB+\n\n9. BBB\n\n10. BBB-\n\n11. BB+\n\n12. BB\n\n13. BB-\n\n14. B+\n\n15. B\n\n16. B-\n\n17. CCC+\n\n18. CCC\n\n19. CCC-\n\n20. CC\n\n21. C\n\nB- is 16, CCC+ is 17, CCC is 18, CCC- 19, CC 20, C 21.\n\nFor this company, I think CCC or CCC-.\n\nGiven low current ratio and negative interest coverage.\n\nEven EBIT to liabilities low.\n\nRevenue to liabilities low.\n\nNow, retained earnings negative, which for Altman is bad.\n\nI think CCC is appropriate.\n\nSome might say CCC-.\n\nBut let's not be too harsh; still generating EBIT.\n\nRevenue 2,738M to cover, say, interest.\n\nBut without interest, assume default risk.\n\nPerhaps BBB and below are various grades of junk.\n\nI recall that ratings below B are for high risk.\n\nCCC for vulnerable.\n\nI think CCC.\n\nIn JSON: {\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Low liquidity, high leverage, negative retained earnings imply default vulnerability.\"}\n\nWord count: 10 words.\n\n<=25 is fine.\n\nConfidence 4: fairly confident, but based on limited data.\n\nPerhaps I can support CCC-.\n\nReason: current ratio extremely low 0.63, meaning cannot pay current debts without selling assets or refinancing, and with high debt, refinancing might be hard.\n\nIn practice, ratings agencies consider qualitative factors, but I have only numbers.\n\nStick with figures.\n\nSimilarly, EBIT 1,161M could cover some, but likely insufficient.\n\nAnother ratio: times interest earned, missing.\n\nI think CCC is fine.\n\nFinal decision: CCC\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 255,
+ "out_tok": 4078,
+ "usd": 0.009071,
+ "utc": "2026-09-06T19:37:37.510649+00:00"
+}

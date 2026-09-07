@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"High leverage (debt ratio 65%), low EBIT/Assets (1.41%), weak liquidity (current ratio 1.18).\"}",
+ "reasoning_tail": "ity 14,298M vs liabilities 26,603M, so net worth positive.\n\nBut for credit, debt holders care about repayment.\n\nI think rating should be low.\n\nPerhaps BB-.\n\nBut Altman Z-score suggests distress.\n\nAnother point: revenue 2,444M, which is not small, but relative to assets, small.\n\nI think I'll go with CCC+.\n\nBut let's see if I can be more specific.\n\nPerhaps calculate the interest coverage roughly.\n\nSuppose that interest expense can be estimated from the debt.\n\nAssume that current liabilities include some debt, long-term liabilities include debt.\n\nBut no breakdown.\n\nSuppose that 50% of liabilities are interest-bearing, so debt 13,301.5M, interest at 5% = 665.075M, EBIT 577M, coverage 0.87x <1.\n\nIf 40% debt, 10,641.2M, interest 532.06M, coverage 1.08x.\n\nStill poor.\n\nIf 30% debt, 7,980.9M, interest 399.045M, coverage 1.44x.\n\nBetter but still low.\n\nTypically, for BBB, coverage above 3x or so.\n\nHere even in best case, it's low.\n\nWith leverage high, rating low.\n\nI think CCC is reasonable.\n\nFor confidence, I'll say 3 or 4.\n\nRationale: \"High leverage, low EBIT coverage, weak liquidity.\"\n\nNow for the exact rating.\n\nLet's say CCC+.\n\nCCC+ is one above CCC.\n\nSince not default, CCC+.\n\nOr CCC.\n\nI think CCC+.\n\nBut in the scale, CCC+ is below B-, above CCC.\n\nB- is above CCC+.\n\nOrder: B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo CCC+ is better than CCC.\n\nWith positive EBIT, CCC+.\n\nEBIT 577M, which is not zero.\n\nBut coverage poor.\n\nI think CCC+.\n\nPerhaps B-.\n\nBut I think CCC+ is fine.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4948,
+ "usd": 0.010974,
+ "utc": "2026-09-06T18:40:02.019726+00:00"
+}

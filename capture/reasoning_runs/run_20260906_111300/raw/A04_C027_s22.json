@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 2, \"rationale\": \"Low current ratio (1.18), high leverage (debt/equity 1.86), and low EBIT relative to assets (ROA 1.41%) indicate severe financial stress and high default risk.\"}",
+ "reasoning_tail": " data, so I can't.\n\nI think I should go with CCC+.\n\nRationale: Weak liquidity, high leverage, low EBIT relative to liabilities imply high default risk.\n\nIn 25 words.\n\n\"Low current ratio, high leverage, and insufficient EBIT to cover interest suggest high credit risk.\"\n\nBut I don't know about interest.\n\n\"Poor liquidity and solvency metrics indicate distress, likely interest coverage below 1.\"\n\nBut \"likely\" is assumption.\n\nUse the given data only.\n\n\"Current ratio 1.18, debt/equity 1.86, low ROA 1.41%, imply speculative grade with high risk.\"\n\nThen for rating, BB is speculative, but with low ROA and high leverage, lower.\n\nBB range is for less risk.\n\nI think CCC+ is appropriate.\n\nLet's see the retained earnings: 6,514M, which could be used to absorb losses, but it's not cash.\n\nCurrent assets include cash, but not specified.\n\nI think I'm overcomplicating.\n\nFinal decision: Assign CCC+.\n\nConfidence: 2, because key metric missing.\n\nRationale: \"Weak liquidity, high leverage, low profitability suggest imminent default risk.\"\n\n25 words: \"Low current ratio, high debt, and minimal EBIT relative to size indicate severe financial stress, high default probability.\"\n\nSo rating CCC+.\n\nBut let's confirm the scale: CCC+ is above CCC, so less severe.\n\nCCC: \"Currently vulnerable and dependent on favorable conditions\"\n\nCCC+: still vulnerable.\n\nB-: \"More vulnerable to adverse business conditions\"\n\nBut with interest coverage below 1, CCC is better.\n\nI think CCC+.\n\nPerhaps B-.\n\nBut I'll go with CCC+.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 258,
+ "out_tok": 5340,
+ "usd": 0.011836,
+ "utc": "2026-09-06T18:38:53.891837+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Poor liquidity (current ratio 0.63), extreme leverage (debt/equity ~14.5), negative retained earnings.\"}",
+ "reasoning_tail": " CCC+ or CCC.\n\nI think CCC is fine.\n\nConfidence: Since I have limited data, confidence might be low, say 2 or 3.\n\nBut I need to assign.\n\nRationale should be short.\n\nFinal decision.\n\nPerhaps BB- or B+, but I think lower.\n\nAnother ratio: Quick ratio, but no inventory data, so can't calculate.\n\nCurrent ratio includes inventory, but 0.63 is low even with inventory.\n\nI think B or CCC.\n\nLet me see if EBIT can cover interest.\n\nAssume that interest-bearing debt is long-term liabilities, say 48,862M.\n\nIf interest rate 5%, interest expense 2,443M, EBIT 1,161M < 2,443, so cannot cover.\n\nEven at 3%, 1,466M, still EBIT 1,161 < 1,466.\n\nAt 2.5%, interest 1,221M, still EBIT 1,161 < 1,221.\n\nOnly if interest rate very low, say 2%, interest 977M, then EBIT 1,161 > 977, coverage about 1.19, which is poor but possible.\n\nBut 2% might be low for a risky company; likely higher.\n\nMoreover, retained earnings negative, so past issues.\n\nSo interest coverage likely less than 1 or barely above.\n\nThus, high default risk.\n\nRating around CCC.\n\nSpecifically, CCC+ might be for slightly better, but here it's bad.\n\nCCC is fine.\n\nOr CCC-.\n\nBut I think CCC.\n\nNow, confidence: I'll say 3, medium, since I have key ratios but not all details.\n\nRationale: \"Poor liquidity, high leverage, negative retained earnings.\"\n\nWithin 25 words.\n\nDecision: CCC\n\nBut the scale has CCC+, CCC, CCC-, so I need to choose one.\n\nPerhaps CCC- for worse.\n\nBut EBIT positive, so not the worst.\n\nCCC.\n\nI think CCC is appropriate.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 3782,
+ "usd": 0.008427,
+ "utc": "2026-09-06T19:39:01.306315+00:00"
+}

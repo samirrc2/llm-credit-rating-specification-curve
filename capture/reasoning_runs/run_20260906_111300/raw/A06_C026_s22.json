@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability with a 30% operating margin and high gross margin of 72%, indicating low business risk. However, high leverage is evident from a debt-to-equity ratio of 4.22 and a weak current ratio of 1.27, pointing to elevated financial risk. These factors justify a speculative grade rating, with BB+ being the finest granularity due to the strong operating performance partially offsetting the high leverage and liquidity concerns.\n\nDECISION: BB+",
+ "reasoning_tail": " is medium investment grade.\n\nWith D/E 4.22, it's more like BB.\n\nLet's look for a standard.\n\nI recall that for S&P, a debt-to-EBITDA above 5 is often speculative grade.\n\nHere, if EBITDA is similar to EBIT, 14,556M annual, liabilities 78,289M, if all debt, ratio 5.38, above 5, so speculative.\n\nIf only long-term liabilities are debt, 50,153M, debt/EBITDA 3.44, investment grade.\n\nBut current liabilities may include debt.\n\nIt's ambiguous.\n\nBut in the absence of debt breakdown, I should use total liabilities as a proxy.\n\nSo debt/EBITDA ~5.38, which is high for investment grade.\n\nTypically, above 4-5 is speculative.\n\nWith strong margins, it might be BB+.\n\nAlso, current ratio 1.27 is weak.\n\nSo I think BB+ is appropriate.\n\nBB+ is \"speculative with low risk\" or something.\n\nThen BB is \"less vulnerable\", B is \"more vulnerable\".\n\nWith high profitability, BB+.\n\nPerhaps BBB- is the lowest investment grade.\n\nBut I think with ratios, it's speculative.\n\nAnother thing: the filed date is 2025-10-30, so for 2025 Q3, and knowledge up to that point.\n\nBut I think for the rating, I'll go with BB+.\n\nSo decision: BB+\n\nBut let's confirm the scale: BB+, BB, BB-, etc.\n\nYes.\n\nReason briefly.\n\nReason: High leverage with debt-to-equity ratio of 4.22 and current ratio of 1.27 indicate elevated financial risk, offset by strong profitability with operating margin of 30%. Overall, this suggests a speculative grade rating.\n\nFinest granularity: BB+ as it has low business risk but high financial risk.\n\nSo output.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 256,
+ "out_tok": 5476,
+ "usd": 0.012133,
+ "utc": "2026-09-06T18:32:15.325104+00:00"
+}

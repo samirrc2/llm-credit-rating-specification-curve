@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong profitability with a 14% operating margin and a net margin of approximately 10.3%, supported by a robust retained earnings balance of $22,804 million, indicating consistent historical performance. However, with a moderate debt-to-equity ratio of approximately 1.10 and a current ratio of 1.34 reflecting adequate but not strong liquidity, the financial profile aligns with the 'A' category on the credit rating scale, signifying a strong capacity to meet obligations but with some susceptibility to economic conditions. \n\nDECISION: A",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 258,
+ "out_tok": 4621,
+ "usd": 0.010262,
+ "utc": "2026-09-06T15:20:37.775503+00:00"
+}

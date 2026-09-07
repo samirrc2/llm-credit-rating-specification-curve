@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Strong profitability offset by weak liquidity (current ratio 1.18) and moderate leverage (debt-to-equity 1.86).\"}",
+ "reasoning_tail": "\n\nBut earlier debt-to-EBITDA calculation worried me.\n\nIf I assume EBITDA \u2248 operating income = 577M Q1, annual 2,308M.\n\nNow, if total debt is, say, 20,000M (guessing), then debt-to-EBITDA = 20,000 / 2,308 \u2248 8.66, which is high.\n\nIf debt is lower, say 15,000M, then 6.5, still high.\n\nBut I don't know debt.\n\nTotal liabilities 26,603M, if half is debt, 13,301M, debt-to-EBITDA 13,301/2,308 \u2248 5.76, which is borderline for investment grade.\n\n5-6 might be BBB- or BB+.\n\nWith interest coverage, if interest expense is, say, 5% of debt, 13,301*0.05 = 665M annual interest, operating income 2,308M, so coverage 2,308/665 \u2248 3.47, which is above 3, so acceptable for BBB.\n\nBut this is all assumption.\n\nWith current ratio 1.18, it might be lower.\n\nI think BBB- is safer.\n\nLet's go with BBB-.\n\nDecision: BBB-\n\nConfidence: 3\n\nRationale: \"Low current ratio and high leverage despite strong margins.\"\n\n20 words.\n\nOr \"Tight liquidity and moderate debt with good profitability warrant lower investment grade.\"\n\nBut need to be concise.\n\n\"Profitability strong but liquidity weak and leverage elevated, suggesting BBB-.\"\n\n18 words.\n\nNow for confidence, 3.\n\nSince no debt details, confidence not high.\n\nBut I have to choose.\n\nPerhaps the rating is BBB.\n\nI recall that for many companies, current ratio below 1.2 might be BB, but with high profit, it could be investment grade.\n\nFor example, tech companies might have lower current ratios but high margins.\n\nBut not specified.\n\nI think BBB- is appropriate.\n\nFinal answer.\n",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 272,
+ "out_tok": 3996,
+ "usd": 0.008901,
+ "utc": "2026-09-06T18:40:08.883378+00:00"
+}

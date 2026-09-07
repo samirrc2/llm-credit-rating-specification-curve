@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity and current ratio below 1 indicate high distress; positive EBIT provides limited mitigation.\"}",
+ "reasoning_tail": "al credit risk; vulnerable and dependent on favorable conditions.\"\n\nNegative equity makes it vulnerable, so CCC+ might be better.\n\nStandard & Poor's definitions:\n\nCCC: \"Currently vulnerable to nonpayment, and dependent upon favorable business, financial, and economic conditions to meet its financial commitments.\"\n\nCC: \"Currently highly vulnerable to nonpayment.\"\n\nC: \"Currently highly vulnerable to nonpayment, and the obligation is expected to recover little or no principal and interest.\"\n\nGiven that, with positive EBIT, it's not CC or C, so CCC.\n\nCurrent ratio below 1 suggests vulnerability to nonpayment of current liabilities.\n\nSo CCC seems appropriate.\n\nI'll go with CCC.\n\nConfidence: 3\n\nRationale: \"Negative equity and sub-1 current ratio show distress; positive EBIT mitigates slightly.\"\n\n20 words.\n\nNow for JSON: {\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity and sub-1 current ratio show distress; positive EBIT mitigates slightly.\"}\n\nBut the decision should be one label, like \"CCC\".\n\nIn the scale, it's CCC, not specified with plus or minus.\n\nThe options include CCC+, CCC, CCC-, so I need to choose.\n\nPerhaps I should specify.\n\nWith EBIT positive, maybe CCC+.\n\nBut retained earnings large negative, equity negative.\n\nAnother metric: EBIT to interest coverage, but no interest.\n\nI think CCC is fine.\n\nTo be precise, let's see if there's a ratio.\n\nDebt to equity is infinite or negative, not meaningful.\n\nLiabilities to EBIT is high.\n\nI think CCC.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3213,
+ "usd": 0.007179,
+ "utc": "2026-09-06T19:57:53.579481+00:00"
+}

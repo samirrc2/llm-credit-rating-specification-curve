@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"AA-\", \"confidence\": 4, \"rationale\": \"High profitability (44% operating margin) and exceptional liquidity (current ratio 12.41) offset high leverage, with inferred low debt from minimal interest burden.\"}",
+ "reasoning_tail": " expense around 50M quarterly.\n\nAt 4% annual rate, quarterly 1%, so debt = interest expense / 0.01 = 50 / 0.01 = 5,000M.\n\nSo debt is only about 5,000M, while liabilities are 444,085M, so most liabilities are non-debt, like deferred revenue, accounts payable, etc.\n\nThat makes sense for a tech company.\n\nFor example, Apple has large deferred liabilities.\n\nSo credit risk is low.\n\nTherefore, the company should have a high credit rating.\n\nLikely AA or A.\n\nWith strong margins and liquidity, perhaps AA.\n\nBut let's see the rating scale.\n\nAAA is rare, for governments or top corps.\n\nAA is high quality.\n\nA is upper medium grade.\n\nFor example, Microsoft is AAA, Apple is AA+.\n\nBut with the given data, since I inferred low debt, rating should be high.\n\nSo I'll go with AA or something.\n\nBut to be conservative, since leverage ratio is high on paper, but adjusted low.\n\nThe current ratio is 12.41, which is a strong positive.\n\nProfitability high.\n\nSo I think AAA is possible, but let's see.\n\nRevenue 7,300M quarterly, annual about 29,200M, which is substantial but not huge.\n\nAssets large, but with high cash.\n\nI think AA is reasonable.\n\nBut confidence level.\n\nRationale in 25 words.\n\nFinal decision.\n\nPerhaps A+ or AA-.\n\nLet's choose.\n\nI think the rating should be AA- or A+.\n\nBut with high confidence in low debt due to low interest.\n\nSo I'll say AA-.\n\nConfidence: 4, since I have to infer.\n\nRationale: Strong profitability and liquidity with low inferred debt support high rating.\n\nBut let's formalize.\n",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 5356,
+ "usd": 0.01188,
+ "utc": "2026-09-06T15:44:21.250935+00:00"
+}

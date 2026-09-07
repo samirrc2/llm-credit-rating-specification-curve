@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial weaknesses: a current ratio of 0.62 indicates critical liquidity issues, as current assets are insufficient to cover current liabilities. Additionally, negative shareholders' equity (-2,646M) and total liabilities exceeding total assets (37,604M vs. 35,008M) signal balance sheet insolvency and high leverage. Although EBIT is strong at 3,230M with a high operating margin (61.5%), this does not offset the fundamental risks from poor liquidity and negative net worth, placing the issuer in substantial default risk territory.\n\nDECISION: CCC",
+ "reasoning_tail": "equity is not meaningful.\n\nI think CCC is appropriate.\n\nPerhaps B, but CCC is for substantial risk.\n\nLet's look at the ratio values.\n\nI found online or recall that for S&P ratings, a current ratio below 1.0 is common for CCC rated companies, and negative equity is a red flag.\n\nEBIT coverage, if available, but not.\n\nSo, I'll go with CCC.\n\nBut which subcategory? CCC+, CCC, or CCC-?\n\nThe scale has CCC+, CCC, CCC-.\n\nSince current ratio is 0.62, very low, and negative equity, perhaps CCC or CCC-.\n\nEBIT is strong, so maybe not the lowest.\n\nBut let's see the decision.\n\nPerhaps I should output CCC.\n\nAnother thought: total liabilities 37,604M, EBIT 3,230M, so EBIT / total liabilities \u2248 3,230 / 37,604 \u2248 0.0859 or 8.59%, which is low, meaning it would take many years to pay off liabilities from EBIT, but that's not directly a coverage ratio.\n\nInterest coverage is key, but not available.\n\nI think I have to make a judgment.\n\nPerhaps the issuer is in a situation like a leveraged buyout or something, but not specified.\n\nBased solely on figures, I think CCC is reasonable.\n\nSo, I'll go with CCC.\n\nBut let's confirm the rating scale: AAA to C, with + and - for some.\n\nCCC is one of the options.\n\nPerhaps I can say CCC- because of the liquidity crunch.\n\nCurrent ratio 0.62 means for every dollar of liability, only 62 cents in assets, so it can't cover, likely needs restructuring or default.\n\nSo, CCC- might be too low, but CCC is for vulnerable to non-payment.\n\nI think CCC is fine.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3805,
+ "usd": 0.008466,
+ "utc": "2026-09-06T16:50:14.851538+00:00"
+}

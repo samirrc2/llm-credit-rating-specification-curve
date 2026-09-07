@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Severe liquidity with current ratio below 1, high leverage (debt-to-equity ~2.7), and weak asset efficiency indicate vulnerability.\"}",
+ "reasoning_tail": "500 \u2248 48.1, which is extraordinarily high. Generally, net debt/EBITDA above 5 or 6 is risky, 48 is disastrous.\n\nTherefore, this must indicate a very poor credit situation.\n\nThus, the rating should be low speculative or vulnerable.\n\nSo, probably CCC or B-.\n\nFor confidence, I need to choose a specific grade.\n\nPerhaps B- or CCC+.\n\nGiven the data, I think CCC+ or CCC.\n\nNow, the confidence: 1-5, 5 being highest.\n\nI have most inputs, but missing interest expense clearly, so some uncertainty. Confidence might be medium.\n\nRationale should be <=25 words.\n\nFirst, assign the rating.\n\nI think based on all, the rating should be CCC+ or similar.\n\nLet's see the options: B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nI think B- might be too high; B- is still at face, able to meet obligations, but here with current ratio <1, it might not.\n\nCCC+ is \"vulnerable and dependent upon favorable business, financial, and economic conditions to meet financial commitments.\"\n\nThat seems fitting.\n\nCCC is \"currently vulnerable and upon default if conditions worsen.\"\n\nSince there is positive EBIT, CCC+ might be appropriate.\n\nSome might say B-, but I think CCC is closer.\n\nUse the liquidity metric.\n\nIn many cases, current ratio below 0.8 or so is associated with CCC ratings.\n\nFor example, in financial studies, but from memory.\n\nI think CCC+ is reasonable.\n\nNow confidence: 3 or 4?\n\nUncertain about interest, so 3.\n\nRationale: \"Severe liquidity crisis, high leverage, low profitability.\"\n\n<=25 words.\n\nYes.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 4575,
+ "usd": 0.010163,
+ "utc": "2026-09-06T19:46:01.996398+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial weakness, primarily due to negative shareholders' equity (-9,270M) and negative retained earnings (-9,884M), indicating insolvency on a balance sheet basis and accumulated losses. While quarterly operating income (2,554M) and net income (1,628M) show profitability, the high leverage (total liabilities exceed assets) and tight liquidity (current ratio of 1.09) heighten vulnerability to adverse conditions. These factors align with a highly speculative credit profile, warranting a rating in the 'B' category, specifically B- due to the ongoing but fragile capacity to meet commitments.\n\nDECISION: B-",
+ "reasoning_tail": "gative equity in the past but improved.\n\nBut for rating, at that time, it was speculative grade.\n\nIn 2019, Tesla's rating was B- or something.\n\nSimilarly, here.\n\nWith current ratio 1.09, it's tight.\n\nSo, I think B- is reasonable.\n\nB is \"more vulnerable than B+\", etc.\n\nLet's list the ratings around there:\n\nBB+ : non-investment grade, speculative, low risk\n\nBB : less vulnerable\n\nBB- : more vulnerable than BB\n\nB+ : vulnerable but capacity\n\nB : more vulnerable\n\nB- : highly vulnerable\n\nCCC+ : currently vulnerable\n\nBased on that, with negative equity and low current ratio, but good profitability, B or B-.\n\nI think B- is fine.\n\nBut let's see if CCC+ is possible.\n\nIf I emphasize the negative equity and low current ratio, CCC+.\n\nBut the positive income suggests they can operate.\n\nIn the decision, I need to choose one.\n\nPerhaps BB- is too high because negative equity is a big issue.\n\nBB- is still speculative but higher.\n\nI think negative equity warrants B or lower.\n\nLet me calculate quick ratio or something, but no inventory data.\n\nCurrent assets include inventory, etc., but not given.\n\nWith current ratio 1.09, quick ratio might be lower if inventory is high, but unknown.\n\nSo, I'll go with B-.\n\nFinal decision.\n\nReason briefly: Negative shareholders' equity and retained earnings indicate poor solvency and accumulated losses, despite positive quarterly earnings. The low current ratio suggests liquidity risk, though operating income provides some coverage capacity.\n\nTherefore, B- rating.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 3281,
+ "usd": 0.007331,
+ "utc": "2026-09-06T19:13:26.674403+00:00"
+}

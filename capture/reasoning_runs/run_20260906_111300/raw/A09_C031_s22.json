@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Severe liquidity risk with current ratio 0.34 and extreme leverage, partially offset by strong profitability.\"}}",
+ "reasoning_tail": "ale: \"Excellent profitability countered by extreme leverage and critical liquidity shortfall, current ratio 0.34.\"\n\n20 words.\n\nOr \"High margins but unsustainable liquidity position with current ratio 0.34 and high debt-to-equity.\"\n\nBut need to choose label.\n\nPerhaps lower.\n\nAnother rating: BB- for high risk but still solvent.\n\nI think B+ is appropriate.\n\nLet's   think about the equity: shareholders' equity 178,396M, total assets 2,205,752M, so if leveraged buyout or something.\n\nBut with retained earnings 232,459M, it has accumulated earnings.\n\nI think I'm overcomplicating.\n\nFor the purpose of this, I'll go with BBB- but that seems too high given liquidity.\n\nNo, with current ratio 0.34, not investment grade.\n\nSo BB+ is highest speculative, might be too high.\n\nBB+ for  a company with moderate risk but here risk is high.\n\nLet's see the ratings.\n\nAAA: highest quality\n\nAA: high quality\n\nA: strong payment capacity\n\nBBB: adequate payment capacity\n\nBB: less vulnerable in the near term but faces major ongoing uncertainties\n\nB: more vulnerable to adverse business conditions\n\nCCC: currently vulnerable\n\nCC: highly vulnerable\n\nC: near default\n\nGiven that, with critical liquidity, it should be CCC or B.\n\nBut net income positive, so not currently vulnerable.\n\nB: more vulnerable to adverse business conditions.\n\nSo B might work.\n\nThen B+ or B.\n\nI think B+.\n\nConfidence 3.\n\nRationale: \"Severe liquidity risk with current ratio 0.34 and high leverage outweighing strong profitability.\"\n\n19 words.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 284,
+ "out_tok": 6507,
+ "usd": 0.014407,
+ "utc": "2026-09-06T19:06:28.627325+00:00"
+}

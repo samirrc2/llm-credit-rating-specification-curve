@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Severe liquidity crunch (current ratio 0.53) and high leverage (debt/equity 2.67) indicate high default risk, supported by low Altman Z-score.\"}",
+ "reasoning_tail": "nefficient.\n\nTotal assets 117,776M, revenue 6,020M, so it's a capital-intensive business with low turnover.\n\nBut EBIT margin is good, so profitability is ok, but leverage kills it.\n\nI think the issuer is in distress.\n\nFinal decision: I'll go with CCC or B-.\n\nBut let's see the confidence.\n\nI need to output JSON with decision, confidence 1-5, and rationale <=25 words.\n\nRationale should be concise.\n\nBased on severe liquidity crunch (current ratio 0.53) and high leverage (debt/equity 2.67), indicating high default risk.\n\nEBIT positive but insufficient to cover debt burden.\n\nSo, rating: CCC+\n\nCCC+ is one of the options.\n\nOr B-, but CCC+ might be more accurate for vulnerable.\n\nSince Z-score is very low, distress.\n\nIn Altman, Z<1.81 is distress, and below 1.0 is high risk.\n\n0.44 is very low.\n\nSo, CCC or lower.\n\nBut CC and C are for very high risk or default imminent.\n\nHere, EBIT positive, so not default yet.\n\nPerhaps CCC.\n\nCCC+ is slightly better.\n\nBut I think CCC is fine.\n\nLet's list the options: CCC+, CCC, CCC-, CC, C.\n\nI think CCC is appropriate.\n\nConfidence: I'd say 4, since the ratios are clear.\n\nRationale: \"Low liquidity, high leverage, distress risk per Altman Z-score.\"\n\nBut rationale must be <=25 words.\n\n\"Severe liquidity issues and excessive leverage indicate high default probability.\"\n\nThat's 7 words.\n\nNow for confidence, 1-5, 5 is highest confidence.\n\nI think I'm fairly confident based on the ratios.\n\nBut I don't have all data, like interest, so maybe 4.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 3601,
+ "usd": 0.008025,
+ "utc": "2026-09-06T20:10:49.578215+00:00"
+}

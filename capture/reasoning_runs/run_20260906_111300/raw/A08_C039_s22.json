@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extremely high leverage (debt/equity ~13.5), low liquidity (current ratio 0.83), implied interest coverage <<1 indicate severe default vulnerability.\"}",
+ "reasoning_tail": "ave all data, like interest expense.\n\nStill, with the given, it's clear.\n\nAnother thing: the company might be large, like Apple or something, but Apple has high revenue; here revenue is small.\n\nFor example, Apple in 2023 had revenue around $380B, assets $350B, so different.\n\nHere revenue 30B, assets 1809B, so not matching.\n\nPerhaps it's a different company.\n\nBut I have to use figures.\n\nPerhaps the units are wrong, but I must use as given.\n\nSo, based on analysis, rating should be low.\n\nFinal decision: CCC\n\nBut which one? CCC+, CCC, or CCC-?\n\nSince EBIT is positive and retained earnings high, perhaps CCC+ or CCC.\n\nBut liquidity is poor.\n\nI think CCC is fine.\n\nPerhaps B-.\n\nLet's see the current ratio 0.83, which is bad but not zero.\n\nEBIT margin decent.\n\nBut overall, risk high.\n\nI think CCC.\n\nFor confidence, I'll say 4, since I have most ratios but missing interest.\n\nRationale: \"Extremely high leverage, low liquidity, poor interest coverage implied.\"\n\nNow, for the JSON response.\n\nDecision: one of the labels.\n\nI think CCC.\n\nBut let's confirm the scale: CCC+, CCC, CCC-, etc.\n\nPerhaps CCC.\n\nOr CCC- for worse.\n\nBut with positive EBIT, not the worst.\n\nCCC is \"currently vulnerable\", which fits.\n\nCC is \"highly vulnerable\", but not specified.\n\nI think CCC is appropriate.\n\nSo decision: CCC\n\nConfidence: 4 (high confidence based on ratios)\n\nRationale: <=25 words: \"High debt/equity ratio, low current ratio, implied negative interest coverage indicate high default risk.\"\n\nNow, for the JSON.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 4446,
+ "usd": 0.00988,
+ "utc": "2026-09-06T19:42:48.804016+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"AA-\", \"confidence\": 3, \"rationale\": \"Strong profitability, moderate leverage, good liquidity.\"}",
+ "reasoning_tail": "as before.\n\nFor high-grade corporates, D/E can be up to 1 or 2, but lower is better.\n\nWith high margins, it can support higher leverage, but here leverage is moderate.\n\nI think AA- is reasonable.\n\nBut let's see if AAA is possible. AAA is rare for corporates; usually reserved for sovereigns or very few companies.\n\nFor example, Microsoft is AAA, Johnson & Johnson AA, etc.\n\nWith 42% operating margin, it could be like a tech giant.\n\nRevenue 18B is large but not massive; Apple has over 300B, so scale is important.\n\n18B revenue is significant.\n\nAssets 171B, so it's a large company.\n\nPerhaps A+.\n\nI need to decide.\n\nLet's assign a rating.\n\nI'll go with AA- , as very strong but not the highest.\n\nConfidence: 3, because no debt breakdown or cash flow.\n\nRationale: \"Strong profitability, moderate leverage, good liquidity.\"\n\nWord count: Strong profitability, moderate leverage, good liquidity. That's 5 words.\n\nNow, for confidence, 1-5, 3 is medium.\n\nBut let's see if I can be finer.\n\nAnother thought: retained earnings are 9,761M, but equity is 81,292M, so it's not the main component; there might be other equity like common stock.\n\nBut retained earnings positive is good.\n\nDiluted EPS 1.74, but no context, so not useful.\n\nI think AA- is good.\n\nPerhaps A+.\n\nLet's think about the rating scale.\n\nBBB is lower investment grade.\n\nWith 42% operating margin, it should be higher.\n\nOperating margin 42% is exceptional; most companies have 10-20%.\n\nSo, likely AA range.\n\nI'll go with AA-.\n\nFinal decision.\n",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 2930,
+ "usd": 0.006567,
+ "utc": "2026-09-06T17:39:04.964855+00:00"
+}

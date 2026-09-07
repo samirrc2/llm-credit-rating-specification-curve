@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Very low current ratio (0.55), high leverage (debt/equity ~2.58), poor asset efficiency (EBIT/assets ~1.24%) indicate high distress risk.\"}",
+ "reasoning_tail": "ndent on favorable conditions.\n\nBased on Altman Z-score 0.49, it signals high probability of financial distress, so probably CCC range.\n\nConfidence: I have the data, but no industry or interest, so not high confidence.\n\nrationale must be <=25 words.\n\nSO I think a rating of B- or CCC+.\n\nLet's choose.\n\nPerhaps B-, since retained earnings suggest some history.\n\nBut in distress, it might be CCC.\n\nI think I'll go with CCC+.\n\nNo, B is for highly speculative, CCC for substantial risk.\n\nWith current ratio so low, it might be lower.\n\nAnother  : total liabilities 139,758M, current liabilities 22,911M, so long-term liabilities 116,847M.\n\nEBIT 2,527M, so if interest on long-term debt, say 5% of long-term liabilities not all are debt, assume 60% debt, so debt 70.1B, interest at 5% 3.5B, EBIT 2.5B < 3.5B, so not coverage.\n\nFor speculative grade.\n\nBut let's see standard ratings.\n\nI found online that for S&P, a current ratio below 0.8 is common for B and below.\n\n debt/EBITDA above 6 is for BB, above 8 for B, etc., but no EBITDA.\n\nEBIT/interest below 1.0 for CCC.\n\nSince I lack interest, but based on the above estimate, coverage <1, so CCC.\n\nSimilarly, Altman Z-score below 1.8 is distress.\n\nSo I think CCC is appropriate.\n\nWhich one? CCC+, CCC, CCC-, etc.\n\nI'll go with CCC.\n\nConfidence 3 out of 5.\n\nRationale: Very low liquidity, high leverage, poor profitability vs assets.\n\nWords: \"Low current ratio, high leverage, poor asset efficiency indicate high credit risk.\"\n\n20 words.\n\nNow for the JSON.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 4644,
+ "usd": 0.010316,
+ "utc": "2026-09-06T19:54:37.759212+00:00"
+}

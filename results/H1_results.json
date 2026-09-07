@@ -15,19 +15,9 @@
    -0.2127,
    0.0322
   ],
-  "diff_90CI": [
-   -0.1937,
-   0.0127
-  ],
   "n_watch_arm": 16,
   "n_watch_battery": 15,
-  "equivalence_margin": 0.15,
-  "tost_p_lower": 0.1787,
-  "tost_p_upper": 0.0002,
-  "tost_p": 0.1787,
-  "equivalence_established": false,
-  "differs_from_zero_95": false,
-  "decision": "INCONCLUSIVE: not distinguishable from zero (95% CI includes 0) and point estimate within +/-0.15, but equivalence NOT formally established (90% CI [-0.1937, 0.0127] exceeds the margin; TOST p=0.179; underpowered at n=16)"
+  "decision": "DESCRIPTIVE: WATCH-stratum arm-minus-battery difference -0.091 (95% CI [-0.2127, 0.0322]); not distinguishable from zero at n=16. No equivalence test is claimed."
  },
  "H1_secondary_raw": {
   "arm_flip_share": [

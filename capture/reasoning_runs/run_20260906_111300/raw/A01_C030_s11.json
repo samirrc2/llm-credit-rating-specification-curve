@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Moderate interest coverage (~3x), low ROE (2.15%), good liquidity (current ratio 2.29).\"}",
+ "reasoning_tail": "BB companies have coverage around 3-4x.\n\nLet's assume BBB-.\n\nBut let's see the retained earnings: 1,385M, while equity is 18,899M, so retained earnings are only about 7.3% of equity, which is low, suggesting that most equity is from issued capital, not retained, so it might be a younger company or one that has paid dividends.\n\nBut not critical.\n\nI think BBB- is reasonable.\n\nPerhaps BBB.\n\nBut confidence not high.\n\nAnother thing: the fiscal period is 2025 Q4, filed 2026-02-13, so it's recent, but we use predating knowledge.\n\nGeneral knowledge predating most recent fiscal year, so up to 2025 or early 2026.\n\nNo specific events mentioned.\n\nSo based on financials.\n\nFinal decision: I'll go with BBB-.\n\nRationale: Moderate interest coverage and leverage, low profitability.\n\nConfidence: 3, since estimates are rough.\n\nRationale must be <=25 words.\n\nSo \"Moderate interest coverage (~3x), low ROE, good liquidity.\"\n\nNow for JSON.\n\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Moderate interest coverage, low profitability, good liquidity.\"}\n\nBut let's see if I can be finer.\n\nPerhaps BBB is possible.\n\nBut with low ROE, BBB- might be better.\n\nBB+ is speculative, which might be too low.\n\nBB+ is below investment grade.\n\nWith coverage 3x, it's often investment grade.\n\nFor example, S&P BBB has interest coverage around 3-5x for some industries.\n\nI think BBB- is safe.\n\nOr BBB.\n\nBut I'll go with BBB-.\n\nConfidence 3.\n\nRationale: \"Interest coverage ~3x, low ROE, strong current ratio.\"\n\n20 words.\n",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 270,
+ "out_tok": 4800,
+ "usd": 0.01066,
+ "utc": "2026-09-06T18:54:00.720971+00:00"
+}

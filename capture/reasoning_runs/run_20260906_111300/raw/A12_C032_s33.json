@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Critical liquidity shortage with current ratio 0.35 and excessive leverage, debt-to-equity ~8.1, indicate high default risk.\"}",
+ "reasoning_tail": "lowest investment grade, but current ratio below 1 is a red flag.\n\nTypically, for investment grade, current ratio above 1, debt-to-equity reasonable.\n\nHere, debt-to-equity 8, current ratio 0.35, so definitely speculative grade.\n\nBB is the highest speculative, for less vulnerable.\n\nBut here, with liquidity crisis, more vulnerable.\n\nB rating: more vulnerable to adverse business conditions.\n\nCCC: currently vulnerable.\n\nI think CCC is appropriate.\n\nBut let's confirm the scale.\n\nThe scale has CCC+, CCC, CCC-.\n\nCCC is one of them.\n\nPerhaps CCC+ if slightly better, but I don't see anything positive except the operating margin.\n\nOperating margin is good, but leverage and liquidity dominate.\n\nRetained earnings are high, but that's book value, not cash.\n\nSo, I think CCC.\n\nConfidence: I'm not 100% sure, but based on data, it's clear.\n\nConfidence on scale 1-5, 5 highest.\n\nI'd say 3 or 4, since I have most ratios but missing interest coverage.\n\nRationale must be <=25 words.\n\nSo, for rationale: \"Extremely low current ratio and high leverage indicate severe liquidity risk and default probability.\"\n\nNow, for the JSON.\n\nDecision: CCC\n\nConfidence: 4 (since data points clearly to distress)\n\nRationale: \"Critical liquidity shortage with current ratio 0.35 and excessive debt burden.\"\n\nWord count: 7 words.\n\nOkay.\n\nBut is CCC the right choice?\n\nPerhaps B-.\n\nB is \"more vulnerable,\" CCC is \"currently vulnerable.\"\n\nWith current ratio 0.35, they are currently unable to pay, so CCC.\n\nYes.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 3642,
+ "usd": 0.00812,
+ "utc": "2026-09-06T19:10:49.882925+00:00"
+}

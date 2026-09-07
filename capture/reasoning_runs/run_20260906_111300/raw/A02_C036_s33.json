@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong profitability with a 19% operating margin and solid net income, but it faces significant credit risks due to high financial leverage (debt-to-equity ratio of approximately 2.74) and poor liquidity (current ratio of 0.79), which indicates potential difficulty in meeting short-term obligations and elevated vulnerability to economic downturns.\n\nDECISION: BB+",
+ "reasoning_tail": "t.\n\nThis company has net income, so not near default.\n\nSo BB or BB+.\n\nDiluted EPS 0.9, which is positive.\n\nRetained earnings positive.\n\nSo I think BB+.\n\nBut let's check the liabilities.\n\nCurrent liabilities 7,148M > current assets 5,681M, so negative working capital.\n\nThat's often a sign of efficiency in some industries, but risky for credit.\n\nIn credit terms, it's negative.\n\nSo I think rating should be BB+.\n\nPerhaps BBB- if we consider the profitability.\n\nBut I think the liquidity issue pushes it down.\n\nAnother way: the current ratio is given as 0.79, and it's highlighted, so it's important.\n\nIn the information, it's listed as \"current ratio 0.79\", so it's a key point.\n\nTherefore, I assign BB+.\n\nBut let's confirm the rating scale.\n\nValid answers: AAA down to C.\n\nBB+ is available.\n\nNow for the reason.\n\nReason in 1-3 sentences.\n\n\"Despite strong profitability with 19% operating margin, the company exhibits high financial leverage (debt-to-equity ratio approximately 2.74) and poor liquidity (current ratio 0.79), indicating substantial credit risk.\"\n\nThen DECISION: BB+\n\nBut is debt-to-equity 2.74 accurate?\n\nTotal liabilities / equity = 57,973 / 21,181 = 2.737, yes.\n\nAnd current ratio 0.79.\n\nProfitability is strong.\n\nSo BB+ seems reasonable.\n\nPerhaps BBB-, but I think BB+ is better.\n\nI recall that for investment grade, current ratio should be above 1, generally.\n\nFor example, BBB rated companies often have current ratio >1.\n\nBelow that, it's speculative.\n\nSo BB+.\n\nFinal decision.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 259,
+ "out_tok": 3279,
+ "usd": 0.007323,
+ "utc": "2026-09-06T19:24:36.985374+00:00"
+}

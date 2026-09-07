@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"High debt-to-equity ratio of ~6 and weak current ratio of 1.04 indicate significant leverage and liquidity risks.\"}",
+ "reasoning_tail": "riate.\n\nConfidence on scale 1-5.\n\nI think 3, medium confidence.\n\nRationale should be <=25 words.\n\nFinal decision label.\n\nOne of the options: B+, B, B- etc.\n\nI think B.\n\nPerhaps BB- might be considered with the high retained earnings, but leverage is too high.\n\nBB- is still spec grade.\n\nStandard & Poor's typical ratios:\n\nFor BBB, average debt/EBITDA around 2-3x.\n\nHere, if EBITDA ~ EBIT (assuming low depreciation), then debt/EBIT = 111,269 / 2,359 \u2248 47.17, which is extremely high, unthinkable for investment grade.\n\nEven for B, it might be high.\n\nDebt/EBIT of 47 means it would take 47 years to pay debt with EBIT, not considering interest.\n\nSo definitely very low rating.\n\nSimilarly, with liquidity tight.\n\nI think CCC is possible.\n\nBut retained earnings large, so company has been around, not a startup.\n\nRetained earnings 87,663M is huge, so it's a large company with history.\n\nBut current state is weak.\n\nPerhaps B-.\n\nI think between CCC and B.\n\nSince the problem says \"knowledge predating the most recent fiscal year,\" I should use general criteria.\n\nBased on all, I'll go with B.\n\nDecision: B\n\nConfidence: 3\n\nRationale: High leverage, weak liquidity, low coverage implied.\n\nWithin 25 words.\n\n\"High debt/t equity ratio near 6 and low current ratio suggest credit weakness, despite strong retained earnings.\"\n\n23 words.\n\nFor rating, B.\n\nOn the scale, should I put B+ or B-?\n\nI think plain B.\n\nLabel is \"B\" for example.\n\nThe options include B+, B, B-.\n\nI'll choose B.\n\nFinally, output in JSON.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 4346,
+ "usd": 0.009663,
+ "utc": "2026-09-06T18:21:46.178411+00:00"
+}

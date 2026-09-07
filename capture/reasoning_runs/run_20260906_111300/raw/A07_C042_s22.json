@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer has negative shareholders' equity (-8,465M) and negative retained earnings (-8,881M), indicating severe financial distress and insolvency risk. The current ratio of 0.92 shows liquidity issues, and high leverage (total liabilities exceed total assets) with a positive EBIT margin of 8.15% insufficient to likely cover interest costs given the liability burden, pointing to high default vulnerability. These factors align with a CCC rating, which denotes current vulnerability and dependence on favorable conditions.\n\nDECISION: CCC",
+ "reasoning_tail": "interest not given, I have to assume.\n\nBased on liabilities, interest is likely high.\n\nI think CCC is appropriate.\n\nSo, decision: CCC\n\nBut let's confirm the scale: options include CCC+, CCC, CCC-, etc.\n\nCCC is one of them.\n\nPerhaps I should look for a benchmark.\n\nI recall that Altman Z-score below 1.8 indicates distress.\n\nBut I can't compute exactly.\n\nWorking capital / total assets = -890 / 30,558 \u2248 -0.029\n\nRetained earnings / total assets = -8,881 / 30,558 \u2248 -0.291\n\nEBIT / total assets = 777 / 30,558 \u2248 0.0254\n\nIf I assume market value is low, say similar to book, but book is negative, so market might be low.\n\nRevenue / total assets = 9,532 / 30,558 \u2248 0.312\n\nAltman Z = 1.2*(WC/TA) + 1.4*(RE/TA) + 3.3*(EBIT/TA) + 0.6*(MVE/TL) + 1.0*(Sales/TA)\n\nMVE is market value of equity, which I don't have. Since equity is negative, MVE might be small or zero.\n\nAssume MVE/TL is very low, say 0.\n\nThen Z \u2248 1.2*(-0.029) + 1.4*(-0.291) + 3.3*(0.0254) + 0.6*0 + 1.0*0.312\n\nCalculate:\n\n1.2 * -0.029 = -0.0348\n\n1.4 * -0.291 = -0.4074\n\n3.3 * 0.0254 \u2248 3.3 * 0.025 = 0.0825, plus 3.3*0.0004=0.00132, so ~0.08382\n\n1.0 * 0.312 = 0.312\n\nSum: -0.0348 -0.4074 + 0.08382 + 0 + 0.312 = (-0.0348 -0.4074) = -0.4422; +0.08382 = -0.35838; +0.312 = -0.04638\n\nSo Z \u2248 -0.046, which is far below 1.8, indicating high bankruptcy risk.\n\nTherefore, credit rating should be low, like CCC.\n\nFor Z-score below 0, it's critical.\n\nSo, rating around CCC or lower.\n\nSince EBIT positive, not C, so CCC.\n\nThus, I think CCC is justified.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 2994,
+ "usd": 0.006689,
+ "utc": "2026-09-06T19:56:10.325257+00:00"
+}

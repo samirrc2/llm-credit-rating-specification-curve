@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company exhibits exceptionally strong profitability with high gross (89%) and operating margins (44%), as well as robust liquidity demonstrated by a current ratio of 12.41 and significant current assets relative to current liabilities. Additionally, the low interest expense (approximately $51 million quarterly, inferred from operating income and net income) indicates minimal financial debt and very high interest coverage (approximately 62.5 times). These factors support a high investment-grade rating, though not AAA due to the high ratio of total liabilities to total assets (90%), which introduces some leverage risk despite not being primarily interest-bearing debt.\n\nDECISION: AA+",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 5681,
+ "usd": 0.012587,
+ "utc": "2026-09-06T15:28:58.433354+00:00"
+}

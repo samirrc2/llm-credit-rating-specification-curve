@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Negative equity and critically low current ratio indicate high default vulnerability.\"}",
+ "reasoning_tail": "t might not be inevitable.\n\nSo CCC seems right.\n\nPerhaps B-? B- is higher.\n\nB-: \"Highly speculative; significant credit risk.\"\n\nCCC: \"Substantial credit risk; vulnerable and dependent on favorable conditions.\"\n\nThat matches.\n\nWith current ratio 0.27, they are dependent on favorable conditions like refinancing.\n\nSo CCC.\n\nNow, confidence: I'll say 4.\n\nRationale: \"Negative equity and critically low current ratio indicate high vulnerability.\"\n\n20 characters? Words: Negative, equity, and, critically, low, current, ratio, indicate, high, vulnerability. That's 10 words.\n\nIn the rationale, it should be <=25 words, so fine.\n\nFinal decision: CCC\n\nBut let's confirm the label: from the list, CCC is an option.\n\nThe scale is: CCC+, CCC, CCC-, etc.\n\nI think CCC is fine.\n\nPerhaps I should specify CCC+ or something, but I think CCC is the base.\n\nIn the context, CCC means the middle of that category.\n\nBut I'll go with CCC.\n\nJSON: {\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Negative equity and critically low liquidity indicate high default risk.\"}\n\nRationale should be a string.\n\nNow, word count: \"Negative equity and critically low liquidity indicate high default risk.\" \u2013 8 words.\n\nUnder 25.\n\nConfidence 4: moderately high confidence.\n\nI could do CCC- with lower confidence, but I think CCC is standard.\n\nAnother thing: the company has high operating margin, which might support debt service, but the liquidity gap is immediate.\n\nFor credit rating, the short-term ability is crucial.\n\nSo, CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 2436,
+ "usd": 0.005484,
+ "utc": "2026-09-06T20:05:02.842544+00:00"
+}

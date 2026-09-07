@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt-to-equity ~9) and weak EBIT coverage of liabilities (~0.7%) indicate substantial default risk.\"}",
+ "reasoning_tail": "\n\nEBIT/TA = 3,188/493,319 \u2248 0.00646\n\nS/TA = 7,300/493,319 \u2248 0.0148\n\nMVE: no market value, so assume book value of equity for simplicity, 49,234M\n\nBVL: book value of liabilities, total liabilities 444,085M\n\nSo MVE/BVL = 49,234/444,085 \u2248 0.1109\n\nNow Z = 1.2*0.347 + 1.4*0.093 + 3.3*0.00646 + 0.6*0.1109 + 1.0*0.0148\n\nCalculate each:\n\n1.2*0.347 = 0.4164\n\n1.4*0.093 = 0.1302\n\n3.3*0.00646 \u2248 3.3*0.0065 = 0.02145, but 0.00646*3.3 = let's compute: 0.006*3.3=0.0198, 0.00046*3.3\u22480.001518, total 0.021318\n\n0.6*0.1109 = 0.06654\n\n1.0*0.0148 = 0.0148\n\nSum: 0.4164 + 0.1302 = 0.5466\n\n+0.021318 = 0.567918\n\n+0.06654 = 0.634458\n\n+0.0148 = 0.649258\n\nZ \u2248 0.65\n\nAltman Z-score below 1.8 indicates distress, between 1.8 and 3.0 is gray area, above 3.0 is safe.\n\n0.65 is well below 1.8, so high probability of bankruptcy.\n\nTherefore, credit rating should be low, CCC or below.\n\nWith current ratio high, it might not be imminent, so CCC.\n\nCCC is for vulnerable, CC for high vulnerability.\n\nBut Z-score suggests distress.\n\nFor rating, CCC+ or CCC.\n\nBut let's see the scale.\n\nAlso, confidence is 1-5, 5 high.\n\nI have low confidence because of data limitations, but based on given, it's poor.\n\nRationale: High leverage and weak earnings coverage indicate substantial credit risk.\n\nSo rating CCC or B-.\n\nB- is higher than CCC.\n\nScale: AAA to C, with BB, B, CCC, etc.\n\nB is above CCC.\n\nB is more vulnerable, CCC is currently vulnerable.\n\nWith Z-score low, CCC.\n\nPerhaps CCC-.\n\nBut I think CCC is appropriate.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 4923,
+ "usd": 0.010925,
+ "utc": "2026-09-06T15:56:20.953684+00:00"
+}

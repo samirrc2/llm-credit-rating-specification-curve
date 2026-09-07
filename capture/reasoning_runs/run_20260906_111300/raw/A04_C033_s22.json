@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"B-\",\n  \"confidence\": 3,\n  \"rationale\": \"Negative shareholders' equity and high leverage indicated, offset by positive EBIT, placing in high-risk speculative grade.\"\n}",
+ "reasoning_tail": "aring.\n\nBut not specified.\n\nSo roughly, interest coverage might be around 1.5-2, which is in the B range.\n\nFor example, interest coverage below 1.5 could be CCC.\n\nAt 1.59, it's borderline B.\n\nBut since I estimated, let's say B.\n\nWith negative equity, probably B-.\n\nI think B- is appropriate.\n\nCCCs have coverage below 1 or negative.\n\nHere EBIT positive.\n\nSo B-.\n\nRating scale: B+ is a bit better than B, B- worse.\n\nSo for high risk but some capacity, B or B-.\n\nI'll go with B-.\n\nConfidence 3.\n\nRationale: \"Negative shareholders' equity and high leverage offset by positive EBIT, prompting speculative grade with high risk.\"\n\nBut must be <=25 words.\n\n\"Negative equity, high liabilities/assets, thin liquidity; positive EBIT suggests some capacity, rating B-.\"\n\n19 words.\n\nFor confidence, since I estimated, confidence 3.\n\nNow, the answer should be JSON object.\n\n{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Negative equity, high leverage, but positive EBIT indicate high credit risk\"}\n\n22 words.\n\n\"Negative equity and low coverage potential suggest speculative grade with high risk of distress.\"\n\nSimilar.\n\nBut in financial terms.\n\nI think B- is fine.\n\nSome might say CCC+ if leverage is very high.\n\nBut let's see the total.\n\nAnother point: retained earnings -9,884M, which is a large deficit, especially relative to revenue or assets.\n\nRetained earnings / total assets = -9,884 / 54,941 \u2248 -0.18, or -18%, not good.\n\nEBIT / total liab = 4%, low.\n\nI think B- is reasonable.\n\nSo final decision: B-\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 4100,
+ "usd": 0.009123,
+ "utc": "2026-09-06T19:11:54.842036+00:00"
+}

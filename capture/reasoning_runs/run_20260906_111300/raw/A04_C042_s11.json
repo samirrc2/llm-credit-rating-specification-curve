@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"CCC+\",\n  \"confidence\": 3,\n  \"rationale\": \"Negative equity and retained earnings indicate high leverage; current ratio <1 shows liquidity risk, but positive EBIT provides some support.\"\n}",
+ "reasoning_tail": ".\n\nFirst, choose one label.\n\nLet's map to the scale.\n\nAAA: highest grade\n\n...\n\nBBB: medium grade, investment grade speculative\n\nBB: less vulnerable, ba1\n\nB: more vulnerable, b1\n\nCCC: currently vulnerable, ccc1\n\nHere, with negative equity and low current ratio, it's vulnerable.\n\nEBIT positive provides some support.\n\nBut I think it's below B.\n\nFor companies with negative net worth, ratings can be C or CC if near default, but EBIT positive, so not defaulting now.\n\nPerhaps B- or CCC+.\n\nLet's look at Tesla in 2019 or something, but I shouldn't rely on specific.\n\nGeneral knowledge predating: during financial crisis, firms with such metrics were rated low.\n\nOkay, I think CCC+ is reasonable.\n\nSince no interest data, I can't be sure coverage.\n\nMaybe B-.\n\nLet's see the confidence.\n\nI think I have to go with CCC+.\n\nRatings: CCC+ stands for high credit risk.\n\nNow, the values: negative retained earnings huge, negative equity.\n\nAnother point: total assets 30,558M, liab 39,015M, deficit 8.5B, which is large.\n\nRevenue 9.5B, so to cover the deficit, it takes many years.\n\nBut that's not directly related.\n\nI think CCC+ or B-.\n\nPerhaps BB- at best, but unlikely.\n\nBB- would be lower speculative, but I think worse.\n\nBB- is Ba3, still some capacity.\n\nWith current ratio <1, it's urgent.\n\nTherefore, I believe the rating should be CCC+.\n\nRationale in <=25 words: Negative equity, liquidity issues, but operational income.\n\nFor confidence, on 1-5, 5 high.\n\nI think 3, medium, since missing interest data.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3283,
+ "usd": 0.007333,
+ "utc": "2026-09-06T19:55:35.032967+00:00"
+}

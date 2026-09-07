@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company exhibits extremely high leverage, with a debt-to-equity ratio of approximately 10.25 (total liabilities of $3,107,151M / equity of $303,243M), and critically poor liquidity, with a current ratio of 0.42 (current assets of $1,067,083M / current liabilities of $2,559,605M). These factors indicate severe difficulty in meeting short-term obligations and high default risk, despite solid profitability metrics like a 25% operating margin and positive retained earnings of $261,693M. Such financial distress places the issuer in the CCC range, reflecting high vulnerability to non-payment.\n\nDECISION: CCC",
+ "reasoning_tail": "k B or CCC.\n\nThe instruction says \"based only on the above and knowledge predating the most recent fiscal year\", so I shouldn't assume what company it is, just use the numbers.\n\nPerhaps it's Apple or similar, but Apple has high cash, current ratio above 1.\n\nApple's current ratio is usually above 1, and debt lower.\n\nFor example, Apple Q1 2024: revenue $119.6B, total assets $353B, total liabilities $279B, equity $74B, current assets $143B, current liabilities $133B, current ratio about 1.08.\n\nNot matching.\n\nHere revenue $49.7B quarterly, annualized $200B, assets $3.4T, so different.\n\nPerhaps it's a bank, but banks don't have gross margin.\n\nGross margin 60% is given, so not a bank.\n\nI think I have to go with the data.\n\nFor credit rating, with current ratio of 0.42 and high leverage, I assign CCC+ or CCC.\n\nLet's decide.\n\nI think CCC is appropriate.\n\nBut let's see the retained earnings: $261,693M, which is substantial, so the company has value, but liquidity is poor.\n\nFinal decision.\n\nI think the rating should be CCC, indicating high credit risk.\n\nPerhaps CCC-.\n\nBut I'll go with CCC.\n\nThe scale has CCC+, CCC, CCC-.\n\nCCC is the middle.\n\nReason briefly.\n\nReason: Extremely high leverage with debt-to-equity ratio exceeding 10, and critically low liquidity with current ratio of 0.42, indicating severe difficulty in meeting short-term obligations despite profitable operations.\n\nSo rating CCC.\n\nThen DECISION: CCC\n\nBut let's confirm the scale: AAA to C, with + and -.\n\nCCC is one of them.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 273,
+ "out_tok": 4657,
+ "usd": 0.010349,
+ "utc": "2026-09-06T19:24:00.586937+00:00"
+}

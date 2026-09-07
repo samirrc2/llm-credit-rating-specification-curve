@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates exceptionally strong profitability with a 68% gross margin and 42% operating margin, along with a net income of $8,518M for the quarter, indicating robust earnings capacity to service debt. Leverage is moderate with a debt-to-equity ratio of approximately 1.1 (calculated from total liabilities of $89,800M and equity of $81,292M) and liquidity is solid with a current ratio of 1.71. While the lack of interest expense data prevents precise coverage ratio calculation, the high net income relative to assets and equity supports strong creditworthiness, aligning with high investment grade characteristics similar to top-tier firms.\n\nDECISION: AA+",
+ "reasoning_tail": "say 70% of total liabilities, about 62,860M.\n\nThen annualized operating income 30,000M, interest at 5% on 62,860M = 3,143M, coverage ~9.5 times, still strong.\n\nIf debt is less, better coverage.\n\nWith lower debt, better.\n\nROE annualized over 40%, very high.\n\nI think solid AA.\n\nBut for finest granularity, I can choose AA+.\n\nThe net margin of 47% is unusually high, which might indicate a one-time item, but since not indicated, I take it as is.\n\nSo, decision: AA+\n\nBut let's see the rating scale: AAA, AA+, AA, AA-, etc.\n\nI think AA+ is the second highest.\n\nGiven the figures, it might be AAA, but corporates rarely have it.\n\nBut I should based on numbers.\n\nAnother company: I think Google or Apple have similar metrics.\n\nApple had net margin around 25%, here 47% for the quarter, higher, but possible if one-time gain.\n\nFor example, operating margin 42%, net 47%, difference could be other income or low tax.\n\nTax rate: operating inc 7,508M, net 8,518M, so income before tax is not given, but net income after tax.\n\nAssume tax expense is (operating inc - other items) - net inc, but simplify.\n\nIf net inc > oper inc, then PBT must be higher, with low tax or no tax.\n\nFor instance, oper inc 7,508M, let X be other income, Y income tax, then PBT = 7,508 + X, PAT = (7,508 + X) *(1-t) = 8,518\n\nBut also, interest, etc.\n\nNot solved.\n\nBut perhaps the company has negative effective tax or something, but it doesn't matter for credit, as net income is available for debt service.\n\nSo I think AA+ is fine.\n",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 258,
+ "out_tok": 3948,
+ "usd": 0.008788,
+ "utc": "2026-09-06T17:42:58.643559+00:00"
+}

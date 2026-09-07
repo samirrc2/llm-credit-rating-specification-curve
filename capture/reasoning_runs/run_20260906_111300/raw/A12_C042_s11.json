@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Negative equity, current ratio below 1, and high leverage indicate severe distress; positive EBIT mitigates but insufficient for higher rating.\"}",
+ "reasoning_tail": "idence, rationale.\n\nRationale in <=25 words.\n\nSo concise.\n\nPossible decision: CCC+\n\nConfidence: 3 or 4? Since data is limited, confidence might be medium.\n\nBut I have all key metrics except interest coverage.\n\nAnother thing: the company has negative equity, which might mean it's in financial distress, but operating.\n\nIn credit ratings, agencies might rate such companies as low as C if default is imminent, but here EBIT positive, so not imminent.\n\nCurrent ratio 0.92, so they might roll over debt or something.\n\nBut based on data, I think CCC is appropriate.\n\nLet's list the negatives:\n\n- Current ratio <1: liquidity risk\n\n- Negative retained earnings: historical losses\n\n- Negative equity: insolvency risk\n\n- High total liabilities/assets: 1.28, leveraged\n\nPositives:\n\n- Positive EBIT: operating profitability\n\n- Revenue size: not small\n\nBut the negatives outweigh.\n\nCompared to rating scales:\n\n- BB: for less vulnerable, but here vulnerable.\n\n- B: highly speculative\n\n- CCC: vulnerable, dependent on favorable conditions\n\nHere, with current ratio <1, they are vulnerable to any disruption.\n\nSo CCC+ or CCC.\n\nCCC+ is one notch above CCC.\n\nSince EBIT is positive, perhaps CCC+.\n\nBut let's see the values.\n\nEBIT 777M, revenue 9,532M, so margin ok, but burdened by debt.\n\nI think I'll go with CCC+.\n\nConfidence: 3, since no interest coverage data.\n\nRationale: Negative equity, low current ratio, and high leverage indicate high default risk despite positive EBIT.\n\nWithin 25 words.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3177,
+ "usd": 0.007101,
+ "utc": "2026-09-06T19:57:48.401434+00:00"
+}

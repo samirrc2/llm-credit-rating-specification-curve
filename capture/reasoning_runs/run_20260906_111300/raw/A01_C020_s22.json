@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage (debt/equity ~2.86) and poor liquidity (current ratio 0.91) offset strong profitability, indicating speculative grade risk.\"}}",
+ "reasoning_tail": "se to 1, so not terrible, but below.\n\nIn practice, companies can manage.\n\nBut for credit rating, it's a factor.\n\nPerhaps BBB-.\n\nI'm torn.\n\nLet's list pros and cons:\n\nPros:\n\n- High gross margin (80%)\n\n- Positive operating income (14% margin)\n\n- Positive net income\n\n- Large retained earnings\n\n- Large scale (revenue 36B, assets 404B)\n\nCons:\n\n- High leverage (debt/equity ~2.86, debt/assets 74%)\n\n- Poor liquidity (current ratio 0.91, negative working capital)\n\n- Low interest coverage (~2.5)\n\n- Low net margin (6.44%)\n\nOverall, the cons outweigh, so speculative grade.\n\nWithin speculative, BB+ for less vulnerable.\n\nBB is defined as less vulnerable in the near term but facing major uncertainties.\n\nB+ is more vulnerable to adverse conditions.\n\nWith coverage above 2, it's not immediately vulnerable, so BB or BB+.\n\nI think BB+.\n\nBut let's see the rating scale given: BB+, BB, BB-, etc.\n\nPerhaps BB.\n\nAnother way: the quick ratio might be worse, but no data.\n\nI think BB is fine.\n\nBut let's see if it can be investment grade.\n\nBBB- is possible if liquidity is temporary, but no indication.\n\nRetained earnings 94,744M, which could be used, but it's not cash.\n\nI think it's speculative.\n\nFinal decision: BB\n\nConfidence: 3, since estimates are involved.\n\nRationale: High leverage and poor liquidity offset strong profitability, leading to speculative grade.\n\nIn 25 words.\n\n\"High debt and low current ratio indicate liquidity risk despite solid margins, warranting BB rating.\"\n\nBut let's make it precise.\n",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 4242,
+ "usd": 0.009441,
+ "utc": "2026-09-06T17:58:30.255561+00:00"
+}

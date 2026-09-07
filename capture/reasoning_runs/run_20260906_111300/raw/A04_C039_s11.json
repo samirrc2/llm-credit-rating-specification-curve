@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Poor liquidity (current ratio 0.83) and extreme leverage (debt-to-equity ~13.5) indicate high default risk.\"}",
+ "reasoning_tail": "practice, companies with current ratio below 1 can survive if they have rolling credit, but here it's given.\n\nEBIT is positive, so not CCC.\n\nCCC ratings are for companies that are currently vulnerable to default.\n\nHere, with EBIT positive, it might not be immediately vulnerable, but the liquidity is tight.\n\nLet's check the numbers again.\n\nCurrent liabilities: 1,226,809M\n\nCurrent assets: 1,018,577M\n\nDeficit: 208,232M\n\nEBIT: 5,855M per year, but EBIT is annual, so monthly or quarterly not given.\n\nAssuming EBIT is annual, it generates about 5,855M per year, but current liabilities are 1,226,809M, so to cover the deficit, it would need external financing.\n\nAlso, total liabilities are larger.\n\nBut the company might have access to capital markets, but not specified.\n\nBased on financials alone, I think B- is reasonable.\n\nPerhaps BB-, but that might be too high.\n\nLet's compare to rating criteria.\n\nI recall that for S&P, a current ratio below 1.0 is often associated with ratings below B.\n\nFor example, companies in distress.\n\nAlso, leverage: debt-to-EBITDA, but no EBITDA.\n\nEBIT is given, so EBIT to interest, missing.\n\nAnother metric: Funds from operations to debt.\n\nBut no cash flow data.\n\nSo, I think with the data, B- is appropriate.\n\nConfidence: 3, since some data missing, like interest.\n\nRationale: \"Poor liquidity with current ratio below 1 and extremely high leverage indicate high default risk.\"\n\nNow for the rating: B-\n\nThe scale has B+, B, B-, so B- is one option.\n\nFinal decision.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 268,
+ "out_tok": 3694,
+ "usd": 0.008237,
+ "utc": "2026-09-06T19:40:01.180161+00:00"
+}

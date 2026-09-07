@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Low current ratio (0.59) indicates liquidity risk; moderate leverage (debt/equity 1.76); weak profitability (ROA 0.93%).\"}",
+ "reasoning_tail": " go with B.\n\nBut let's see the options: B+, B, B-.\n\nPerhaps B+ is too high; B might be better.\n\nThe retained earnings are high, which could be a positive, but it doesn't directly help liquidity.\n\nIn bankruptcy, equity is wiped out, so creditors look at assets.\n\nTotal assets 71,487M, liabilities 45,596M, so asset coverage is there, but current liabilities are high.\n\nLong-term debt is 23,732M, covered by assets.\n\nBut short-term is the issue.\n\nOverall, I think speculative grade.\n\nI'll assign BB- as a conservative estimate.\n\nBB- is still speculative but higher than B.\n\nBB- might have current ratio above 1, but not necessarily.\n\nFor example, some BB rated companies have current ratios around 1.\n\nHere it's 0.59, lower.\n\nPerhaps B+.\n\nLet's decide.\n\nI think B is reasonable.\n\nFinal decision: B\n\nConfidence: 3\n\nRationale: \"Low current ratio, high leverage, poor ROA\"\n\nRationale <=25 words.\n\n\"Low liquidity with current ratio 0.59, debt-heavy, weak profitability.\"\n\nNow for JSON: {\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Low liquidity with current ratio 0.59, debt-heavy, weak profitability\"}\n\nBut decision should be one label, like \"B\".\n\nIn the scale, it's B, not specified, so \"B\".\n\nBut let's confirm the scale: B+, B, B-, so \"B\" is an option.\n\nYes.\n\nPerhaps I should consider the net income positive, so not CCC.\n\nAnother thing: the filing date is 2026-02-04, but since it's fiscal year 2025, and we're acting as of now, but knowledge predating, but I think it's fine.\n\nI think B is okay.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 3618,
+ "usd": 0.008073,
+ "utc": "2026-09-06T18:13:57.214866+00:00"
+}

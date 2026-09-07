@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB+\", \"confidence\": 3, \"rationale\": \"High profitability offset by poor liquidity (current ratio 0.63) and high leverage (debt-to-equity 2.71).\"}",
+ "reasoning_tail": "don't have EBITDA.\n\nEBIT is 2,334M, EBITDA might be similar if depreciation low, but not known.\n\nAssume EBITDA similar to EBIT for simplicity.\n\nThen debt-to-EBITDA: if total liabilities are debt, 139,666 / 2,334 \u2248 59.8, which is astronomical, but not all liabilities are debt.\n\nLiabilities include accounts payable, deferred revenue, etc.\n\nFor example, in tech companies, deferred revenue can be high.\n\nWith gross margin 99%, it might be a software company with high deferred revenue.\n\nDeferred revenue is a liability but not debt; it's unearned revenue.\n\nSo, for credit analysis, we focus on financial debt.\n\nBut here, I don't have that breakdown.\n\nCurrent liabilities 19,405M could include short-term debt.\n\nBut not specified.\n\nI think I have to use the current ratio as a proxy for liquidity risk.\n\nGiven that, I'll go with BB+.\n\nConfidence 3, since missing key metrics.\n\nRationale: \"High profitability offset by poor liquidity and high leverage.\"\n\nThat's 7 words.\n\nNow, for the rating, BB+.\n\nBut let's see if it can be finer.\n\nAA is too high, given the issues.\n\nA is investment grade, but with current ratio 0.63, unlikely.\n\nBBB- might be possible if the company is strong, but 0.63 is very low.\n\nFor example, Apple has current ratio above 1, I think.\n\nIn tough times, some companies have low ratios.\n\nBut here, it's 0.63, which is critical.\n\nPerhaps B+.\n\nBut net income positive, so not that low.\n\nI think BB is reasonable.\n\nBB+ or BB.\n\nLet's choose BB+ as it has high margins.\n\nFinal decision.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 3942,
+ "usd": 0.008784,
+ "utc": "2026-09-06T19:44:08.202523+00:00"
+}

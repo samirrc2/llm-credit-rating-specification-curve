@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"B+\",\n  \"confidence\": 3,\n  \"rationale\": \"Low current ratio (1.18), moderate leverage (D/E 1.07), and weak ROA (2.6%) indicate high risk.\"\n}",
+ "reasoning_tail": "\nConfidence: I'm at 3, medium.\n\nWord count for rationale: less than 25 words.\n\nFinal decision.\n\nPerhaps I can look at the difference between current assets and liabilities; 38,399M, while current liabilities are 216,756M, so only 17.7% coverage above 1, which is thin.\n\nIn liquidity crisis, it might struggle.\n\nFor credit rating, it's speculative grade.\n\nI think BBB- is too high.\n\nLet's see the ratings scale: BBB is lower medium grade, BB has less near-term vulnerability but major ongoing uncertainties, B more vulnerable to adverse conditions.\n\nWith Z-score 1.32, B is appropriate.\n\nMany sources suggest Z-scores below 1.2 are distress, 1.2 to 2.9 grey, but original is below 1.8 distress.\n\nI think I'll go with B+.\n\nBut let's see the exact number.\n\nAnother thing: revenue is 181,519M, ebit 23,852M, assets 916,630M, so profit margin is ok, but asset intensity high.\n\nBut for rating, I think B.\n\nPerhaps I can find a better way.\n\nNotice that the retained earnings are very high, 280,791M, which is larger than revenue, so the company has a strong balance sheet from history.\n\n  Total equity is 441,914M, so it has positive equity.\n\nFor a large company with high retained earnings, it might be rated higher.\n\nBut the liquidity and profitability are concerns.\n\nEBIT 23,852M on equity 441,914M is about 5.4% return, which is low for ROE, but not net income.\n\nI think on balance, I'll assign B+.\n\nOr BB-.\n\nI need to choose.\n\nLet's list the ratings.\n\nThe finest granularity I can justify.\n\nRationale.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 255,
+ "out_tok": 4850,
+ "usd": 0.010762,
+ "utc": "2026-09-06T18:46:37.507352+00:00"
+}

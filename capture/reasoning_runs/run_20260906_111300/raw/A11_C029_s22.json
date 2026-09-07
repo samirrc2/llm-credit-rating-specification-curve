@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The Altman Z-score, a key predictor of bankruptcy risk, is calculated as 1.37 based on the provided data, placing the company in the distress zone (Z < 1.81). This indicates a high risk of financial distress, driven by negative working capital, a current ratio below 1 indicating liquidity issues, and low EBIT relative to total assets. The high retained earnings suggest past profitability but do not offset the current weak performance and high leverage (total liabilities to equity of approximately 1.5).\n\nDECISION: B-",
+ "reasoning_tail": "a strong equity base, but liquidity issue.\n\nFor short-term, it's critical.\n\nOverall, I think speculative grade with high risk.\n\nPerhaps BB-, but Z-score says distress.\n\nI think I should go with B- or CCC+.\n\nBut let's decide.\n\nPerhaps calculate the rating using a formula.\n\nI recall that credit ratings can be predicted with logistic regression, but I don't have coefficients.\n\nFor simplicity, based on the data, I'll assign B-.\n\nReason: Low current ratio indicating liquidity problems, high leverage, and low profitability relative to assets, leading to a high risk of default as per Altman Z-score in distress zone.\n\nThen DECISION: B-\n\nBut Z-score is 1.37, which is above 1.0, so not the worst.\n\nCCC ratings are for very high risk.\n\nB- is for high risk but not imminent.\n\nWith current ratio 0.99, it might be imminent.\n\nBut let's see the exact number.\n\nCurrent assets 6,043M, current liabilities 6,096M, so shortfall of 53M, which is small relative to size, but still, it means it can't pay current liabilities from current assets.\n\nSo it needs to sell assets or borrow.\n\nWith EBIT 622M, it might cover interest, but not principal.\n\nBut no maturity schedule.\n\nI think B- is reasonable.\n\nPerhaps CCC+.\n\nBut let's see the answer format.\n\nI need to choose one label.\n\nPerhaps I can look for the most critical factor.\n\nCurrent ratio below 1 is a strong indicator of short-term distress.\n\nIn credit analysis, that often leads to downgrades to speculative grade.\n\nWith Z-score confirming.\n\nSo I think B-.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 5103,
+ "usd": 0.011313,
+ "utc": "2026-09-06T18:53:40.518759+00:00"
+}

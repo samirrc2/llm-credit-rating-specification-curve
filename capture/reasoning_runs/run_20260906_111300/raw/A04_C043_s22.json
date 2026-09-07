@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"BB-\",\n  \"confidence\": 3,\n  \"rationale\": \"Current ratio below 1 indicates liquidity stress; high debt-to-equity of 2.87x and low EBIT margin of 3.75% increase risk.\"\n}",
+ "reasoning_tail": "Current assets 20.7B, liabilities 21.2B, so if they can convert assets, but ratio <1 means not immediately cover.\n\nBut it might roll over debt.\n\nFor credit rating, it's a concern.\n\nI'll choose B+.\n\nRating grades:\n\nB+ : Highly speculative; major ongoing uncertainty or exposure to adverse conditions.\n\nBB- : Less vulnerability than B+ but still significant uncertainty.\n\nEBIT at 948M on revenue 25B, retained earnings 8.8B, so it has some buffer.\n\nPerhaps BB-.\n\nBut current ratio is key for short-term rating, but overall rating considers both.\n\nI think it's difficult.\n\nPerhaps the rating is BB.\n\nNo, let' s see the scale again.\n\nAAA to C.\n\nAnother metric: net worth 15.5B, which is substantial, so in case of trouble, it has assets.\n\nBut with liabilities 44.5B, net assets 15.5B, so solvency is there.\n\nLiquidity pressure.\n\nI think for long-term rating, it might be BB or BB-.\n\nI recall that for companies with current ratio below 1, ratings can be downgraded to B or CCC if severe.\n\nHere it's 0.97, close to 1, so not extreme.\n\nI'll go with BB-.\n\nRationale: High leverage and tight liquidity, but operating profitability.\n\nConfidence 3.\n\nOr B+ for higher risk.\n\nI think BB- is reasonable.\n\nBut let's check the retained earnings: 8,777M, which is high, indicating strong cumulative profits.\n\nThus, despite low current margin, it may have resilience.\n\nCurrent EBIT 948M.\n\nBut the negative working capital is an issue.\n\nPerhaps the company has strong revenue to cover.\n\nI think BB- .\n\nFinal decision.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 4455,
+ "usd": 0.009899,
+ "utc": "2026-09-06T19:59:32.381524+00:00"
+}

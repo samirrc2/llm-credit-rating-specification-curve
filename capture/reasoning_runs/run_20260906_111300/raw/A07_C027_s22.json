@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits weak liquidity with a current ratio of 1.18, indicating potential difficulty in meeting short-term obligations, and high leverage with a debt-to-equity ratio of approximately 1.86. Additionally, the Altman Z-score of approximately 0.676 suggests high financial distress risk, supported by low return on assets (1.41%) despite a strong EBIT margin (23.6%), pointing to inefficiency or capital intensity.\n\nDECISION: CCC",
+ "reasoning_tail": "8M\n\nWC/TA = 808 / 40,898 = 0.01976\n\nRE/TA = 6,514 / 40,898 = 0.1593\n\nEBIT/TA = 577 / 40,898 = 0.01411\n\nMVE/BVL: using equity book value 14,298 / liabilities 26,603 = 0.5376\n\nSales/TA = 2,444 / 40,898 = 0.05976\n\nZ = 1.2*0.01976 = 0.023712\n\n1.4*0.1593 = 0.22302\n\n3.3*0.01411 = 0.046563\n\n0.6*0.5376 = 0.32256\n\n1.0*0.05976 = 0.05976\n\nSum: 0.023712 + 0.22302 = 0.246732\n\n+0.046563 = 0.293295\n\n+0.32256 = 0.615855\n\n+0.05976 = 0.675615 \u2248 0.676\n\nYes.\n\nFor non-manufacturing, Altman has different coefficients, but I think it's similar.\n\nSo high risk of bankruptcy.\n\nTherefore, credit rating should be low.\n\nI think CCC or CC.\n\nBut CC is for highly vulnerable, near default.\n\nHere EBIT is positive, retained earnings high, so not near default.\n\nCCC is currently vulnerable, default is a possibility.\n\nSo CCC.\n\nBut which one: CCC+, CCC, or CCC-?\n\nThe scale has CCC+, CCC, CCC-.\n\nWith current ratio above 1, they are not illiquid yet.\n\nSo perhaps CCC+.\n\nBut let's see if there's a better way.\n\nPerhaps assign based on the ratios.\n\nI recall that for S&P, a company with interest coverage below 1.5 might be CCC or B, depending on other factors.\n\nHere estimated coverage is around 1, so CCC.\n\nDebt-to-equity 1.86 is high.\n\nCurrent ratio 1.18 is low.\n\nSo I think CCC+ or CCC.\n\nI'll go with CCC.\n\nBut let's see the retained earnings: 6,514M is large, which could be a buffer.\n\nBut in Altman, it's included and Z is still low.\n\nPerhaps for rating, it's B- or something.\n\nI think CCC is appropriate.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 5189,
+ "usd": 0.011496,
+ "utc": "2026-09-06T18:40:45.162439+00:00"
+}

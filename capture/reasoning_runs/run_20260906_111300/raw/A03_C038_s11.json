@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial weaknesses, including an extremely high leverage ratio (debt-to-equity of approximately 14.5), poor liquidity with a current ratio well below 1 (0.63), and negative retained earnings indicating accumulated losses. Despite a positive EBIT margin, the operating income is likely insufficient to cover interest expenses given the massive debt burden, suggesting a high near-term default risk. Based on these factors, the issuer falls into the CCC category, reflecting substantial credit risk and vulnerability to adverse business conditions.\n\nDECISION: CCC",
+ "reasoning_tail": "ment grade, which this is not.\n\nBB is non-investment grade but higher quality.\n\nBB+ to BB-.\n\nHere, with current ratio below 1 and leverage so high, it's worse than BB.\n\nB ratings are for more speculative.\n\nB+ to B-.\n\nCCC for vulnerable to default.\n\nGiven the numbers, I think CCC.\n\nSpecifically, since EBIT might not cover interest, and liquidity poor, CCC-.\n\nBut EBIT is positive, so not the lowest.\n\nPerhaps CCC.\n\nI should output the finest granularity I can justify.\n\nReasoning briefly: The company has extremely high leverage, poor liquidity with current ratio below 1, negative retained earnings, and operating income insufficient to cover likely interest expenses, indicating high default risk.\n\nTherefore, rating should be CCC.\n\nBut let's see if it's B or something.\n\nB ratings might have better coverage or liquidity.\n\nFor instance, a B-rated company might have current ratio above 1, leverage lower.\n\nHere, all indicators are bad.\n\nRevenue is 2,738M, EBIT 1,161M, so they are profitable at operating level, but debt is too high.\n\nSo, CCC is reasonable.\n\nPerhaps B-.\n\nI think CCC is safer.\n\nAnother point: shareholders' equity is positive, so not bankrupt.\n\nBut credit rating is about probability of default.\n\nWith these metrics, default probability is high.\n\nSo, I'll go with CCC.\n\nBut which one: CCC+, CCC, CCC-?\n\nThe scale has CCC+, CCC, CCC-.\n\nSince EBIT is positive, perhaps CCC+ or CCC.\n\nBut leverage is extreme.\n\nI think CCC is fine.\n\nTo be precise, let's assign CCC.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 3366,
+ "usd": 0.007508,
+ "utc": "2026-09-06T19:35:26.663643+00:00"
+}

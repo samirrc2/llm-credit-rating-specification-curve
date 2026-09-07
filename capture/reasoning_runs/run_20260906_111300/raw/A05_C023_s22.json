@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity ~6) and tight liquidity (current ratio 1.04) offset strong profitability.\"}",
+ "reasoning_tail": "ue - COGS - operating income? Gross profit = revenue * gross margin = 12,717 * 0.34 = 4,323.78M.\n\nThen operating income = gross profit - operating expenses, so operating expenses = gross profit - operating income = 4,323.78 - 2,359 = 1,964.78M.\n\nNet income 2,540M, which is higher than operating income, so other income must be 2,540 - 2,359 = 181M or something, after tax, but it's messy.\n\nNot important for rating.\n\nI think for credit rating, the key is the ability to pay debt, which depends on cash flow and liquidity.\n\nWith low current ratio, short-term ability is weak.\n\nLong-term, high leverage is risky.\n\nSo, I'll go with B+ or B.\n\nConfidence: 3 out of 5, since no interest expense or debt breakdown.\n\nRationale should be <=25 words.\n\nFinal rating: B+\n\nOr BB-.\n\nLet's decide.\n\nI think B+ is reasonable.\n\nB+ : Highly speculative; major risk exposure to adverse business, financial, or economic conditions.\n\nWith current ratio 1.04, it fits.\n\nBB- : Less vulnerable but still faces major uncertainties.\n\nBut liquidity is tight.\n\nPerhaps B+.\n\nBut let's see the retained earnings: 87,663M, which could be used to cover, but it's not cash.\n\nRetained earnings are not cash; it's accounting. Cash might be low.\n\nCurrent assets include cash, but not specified.\n\nSo, I think B+ is appropriate.\n\nRating: B+\n\nConfidence: 3\n\nRationale: High leverage and tight liquidity offset strong profitability.\n\nWords: \"High leverage and tight liquidity offset strong profitability.\" 7 words.\n\nGood.\n\nIn JSON format.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 267,
+ "out_tok": 4680,
+ "usd": 0.010396,
+ "utc": "2026-09-06T18:18:34.468436+00:00"
+}

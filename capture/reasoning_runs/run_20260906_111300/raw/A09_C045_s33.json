@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Low current ratio (0.53) and high leverage (debt-to-equity 2.67) indicate severe liquidity risk.\"}",
+ "reasoning_tail": "15 + 0.225 = 0.390015\n\n0.390015 + 0.0511 = 0.441115\n\nSo Z-score \u2248 0.44\n\nAltman Z-score:\n\n- Above 3.0: safe\n\n- 1.8 to 3.0: grey area\n\n- Below 1.8: distress\n\nHere, 0.44 is well below 1.8, indicating high distress probability.\n\nTherefore, credit rating should be low, like CCC or B.\n\nSpecifically, Z-score below 1.8 is associated with non-investment grade, and below 1.0 is very high risk.\n\n0.44 is very low.\n\nSo, rating should be B or CCC.\n\nGiven that profitability is good, perhaps B- or CCC+.\n\nBut Z-score is a model, not definitive.\n\nIn this case, it supports a low rating.\n\nRationale: low Z-score indicating distress.\n\nBut I need to choose a label.\n\nI think B- or CCC+.\n\nLet's pick B-.\n\nConfidence 4, since Z-score is low.\n\nRationale: \"Very low Altman Z-score and poor liquidity suggest high default risk.\"\n\nBut I shouldn't rely solely on Z-score; it's just supportive.\n\nBased on the current ratio and leverage.\n\nFinal decision: B\n\nConfidence: 3\n\nRationale: \"Extremely low current ratio of 0.53 and high leverage indicate severe liquidity risk.\"\n\n18 words.\n\nNow for JSON.\n\n{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Low current ratio and high leverage imply high default risk.\"}\n\n20 words.\n\n\"Low current ratio (0.53) and high debt-to-equity (2.67) signal credit weakness.\"\n\n15 words.\n\nYes.\n\nI think B is reasonable.\n\nSome might say BB-, but with current ratio 0.53, it's unlikely.\n\nFor example, companies near bankruptcy have such ratios.\n\nBut net income positive, so not imminent.\n\nHence B.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 3826,
+ "usd": 0.00853,
+ "utc": "2026-09-06T20:10:47.473972+00:00"
+}

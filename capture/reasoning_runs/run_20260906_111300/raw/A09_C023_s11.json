@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage (D/E ~6) and weak liquidity (current ratio 1.04) suggest elevated credit risk despite solid profitability.\"}",
+ "reasoning_tail": "nt liabilities 38,980M.\n\nSo net working capital = CA - CL = 40,596 - 38,980 = 1,616M, which is positive but slim.\n\nFor liquidity crisis, it's tight.\n\nI think this company is at risk of default if there is a downturn.\n\nRating could be in the B range.\n\nSince it's profitable, B+ perhaps.\n\nLook at the scale.\n\nI recall that CCC ratings are for companies vulnerable to default, CC for very high risk, C for imminent.\n\nWith current ratio 1.04, it's far from imminent default if profitable.\n\nBut with high leverage, debt payments could be an issue.\n\noperating income 2,359M, let's say if interest expense is 500M, coverage is  4.7, good;   or 1,000M, bad.\n\nNo data, so I have to go with the numbers.\n\nPerhaps the company is Apple or similar, but I think not.\n\nFor Apple, D/E is low, liquidity high.\n\nHere, not.\n\nAnother idea: retained earnings 87,663M is large, so it can cover, but it\u2019s not cash.\n\nI think assign BB-, speculative, moderate risk.\n\nOr B+.\n\nI'll go with BB- or B+.\n\nChoose BB- as it's below investment grade.\n\nRationale: \"Very high leverage and thin liquidity margin increase default risk.\"\n\nConfidence: 3, medium, as some data missing.\n\nDecision.\n\nLabel: BBB- is lowest investment grade, then BB+, BB, BB-.\n\nBB- is \"non-investment grade speculative\"\n\nI think this qualifies.\n\nBBB- might be possible, but current ratio 1.04 is too low for that.\n\nFor example, companies with current ratio around 1 are rated B or below.\n\nSome have better cash flow.\n\nBut without, I'll say BB-.\n\nFinal answer.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 278,
+ "out_tok": 4294,
+ "usd": 0.009557,
+ "utc": "2026-09-06T18:19:58.015154+00:00"
+}

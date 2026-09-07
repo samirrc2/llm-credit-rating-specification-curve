@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits significant financial weaknesses: liquidity is poor with a current ratio of 0.90 (below 1), indicating insufficient short-term assets to cover liabilities; solvency is weak with high leverage (debt-to-equity ratio of approximately 4.17); and estimated interest coverage is below 1 based on typical interest rates, suggesting EBIT cannot cover interest expenses. These factors indicate high default risk, placing the issuer in the CCC category due to substantial credit risk and vulnerability to non-payment.\n\nDECISION: CCC",
+ "reasoning_tail": "ies are debt-like.\n\nInterest expense \u2248 0.05 * 89,110 = 4,455.5M\n\nEBIT = 3,213M\n\nCoverage ratio = 3,213 / 4,455.5 \u2248 0.72 < 1, so insufficient to cover interest.\n\nThis is critical; the company is not generating enough operating income to pay interest, meaning it must use other sources or borrow more, which is unsustainable.\n\nTherefore, high risk of default.\n\nSo rating should be CCC or lower.\n\nCC is for highly vulnerable, C for imminent default, but EBIT positive, so not imminent.\n\nCCC is appropriate.\n\nNow, within CCC, there are CCC+, CCC, CCC-.\n\nWith EBIT positive but coverage less than 1, it might be CCC.\n\nAlso, current ratio below 1.\n\nRetained earnings high might provide some cushion, but not immediate.\n\nSo I think CCC.\n\nBut let's see if BB- is possible; unlikely.\n\nBB is for less vulnerable, but here it is vulnerable.\n\nPerhaps B+ or B.\n\nB is for high credit risk.\n\nI think CCC is better.\n\nLet's see the decision.\n\nPerhaps I can look at the numbers compared to known companies.\n\nBut I think based on ratios, it's poor.\n\nFinal decision: I think CCC+ or CCC.\n\nBut I need to choose one.\n\nThe valid answers include CCC+, CCC, CCC-.\n\nSince EBIT is positive, not the worst, so CCC+ or CCC.\n\nBut coverage is low.\n\nPerhaps CCC.\n\nI think I'll go with CCC.\n\nReason briefly: The company has poor liquidity with a current ratio below 1 and negative working capital, high leverage with debt-to-equity ratio over 4, and estimated interest coverage below 1, indicating high default risk.\n\nSo rating CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 4781,
+ "usd": 0.010607,
+ "utc": "2026-09-06T17:36:56.898435+00:00"
+}

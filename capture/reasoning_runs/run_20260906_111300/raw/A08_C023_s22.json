@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity ~6), weak liquidity (current ratio 1.04), but solid EBIT margin (18.6%).\"}",
+ "reasoning_tail": ", equity to assets 14.35%, so debt to capital (debt/(debt+equity)) but debt not specified, use liabilities: 111,269 / (111,269 + 18,677) = 111,269 / 129,946 \u2248 0.856 or 86%.\n\nVery high.\n\nFor BB, it might be around 60-70% or higher.\n\nRoughly, BBB: lower leverage, BB: moderate to high leverage, B: high leverage.\n\nAlso, EBIT coverage: for BBB, times interest earned around 4-8x, here unknown.\n\nWith EBIT 2,359M, if interest were 500M, coverage 4.7, ok, but likely higher interest given high debt.\n\nFor example, if long-term debt is 72,289M, at 5%, interest 3,614M, coverage 2,359/3,614\u22480.65, less than 1, which is critical.\n\nEven at lower rates.\n\nSo interest coverage less than 1 if debt is high.\n\nTherefore, likely low rating.\n\nB or CCC.\n\nBut not in default, so above CCC.\n\nSay B- or B+.\n\nBut with retained earnings high, there might be assets to cover.\n\nRetained earnings are not cash; it's accounting.\n\nThe cash might be low.\n\nCurrent assets 40,596M include inventory, receivables, etc.\n\nNot specified.\n\nI think B is reasonable.\n\nSpecific rating.\n\nLet's choose B+ or B.\n\nConfidence medium.\n\nRationale: High leverage and weak liquidity with decent profitability.\n\nNow for the JSON, I need to provide one label.\n\nList: BB+, BB, BB-, B+, B, B-, etc.\n\nBB- is below BB but above B+.\n\nB+ is higher than B.\n\nSince Z-score indicates distress, say B+.\n\nOr B.\n\nI think B is appropriate.\n\nFinal decision.\n\nPerhaps BB- as speculative with moderate risk.\n\nBut with current ratio close to 1, B.\n\nlet's assign B+.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 255,
+ "out_tok": 4360,
+ "usd": 0.009689,
+ "utc": "2026-09-06T18:19:22.989969+00:00"
+}

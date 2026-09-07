@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong operating margin (16%) and profitability, moderate leverage (debt-to-equity ~1.1), adequate liquidity (current ratio 1.39), but limited debt detail.\"}",
+ "reasoning_tail": "ncome = EBT * 0.79, so 1,077 = EBT * 0.79, EBT \u2248 1,363M\n\nThen interest = EBIT - EBT = 1,842 - 1,363 = 479M\n\nCoverage = 1,842 / 479 \u2248 3.85x, still good, above 3x.\n\nSo interest coverage is around 4x, which is solid for BBB or A.\n\nWith operating margin 16%, coverage ~4x, leverage debt-to-equity ~1.1, which is acceptable.\n\nDebt-to-EBITDA: EBITDA not given, but EBIT ~7,368M annualized.\n\nIf I assume depreciation, say, but not given, so use EBIT.\n\nTotal debt unknown; total liabilities include non-debt.\n\nAssume that, say, 70% of liabilities are debt, but arbitrary.\n\nBetter to stick with what I have.\n\nCurrent ratio 1.39 is a slight concern but not critical.\n\nOverall, I think this company is in the lower A or upper BBB range.\n\nSpecifically, I'll go with A- or BBB+.\n\nNow, the scale has A+, A, A-, BBB+, etc.\n\nA- is above BBB+, so A- is better.\n\nA-: Strong capacity, but may be more vulnerable to adverse conditions.\n\nBBB+: Good capacity, adequate protection.\n\nWith strong profitability and size, but moderate leverage and liquidity, I think A- is reasonable.\n\nPerhaps BBB+.\n\nLet's see if there's a way to differentiate.\n\nThe retained earnings are very high, 49,956M, which is almost the entire equity, so the company has low dividend payout or high retention, which is good for credit as it builds equity.\n\nDiluted EPS 0.62, but not helpful.\n\nI think A- is a good fit.\n\nConfidence: I'd say 3, medium, because some key metrics like debt details are missing.\n\nRationale in <=25 words.\n\nFinal decision.\n",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 3440,
+ "usd": 0.007685,
+ "utc": "2026-09-06T17:07:55.308896+00:00"
+}

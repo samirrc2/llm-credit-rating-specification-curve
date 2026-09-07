@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity issues with a current ratio of 0.63, indicating insufficient short-term assets to cover current liabilities, and high leverage with a debt-to-equity ratio of approximately 2.71. Despite a reasonable EBIT margin of 26.9%, the low interest coverage (estimated below 1 based on high liabilities and EBIT) and negative working capital point to high default risk, placing it in the speculative grade with high vulnerability.\n\nDECISION: CCC",
+ "reasoning_tail": "rage = 2,334 / 2,094.99 \u2248 1.114, barely above 1.\n\nBut 1.5% is very low; for a risky company, interest rate is higher.\n\nSay 4%, interest = 5,586.64M, coverage 0.42.\n\nSo interest coverage is poor.\n\nTherefore, I think CCC is reasonable.\n\nPerhaps B-.\n\nBut let's decide.\n\nThe instruction says \"finest granularity you can justify\" and \"reason briefly\".\n\nSo for decision.\n\nI think CCC.\n\nBut CCC+ or CCC-?\n\nZ-score is low, but let's see the ratios.\n\nCurrent ratio 0.63 is very low.\n\nDebt-to-equity 2.71 is high.\n\nEBIT margin 26.9% is good, but not sufficient to offset leverage and liquidity issues.\n\nRevenue growth or other factors not given.\n\nBased on static data, I think CCC.\n\nPerhaps B-.\n\nAnother ratio: cash flow from operations not given, only EBIT.\n\nI think I'll go with CCC.\n\nBut let's see if there's a better fit.\n\nBB- might be too high.\n\nBB ratings typically have current ratio above 1, debt-to-equity lower.\n\nFor example, BB rated companies might have current ratio around 1.2-1.5, debt-to-equity 1-2.\n\nHere, current ratio 0.63 is worse.\n\nB rated might have current ratio below 1 but not as severe.\n\nBut 0.63 is severe.\n\nIn some cases, companies can operate with low current ratios if they have good cash conversion, but here it's given as a concern.\n\nI think CCC is justified.\n\nSo rating: CCC.\n\nBut CCC+, CCC, or CCC-?\n\nSince EBIT is positive and equity is large, perhaps CCC+.\n\nCCC+ is slightly better.\n\nBut current ratio is critically low.\n\nPerhaps CCC.\n\nI think CCC is fine.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 4404,
+ "usd": 0.009782,
+ "utc": "2026-09-06T19:45:58.644806+00:00"
+}

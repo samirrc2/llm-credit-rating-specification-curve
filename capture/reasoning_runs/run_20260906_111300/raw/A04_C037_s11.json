@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Weak liquidity (current ratio 1.00), large negative retained earnings, low ROA (0.58%), high liabilities/EBIT (83).\"}",
+ "reasoning_tail": ", etc.\n\nWith Z-score 0.45, it's very low.\n\nTypically, Z-score below 1.0 is critical, 1.0-1.8 gray area.\n\n0.45 is deep in distress zone.\n\nSo credit rating should be low speculative, like B- or CCC+.\n\nBut CCC+ is for higher vulnerability.\n\nCurrent ratio 1.00 means they can just cover current liabilities, so not immediately defaulting.\n\nEBIT positive, so cash flow might be okay.\n\nBut retained earnings large negative suggests issues.\n\nPerhaps B-.\n\nI think I'll go with B-.\n\nRationale in 25 words.\n\nFinal decision.\n\nPerhaps BB- if we consider the equity, but I think not.\n\nAnother thing: total liabilities 23,463M, shareholders' equity 23,369M, so liabilities slightly exceed equity, but not by much.\n\nBut with low profit, it's risky.\n\nI think B- is appropriate.\n\nConfidence: 3, medium, because some factors missing.\n\nBut I have to choose.\n\nRationale: Weak liquidity, negative retained earnings, low profitability, high leverage.\n\nNow for JSON.\n\n{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Weak liquidity, negative retained earnings, low ROA, high liabilities to EBIT\"}\n\nRationale <=25 words: \"Weak liquidity, negative retained earnings, low profitability, high leverage\" that's 6 words.\n\nOr \"Current ratio 1.00, retained earnings deficit, low EBIT/assets, high liabilities/EBIT\" similar.\n\nBut in the rationale, it should be concise.\n\nNow, the scale has BB-, B+, etc.\n\nB- is one level above CCC+.\n\nI think it's fine.\n\nPerhaps B, but with current ratio 1, B- might be better.\n\nI'll go with that.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 258,
+ "out_tok": 4605,
+ "usd": 0.010227,
+ "utc": "2026-09-06T19:31:47.106579+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided figures, the issuer displays high leverage with a debt-to-equity ratio of approximately 1.18 (total liabilities/shareholders' equity = 61,341/51,940), weak profitability with an EBIT/total assets ratio of about 1.64% (1,863/113,281), and estimated thin interest coverage (assuming an average interest rate of 3% on long-term liabilities, coverage is roughly 1.33x). While the current ratio of 1.53 shows adequate short-term liquidity and high retained earnings to total assets (approximately 53.5%) indicate historical profitability, these are insufficient to offset the significant financial risk from leverage and weak operating efficiency. This suggests a high probability of default, characteristic of a highly speculative grade.\n\nDECISION: B-",
+ "reasoning_tail": "ge below 1.5x.\n\nB ratings coverage 1 to 2x.\n\nBB better.\n\nSo here, estimated coverage ~1.33x if int 3%, so around B or B+.\n\nWith high retained earnings, it might be B+.\n\nBut let's be consistent.\n\nRevenue 11,005, EBIT 1,863, let's see interest from financial expenses, but not given.\n\nPerhaps for the purpose, I'll assign B+.\n\nBut the Z-score is low.\n\nI think I have to decide.\n\nPerhaps the issuer is in a cyclical industry or something.\n\nBut no info.\n\nI'll go with B based on ratios.\n\nFinal decision: B\n\nOr B- to be conservative.\n\nThe scale has B+, B, B-.\n\nI think B is possible.\n\nBut let's see the answer format.\n\nReason step by step briefly.\n\nReason: The issuer demonstrates high leverage with a debt-to-equity ratio of approximately 1.18 and low return on assets around 1.64%. Estimated interest coverage is thin, around 1.33x with a 3% interest rate assumption, indicating high credit risk. High retained earnings provide some stability but do not offset current weak profitability and coverage.\n\nThen DECISION: B\n\nBut to justify granularity, B+ or B-.\n\nWith current ratio 1.53, ok liquidity, so avoid CCC.\n\nSo B or B+.\n\nSay B.\n\nOr from the Z-score, distress, so B- might be more accurate.\n\nDECISION: B-\n\nTo be precise.\n\nAnother thought: the figures resemble a real company. EBIT 1863M on revenue 11005M, assets 113281M.\n\nSearching my knowledge, it might be like a utility or old company.\n\nFor example, Exxon net income, but not sure.\n\nIgnoring that.\n\nI think B- is appropriate.\n\nSo final answer.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 244,
+ "out_tok": 6795,
+ "usd": 0.015015,
+ "utc": "2026-09-06T17:21:57.263415+00:00"
+}

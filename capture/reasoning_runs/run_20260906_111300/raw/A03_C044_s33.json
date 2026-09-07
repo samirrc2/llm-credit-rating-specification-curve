@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial distress with an extremely low current ratio of 0.27, indicating critical liquidity issues and difficulty meeting short-term obligations. Additionally, negative shareholders' equity of -$1,920 million and total liabilities exceeding total assets by $1,920 million signal insolvency, while retained earnings of -$20,476 million reflect significant accumulated losses. Although EBIT of $465 million shows current operating profitability, the leverage and liquidity risks are overwhelming, placing the issuer in the high default risk category.\n\nDECISION: CCC",
+ "reasoning_tail": "urrently vulnerable to nonpayment\".\n\nCCC is for \"currently vulnerable, dependent upon favorable business, financial, and economic conditions to meet financial commitments\".\n\nWith current ratio 0.27, they are currently vulnerable, dependent on rolling over or extending debts.\n\nEBIT positive, so if conditions remain favorable, they might manage.\n\nBut high risk.\n\nI think CCC is appropriate, possibly with minus.\n\nThe choices have CCC+, CCC, CCC-, etc.\n\nGiven the negative equity and low current ratio, I'll go with CCC.\n\nBut let's see if lower.\n\nThe retained earnings are extremely negative, which is another bad sign.\n\nHowever, for credit rating, the immediate concern is default risk.\n\nPerhaps I can output.\n\nReasoning in 1-3 sentences: The company has a critically low current ratio of 0.27, negative shareholders' equity, and total liabilities exceeding total assets, indicating severe financial distress and high default risk. Despite positive EBIT, the leverage and liquidity issues place it in the CCC category.\n\nThen decision.\n\nCCC+, CCC, or CCC-?\n\nSince it's very weak, perhaps CCC-.\n\nCCC- is the lowest CCC rating before CC.\n\nCC is for imminent default in some cases.\n\nI think CCC is fine.\n\nLet's see if there's a way to differentiate.\n\nRevenue to total liabilities: 1,010 / 33,311 \u2248 3%, low.\n\nEBIT to interest: unknown, but likely low.\n\nI think CCC is suitable.\n\nPerhaps BB-, but with negative equity, it's worse.\n\nBB is for less vulnerable; this is definitely not.\n\nSo, I'll go with CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 3252,
+ "usd": 0.007259,
+ "utc": "2026-09-06T20:03:22.518337+00:00"
+}

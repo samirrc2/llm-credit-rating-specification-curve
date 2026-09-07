@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High profitability (30% operating margin) offset by elevated leverage (debt-to-equity ~4.2) and weak liquidity (current ratio 1.27).\"}",
+ "reasoning_tail": "r, but operating income is after depreciation, so EBITDA > operating income.\n\nSuppose depreciation is 10% of revenue, revenue 12,222M, depreciation say 1,222M, then EBITDA = operating income + depreciation = 3,639 + 1,222 = 4,861M quarterly, annual 19,444M.\n\nThen total liabilities to EBITDA = 78,289 / 19,444 \u2248 4.03, still around 4.\n\nFor BBB, it might be acceptable with strong margins.\n\nLiquidity ratio 1.27 is weak.\n\nSo, I think BBB- is possible.\n\nBB+ might be too low given profitability.\n\nLet's see the current ratio: 1.27 is given, and it's calculated, so it's accurate.\n\nIn some industries, lower current ratio is acceptable if the company has good access to credit.\n\nBut here, with high leverage, it might not.\n\nI think BBB- is a reasonable choice.\n\nConfidence: not high, because missing key data like debt and interest.\n\nConfidence 3 out of 5.\n\nRationale: High profitability but high leverage and weak liquidity.\n\nWords: <=25.\n\nSo, \"Strong margins offset by high leverage and low current ratio.\"\n\nDecision: BBB-\n\nNow, for the JSON.\n\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High profitability offset by high leverage and weak liquidity.\"}\n\nRationale must be <=25 words; that's 6 words.\n\nNow, is there a better rating?\n\nPerhaps BBB.\n\nBut I think BBB- is safer.\n\nAA or A is too high with that leverage.\n\nA- might be possible if leverage is manageable, but D/E 4.22 is high.\n\nFor example, Apple's D/E is low, around 1.5 or less.\n\nHere, it's high.\n\nSo, I think BBB-.\n\nFinal decision.\n",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 3984,
+ "usd": 0.008876,
+ "utc": "2026-09-06T18:32:03.201724+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"High operating margins and strong interest coverage offset elevated leverage, supporting investment grade.\"}",
+ "reasoning_tail": "he numbers.\n\nTotal assets 114,935M, liabilities 91,085M, equity 23,793M, yes.\n\nRetained earnings 22,252M, close to equity.\n\nCurrent ratio 1.55.\n\nOperating margin 48%.\n\nHigh margins offset leverage to some extent.\n\nIn practice, companies like this might be rated A or BBB.\n\nFor example, some tech companies have ratings around A.\n\nBut with debt-to-equity 3.83, it's high.\n\nDebt-to-equity of 3.83 means equity is only 20.7% of total capital.\n\nIn credit terms, leverage is high.\n\nSo I think BBB+ is appropriate.\n\nConfidence: 3, since I don't have full details like industry or interest expense.\n\nRationale: \"High profitability offsets elevated leverage, supporting investment grade rating.\"\n\nThat's 7 words.\n\nOr \"Strong margins and interest coverage mitigate high debt, warranting BBB+.\"\n\nBut I need to be concise.\n\nFinal decision: BBB+\n\nConfidence: 4? Or 3.\n\nI think 3 for moderate confidence.\n\nSince I estimated interest coverage, it might be okay.\n\nPerhaps A-.\n\nAnother thought: the company has $62,071M in current assets and $40,141M current liabilities, so net working capital is positive, $21,930M, which is good.\n\nBut long-term debt might be high.\n\nI think BBB+ is fine.\n\nSo, decision: BBB+\n\nConfidence: 3\n\nRationale: \"High operating margins and good interest coverage balance high leverage, indicating stable credit quality.\"\n\nCount words: High, operating, margins, and, good, interest, coverage, balance, high, leverage, indicating, stable, credit, quality. 14 words.\n\nUnder 25.\n\nNow for JSON.\n",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 3773,
+ "usd": 0.008415,
+ "utc": "2026-09-06T16:32:33.753077+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB+\", \"confidence\": 3, \"rationale\": \"Low interest coverage (~1.55) indicates high default risk, partially offset by low leverage (D/E ~0.74) and strong liquidity (current ratio 1.92).\"}",
+ "reasoning_tail": "BB+ or BB.\n\nConfidence: not high because of estimates.\n\nThe information is as of fiscal year 2025 Q4, filed 2026-02-24.\n\nGeneral knowledge predating most recent fiscal year, so up to 2025.\n\nBut for ratios, it's fine.\n\nPerhaps assign BB+.\n\nBut let's see if there's another way.\n\nRetained earnings 29,765M, which is high, so the company has a buffer.\n\nBut for debt service, earnings matter.\n\nI think based on coverage, it should be speculative grade.\n\nSo possible rating: BB+\n\nOr BB.\n\nNow, the scale has BB+, BB, BB-.\n\nWith current ratio 1.92, good liquidity, so not the lowest.\n\nSo BB+.\n\nBut let's see the rationale.\n\nFinal decision.\n\nPerhaps I can look at the equity market, but not given.\n\nI think I'll go with BB+.\n\nBut let's see the answer format.\n\nRationale in <=25 words.\n\nConfidence 1-5.\n\nConfidence: I used estimated coverage, so confidence not high, say 2 or 3.\n\nSince I had to assume tax rate, confidence 3.\n\nNow, rating: let's say BB+\n\nRationale: Low interest coverage and moderate leverage indicate speculative grade.\n\nBut leverage is low, coverage poor.\n\nSo \"Speculative grade due to low interest coverage despite high margins.\"\n\n<=25 words.\n\n\"Low interest coverage ratio suggests high default risk, offset by low leverage.\"\n\nBut coverage is key.\n\nI think BB+ is appropriate.\n\nSome might argue BBB- if leverage is low.\n\nBut coverage below 2 is typically non-investment grade.\n\nFor example, companies with coverage below 2 are often rated BB or lower.\n\nSo I'll go with BB+.\n\nFinal answer.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 5658,
+ "usd": 0.012541,
+ "utc": "2026-09-06T16:59:30.375090+00:00"
+}

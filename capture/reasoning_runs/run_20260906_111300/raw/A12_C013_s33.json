@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Moderate debt (debt/equity ~1.18), good liquidity (current ratio 1.53), but weak revenue/assets ratio.\"}",
+ "reasoning_tail": "As a credit rating analyst, I need to assess this company's financial health based solely on the provided data and assign a letter rating using the 21-grade scale.\n\nFirst, I'll calculate key financial metrics:\n- Debt-to-Equity Ratio is Total Liabilities (61,341M) divided by Shareholders' Equity (51,940M) \u2248 1.18\n- Current Ratio is given as 1.53, which seems healthy\n- Interest Coverage Ratio is EBIT (1,863M) divided by interest expense \u2013 but interest expense isn't provided\n\nLooking at other aspects:\n- Retained Earnings are strong at 60,632M\n- Revenue is 11,005M while EBIT is 1,863M, indicating decent profitability\n- Negative signs: Debt-to-Equity over 1 shows more debt than equity, and Revenue seems low relative to Total Assets (113,281M)\n\nComparing to typical investment grade thresholds:\n- Debt/Equity <1 is ideal - here it's 1.18 (moderate risk)\n- Current Ratio >1.5 is good\n- Missing Interest Coverage calculation without interest expense data\n\nMy assessment:\nThe company shows moderate leverage and decent liquidity, but with modest revenue scaling relative to asset base. This points to a lower-medium investment grade rating. Among BBB tiers, BBB seems most fitting considering the mixed indicators.\n\nConfidence level 3 because:\n- We can't calculate critical Interest Coverage\n- Revenue-to-Asset ratio appears low\n- But Retained Earnings provide substantial cushion\n\nFinal decision: BBB rating as it represents adequate capacity to meet obligations with moderate economic sensitivity.\n",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 264,
+ "out_tok": 396,
+ "usd": 0.001012,
+ "utc": "2026-09-06T17:18:34.721488+00:00"
+}

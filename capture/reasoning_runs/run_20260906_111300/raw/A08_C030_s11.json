@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 2, \"rationale\": \"High leverage (debt/equity 1.45), low EBIT/assets (1.39%), and estimated interest coverage below 1 indicate severe vulnerability.\"}",
+ "reasoning_tail": " below 1.\n\nSo CCC.\n\nBut let's choose.\n\nFinal decision: I think CCC+ with low confidence.\n\nConfidence: since I have to estimate, confidence is low, say 2 or 3.\n\nRationale in <=25 words.\n\nThe JSON should have decision, confidence, rationale.\n\nDecision: CCC+\n\nConfidence: 2\n\nRationale: High leverage, low EBIT/assets, weak interest coverage estimated.\n\nRationale must be <=25 words.\n\n\"High debt, low profitability, poor coverage suggest vulnerability.\"\n\nWords: 5.\n\nOr \"Weak solvency with high debt-to-equity and low EBIT coverage indicates high credit risk.\"\n\nBut EBIT coverage not calculated.\n\n\"Based on low Altman Z-score and estimated interest coverage below 1, rating is CCC+.\"\n\nBut Altman not standard for rating.\n\nI think for simplicity, \"High leverage and low profitability imply speculative grade with vulnerability, CCC+.\"\n\nBut let's see if AA or something, but no, ratios are poor.\n\nAnother thing: the current ratio is 2.29, which is good, but not sufficient.\n\nShareholders' equity is 18,899M, retained earnings 1,385M, so equity is reasonable.\n\nBut debt high.\n\nI think CCC+ is appropriate.\n\nPerhaps B-.\n\nLet's compare to typical ratios.\n\nSuppose for BBB, debt/EBITDA around 3-4, coverage 3-4.\n\nHere debt/EBIT ~33, coverage <1, so much worse.\n\nFor B, debt/EBITDA might be 6-8, coverage 1.5-2.\n\nHere debt/EBIT 33, coverage <1, so worse than B.\n\nFor CCC, debt/EBITDA 10+ or coverage below 1.5.\n\nHere coverage below 1, so CCC.\n\nCCC+ or CCC.\n\nSince not imminent default, CCC+.\n\nI think that's it.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4874,
+ "usd": 0.010812,
+ "utc": "2026-09-06T18:58:11.076903+00:00"
+}

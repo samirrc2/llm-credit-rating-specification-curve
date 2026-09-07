@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity risk with a current ratio of 0.68, indicating inability to cover short-term obligations, and negative working capital (-3,015M). While leverage is moderate (debt-to-equity ratio of 0.79) and EBIT margin is high (48.0%), low asset turnover (6.86%) and a distressed Altman Z-score (approximately 1.45) suggest high financial risk, warranting a speculative grade rating.\n\nDECISION: B+",
+ "reasoning_tail": "reason: The issuer has a very weak liquidity position with a current ratio of 0.68, indicating potential difficulty in meeting short-term obligations. While leverage is moderate and profitability margins are high, the low asset turnover and negative working capital contribute to financial distress, as indicated by an Altman Z-score of approximately 1.45.\n\nTherefore, a speculative grade rating is assigned.\n\nFor granularity, B+ or B.\n\nBut retained earnings are high, which might provide some buffer, but it's not liquid.\n\nSo perhaps B+.\n\nLet's check the numbers again.\n\nCurrent assets 6,320M, current liabilities 9,335M, so a shortfall of 3,015M.\n\nEBIT 2,002M, so if the company can generate cash, it might cover, but it's annual, so monthly or quarterly, it might not be sufficient.\n\nAlso, revenue is 4,171M, so EBIT 2,002M, but operating cash flow might be similar, but not given.\n\nI think B+ is reasonable.\n\nOr BB-.\n\nBut Z-score 1.45 suggests B.\n\nIn Altman, Z < 1.8 is distress, and B rating is for highly speculative.\n\nCCC is for substantial risk.\n\nHere Z=1.45, not extremely low, so B+ or B.\n\nI'll go with B+.\n\nBut let's see the options: B+ is available.\n\nPerhaps for the rating, the issuer might be in a position to refinance, but no information.\n\nSo based on data, DECISION: B+\n\nReason: Low current ratio and negative working capital indicate severe liquidity risk, while moderate leverage and high EBIT margin are offset by low asset efficiency, leading to a distressed financial position.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 5038,
+ "usd": 0.011166,
+ "utc": "2026-09-06T18:08:44.608426+00:00"
+}

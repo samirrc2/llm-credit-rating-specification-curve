@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Severe liquidity crisis with current ratio 0.27 and negative equity, despite strong margins and net income.\"}",
+ "reasoning_tail": "s: if tax rate 21%, then pre-tax income should be around net income / (1-0.21) = 151 / 0.79 \u2248 191M, but operating income is before interest and tax.\n\nEBIT 465M.\n\nThen EBT: EBIT minus interest.\n\nNet income: 151M.\n\nSo, EBT = net income / (1-t), let's assume tax rate 21%, so EBT \u2248 151 / 0.79 \u2248 191.14M\n\nThen, interest expense = EBIT - EBT = 465 - 191.14 \u2248 273.86M\n\nSo interest coverage ratio: EBIT/Interest = 465 / 273.86 \u2248 1.70\n\nThat's very low. Coverage ratio of 1.70 means they barely cover interest payments.\n\nA coverage ratio below 2 is considered high risk, often in B or CCC territory.\n\nWith liquidity ratio 0.27, even worse.\n\nSo, for credit rating, companies with interest coverage below 2 are often rated B or lower.\n\nAlso, leverage: total liabilities/ assets = 33,311 / 31,391 \u2248 1.06, but since equity negative, debt to capital is infinite.\n\nIn practice, such metrics point to B or CCC rating.\n\nNow, current ratio 0.27 is abysmal.\n\nFinal decision: I think it's in the CCC range.\n\nBut with operating margin strong, perhaps CCC+ or CCC.\n\nThe scale has CCC+, CCC, CCC-.\n\nAlso, confidence: I have key metrics, so confidence 3 or 4.\n\nRationale must be short.\n\n\"Highly leveraged, negative equity, weak liquidity, but profitable operations.\"\n\nRating: let's say CCC+.\n\nI think CCC might be better with such low current ratio.\n\nIn some cases, a current ratio below 0.5 can lead to D rating if default is likely, but here net income positive.\n\nPerhaps B- or CCC+.\n\nI'll go with CCC.\n\nBut let's choose.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 2737,
+ "usd": 0.006144,
+ "utc": "2026-09-06T20:01:54.554043+00:00"
+}

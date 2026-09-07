@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided information, the issuer exhibits strong liquidity with a current ratio of 2.29, indicating good short-term financial health. However, the low EBIT relative to total assets (approximately 1.39%) and implied weak interest coverage (EBIT is insufficient to cover estimated interest expenses given high liabilities) suggest significant profitability issues and high credit risk. The retained earnings are positive but low relative to equity, further indicating underlying financial weakness.\n\nDECISION: CCC+",
+ "reasoning_tail": "nerating enough operating income to cover interest, which is very bad for creditworthiness.\n\nNet income would be negative after interest.\n\nRetained earnings are positive, so perhaps in the past it was profitable, but current year EBIT is low.\n\nEBIT 811M on revenue 5,633M, but if interest is high, net loss.\n\nWith coverage ratio below 1, the rating should be very low, CCC or C.\n\nBut the current ratio is good, so it can pay short-term debts, but long-term debt service is at risk.\n\nFor example, if it has cash or assets to cover, but with low profitability, it's risky.\n\nSo likely CCC or B-.\n\nBut let's see the scale.\n\nCCC: currently vulnerable\n\nC: highly vulnerable, bankruptcy possible.\n\nWith current ratio 2.29, not immediately bankrupt, but operating losses.\n\nSo perhaps CCC+ or CCC.\n\nBut I think for the rating, based on the information, the issuer has weak earnings relative to liabilities.\n\nSo I'll go with CCC+ or something.\n\nBut let's confirm the numbers.\n\nPerhaps EBIT is not the full picture; maybe there are other income, but not given.\n\nI think I have to decide.\n\nFinal decision.\n\nReason: The company has strong liquidity with a current ratio of 2.29, but very weak interest coverage implied by high liabilities and low EBIT, suggesting difficulty in meeting debt obligations.\n\nRating: CCC+\n\nBut CCC+ is on the scale.\n\nValid answers include CCC+.\n\nPerhaps B-.\n\nBut with coverage below 1, it's poor.\n\nIn practice, if coverage is below 1, rating is often CCC or lower.\n\nBut let's output.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 247,
+ "out_tok": 7071,
+ "usd": 0.015621,
+ "utc": "2026-09-06T18:56:58.689946+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt/equity >10) and critically low current ratio (0.42) indicate severe liquidity risk.\"}",
+ "reasoning_tail": "payment\n\nWith current ratio 0.42, it is currently vulnerable, so CCC.\n\nBut net income positive, so perhaps B- or CCC+.\n\nCCC+ is \"Currently vulnerable, dependent upon favorable business, financial, and economic conditions to meet financial commitments.\"\n\nThat seems fitting.\n\nB- is \"More vulnerable to adverse business conditions but currently has capacity to meet financial commitments.\"\n\nWith such low liquidity, it may not have capacity to meet current commitments without refinancing.\n\nSo CCC+ might be appropriate.\n\nConfidence: 3 out of 5, since I have limited data.\n\nRationale in 25 words.\n\nFinal decision.\n\nPerhaps I can calculate quick ratio, but I don't have inventory or receivables breakdown.\n\nCurrent assets include cash, receivables, inventory, etc., but not specified.\n\nSo I have to use current ratio.\n\nAnother ratio: cash ratio, but no cash given.\n\nSo current ratio is key.\n\nLeverage is high.\n\nSo I think CCC+ or B-.\n\nLet's choose CCC+.\n\nBut let's see if there's a better fit.\n\nThe operating margin is 25%, which is strong, so it might generate cash, but with the liquidity gap, it's risky.\n\nIn the rationale, I can say high leverage and very low liquidity.\n\nNow for the JSON output.\n\nDecision: CCC+\n\nConfidence: 3\n\nRationale: \"Extremely high leverage and critically low current ratio indicate severe liquidity risk.\"\n\nThat's 10 words.\n\nUnder 25.\n\n\"High leverage (debt/equity >10) and low current ratio (0.42) suggest high default risk.\" 11 words.\n\nYes.\n\nSo I think CCC+ is reasonable.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 282,
+ "out_tok": 4109,
+ "usd": 0.009154,
+ "utc": "2026-09-06T19:20:08.795958+00:00"
+}

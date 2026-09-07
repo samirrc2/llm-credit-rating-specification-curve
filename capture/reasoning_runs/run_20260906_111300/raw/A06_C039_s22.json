@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely high leverage with a debt-to-equity ratio of approximately 13.48 (total liabilities of $1,684,348M divided by shareholders' equity of $124,972M), indicating severe financial risk. Additionally, the current ratio of 0.83 (current assets of $1,018,577M versus current liabilities of $1,226,809M) shows poor liquidity and an inability to cover short-term obligations, heightening default vulnerability. Despite solid profitability metrics like a 19% operating margin and positive net income of $4,617M, the combination of excessive leverage and weak liquidity places the issuer in the high-risk speculative grade.\n\nDECISION: CCC+",
+ "reasoning_tail": " assets: 1,809,320M\n\nTotal liabilities: 1,684,348M\n\nEquity: 124,972M\n\nDebt-to-equity: 1,684,348 / 124,972 = 13.48, yes.\n\nCurrent assets: 1,018,577M\n\nCurrent liabilities: 1,226,809M\n\nCurrent ratio: 1,018,577 / 1,226,809 = 0.83, yes.\n\nNet income: 4,617M, positive.\n\nBut with high liabilities, interest expense could be high.\n\nAssume interest rate, say 5% on liabilities, but not all liabilities are debt; liabilities include accounts payable, deferred revenue, etc.\n\nFor example, current liabilities might include short-term debt, accounts payable, etc.\n\nBut we don't have breakdown.\n\nSimilarly, total liabilities include long-term debt, etc.\n\nIn credit rating, net debt to EBITDA is used, but not provided.\n\nGiven the information, the leverage and liquidity are poor.\n\nI think the rating should be CCC+.\n\nPerhaps for a large company, it might be higher, but the numbers speak for themselves.\n\nAnother idea: this might be a company like AT&T or with high debt, but AT&T has debt-to-equity around 1-2, not 13.\n\nAT&T has high debt but equity is positive.\n\nFor example, AT&T total liabilities $300B, equity $120B, ratio 2.5, rated BBB or so.\n\nHere ratio 13.5, much worse.\n\nSo, likely non-investment grade with high risk.\n\nTherefore, I'll go with CCC+.\n\nBut let's see if it fits.\n\nCCC+ : Substantial credit risk, vulnerability to adverse business conditions.\n\nYes.\n\nB- : Highly speculative, but less risk than CCC.\n\nWith current ratio <1, it's more vulnerable.\n\nSo CCC+ seems appropriate.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 4200,
+ "usd": 0.009343,
+ "utc": "2026-09-06T19:42:10.466546+00:00"
+}

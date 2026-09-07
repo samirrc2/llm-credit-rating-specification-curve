@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits significant financial weaknesses, including a current ratio below 1 (0.94), indicating poor short-term liquidity and potential difficulty meeting immediate obligations. Leverage is high, with total liabilities to EBIT at approximately 107x, suggesting unsustainable debt levels relative to operating income, and profitability metrics like EBIT margin (9.3%) and return on assets (0.54%) are weak. These factors, combined with an implied interest coverage ratio likely below 1 (due to low EBIT and high liabilities), place the company in a highly vulnerable position, dependent on favorable conditions to avoid distress.\n\nDECISION: CCC",
+ "reasoning_tail": "ssets.\n\nCurrent assets are only 8,827M, less than current liabilities 9,428M, so net working capital negative.\n\nSo, likely, they have cash flow problems.\n\nTherefore, I think CCC is appropriate.\n\nCCC: Currently vulnerable, and dependent on favorable conditions to meet financial commitments.\n\nYes.\n\nCould be B, but B is more for companies that are vulnerable but not immediately distressed.\n\nHere, current ratio <1 suggests immediate distress.\n\nSo, CCC+ or CCC.\n\nThe scale has CCC+, CCC, CCC-.\n\nWith EBIT positive, perhaps CCC+.\n\nBut coverage is poor.\n\nRevenue is 5,013M, which for a company with 86B in assets seems small, but it might be normal for some industries.\n\nBut overall, I think CCC.\n\nLet's see if there's any positive.\n\nShareholders' equity is substantial, 36B, so they have a buffer.\n\nBut with negative working capital, it's tight.\n\nRetained earnings high, but again, not liquid.\n\nSo, I think speculative grade with high risk.\n\nFinal decision: I'll go with CCC.\n\nBut let's confirm the rating scale: from AAA to C.\n\nCCC is within options.\n\nPerhaps BB-, but I think that's too high given the ratios.\n\nBB ratings might have current ratio above 1, better coverage.\n\nFor example, BB typically has debt/EBITDA 4-6x or so, here implied much higher.\n\nSo, CCC.\n\nThen, CCC+ or CCC.\n\nI think CCC is fine.\n\nThe finest granularity I can justify.\n\nWith current ratio <1, it's a strong signal.\n\nSo, DECISION: CCC\n\nBut let's see the output format.\n\nReason briefly: 1-3 sentences.\n\nThen DECISION: <label>\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 4204,
+ "usd": 0.009344,
+ "utc": "2026-09-06T18:25:41.578121+00:00"
+}

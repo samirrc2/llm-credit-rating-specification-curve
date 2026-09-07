@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Very low current ratio (0.53), high leverage (debt/equity ~3.4), and deeply negative retained earnings indicate severe financial distress and high default risk.\"}",
+ "reasoning_tail": "flag.\n\nIn practice, such ratios indicate severe distress.\n\nFor example, companies in Chapter 11 often have current ratios below 1.\n\nHere it's 0.53, very low.\n\nRetained earnings deeply negative.\n\nSo, I think CCC range.\n\nSpecifically, CCC or CCC-.\n\nBut let's see the EBIT: 1,307M positive, so not yet defaulting.\n\nBut vulnerable.\n\nRevenue is 3,198M, which is substantial, so it's operating.\n\nBut financial structure is weak.\n\nFinal decision: I'll go with CCC.\n\nConfidence: Since I have to estimate interest, confidence might be medium, say 3.\n\nRationale: Very low liquidity, high leverage, negative retained earnings indicate high default risk.\n\nWithin 25 words.\n\n\"Low current ratio, high debt, negative retained earnings imply severe financial distress and high default probability.\"\n\nNow, for confidence: I have most ratios, but missing interest expense, so not full picture. Confidence 3 out of 5.\n\nRating: CCC or B.\n\nLet's see the options: CCC+, CCC, CCC-, etc.\n\nI think CCC is fine.\n\nPerhaps CCC-.\n\nBut I think CCC is appropriate.\n\nAnother thing: shareholders' equity is positive, so not insolvent yet.\n\nBut credit rating is about debt repayment.\n\nTotal liabilities 43,578M vs EBIT 1,307M, so debt/EBIT ratio: 43,578 / 1,307 \u2248 33.3, which is very high. Healthy is below 3-4.\n\nSo, extremely leveraged.\n\nThus, CCC rating.\n\nI think B is too high; B is for less vulnerable.\n\nBB is speculative but less immediate risk.\n\nHere, with current ratio 0.53, immediate liquidity risk.\n\nSo, CCC.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 2948,
+ "usd": 0.006599,
+ "utc": "2026-09-06T19:15:08.276971+00:00"
+}

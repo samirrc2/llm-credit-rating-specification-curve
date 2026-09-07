@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity ~2.74) and poor liquidity (current ratio 0.79) indicate speculative grade despite strong profitability.\"}",
+ "reasoning_tail": "BB+ or BB.\n\nI think BB is fine.\n\nBut let's see if I can justify finer.\n\nThe rationale must be <=25 words.\n\nFinal decision.\n\nPerhaps BBB- if I overlook liquidity, but I think liquidity is critical.\n\nIn some industries, low current ratio is common, like retail, but here gross margin 53% is high, so not low-margin business.\n\nOperating margin 19% is good.\n\nBut current ratio 0.79 is problematic.\n\nPerhaps it's a temporary situation.\n\nBut based on the snapshot, I have to assign.\n\nAnother point: retained earnings 8,995M, which is part of equity, but not liquid.\n\nI think I should go with BB.\n\nBut which one? BB+, BB, BB-.\n\nWith debt-to-equity 2.74, it's high, but not extreme.\n\nFor example, some companies have higher.\n\nCurrent ratio very low.\n\nPerhaps BB-.\n\nBut let's see the numbers.\n\nTotal liabilities / EBITDA or something, but no EBITDA.\n\nOperating income 749M, which is similar to EBITDA if no depreciation.\n\nBut not given.\n\nI think BB is appropriate.\n\nConfidence: 3, medium.\n\nRationale: High leverage and poor liquidity indicate speculative grade.\n\nWithin 25 words.\n\nNow, for the JSON.\n\nDecision: BB\n\nBut let's confirm the scale: BB+, BB, BB- are options.\n\nPerhaps BB.\n\nOr BBB-.\n\nI recall that for credit ratings, liquidity is a key factor.\n\nFor example, S&P criteria: current ratio below 1.0 often leads to non-investment grade if persistent.\n\nHere, it's given as of the fiscal year.\n\nAlso, the company has filed this, so it's known.\n\nPerhaps it's BB+.\n\nI think I'll go with BB.\n\nFinal answer.\n",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 2932,
+ "usd": 0.00657,
+ "utc": "2026-09-06T19:24:17.759144+00:00"
+}

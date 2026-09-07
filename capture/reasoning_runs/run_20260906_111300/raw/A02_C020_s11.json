@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits high leverage with a debt-to-equity ratio of approximately 2.86 (total liabilities / shareholders' equity = 298,517 / 104,460), weak interest coverage estimated around 2.45 (based on EBIT of 5,004M and implied interest expense), and poor liquidity with a current ratio of 0.91 below 1, indicating significant short-term refinancing risk despite solid gross margins and profitability. These factors align with a highly speculative credit profile.\n\nDECISION: B+",
+ "reasoning_tail": "age can be below 2.5, but not always.\n\nCurrent ratio 0.91.\n\nAlso, quick ratio: assume all current assets are liquid except inventory, but I don't have inventory.\n\nGross margin 80%, so cost of goods sold is 20% of revenue, COGS = revenue * (1 - gross margin) = 36,381 * 0.2 = 7,276.2 million.\n\nInventory turnover: not known.\n\nBut roughly, quick assets = current assets - inventory.\n\nBut I don't have inventory, so I can't calculate quick ratio.\n\nProbably low as well.\n\nSo I think the rating should be B+ or B.\n\nB+ is \"highly speculative\" but better than B.\n\nSince the company is large and has retained earnings, B+ might be appropriate.\n\nBB- is \"speculative\" with \"moderate security.\"\n\nBut coverage 2.45 is low for BB-.\n\nBB- typically has coverage above 3.\n\nFor example, S&P rating criteria: for BB, interest coverage around 3-4, for B, 2-3.\n\nApproximately.\n\nWith 2.45, it's in the B range.\n\nCurrent ratio below 1 also points to B.\n\nSo I think B+.\n\nB+ is one grade above B.\n\nOr B.\n\nBut let's see the decision.\n\nPerhaps BB- with a stretch.\n\nI think B+ is more justified.\n\nFinal decision.\n\nReason: High leverage with debt-to-equity ratio of approximately 2.86, weak interest coverage estimated around 2.45, and poor liquidity with current ratio of 0.91 below 1, indicating significant credit risk despite profitability.\n\nRating: B+\n\nB+ is \"highly speculative\" but the company has net income, so it can service debt, but with difficulty.\n\nCCC is for vulnerable, which might not be the case here.\n\nSo B+.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 4782,
+ "usd": 0.010617,
+ "utc": "2026-09-06T17:59:29.031529+00:00"
+}

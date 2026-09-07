@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Extremely low current ratio (0.35) and high leverage (debt/equity ~8.1) indicate liquidity risk despite strong profitability and margins.\"}",
+ "reasoning_tail": "I have to make a call.\n\nPerhaps A- or something, but that seems too high with such leverage.\n\nNo, profitability is good, but leverage and liquidity are poor.\n\nFor example, a company with high margins but high debt might be BB.\n\nBut current ratio 0.35 is a killer.\n\nPerhaps it's a mistake, but I have to use the given number.\n\nMaybe for this industry, it's normal, but with general knowledge, it's not.\n\nGeneral knowledge predating 2026, so as of 2025, industries haven't changed.\n\nIn most industries, current ratio below 1 is bad.\n\nSo I think rating should be B+ or B.\n\nLet's decide.\n\nI'll go with B+.\n\nConfidence 3, since I estimated interest coverage.\n\nRationale: \"High leverage, low liquidity, strong profitability but current ratio 0.35 indicates high risk.\"\n\nWithin 25 words.\n\n\"High debt, poor liquidity, good margins, but current ratio 0.35 suggests speculative grade.\"\n\nFor rating, B+.\n\nB+ is \"Highly speculative\" on the scale.\n\nCCC+ is \"Currently vulnerable\", which might be too severe.\n\nSince they are profitable, B+.\n\nAnother thought: the current liabilities might include short-term debt that can be rolled over, but with high leverage, it's risky.\n\nI think B+ is reasonable.\n\nPerhaps BB-.\n\nBut I think B+.\n\nLet's see the scale: AAA to C.\n\nI think for this, B+.\n\nFinal decision: B+\n\nConfidence: 3, because I had to assume tax rate for coverage.\n\nRationale: \"Extremely low current ratio and high leverage offset strong profitability, indicating high credit risk.\"\n\n20 words.\n\nNow for JSON.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 4375,
+ "usd": 0.009732,
+ "utc": "2026-09-06T19:05:59.946634+00:00"
+}

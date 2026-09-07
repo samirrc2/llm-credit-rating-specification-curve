@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"CCC\",\n  \"confidence\": 3,\n  \"rationale\": \"Current ratio of 0.68 indicates severe liquidity risk, with negative working capital, outweighing strong retained earnings and moderate leverage.\"\n}",
+ "reasoning_tail": "T margin is high, but ROA low.\n\nAnother ratio: net debt to EBITDA, but not enough data.\n\nI think CCC is a choice.\n\nPerhaps B-.\n\nBut let's see the list: BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSince it's not near default, CCC or CCC+.\n\nCCC+ is 20th, CCC is 19th, CCC- is 18th, etc. out of 21.\n\nC is the lowest.\n\nWith positive EBIT, it should be above CC.\n\nSo CCC range.\n\nI think CCC is fine.\n\nBut let's check if there's a better way.\n\nPerhaps calculate interest coverage if I assume interest.\n\nFor example, if total liabilities include debt, but not all liabilities are interest-bearing.\n\nCurrent liabilities might have short-term debt, long-term liabilities have long-term debt.\n\nLong-term liabilities = total liabilities - current liabilities = 24,587 - 9,335 = 15,252M\n\nAssume that all long-term liabilities are debt, and current liabilities include some debt.\n\nBut not specified.\n\nSuppose that interest-bearing debt is, say, half of total liabilities or something, but arbitrary.\n\nAssume total debt is long-term liabilities 15,252M, and if interest rate 5%, interest expense 762.6M, EBIT 2,002M, coverage ratio 2.63, which is above 2, so okay for lower investment grade, but liquidity issue dominates.\n\nWith current ratio low, it might not matter.\n\nI think for rating, the liquidity is a critical short-term factor.\n\nSo, I'll go with CCC.\n\nConfidence 3.\n\nRationale: \"Extremely low current ratio and negative working capital suggest high default risk.\"\n\nWithin 25 words.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 4748,
+ "usd": 0.010537,
+ "utc": "2026-09-06T18:09:09.316769+00:00"
+}

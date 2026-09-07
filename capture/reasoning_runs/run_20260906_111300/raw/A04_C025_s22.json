@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity 2.47), low liquidity (current ratio 1.39), zero retained earnings, and weak implied EBIT coverage indicate significant default risk.\"}",
+ "reasoning_tail": "interest coverage below 2, it's often below investment grade, and below 1, it's distressed.\n\nHere, if coverage is around 1, it's distressed.\n\nBut let's assume interest expense is, say, from the liabilities.\n\nSuppose that long-term debt is 30,591M, and short-term debt part of current liabilities.\n\nBut not specified.\n\nAssume that current liabilities include 10,000M short-term debt, for example, but arbitrary.\n\nBetter not.\n\nPerhaps in the context, the retained earnings being zero is key.\n\nI think I should go with B or B-.\n\nLet's choose B.\n\nBut let's see the answer format.\n\nI need to return a JSON with decision, confidence, rationale.\n\nRationale in 25 words or less.\n\nSo, based on high leverage, low liquidity, and weak profitability, rating is B.\n\nConfidence: 3 out of 5, since some data missing.\n\nOr 2.\n\nLet's decide.\n\nPerhaps BB-.\n\nBut I think B is more appropriate.\n\nAnother thought: revenue 9,143M, EBIT 886M, so if interest is high, net income low.\n\nShareholders' equity 21,312M, which includes paid-in capital, not just retained earnings.\n\nBut for credit, debt holders care about ability to pay.\n\nI think B is fair.\n\nLet's go with B.\n\nDecision: B\n\nConfidence: 3\n\nRationale: High leverage, low current ratio, zero retained earnings indicate significant credit risk.\n\nRationale <=25 words: \"High leverage, weak liquidity, no retained earnings, low EBIT coverage imply high default risk.\"\n\nEBIT coverage not calculated, but implied.\n\nIn rationale, I can say based on ratios.\n\nFinal decision.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 256,
+ "out_tok": 4763,
+ "usd": 0.010572,
+ "utc": "2026-09-06T18:27:33.538336+00:00"
+}

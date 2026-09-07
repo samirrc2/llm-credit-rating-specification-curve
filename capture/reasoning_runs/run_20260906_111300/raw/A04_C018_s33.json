@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extreme leverage with debt-to-equity ratio over 26, low current ratio of 1.18, and implied thin interest coverage from minimal EBIT relative to liabilities indicate high default risk.\"}",
+ "reasoning_tail": "e finer, CCC- might be too low since not in default.\n\nWith revenue and assets size, it's a large company, but still.\n\nFinal decision.\n\nI think this could be similar to a highly leveraged company in trouble.\n\nLike some companies rated CCC.\n\nSo I'll go with CCC.\n\nBut let's see exact choice.\n\nOptions: CCC+, CCC, CCC-, CC, C.\n\nI think CCC or CCC-.\n\nWith positive EBIT, not CCC-.\n\nCCC+ might be a bit high.\n\nPerhaps CCC.\n\nRationale: extreme leverage, thin margins, poor interest coverage implied.\n\nIn <=25 words.\n\nFor confidence: since no interest given, I'll say 3.\n\nBut with the data, I think 4.\n\nLet's decide.\n\nRating: I think BBB- might be too high, as that requires at least some coverage.\n\nFor example, BBB usually has coverage above 2-3.\n\nHere likely below 1.\n\nBB might have some coverage but high risk.\n\nBut BB could be for transition or growth.\n\nIn this case, with debt/equity 26, it's not typical BB.\n\nBB rated companies might have debt/equity up to 5 or so.\n\nHere 26 is egregious.\n\nTherefore, B or CCC.\n\nLet's choose CCC.\n\nOr B.\n\nI think CCC is more appropriate for such distress.\n\nUpon second thought, companies like that are often rated B- to CCC+.\n\nBut here, let's say CCC+ as a conservative?\n\nNo, the data is poor.\n\nI found a reference in my mind: a company with interest coverage below 1 is usually B- or lower.\n\nSince I can't calculate, but implied, it is very low.\n\nSo let's assign CCC.\n\nFinal decision: CCC\n\nConfidence: 3 because of missing interest expense.\n\nRationale in few words.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 4944,
+ "usd": 0.01097,
+ "utc": "2026-09-06T17:49:08.201332+00:00"
+}

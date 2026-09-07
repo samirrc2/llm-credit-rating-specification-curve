@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Current ratio below 1 indicates liquidity stress; low EBIT relative to liabilities suggests high default risk vulnerability.\"}",
+ "reasoning_tail": "But overall, high risk.\n\nI think CCC+ or CCC.\n\nCCC+ is the highest in CCC category.\n\nPerhaps B-.\n\nLet's see if there's a way to be more precise.\n\nThe retained earnings are large, 21,891M, which could be used to absorb losses, but it's not liquid.\n\nIt doesn't directly help with debt service.\n\nSo I think CCC is reasonable.\n\nFinal decision: CCC\n\nConfidence: 3 out of 5, since I have to estimate interest.\n\nRationale: Poor liquidity with current ratio below 1 and low interest coverage estimated.\n\nRationale must be <=25 words.\n\n\"Poor liquidity, low EBIT relative to liabilities, suggesting high default risk.\"\n\nNow for the JSON response.\n\n{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Current ratio below 1 and insufficient EBIT to cover estimated interest, indicating vulnerability.\"}\n\nBut I said estimated, which is not from figures, but I have to.\n\nPerhaps without estimation.\n\n\"Low current ratio, high leverage, low profitability imply high credit risk.\"\n\nBut leverage and profitability are relative.\n\nI think CCC is fine.\n\nAnother thought: the scale has CCC+, CCC, CCC-, so I need to choose.\n\nWith current ratio exactly 0.94, which is very close to 1, and EBIT positive, perhaps CCC+ to indicate not the worst.\n\nCCC+ is better than CCC.\n\nCCC+ is still vulnerable but a bit stronger.\n\nIn S&P, CCC+ is the highest in CCC.\n\nFor this, I'll go with CCC+.\n\nRationale: \"Sub-1 current ratio and marginal operating income relative to size suggest vulnerability.\"\n\nConfidence 3.\n\nDecision: CCC+\n\nYes.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3938,
+ "usd": 0.008762,
+ "utc": "2026-09-06T18:24:28.611240+00:00"
+}

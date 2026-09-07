@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Negative gross margin, current ratio of 1.00, and large retained deficit indicate high credit risk despite positive operating income.\"}",
+ "reasoning_tail": ".\n\nBB has BB+, BB, BB-.\n\nI think BB- or B+.\n\nAnother metric: the quick ratio isn't given, but with current ratio 1.00, it might be lower if inventory is high, but not specified.\n\nRetained earnings negative suggests past losses, which could recur.\n\nBut current profit is good.\n\nI think the rating should be in the B range.\n\nFor example, B+ : \"Highly speculative; major risk exposure to adverse conditions.\"\n\nOr BB- : \"Less vulnerable but faces ongoing uncertainties.\"\n\nWith current ratio 1.00, they are vulnerable to any adverse event.\n\nNegative gross margin indicates adverse conditions already.\n\nBut operating income positive, so perhaps they have other income.\n\nI think I'm overcomplicating.\n\nLet me look for a decision.\n\nPerhaps BBB- is possible, but liquidity is weak.\n\nStandard & Poor's or Moody's benchmarks.\n\nBut I don't have specifics.\n\nI recall that a current ratio below 1.2 is often non-investment grade.\n\nLeverage ratio above 60% or so is speculative.\n\nHere debt-to-assets 48%, which is below 50%, so not high leverage.\n\nDebt-to-equity ~100%, which is high.\n\nIn terms of equity ratio: equity / assets = 23,369 / 48,860 \u2248 0.478, so about 48%, which is reasonable.\n\nBut with negative retained earnings, the equity is not from retained profits.\n\nFor credit rating, I think BB is appropriate.\n\nLet's choose BB- or B+.\n\nI think BB-.\n\nConfidence: 3, medium.\n\nRationale: Negative gross margin, tight liquidity, and historical losses indicate high credit risk.\n\nWithin 25 words.\n\nFinal decision.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 3773,
+ "usd": 0.008412,
+ "utc": "2026-09-06T19:33:03.868208+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong profitability with a 17% operating margin and 15% net margin, indicating robust earnings capacity. Leverage is moderate with a debt-to-equity ratio of 1.18, and liquidity is adequate with a current ratio of 1.53, supporting investment-grade creditworthiness. However, the absence of interest coverage data and industry context limits a higher rating, justifying an A+ on the 21-grade scale.\n\nDECISION: A+",
+ "reasoning_tail": "is debt, say 30,670M, then interest at 5% is 1,533M annual, EBIT 7,452M, coverage 7,452/1,533 \u2248 4.86, which is good, above 4 for strong rating.\n\nIf debt is less, coverage better.\n\nSo likely strong interest coverage.\n\nSimilarly, net income to debt: net income 6,604M, debt say 30,670M, ratio about 21.5%, which is healthy.\n\nSo overall, I think A+ or AA-.\n\nBut to be conservative, since no debt details, A+.\n\nThe task is to assign the finest granularity I can justify.\n\nPerhaps AA-.\n\nLet's see the operating margin 17% is high, so AA-.\n\nI recall that for S&P, a company with operating margin above 15%, D/E below 1.0, might be AA, but here D/E 1.18, so AA-.\n\nD/E 1.18 is not below 1.0.\n\n1.18 is above 1.\n\nFor example, 1.0 to 1.5 might be A range.\n\nBut it's subjective.\n\nAnother ratio: EBITDA to interest, but no.\n\nI think I'll go with A+.\n\nBut let's see the answer format.\n\nReason in 1-3 sentences.\n\nSo: Strong profitability with 17% operating margin and 15% net margin, moderate leverage with debt-to-equity of 1.18, and good liquidity with current ratio of 1.53 support a high investment-grade rating.\n\nThen for granularity, A+.\n\nBut AA- is also possible.\n\nThe current ratio is 1.53, which is good but not excellent; some companies have 2 or more.\n\nGross margin 41% is solid.\n\nPerhaps BBB+ is too low.\n\nLet's list the rating scale: AAA to C.\n\nI think A+ is reasonable.\n\nOr A.\n\nBut A+ is finer.\n\nThe scale has A+, A, A-, so A+ is above A.\n\nSimilarly for AA.\n\nSo for this, I think A+.\n\nFinal decision.\n",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 256,
+ "out_tok": 4759,
+ "usd": 0.010563,
+ "utc": "2026-09-06T17:18:38.399648+00:00"
+}

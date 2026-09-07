@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong profitability with a 41% operating margin and positive net income, but faces severe liquidity challenges with a current ratio of 0.53, indicating potential difficulty in meeting short-term obligations. Additionally, high leverage (debt-to-equity ratio of approximately 3.4) and deeply negative retained earnings (-12,237M) further elevate credit risk, pointing to speculative grade vulnerability despite solid earnings.\n\nDECISION: B+",
+ "reasoning_tail": "istic.\n\nLet's calculate the quick ratio roughly.\n\nAssume that current assets include inventory and receivables, but not specified.\n\nWith gross margin 47%, it might have inventory, but no data.\n\nSo, I can't.\n\nI think I have to decide.\n\nFinal decision: due to critically low liquidity and high leverage, the rating should be in the B range, and since retained earnings are negative, B+ might be too high, so B or B-.\n\nBut let's say B.\n\nPerhaps CCC+.\n\nI think B+ is reasonable.\n\nLet's look for a benchmark.\n\nSuppose a company with current ratio 0.53, debt/equity 3.4, operating margin 41%.\n\nIn reality, such a company might be rated B or CCC, depending on industry.\n\nBut without industry, assume general.\n\nI think I'll go with B+.\n\nNo, let's see the answer.\n\nAnother idea: the diluted EPS is 0.6, which is low, suggesting many shares or low earnings per share, but not directly related.\n\nI think I'm overcomplicating.\n\nReason: The issuer exhibits strong profitability with 41% operating margin, but has severe liquidity issues evidenced by a current ratio of 0.53 and high leverage with debt-to-equity ratio of 3.4, along with negative retained earnings, indicating elevated credit risk.\n\nTherefore, speculative grade with high vulnerability.\n\nRating: B+\n\nBut B+ is \"more vulnerable,\" which fits.\n\nCCC is \"currently vulnerable,\" which might be too severe given profitability.\n\nSo B+.\n\nPerhaps BB-.\n\nBB- is \"less vulnerable,\" but with current ratio 0.53, they are vulnerable.\n\nSo B+.\n\nI think that's it.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 254,
+ "out_tok": 4979,
+ "usd": 0.011044,
+ "utc": "2026-09-06T19:17:29.497163+00:00"
+}

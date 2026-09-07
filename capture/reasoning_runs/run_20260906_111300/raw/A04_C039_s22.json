@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Current ratio below 1 indicates severe liquidity stress; extremely high debt-to-equity ratio (13.48) and low ROA (0.32%) suggest high default risk.\"}",
+ "reasoning_tail": "s by EBIT, which is very low.\n\nSimilarly, for total liabilities.\n\nSo, I think CCC range.\n\nPerhaps B-.\n\nLet's choose.\n\nI think CCC+ or CCC.\n\nBut let's see the rationale.\n\nAlso, confidence level from 1 to 5, 5 being highest.\n\nI'm fairly confident it's low, but not sure between B and CCC.\n\nPerhaps BB- or something, but with current ratio below 1, it's worse.\n\nBB ratings can have current ratio above 1 but high leverage.\n\nHere current ratio below 1 is critical.\n\nFor example, companies in distress have ratings like CCC.\n\nSo, I'll go with CCC+ or CCC.\n\nBut let's pick one.\n\nAnother thing: revenue 30,125M, EBIT 5,855M, so they have good margins, but asset base is large, so perhaps it's a company with valuable assets, but leverage is high.\n\nBut for credit, ability to pay is key.\n\nI think CCC+.\n\nBut let's see the options.\n\nValid answers: CCC+, CCC, CCC-, etc.\n\nI think CCC.\n\nRationale: Poor liquidity with current ratio below 1 and extremely high leverage.\n\nConfidence: 4, since no interest coverage given.\n\nRationale should be <=25 words.\n\nSo, \"Low current ratio, high debt-to-equity, weak profitability indicate high default risk.\"\n\nNow for rating: I'll say CCC.\n\nBut CCC+ is also possible.\n\nPerhaps B-.\n\nLet's decide.\n\nI recall that for S&P, ratings below B are for vulnerable to default, CCC for currently vulnerable.\n\nWith current ratio 0.83, they are currently vulnerable to default on short-term debts.\n\nSo CCC.\n\nEBIT positive, so not CC or C.\n\nCCC or CCC+.\n\nI'll go with CCC.\n\nConfidence 4.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 268,
+ "out_tok": 4374,
+ "usd": 0.009726,
+ "utc": "2026-09-06T19:40:37.692731+00:00"
+}

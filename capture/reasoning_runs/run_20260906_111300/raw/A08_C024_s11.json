@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Current ratio below 1 indicates liquidity stress; low EBIT/Assets (0.54%) and Altman Z-score suggest high default risk.\"}",
+ "reasoning_tail": "xpense is, say, 10% of liabilities or something.\n\nTotal liabilities 50,185M, if 50% is debt at 5% interest, interest expense = 0.5*50185*0.05 = about 1,254.625M, EBIT 467M, so coverage ratio = 467/1254.625 \u2248 0.37, which is less than 1, so operating income doesn't cover interest, indicating high default risk.\n\nEven if only long-term liabilities are debt, say 40,757M at 5%, interest 2,037.85M, coverage 467/2037.85 \u2248 0.23, worse.\n\nIf only a small portion is debt, but with current liabilities including short-term debt, it might be due soon.\n\nBut conservatively, coverage is likely poor.\n\nTherefore, the rating should be in the CCC range.\n\nCCC+ or CCC.\n\nSince EBIT is positive, CCC+.\n\nCCC+ is for \"currently vulnerable, dependent upon favorable conditions,\" which fits.\n\nCCC is \"currently vulnerable.\"\n\nWith positive EBIT, CCC+ might be appropriate.\n\nB- is \"more vulnerable to adverse conditions,\" but here with liquidity issues, vulnerable now.\n\nBut let's see the scale.\n\nI think CCC+ is reasonable.\n\nRationale: \"Poor liquidity with current ratio below 1 and low profitability indicate high credit risk.\"\n\nConfidence: 3 out of 5, since some assumptions are made.\n\nBut I have to be precise.\n\nThe task says \"finest granularity you can justify.\"\n\nSo CCC+.\n\nBut let's confirm the figures.\n\nCurrent ratio 0.94 < 1\n\nWorking capital negative\n\nROA low\n\nAltman Z-score low\n\nCoverage likely poor\n\nYes.\n\nPerhaps BB- if I ignore liquidity, but liquidity is critical.\n\nNo.\n\nSo I'll go with CCC+.\n\nFinal answer.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4886,
+ "usd": 0.010838,
+ "utc": "2026-09-06T18:24:49.517429+00:00"
+}

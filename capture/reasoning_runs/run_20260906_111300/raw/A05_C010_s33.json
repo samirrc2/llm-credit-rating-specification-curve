@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"AA+\", \"confidence\": 4, \"rationale\": \"Strong operating margin of 44%, low debt-to-equity of 0.74, and good liquidity with current ratio of 1.92 support high investment grade.\"}",
+ "reasoning_tail": "f we can infer the industry.\n\nNot given, but 78% gross margin is rare\u2014software, pharmaceuticals, semiconductors, etc.\n\nMost such companies have high ratings.\n\nExample: NVIDIA might have AA or something, but it's grown recently.\n\nAs of 2025, NVIDIA was lower rated, I think.\n\nBut let's not speculate.\n\nBased solely on figures, I think strong AA.\n\nBut I need to choose a specific grade.\n\nPerhaps A+ for safety.\n\nNo, that seems low.\n\nAnother idea: net income to revenue lower than operating, but still positive.\n\nPerhaps calculate Return on Equity: net income annualized ~2,804M, equity 29,833M, ROE ~9.4%, which is decent, not amazing, but okay.\n\nROE = net income / equity = 701M quarterly / 29,833M *4 for annual? Wait, net income quarterly 701M, so annual ~2,804M, equity 29,833M (end of period, I assume), so ROE ~9.4%, which is moderate, not high.\n\nWhy? Because operating income is high, but net is lower, so either high interest or high taxes.\n\nPerhaps they have debt that they pay interest on.\n\nBut in ratios, debt is low, so interest might not be high.\n\nDeduction from operating to net: 2,489 - 701 = 1,788M for interest, taxes, etc.\n\nIf taxes are, say, 20% on pre-tax, but unknown.\n\nI think it's acceptable.\n\nFor credit rating, operating income coverage is key for interest.\n\nI think I'm overcomplicating.\n\nWith the data, it's strong investment grade.\n\nFinal decision: AA+\n\nConfidence: 4, since no debt details.\n\nRationale: Strong profitability, low leverage, good liquidity.\n\nWithin 25 words.\n",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 267,
+ "out_tok": 3306,
+ "usd": 0.007387,
+ "utc": "2026-09-06T17:00:29.679790+00:00"
+}

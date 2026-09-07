@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe issuer exhibits severe financial distress with negative shareholders' equity (-9,270M) and negative retained earnings (-9,884M), indicating insolvency on a balance sheet basis and a history of significant losses. The current ratio of 1.09 shows very tight liquidity, barely covering short-term obligations, while total liabilities exceed total assets (64,211M vs. 54,941M), reflecting high leverage and elevated default risk. Although EBIT is positive (2,554M), suggesting some operational viability, it is insufficient to offset the substantial negative equity and weak liquidity, placing the issuer in the vulnerable CCC range.\n\nDECISION: CCC",
+ "reasoning_tail": "= 0.19425; -0.252 = -0.05775; +0.420 = 0.36225\n\nSo about 0.36, without the fourth term.\n\nZ-score below 1.8 indicates distress zone.\n\nHere 0.36 is very low, suggesting high bankruptcy risk.\n\nTherefore, credit rating should be low.\n\nIn terms of rating, Z-score below 1.8 might correspond to CCC or lower.\n\nBut not exact.\n\nGiven that, and the financials, I think CCC is appropriate.\n\nBut which CCC? CCC+, CCC, CCC-?\n\nSince EBIT is positive and revenue is good, perhaps not the worst.\n\nCurrent ratio above 1, so not immediate default.\n\nTherefore, CCC or CCC+.\n\nBut CCC+ is higher.\n\nCCC+ might be for companies with some cushion.\n\nHere, very tight.\n\nPerhaps CCC.\n\nI recall that CCC ratings are for companies that are vulnerable and dependent on favorable conditions.\n\nWith negative equity and low liquidity, that fits.\n\nNow, for the final decision.\n\nAlso, retained earnings -9,884M, which is large negative.\n\nBut EBIT positive, so maybe improving, but deep hole.\n\nI think CCC.\n\nBut let's see the options: CC is for highly vulnerable, C for imminent default.\n\nHere, not imminent, since EBIT positive and current ratio >1.\n\nSo CCC.\n\nPerhaps B- is possible, but with negative equity, it's worse.\n\nB- might be for highly leveraged but positive equity.\n\nFor example, if equity was positive but small.\n\nHere negative, so lower.\n\nTherefore, I think CCC.\n\nBut to be precise, let's say CCC.\n\nIn the scale, CCC is between CCC+ and CCC-, so CCC is the middle.\n\nPerhaps CCC-.\n\nBut I think CCC is fine.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 3300,
+ "usd": 0.007364,
+ "utc": "2026-09-06T19:11:08.634393+00:00"
+}

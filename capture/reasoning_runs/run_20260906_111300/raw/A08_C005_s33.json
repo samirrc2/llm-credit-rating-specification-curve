@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"High debt-to-equity (3.83) offsets strong EBIT margin (47.6%), with adequate current ratio (1.55).\"}",
+ "reasoning_tail": "en 1.5-2.0, say medium, 3 points out of 5.\n- Debt-to-equity: 3.83, high, 2 points.\n- EBIT margin: 47.65%, high, 5 points.\n- Size: total assets $115B, large, 5 points.\n- Return on assets: EBIT/Assets 7.3%, decent, 4 points.\n\nAverage points (3+2+5+5+4)/5 = 19/5 = 3.8, so around A- to BBB.\n\nBut weighting is not defined.\n\nLeverage might have more weight.\n\nSay 40% leverage, 30% coverage, but no coverage, so use leverage.\n\nDeb  -to-equity 3.83, which for industrial companies, might imply BB or B, but with size and profitability, BBB.\n\nI found online that for S&P, median debt/EBITDA for BBB is around 3-4, but here if I had EBITDA, say similar to EBIT, debt not known.\n\nLiabilities/EBIT 10.86, even if only half is debt, 5.43, still high for BBB.\n\nFor BB, median debt/EBITDA 4-5.\n\nSo perhaps BBB- or BB+.\n\nI think with information, I'll assign BBB-.\n\nBut let's see the answer format.\n\nI need to choose one label.\n\nAlso, confidence 1-5.\n\nRationale short.\n\nPerhaps with high EBIT, it can support.\n\nLet's assume that for large companies, ratings are higher.\n\nI recall that companies like Verizon have high debt and BBB rating.\n\nWith EBIT margin 47%, it might be better.\n\nFor example, Microsoft has AAA, but low debt.\n\nThis company has high debt.\n\nBut high margin.\n\nSo perhaps BBB is fair.\n\nI will go with BBB.\n\nFinest granularity, BBB+ or BBB.\n\nBut without more, I'll say BBB.\n\nRationale: High EBIT margin offsetting high leverage, adequate liquidity.\n\nConfidence medium.\n\n3 out of 5.\n\nSo for the JSON.\n",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 255,
+ "out_tok": 6706,
+ "usd": 0.014826,
+ "utc": "2026-09-06T16:34:39.468737+00:00"
+}

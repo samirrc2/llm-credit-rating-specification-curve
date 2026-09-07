@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC-\", \"confidence\": 4, \"rationale\": \"Severe liquidity crisis: current ratio 0.34 and negative working capital. High leverage: debt-to-equity ratio 11.35. Low profitability relative to assets.\"}",
+ "reasoning_tail": "s Tesla or something? Tesla had high liabilities but not this bad.\n\nCurrent ratio for Tesla is around 1.2 or so, not 0.34.\n\nOr Amazon, similar.\n\nPerhaps it's a company in trouble.\n\nBut based on data, I think CCC- is reasonable.\n\nAnother thought: retained earnings 232,459M, which is large, but if equity is 178,396M, it means that there might be negative other equity, like if accumulated deficits, but retained earnings are part of equity, so if retained earnings are 232,459M and equity is 178,396M, it implies that common stock is negative or something, which is impossible.\n\nMistake.\n\nShareholders' equity includes common stock, additional paid-in capital, retained earnings, treasury stock, etc.\n\nIf retained earnings are 232,459M and shareholders' equity is 178,396M, that means retained earnings are positive, but other components reduce equity, like treasury stock or accumulated other comprehensive loss.\n\nFor example, if company bought back shares, treasury stock reduces equity.\n\nSo, retained earnings are high, but equity is lower due to buybacks.\n\nThat could be the case.\n\nFor instance, Apple has high retained earnings but also treasury stock.\n\nIn that case, the company might have cash, but here current assets are only 612,094M, which includes cash, but current liabilities are higher, so net negative.\n\nWith high retained earnings, it might have resources, but liquidity is poor.\n\nStill, with current ratio 0.34, it's critical.\n\nI think the rating is low.\n\nSo, I'll stick with CCC-.\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 259,
+ "out_tok": 4912,
+ "usd": 0.0109,
+ "utc": "2026-09-06T19:05:04.994394+00:00"
+}

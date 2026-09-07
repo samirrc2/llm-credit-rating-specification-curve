@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extreme leverage with liabilities/EBIT ~14x, low current ratio 1.39, and zero retained earnings indicate high default risk.\"}",
+ "reasoning_tail": "\n\nPerhaps it's a mistake, but I have to use it.\n\nAnother idea: retained earnings 0 might mean that the company has just broken even or something, but net income is positive, so retained earnings should increase unless paid out.\n\nBut it's given as 0, so for credit, it means no cushion.\n\nI think CCC is reasonable.\n\nConfidence 3 because of missing interest data.\n\nRationale: \"High leverage with liabilities/EBIT ~14x, low liquidity, no retained earnings.\"\n\nWords: \"High leverage, low coverage, weak liquidity, no retained earnings.\"\n\nBut <=25 words.\n\nFinal decision.\n\nPerhaps B-.\n\nLet's compare to historical examples, but I don't have specific knowledge.\n\nI think I'll go with CCC.\n\nRating CCC.\n\nConfidence 3.\n\nRationale: \"Extremely high debt burden relative to earnings, low current ratio, and zero retained earnings indicate high credit risk.\"\n\nThat's 15 words.\n\nNow for the JSON.\n\nBut the scale has CCC+, CCC, CCC-, etc.\n\nCCC+ might be too high.\n\nLiabilities/EBIT 14.4x, for CCC it could be.\n\nPerhaps B+ or B, but I think CCC is better.\n\nAnother ratio: quick ratio, but can't calculate.\n\nI think CCC is fine.\n\nSo decision: CCC\n\nConfidence: 3\n\nRationale: \"High leverage and low earnings coverage with weak liquidity pose significant default risk.\"\n\n20 words.\n\nOr shorter.\n\n\"Extreme leverage, low EBIT coverage, and no retained earnings suggest high default probability.\"\n\n18 words.\n\nYes.\n\nNow for confidence, since some data missing, 3 is medium.\n\nCould be 2, but I think 3 is okay.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 5139,
+ "usd": 0.011398,
+ "utc": "2026-09-06T18:27:57.553790+00:00"
+}

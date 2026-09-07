@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Strong profitability offset by very weak liquidity (current ratio 0.53) and high leverage (debt-to-equity 2.67).\"}",
+ "reasoning_tail": "quidity offset strong profitability.\"\n\nOr B-.\n\nI think for confidence, 3 since not all data.\n\nNow for the JSON, I need to return only that.\n\nSo, let's write.\n\nDecision: I think BB- for speculative with some strength, but liquidity is too weak.\n\nB+ means more vulnerable than BB.\n\nBB is \"Less vulnerable in the near term\" but with current ratio 0.53, they are highly vulnerable.\n\nB is \"More vulnerable to adverse business, financial and economic conditions but currently has the capacity to meet financial commitments.\"\n\nAdverse conditions could push them to default.\n\nWith high operating income, they have capacity if no issues.\n\nBut liquidity gap is large, so without refinancing, risk is high.\n\nTherefore, I think B is appropriate.\n\nCCC: \"Currently vulnerable and dependent on favorable business, financial, and economic conditions to meet financial commitments.\"\n\nWith the size of liquidity gap, they might be dependent on favorable conditions.\n\nPerhaps CCC+.\n\nI think B is a safer choice.\n\nMany high-yield companies can have low current ratios if they have access to credit markets.\n\nBut given only this data, I'll go with B.\n\nRationale: \"Strong margins but risky liquidity with current ratio below 1 and high leverage.\"\n\nConfidence: 3, as moderate.\n\nThen, decision B.\n\nLet's see the options: for B, it's \"B\" on the list.\n\nIn the scale, it's B.\n\nAlso, I am considering the equity: market cap not given, but equity 31,808M, if market cap similar, but not known.\n\nI think it's fine.\n\nFinal answer.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 4196,
+ "usd": 0.00934,
+ "utc": "2026-09-06T20:07:24.452642+00:00"
+}

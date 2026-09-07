@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity 3.4), critically low liquidity (current ratio 0.53), negative retained earnings, offset by strong profitability (operating margin 41%).\"}",
+ "reasoning_tail": " expense, and I estimated, confidence might be medium.\n\nBut based on given, liquidity is poor.\n\nPerhaps BB- or B+.\n\nLet's think about the 21-grade scale.\n\nAAA to C.\n\nInvestment grade: AAA to BBB-\n\nSpeculative: BB+ to C.\n\nHere, due to liquidity, I think it's speculative.\n\nSpecifically, BB might be for companies with moderate risk, but low current ratio pushes it to B.\n\nB ratings are for highly speculative, with high default risk.\n\nCCC for vulnerable to default.\n\nWith current ratio 0.53, it's vulnerable.\n\nBut profitability might support.\n\nI recall that for companies like this, ratings are often B or CCC.\n\nBut let's assign.\n\nRationale must be <=25 words.\n\nFinal decision.\n\nI think BBB- is possible if we focus on profitability, but liquidity is too weak.\n\nFor example, a company with good earnings but poor liquidity might be BB.\n\nBut current ratio 0.53 is extreme.\n\nIn fact, it's below 1, and significantly so.\n\nAlso, the company has total assets 58,573M, but current assets only 3,244M, which is low, meaning most assets are fixed or long-term, so less liquid.\n\nThis could be a capital-intensive business.\n\nBut with high margins, it might be okay, but short-term risk.\n\nI think the rating should be B+ or B.\n\nLet's say B+.\n\nConfidence: 3, since I estimated interest coverage.\n\nRationale: Poor liquidity with current ratio 0.53 and high leverage offset by strong profitability.\n\nBut retained earnings negative.\n\n\"High leverage, weak liquidity, strong margins.\"\n\nIn 25 words.\n\nNow for the JSON.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 4803,
+ "usd": 0.010668,
+ "utc": "2026-09-06T19:15:27.727020+00:00"
+}

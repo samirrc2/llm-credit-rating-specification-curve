@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the key concerns are the negative shareholders' equity (-$1,920 million), indicating insolvency on a balance sheet basis, and the critically low current ratio (0.27), which shows severe liquidity constraints and inability to cover short-term obligations. Despite strong profitability metrics (46% operating margin), these solvency and liquidity issues pose a high risk of default, placing the issuer in the substantial risk category.\n\nDECISION: CCC",
+ "reasoning_tail": "ilities vs operating income 465M per quarter, so about 1,860M annual, so current liabilities are about 2.5 times annual operating income, which is high for short-term obligations.\n\nTypically, current liabilities should be covered by current assets or cash flow.\n\nHere, current assets insufficient, so rely on cash flow.\n\nBut cash flow from operations might be less than operating income due to working capital changes.\n\nNot given.\n\nSo, based on what we have, I think CCC is reasonable.\n\nPerhaps CCC-.\n\nBut let's see the decision.\n\nAnother thing: the company has total assets 31,391M, which might include fixed assets that could be sold, but not specified.\n\nBut in credit rating, it's about ability to pay, not liquidation.\n\nFor going concern, liquidity is key.\n\nI think CCC.\n\nIn the rating scale, CCC is one option.\n\nPerhaps B-.\n\nB-: \"Less vulnerable than those rated CCC, but faces major ongoing uncertainties.\"\n\nHere, with negative equity and low liquidity, it might be more vulnerable.\n\nI think CCC is better.\n\nFinal decision: CCC.\n\nBut let's confirm the reasoning.\n\nReason briefly: The company has negative shareholders' equity and a very low current ratio of 0.27, indicating severe financial distress and liquidity issues, despite positive operating income. This suggests high vulnerability to default.\n\nThen, DECISION: CCC\n\nThe scale includes CCC+, etc., but CCC seems fine.\n\nTo be precise, CCC+ might be if there's some strength, but here, the weaknesses are pronounced.\n\nCCC is appropriate.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 261,
+ "out_tok": 2893,
+ "usd": 0.006479,
+ "utc": "2026-09-06T20:05:43.182564+00:00"
+}

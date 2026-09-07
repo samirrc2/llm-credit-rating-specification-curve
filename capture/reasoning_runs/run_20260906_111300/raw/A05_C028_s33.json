@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A+\", \"confidence\": 3, \"rationale\": \"Strong margins and profitability offset low current ratio.\"}",
+ "reasoning_tail": "ll details.\n\n   rationale within 25 words.\n\n   Final rating.\n\n   Let's see the options: AAA to C.\n\n   Perhaps bB+ or something? No, that's too low.\n\n   Definitely investment grade.\n\nA is strong, BBB is adequate, but with high margins, it's strong.\n\n  Let's assign AA- due to strong profitability and moderate leverage, but reduced for liquidity.\n\n  Or A+.\n\nI think I'll go with A+.\n\n  Why not higher? Current ratio low.\n\n  Why not lower? Very high profits.\n\n  So A+ seems reasonable.\n\n  Confidence 3.\n\n  Rationale: Strong profitability, moderate leverage, but weak liquidity.\n\n  25 words: \"High margins and moderate debt, but low current ratio indicates liquidity risk.\"\n\n  That's 10 words.\n\n  Now for the JSON.\n\n  Decision must be one of the labels.\n\n  Perhaps BBB+ is too low.\n\nNo.\n\nNet income 30B on revenue 181B is fantastic.\n\nI think A or AA-.\n\nLet's recall that operating margin is 13%, which for some industries is good, but for tech, it might be average; but no industry given.\n\n  General knowledge, 13% is good.\n\nFor comparison, S&P 500 average operating margin is around 10-12% historically, so 13% is above average.\n\nNet margin 16.7% is high, but may include non-core items.\n\nFor credit, stick to operating metrics.\n\nI think A+.\n\nAA- could be.\n\nBut let's decide.\n\nAnother idea: the filing date is 2026 Q1 filed 2026-04-30, so for fiscal 2026, Q1.\n\nBut I think I'm stuck.\n\nI'll go with A+.\n\nConfidence 3.\n\nRationale: \"Strong margins and profitability offset low current ratio.\"\n\n  8 words.\n",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 269,
+ "out_tok": 4169,
+ "usd": 0.009278,
+ "utc": "2026-09-06T18:44:16.289965+00:00"
+}

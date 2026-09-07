@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Severe liquidity risk with current ratio 0.42, high leverage (debt-to-equity ~10.25), and low profitability metrics (ROA 0.22%).\"}",
+ "reasoning_tail": "rable.\n\nSo B or B-.\n\nConfidence: 3, since I don't have full details.\n\nRationale: \"High leverage, poor liquidity, low current ratio.\"\n\nWithin 25 words.\n\nNow, decision.\n\nPerhaps I can assign BB- as a starting point.\n\nBut let's calculate the current ratio impact.\n\nA current ratio below 1 is often associated with ratings below BBB.\n\nFor instance, companies with current ratio around 0.5 might be rated B or lower.\n\nIn this case, 0.42.\n\nAlso, debt-to-equity high.\n\nBut for financials, it's different, but I think for this exercise, I'll treat it as a corporate.\n\nThe problem doesn't specify industry, so I have to use general knowledge.\n\nGeneral knowledge predating 2025, so standard credit metrics.\n\nI think B+ or B.\n\nLet's choose B+.\n\nOr BB-.\n\nLet's see the options.\n\nValid answers include BB+, BB, BB-, B+, B, B-, etc.\n\nI think BB- might be too high.\n\nBB- is still speculative but higher quality.\n\nWith such low liquidity, it's lower.\n\nPerhaps B+.\n\nI recall that during the financial crisis, banks with liquidity issues were downgraded to BBB or lower.\n\nBut this company has low ROA, so it's not efficient.\n\nAnother point: retained earnings are $261B, which is high, but it's part of equity, not liquid.\n\nIt doesn't help with short-term liquidity.\n\nSo, I think the rating should reflect high default risk due to liquidity.\n\nThus, I'll go with B+.\n\nConfidence 3.\n\nRationale: \"Severe liquidity shortfall with current ratio 0.42 and high leverage.\"\n\nThat's 8 words.\n\nNow, for the JSON.\n\nFinal decision.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 282,
+ "out_tok": 4084,
+ "usd": 0.009099,
+ "utc": "2026-09-06T19:19:17.800262+00:00"
+}

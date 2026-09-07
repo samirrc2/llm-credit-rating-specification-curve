@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extremely low current ratio (0.53), high leverage (debt/equity ~3.4), negative retained earnings, and high debt/EBIT (~33x) indicate severe financial distress.\"}",
+ "reasoning_tail": "ers, but not directly.\n\nNet income not given, but EBIT is 1,307M, so after interest and taxes, it might be negative.\n\nSince retained earnings are cumulatively negative, net income might be positive now, but not enough to offset past losses.\n\nOverall, I think CCC+ or CCC.\n\nI should assign CCC.\n\nConfidence: Since multiple metrics are bad, but EBIT positive, I have some doubt, but high confidence.\n\nConfidence scale 1 to 5, 5 highest.\n\nI think rating should be CCC or lower.\n\nLet's calculate debt/EBIT multiple again: total liabilities / EBIT = 43,578 / 1,307 \u2248 33.33.\n\nFor comparison, even distressed companies rarely have above 10x, this is 33x, which is extremely high and unsustainable unless rapid growth, but no indication.\n\nMoreover, asset turnover low.\n\nTherefore, I think the issuer has a very high risk of default.\n\nThus, a CC or C rating might be considered, but CC or C is for default imminent or undergoing bankruptcy, not yet.\n\nSince EBIT positive, not default.\n\nHence, CCC is appropriate.\n\nI think CCC is the best fit.\n\nFor granularity, perhaps CCC+ if slightly better, but figures are bad, so CCC.\n\nSince current ratio is 0.53, very low, let's say CCC-.\n\nBut I think CCC is fine.\n\nIn the scale, CCC+ is higher than CCC, so for worse, CCC- or CC.\n\nBut let's see.\n\nI have negative retained earnings, which is bad for credit rating models.\n\nIn fact, in some scoring systems, negative retained earnings lead to lower scores.\n\nSo, overall, I'll go with CCC.\n\nRationale must be <=25 words.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 255,
+ "out_tok": 3996,
+ "usd": 0.008891,
+ "utc": "2026-09-06T19:17:12.490409+00:00"
+}

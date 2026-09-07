@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability with a 10% operating margin and good liquidity with a current ratio of 1.39, but high leverage is a concern with a debt-to-equity ratio of 2.47 and retained earnings at $0M, indicating weak financial flexibility and potential reliance on external financing. These factors suggest a speculative grade, though the solid margins provide some support.\n\nDECISION: BB+",
+ "reasoning_tail": "al.\n\nTotal liabilities 52,676M, so liabilities/EBITDA = 52,676 / 3,544 \u2248 14.86x, which is very high, not 3-4x.\n\nEven if only long-term debt, 30,591M / 3,544 \u2248 8.63x, still high.\n\nIf EBITDA is higher, but operating income is given, and no depreciation, so EBITDA might be higher, but not given.\n\nAssume depreciation is 10% of revenue or something, but not specified.\n\nRevenue 9,143M, gross profit at 39% margin is 0.39*9143=3565.77M, operating income 886M, so operating expenses are 3565.77 - 886 = 2679.77M, which includes depreciation.\n\nBut I don't know how much is depreciation.\n\nSo I can't estimate EBITDA.\n\nTherefore, with high liabilities to income ratio, and retained earnings zero, I think it's speculative grade.\n\nSo rating around BB.\n\nCurrent ratio 1.39 is not terrible.\n\nSo perhaps BB+.\n\nFinest granularity.\n\nBB+ is Ba1/BB+, which is high yield.\n\nOr BBB- is investment grade.\n\nWith the data, I think BBB- is stretch.\n\nLet's see the answer choices.\n\nI think I'll go with BB+.\n\nReason: High leverage with debt-to-equity of 2.47 and low retained earnings indicating weak financial flexibility, despite good profitability.\n\nThen DECISION: BB+\n\nBut let's confirm the scale.\n\nThe scale has BB+, BB, BB-.\n\nBB+ is better than BB.\n\nPerhaps BBB- if I focus on profitability.\n\nBut leverage is too high.\n\nAnother point: the company has current assets 30,590M vs current liabilities 22,085M, so net working capital 8,505M, which is positive.\n\nBut retained earnings 0 is key.\n\nI think BB+ is reasonable.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 257,
+ "out_tok": 5736,
+ "usd": 0.012703,
+ "utc": "2026-09-06T18:29:12.581137+00:00"
+}

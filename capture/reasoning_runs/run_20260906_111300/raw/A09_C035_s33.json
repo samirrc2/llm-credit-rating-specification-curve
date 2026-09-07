@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Extremely low current ratio (0.42) and high leverage (debt-to-equity ~10.25) indicate severe liquidity risk and financial vulnerability.\"}",
+ "reasoning_tail": "nerable\".\n\nI think B is appropriate.\n\nBut let's see the rating scale provided: BB+, BB, BB-, B+, B, B-, etc.\n\nBB is Ba in Moody's, which is speculative but less vulnerable.\n\nB is more vulnerable.\n\nWith such low liquidity, it's more vulnerable.\n\nAlso, the debt-to-equity ratio of 10 is very high.\n\nIn comparison, highly leveraged firms might have D/E of 2-4, but 10 is extreme.\n\nFor example, in LBOs, D/E can be high, but not this high.\n\nSo, I think B or B-.\n\nI'll go with B.\n\nConfidence: 4\n\nRationale: must be <=25 words.\n\n\"Severe liquidity risk with current ratio 0.42 and high leverage, despite profitability.\"\n\nThat's 8 words.\n\nNow for JSON.\n\n{\"decision\": \"B\", \"confidence\": 4, \"rationale\": \"Severe liquidity risk due to low current ratio and high leverage.\"}\n\nBut is B the right label? The scale has B+, B, B-, so I need to choose one.\n\nPerhaps B- because of the extreme ratios.\n\nCurrent ratio 0.42 is worse than many distressed companies.\n\nFor instance, during bankruptcy, companies might have negative working capital.\n\nHere, it's not negative, but close; current assets are positive, just less than liabilities.\n\nSo, B- might be better.\n\nB- is \"Highly vulnerable\".\n\nYes.\n\nCCC is for currently vulnerable, but since it's profitable, not CCC yet.\n\nSo B-.\n\nDecision: B-\n\nConfidence: 4\n\nRationale: \"Extremely low current ratio (0.42) and high debt-to-equity indicate high default risk.\"\n\n20 words.\n\nNow, to confirm the rating scale: it includes CCC+, etc., so B- is within options.\n\nFinal answer.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 284,
+ "out_tok": 3517,
+ "usd": 0.007858,
+ "utc": "2026-09-06T19:22:57.645261+00:00"
+}

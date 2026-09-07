@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows high leverage with a debt-to-equity ratio of approximately 1.86 (total liabilities / shareholders' equity = 26,603 / 14,298), weak liquidity with a current ratio of 1.18, and low profitability as evidenced by an EBIT return on assets of about 1.41% (EBIT / total assets = 577 / 40,898). Although the EBIT margin is strong at 23.6%, the low asset turnover and implied interest coverage (likely below 1x given the high liabilities relative to EBIT) indicate significant vulnerability to adverse conditions, placing it in the distressed category.\n\nDECISION: CCC",
+ "reasoning_tail": "dered risky.\n\nMinimum, say debt/EBIT around 26,603 / 577 \u2248 46.1, if all liabilities were debt, which is absurdly high.\n\nBut not all liabilities are debt.\n\nLong-term debt might be, say, 15,000M to 20,000M, EBIT 577M, so debt/EBIT around 26 to 34, which is very high.\n\nFor credit ratings, debt/EBITDA above 10x is often CCC or lower.\n\nHere it's much higher.\n\nTherefore, the company is highly leveraged with low earnings, suggesting a very weak credit profile.\n\nThus, rating should be in the CCC range.\n\nNow, within CCC, there are CCC+, CCC, CCC-.\n\nSince EBIT is positive and current ratio above 1, not the worst, so perhaps CCC or CCC-.\n\nBut let's see the retained earnings: 6,514M, which is large, so they have reserves, but it's not liquid.\n\nFor credit rating, it's about ability to pay debt, not just equity.\n\nI think CCC is appropriate.\n\nPerhaps BB, but that might be too high.\n\nBB is below investment grade, but higher than CCC.\n\nBB ratings might have debt/EBITDA 5-10x, interest coverage 2-3x.\n\nHere, implied coverage is less than 1, so CCC.\n\nFinal decision.\n\nReason: The company exhibits high financial leverage, weak liquidity with a current ratio of 1.18, and low profitability as indicated by ROA of 1.41%. The implied interest coverage is likely below 1, suggesting high vulnerability.\n\nRating: CCC\n\nBut let's confirm the scale.\n\nValid answers include CCC+, CCC, CCC-, etc.\n\nSince EBIT is positive, perhaps CCC+ or CCC.\n\nBut Z-score is very low, so CCC.\n\nPerhaps CCC-.\n\nI think CCC is fine.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 247,
+ "out_tok": 5044,
+ "usd": 0.011182,
+ "utc": "2026-09-06T18:38:08.495840+00:00"
+}

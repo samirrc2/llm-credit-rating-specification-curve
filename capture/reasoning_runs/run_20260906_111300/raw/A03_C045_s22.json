@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity stress with a current ratio of 0.53, indicating inability to cover short-term obligations, and high leverage with a debt-to-equity ratio of approximately 2.67. Despite a reasonable EBIT margin of 22.59%, the low return on assets (1.16%) and implied interest coverage below 1 suggest high default risk and dependence on favorable conditions for meeting financial commitments.\n\nDECISION: CCC",
+ "reasoning_tail": "r ratio: Quick ratio, but I don't have inventory, so can't calculate.\n\nCurrent assets include inventory, etc., but not specified.\n\nWith current ratio 0.53, even if all current assets are liquid, it's insufficient.\n\nShareholders' equity is 31,808M, which is positive, so not insolvent yet.\n\nBut leverage is high.\n\nDebt to EBITDA or something, but EBITDA not given, EBIT is similar.\n\nEBIT is 1,360M, total liabilities 84,798M, so liabilities to EBIT = 84,798 / 1,360 \u2248 62.35, which is very high, meaning it would take many years to pay off debt with EBIT.\n\nThat's unsustainable.\n\nIn conclusion, the issuer has very weak liquidity, high leverage, and low profitability relative to debt, indicating high credit risk.\n\nTherefore, a rating in the CCC category is justified.\n\nNow, which one: CCC+, CCC, or CCC-?\n\nSince EBIT is positive and retained earnings are substantial, perhaps CCC+ or CCC.\n\nBut the current ratio is critically low, so I think CCC is fine.\n\nCCC+ might be a bit high.\n\nThe scale has CCC+, CCC, CCC-.\n\nCCC is for default possible within a year if no improvement.\n\nWith current liabilities due and not covered, it might be soon.\n\nBut EBIT positive, so not immediate.\n\nI think CCC is reasonable.\n\nPerhaps BB-, but that might be too optimistic.\n\nBB ratings are for less vulnerable, but here vulnerability is high.\n\nFor example, BB is defined as less vulnerable in the near term but faces major ongoing uncertainties.\n\nHere, with liquidity issue, it's vulnerable.\n\nSo, CCC.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 3299,
+ "usd": 0.007362,
+ "utc": "2026-09-06T20:08:09.691959+00:00"
+}

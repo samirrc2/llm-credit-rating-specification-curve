@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"AA-\", \"confidence\": 3, \"rationale\": \"High operating margin (44%) and low leverage (debt-to-equity 0.74) indicate strong creditworthiness, but lower net income margin (12.4%) introduces minor risk.\"}",
+ "reasoning_tail": "d earnings 29,765M, which is large, and shareholders' equity 29,833M, so the company has a strong equity base.\n\nTotal liabilities 21,966M, so net debt is low if I assume some debt.\n\nBut let's estimate debt.\n\nSuppose that long-term debt is, say, 10,000M (arbitrary), then interest at 5% is 500M annual, 125M quarterly.\n\nThen EBIT 2,489M, interest 125M, coverage 19.912, very high.\n\nThen net income would be EBIT - interest = 2,489 - 125 = 2,364M before tax, tax at 25% 591M, net income 1,773M, but actual net income is 701M, which is less, so contradiction.\n\nTherefore, either debt is higher, or tax is higher, or there are other expenses.\n\nPerhaps operating income is not EBIT; but it's labeled as operating income, and operating margin 44%, so it should be after operating expenses.\n\nMaybe there are significant interest expenses or other non-operating costs.\n\nBut without data, I have to go with the given net income.\n\nPerhaps for credit rating, we focus on EBIT and leverage.\n\nLeverage is low, EBIT is strong.\n\nSo I think the company is in good shape.\n\nI recall that credit ratings also consider size, industry, but no industry given.\n\nBased on margins, it might be tech.\n\nSo for a tech company with high margins and low leverage, rating could be AA or A.\n\nBut let's see the rating scale.\n\nI think I'll go with AA-.\n\nConfidence 3, since I have some uncertainty about the net income.\n\nRationale: Strong profitability and low leverage support high credit quality.\n\nWithin 25 words.\n\nFinal decision.\n",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 4899,
+ "usd": 0.01088,
+ "utc": "2026-09-06T17:04:31.277629+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB+\", \"confidence\": 4, \"rationale\": \"Extremely high leverage and poor liquidity offset by strong profitability and scale.\"}",
+ "reasoning_tail": ".\n\nIn 2023, Microsoft had equity of 206B, liabilities 229B, not 11 times.\n\nHere it's imbalanced.\n\nI can't resolve; I need to make a decision.\n\nPerhaps the rating is BBB.\n\nRationale: high profitability offset by weak liquidity and high leverage.\n\nFor confidence, say 3 out of 5, since not all data available.\n\nOutput in JSON.\n\nRating choices: for example, BBB.\n\nFinest granularity: so BBB+, BBB, BBB-?\n\nI think BBB- is possible.\n\nOr let's say B+ for low liquidity.\n\nBut net income strong, so at least BB.\n\nI think investment grade is still possible.\n\nPerhaps A-.\n\nI'm conflicted.\n\ne  the current ratio: 0.34 is very low, so below investment grade might be justified if it indicates distress.\n\nBut with profits, it's not distressed.\n\nFor example, Tesla had current ratio below 1 at times and rating  B or BB.\n\nTSLA rating is BB- or something.\n\nS&P has it at BB-.\n\nWith better profitability.\n\nHere, let's say BB+.\n\nOr BBB-.\n\nI think I'll go with BBB-.\n\nBecause of the leverage and liquidity, but not specula tive due to profits.\n\nBBB- is lowest investment grade.\n\nFinal answer.\n\nConfidence 3.\n\nRationale: High leverage and poor liquidity offset by strong profitability.\n\nIn 25 words or less.\n\n\"High debt and weak short-term coverage but robust margins support lower investment grade.\"\n\nOr something.\n\nLabel: BBB-\n\nIn the scale, BBB- is valid.\n\nNow for JSON.\n\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High leverage and low current ratio offset by strong profitability\"}  that's 11 words.\n\nOK.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 282,
+ "out_tok": 4674,
+ "usd": 0.010391,
+ "utc": "2026-09-06T19:01:07.793201+00:00"
+}

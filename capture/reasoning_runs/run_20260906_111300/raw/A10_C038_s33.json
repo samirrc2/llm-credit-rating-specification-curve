@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company displays strong profitability with high gross (71%) and operating margins (42%), but it has severe financial weaknesses. The extremely high leverage, with a debt-to-equity ratio of approximately 14.5 and equity comprising only 5.8% of assets, combined with poor short-term liquidity (current ratio of 0.63), indicates significant default risk. The large negative retained earnings (-5,086M) further suggest historical losses and financial instability, overshadowing current profits.\n\nDECISION: CCC+",
+ "reasoning_tail": "nt ratio 0.63 is a strong indicator for CCC.\n\nAlso, retained earnings deficit large.\n\nSo DECISION: CCC+\n\nBut let's confirm the calculation.\n\nRevenue 2,738M, all in millions I assume.\n\nGross margin 71% on 2,738M is about 1,944M gross profit, operating income 1,161M, so operating expenses were 1,944 - 1,161? Gross profit minus operating expenses = operating income.\n\nGross profit = revenue * gross margin = 2,738 * 0.71 = let's calculate: 2,738 * 0.7 = 1916.6, 2,738*0.01=27.38, so 1916.6 + 27.38*1, but 0.71 is 70% +1%, so 1916.6 + 27.38? No: 71% is 0.71, 2,738 * 0.71.\n\n2,738 * 0.7 = 1,916.6\n\n2,738 * 0.01 = 27.38, but 0.71 is 0.70 + 0.01, so 1,916.6 + 27.38 = 1,943.98, yes.\n\nOperating income 1,161M, so operating expenses 1,943.98 - 1,161 = 782.98M, reasonable.\n\nNet income 821M, so taxes and interest reduced it by 1,161 - 821 = 340M, which could be interest and taxes.\n\nBut no breakdown.\n\nNot helpful.\n\nI think I have to go with the balance sheet and ratios.\n\nSo, in brief: the company exhibits very high financial leverage with a debt-to-equity ratio exceeding 14, poor liquidity with a current ratio of 0.63, and negative retained earnings, indicating historical losses. Despite strong profitability metrics, the high risk of default places it in the CCC+ range.\n\nCCC+ is the rating.\n\nThen DECISION: CCC+\n\nBut on the scale, CCC+ is one of the options.\n\nPerhaps CCC is fine.\n\nBut I think CCC+ is reasonable.\n\nSome might say B-, but I think liquidity is too weak.\n\nLet's see the answer format.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 4307,
+ "usd": 0.009578,
+ "utc": "2026-09-06T19:38:40.698437+00:00"
+}

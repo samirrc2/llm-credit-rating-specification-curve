@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Moderate leverage (debt-to-equity 1.18), strong liquidity (current ratio 1.53), but low EBIT ROA (1.64%) indicates investment grade with some risk.\"}",
+ "reasoning_tail": "t ratio is good, so BBB.\n\nEBIT is only 1.8B on liabilities 61B, so if all were debt, coverage poor, but not all are debt.\n\nAssume 50% debt at 5% interest: debt 30,670M, interest 1,533.5M, coverage 1,863/1,533.5\u22481.22, which is low, below 2, so speculative grade.\n\nInterest coverage below 1.5 might be BB or lower.\n\n1.22 is low.\n\nIf interest rate lower, say 4%, debt 30,670M, interest 1,226.8M, coverage 1.52, still low.\n\nIf debt is less, say 40% of liabilities, 24,536M debt, at 4% interest 981.44M, coverage 1.90, better.\n\nBut unknown.\n\nWith current ratio 1.53, it suggests that short-term obligations are covered, so liquidity ok.\n\nFor long-term debt, coverage might be weak.\n\nSo perhaps BB+ or BB.\n\nBB+ is below investment grade.\n\nBut retained earnings high, which could be a buffer.\n\nI think it's borderline.\n\nPerhaps BBB-.\n\nLet's see the options.\n\nAnother metric: Cash flow, but not given.\n\nI think I'll go with BBB- as the lowest investment grade.\n\nRationale: Low interest coverage potential and moderate leverage.\n\nBut I don't have coverage.\n\nPerhaps from the data, it's BBB.\n\nLet's count the ratios.\n\nStandard & Poor's key ratios for ratings.\n\nFor example, for BBB, median EBIT interest coverage is around 4-5x, but I don't have it.\n\nDebt to EBITDA, no EBITDA.\n\nI think for this exercise, with the information, BBB is appropriate.\n\nFinal decision: BBB\n\nConfidence: 3\n\nRationale: \"Good liquidity and margin but low ROA and moderate leverage support BBB rating.\"\n\nUnder 25 words.\n\nNow for JSON.\n",
+ "parsed_letter": "BBB",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 260,
+ "out_tok": 5546,
+ "usd": 0.012289,
+ "utc": "2026-09-06T17:18:38.034490+00:00"
+}

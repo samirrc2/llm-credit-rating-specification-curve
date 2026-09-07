@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC-\", \"confidence\": 4, \"rationale\": \"Extremely low current ratio (0.27), negative shareholders' equity, and massive retained losses indicate severe financial distress and high default risk, despite positive EBIT.\"}",
+ "reasoning_tail": "t the instruction says \"finest granularity you can justify.\"\n\nSo I should choose a specific one.\n\nI think CCC or CCC-.\n\nI'll go with CCC- because of the very low current ratio.\n\nConfidence: 4 out of 5, since no industry context, but based on data.\n\nRationale: Severe liquidity crisis and negative equity with high leverage, offset partially by positive EBIT.\n\nIn 25 words.\n\n\"Extremely low current ratio (0.27), negative shareholders' equity, and large negative retained earnings indicate high default risk, despite positive but insufficient EBIT.\"\n\nThat's more than 25? Let's count.\n\n\"Extremely low current ratio (0.27), negative shareholders' equity, and large negative retained earnings indicate high default risk, despite positive EBIT.\" That's 16 words. Good.\n\nSo decision: CCC-\n\nConfidence: 4\n\nRationale: Extremely low current ratio (0.27), negative shareholders' equity, and large negative retained earnings indicate high default risk, despite positive EBIT.\n\nBut in rationale, I should be concise.\n\nNow for confidence, 1-5, 5 being highest confidence.\n\nI think based on standard ratios, it's clear, but without more context like industry, so confidence 4.\n\nSome might argue B, but I think CCC is better.\n\nEBIT margin is high, but the balance sheet is so bad.\n\nFor example, if this is a growth company, but retained earnings negative $20B suggests it's not new; it has history of losses.\n\nSo I think CCC- is appropriate.\n\nPerhaps CC, but CCC- might be fine.\n\nI'll stick with CCC-.\n\nFinal JSON.\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3212,
+ "usd": 0.007177,
+ "utc": "2026-09-06T20:04:40.005294+00:00"
+}

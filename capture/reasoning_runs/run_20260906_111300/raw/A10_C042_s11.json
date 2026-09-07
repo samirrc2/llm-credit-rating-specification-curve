@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe financial distress, primarily due to negative shareholders' equity (-8,465M), a large retained earnings deficit (-8,881M), and a current ratio below 1 (0.92), indicating both insolvency and immediate liquidity concerns. Despite current profitability (net income of 511M), these balance sheet weaknesses and the high leverage (total liabilities exceed total assets by ~8.5B) place the issuer in a highly vulnerable position, dependent on favorable conditions to meet obligations. This aligns with the CCC rating, which denotes current vulnerability and reliance on positive business or financial circumstances.\n\nDECISION: CCC",
+ "reasoning_tail": " and economic conditions to meet financial commitments.\"\n\nThat seems to fit.\n\nCurrent ratio 0.92 means they depend on favorable conditions to meet obligations.\n\nYes.\n\nFor companies about to default, it's CC or C.\n\nHere, not the case.\n\nDiluted EPS positive, net income positive, so ongoing.\n\nBut the balance sheet weak.\n\nSo I think CCC or B-, but B- is \"more vulnerable to adverse conditions\" without specifying dependence.\n\nCCC directly says \"dependent on favorable conditions.\"\n\nMoreover, with current ratio 0.92, they need favorable conditions like rolling over debt or improving sales.\n\nSo CCC seems right.\n\nBut is there a better fit?\n\nBB is \"speculative\" but less vulnerable, with capability to pay if conditions stable.\n\nHere, with liquidity issue, not stable.\n\nB is \"more vulnerable,\" but CCC emphasizes current vulnerability.\n\nPerhaps B-.\n\nI think CCC is appropriate.\n\nOn the scale, CCC+ might be for slightly better situations.\n\nBut here, everything points to distress.\n\nAlso, revenue 9.5B quarterly is large, but liabilities proportionally larger.\n\nTherefore, I'll go with CCC.\n\nBut let's confirm the rating scale: CCC+, CCC, CCC-.\n\nI think CCC without modifier is fine.\n\nPerhaps CCC- is lower, but I don't think so.\n\nFinal decision.\n\nReasoning: The company exhibits severe financial distress with negative shareholders' equity, significant retained earnings deficit, and a current ratio below 1, indicating both solvency and liquidity risks despite current profitability.\n\nThen assign CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 3387,
+ "usd": 0.007562,
+ "utc": "2026-09-06T19:57:22.029256+00:00"
+}

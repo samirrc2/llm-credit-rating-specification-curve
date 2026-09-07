@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits high financial leverage with a debt-to-equity ratio of 3.62 (total liabilities / shareholders' equity = 77,267M / 21,318M), weak liquidity with a current ratio of 1.44, and low EBIT relative to total liabilities at approximately 3.44% (2,660M / 77,267M), indicating poor interest coverage and high default risk. The Altman Z-score of approximately 1.57, calculated using available figures, falls in the distress zone, supporting a speculative grade with high risk. Given the very high leverage and implied low coverage, a CCC rating is justified as it reflects vulnerability to adverse conditions.\n\nDECISION: CCC",
+ "reasoning_tail": "roximately 1.57 suggests distress, supporting a low credit rating.\n\nFinest granularity: since interest coverage is likely below 1.5 and leverage is very high, a CCC rating is justified.\n\nCCC+ or CCC?\n\nThe scale has CCC+, CCC, CCC-.\n\nPerhaps CCC.\n\nOr B-.\n\nBut B- might be too high.\n\nLet's see the figures again.\n\nRevenue 19,133M, EBIT 2,660M, so not profitable if interest is high.\n\nAssume minimal interest.\n\nSuppose current liabilities include some debt, but let's say average interest rate 4%.\n\nIf total interest-bearing debt is, say, 40,000M for simplicity.\n\nInterest = 4%*40,000 = 1,600M.\n\nEBIT 2,660M, so coverage 1.66, which is poor.\n\nFor rating, coverage below 2.0 is typically CCC or lower.\n\nSpecifically, S&P considers coverage below 1.5 as vulnerable, which is CCC.\n\nCoverage between 1.5 and 2.0 may be B or B-.\n\nBut here, if coverage around 1.66, it could be B-.\n\nBut with high leverage, it might be lower.\n\nDebt/EBIT: if debt 40,000M, EBIT 2,660M, ratio 15.04, very high.\n\nFor comparison, a company with debt/EBITDA above 10 is often CCC.\n\nSo I think CCC is reasonable.\n\nCurrent ratio 1.44 is not critical, but weak.\n\nRetained earnings high, but not sufficient to offset.\n\nSo I'll go with CCC.\n\nBut for finest granularity, CCC or CCC-.\n\nSince EBIT margin is 13.9%, not terrible, perhaps CCC+.\n\nBut I think CCC is fine.\n\nDecision: CCC\n\nReasoning: High leverage and low interest coverage indicate significant financial risk, with Altman Z-score suggesting distress, warranting a CCC rating.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 6256,
+ "usd": 0.013834,
+ "utc": "2026-09-06T17:32:56.568482+00:00"
+}

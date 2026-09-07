@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates severe financial weaknesses, including extremely high leverage (debt-to-equity ratio of approximately 11.35) and critically poor liquidity (current ratio of 0.34), indicating a high risk of default despite current profitability. These metrics align with a rating in the CCC range, reflecting substantial credit risk and vulnerability to adverse business conditions.\n\nDECISION: CCC+",
+ "reasoning_tail": "t liabilities are debt-like, $887.5B, and long-term debt $250.2B, so total debt ~$1,137.7B.\n\nInterest rate say 5%, interest expense $56.885B annual.\n\nAnnual operating income ~$23,404M = $23.404B.\n\nInterest coverage ratio = EBIT / interest = 23.404 / 56.885 \u2248 0.41, which is less than 1, meaning operating income doesn't cover interest, so the company is not earning enough to pay interest, which is very bad.\n\nTherefore, high default risk.\n\nRating should be CCC or lower.\n\nNet income is $5.29B quarterly, annualized $21.16B, but after interest, it would be negative if interest is $56B.\n\nSo, the company is likely losing money after interest, or barely covering.\n\nWith such high interest burden, rating CCC.\n\nCCC+ or CCC.\n\nCCC+ is one notch above CCC.\n\nWith positive net income, perhaps CCC+.\n\nBut net income might include non-operating items.\n\nOperating income doesn't cover interest, so CCC.\n\nLet's see the scale: CCC+ , CCC, CCC-.\n\nI think CCC+ is for vulnerable, but not immediate default.\n\nHere, with interest coverage below 1, it's dire.\n\nPerhaps CCC.\n\nBut retained earnings are large, so it can use reserves, but retained earnings are not cash.\n\nThe company might have cash, but current assets include cash, but only $612B vs liabilities $1,775B current.\n\nSo, it needs to refinance or sell assets.\n\nIn summary, high risk.\n\nI think the rating should be CCC+.\n\nPerhaps B- is too high.\n\nB- is for highly speculative.\n\nCCC+ is for substantial risks.\n\nI think CCC+ is appropriate.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 271,
+ "out_tok": 4667,
+ "usd": 0.01037,
+ "utc": "2026-09-06T19:05:25.327405+00:00"
+}

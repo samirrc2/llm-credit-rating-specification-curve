@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows critical weaknesses in liquidity, with a current ratio of 0.63 indicating severe short-term financial stress, and high leverage evidenced by a debt-to-equity ratio of approximately 2.71. Additionally, the Altman Z-score of approximately 0.30 falls deep within the distress zone, signaling a high bankruptcy risk despite a decent EBIT margin of 26.9%. These factors collectively point to substantial credit risk and vulnerability to default.\n\nDECISION: CCC",
+ "reasoning_tail": " Z-score below 1.8 corresponds to ratings below B, often CCC or lower.\n\nFor example, Z-score below 1.0 is often CCC.\n\nHere 0.3, so CCC- or CC.\n\nBut EBIT positive, so not CC.\n\nCC is for default probable.\n\nC is for default imminent.\n\nHere, no indication of default, just high risk.\n\nSo CCC.\n\nPerhaps B-.\n\nBut current ratio 0.63 is critical.\n\nAnother thing: shareholders' equity is 51B, retained earnings 4.7B, so it has some cushion, but liabilities are high.\n\nTotal liabilities 139B, equity 51B, so net debt-like position.\n\nI think CCC is appropriate.\n\nPerhaps BBB- is investment grade, but no way with these ratios.\n\nBBB- might have current ratio above 1.2 or so, debt/equity below 1, etc.\n\nHere, current ratio 0.63, debt/equity 2.71, so far below investment grade.\n\nJunk bond territory.\n\nBB is speculative but less risky; here it's riskier.\n\nBB might have current ratio around 1, debt/equity 1-2.\n\nB is highly speculative, CCC vulnerable.\n\nI think B- or CCC+.\n\nBut let's pick.\n\nI'll go with CCC.\n\nDecision: CCC\n\nBut the scale has CCC+, CCC, CCC-, so I need to choose one.\n\nPerhaps CCC, as middle.\n\nSince EBIT margin is good, it might support a slightly better rating, but liquidity and leverage dominate.\n\nRevenue 8,669M, EBIT 2,334M, but interest not known.\n\nAssume average interest rate. Say if debt is 100B at 5%, interest 5B, but EBIT 2.334B, so not covering, but I don't know debt amount.\n\nTotal liabilities include non-debt, so not accurate.\n\nI think it's safer to go with CCC.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3640,
+ "usd": 0.00811,
+ "utc": "2026-09-06T19:48:34.169474+00:00"
+}

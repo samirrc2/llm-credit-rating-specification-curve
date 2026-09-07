@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"AA+\", \"confidence\": 4, \"rationale\": \"Exceptional operating margin (42%), moderate debt-to-equity (1.10), strong liquidity (current ratio 1.71).\"}",
+ "reasoning_tail": "g-term debt is say 50,000M, interest 2,500M, coverage 7,508 / 2,500 \u2248 3x, which is low, but 3x is minimum for investment grade, but with high margins, it might be higher.\n\nBut I don't know debt amount.\n\nPerhaps the company has low debt.\n\nRetained earnings 9,761M, which is less than one year's net income, so it might not have a long history of profits, or it pays high dividends.\n\nBut for credit rating, it's not critical.\n\nI think based on what I have, the company appears very strong.\n\nFinal rating: I'll go with AA+.\n\nConfidence: 4, since missing interest coverage.\n\nRationale: High profitability, moderate leverage, strong liquidity.\n\nWords: \"Exceptional margins, solid liquidity, moderate debt leverage.\"\n\nThat's 6 words.\n\nOr \"Strong operating margin, good current ratio, reasonable debt-to-equity.\"\n\n15 words.\n\nYes.\n\nNow, for the scale, AA+ is below AAA.\n\nWith such high margins, could it be AAA?\n\nBut leverage is not as low as some AAA companies.\n\nFor example, Microsoft has higher equity ratio.\n\nHere equity ratio 47.5%, Microsoft is around 80% or more.\n\nMicrosoft total equity is high compared to liabilities.\n\nSo perhaps AA+ is safer.\n\nAnother thing: the fiscal period is 2025 Q4, filed in 2025, so it's recent, but I have to use knowledge predating, which might include industry norms.\n\nBut since not specified, I'll assume general.\n\nI think AA+ is reasonable.\n\nDecision: AA+\n\nConfidence: 4\n\nRationale: High profitability and moderate leverage support strong creditworthiness.\n\n20 words.\n",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 2818,
+ "usd": 0.006323,
+ "utc": "2026-09-06T17:42:40.082642+00:00"
+}

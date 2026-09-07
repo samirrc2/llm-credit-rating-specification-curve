@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extremely weak liquidity (current ratio 0.63) and high leverage (debt-to-equity 2.71) indicate severe default risk.\"}",
+ "reasoning_tail": "'t say.\n\nI think it's consistent with CCC rating.\n\nFor example, companies rated CCC have similar issues.\n\nSo, I'll go with CCC.\n\nBut CCC, CCC+, or CCC-?\n\nThe scale has CCC+, CCC, CCC-.\n\nI need to choose.\n\nWith EBIT positive, perhaps CCC+.\n\nBut current ratio very low.\n\nCCC is \"currently vulnerable and dependent on favorable conditions,\" which fits.\n\nCCC+ is slightly better, but not specified.\n\nI think CCC is fine.\n\nConfidence: since I have to estimate, confidence not high, say 3.\n\nBut let's see.\n\nRationale in 25 words.\n\n\"Very low current ratio of 0.63 and high leverage indicate severe liquidity risk and high probability of default.\"\n\nSo rating CCC.\n\nBut is it CC or C? No, not yet.\n\nCC is \"default imminent with little recovery,\" but here equity positive, so not.\n\nC is default, no.\n\nSo CCC.\n\nPerhaps B- for highly speculative.\n\nBut I think CCC is more accurate with the ratios.\n\nAnother way: the current ratio is 0.63, which is extremely low. In credit analysis, a current ratio below 1 often leads to downgrades to junk, and below 0.8 or so to B or lower.\n\nFor instance, some companies with current ratio around 0.8 have B ratings.\n\nHere 0.63 is lower.\n\nSo CCC.\n\nI think CCC.\n\nConfidence: 3, since no interest expense given.\n\nRationale: \"Extremely weak liquidity and high leverage suggest high default risk.\"\n\nNow for the JSON.\n\nDecision: \"CCC\"\n\nConfidence: 3\n\nRationale: \"Extremely weak liquidity and high leverage indicate high default risk.\" That's 9 words.\n\nUnder 25.\n\nSo, final answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 5154,
+ "usd": 0.011431,
+ "utc": "2026-09-06T19:50:01.371040+00:00"
+}

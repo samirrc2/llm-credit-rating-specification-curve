@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Low current ratio (0.63), high leverage (debt/equity ~14.5), negative retained earnings.\"}",
+ "reasoning_tail": "ps CCC+.\n\nBut the scale has CCC+, CCC, CCC-.\n\nCCC+ is better than CCC.\n\nBut in vulnerability, CCC is already vulnerable.\n\nPerhaps CCC.\n\nRationale: \"Poor liquidity, high leverage, negative retained earnings.\"\n\nWithin 25 words.\n\nConfidence: 3 out of 5, since no interest data.\n\nBut I need to choose.\n\nAnother thought: the retained earnings are -5,086M, which is large negative, while equity is 3,652M, so it's weak.\n\nTotal assets 63,190M, so the company has size, but financially unstable.\n\nPerhaps B- , but I think CCC is more accurate for \"vulnerable to default\".\n\nLet's see the rating scale description.\n\nI recall that CCC means \"currently vulnerable to non-payment, dependent on favorable conditions to meet obligations.\"\n\nWith current ratio 0.63, it's dependent on refinancing or asset sales.\n\nB means \"more vulnerable to adverse conditions but currently meeting obligations.\"\n\nHere, with current liabilities > current assets, it may not be meeting obligations easily, so CCC.\n\nFor example, if it has to pay current liabilities, it can't with current assets, so it might default if no external support.\n\nSo CCC.\n\nI'll go with CCC.\n\nConfidence 3.\n\nRationale: \"Low current ratio, high debt, negative retained earnings.\"\n\n19 words.\n\nNow for the JSON.\n\nFinal answer: CCC\n\nBut let's confirm the scale: it includes CCC+, CCC, CCC-, etc.\n\nSince EBIT positive, perhaps CCC+.\n\nBut I think CCC is fine.\n\nPerhaps from the figures, it's clear.\n\nAnother ratio: net worth, but equity is positive.\n\nI think CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 4811,
+ "usd": 0.010675,
+ "utc": "2026-09-06T19:38:27.332153+00:00"
+}

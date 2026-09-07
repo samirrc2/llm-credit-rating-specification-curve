@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"AA+\", \"confidence\": 4, \"rationale\": \"Exceptional operating margin (56%), low debt-to-equity (0.68), strong liquidity (current ratio 2.29).\"}",
+ "reasoning_tail": "be met, but with missing data, AA+ is fine.\n\nFinest granularity: I think AA+ is justified.\n\nConfidence: since no cash flow or interest data, confidence might be 4 out of 5.\n\nRationale in 25 words.\n\nFinal decision.\n\nPerhaps I can look at the current ratio and quick ratio, but quick ratio not given.\n\nCurrent assets $13,066M, if I assume inventory is part, but not specified.\n\nI think overall, very strong.\n\nAnother thing: diluted EPS $1.21, but not useful here.\n\nRetained earnings $3,431M, which is positive, but not large compared to equity.\n\nI think AA+.\n\nBut let's see the answer format: JSON with decision, confidence, rationale.\n\nRationale must be <=25 words.\n\nSo, I need to summarize.\n\nPossible rating: AA+\n\nConfidence: 4\n\nRationale: Exceptional profitability, low leverage, strong liquidity.\n\nWords: Exceptional, profitability, low leverage, strong liquidity \u2014 that's 4 words, but need a phrase.\n\n\"High margins, moderate debt, good current ratio.\" 6 words.\n\nOr \"Strong operating performance, solid balance sheet.\"\n\nBut must be based on figures.\n\n\"Operating margin 56%, D/E 0.68, current ratio 2.29 support high investment grade.\"\n\nBut D/E is debt-to-equity, which is liabilities/equity = 23,079/33,867\u22480.68.\n\nYes.\n\nFor AAA, it might be a stretch.\n\nPerhaps AA+.\n\nI recall that in practice, companies with such high margins are rare, and if they have low debt, high rating.\n\nBut net income is lower, so A+ or something? No, operating income is key.\n\nI think AA+ is appropriate.\n\nFinal decision.\n",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 267,
+ "out_tok": 4171,
+ "usd": 0.009281,
+ "utc": "2026-09-06T16:54:09.120088+00:00"
+}

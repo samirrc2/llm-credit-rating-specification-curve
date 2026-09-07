@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity distress with a current ratio of 0.34, far below the safe threshold of 1.0, indicating an inability to cover short-term obligations. Additionally, the debt-to-equity ratio is extremely high at approximately 11.35, reflecting excessive leverage and heightened default risk. The Altman Z-score, estimated at approximately -0.46, falls deep into the distress zone, supporting a very low credit rating due to poor financial health.\n\nDECISION: CC",
+ "reasoning_tail": "counts payable, which may not bear interest.\n\nLong-term liabilities 250,200M might be debt.\n\nAssume long-term liabilities are debt, at 5%, interest 12,510M, EBIT 5,851M, coverage ratio 5,851 / 12,510 \u2248 0.47, less than 1, so cannot cover interest.\n\nIf only a portion, but EBIT is small.\n\nEBIT 5,851M, so interest expense must be less than that for coverage >1.\n\nBut with high liabilities, interest could be high.\n\nMinimum, if short-term debt is part of current liabilities.\n\nBut not specified.\n\nIn any case, the liquidity is the biggest concern.\n\nCurrent ratio 0.34 means it can't pay current debts.\n\nSo, for credit rating, this is a strong indicator of low rating.\n\nI think CCC or CC.\n\nPerhaps CCC-.\n\nBut let's choose.\n\nFinal decision: I think CC, as high risk of default.\n\nC might be too low if not in default.\n\nCC is \"high risk\" and CCC is \"vulnerable\".\n\nWith current ratio below 1, vulnerable, but 0.34 is extreme.\n\nSo, CC.\n\nBut let's see the answer format.\n\nReason briefly: The issuer has a critically low current ratio of 0.34, indicating severe liquidity issues, and extremely high leverage with debt-to-equity ratio over 11, suggesting high default risk.\n\nThen DECISION: CC\n\nCC is on the scale.\n\nPerhaps B-, but I think CC is better.\n\nAnother ratio: Quick ratio, but I don't have inventory.\n\nCurrent assets include inventory, so quick ratio would be lower if inventory is illiquid.\n\nBut with current ratio 0.34, quick ratio might be similar or worse.\n\nSo, no better.\n\nI think CC is justified.\n",
+ "parsed_letter": "CC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 248,
+ "out_tok": 4858,
+ "usd": 0.010775,
+ "utc": "2026-09-06T19:05:02.739815+00:00"
+}

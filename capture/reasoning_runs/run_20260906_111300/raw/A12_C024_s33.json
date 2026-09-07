@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"CCC+\",\n  \"confidence\": 3,\n  \"rationale\": \"Low current ratio (0.94) and high leverage (liabilities/EBIT ~107) indicate severe liquidity and solvency risks, suggesting high default probability.\"\n}",
+ "reasoning_tail": "107, so far beyond, so likely CCC or lower.\n\nSimilarly, liabilities/EBIT = 107, implying high leverage and low earnings.\n\nSo credit rating should be low.\n\nSince EBIT positive, perhaps CCC or B-, not CC or C.\n\nCC and C are for imminent default or in arrears.\n\nHe e, operating, so B- or CCC.\n\nLet's pick CCC+ or B-.\n\nPerhaps B- with low confidence.\n\nI recall that companies with current ratio below 1 and negative trends go to CCC.\n\nBut no trend given.\n\nBased on data,  likely CCC+.\n\nLet's look at the equity.\n\nShareholders' equity 36,034M, total assets 86,783M, so high equity base, but current liabilities issue.\n\nThe immediate problem is short-term liquidity.\n\nWith current ratio 0.94, they are technically insolvent on a short-term basis, meaning they can't pay current debts with current assets, so need to sell assets or borrow.\n\nWhich might be possible with assets, but with leverage, it might e difficult.\n\nIn credit ratings, this is often seen as BB or lower.\n\nI think for this, I'll go with B- or CCC.\n\nI'll choose CCC+ with confidence 2 or 3.\n\nBut let's see the scale.\n\nPerhaps BBB- is investment grade lower bound, but with current ratio below 1, unlikely.\n\nUnless industry specific, but no context.\n\nSo,  speculative grade, low end.\n\nFinal decision: CCC+\n\nRationale: Very low current ratio and high leverage with weak profitability imply high default risk.\n\nConfidence: 3, because key metrics missing but available indicators are poor.\n\nOr 2.\n\n<=25 words for rationale.\n\nSo, let's define.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 4578,
+ "usd": 0.01017,
+ "utc": "2026-09-06T18:27:17.046007+00:00"
+}

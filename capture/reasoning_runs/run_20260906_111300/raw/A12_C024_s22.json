@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C024",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Poor liquidity with current ratio < 1, low EBIT relative to high liabilities, and negative working capital suggest high default risk despite solid retained earnings.\"}",
+ "reasoning_tail": "n the scale, B- is before CCC, etc.\n\nThe scale is: BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, etc.\n\nBB is high yield, B is lower, CCC is very high risk.\n\nWith debt/EBIT about 100, it's extreme, so low B or CCC.\n\nCurrent ratio 0.94 is bad but not catastrophic, like 0.8 or something.\n\nRetained earnings high show history of profit, but current EBIT low.\n\nRevenue 5,013M seems misstated or something, because with assets 86,783M, it's unusual, but data given.\n\nPerhaps it's a financial company or something, but not specified.\n\nI think I have to go with the numbers.\n\nDecision: I'll go with B-, confidence moderate.\n\nOr CCC+.\n\nLet's set confidence.\n\nConfidence: 3 out of 5, since key data missing like interest.\n\nRationale: \"Poor liquidity with current ratio < 1 and high debt burden relative to low EBIT.\"\n\nWithin 25 words.\n\nNow for the label.\n\nAssign CCC+ or B-.\n\nIn credit rating, current ratio below 1 often leads to ratings like B or lower.\n\nFor example, companies with liquidity issues can be rated B or CCC.\n\nI think B- is consistent with high risk but not imminent default.\n\nCCC+ might be too low, since the company has substantial equity.\n\nDebt-to-equity 1.39 is about 139%, which for some industries is tolerable, but with low coverage, issue.\n\nPerhaps BBB- to BB range, but current ratio negates that.\n\nI think I'm overthinking.\n\nFinal decision: B- with confidence 3.\n\nRationale: \"High leverage and weak liquidity due to low current ratio and negative coverage indicators.\"\n\nMake it concise.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 3805,
+ "usd": 0.008477,
+ "utc": "2026-09-06T18:26:29.926641+00:00"
+}

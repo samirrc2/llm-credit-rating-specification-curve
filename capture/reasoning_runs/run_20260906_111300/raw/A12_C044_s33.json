@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CC\", \"confidence\": 4, \"rationale\": \"Critical liquidity shortfall (current ratio 0.27) and negative equity indicate high default risk despite positive EBIT.\"}",
+ "reasoning_tail": "nerable\n\nCCC- : currently highly vulnerable\n\nCC : currently highly vulnerable\n\nC : imminent or in bankruptcy\n\nCCC- and CC are similar, but CC is lower.\n\nIn some scales, CCC is for vulnerable, CC for highly vulnerable.\n\nHere, with current ratio 0.27, it's highly vulnerable.\n\nAlso, negative equity.\n\nSo I think CC.\n\nRationale: \"Severe liquidity crisis with current ratio 0.27 and negative equity, despite positive EBIT.\"\n\nThat's 10 words.\n\nConfidence: I'd say 4, since EBIT is positive, but the other metrics are clear.\n\nOr 3, because no interest coverage given.\n\nBut based on given, I think 4.\n\nLet's see.\n\nPerhaps B- , but that might be too high.\n\nB- is for \"currently has capacity to meet commitments but vulnerable to adverse conditions\".\n\nHere, with current ratio 0.27, they don't have capacity to meet short-term commitments without external help.\n\nSo lower.\n\nI think CC is appropriate.\n\nFinal decision: CC\n\nConfidence: 4\n\nRationale: \"Critical liquidity shortfall and negative equity indicate high default risk.\"\n\n19 words.\n\nNow for JSON.\n\n{\"decision\": \"CC\", \"confidence\": 4, \"rationale\": \"Critical liquidity shortfall and negative equity indicate high default risk.\"}\n\nBut let's confirm the scale: CC is in the list.\n\nThe scale given: CCC+, CCC, CCC-, CC, C.\n\nYes.\n\nPerhaps CCC- , but I think CC is fine.\n\nAnother thought: retained earnings -20,476M is huge, and revenue 1,010M, so the company might be in a turnaround, but with negative equity, it's risky.\n\nI think CC.\n\nSo I'll go with that.\n",
+ "parsed_letter": "CC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 4100,
+ "usd": 0.009122,
+ "utc": "2026-09-06T20:07:50.869888+00:00"
+}

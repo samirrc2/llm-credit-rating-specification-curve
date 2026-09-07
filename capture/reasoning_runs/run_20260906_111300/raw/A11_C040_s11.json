@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company shows critical liquidity issues with a current ratio of 0.63, indicating insufficient current assets to cover short-term liabilities. High leverage (debt-to-equity ratio of approximately 2.71 and debt-to-assets ratio of about 72.6%) exacerbates solvency risks, while an Altman Z-Score of approximately 0.295 falls deep into the distress zone, signaling high bankruptcy risk. Although the EBIT margin is strong at 26.9%, the low asset turnover and poor liquidity position the company as currently vulnerable to default, warranting a speculative grade with high near-term risk.\n\nDECISION: CCC",
+ "reasoning_tail": "EBIT positive, so not immediate.\n\nI think I should go with CCC.\n\nOr specify.\n\nPerhaps assign CCC- since current ratio very low.\n\nCCC- is below CCC.\n\nCCC+ is better, CCC is middle, CCC- is worse.\n\nSince EBIT is decent, let's say CCC.\n\nBut rapid decision.\n\nThe user asks to reason step by step and output DECISION.\n\nSo, brief reason.\n\nReason: The company exhibits very poor liquidity with a current ratio of 0.63 and negative working capital, coupled with high leverage (debt-to-equity of 2.71), indicating severe financial risk and potential difficulty in meeting short-term obligations.\n\nDespite a healthy EBIT margin of 26.9%, the low asset turnover and Altman Z-Score in the distress zone support a speculative grade with high vulnerability.\n\nRating: I think CCC.\n\nBut let's see if I can be finer.\n\nTotal liabilities vs EBIT: 139,666 / 2,334 \u2248 59.8, so about 60 times, which is very high interest coverage would be low if debt is high.\n\nIf interest expense is, say, 500M, coverage ok, but if 2000M, not.\n\nNo data.\n\nBased on industry norms, but no.\n\nRetained earnings 4,718M, which is about 3.4% of liabil, so small buffer.\n\nI think CCC is appropriate.\n\nPerhaps B-.\n\nB- is \"highly speculative\", while CCC is \"currently vulnerable, dependent on favorable business\" etc.\n\nWith current ratio below 1, it might need favorable conditions to refinance.\n\nSo CCC.\n\nI think DECISION: CCC\n\nBut to output exactly.\n\nPerhaps BBB- or something, but no, too good.\n\nOthers have better ratings with stronger ratios.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 3922,
+ "usd": 0.008728,
+ "utc": "2026-09-06T19:48:32.406200+00:00"
+}

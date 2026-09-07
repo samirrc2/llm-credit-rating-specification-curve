@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Exceptional profitability offsets high leverage, but elevated debt-to-equity warrants caution.\"}",
+ "reasoning_tail": " think BBB+ might be safer, as leverage is high.\n\nBBB+ is still investment grade.\n\nAA would be too high with that leverage.\n\nAA typically has debt/EBITDA below 2.5 or so.\n\nHere it's around 2.6, close.\n\nBut debt-to-equity is 3.83, which is high for AA.\n\nFor example, S&P ratings: for AA, leverage is low.\n\nPerhaps A-.\n\nLet's assign.\n\nI'll go with A-.\n\nConfidence 3, since no interest data.\n\nRationale: Strong profitability offsets high leverage, supporting investment grade rating.\n\nWord count: \"Strong profitability offsets high leverage, supporting investment grade rating.\" That's 7 words.\n\nOr \"High margins and good coverage compensate for elevated debt levels.\"\n\nBut need to specify rating.\n\nRationale should explain why that rating.\n\nIn JSON, rationale is separate.\n\nThe JSON has \"rationale\": \"text\".\n\nSo, e.g., \"Strong earnings with high leverage warrant A- rating.\"\n\nNow for confidence: 3 out of 5, medium confidence.\n\nPerhaps 4.\n\nBut I think 3 is fine.\n\nAnother thing: the current ratio is 1.55, which is okay but not great; could be higher for top ratings.\n\nBut profitability is strong.\n\nI think A- is reasonable.\n\nPerhaps BBB+.\n\nLet's see the exact numbers.\n\nTotal liabilities 91,085M, equity 23,793M, so leverage ratio liabilities/equity = 3.83.\n\nIn credit terms, net debt/EBITDA.\n\nBut no net debt.\n\nI think I'm overcomplicating.\n\nDecision: A-\n\nConfidence: 3\n\nRationale: \"Exceptional margins and profitability mitigate high leverage risks.\"\n\nWord count: 6 words.\n\nUnder 25.\n\nFinal answer.\n",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 3137,
+ "usd": 0.007022,
+ "utc": "2026-09-06T16:32:09.107937+00:00"
+}

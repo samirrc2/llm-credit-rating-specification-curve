@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Low Altman Z-score (1.63) and weak EBIT margin signal high default risk.\"}",
+ "reasoning_tail": "istress-level Z-score, low EBIT margin, and high leverage suggest high credit risk.\"\n\n25 words: \"Distress Z-score, weak EBIT, high leverage indicate high default risk.\"\n\nDecision: B-\n\nConfidence: 3\n\nBut let's make sure.\n\nPerhaps AA is too high, no.\n\nAnother thought: retained earnings are 33,239M, which is large, so the company has a strong equity base, but current earnings are weak.\n\nFor credit rating, it's about ongoing ability, so current performance matters.\n\nI think B- is reasonable.\n\nOr CCC+.\n\nLet's go with CCC+.\n\nZ-score 1.63 is below 1.8, distress.\n\nIn rating, CCC is for currently vulnerable.\n\nB is for more speculative but less immediate default.\n\nB is higher than CCC.\n\nThe scale: AAA best, then AA+, ..., BBB+, BBB, BBB-, then BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is above CCC+.\n\nB- is better than CCC+.\n\nNumerically, B- is higher rating.\n\nFor example, S&P: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo BBB- is lowest investment grade.\n\nBB+ to B- are speculative, with BB being less risky.\n\nCCC+ to C are high risk or in default.\n\nWith Z=1.63, it should be CCC range.\n\nFor instance, companies with Z<1.8 are often rated CCC or lower.\n\nSo I think CCC+ or CCC.\n\nI'll go with CCC+.\n\nConfidence 3.\n\nRationale: \"Low Altman Z-score and poor profitability signal high default probability.\"\n\nUnder 25 words.\n\nSo decision: CCC+\n\nConfidence: 3\n\nRationale: \"Low Z-score and weak EBIT indicate high distress risk.\"\n\nYes.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 5302,
+ "usd": 0.011755,
+ "utc": "2026-09-06T17:29:02.097226+00:00"
+}

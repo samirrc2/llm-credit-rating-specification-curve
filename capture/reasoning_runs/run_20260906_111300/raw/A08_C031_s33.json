@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extremely low current ratio (0.34), high leverage, and poor solvency indicate distress.\"}",
+ "reasoning_tail": "rrent liabilities 1,775,239M, current assets 612,094M, so net working capital negative 1.16 trillion.\n\nThat's enormous.\n\nEBIT 5,851M, which might not cover interest if debt is high.\n\nTotal liabilities 2.025 trillion, if average interest rate 5%, interest expense about 101 billion, EBIT only 5.85 billion, so interest coverage less than 0.1, which is terrible.\n\nEven if only interest-bearing debt, but not specified.\n\nAssume all liabilities bear interest, which is not true, but conservatively.\n\nFor example, current liabilities include accounts payable, which may not bear interest.\n\nBut still, with such high liabilities, interest must be significant.\n\nFor instance, if only long-term debt bears interest, non-current liabilities are 250,200M, as I calculated earlier.\n\nCurrent liabilities 1,775,239M may include short-term debt.\n\nBut not detailed.\n\nIf non-current liabilities 250,200M are debt, at 5% interest, interest expense about 12.5 billion, EBIT 5.85 billion, so EBIT / Interest = 5.85 / 12.5 \u2248 0.468, which is less than 1, so cannot cover interest.\n\nIf some current liabilities are debt, it could be worse.\n\nSo interest coverage is poor.\n\nThus, definitely speculative grade with high default risk.\n\nRating between B and CCC.\n\nB is for more vulnerable, CCC for currently vulnerable.\n\nWith current ratio 0.34, it's currently vulnerable.\n\nSo CCC.\n\nPerhaps CCC-.\n\nBut I think CCC is fine.\n\nConfidence 3.\n\nRationale: \"Critical liquidity and leverage problems\" or something.\n\nNow, for the JSON.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 259,
+ "out_tok": 4230,
+ "usd": 0.009406,
+ "utc": "2026-09-06T19:04:43.009785+00:00"
+}

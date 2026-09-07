@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Very low current ratio (0.35) and high leverage indicate significant credit risk despite strong profitability.\"}",
+ "reasoning_tail": "d well, like with high payables, but here it's extreme, and with low current ratio, it's risky.\n\nI think for credit rating, this is a sign of distress.\n\nSo, I'll go with B+.\n\nOr B.\n\nConfidence level 1-5, 5 being highest.\n\nI'm not very confident because I don't have all data, like interest expense or debt maturity.\n\nBut based on given, I'll say B.\n\nRationale: High leverage, very low liquidity, strong profitability.\n\nIn 25 words.\n\nDecision: B\n\nConfidence: 3, since I estimated interest coverage.\n\nBut the task is to use only provided figures, so I shouldn't estimate.\n\nWithout interest expense, I have to rely on leverage and liquidity.\n\nLeverage: liabilities/equity = 8.09\n\nLiquidity: current ratio 0.35\n\nProfitability: high margins.\n\nIn credit ratings, liquidity is critical for short-term ability to pay.\n\nWith current ratio 0.35, it's likely that the rating is low.\n\nPerhaps CCC+ or B-.\n\nBut net income positive, so not CCC.\n\nCCC is for vulnerable, with high default risk.\n\nHere, they can generate cash, but might have trouble rolling debt.\n\nSo B or B+.\n\nI think B is reasonable.\n\nLet's see the scale: B+ is one above B, B- below.\n\nPerhaps B+.\n\nBut I'll go with B.\n\nFinal decision: B\n\nConfidence: 3\n\nRationale: Very low current ratio (0.35) and high leverage indicate significant credit risk despite strong profitability.\n\nCount words: Very, low, current, ratio, (0.35), and, high, leverage, indicate, significant, credit, risk, despite, strong, profitability. That's 14 words, under 25.\n\nYes.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 267,
+ "out_tok": 3984,
+ "usd": 0.008872,
+ "utc": "2026-09-06T19:08:02.563221+00:00"
+}

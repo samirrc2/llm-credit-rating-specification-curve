@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extreme leverage (debt-to-equity ~26.5), weak EBIT margin (2%), and poor liquidity (current ratio 1.18) indicate high default risk.\"}",
+ "reasoning_tail": " on favorable conditions.\n\nWith such ratios, it fits CCC.\n\nMoreover, Altman Z-score was 0.45, which is deep in distress zone.\n\nSo I think CCC+ or CCC.\n\nBut let's see the scale: CCC+, CCC, CCC-.\n\nPerhaps CCC.\n\nConfidence: I'll say 4, since ratios are clear.\n\nRationale must be <=25 words.\n\nFinal decision.\n\nPerhaps BB- or B, but I think lower.\n\nAnother ratio: equity to assets: 5,987 / 164,787 \u2248 3.6%, so leverage ratio is high.\n\nRetained earnings to assets: 17,162 / 164,787 \u2248 10.4%, which is okay, but not enough to offset.\n\nI think CCC is appropriate.\n\nBut let's confirm with current ratio: 1.18 is above 1, so not immediately illiquid, but tight.\n\nEBIT positive, but small.\n\nSo not CC or C yet.\n\nCC is for very high risk, near default.\n\nC is default.\n\nSo CCC.\n\nNow, which modifier? CCC+, CCC, or CCC-?\n\nThe data doesn't specify, but based on severity, perhaps CCC or CCC-.\n\nSince EBIT is positive, maybe CCC+.\n\nBut leverage is extreme.\n\nI think CCC is fine.\n\nPerhaps B-.\n\nBut B- is higher than CCC.\n\nScale: B+, B, B-, then CCC+, etc.\n\nB- is above CCC+.\n\nWith such high leverage, it should be CCC.\n\nFor example, companies with debt/EBITDA >10 are often CCC or lower.\n\nHere it's over 40 easily.\n\nSo I'll go with CCC.\n\nRationale: \"Extreme leverage, weak profitability, and poor liquidity indicate high default risk.\"\n\nConfidence: 4 out of 5, since no interest expense given, but inferred.\n\nDecision: CCC\n\nIn the JSON, it should be one label, so \"CCC\"\n\nBut CCC is one of them.\n\nNow, output only JSON.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 4347,
+ "usd": 0.009663,
+ "utc": "2026-09-06T17:52:22.223676+00:00"
+}

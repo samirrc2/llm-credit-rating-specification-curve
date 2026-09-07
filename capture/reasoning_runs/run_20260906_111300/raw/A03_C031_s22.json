@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress based on key credit metrics. The current ratio of 0.34 indicates critical liquidity issues, as current assets are insufficient to cover current liabilities. Leverage is extremely high with a debt-to-equity ratio of approximately 11.35, and interest coverage is likely below 1 (estimated using EBIT and conservative interest assumptions), signaling an inability to service debt from operating earnings. These factors place the issuer in the speculative grade with high default risk, warranting a CCC rating due to current vulnerability but not imminent default, given positive EBIT.\n\nDECISION: CCC",
+ "reasoning_tail": "Liquidity: very poor (current ratio 0.34)\n\n- Solvency: very poor (high leverage, low interest coverage)\n\n- Profitability: moderate margin but low absolute EBIT relative to debt\n\nThus, speculative grade with high default risk.\n\nLikely CCC.\n\nSince EBIT is positive, not CC or C.\n\nCCC+ might be for slightly better, but here coverage is below 1.\n\nThe rating scale: CCC+ is better than CCC, which is better than CCC-.\n\nCCC is for \"currently vulnerable\", CC for \"highly vulnerable\", C for \"imminent default\".\n\nWith current ratio below 1, they are vulnerable, but EBIT positive, so not imminent default.\n\nThus, CCC or CC.\n\nBut CC is lower.\n\nWith interest coverage below 1, it's often CCC.\n\nIn practice, it depends.\n\nBut given the data, I think CCC is reasonable.\n\nPerhaps BBB- or BB if there were mitigating factors, but here no.\n\nAnother point: retained earnings are high, but that doesn't help liquidity.\n\nSo, I think CCC.\n\nBut let's see if we can justify a specific grade.\n\nPerhaps B- or something.\n\nBut with current ratio 0.34, it's critical.\n\nI recall that for companies like Tesla in early days or some with high debt, ratings were B or CCC, but here it's worse.\n\nPerhaps this is a company like Amazon or something, but Amazon has better liquidity.\n\nI think based on ratios, it's clear.\n\nSo, I'll go with CCC.\n\nBut the finest granularity I can justify.\n\nSince interest coverage is below 1 and current ratio low, CCC is appropriate.\n\nCCC- if pessimistic.\n\nBut EBIT is positive, so CCC.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 255,
+ "out_tok": 4872,
+ "usd": 0.01081,
+ "utc": "2026-09-06T19:02:13.882096+00:00"
+}

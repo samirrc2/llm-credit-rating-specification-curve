@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress, with a critically low current ratio of 0.53 indicating acute liquidity issues and an inability to cover short-term obligations. High leverage is evident from a debt-to-equity ratio of approximately 2.67 (total liabilities / shareholders' equity = 84,798M / 31,808M), and EBIT coverage of interest is likely insufficient (estimated below 1x based on implied interest expense), suggesting high default risk. The Altman Z-score of approximately 0.44 confirms a high probability of bankruptcy.\n\nDECISION: CCC-",
+ "reasoning_tail": "milarly, interest coverage likely negative.\n\nTherefore, the rating should be very low.\n\nCC or C, but since not in default, CC might be too severe, CCC is vulnerable.\n\nCCC- is between CCC and CC.\n\nThe scale has CCC+, CCC, CCC-, so CCC- is lower than CCC.\n\nPerhaps CCC-.\n\nBut let's see the retained earnings: 15,795M is large, which might provide some cushion, but it's not liquid.\n\nIn terms of credit, it doesn't directly help with debt payment.\n\nI think the liquidity and coverage are key.\n\nDecision: I'll go with CCC-.\n\nBut let's confirm the figures.\n\nRevenue 6,020M, EBIT 1,360M, margin 22.6%, so if revenue is stable, it might service debt, but with high debt, it can't.\n\nEBIT 1,360M, total liabilities 84,798M, so to pay off debt, it would take many years even at low interest.\n\nBut debt is not all due immediately.\n\nCurrent liabilities 12,594M due soon, with only 6,623M current assets, so problem.\n\nLong-term liabilities might be rolled over, but with poor ratios, difficult.\n\nOverall, high risk.\n\nI think CCC rating.\n\nBut to be finest granularity, CCC-.\n\nPerhaps B-.\n\nAnother thought: the current ratio is 0.53, which is very low, but for some industries like retail, low current ratio might be normal, but 0.53 is extreme.\n\nHere, revenue is 6,020M, which for assets 117,776M, seems like a utility or something, but EBIT margin 22.6% is high for utility, utilities have lower margins but stable.\n\nBut no industry given, so I have to assume general.\n\nI think CCC is appropriate.\n\nFinal answer.\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 4591,
+ "usd": 0.010187,
+ "utc": "2026-09-06T20:10:38.770668+00:00"
+}

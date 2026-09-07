@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extremely high leverage (debt-to-equity ~26.5), low EBIT margin (2%), weak liquidity (current ratio 1.18).\"}",
+ "reasoning_tail": ".\n\nSo perhaps CCC+ or CCC.\n\nBut let's see if I can be more granular.\n\nThe rationale must be <=25 words.\n\nI need to choose one label.\n\nAlso confidence: since I used estimation, confidence might be 3 or 4.\n\nBut based on data, it's clear.\n\nAnother thing: retained earnings are high, which might indicate some strength, but in Z-score, it's included.\n\nIn this case, retained earnings to assets is 10.4%, which is positive, but EBIT to assets is very low.\n\nOverall, Z-score low.\n\nPerhaps BB, but I think too high.\n\nFor example, a company with high leverage and low coverage might be B or CCC.\n\nI recall companies like Tesla during tough times had B ratings, but with better margins.\n\nHere EBIT margin 2% is very low.\n\nRevenue 22,217M, EBIT 446M, so net income likely negative if interest high.\n\nAssume tax rate 25%, but interest first.\n\nSuppose interest expense I, then EBT = EBIT - I.\n\nIf EBT negative, net income negative.\n\nWith retained earnings 17,162M, it can absorb some losses, but equity is small.\n\nShareholders' equity 5,987M, so if net loss, equity decreases.\n\nBut not specified.\n\nI think CCC is appropriate.\n\nPerhaps CCC+.\n\nBut let's see the scale.\n\nI think B- or CCC+.\n\nBut Z-score suggests distress.\n\nIn practice, for such metrics, rating might be B or CCC.\n\nLet's assign.\n\nDecision: CCC\n\nConfidence: 4 (since numbers are clear)\n\nRationale: High leverage, low profitability, weak liquidity.\n\nWord count: \"High leverage, low profitability, weak liquidity.\" 5 words.\n\nWithin 25.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 4521,
+ "usd": 0.010044,
+ "utc": "2026-09-06T17:52:30.136936+00:00"
+}

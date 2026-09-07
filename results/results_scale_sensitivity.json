@@ -1,0 +1,28 @@
+{
+ "_meta": {
+  "n_issuers": 31,
+  "scale_range": [
+   0.602,
+   1.658
+  ],
+  "scale_applied_range_spec": "LogUniform[0.6,1.7]",
+  "seed": 42,
+  "panel": "run_20260710_095040",
+  "design": "per-issuer applied dollar-scale factor vs per-issuer LLM instability and rating level; existing data, no new API calls"
+ },
+ "instability_vs_scale": {
+  "spearman_bandflip_vs_scale": -0.035,
+  "perm_p": 0.8542,
+  "spearman_ighyflip_vs_scale": -0.136
+ },
+ "rating_level_vs_scale": {
+  "spearman_meanletterrank_vs_scale": -0.019,
+  "spearman_igrate_vs_scale": 0.019,
+  "note": "tests whether presenting larger absolute dollar figures (same ratios) shifts the rating level"
+ },
+ "summary_band_flip": {
+  "mean": 0.2468,
+  "sd": 0.1654
+ },
+ "interpretation": "Near-zero Spearman associations indicate the LLM's instability and rating level do not track the absolute monetary scale within the tested [0.6,1.7] range; the decontamination's random scaling is not driving the reported instability."
+}

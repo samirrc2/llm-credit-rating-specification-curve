@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"High leverage (debt/equity ~2.67), negative working capital (-5,971M), and low EBIT/assets (1.15%) indicate severe financial distress and default risk.\"}",
+ "reasoning_tail": "ation points to distress.\n\nI think the rating should be CCC.\n\nFor confidence, I can say 4, as the ratios clearly show distress.\n\nRationale: \"Low liquidity, high leverage, and poor return on assets indicate high default risk.\"\n\nWithin 25 words.\n\nNow, confidence 1-5, 5 highest.\n\nI think I'm fairly confident based on standard models.\n\nAltman Z-score is valid.\n\nSo I'll go with CCC.\n\nBut Z-score 0.44, let's confirm calculation.\n\nWorking capital = 6,623 - 12,594 = -5,971\n\nTA = 117,776\n\nWC/TA = -5,971 / 117,776 = -0.050715\n\nRE/TA = 15,795 / 117,776 = 0.134126\n\nEBIT/TA = 1,360 / 117,776 = 0.011549\n\nSales/TA = 6,020 / 117,776 = 0.051121\n\nMVE/BVL, assuming MVE = BE = 31,808, BVL = 84,798, 31,808 / 84,798 = 0.375\n\nAltman Z: 1.2 * (-0.050715) = -0.060858\n\n1.4 * 0.134126 = 0.1877764\n\n3.3 * 0.011549 = 0.0381117\n\n0.6 * 0.375 = 0.225\n\n1.0 * 0.051121 = 0.051121\n\nSum: -0.060858 + 0.1877764 = 0.1269184\n\n+0.0381117 = 0.1650301\n\n+0.225 = 0.3900301\n\n+0.051121 = 0.4411511\n\nIndeed 0.44, which is distress.\n\nFor ratings, CCC is within that range.\n\nFinal decision: CCC\n\nConfidence: 4 (since Altman score is clear)\n\nRationale: \"High leverage, negative working capital, and low return on assets signal severe distress.\"\n\n20 words.\n\nWithin 25.\n\n\"<one label>\" so CCC, not CCC+, etc.\n\nI think CCC is fine.\n\nThe scale has CCC+, CCC, CCC-, so I can choose.\n\nSince current ratio is very low, perhaps closer to default, so CCC-.\n\nBut I think CCC is okay.\n\nIn some scales, CCC is for substantial risk.\n\nI'll go with CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 255,
+ "out_tok": 4831,
+ "usd": 0.01072,
+ "utc": "2026-09-06T20:10:54.674814+00:00"
+}

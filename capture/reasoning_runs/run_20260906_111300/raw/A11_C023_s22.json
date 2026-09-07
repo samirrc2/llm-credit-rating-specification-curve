@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the key concerns are the company's extremely high leverage and weak liquidity, which indicate significant financial distress. The debt-to-equity ratio is approximately 5.96 (total liabilities of $111,269M divided by shareholders' equity of $18,677M), far above safe levels, and the current ratio of 1.04 shows minimal short-term liquidity buffer. Additionally, the Altman Z-score is approximately 1.22, placing the firm in the distress zone (below 1.8), signaling a high risk of bankruptcy due to low profitability (EBIT/Total Assets \u2248 1.8%) and poor asset efficiency (Revenue/Total Assets \u2248 9.8%). The retained earnings, while substantial, do not offset the severe leverage and operational inefficiencies, suggesting a very high probability of default without imminent current default risk.\n\nDECISION: CCC",
+ "reasoning_tail": "ulnerable, where adverse conditions could lead to default.\n\nCC is for highly vulnerable.\n\nWith high debt and low coverage, CC.\n\nBut let's look at the decision.\n\nSince EBIT is positive, not default yet.\n\nRevenue is given, but EBIT is 2,359M for revenue 12,717M, margin ok, but leverage kills it.\n\nI think based on Altman Z-score around 1.2, it's borderline between CCC and CC.\n\nTypically, Z<1.21 is considered severe distress, near default.\n\nIn Altman original, Z<1.23 is in distress zone.\n\nSome sources:\n\nZ>3 - safe\n\n2.7-3.0 - low risk\n\n1.8-2.7 - moderate risk\n\n<1.8 - high risk\n\nAnd <1.0 is critical.\n\nAt 1.215, it's high risk, not critical.\n\nRatings for Z<1.8 are often B- or lower.\n\nBut finer granularity.\n\nSince no other data, I'll go with CCC or CCC-.\n\nThe rating should be one from the list.\n\nPossible decisions: BB+, BB, etc., but I think too high.\n\nFor example, BB ratings have debt/EBITDA around 3-5, coverage ratio 2-3x.\n\nHere, if debt/EBIT~30-47, coverage less than 1 if interest due.\n\nCannot be investment grade.\n\nBBB- is lowest investment grade, with debt/EBITDA below 4-5, coverage above 2-3x.\n\nHere no.\n\nBB might be for 5-10x leverage, but 47 is way off.\n\nSo lower.\n\nPerhaps C, but not imminent.\n\nI think CCC+ to CCC-.\n\nSince current ratio barely above 1, it might be CCC- or CC.\n\nBut retained earnings high provides some asset base.\n\nFor instance, even if default, some recovery from assets.\n\nBut for issuer rating, it's probability of default.\n\nI'll go with CCC.\n\nBut to be precise.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 253,
+ "out_tok": 4624,
+ "usd": 0.010266,
+ "utc": "2026-09-06T18:21:13.679894+00:00"
+}

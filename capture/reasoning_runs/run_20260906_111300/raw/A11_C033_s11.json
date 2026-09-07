@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the key factors from the provided data indicate severe financial distress. The negative shareholders' equity (-9,270M) and negative retained earnings (-9,884M) demonstrate a lack of financial cushion and historical losses, while total liabilities (64,211M) exceed total assets (54,941M), indicating insolvency risk. The current ratio of 1.09 shows weak liquidity, and EBIT, though positive, is insufficient relative to high liabilities, suggesting vulnerability to default despite ongoing operations.\n\nDECISION: CCC",
+ "reasoning_tail": ".\n\nI think CCC+ might be too high given the negative equity.\n\nPerhaps B-.\n\nB- is \"highly speculative,\" which could fit.\n\nBut Altman Z-score suggests distress.\n\nI think CCC is appropriate.\n\nLet me see if there's a standard approach.\n\nPerhaps the retained earnings being negative is key for some models.\n\nIn the credit rating process, negative equity often results in a rating below B.\n\nFor example, S&P might rate companies with negative equity as CCC if there's high default risk.\n\nHere, with EBIT, it might be B, but leverage is high.\n\nI found a reference in my mind: for corporate ratings, if net debt/EBITDA > 6, it's often speculative grade, and here if net debt is say total liabilities minus cash, but no cash given.\n\nCurrent assets include cash, but not specified.\n\nAssume current assets have some cash.\n\nBut roughly, total liabilities / EBIT = 25.15, as before, which is equivalent to debt/EBITDA if EBITDA~EBIT, but 25 is way above 6.\n\nSo definitely speculative grade with high risk.\n\nLowest investment grade BBB- might have debt/EBITDA around 4-5.\n\nHere it's much higher.\n\nSo rating should be B or lower.\n\nWith negative equity, likely CCC.\n\nBut let's choose.\n\nI think I'll go with CCC.\n\nReason: Negative shareholders' equity, high leverage (liabilities > assets), and tight liquidity (current ratio 1.09) indicate high default risk, despite positive EBIT.\n\nSo rating CCC.\n\nThe scale has CCC+, CCC, CCC-.\n\nPerhaps CCC.\n\nSince EBIT is positive, CCC+.\n\nBut I think CCC is fine.\n\nFinal answer.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 251,
+ "out_tok": 4223,
+ "usd": 0.009386,
+ "utc": "2026-09-06T19:14:11.047506+00:00"
+}

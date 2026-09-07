@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt-to-equity ~26.5), low EBIT margin (2.01%), and weak liquidity (current ratio 1.18) indicate severe default vulnerability.\"}",
+ "reasoning_tail": " total debt is total liabilities for simplicity.\n\nDebt-to-capital = 158,800 / (158,800 + 5,987) = 158,800 / 164,787 \u2248 96.4%, way above 65%.\n\nEBIT coverage, if I had it, low.\n\nI think it's CCC+.\n\nBut let's see the rating scale.\n\nPerhaps BB- for less severe, but no.\n\nBB is for less vulnerable, but here it's severe.\n\nAnother ratio: retained earnings to total assets: 17,162/164,787 \u2248 10.4%, which is moderate, not bad.\n\nBut other ratios are poor.\n\nI think B- with confidence 3.\n\nOr CCC+.\n\nI recall that companies with interest coverage below 1.5 are often CCC or lower.\n\nHere, if interest expense is, say, 300M, coverage 446/300=1.49, which is below 1.5.\n\nIf interest is 400M, 1.115, below 1.2.\n\nSo likely coverage is low.\n\nTherefore, CCC+ or B-.\n\nLet's choose CCC+ as it's more reflective of vulnerability.\n\nCCC+ is on the scale.\n\nFinal decision.\n\nRationale in 25 words or less.\n\nConfidence: since I have key ratios but missing interest, confidence 3 out of 5.\n\nSo, rating: CCC+\n\nConfidence: 3\n\nRationale: High leverage, low profitability, weak liquidity indicate high default risk.\n\nThat's 8 words.\n\nNow, for the JSON.\n\n{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"High leverage, low profitability, weak liquidity indicate high default risk.\"}\n\nBut is CCC+ the best?\n\nCCC is also possible.\n\nBut CCC+ is slightly better than CCC.\n\nSince EBIT positive, CCC+.\n\nB- might be too high.\n\nBB- is for companies with some flexibility, but here no.\n\nI think CCC+ is appropriate.\n\nSo, I'll go with that.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4610,
+ "usd": 0.010234,
+ "utc": "2026-09-06T17:50:56.184285+00:00"
+}

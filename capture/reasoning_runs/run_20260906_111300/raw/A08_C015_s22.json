@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"High debt/EBIT ratio (~29) indicates severe solvency risk, weak current ratio (1.44), and high leverage (debt-to-equity ~3.62).\"}",
+ "reasoning_tail": "ound B.\n\nLet's pick B+ or B.\n\nB+ is higher than B.\n\nScale: BB+, BB, BB-, B+, B, B-, etc.\n\nBB is Ba1, B is B1, etc.\n\nWith coverage around 1.5, it might be B+.\n\nBut let's see if there's a way to be more precise.\n\nEBIT / revenue = 13.9%, which is okay, not great.\n\nBut the key is coverage.\n\nI think I'll go with B.\n\nRationale: High leverage, low interest coverage estimated, weak liquidity.\n\nConfidence 3, since estimation involved.\n\nBut the task says \"use only the figures provided\", so perhaps I shouldn't estimate.\n\nThen with the figures, I have high debt/EBIT, low current ratio.\n\nDebt/EBIT of 29 is very high.\n\nIn practice, such a ratio would be distressed.\n\nFor example, companies with debt/EBITDA above 10 are often CCC or lower.\n\nHere debt/EBIT 29, so very high.\n\nEBIT is operating profit, similar to EBITDA if depreciation low, but not given.\n\nAssume EBIT close to EBITDA.\n\nThen debt/EBITDA 29, extremely high.\n\nFor rating, this suggests CCC or lower.\n\nCurrent ratio 1.44, not terrible, but not saving.\n\nSo probably CCC+ or CCC.\n\nBut let's see.\n\nRetained earnings high, but inconsistent, so ignore.\n\nRevenue 19B, so large company, but highly leveraged.\n\nI think CCC+ or CCC.\n\nBut let's choose.\n\nPerhaps B-.\n\nI recall that for some companies, like airlines, high leverage, but ratings low.\n\nWith the data, I think CCC+.\n\nBut let's see the scale: CCC+, CCC, CCC-.\n\nI'll go with CCC+.\n\nConfidence low.\n\nRationale: Very high debt/EBIT ratio indicating poor solvency.\n\nIn 25 words.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 5375,
+ "usd": 0.01191,
+ "utc": "2026-09-06T17:33:21.100717+00:00"
+}

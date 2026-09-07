@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company exhibits severe financial distress based on key credit metrics. The current ratio of 0.63 indicates critical liquidity issues, as current assets cannot cover current liabilities, raising near-term default risk. High leverage is evident with a debt-to-equity ratio of approximately 2.71 (total liabilities/shareholders' equity) and a debt-to-assets ratio of 72.6%, signaling solvency concerns. Additionally, the Altman Z-score of approximately 0.30 (deep in the distress zone) and low return on assets (EBIT/total assets \u2248 1.21%) further confirm high bankruptcy risk. Although EBIT margin is strong at 26.9%, it is insufficient to offset the liquidity and leverage weaknesses, placing the issuer in the high-risk speculative grade.\n\nDECISION: CCC+",
+ "reasoning_tail": "cs.\n\nI recall that for S&P, a current ratio below 1.0 often corresponds to ratings below BB.\n\nSimilarly, debt to capital above 60% might be speculative grade.\n\nHere, debt to capital: total liabilities / (total liabilities + equity) = 139,666 / (139,666 + 51,462) = 139,666 / 191,128 \u2248 73.1%, high.\n\nEquity to assets 26.8%, low.\n\nSo, I think speculative grade with high risk.\n\nTherefore, I'll go with CCC+ or CCC.\n\nBut CCC+ is higher than CCC.\n\nThe scale: AAA best, C worst.\n\nCCC+ is better than CCC.\n\nSince EBIT is positive, perhaps CCC+.\n\nBut current ratio very low.\n\nPerhaps B-.\n\nI think CCC+ might be appropriate.\n\nLet's see if there's a way to differentiate.\n\nEBIT / Total liabilities = 2,334 / 139,666 \u2248 0.0167 or 1.67%, low return on liabilities.\n\nNot good.\n\nI think CCC+.\n\nBut let's look at the numbers again.\n\nRevenue 8,669M, EBIT 2,334M, so cost of goods sold or something, but not relevant.\n\nPerhaps the company is in a turnaround, but no information.\n\nBased solely on data, I think low rating.\n\nFinal decision: I'll assign CCC+.\n\nReason: Extremely low current ratio and high leverage indicate severe liquidity and solvency risks, with Altman Z-score in distress zone.\n\nThen output DECISION: CCC+\n\nBut the instruction says \"finest granularity you can justify\" and \"choose exactly one label\".\n\nPerhaps B- if I think it's not imminent.\n\nBut Z-score suggests high bankruptcy risk.\n\nAnother thing: retained earnings positive, so not accumulated losses.\n\nBut still.\n\nI think CCC+ is reasonable.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4180,
+ "usd": 0.009292,
+ "utc": "2026-09-06T19:49:03.192867+00:00"
+}

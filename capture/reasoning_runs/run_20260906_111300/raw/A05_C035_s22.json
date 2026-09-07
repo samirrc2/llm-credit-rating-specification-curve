@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt/equity ~10.25), critical liquidity risk (current ratio 0.42), but strong profitability margins.\"}",
+ "reasoning_tail": "ratio isn't typically used; instead, liquidity coverage ratio or net stable funding ratio are used.\n\nBut in this case, the provided current ratio is 0.42, which is low by any measure.\n\nPerhaps for this issuer, it's a concern.\n\nMaybe the company has a lot of short-term debt.\n\nIn any case, based solely on provided figures, I have to go with the numbers.\n\nSo, with high leverage, low liquidity, low ROA, but good margins, I think it's speculative grade with high risk.\n\nRating: let's say B or CCC.\n\nBB is for less speculative, B for more speculative.\n\nWith current ratio below 1, it's often B or lower.\n\nFor example, companies near default have current ratios below 1.\n\nBut here, they are profitable, so not defaulting yet.\n\nPerhaps BB- or B+.\n\nBut debt/EBIT of 62.5 is way too high.\n\nEven if I use net debt, but cash not given.\n\nCurrent assets include cash, say if half is cash, 500B, then net debt = total liabilities - cash = 3,107,151 - 500,000 = 2,607,151M, still high.\n\nEBIT coverage 4.28x, which is borderline.\n\nBut with liquidity issue.\n\nI think B+ or B is appropriate.\n\nThe lowest investment grade is BBB-, but with current ratio 0.42, it's unlikely.\n\nBBB- companies have current ratio above 1 usually.\n\nFor instance, a company with current ratio below 1 might be rated B or CCC.\n\nLet's assign.\n\nI'll go with B- , as it has substantial risk.\n\nConfidence: 3, since I don't have all details.\n\nRationale: \"High leverage, low liquidity, profitable operations.\"\n\nWithin 25 words.\n\nFinal decision.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 275,
+ "out_tok": 5358,
+ "usd": 0.011885,
+ "utc": "2026-09-06T19:21:49.313562+00:00"
+}

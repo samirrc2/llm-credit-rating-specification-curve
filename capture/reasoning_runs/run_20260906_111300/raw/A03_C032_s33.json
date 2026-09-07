@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe liquidity issues with a current ratio of 0.35, indicating insufficient short-term assets to cover current liabilities, and high leverage with a debt-to-equity ratio of approximately 8.09. While profitability is strong with an EBIT margin of 31.6%, the liquidity crisis and excessive debt outweigh this, suggesting high default risk and placing the issuer in the CCC category.\n\nDECISION: CCC",
+ "reasoning_tail": "e scale has CCC+, CCC, CCC-.\n\nWith Z-score negative, it's severe.\n\nBut let's see the retained earnings: 26,088M is substantial, which might provide some buffer.\n\nHowever, with negative working capital, it's critical.\n\nPerhaps the company has a strong brand or assets, but no info.\n\nI think for credit rating, based on this, it's speculative grade with high risk.\n\nDecision: likely CCC+ or CCC.\n\nBut I need to pick one.\n\nPerhaps B- , but liquidity is worse.\n\nCurrent ratio 0.35 is extremely low.\n\nIn comparison, companies rated B might have current ratio above 1, but higher leverage.\n\nFor example, a B rated company might have debt/EBITDA high, but liquidity ok.\n\nHere liquidity is terrible.\n\nSo I think CCC is appropriate.\n\nLet's see the options: CCC+, CCC, CCC-.\n\nI'll go with CCC.\n\nBut let's confirm the retained earnings.\n\nRetained earnings 26,088M, which is high, but equity is only 33,995M, so it's not that large relative to liabilities.\n\nRevenue 20,880M, EBIT 6,598M, so it can generate cash, but short-term obligations are huge.\n\nCurrent liabilities 159,640M vs current assets 56,524M, so immediate shortfall.\n\nUnless the company can roll over debt, but with such ratios, it might not be able to.\n\nTherefore, I think the rating should be CCC.\n\nPerhaps CCC+ if there's some positive, but I don't see it.\n\nEBIT margin is good, so operations are profitable, but financial structure is weak.\n\nIn credit ratings, liquidity is paramount for short-term obligations.\n\nSo I think CCC.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 3879,
+ "usd": 0.008632,
+ "utc": "2026-09-06T19:07:46.203104+00:00"
+}

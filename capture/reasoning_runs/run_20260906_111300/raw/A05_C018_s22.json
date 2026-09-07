@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative net income, extremely high leverage, low current ratio.\"}",
+ "reasoning_tail": "is insane; no company can sustain that without restructuring.\n\nFor example, in bankruptcy cases, D/E is high.\n\nBut here, net worth positive, so not bankrupt.\n\nBut credit rating for future ability.\n\nI think CCC.\n\nLet me box it.\n\nThe output should be JSON with decision, confidence, rationale.\n\nDecision: CCC\n\nConfidence: 3, since I estimated interest coverage.\n\nRationale: \"High leverage, negative net income, low interest coverage.\"\n\nCount words: High, leverage, negative, net, income, low, interest, coverage. 8 words.\n\nOr \"Extremely high debt, net loss, interest coverage below 1.\" 7 words.\n\nBut I need to use only provided figures, and interest coverage isn't provided, I inferred.\n\nProvided figures: net income negative, operating income positive, so I can say \"operating income insufficient for debt service\" or something.\n\nBut not explicit.\n\nPerhaps stick to given: \"Negative net income, very low equity, marginal liquidity.\"\n\nWords: Negative, net, income, very, low, equity, marginal, liquidity. 8 words.\n\n\"High liabilities, small equity, net loss.\" 5 words.\n\nBetter.\n\nFor confidence, I'll say 3, as it's somewhat subjective.\n\nNow, for the rating, I think CCC is appropriate.\n\nBut let's see if AA or something, no, definitely not.\n\nBBB is investment grade, but with net loss and high leverage, no.\n\nBB is speculative, but BB might have positive net income or better coverage.\n\nHere net loss, so lower.\n\nB is for loss-making companies with high debt.\n\nCCC for vulnerable.\n\nI think CCC is fine.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 3470,
+ "usd": 0.007744,
+ "utc": "2026-09-06T17:48:44.620068+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the key factors from the provided data indicate severe financial distress. The current ratio of 0.42 is critically low, suggesting acute liquidity issues and an inability to cover short-term obligations. Additionally, the debt-to-equity ratio is approximately 10.25, reflecting excessive leverage, while implied interest coverage is likely negative or minimal given EBIT of $12,435M against total liabilities of $3,107,151M. These metrics, combined with negative net working capital and low asset efficiency, point to high default risk and vulnerability, aligning with the CCC rating category.\n\nDECISION: CCC",
+ "reasoning_tail": "atio, if debt is total liabilities, 250, which is extreme.\n\nNormal is under 5 for safe, up to 10 for risky, here 250.\n\nSo definitely low rating.\n\nI think CCC.\n\nBut let's see the answer format.\n\nI need to decide.\n\nPerhaps for this company, it's known, but I shouldn't.\n\nI recall that these numbers resemble those of China Evergrande or some highly leveraged company, but as of knowledge predating, it might not have defaulted yet.\n\nBut based on data, I think CCC is reasonable.\n\nSo I'll go with CCC.\n\nBut let's confirm the rating scale.\n\nThe scale given: AAA to C, with 21 grades.\n\nCCC is one of them.\n\nPerhaps CCC-.\n\nBut I think CCC is okay.\n\nReason briefly: The company exhibits severe liquidity issues with a current ratio of 0.42 and very high leverage, indicating significant credit risk and vulnerability to default.\n\nThen DECISION: CCC\n\nBut CCC is not listed; it's CCC+, CCC, CCC-.\n\nThe labels are CCC+, CCC, CCC-, so CCC is a specific label.\n\nIn the list: CCC+, CCC, CCC-, so CCC is the middle one.\n\nSimilarly for others.\n\nSo I can choose CCC.\n\nPerhaps with current ratio 0.42, it's CCC-.\n\nBut I think CCC is fine.\n\nLet's see if there's a standard.\n\nI think I'm overthinking.\n\nBased on the data, it's clearly distressed.\n\nSo DECISION: CCC\n\nBut in the output, it should be DECISION: CCC\n\nNow for the reason: \"The extremely low current ratio of 0.42 and high debt-to-equity ratio indicate severe liquidity and solvency concerns, placing the issuer in the CCC rating category.\"\n\nThen final line.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 259,
+ "out_tok": 4716,
+ "usd": 0.01047,
+ "utc": "2026-09-06T19:24:14.874999+00:00"
+}

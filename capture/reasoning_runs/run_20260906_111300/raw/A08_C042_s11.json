@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Negative equity, current ratio <1, and low EBIT relative to liabilities indicate high default risk.\"}",
+ "reasoning_tail": "urrent ratio below 1 suggests it may struggle with short-term debts.\n\nBut if it can roll over debt, it might survive.\n\nBut overall, high risk.\n\nI think CCC is reasonable.\n\nPerhaps B-, but B- is \"highly speculative\" while CCC is \"substantial risks, vulnerable to default.\"\n\nCCC is lower than B-.\n\nThe scale: from highest to lowest: AAA, AA+, ..., B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is above CCC+.\n\nB- is speculative, CCC is high risk.\n\nWith negative equity and low coverage, CCC is more likely.\n\nFor example, companies like Sears when they were failing had CCC ratings.\n\nSo, I'll go with CCC.\n\nConfidence: I'm somewhat confident, but not 100%, since we don't have all details like industry or debt structure. But based on given, I'll say confidence 3 or 4.\n\nRationale: Negative equity, poor liquidity, low EBIT coverage.\n\nIn 25 words.\n\nFinal decision: CCC\n\nConfidence: 3 (medium)\n\nRationale: Negative shareholders' equity, current ratio <1, and marginal EBIT coverage indicate high default risk.\n\nWord count: 10 words.\n\n\"Marginal EBIT coverage\" \u2013 since coverage ratio is low.\n\nTo be precise.\n\nPerhaps: Insolvent balance sheet with negative equity and weak liquidity.\n\nBut EBIT positive, so not completely down.\n\nI think CCC is fine.\n\nAnother thought: retained earnings negative, but that's part of equity.\n\nI think CCC.\n\nSo, JSON: {\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity, low liquidity, and insufficient EBIT coverage.\"}\n\nRationale <=25 words: that's 6 words.\n\nFine.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3250,
+ "usd": 0.007256,
+ "utc": "2026-09-06T19:56:37.666063+00:00"
+}

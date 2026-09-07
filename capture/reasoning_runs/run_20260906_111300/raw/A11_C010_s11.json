@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The Altman Z-score, a common model for assessing bankruptcy risk, is calculated using the provided financial data: Working Capital / Total Assets = (7,091M - 3,702M) / 51,799M \u2248 0.0654, Retained Earnings / Total Assets = 29,765M / 51,799M \u2248 0.5746, EBIT / Total Assets = 2,489M / 51,799M \u2248 0.0480, Book Value of Equity / Total Liabilities = 29,833M / 21,966M \u2248 1.358, and Revenue / Total Assets = 5,638M / 51,799M \u2248 0.1088. Applying the coefficients (1.2, 1.4, 3.3, 0.6, 1.0) gives Z \u2248 1.965. This falls in the grey area (1.81\u20132.99), indicating moderate to high bankruptcy risk, which corresponds to a speculative grade rating. The current ratio of 1.92 supports adequate short-term liquidity but does not offset the low profitability and efficiency concerns.\n\nDECISION: B+",
+ "reasoning_tail": "let's calculate the Z-score again to be sure.\n\nWorking Capital = Current Assets - Current Liabilities = 7,091 - 3,702 = 3,389M\n\nTotal Assets = 51,799M\n\nA = 3,389 / 51,799 = 0.065415 (let's use more decimals)\n\n3,389 \u00f7 51,799 = ? 51,799 * 0.065 = 3,366.935, difference 22.065, so 0.065 + 22.065/51,799 \u2248 0.065 + 0.000426 = 0.065426\n\nSimilarly, B = 29,765 / 51,799 = ? 51,799 * 0.574 = 29,752.626, difference 12.374, so 0.574 + 12.374/51,799 \u2248 0.574 + 0.000239 = 0.574239\n\nC = 2,489 / 51,799 = 0.048032\n\nD = 29,833 / 21,966 = 1.35819\n\nE = 5,638 / 51,799 = 0.108827\n\nNow Z = 1.2*0.065426 = 0.0785112\n\n1.4*0.574239 = 0.8039346\n\n3.3*0.048032 = 0.1585056\n\n0.6*1.35819 = 0.814914\n\n1.0*0.108827 = 0.108827\n\nSum: 0.0785112 + 0.8039346 = 0.8824458\n\n0.8824458 + 0.1585056 = 1.0409514\n\n1.0409514 + 0.814914 = 1.8558654\n\n1.8558654 + 0.108827 = 1.9646924\n\nSo Z \u2248 1.965\n\nSame as before.\n\nNow, for credit rating, I think it's B+.\n\nBut let's see if there's a better way.\n\nPerhaps the Altman Z-score for emerging markets or something, but not.\n\nI think I should go with that.\n\nSo, the issuer has a Z-score of 1.965, indicating high risk of financial distress, so the credit rating should be in the B range.\n\nWith current ratio good, it might be B+.\n\nSo, B+.\n\nBut let's see the scale: B+ is above B, so for moderate risk.\n\nGrey area is moderate risk.\n\nSo, DECISION: B+\n\nReason: The Altman Z-score of 1.965 places the company in the grey area with moderate to high bankruptcy risk, indicating a speculative grade rating.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 5757,
+ "usd": 0.012746,
+ "utc": "2026-09-06T17:05:47.639874+00:00"
+}

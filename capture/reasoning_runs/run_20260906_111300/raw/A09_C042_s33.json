@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Negative equity and low current ratio indicate high credit risk despite profitability.\"}",
+ "reasoning_tail": "elow 1, they are vulnerable to meeting short-term obligations, so CCC might be appropriate.\n\nBut net income positive suggests they can generate cash.\n\nOperating income 777M, which could cover interest if known.\n\nBut no interest data.\n\nPerhaps I should go with B or CCC.\n\nI think B- is possible.\n\nLet me see the choices: B+, B, B-, CCC+, etc.\n\nI'll go with B, meaning highly speculative.\n\nConfidence: since I have limited data, confidence might be 3 out of 5.\n\nRationale: \"Negative equity, low current ratio, but profitable.\"\n\nThat's short.\n\nNow, for the JSON.\n\nFinal decision: I think B is reasonable.\n\nPerhaps BB- if we focus on profitability.\n\nBut negative equity is severe.\n\nIn practice, companies with negative equity can have ratings in the B range.\n\nFor example, some leveraged buyouts have high debt and negative equity with B ratings.\n\nHere, similar.\n\nBut current ratio low adds to risk.\n\nI think B is fine.\n\nSo, label: B\n\nConfidence: 3\n\nRationale: \"Negative shareholders' equity and sub-1 current ratio indicate high credit risk despite profitability.\"\n\nCount words: Negative, shareholders', equity, and, sub-1, current, ratio, indicate, high, credit, risk, despite, profitability. That's 12 words, under 25.\n\nNow, for confidence, 3 because I don't have full financials or industry context.\n\nBut based on given, it should be ok.\n\nThe scale includes CCC, which might be too low since not near default.\n\nBut Z-score suggested distress.\n\nPerhaps B-.\n\nLet's choose B.\n\nI think B is appropriate.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 3410,
+ "usd": 0.007617,
+ "utc": "2026-09-06T19:57:27.490719+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits significant financial weaknesses, including a very low current ratio of 1.04, indicating poor liquidity and high near-term default risk, and an extremely high debt-to-equity ratio of approximately 6.0 (calculated as total liabilities / shareholders' equity = 111,269M / 18,677M), reflecting excessive leverage. Although the EBIT margin is strong at around 18.6%, inferred interest coverage is likely below 1.0 based on conservative debt and interest rate assumptions, suggesting insufficient operating earnings to cover interest expenses. The retained earnings of 87,663M are substantial but do not offset the thin equity cushion and high financial risk, pointing to a vulnerable credit profile consistent with a CCC+ rating.\n\nDECISION: CCC+",
+ "reasoning_tail": " coverage 0.51.\n\nIf interest rate 4%, debt 91,779M * 0.04 = 3,671M, coverage 2,359/3,671 \u2248 0.64.\n\nStill below 1.\n\nIf I assume only long-term debt is interest-bearing, 72,289M at 4%, interest 2,892M, coverage 2,359/2,892 \u2248 0.82, still below 1.\n\nIf debt is lower, say 60,000M at 4%, interest 2,400M, coverage 0.98, almost 1.\n\nBut 0.98 is still below 1, which is critical.\n\nCoverage below 1 means operating losses after interest, so unsustainable.\n\nTherefore, the company is at high risk of default if not addressed.\n\nThus, credit rating should be CCC or lower.\n\nCCC+ or CCC.\n\nCCC+ is for vulnerable, CCC for currently vulnerable.\n\nWith coverage below 1, it might be CCC.\n\nBut let's see the options: CCC+, CCC, CCC-.\n\nAlso, the current ratio is above 1, so not immediately insolvent.\n\nSo perhaps CCC+.\n\nB- is for highly speculative, with coverage around 1-2.\n\nHere coverage inferred around 0.8-1.0, so closer to CCC.\n\nI think CCC+ is appropriate.\n\nBut let's confirm with the retained earnings.\n\nHigh retained earnings might mean that the company has resources, but since equity is low, it might not be available.\n\nPerhaps it's a signal of past profitability.\n\nBut current situation is risky.\n\nI think CCC+ is the rating.\n\nBut the problem says \"finest granularity you can justify.\"\n\nPerhaps B- if I'm less conservative.\n\nBut with the numbers, CCC+.\n\nAnother point: shareholders' equity is positive, so not bankrupt.\n\nEBIT positive, so operating.\n\nBut coverage poor.\n\nI think CCC+.\n\nSo, for the decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 5079,
+ "usd": 0.01126,
+ "utc": "2026-09-06T18:17:30.788610+00:00"
+}

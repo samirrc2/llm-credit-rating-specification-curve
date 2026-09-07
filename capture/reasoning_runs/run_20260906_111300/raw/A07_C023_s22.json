@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress based on key ratios: the current ratio of 1.04 indicates weak liquidity, barely covering short-term obligations, and the debt-to-equity ratio of approximately 5.96 (calculated as total liabilities / shareholders' equity = 111,269 / 18,677) reflects extremely high leverage. Additionally, the Altman Z-score of approximately 1.22, derived from the provided figures, falls deep within the distress zone (below 1.81), signaling a high probability of bankruptcy. These factors, combined with low EBIT relative to total assets (about 1.81%), point to substantial credit risk and current vulnerability to default.\n\nDECISION: CCC+",
+ "reasoning_tail": "coverage less than 1, it's critical.\n\nEven if lower, say 4% on 50,000M debt, interest 2,000M, coverage 1.18x, which is poor.\n\nCoverage below 1.5x is very risky.\n\nSo likely coverage ratio low.\n\nTherefore, rating should be low.\n\nI think CCC+ or CCC.\n\nBut let's choose.\n\nPerhaps BB- is too high; BB is for less risk.\n\nBB ratings might have higher ratios.\n\nFor example, BB rated companies might have debt-to-EBITDA around 4-5, but here Liabilities/EBIT ~47, which is huge.\n\nEBITDA might be higher, but not given.\n\nAssume EBITDA similar to EBIT for simplicity, so Liabilities/EBIT ~47, whereas for investment grade, it's below 3 or 4.\n\nFor BBB, debt/EBITDA below 3, for BB below 4-5, but 47 is off the charts.\n\nSo must be low.\n\nTherefore, I think B or CCC.\n\nNow, between B and CCC.\n\nCCC is for companies that are currently vulnerable to non-payment.\n\nWith current ratio 1.04, it might be vulnerable.\n\nAlso, the equity is low, so if assets decline, it can go underwater.\n\nTotal assets 130,169M, liabilities 111,269M, equity 18,677M, so if assets lose 14% value, equity wiped out.\n\nWith low EBIT, it's risky.\n\nSo I think CCC+ or CCC.\n\nBut CCC+ is a rating.\n\nPerhaps B-.\n\nI think I'll go with CCC+.\n\nBut let's see the retained earnings: 87,663M, which is high, but in the context, it might be that equity was reduced by other factors, but for credit rating, it's the overall financial health.\n\nPerhaps the company has a strong market position, but not given.\n\nBased on numbers, I think CCC.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 4928,
+ "usd": 0.010925,
+ "utc": "2026-09-06T18:19:12.724571+00:00"
+}

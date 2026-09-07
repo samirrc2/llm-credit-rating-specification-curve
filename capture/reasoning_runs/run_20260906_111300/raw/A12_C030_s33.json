@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"High debt-to-equity (1.45) and low ROA (1.39%) indicate elevated credit risk, despite strong liquidity (current ratio 2.29).\"}",
+ "reasoning_tail": " Revenue / Assets to get EBIT / Assets, which I have.\n\nOr use the DuPont analysis, but not necessary.\n\nI think the rating should be B.\n\nRationale: High leverage, low profitability, strong liquidity.\n\nIn 25 words.\n\nDecision: B\n\nConfidence: 3, since missing coverage.\n\nOr 2.\n\nLet's see the scale.\n\nPerhaps CCC+ is too low because current ratio is good.\n\nCCC is for vulnerable companies.\n\nHere, with current ratio 2.29, they can pay short-term debts.\n\nSo B or B-.\n\nI'll choose B.\n\nBut let's check the numbers again.\n\nCurrent assets 13,790M, current liabilities 6,019M, so working capital 7,771M, which is good.\n\nTotal liabilities 27,401M, equity 18,899M, so net worth positive.\n\nEBIT 811M, if interest is say 500M, coverage 1.62, which is B range.\n\nIf interest is 600M, coverage 1.35, B-.\n\nBut I don't know.\n\nAssume average.\n\nI think B is reasonable.\n\nSo decision: B\n\nConfidence: 3\n\nRationale: High debt-to-equity and low ROA indicate elevated credit risk despite strong liquidity.\n\nWords: \"High debt-to-equity and low ROA indicate elevated credit risk despite strong liquidity.\" That's 9 words.\n\nUnder 25.\n\nNow for the JSON.\n\nBut the rating scale includes B+, B, B-, etc.\n\nB is on the scale.\n\nPerhaps I can go with B+ or B-.\n\nI think B is fine.\n\nAnother thought: retained earnings are 1,385M, which for a large company might be low, but it's positive.\n\nRevenue 5,633M, but EBIT 811M, so operating margin 14.4%, which in some industries is good, but asset-heavy.\n\nI think B is okay.\n\nSo final decision.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 4890,
+ "usd": 0.010852,
+ "utc": "2026-09-06T19:01:00.450166+00:00"
+}

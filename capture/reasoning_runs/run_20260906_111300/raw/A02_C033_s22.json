@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits significant financial weaknesses, including negative shareholders' equity (-9,270M) and negative retained earnings (-9,884M), indicating a highly leveraged capital structure with no equity cushion. Despite decent profitability (operating margin of 11%), the extremely tight liquidity position (current ratio of 1.09) poses a high risk for meeting short-term obligations. These factors, combined with liabilities exceeding assets, place the issuer in the highly speculative category with substantial credit risk.\n\nDECISION: B",
+ "reasoning_tail": "opriate.\n\nCCC is for imminent default or restructuring, which isn't the case here.\n\nSo probably B.\n\nBut let's confirm with the current ratio.\n\nIn some criteria, current ratio below 1.2 is weak for investment grade, but for speculative, it varies.\n\nI think B is reasonable.\n\nPerhaps BB- because of profitability.\n\nBut the negative equity is a big issue.\n\nAnother thing: shareholders' equity is -9,270M, which is large negative, while assets are 54,941M, so leverage is high.\n\nDebt to assets ratio over 100%.\n\nIn percentage, liabilities to assets is 116.8%, meaning leverage ratio >1.\n\nTypically, for BBB, leverage ratios are lower.\n\nFor example, median for BBB is debt/EBITDA around 3, here liabilities/EBIT is 6.29 annualized, which is high.\n\nEBIT annualized ~10,216M, liabilities 64,211M, ratio ~6.3.\n\nFor BB, debt/EBITDA might be 4-5, for B, 5-6 or higher.\n\nBut EBITDA might be higher than EBIT if depreciation is significant, but not given.\n\nOperating income is given, which is EBIT, so similar.\n\nDepreciation not provided, so assume EBIT is proxy.\n\nSo liabilities/EBIT ~6.3, which is on the higher end for B ratings.\n\nAlso, current ratio 1.09 is poor.\n\nSo I think B+ or B.\n\nBut let's choose.\n\nPerhaps B.\n\nThe answer should be one label.\n\nI think I'll go with B.\n\nBut let's see if CCC is possible.\n\nCCC is for companies that are currently not meeting obligations or in danger, which isn't indicated here.\n\nNet income positive, so they are meeting obligations.\n\nSo B is better.\n\nFinal decision: B.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 3385,
+ "usd": 0.007558,
+ "utc": "2026-09-06T19:10:50.250144+00:00"
+}

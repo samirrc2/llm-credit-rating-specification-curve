@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe liquidity issues with a current ratio of 0.53, well below the threshold of 1.0, indicating an inability to meet short-term obligations. Additionally, negative retained earnings of -12,237M reflect significant historical losses and weak financial health, compounded by high leverage with a debt-to-equity ratio of approximately 3.40. Although EBIT is positive at 1,307M, suggesting some operational viability, the overall financial profile indicates high vulnerability and dependence on favorable conditions for solvency, aligning with a CCC rating.\n\nDECISION: CCC",
+ "reasoning_tail": "cy, which might not be the case if they have cash flow.\n\nBut with current assets only 3,244M vs current liabilities 6,106M, they need to sell assets or borrow to cover.\n\nIf they can't, they default.\n\nSo, currently vulnerable.\n\nTherefore, CCC.\n\nNow, for the modifier, + or -.\n\nThe options are CCC+, CCC, CCC-.\n\nWith EBIT positive, perhaps CCC+ or CCC.\n\nBut the leverage is high, and retained earnings negative.\n\nI think CCC is fine.\n\nPerhaps B-.\n\nB is \"more vulnerable to adverse business conditions\" but not currently vulnerable.\n\nCCC is \"currently vulnerable\".\n\nWith current ratio 0.53, it is currently vulnerable.\n\nSo CCC.\n\nThen, for granularity, since EBIT is positive and significant, maybe CCC+.\n\nBut I'm not sure.\n\nPerhaps I can calculate an implied rating.\n\nAnother ratio: Altman Z-score for bankruptcy prediction, but I need more data like working capital, market cap, etc.\n\nNot available.\n\nSo, based on liquidity, I think CCC.\n\nLet's see the decision.\n\nI think DECISION: CCC\n\nBut let's reason briefly.\n\nReason: The company has a very low current ratio of 0.53, indicating severe liquidity issues, and negative retained earnings of -12,237M, showing historical losses. High leverage with debt-to-equity ratio of 3.40 further increases credit risk, placing it in the CCC category.\n\nThen DECISION: CCC\n\nBut the EBIT is positive, which might suggest it's not the worst.\n\nCCC is for vulnerable, which fits.\n\nPerhaps B-.\n\nBut current ratio below 1 is a strong signal.\n\nI think CCC is appropriate.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 3917,
+ "usd": 0.008715,
+ "utc": "2026-09-06T19:15:40.062086+00:00"
+}

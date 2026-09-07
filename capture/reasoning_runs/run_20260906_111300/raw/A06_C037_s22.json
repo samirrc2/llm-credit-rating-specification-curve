@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows significant weaknesses, including a negative gross margin of -4% and a critically low current ratio of 1.00, indicating poor liquidity and profitability concerns. Additionally, deeply negative retained earnings of -6,947M reflect accumulated losses, heightening credit risk despite positive net income and operating margin. These factors place the issuer in the highly speculative category with high credit risk.\n\nDECISION: B+",
+ "reasoning_tail": "d B or lower.\n\nBut here it's exactly 1, so borderline.\n\nAlso, operating income positive, so not CCC.\n\nCCC is for default imminent or vulnerable.\n\nHere, net income positive, so not that.\n\nSo, B or BB-.\n\nI think B+ is reasonable.\n\nB+ is \"Highly Speculative\" with high credit risk but some safety margin.\n\nWith current ratio 1, safety margin is thin.\n\nNet income 179M, so it can cover interest, but no interest given.\n\nAssume that interest is covered.\n\nBut with low liquidity, it's risky.\n\nPerhaps B.\n\nLet's decide.\n\nI think the rating should be B+.\n\nBut let's see the retained earnings: -6,947M is large compared to equity.\n\nEquity is 23,369M, retained earnings -6,947M, so without retained earnings, equity would be higher, but it's still a concern.\n\nFor example, if contributed capital is 30,316M (since equity = contributed capital + retained earnings), then retained earnings negative reduces equity.\n\nBut equity is positive.\n\nIn rating, negative retained earnings are a red flag for creditworthiness.\n\nLiquidity is poor.\n\nProfitability mixed.\n\nSo, I think below investment grade.\n\nBBB- is the lowest investment grade.\n\nFor BBB, current ratio should be above 1.5 or so, and profitability stable.\n\nHere, current ratio 1.00 and negative gross margin, so not BBB.\n\nBB+ or BB might be possible, but I think with current ratio 1.00, it's lower.\n\nPerhaps BB-.\n\nBB- is \"Speculative with substantial risk\".\n\nB+ is \"Highly speculative\".\n\nI think B+ is appropriate.\n\nFinal decision: B+\n\nThen for the output.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 252,
+ "out_tok": 3887,
+ "usd": 0.008651,
+ "utc": "2026-09-06T19:32:04.905158+00:00"
+}

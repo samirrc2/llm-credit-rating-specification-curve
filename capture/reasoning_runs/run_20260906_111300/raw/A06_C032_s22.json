@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability with high gross (85%) and operating margins (32%), indicating efficient operations. However, severe liquidity concerns are evident from the current ratio of 0.35, reflecting inadequate short-term asset coverage for liabilities, and high leverage with a debt-to-equity ratio of approximately 8.1, suggesting significant refinancing risk and vulnerability to adverse conditions. Based on the provided figures, this combination of high profitability but critical liquidity and leverage issues aligns with a CCC+ rating, indicating current vulnerability and dependence on favorable conditions to meet obligations.\n\nDECISION: CCC+",
+ "reasoning_tail": " 159,640M, so about 58% of liabilities are current, which is high, meaning a lot of debt coming due soon.\n\nWith only 56,524M current assets, they need to generate cash or refinance.\n\nOperating income 6,598M per quarter, so about 26,392M annualized, which is less than current liabilities of 159,640M, so it would take several years to pay down from operating income alone, but they have other expenses.\n\nNet income 2,971M per quarter, 11,884M annualized, still less than current liabilities.\n\nSo, refinancing is essential.\n\nIn credit terms, dependent on favorable conditions for refinancing.\n\nSo CCC+ might be better.\n\nCCC+ : \"Currently vulnerable and dependent on favorable business, financial, and economic conditions to meet financial commitments.\"\n\nYes.\n\nB- : \"More vulnerable to adverse business, financial, and economic conditions but currently has the capacity to meet financial commitments.\"\n\nWith current ratio 0.35, capacity to meet short-term commitments is in doubt without refinancing.\n\nSo CCC+ seems more accurate.\n\nFor example, if they have a credit line or something, but not mentioned.\n\nBased on figures, CCC+.\n\nBut let's see the rating scale options: CCC+ is available.\n\nPerhaps I can justify BB-, but I think that's too high.\n\nBB- is the highest speculative grade.\n\nWith current ratio 0.35, it's not BB-.\n\nBB- companies might have current ratio around 1 or so.\n\nFor instance, average for BB is around 1.2-1.5 or something, but varies.\n\nI think CCC+ is reasonable.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 256,
+ "out_tok": 3930,
+ "usd": 0.008748,
+ "utc": "2026-09-06T19:08:15.855612+00:00"
+}

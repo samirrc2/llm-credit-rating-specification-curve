@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt-to-equity ~13.5) and current ratio below 1 indicate substantial default risk.\"}",
+ "reasoning_tail": "ich is cumulative, so it doesn't help for the period.\n\nAnother ratio: net income to revenue, net margin = 4,617/30,125 \u2248 15.3%, good.\n\nBut again, with leverage.\n\nI think the key is the current ratio below 1 and high leverage.\n\nFor example, companies with current ratio below 1 are often rated below investment grade.\n\nAlso, debt-to-equity above 10 is very high.\n\nSo I think the rating is B or B-.\n\nLet's assign.\n\nPerhaps CCC+ or something.\n\nBut retained earnings show profitability, but liquidity is tight.\n\nThe company might be able to refinance, but based on data, risk is high.\n\nFinal decision.\n\nI think BB- or B+.\n\nLet's think of the 21-grade scale.\n\nAAA to C.\n\nFor instance, BBB is medium grade.\n\nWith current ratio 0.83, it's weak.\n\nIn credit analysis, current ratio below 1 is a warning sign.\n\nSimilarly, high leverage.\n\nSo I'll go with B+ or B.\n\nConfidence 3.\n\nRationale: High leverage and poor liquidity indicate substantial credit risk.\n\nRationale must be <=25 words.\n\nSo \"High debt-to-equity and current ratio below 1 show significant risk.\"\n\nNow, label: I think B+.\n\nBut let's see the options: B+, B, B-.\n\nPerhaps B.\n\nSince equity is positive and profitable, not CCC.\n\nCCC is for companies with current vulnerability.\n\nHere, net income positive, so not imminent default.\n\nSo B or B+.\n\nI think B+ is for higher, so B.\n\nLet's choose B.\n\nDecision: B\n\nConfidence: 3\n\nRationale: \"Extremely high leverage and sub-1 current ratio indicate high default risk.\"\n\nWords: 8, under 25.\n\nNow for JSON.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 284,
+ "out_tok": 4237,
+ "usd": 0.009435,
+ "utc": "2026-09-06T19:43:03.204255+00:00"
+}

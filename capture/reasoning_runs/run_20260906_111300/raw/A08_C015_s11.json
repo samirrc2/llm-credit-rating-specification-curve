@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"High debt/equity ratio (3.62), low ROA (2.7%), weak liquidity, debt/EBIT indicates poor coverage\"}",
+ "reasoning_tail": " liquidity, Z-score indicates distress\"}\n\nBut Z-score is not standard for ratings.\n\nShorter rationale.\n\n\"High debt/equity, low coverage, solid retained earnings.\"\n\nRationale must be based on provided figures.\n\n\"Ebit low vs liabilities, current ratio below 1.5, high debt ratio.\"\n\nLet's count words.\n\nDecision should be one of the labels.\n\nI think B+ or BB-.\n\nLook at revenue: 19,133M EBIT 2,660M, that's okay.\n\nBut liabilities 77,267M.\n\nEBIT 2,660M, if interest is say 2% of debt, 1,545M, coverage only 1.72, which is borderline for BB, but if higher rate, worse.\n\n2% is low, corporate debt might be 4-6%, so 3,090M to 4,636M interest, but EBIT only 2,660M, so inadequate coverage.\n\nClearly coverage likely below 1.\n\n   So very high risk.\n\n   Probably CCC range.\n\n   But let's not be too harsh.\n\n   Retained earnings high, so they have internal funds.\n\n   For example, if they have cash, but not given.\n\n   Current assets 52,485M, so plenty of liquid assets, current liabilities 36,558M, so they c n pay short term.\n\n   But long term debt is high.\n\n   Total liabilities 77,267M, current liabilities 36,558M, so non-current liabilities = 77,267 - 36,558 = 40,709M\n\n   EBIT 2,660M, to service debt.\n\n   I think it's weak.\n\n   BB- or B+.\n\n   I feel it's BB-.\n\n   But with confidence 3.\n\n   Decision: BB-\n\n   Rationale: \"High leverage, poor interest coverage, low profitability, retained earnings provide some buffer\" - 8 words.\n\nBut profitability is not that low, margin 13.9%.\n\nROA low.\n\nLet's decide.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 255,
+ "out_tok": 3888,
+ "usd": 0.008655,
+ "utc": "2026-09-06T17:31:50.031849+00:00"
+}

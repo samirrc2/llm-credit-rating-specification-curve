@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows critical weaknesses in liquidity and leverage. The current ratio of 0.63 indicates severe short-term liquidity risk, as current assets cannot cover current liabilities, and the debt-to-equity ratio of approximately 14.5 (52,835M / 3,652M) reflects extreme financial leverage. Additionally, negative retained earnings of -5,086M suggest ongoing profitability issues, and the high liabilities relative to EBIT imply inadequate interest coverage, pointing to substantial default risk.\n\nDECISION: CCC",
+ "reasoning_tail": "al liabilities 52,835M, not all debt, but let's say interest-bearing debt is 40,000M or something, interest 2,000M, EBIT 1,161M < 2,000M, still coverage below 1.\n\nIf interest rate lower, say 4%, 40,000M debt, interest 1,600M, EBIT 1,161M < 1,600M, still negative coverage.\n\nEBIT / interest <1 means cannot cover interest from earnings, which is critical.\n\nSo interest coverage ratio likely negative or very low.\n\nWith current ratio 0.63, liquidity crisis possible.\n\nTherefore, the rating should be in the CCC range.\n\nCCC+ or CCC.\n\nNow, retained earnings negative, which adds to distress.\n\nSo probably CCC.\n\nBut let's see the options.\n\nThe scale has CCC+, CCC, CCC-, CC, C.\n\nI think CCC is appropriate.\n\nPerhaps CCC-.\n\nBut EBIT positive, so not the worst.\n\nRevenue 2,738M, which for a company with 63B assets is low, but it might be a capital-intensive industry or something, but not specified.\n\nI think CCC is fine.\n\nReason briefly: The company exhibits severe liquidity issues with a current ratio of 0.63 and high leverage with a debt-to-equity ratio of approximately 14.5. Additionally, negative retained earnings indicate historical losses, and implied interest coverage is likely insufficient.\n\nThen DECISION: CCC\n\nBut let's confirm the debt-to-equity.\n\nTotal liabilities / equity = 52,835 / 3,652 = 14.465, yes.\n\nCurrent ratio 0.63.\n\nYes.\n\nPerhaps B- but I think CCC is more accurate for such distress signals.\n\nIn practice, ratings also consider industry, but no info.\n\nSo based on this, CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3248,
+ "usd": 0.007251,
+ "utc": "2026-09-06T19:38:27.694080+00:00"
+}

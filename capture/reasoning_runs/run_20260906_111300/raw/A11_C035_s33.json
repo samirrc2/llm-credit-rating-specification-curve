@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the key metrics indicate severe financial distress. The current ratio of 0.42 is critically low, signaling acute liquidity issues and an inability to meet short-term obligations. The debt-to-equity ratio is approximately 10.25 (total liabilities / shareholders' equity = 3,107,151M / 303,243M), indicating extreme leverage, while the EBIT to total liabilities ratio is only 0.4% (12,435M / 3,107,151M), suggesting insufficient earnings to cover interest expenses. Despite a healthy EBIT margin of 25%, the low revenue relative to the balance sheet size (asset turnover of 1.46%) and negative working capital (-1,492,522M) point to high bankruptcy risk, supported by an estimated Altman Z-score of approximately -0.33. This combination of poor liquidity, unsustainable leverage, and low coverage ratios places the issuer in the very high-risk category.\n\nDECISION: CCC",
+ "reasoning_tail": "5) + 0.6*(0.0976) + 1.0*(0.0146)\n\nCalculate step by step:\n\n1.2 * -0.4377 = -0.52524\n\n1.4 * 0.0767 = 0.10738\n\n3.3 * 0.00365 = 0.012045\n\n0.6 * 0.0976 = 0.05856\n\n1.0 * 0.0146 = 0.0146\n\nSum: -0.52524 + 0.10738 = -0.41786\n\n-0.41786 + 0.012045 = -0.405815\n\n-0.405815 + 0.05856 = -0.347255\n\n-0.347255 + 0.0146 = -0.332655\n\nSo Z-score \u2248 -0.33, which is far below 1.8, indicating high bankruptcy risk.\n\nZ-score below 1.8 is distress zone.\n\nHere, negative, so very high risk.\n\nTherefore, credit rating should be low.\n\nIn terms of rating, Z-score below 1.8 corresponds to B or lower.\n\nBut this is approximate.\n\nGiven this, I think B- or CCC+.\n\nBut with such low liquidity, perhaps CCC.\n\nThe current ratio is 0.42, which is extremely low.\n\nIn comparison, companies with current ratio below 1 often have ratings in the CCC range if they have other issues.\n\nHere, leverage is also high.\n\nSo, I think CCC is reasonable.\n\nBut let's see the options.\n\nPerhaps CC.\n\nBut EBIT is positive, so not CC.\n\nCC is for very high risk or default imminent, but here operations are profitable.\n\nCCC is \"currently vulnerable to non-payment\", which fits.\n\nSo, I'll go with CCC.\n\nBut which modifier? CCC+, CCC, CCC-.\n\nSince EBIT margin is good, but leverage high, maybe CCC+ or CCC.\n\nBut liquidity is critical.\n\nPerhaps CCC.\n\nTo be finest granularity, but I think CCC is fine.\n\nAnother thought: retained earnings are high, which might indicate ability to raise capital, but not directly.\n\nI think CCC is appropriate.\n\nFinal decision.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 259,
+ "out_tok": 3800,
+ "usd": 0.008464,
+ "utc": "2026-09-06T19:23:39.871740+00:00"
+}

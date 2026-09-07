@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A+\", \"confidence\": 4, \"rationale\": \"Strong liquidity (current ratio 1.92), low leverage (debt-to-equity 0.74), high profitability (EBIT margin 44%), and robust retained earnings support investment grade with a solid A rating.\"}",
+ "reasoning_tail": "h the ratios I have.\n\nPerhaps the rating is on the higher end.\n\nLet's see if there's inconsistency.\n\nRevenue 5,638M, EBIT 2,489M, but total assets 51,799M, so the company is not very efficient in using assets, but profitable per sale.\n\nFor credit rating, the ability to generate profit to cover obligations is key.\n\nWith high margin, it can service debt.\n\nI think A+ is safe.\n\nBut let's see the 21-grade scale.\n\nI recall that for corporates, a debt-to-capital ratio below 25% might be AAA, 25-35% AA, etc., but capital is debt + equity.\n\nDebt-to-capital = total liabilities / (total liabilities + equity) = 21,966 / (21,966 + 29,833) = 21,966 / 51,799 = 0.424, or 42.4%.\n\nTypically, for industrial companies:\n\n- AAA: debt-to-capital < 25%\n\n- AA: 25-35%\n\n- A: 35-45%\n\n- BBB: 45-50%\n\n- BB: 50-70% etc.\n\nHere 42.4% would be in A range, since 35-45% for A.\n\nEBIT margin 44% is high, which could push it to A+ or AA-.\n\nBut leverage is at the higher end of A.\n\nDebt-to-capital 42.4% is within 35-45% for A.\n\nWith high profitability, it could be A+.\n\nCurrent ratio 1.92 is strong for any rating.\n\nRetained earnings high.\n\nSo I think A+ is appropriate.\n\nAA- if I am more optimistic.\n\nBut let's see the exact scale.\n\nThe scale has AA-, A+, etc.\n\nAnother metric: interest coverage, but missing.\n\nPerhaps for this company, based on the data, A+.\n\nI think I'll go with A+.\n\nConfidence level: since I don't have interest coverage, confidence is not highest.\n\nConfidence 3 or 4.\n\nRationale short.\n\nFinal decision.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 262,
+ "out_tok": 4754,
+ "usd": 0.010555,
+ "utc": "2026-09-06T17:04:47.313141+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Weak liquidity (current ratio below 1), high leverage (debt-to-equity ~2.9), low profitability (operating margin 4%).\"}}",
+ "reasoning_tail": "choose.\n\nAnother idea: the operating margin is low at 4%, which might be industry-specific, but no industry given, so I have to assume general.\n\nAsset size large, but weak metrics.\n\nFinal decision: I think this merits a B+ rating, which is speculative, vulnerable to adverse conditions, but capacity to meet obligations if no shock.\n\nB+ is the 15th on the scale: from top AAA down to C, 21 grades.\n\nList: AAA=1, AA+=2, AA=3, AA-=4, A+=5, A=6, A-=7, BBB+=8, BBB=9, BBB-=10, BB+=11, BB=12, BB-=13, B+=14, B=15, B-=16, CCC+=17, CCC=18, CCC-=19, CC=20, C=21.\n\nB+ is 14th? Count:\n\nAAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo 1.AAA, 2.AA+, 3.AA, 4.AA-, 5.A+, 6.A, 7.A-, 8.BBB+, 9.BBB, 10.BBB-, 11.BB+, 12.BB, 13.BB-, 14.B+, 15.B, 16.B-, 17.CCC+, 18.CCC, 19.CCC-, 20.CC, 21.C\n\nSo B+ is 14.\n\nSo a mid-to-low speculative.\n\nWith negative working capital, likely B+ or B.\n\nI think B+ is reasonable, with confidence 3 or 4.\n\nRationale should be <=25 words.\n\nDecision: B+\n\nConfidence: I'll say 3, since I'm somewhat sure, but lacking data like debt maturity or interest coverage.\n\nFinal answer in JSON.\n\nThe response must be exactly that JSON object.\n\nSo { \"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Low liquidity, high leverage, thin margins\" }\n\nRationale must be <=25 words.\n\n\"Low liquidity, high leverage, thin margins\" is 4 words.\n\nSummarize.\n\nRationale: \"Current ratio below 1, high debt-to-equity, low operating margin.\"\n\nThat's 8 words.\n\nGood.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 4013,
+ "usd": 0.008934,
+ "utc": "2026-09-06T19:59:18.952088+00:00"
+}

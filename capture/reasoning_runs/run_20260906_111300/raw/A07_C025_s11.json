@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits high leverage with a debt-to-equity ratio of approximately 2.47 (total liabilities / shareholders' equity = 52,676 / 21,312), weak liquidity with a current ratio of 1.39, and no retained earnings, indicating significant credit risk and financial instability. Moderate profitability with an EBIT margin of about 9.7% (EBIT / revenue = 886 / 9,143) prevents the lowest ratings, but the combination of factors places the issuer firmly in speculative grade. Given the high risk profile, particularly the absence of retained earnings and elevated leverage, a B+ rating is justified, reflecting vulnerable but not imminent default conditions.\n\nDECISION: B+",
+ "reasoning_tail": "gative retained earnings suggest lower financial flexibility.\n\nSo, I think B+ or B.\n\nPerhaps BB-.\n\nI recall that for corporate ratings, a current ratio below 1.5 is a concern, debt-to-equity above 2 is risky.\n\nWith both, and retained earnings zero, it should be B.\n\nLet's assign B+.\n\nBut let's see the decision.\n\nPerhaps calculate the interest coverage roughly.\n\nSuppose that the interest expense can be estimated from the debt.\n\nBut I don't have debt.\n\nTotal liabilities 52,676M, but for a company, debt might be, say, 50% of liabilities or less.\n\nAssume that interest-bearing debt is 20,000M.\n\nAt 5% interest, interest 1,000M.\n\nEBIT 886M, so coverage 0.886, less than 1.\n\nIf debt is 15,000M, interest 750M, coverage 1.181, still low.\n\nIf debt is 10,000M, interest 500M, coverage 1.772.\n\nBut coverage below 2 is typical for B ratings.\n\nWith retained earnings zero, it might be B or B-.\n\nAlso, current ratio 1.39 is weak.\n\nSo I think B+ or B.\n\nLet's go with B+.\n\nBut retained earnings 0 is bad.\n\nPerhaps CCC+.\n\nBut EBIT positive, so not that low.\n\nI think B+ is reasonable.\n\nLet's see the figures again.\n\nRevenue 9,143M, EBIT 886M, so after interest and taxes, if interest is high, net income might be low or negative.\n\nBut not given.\n\nPerhaps the issuer has high debt.\n\nAnother thought: shareholders' equity 21,312M, total liabilities 52,676M, so the company is leveraged.\n\nBut for rating, I think speculative grade.\n\nFinal decision: I'll go with B+.\n\nBut let's box it.\n\nReasoning in 1-3 sentences.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 5526,
+ "usd": 0.012233,
+ "utc": "2026-09-06T18:30:37.043054+00:00"
+}

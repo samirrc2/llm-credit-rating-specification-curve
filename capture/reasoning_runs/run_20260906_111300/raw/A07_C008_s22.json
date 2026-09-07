@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress with negative shareholders' equity (-2,646M) and a current ratio well below 1 (0.62), indicating insolvency and acute liquidity issues. While EBIT is positive (3,230M), suggesting some operational profitability, it is insufficient to offset the high leverage (total liabilities exceed total assets) and poor liquidity, pointing to a high risk of default. This aligns with a CCC rating, which denotes current vulnerability and dependence on favorable conditions.\n\nDECISION: CCC",
+ "reasoning_tail": "retained earnings are high, which might indicate a history of profitability, but current situation is bad due to high leverage or something.\n\nShareholders' equity is negative, which overrides retained earnings.\n\nPerhaps there was a large loss or write-off.\n\nBut based on current figures, I think CCC is reasonable.\n\nLet's see the options: CCC+, CCC, CCC-, CC, C.\n\nI think CCC is appropriate.\n\nPerhaps CCC-.\n\nBut let's see if there's a better fit.\n\nAnother metric: times interest earned, but no interest expense.\n\nDebt to EBITDA: no EBITDA or debt figure.\n\nTotal liabilities include non-debt items.\n\nBut roughly, EBIT to total liabilities ratio is low.\n\nI think I have to go with the overall picture.\n\nFinal decision: due to negative shareholders' equity, current ratio below 1, and total liabilities exceeding total assets, the issuer is in financial distress with high bankruptcy risk. The positive EBIT provides some operating income but is insufficient to offset the weak balance sheet. Therefore, a rating in the CCC category is justified. Given the liquidity crisis indicated by the current ratio, CCC is appropriate.\n\nFor granularity, since EBIT is substantial, maybe CCC+, but I think CCC is fine.\n\nCCC+ might be for slightly better situations.\n\nBut here, negative equity is severe.\n\nIn practice, companies with negative equity are often rated B- or lower, but B- might be higher.\n\nB- is still speculative, but CCC is for current vulnerability.\n\nI think CCC is correct.\n\nSo, I'll go with CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3279,
+ "usd": 0.007314,
+ "utc": "2026-09-06T16:49:35.382576+00:00"
+}

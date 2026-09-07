@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits high leverage with a debt-to-equity ratio of approximately 2.47 (calculated as total liabilities / shareholders' equity = 52,676M / 21,312M), indicating substantial financial risk. Additionally, retained earnings of 0M suggest no accumulated financial cushion, and low profitability with an EBIT to total assets ratio of about 1.2% (886M / 73,988M) combined with an implied interest coverage ratio likely below 1.0 (using reasonable assumptions for interest expense) points to significant distress and vulnerability to default. The current ratio of 1.39 shows acceptable short-term liquidity but does not offset the high long-term solvency risks.\n\nDECISION: CCC+",
+ "reasoning_tail": "hink it should be lower.\n\nFinal decision.\n\nAnother point  retained earnings are 0M, which might be a typo, but we have to use it.\n\nPerhaps \"0M\" means it's very small, but 0 is zero.\n\nSo, in summary:\n\n- High leverage (liabilities/equity 2.47)\n- Low profitability (EBIT/assets 1.2%)\n- Zero retained earnings\n- Marginal liquidity (current ratio 1.39)\n- Likely very low interest coverage\n\nAll point to a very weak credit profile.\n\nRating: B- or CCC+.\n\nB- is \"highly speculative\"\n\nCCC+ is \"vulnerable\"\n\nWith coverage likely below 1, CCC+.\n\nBut I think for large companies, ratings might be higher, but based on ratios, it is what it is.\n\nPerhaps I have a mistake; reyenue 9,143M, EBIT 886M, so EBIT margin 9.7%, which in some industries is normal, like retail or something, but combined with high leverage, it might still be high yield.\n\nFor example, many BB rated companies have higher coverage.\n\nHere coverage is poor.\n\nI think CCC+ or CC, but not CC since not imminent default.\n\nCCC+.\n\nThen for the response.\n\nReason in 1-3 sentences.\n\nThen DECISION: <label>\n\ni think B- or CCC+.\n\nLet's choose CCC+.\n\nOr look at the numbers again.\n\nThe EBIT is labeled \"EBIT / operating income\" at 886M.\n\nRevenue is 9,143M, so about 10% margin.\n\nBut the scale: revenue 9 billion, assets 74 billion, which is mismatched, indicating low turnover.\n\nLiability to equity high.\n\nRetained earnings zero.\n\nPerhaps it's a company that has high assets but low revenue, like in decline or something.\n\nI think CCC+ is appropriate.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 247,
+ "out_tok": 5966,
+ "usd": 0.013201,
+ "utc": "2026-09-06T18:29:25.585233+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong liquidity (current ratio 1.92) and high EBIT margin (44.1%) with moderate leverage (debt-to-equity 0.74) support low investment-grade rating.\"}",
+ "reasoning_tail": "tio above 1.2, debt-to-equity below 0.8, etc., which is satisfied.\n\nFor AA, debt-to-equity might be below 0.5.\n\nHere it's higher.\n\nSo A or BBB.\n\nEBIT margin high supports A.\n\nLow turnover might not affect credit rating directly.\n\nI think A- is reasonable.\n\nBut let's check the numbers again.\n\nRevenue 5,638M, EBIT 2,489M, that's 44.1% margin.\n\nTotal assets 51,799M, so ROA 4.8%.\n\nIf the industry has low turnover, it might be normal.\n\nBut for credit rating, the key is ability to pay debt.\n\nSince no debt data, I'll go with the ratios.\n\nPerhaps the issuer is around BBB+ to A-.\n\nBut I need one label.\n\nLet's say A- with medium confidence.\n\nConfidence level 3.\n\nRationale in 25 words.\n\nFinal decision.\n\nPerhaps I can consider that shareholders' equity is high, so low risk of insolvency.\n\nDebt-to-equity 0.736 means equity is 1.36 times debt, so cushion is good.\n\nEBIT can cover interest multiple times if interest is reasonable.\n\nAssume interest rate 5%, debt portion say 50% of liabilities, so debt 10,983M, interest 549M, coverage 4.5x, which is acceptable for BBB to A.\n\nFor BBB, coverage might be 3-4x, for A 4-6x, for AA 6-8x.\n\nSo around A- or BBB+.\n\nBut with high margin, it might be stronger.\n\nI think A- is fine.\n\nOr BBB+.\n\nLet's see the retained earnings to total assets: 57.4%, very high, indicating low distress risk.\n\nSo I'll go with A-.\n\nLabel: A-\n\nConfidence: 3\n\nRationale: Strong liquidity and profitability with moderate leverage support an investment-grade rating.\n\nWithin 25 words.\n",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 262,
+ "out_tok": 4371,
+ "usd": 0.009717,
+ "utc": "2026-09-06T17:04:41.013345+00:00"
+}

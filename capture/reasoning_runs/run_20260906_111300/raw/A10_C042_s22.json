@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the key factors from the provided data indicate severe financial distress. Negative shareholders' equity (-$8,465M) demonstrates insolvency on a balance sheet basis, and the current ratio of 0.92 (below 1) signals acute liquidity risk, meaning the company may struggle to meet short-term obligations despite positive quarterly operating income ($777M). These weaknesses outweigh the profitability metrics and suggest a high probability of default, placing the issuer in the \"currently vulnerable\" category.\n\nDECISION: CCC",
+ "reasoning_tail": "erhaps B-.\n\nB- is \"highly speculative,\" which could include negative equity.\n\nBut with current ratio <1, it's worse.\n\nI recall that credit ratings for companies with negative equity are often B or lower.\n\nFor example, in 2023, some companies with negative equity had ratings like B- or CCC.\n\nBut I don't have specific.\n\nFor this case, I'll go with CCC.\n\nSo reason: The company has negative shareholders' equity and a current ratio below 1, indicating severe balance sheet weakness and liquidity concerns, outweighing the positive quarterly profitability.\n\nDECISION: CCC\n\nBut CCC has three subgrades; I need to choose one.\n\nPerhaps CCC, since it's in the middle.\n\nCCC+ if slightly better, but I think CCC is appropriate.\n\nThe operating margin is 8%, which is decent, so not the worst.\n\nBut negative equity is bad.\n\nI think CCC is ok.\n\nPerhaps BBB- if I ignore some, but no, negative equity is a no for investment grade.\n\nInvestment grade requires adequate financial strength.\n\nHere, not.\n\nSo speculative grade, and with liquidity issue, low speculative.\n\nBB is for less vulnerable, BB- for more vulnerable, B+ for vulnerable, B for more vulnerable, B- for highly speculative.\n\nB-: \"Highly speculative; 'junk' bonds with high credit risk.\"\n\nCCC: \"Currently vulnerable; default is a real possibility.\"\n\nSince current ratio <1, default is a real possibility if they can't meet obligations.\n\nSo CCC.\n\nCCC+ might be if conditions are better, but here it's not.\n\nI think CCC is fine.\n\nSo I'll go with that.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 261,
+ "out_tok": 4819,
+ "usd": 0.010697,
+ "utc": "2026-09-06T19:58:42.374946+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extremely high leverage, low EBIT margin, weak current ratio.\"}",
+ "reasoning_tail": " current ratio above 1, not CC.\n\nCC is for default imminent, C for default.\n\nSo CCC.\n\nNow, for the specific grade, CCC+ or CCC.\n\nSince EBIT is positive, perhaps CCC+.\n\nBut margin is thin.\n\nI think CCC.\n\nConfidence: 3, because no interest expense.\n\nRationale: \"Extremely high leverage, low EBIT margin, weak current ratio.\"\n\nThat's 8 words.\n\nNow, for the rating, I think CCC+ might be too optimistic.\n\nB- is above CCC.\n\nB- is for highly speculative, CCC for vulnerable.\n\nWith such high leverage, vulnerable is appropriate.\n\nLet's see the rating scale: B- is below B+, CCC+ is above CCC.\n\nCCC is lower than B-.\n\nOrder: ... BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, ...\n\nSo B- is better than CCC+.\n\nB- is one notch above CCC+.\n\nB- is speculative, CCC is substantial risk.\n\nGiven the ratios, CCC is likely.\n\nBut let's confirm with Altman Z-score.\n\nZ-score 0.45, which is in the \"distress\" zone, suggesting high risk of bankruptcy within two years.\n\nSo for credit rating, CCC or lower.\n\nSince not default, CCC.\n\nCCC+ or CCC.\n\nI think CCC.\n\nConfidence 3.\n\nRationale: \"High leverage, thin profit margin, weak liquidity.\"\n\n11 words.\n\nNow, for the JSON.\n\nBut the task says \"assign the issuer a letter credit rating\", and \"finest granularity you can justify.\"\n\nWith the data, I can justify CCC.\n\nPerhaps B- if I consider retained earnings, but I think CCC is better.\n\nAnother thing: retained earnings are 17,162M, which is positive, but it's not cash, and equity is low, so it doesn't help much.\n\nI think CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4654,
+ "usd": 0.01033,
+ "utc": "2026-09-06T17:50:53.398867+00:00"
+}

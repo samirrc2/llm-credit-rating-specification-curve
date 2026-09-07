@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress, primarily due to an extremely low current ratio of 0.35, indicating critical liquidity issues and an inability to cover short-term obligations. Additionally, the high leverage is evident from a debt-to-equity ratio of approximately 8.09 and a debt-to-assets ratio of 89%, compounded by negative working capital of -103,116M. While profitability is reasonable with an EBIT margin of 31.6%, it is insufficient to offset the liquidity and solvency risks, suggesting high vulnerability to default.\n\nDECISION: CCC",
+ "reasoning_tail": "bt, but EBIT is not cash flow.\n\nRevenue 20,880M, cost of revenue not given, but EBIT margin 31.6%, so operating cash flow might be similar.\n\nBut with negative working capital, cash flow could be positive if receivables are collected, etc., but not specified.\n\nAssume that operating cash flow is roughly EBIT minus taxes plus depreciation, but no data.\n\nSimplistically, EBIT 6,598M annually, current liabilities 159,640M, so even if all cash flow used, it would take many years to pay, but current liabilities are short-term, due within a year.\n\nSo impossible to pay from operations; need refinancing or asset sales.\n\nBut with high leverage, refinancing might be difficult.\n\nTherefore, high risk of default.\n\nSo, rating should be low.\n\nI think CCC- or CC.\n\nLet's see the scale: CCC+, CCC, CCC-, CC, C.\n\nCC is for \"highly vulnerable\" and C for \"imminent default.\"\n\nSince EBIT is positive, not imminent, but vulnerable.\n\nPerhaps CCC-.\n\nBut I think CCC is also possible.\n\nPerhaps B- but that might be too high.\n\nB- is for \"highly speculative\" but not necessarily vulnerable now.\n\nCCC is \"currently vulnerable.\"\n\nWith current ratio 0.35, it is currently vulnerable to default on current liabilities.\n\nSo CCC seems fitting.\n\nEBIT is positive, so not CC or C.\n\nC is for when default is imminent, like missed payments.\n\nHere, no indication of default yet.\n\nSo CCC.\n\nFor granularity, since current ratio is very low, perhaps CCC-.\n\nBut I think CCC is fine.\n\nI'll go with CCC.\n\nBut let's confirm the decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 4553,
+ "usd": 0.010104,
+ "utc": "2026-09-06T19:09:04.270013+00:00"
+}

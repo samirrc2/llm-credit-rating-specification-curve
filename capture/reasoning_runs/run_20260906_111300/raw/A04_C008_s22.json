@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity and low current ratio indicate severe financial distress and high default risk.\"}",
+ "reasoning_tail": " highest, then AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is better than CCC+.\n\nWith negative equity, it should be CCC or lower.\n\nCurrent ratio 0.62 is very low.\n\nI think CCC is appropriate.\n\nFinal decision: CCC\n\nConfidence: 3\n\nRationale: Negative equity and low current ratio indicate high financial distress.\n\nThat's 8 words.\n\n\"Negative equity and poor liquidity suggest imminent default risk.\"\n\nBut EBIT is positive, so not imminent default, but high risk.\n\n\"High leverage and liquidity risk warrant low rating.\"\n\nBut negative equity is worse than high leverage.\n\nI think \"Negative equity and critical liquidity position\" or something.\n\nRationale: \"Severe balance sheet weakness with negative net worth and insufficient liquidity.\"\n\n20 words? \"Severe balance sheet weakness, negative equity, low current ratio.\"\n\nThat's 6 words.\n\nFine.\n\nSo, decision: CCC\n\nBut let's see if it could be B-.\n\nSome might argue that with high EBIT, it could service debt, but without interest data, hard to say.\n\nGiven the information, CCC is safer.\n\nPerhaps BB-, but that seems too high.\n\nNo, negative equity is a no-go for investment grade or even BB.\n\nBB is speculative, but negative equity is worse.\n\nFor example, companies emerging from bankruptcy might have negative equity and be rated B or CCC.\n\nHere, retained earnings large, but equity negative, so it might be a case of large write-offs or something.\n\nI think CCC is reasonable.\n\nSo, I'll go with CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3879,
+ "usd": 0.008638,
+ "utc": "2026-09-06T16:48:48.994853+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Current ratio below 1 indicates severe liquidity stress; high leverage (debt-to-equity ~2.74) and low implied interest coverage suggest high default risk.\"}",
+ "reasoning_tail": "ell assets.\n\nSo CCC seems fitting.\n\nBut let's see the exact rating.\n\nOptions: CCC+, CCC, CCC-.\n\nCCC+ is higher than CCC.\n\nCCC+ might be for less vulnerable in CCC category.\n\nBut here, with negative working capital, it's quite vulnerable.\n\nPerhaps CCC.\n\nConfidence: I'd say 3, since I'm estimating coverage.\n\nRationale should be concise, <=25 words.\n\nFinal decision.\n\nAnother thing: retained earnings are positive and large, which might indicate some financial flexibility, but not for short-term.\n\nI think CCC is appropriate.\n\nPerhaps B-, but B- is higher than CCC.\n\nThe scale: from AAA down to C, with B- above CCC+.\n\nOrder: B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is better than CCC+.\n\nB is more vulnerable than BB, but less than CCC.\n\nB: More vulnerable to adverse business conditions but currently has capacity to meet commitments.\n\nCCC: Currently vulnerable and dependent on favorable conditions.\n\nWith current ratio below 1, they may not have capacity to meet current commitments without external help.\n\nFor example, if they can't pay current liabilities, it could lead to default.\n\nSo CCC.\n\nEBIT positive, so they are operating, but liquidity issue.\n\nI think CCC.\n\nLet's assign CCC.\n\nConfidence: 3 out of 5, because of missing interest expense.\n\nRationale: Poor liquidity with current ratio below 1 and high leverage imply high default risk.\n\nWithin 25 words.\n\n\"Poor liquidity, high leverage, low coverage inferred, high default risk.\"\n\nBut coverage inferred.\n\nBased on data.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4454,
+ "usd": 0.009892,
+ "utc": "2026-09-06T19:27:57.227072+00:00"
+}

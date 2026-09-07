@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C028",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A+\", \"confidence\": 3, \"rationale\": \"Strong profitability with high margins, moderate leverage, but liquidity constrained by low current ratio.\"}",
+ "reasoning_tail": "ft scale.\n\nApple's revenue was about $383B in 2023, but this is 2026, so hypothetical.\n\nIn this context, with such scale, even with current ratio 1.18, it might be fine.\n\nApple's current ratio is around 1.0 to 1.1 sometimes, and it has AA+ rating.\n\nFor example, Apple's current ratio was 0.99 in some quarters, but it has huge cash reserves.\n\nHere, current assets include cash, but not specified.\n\nCurrent assets 255,155M, current liabilities 216,756M, so cash might be part of it.\n\nBut I don't have breakdown.\n\nSimilarly, Apple has low debt.\n\nHere, total liabilities 474,716M vs assets 916,630M, so not excessive.\n\nI think for a company of this size and profitability, a high rating is warranted.\n\nPerhaps AA- or A+.\n\nLet's assign.\n\nI'll go with A+.\n\nConfidence: 3, since liquidity is a bit weak.\n\nRationale: Strong profitability and moderate leverage, but liquidity slightly low.\n\nWord count: \"Strong profitability and moderate leverage, but liquidity slightly low.\" 6 words.\n\nFinal answer in JSON.\n\nThe rating should be one label.\n\nPerhaps A is safer.\n\nAnother thought: net income is higher than operating income, which might indicate reliance on non-operating items, so not as stable.\n\nOperating income 23,852M, net income 30,255M, so about 26.8% higher, which is significant. Could be investment income or tax benefits.\n\nIn credit ratings, operating income is key for debt servicing.\n\nOperating income 23,852M, which is good.\n\nBut for rating, I think A+ is reasonable.\n\nI think I'll go with A+.\n",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 276,
+ "out_tok": 2884,
+ "usd": 0.006468,
+ "utc": "2026-09-06T18:44:47.437470+00:00"
+}

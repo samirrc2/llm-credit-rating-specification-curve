@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"High leverage, low liquidity, weak profitability indicate high default risk per Altman Z-score.\"}",
+ "reasoning_tail": " maybe not worst.\n\nRetained earnings 8,777M, total assets 59,991M, so about 14.6%, which in Z-score contributed positively.\n\nBut overall Z low.\n\nI think CCC is reasonable.\n\nPerhaps B-, but I think CCC is lower.\n\nAnother way: the company has negative working capital, which is bad for liquidity.\n\nIn credit ratings, agencies might consider industry, but not given.\n\nBased solely on numbers, CCC.\n\nI recall that for example, companies like Tesla during tough times had B- or CCC, but not sure.\n\nPerhaps I should assign B-.\n\nLet's calculate the debt to capital ratio.\n\nDebt to capital = Total liabilities / (Total liabilities + Equity) = 44,490 / (44,490 + 15,501) = 44,490 / 59,991 \u2248 0.741, so 74.1% debt in capital structure, high.\n\nEquity to assets = 15,501 / 59,991 \u2248 0.258, so 25.8%, low.\n\nEBIT margin low.\n\nSo, I think speculative grade, low end.\n\nI'll go with CCC.\n\nConfidence 3, since no industry context.\n\nRationale: \"Poor liquidity, high leverage, low margins imply high default risk.\"\n\n18 words.\n\nNow for JSON.\n\n{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Poor liquidity, high leverage, low margins imply high default risk.\"}\n\nBut the rating scale has CCC+, CCC, CCC-, etc.\n\nI need to choose one.\n\nPerhaps CCC- for worse.\n\nBut Z-score is 0.877, which is bad, but not zero.\n\nCCC is fine.\n\nPerhaps B-.\n\nB- is above CCC+.\n\nB- then CCC+.\n\nB- is \"highly speculative\" while CCC is \"currently vulnerable\".\n\nWith current ratio below 1, it is currently vulnerable.\n\nSo CCC.\n\nI think it's okay.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 4412,
+ "usd": 0.009805,
+ "utc": "2026-09-06T20:03:27.520777+00:00"
+}

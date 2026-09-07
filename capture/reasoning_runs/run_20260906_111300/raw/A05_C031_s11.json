@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt-to-equity 11.35), critically low liquidity (current ratio 0.34), and weak ROA (0.24%) indicate substantial default risk.\"}",
+ "reasoning_tail": "ebt or payables.\n\nBut with current assets only covering 34%, it's risky.\n\nI think I have to go with a low rating.\n\nLet's say B- or CCC+.\n\nBut let's see the numbers again.\n\nTotal assets 2,205,752M, current assets 612,094M, so non-current assets are 2,205,752 - 612,094 = 1,593,658M.\n\nCurrent liabilities 1,775,239M, so net working capital is current assets - current liabilities = 612,094 - 1,775,239 = -1,163,145M, which is highly negative, meaning the company has a large deficit in short-term funding.\n\nThis is very risky for creditors.\n\nTherefore, I think the rating should be in the CCC range, indicating high default risk.\n\nFor example, CCC+ or CCC.\n\nBut with net income positive, it might be CCC+.\n\nConfidence: 3, since I don't have full details.\n\nRationale: \"High leverage, poor liquidity, low ROA.\"\n\nThat's 5 words.\n\nNow for the rating, let's choose CCC+.\n\nBut let's see if it can be higher.\n\nPerhaps BB- if I consider the profitability.\n\nBut the liquidity is too poor.\n\nI recall that for companies like this, ratings can be low.\n\nPerhaps this is a company like Amazon or something, but Amazon has better ratios.\n\nAnother idea: the large retained earnings suggest past profitability, but current situation is risky.\n\nI think CCC+ is reasonable.\n\nOr B-.\n\nB- is for highly speculative, CCC for substantial risk.\n\nWith current ratio 0.34, substantial risk.\n\nSo CCC+.\n\nBut let's confirm the scale: CCC+ is above CCC, so better than CCC.\n\nCCC+ is still vulnerable.\n\nI think CCC+.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 273,
+ "out_tok": 4165,
+ "usd": 0.009272,
+ "utc": "2026-09-06T19:02:30.723765+00:00"
+}

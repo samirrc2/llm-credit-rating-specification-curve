@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"High leverage (Debt-to-Equity ~3.83) and low Altman Z-score (~1.05) indicate financial distress, despite strong EBIT margin.\"}",
+ "reasoning_tail": " with BB+ et al.\n\nBB- is higher than B+.\n\nOrder: AAA, then AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo BB- is better than B+, B, etc.\n\nBB- is above B+ in the scale? No.\n\nListed as: BB+, BB, BB-, B+, B, B-, so BB- is between BB and B+, but in rating, lower number is better, but in terms of risk, BB- is higher than BB.\n\nIn alphabetical order, BBB- > BB+ > BB > BB- > B+ > B > B- > CCC+, etc.\n\nBB- is below BB, above B+.\n\nFor example, BB+ is high speculative, BB speculative, BB- less speculative but still junk, then B+ high yield with risk, etc.\n\nIn terms of credit quality, BB is better than B.\n\nFrom the list, BB- comes before B+, so BB- is a higher rating than B+.\n\nIn the sequence: BB+, then BB, then BB-, then B+, so BB- is next before B+, so BB- is better than B+.\n\nFor example, BB rated bonds are less risky than B rated.\n\nSo BB- is investment grade? No, non-investment grade starts at BB+ and below for some, but BBB- is lowest investment grade.\n\nIn S&P, BBB- and above are investment grade, BB+ and below are speculative.\n\nBB+ is highest speculative, then BB, BB-, B+, B, B-, etc.\n\nBB- is below BB, so riskier.\n\nBut from the scale, BB- is above B+.\n\nIn the list given: AAA to C, with BB+, BB, BB-, then B+, B, B-, etc.\n\nSo ratings: BB+ > BB > BB- > B+ > B > B-\n\nSo BB- is better than B+\n\nBack to my point.\n\nIf debt/EBIT is 6x, it might be BB or B range.\n\nWith coverage 2-3x, it could be B or BB-.\n\nI think I'll go with BB- , confidence 3.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 6014,
+ "usd": 0.013316,
+ "utc": "2026-09-06T16:35:34.072076+00:00"
+}

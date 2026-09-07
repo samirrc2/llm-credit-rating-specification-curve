@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Poor liquidity (current ratio 0.97), high leverage (debt/equity 2.87), low profitability (EBIT margin 3.75%).\"}",
+ "reasoning_tail": "eneral knowledge available before.\n\nThe task says \"knowledge available on or before the most recent fiscal year\", but since fiscal year not given, I assume current.\n\nPerhaps for simplicity, assign BB-.\n\nI found a reference in memory: companies with current ratio below 1.0 often have ratings of B or lower.\n\nFor example, some distressed firms have CCC.\n\nBut here, EBIT is positive, so not yet in default.\n\nPerhaps B+.\n\nI think I'll decide on B.\n\nConfidence 3, since missing interest coverage.\n\nRationale: \"Poor liquidity, high leverage, low profitability.\"\n\nThat's 6 words.\n\nNow for the JSON.\n\nFinal decision: B\n\nBut let's see if BBB- is possible? Unlikely with current ratio below 1.\n\nAA or A are for strong companies.\n\nA- might have current ratio above 1.2 or so.\n\nHere, all ratios weak.\n\nSo B.\n\nPerhaps BB+.\n\nBut I think B is better.\n\nAnother thing: retained earnings are high, which might indicate ability to raise equity or something, but not directly.\n\nI think B is fine.\n\nSo rating: B\n\nConfidence: 3\n\nRationale: \"Low current ratio, high debt, thin margins.\"\n\nOr \"Poor liquidity and leverage, weak earnings.\"\n\nKeep it short.\n\n\"Liquidity shortfall, high leverage, low EBIT margin.\"\n\nBut <=25 words, so ok.\n\nNow for JSON: {\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Poor liquidity, high leverage, low profitability\"}\n\nBut rationale must be a string.\n\nIn the scale, it's \"B\", not \"B\".\n\nThe options include B+, B, B-, so \"B\" is one of them.\n\nSimilarly, confidence integer.\n\nI think that's it.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4914,
+ "usd": 0.0109,
+ "utc": "2026-09-06T20:02:32.743406+00:00"
+}

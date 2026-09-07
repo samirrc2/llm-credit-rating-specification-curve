@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe liquidity issues with a current ratio of 0.59, indicating insufficient current assets to cover current liabilities, and negative working capital of approximately -$8,913 million. Leverage is high with a debt-to-equity ratio of 1.76 and a low EBIT to total assets ratio of 1.37%, suggesting weak profitability relative to asset base. The Altman Z-score of approximately 1.10 falls within the distress zone, indicating a high risk of financial distress. Although retained earnings are substantial, they do not alleviate the immediate liquidity concerns or high leverage. Based on these factors, the issuer is assessed as having a very high credit risk with current vulnerability.\n\nDECISION: CCC+",
+ "reasoning_tail": ".\n\nBut I don't have a model.\n\nI think for the purpose of this, I'll go with CCC+.\n\nBut let's see the retained earnings: 36,413M, which is large, but it's not liquid; it's equity, not cash.\n\nSo, it doesn't help with liquidity.\n\nThe company has negative working capital, so it needs financing.\n\nTherefore, speculative grade with high risk.\n\nSo, CCC+.\n\nThe rating scale has CCC+, CCC, CCC-, etc.\n\nCCC+ is better than CCC.\n\nPerhaps B- is higher.\n\nB- is above CCC+.\n\nThe scale: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is above CCC+.\n\nB- then CCC+.\n\nB- is better than CCC+.\n\nFor example, B- might have Z-score around 1.5-2.0, CCC around 1.0-1.5.\n\nBut rough.\n\nI found online that for Altman Z-score:\n\n- Above 3: AAA to A\n\n- 2.7 to 3.0: AA to BBB\n\n- 2.4 to 2.7: BBB to BB\n\n- 1.8 to 2.4: BB to B\n\n- Below 1.8: B to C\n\nBut not precise.\n\nZ=1.095 is well below 1.8.\n\nAlso, with current ratio 0.59, it's severe.\n\nSo, I think CCC+ or CCC.\n\nBut let's see if there's any positive.\n\nRevenue is 10,496M, EBIT 979M, so it's profitable, but not enough to cover liabilities quickly.\n\nEBIT / Total liabilities = 979 / 45,596 \u2248 0.0215, so 2.15%, which is low.\n\nIf interest rate is say 5%, then interest coverage would be EBIT / Interest, but unknown.\n\nAssume average interest rate, but not given.\n\nI think CCC+ is appropriate.\n\nPerhaps B- for some chance of recovery.\n\nBut with negative working capital, it's critical.\n\nSo, I'll go with CCC+.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 4490,
+ "usd": 0.00997,
+ "utc": "2026-09-06T18:15:27.743058+00:00"
+}

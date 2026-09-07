@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe liquidity issues with a current ratio of 0.53, indicating insufficient short-term assets to cover current liabilities, and negative working capital of approximately -5,971M. Additionally, high leverage is evident with a debt-to-equity ratio of 2.67 and a debt-to-assets ratio of 72%, compounded by low return on assets (1.16%) and asset turnover (5.11%). Although the operating margin is healthy at 22.59%, the implied interest coverage ratio is likely below 1 (assuming a reasonable interest rate on total liabilities), suggesting distress and dependency on favorable conditions to meet obligations. This profile aligns with a high-risk, speculative grade.\n\nDECISION: CCC",
+ "reasoning_tail": "e below 1 suggests distress.\n\nStandard & Poor's, for example, defines:\n\n- B: More vulnerable to adverse business conditions but currently meeting obligations.\n\n- CCC: Currently vulnerable and dependent on favorable conditions to meet obligations.\n\n- CC: Highly vulnerable, very speculative.\n\nHere, with current ratio 0.53, it's not meeting short-term obligations without external help, so vulnerable.\n\nTherefore, CCC range.\n\nMoreover, with negative working capital.\n\nSo, I think CCC or CCC-.\n\nBut let's see if there's a positive: retained earnings 15,795M could be used to cover losses or invest, but not for liquidity.\n\nShareholders' equity 31,808M, so book value is positive.\n\nBut for credit rating, debt holders care about repayment ability.\n\nI think CCC is reasonable.\n\nPerhaps B- if we consider the margin.\n\nBut the liquidity is too weak.\n\nAnother ratio: cash ratio, but cash not given.\n\nCurrent assets include cash, but unknown.\n\nI think based on overall, the rating should be low.\n\nFinal decision: I'll go with CCC.\n\nBut let's choose a specific grade.\n\nThe options include CCC+, CCC, CCC-.\n\nSince EBIT is positive and retained earnings high, perhaps not the lowest.\n\nBut coverage likely negative.\n\nI think CCC.\n\nOr B- for some agencies.\n\nBut I think CCC is fine.\n\nPerhaps from the data, let's see if we can infer net income.\n\nRetained earnings change: not given.\n\nNo, I think CCC.\n\nSo, DECISION: CCC\n\nBut the scale has CCC+, CCC, CCC-, etc.\n\nI need to pick one.\n\nPerhaps CCC.\n\nReason briefly.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4238,
+ "usd": 0.009419,
+ "utc": "2026-09-06T20:12:11.711051+00:00"
+}

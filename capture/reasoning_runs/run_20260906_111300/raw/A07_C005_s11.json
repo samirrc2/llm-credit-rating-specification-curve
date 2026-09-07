@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability with an EBIT margin of 47.6% and solid liquidity with a current ratio of 1.55, but high leverage is a significant concern, as evidenced by a debt-to-equity ratio of 3.83 and a low Altman Z-score of approximately 1.05, indicating financial distress risk. These factors place the issuer in the speculative grade range, specifically B+, due to the elevated leverage offset by robust earnings.\n\nDECISION: B+",
+ "reasoning_tail": "B rating, coverage 3-4 is typical.\n\nSo BB range.\n\nIf debt is higher, coverage lower.\n\nBut 3.84 is reasonable for BB.\n\nWith current ratio 1.55, not strong, so perhaps BB or BB-.\n\nBB+ is higher.\n\nBB+ might have coverage above 4.\n\nBut let's say BB.\n\nBB is speculative grade.\n\nIn the scale, BB+, BB, BB-.\n\nSo I'll go with BB.\n\nBut the Z-score is low, but perhaps for this context, it's ok.\n\nPerhaps the task expects us to use the figures directly.\n\nAnother thought: the retained earnings are 22,252M, which is almost equal to shareholders' equity 23,793M, so little other equity, meaning the company might not have issued much stock, or has buybacks, but not specified.\n\nBut I think for credit rating, BB is appropriate.\n\nSo I'll assign BB.\n\nBut let's see the answer format.\n\nReason briefly in 1-3 sentences.\n\nThen DECISION: <label>\n\nSo for reason: High leverage with debt-to-equity ratio of 3.83 and low Altman Z-score of 1.05 indicate significant credit risk, offset somewhat by strong EBIT margin of 47.6%.\n\nThen rating BB.\n\nBut BB is broad.\n\nPerhaps BB-.\n\nSince Z-score is below 1.8, distress, so B+ or B.\n\nI think B+ is reasonable.\n\nLet's choose B+.\n\nI'm conflicted.\n\nPerhaps from the current ratio and leverage.\n\nI recall that for some ratings, if current ratio above 1.2 and debt-to-equity below 5, it might be investment grade, but here debt-to-equity 3.83, but EBIT margin high.\n\nBut I think it's speculative.\n\nLet's look for the most recent fiscal year knowledge.\n\nBut I think I should decide.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 5995,
+ "usd": 0.013262,
+ "utc": "2026-09-06T16:32:50.182816+00:00"
+}

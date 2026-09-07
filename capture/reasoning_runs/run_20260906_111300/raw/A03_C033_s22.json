@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided information, the issuer exhibits severe financial distress with negative shareholders' equity (-$9.27B) and negative retained earnings (-$9.88B), indicating a lack of solvency and a history of significant losses. The current ratio of 1.09 shows weak liquidity, barely covering short-term obligations, while high total liabilities ($64.21B) relative to assets ($54.94B) and EBIT ($2.55B) suggest unsustainable leverage and potential difficulty meeting financial commitments without favorable conditions.\n\nDECISION: CCC",
+ "reasoning_tail": "ained earnings magnitude.\n\nRetained earnings -9,884M, which is a large negative number, indicating deep past issues.\n\nIn terms of balance sheet, total assets 54,941M, so the deficit is about 18% of assets (since equity negative 9,270M vs assets 54,941M).\n\nThe ratio of retained losses is significant.\n\nI think I should go with CCC.\n\nBut to be precise, let's list pros and cons:\n\nPros:\n- Positive EBIT: 2,554M, generating operating income.\n- Revenue size: 23,078M, large scale might provide some stability.\n- Current ratio >1, so technically can cover short-term liabilities.\n\nCons:\n- Negative shareholders' equity (-9,270M), high leverage, insolvency risk.\n- Negative retained earnings (-9,884M), history of losses.\n- Current ratio 1.09 is weak, low liquidity.\n- Liabilities exceed assets, poor capital structure.\n- No interest coverage information, but likely inadequate given high liabilities.\n\nTherefore, the cons outweigh the pros significantly for creditworthiness.\n\nRating: Given the high risk, CCC.\n\nOn the scale, I need to pick the exact label.\n\nFrom the list: CCC+, CCC, CCC- , CC, C.\n\nSince EBIT is positive, not near-immediate default, so not CC or C.\n\nCCC might be appropriate.\n\nPerhaps CCC- to reflect the very weak position.\n\nBut I think plain CCC is fine.\n\nAnother thought: in some systems, negative net worth might trigger a SD or D rating, but only if defaulted; here, it appears operational.\n\nSo, for ongoing concern, vulnerable rating.\n\nI think CCC is reasonable.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3526,
+ "usd": 0.00786,
+ "utc": "2026-09-06T19:11:14.414304+00:00"
+}

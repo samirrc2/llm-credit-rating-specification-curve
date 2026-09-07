@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"A+\",\n  \"confidence\": 4,\n  \"rationale\": \"High profitability with 11% operating margin, estimated strong interest coverage (~8x), and low effective leverage. Weak liquidity with current ratio of 1.22.\"\n}",
+ "reasoning_tail": " + equit or debt+equity, but debt is low.\n\nOverall, the financial position with low implied debt and good profits suggests strong creditworthiness.\n\nBut the current ratio might indicate some stress in short-term.\n\nIn the context, with retained earnings high, the company has resilience.\n\nI think A or A- with high confidence.\n\nBut let's choose.\n\nPerhaps A+.\n\nRating scale.\n\nSince the current ratio is 1.22, which is below 1.5, for investment grade, it might be acceptable, but for higher grades, better liquidity is expected.\n\nFor example, Apple might have high cash, current ratio over 1.\n\nBut here.\n\n1.22 is low.\n\nLet's see if it's industry-specific, but unknown.\n\nI think based on coverage and low debt, it should be AA- or A+.\n\nFinal decision.\n\nI'll go with A+ since the current ratio is weak.\n\nConfidence: 4 out of 5, as I had to estimate interest.\n\nRationale: \"High profitability, estimated strong interest coverage, low leverage, but weak liquidity.\"\n\nLeverage based on total liabilities is high, but actual debt is low, so leverage in terms of debt is low.\n\nSo rationale: \"Strong estimated interest coverage around 8x, low net debt, but current ratio low at 1.22.\"\n\nWords limited.\n\nOr \"Robust earnings and coverage support investment grade; liquidity is a concern.\"\n\nBut need rating.\n\nI think A+ to be safer.\n\nScale: AAA, AA+, AA, AA-, A+, A, A-, BBB+, etc.\n\nA+ is good.\n\nSome might say higher.\n\nBut let's see the filing date 2026-02-17, so after fiscal 2025, but no other data.\n\nI think A+.\n",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 5532,
+ "usd": 0.012268,
+ "utc": "2026-09-06T17:57:10.537757+00:00"
+}

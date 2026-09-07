@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe issuer exhibits high financial leverage with a debt-to-equity ratio of 3.62 (total liabilities / shareholders' equity = 77,267M / 21,318M), which is elevated and indicates significant credit risk. Interest coverage is weak; assuming a conservative 3% average interest rate on total liabilities, EBIT coverage is approximately 1.15x (2,660M / (77,267M * 0.03)), below the threshold for investment grade. While liquidity is adequate (current ratio of 1.44) and profitability is moderate (EBIT margin of 13.9%), the high leverage and low coverage justify a speculative grade rating. The large size and substantial retained earnings provide some cushion but do not offset the fundamental credit weaknesses.\n\nDECISION: B-",
+ "reasoning_tail": " investment grade; BBB might have debt-to-equity around 2-3.\n\nFor example, BBB average debt-to-EBITDA around 3-4.\n\nHere, if debt/EBITDA ~15, it's much higher.\n\nSo probably BB or lower.\n\nBB+ might have debt/EBITDA 4-5.\n\nHere it's higher.\n\nPerhaps B+.\n\nBut let's assign.\n\nI think CCC+ or B-.\n\nWith current ratio 1.44, it's not critical.\n\nRetained earnings 65,448M, which could be used to cover if needed.\n\nBut for rating, I think B-.\n\nPerhaps the company has low interest rates due to size or industry, but not specified.\n\nI think I'll go with B-.\n\nBut let's see the reasoning.\n\nReason step by step:\n\n1. High leverage: Debt-to-equity ratio of 3.62 indicates significant financial risk.\n\n2. Low interest coverage: Estimated based on EBIT and liabilities, coverage ratio is approximately 1.15x (assuming 3% interest rate), which is very weak and below typical investment grade thresholds.\n\n3. Adequate liquidity: Current ratio of 1.44 provides some short-term flexibility.\n\n4. Moderate profitability: EBIT margin of 13.9% shows the business is operationaly healthy, but high leverage overshadows this.\n\nGiven the high financial risk and weak coverage, the issuer is assigned a speculative grade rating.\n\nFinest granularity: B- seems appropriate, as CCC might imply higher near-term risk, but current ratio suggests no immediate liquidity crisis.\n\nB- is for highly speculative, with some cushion.\n\nCCC is for substantial risk.\n\nHere, retained earnings are high, so B- might be better.\n\nFinal decision: B-\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 5627,
+ "usd": 0.01246,
+ "utc": "2026-09-06T17:30:59.869031+00:00"
+}

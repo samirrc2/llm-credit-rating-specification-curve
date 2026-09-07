@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity 3.62), low EBIT/assets (2.7%), and Altman Z-score near 0.84 indicate financial distress risk, despite retained earnings buffer.\"}",
+ "reasoning_tail": ".3C + 0.3D + 0.55E\nWhere A=WC/TA, B=RE/TA, C=EBIT/TA, D=Book equity/TL, E=Sales/TA\n\nWith D=Book equity/Total liabilities\n\nHere  A=0.1616, B=0.6637, C=0.0270, D=21,318/77,267\u22480.2758, E=0.1941\n\nZ = 1.0*0.1616 + 0.6*0.6637 + 3.3*0.0270 + 0.3*0.2758 + 0.55*0.1941\n\nCalculate:\n1.0*0.1616 = 0.1616\n0.6*0.6637 = 0.39822\n3.3*0.0270 = 0.0891\n0.3*0.2758 = 0.08274\n0.55*0.1941 = 0.106755\n\nSum: 0.1616 + 0.39822 = 0.55882\n0.55882 + 0.0891 = 0.64792\n0.64792 + 0.08274 = 0.73066\n0.73066 + 0.106755 = 0.837415\n\nZ \u2248 0.84\n\nCutoff: Z>2.6 safe, 1.1<Z<2.6 gray, Z<1.1 distress\n\n0.84<1.1, so distress zone.\n\nSo high probability of financial distress.\n\nTherefore, low credit rating.\n\nLikely CCC or B-.\n\nBut let's see the retained earnings and profit, not imminently failing.\n\nSo BB- or B+.\n\nIn the scale, B- for high risk.\n\nAssign B.\n\nBut confidence low due to limited data.\n\nRationale: High leverage, low profitability, distress signals.\n\nSo for the JSON, decision: B confidence 3, rationale short.\n\nThe scale has BBB+, BBB, BBB-, so BBB- is lowest investment grade, then BB+ speculative.\n\nB+ to B- are high yield, with B being more speculative.\n\nCCC for vulnerable.\n\nHere, with EBIT positive and current ratio >1, not imminent default, so B or B+.\n\nI think B is reasonable.\n\nDecision: B\n\nConfidence: 3, as not all data perfect.\n\nRationale: High debt, low coverage, and distress indicated.\n\nIn 25 words.\n\n\"High leverage and low EBIT/assets suggest financial distress, supported by low Z-score.\"\n\n23 words.\n\nFinal answer.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 6083,
+ "usd": 0.013467,
+ "utc": "2026-09-06T17:35:59.713069+00:00"
+}

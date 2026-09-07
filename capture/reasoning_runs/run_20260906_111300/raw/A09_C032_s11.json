@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Extreme leverage and critically low liquidity heighten default risk despite strong profitability.\"}",
+ "reasoning_tail": "haps BB- is possible, but current ratio 0.35 is too low for BB.\n\nBB ratings might have current ratio above 1.\n\nFor example, BB rated companies often have current ratios around 1 or higher.\n\nB rated might have lower.\n\nCCC for companies in trouble.\n\nBut here net income is positive, so not in immediate distress.\n\nOperating income is strong.\n\nSo, perhaps B+ or B.\n\nI'll choose B+.\n\nConfidence 3 out of 5.\n\nRationale: \"High leverage and critically low liquidity indicate significant credit risk.\"\n\nThat's 8 words.\n\nNow for the JSON.\n\n{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High leverage and critically low liquidity indicate significant credit risk.\"}\n\nBut is B+ the right choice?\n\nLet me double-check the scale.\n\nAAA to C.\n\nB+ is in the B category.\n\nPerhaps BBB- is too high.\n\nDebt-to-equity 8.09, no way investment grade.\n\nInvestment grade is BBB- and above.\n\nBBB- might have debt-to-equity up to 2 or 3, not 8.\n\nSo definitely speculative.\n\nBB+ to B-.\n\nWith current ratio 0.35, it's worse.\n\nAnother thing: the equity is positive, retained earnings positive, so not insolvent.\n\nBut liquidity is poor.\n\nPerhaps they have long-term assets or something.\n\nTotal assets include non-current, but current ratio focuses on short-term.\n\nI think B+ is reasonable.\n\nSome might say B.\n\nBut let's see.\n\nI recall that for companies like this, ratings could be B or CCC if distressed.\n\nBut here, since profitable, B+.\n\nConfidence 3 because no interest coverage data.\n\nRationale as above.\n\nSo, decision: B+\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 276,
+ "out_tok": 3080,
+ "usd": 0.006897,
+ "utc": "2026-09-06T19:08:36.915557+00:00"
+}

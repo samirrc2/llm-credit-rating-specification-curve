@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Critical liquidity (current ratio 0.63), excessive leverage (debt-to-equity 14.46), and deep negative retained earnings indicate high default risk.\"}",
+ "reasoning_tail": "ich is low but positive.\n\nBut 2% is very low for a distressed company; likely higher.\n\nSince EBIT is less than total liabilities, it suggests risk.\n\nI think coverage is likely inadequate.\n\nTherefore, I believe CCC is appropriate.\n\nNow, between CCC+, CCC, CCC-, I think CCC is fine.\n\nConfidence: I'd say 3, since I don't have all data, but based on given, it's clear.\n\nRationale: Very low liquidity, high leverage, negative retained earnings.\n\nIn <=25 words.\n\nFinal decision.\n\nPerhaps BB- or B+, but that seems too high.\n\nAnother ratio: Debt / EBITDA, but EBITDA not given, EBIT is 1,161M, depreciation not provided.\n\nRevenue 2,738M, EBIT 1,161M, so EBITDA might be similar if depreciation low, but unknown.\n\nI think based on current ratio and leverage, it's weak.\n\nLet's see the absolute values.\n\nCurrent liabilities 3,973M, current assets 2,495M, shortfall of 1,478M.\n\nWith EBIT 1,161M, but EBIT is annual, not immediate.\n\nSo liquidity gap.\n\nI think CCC.\n\nPerhaps B-.\n\nBut let's assign.\n\nI recall that in credit scoring, a current ratio below 1 often corresponds to ratings below B.\n\nFor example, CCC.\n\nSimilarly, Altman Z-score near zero is distress.\n\nSo I'll go with CCC.\n\nFor granularity, CCC is specific.\n\nConfidence 3.\n\nRationale: \"Critical liquidity, excessive debt, historical losses.\"\n\nThat's 6 words.\n\nNow, output in JSON.\n\nSo decision: \"CCC\"\n\nconfidence: 3\n\nrationale: \"Critical liquidity, excessive debt, historical losses.\"\n\nBut rationale must be <=25 words, which it is.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 3738,
+ "usd": 0.008325,
+ "utc": "2026-09-06T19:37:47.439232+00:00"
+}

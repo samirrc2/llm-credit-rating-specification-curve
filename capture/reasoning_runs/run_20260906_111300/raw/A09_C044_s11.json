@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity and critically low current ratio indicate high default vulnerability despite positive net income.\"}",
+ "reasoning_tail": "quity and critically low liquidity indicate high default risk.\" That's 7 words.\n\nNow for confidence: 3.\n\nBut let's see if I can justify finer granularity.\n\nThe scale has BBB-, etc., but this is below that.\n\nPerhaps BB-, but with negative equity, it's worse than BB.\n\nBB is for less vulnerable speculative grade.\n\nFor example, BB+ might have positive equity but high debt.\n\nHere, negative equity is severe.\n\nI think CCC+ or CCC.\n\nI'll go with CCC.\n\nDecision: CCC\n\nConfidence: 3\n\nRationale: Negative equity and critically low current ratio imply high default vulnerability.\n\nNow for JSON format.\n\n{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity and critically low liquidity indicate high default risk.\"}\n\nRationale should be <=25 words; this is fine.\n\nBut let's make sure.\n\n\"Negative equity and critically low current ratio imply high default vulnerability.\" 8 words.\n\nYes.\n\nIs there a better rating?\n\nCCC- is lower, but with positive earnings, CCC might be better.\n\nCCC+ is above CCC.\n\nI think CCC is fine.\n\nPerhaps B-, but B- is higher than CCC.\n\nThe scale: AAA, AA+, ..., BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo CCC+ is better than CCC, CCC- worse.\n\nWith positive net income, but severe balance sheet issues, CCC is appropriate.\n\nI recall that credit ratings often consider negative equity as a sign of distress.\n\nFor instance, S&P rates companies with negative equity as speculative grade, often B or lower.\n\nBut let's stick to this.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 2442,
+ "usd": 0.005498,
+ "utc": "2026-09-06T20:05:04.090919+00:00"
+}

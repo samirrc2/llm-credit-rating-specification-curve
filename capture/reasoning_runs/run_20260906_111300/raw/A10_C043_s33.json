@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows high financial leverage with a debt-to-equity ratio of approximately 2.87 and weak liquidity with a current ratio of 0.97, indicating potential difficulty in meeting short-term obligations. Despite positive profitability (operating margin of 4% and net margin of approximately 2.7%), these risk factors outweigh the modest earnings and retained earnings position, placing the issuer in the highly speculative range.\n\nDECISION: B+",
+ "reasoning_tail": " data.\n\nSo I think B+.\n\nBut let's check online or recall, but I should reason from data.\n\nPerhaps calculate the Altman Z-score for fun, but not necessary.\n\nAltman Z-score: for public companies, Z = 1.2*(Working Capital/Total Assets) + 1.4*(Retained Earnings/Total Assets) + 3.3*(EBIT/Total Assets) + 0.6*(Market Value/Equity) + 1.0*(Sales/Total Assets)\n\nBut I don't have market value, and sales are quarterly.\n\nNot practical.\n\nWorking capital is negative, so first term negative.\n\nRetained earnings/Total assets = 8,777 / 59,991 \u2248 0.146\n\nEBIT/Total assets = 948 / 59,991 \u2248 0.0158 (quarterly, so low)\n\nSales/Total assets = 25,270 / 59,991 \u2248 0.421\n\nNo market value.\n\nSo Z-score would be low, indicating distress.\n\nBut not accurate.\n\nI think for credit rating, based on common metrics, B or B+.\n\nI recall that companies with current ratio below 1 are often rated B or lower.\n\nFor example, in 2020, some airlines had current ratios below 1 and were rated B- or CCC.\n\nBut here, net income is positive, so better.\n\nOperating income positive.\n\nSo B+.\n\nPerhaps B.\n\nI think I'll go with B+.\n\nBut let's see the options.\n\nThe finest granularity I can justify.\n\nReason: The company exhibits high leverage with a debt-to-equity ratio of 2.87 and weak liquidity with a current ratio of 0.97 below 1, indicating significant credit risk despite positive profitability.\n\nSo speculative grade, specifically B+.\n\nB+ is one level above B.\n\nSince current ratio is below 1, B might be more appropriate.\n\nBut let's decide.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 3808,
+ "usd": 0.008483,
+ "utc": "2026-09-06T20:02:30.442494+00:00"
+}

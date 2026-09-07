@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity 1.86), weak liquidity (current ratio 1.18), and implied low interest coverage suggest significant default risk.\"}",
+ "reasoning_tail": "is, weak.\n\nI think the rating should be in the B range.\n\nSpecifically, let's say B+ or B.\n\nConfidence: I need to assign confidence from 1 to 5.\n\nSince I have limited data, confidence might be low.\n\nRationale in 25 words or less.\n\nFinal decision.\n\nPerhaps BBB- is the lowest investment grade, but with current ratio below 1.2 and high leverage, it's likely speculative.\n\nStandard & Poor's, for example, has criteria.\n\nBut from memory, for BBB, interest coverage above 4x, debt-to-capital below 60%.\n\nHere, debt-to-capital: total liabilities / (total liabilities + equity) = 26,603 / (26,603 + 14,298) = 26,603 / 40,901 \u2248 0.65 or 65%, which is above 60%.\n\nInterest coverage unknown, but likely low.\n\nCurrent ratio 1.18 < 1.5.\n\nSo probably below BBB-.\n\nBB+ to BB- for non-investment grade with some strength.\n\nBut with high debt/EBIT, it's worse.\n\nDebt/EBIT ~38x, while for BB it might be 5-6x, for B 8-10x, but 38x is way higher, so probably B or lower.\n\nFor CCC, companies might have coverage below 1 or negative earnings.\n\nHere EBIT positive, so not CCC yet.\n\nCoverage estimated around 1, so borderline B or CCC.\n\nBut retained earnings large, so perhaps B- or CCC+.\n\nLet's decide.\n\nI think B- is reasonable.\n\nRationale: High leverage, weak liquidity, low interest coverage implied.\n\nConfidence: 3, since estimates are rough.\n\nNow, output in JSON.\n\nLabel: B-\n\nConfidence: 3\n\nRationale: \"High debt, low liquidity, implied weak interest coverage.\"\n\nWord count: 6 words.\n\nWithin 25 words.\n\nFinal answer.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3587,
+ "usd": 0.007999,
+ "utc": "2026-09-06T18:41:26.754300+00:00"
+}

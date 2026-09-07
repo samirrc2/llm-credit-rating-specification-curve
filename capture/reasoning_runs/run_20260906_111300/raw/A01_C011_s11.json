@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"Strong profitability with 16% operating margin, moderate leverage (debt-to-equity ~1.11), adequate interest coverage ~3.85x, but liquidity tight (current ratio 1.39).\"}",
+ "reasoning_tail": "nk it's strong, A-\n\n- If moderate, BBB+\n\nWith confidence.\n\nRationale must be <=25 words.\n\nFinal decision.\n\nI recall that for companies like this, with good profitability but moderate coverage and leverage, BBB is common.\n\nFor example, Apple has high ratings, but they have massive cash.\n\nHere, no cash mentioned.\n\nCurrent assets 25,508M vs current liabilities 18,377M, so net working capital positive, but current ratio low.\n\nPerhaps the company has efficient operations.\n\nDiluted EPS 0.62, quarterly, so if shares outstanding, EPS * shares = net income, so shares = net income / EPS = 1,077M / 0.62 \u2248 1,737.1M shares, so market cap not given, but not relevant for credit rating.\n\nI think I should go with BBB+ or A-.\n\nLet's choose BBB+.\n\nConfidence: 3, since I had to assume tax rate.\n\nRationale: Strong profitability, moderate leverage, adequate interest coverage.\n\nWord count: \"Strong profitability, moderate leverage, adequate interest coverage.\" 6 words.\n\nOr: \"Good margins and retained earnings, but liquidity tight and coverage moderate.\" 8 words.\n\nFor BBB+.\n\nPerhaps A- is possible.\n\nBut with current ratio 1.39, it might be lower.\n\nIn credit ratings, liquidity is important.\n\nCurrent ratio below 1.5 might indicate BBB or lower.\n\nBut many companies operate with current ratio around 1.2-1.5.\n\nFor example, Walmart has lower current ratio sometimes.\n\nBut generally, for safety, higher is better.\n\nI think BBB+ is reasonable.\n\nLet's see the answer choices: BBB+ is an option.\n\nFinal decision.\n",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 3435,
+ "usd": 0.007673,
+ "utc": "2026-09-06T17:04:05.023192+00:00"
+}

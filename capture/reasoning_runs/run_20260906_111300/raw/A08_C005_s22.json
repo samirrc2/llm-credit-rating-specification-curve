@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"High debt-to-equity (3.83) and low Altman Z-score (1.05) indicate distress risk, offset by strong EBIT margin (47.6%).\"}",
+ "reasoning_tail": "terest expense if I assume.\n\nAssume that interest expense can be estimated from the debt.\n\nBut I don't have debt.\n\nFrom the balance sheet, the difference between total liabilities and current liabilities minus non-debt, but no.\n\nI think I should use the debt-to-equity ratio.\n\nDebt-to-equity 3.83, which is high.\n\nFor example, a debt-to-equity above 2 is often non-investment grade for some industries.\n\nBut it varies.\n\nWith EBIT margin high, it might compensate.\n\nBut I think for safety, assign B+.\n\nLet's look for a specific rating.\n\nPerhaps CCC+ is too low, as EBIT is positive.\n\nB- or B.\n\nI think B is reasonable.\n\nConfidence 3.\n\nRationale: High leverage offset by strong profitability, but overall high risk.\n\nIn 25 words.\n\n\"High debt-to-equity and low Altman Z-score indicate distress risk, despite good EBIT margin.\"\n\nThen rating B.\n\nBut let's confirm the scale: B is above B- and below B+.\n\nB+ is better than B.\n\nB is below BB-.\n\nThe scale: AAA to C, with + and -.\n\nFrom top: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B is between B+ and B-.\n\nB+ is higher than B.\n\nFor B rating, it's speculative with high credit risk.\n\nI think B is ok.\n\nPerhaps BB- if I am optimistic.\n\nBut from Z-score, distress zone, so lower.\n\nCCC is for companies with current vulnerability, but here current ratio is ok, so not CCC.\n\nCCC is very high risk, near default.\n\nHere, EBIT is positive, so not near default.\n\nSo B or B+.\n\nLet's say B.\n\nFinal decision.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 6669,
+ "usd": 0.014744,
+ "utc": "2026-09-06T16:34:11.553126+00:00"
+}

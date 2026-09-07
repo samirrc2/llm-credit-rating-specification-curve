@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity ~2.87), poor liquidity (current ratio 0.97), and low operating margin (4%).\"}",
+ "reasoning_tail": "ngs are positive, so not the worst.\n\nDiluted EPS 1.51, which might be okay, but no comparison.\n\nAssume shares outstanding: diluted EPS 1.51, net income 689 million, so shares ~456 million, but not relevant.\n\nI think BB- is possible.\n\nBut let's see the options: BBB- is investment grade, BB+ is speculative.\n\nI think below investment grade.\n\nPerhaps BBB- if I'm optimistic, but with current ratio below 1, unlikely.\n\nAnother ratio: quick ratio or acid-test, but not given; only current ratio.\n\nCurrent assets include inventory, which may not be liquid.\n\nBut not specified.\n\nI think the current ratio is the key red flag.\n\nIn credit rating, liquidity is crucial for short-term rating, but overall rating considers both.\n\nFor issuer rating, it's comprehensive.\n\nPerhaps assign BB.\n\nLet me look for similar companies.\n\nBut no industry, so general.\n\nI recall that companies with current ratio below 1 often get downgraded to B or CCC if persistent.\n\nHere, it's one quarter, but no trend given.\n\nBased on this snapshot, it's weak.\n\nNet income positive, so not CCC.\n\nProbably B or BB.\n\nLet's calculate ROE: 4.44%, which is low; good companies have 15%+.\n\nBut for rating, it's about debt repayment ability.\n\nI think I should go with BB-.\n\nRationale: High leverage, low liquidity, thin margins.\n\nConfidence: 3 out of 5, since limited data.\n\nNow, for the JSON output.\n\nDecision: BB-\n\nConfidence: 3\n\nRationale: \"High debt-to-equity, current ratio below 1, low operating margin.\"\n\nThat's 9 words.\n\nFinal answer.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 2732,
+ "usd": 0.006132,
+ "utc": "2026-09-06T19:57:40.167664+00:00"
+}

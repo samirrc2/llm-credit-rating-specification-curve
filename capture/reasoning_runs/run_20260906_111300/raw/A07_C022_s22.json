@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The provided financial data indicates severe liquidity issues with a current ratio of 0.59 (well below 1) and negative working capital, high leverage with a debt-to-equity ratio of approximately 1.76, and weak profitability with an EBIT to total assets ratio of about 1.37%. These factors suggest significant financial distress and elevated default risk. While retained earnings are substantial, the company's current financial health is poor, pointing to a speculative-grade rating with high vulnerability.\n\nDECISION: CCC+",
+ "reasoning_tail": "rity I can justify.\n\nGiven negative working capital, I think B- or CCC.\n\nBut retained earnings are high, which might provide some buffer, but if it's not usable for short-term, may not help.\n\nIn fact, high retained earnings with low cash could indicate inefficiency.\n\nCurrent assets are low.\n\nPerhaps the company is in a turnaround or something, but I have to base on figures.\n\nI recall that companies like Tesla or others had low liquidity but high ratings due to growth, but here EBIT is small.\n\nRevenue 10,496M, EBIT 979M, so not fast growing, I assume.\n\nI think it's distressed.\n\nAnother figure: Shareholders' equity 25,838M, but current assets low, so might be tied in fixed assets.\n\nTotal assets 71,487M, current assets 12,951M, so non-cu 71,487 - 12,951 = 58,536M in long-term assets, which can't be used to pay short-term liabilities.\n\nSo definitely liquidity issue.\n\nFor credit rating, I think CCC is appropriate, but let's see the levels.\n\nRatings around B are for highly speculative, CCC for vulnerable.\n\nWith EBIT positive, it might be B-.\n\nBut current ratio below 0.6 is severe.\n\nPerhaps BB- or B+.\n\nBut Altman Z-score is 1.096, which is very low.\n\nZ-score below 1.2 is often associated with bankruptcy within a year or two.\n\nSo likely CCC rating.\n\nThe scale has CCC+, CCC, CCC-.\n\nAt a large company, it might be higher, but figures indicate distress.\n\nPerhaps for a large company, ratings consider support, but I have only figures.\n\nI think based on data, I should assign a low rating.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3501,
+ "usd": 0.0078,
+ "utc": "2026-09-06T18:13:04.602583+00:00"
+}

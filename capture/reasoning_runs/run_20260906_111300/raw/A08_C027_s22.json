@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C027",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity 1.86), low liquidity (current ratio 1.18), and weak Altman Z-score (0.68) indicate significant credit distress risk.\"}",
+ "reasoning_tail": "stress.\n\nConfidence: 3, since missing key data.\n\nBut the task says \"finest granularity you can justify\" and \"use only the figures provided.\"\n\nSo, based on figures, I have to infer.\n\nAnother ratio: retained earnings to total assets, 15.9%, which is okay, but not great.\n\nI think BBB or higher is out of question.\n\nAA or A is for strong companies.\n\nFor example, AAA might have current ratio over 2, debt-to-equity under 0.5, etc.\n\nHere, current ratio 1.18, debt-to-equity 1.86, so not.\n\nA rating might have current ratio 1.5-2, debt-to-equity under 1.5.\n\nHere worse.\n\nBBB might have current ratio 1.2-1.5, debt-to-equity 1-2.\n\nBut current ratio 1.18 is below 1.2, and leverage high.\n\nSo perhaps BB+ or BB.\n\nBut with potential coverage issues, lower.\n\nI think B+ or B.\n\nLet's choose B+.\n\nOr from Z-score, CCC.\n\nPerhaps for the response, I'll go with CCC+.\n\nBut let's see the confidence.\n\nI think I'll assign CCC+ with confidence 3.\n\nRationale: High leverage and low liquidity indicate significant credit risk.\n\nNow for the JSON response.\n\nFirst, decision: CCC+\n\nConfidence: 3\n\nRationale: <=25 words.\n\n\"High leverage, low liquidity, and weak Z-score suggest distress.\"\n\nBut Z-score not standard for credit rating, but I used it.\n\n\"Based on high debt and low current ratio, issuer has high credit risk.\"\n\n25 words max.\n\n\"High leverage, low current ratio, and low EBIT coverage potential indicate speculative grade with high risk.\"\n\nBut coverage potential is inferred.\n\nI think it's okay.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 5414,
+ "usd": 0.011995,
+ "utc": "2026-09-06T18:40:24.814715+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Low interest coverage (~3x) and thin operating margin (4%) indicate speculative grade risk.\"}",
+ "reasoning_tail": " BB.\n\nFor example, S&P criteria: for industrial companies, interest coverage:\n\n- BBB: 4-5x\n\n- BB: 2-3x\n\n- B: 1-2x\n\nApproximately.\n\nHere 2.94x, so BB.\n\nLeverage: if debt/EBITDA around 6-7x, that's B territory.\n\nBut with good liquidity, BB.\n\nI think BB is the best fit.\n\nNow, which subrating? BB+, BB, or BB-?\n\nThe scale has BB+, BB, BB-.\n\nWith current ratio 2.04, it's solid, so perhaps BB+ or BB.\n\nBut profitability low, so maybe BB.\n\nRationale should be short.\n\nFinal decision.\n\nI think BB.\n\nConfidence: 2 or 3, since I estimated interest.\n\nBut I have to choose.\n\nPerhaps from the data, without interest, I can use other ratios.\n\nFor example, operating cash flow not given.\n\nAnother ratio: liabilities to equity 0.7, which is ok.\n\nBut coverage is key.\n\nI think I have to go with BB.\n\nSo, rating BB.\n\nThen confidence: 3, medium.\n\nRationale: \"Low interest coverage and operating margin indicate speculative grade.\"\n\nWithin 25 words.\n\n\"Low interest coverage (~3x) and thin margins support BB rating.\"\n\nNow, for the JSON.\n\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Low interest coverage and operating margin indicate speculative grade risk.\"}\n\nBut is it BB, BB+, or BB-?\n\nThe data doesn't distinguish much, so BB is fine.\n\nPerhaps BB+ because of strong liquidity.\n\nBut margin is low.\n\nI think BB is appropriate.\n\nLet's see the EPS: diluted EPS 0.13, which is very low, suggesting low profitability, so BB might be conservative.\n\nBut credit rating is not directly about stock price.\n\nI think BB.\n",
+ "parsed_letter": "BB",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 4666,
+ "usd": 0.010367,
+ "utc": "2026-09-06T16:13:01.489154+00:00"
+}

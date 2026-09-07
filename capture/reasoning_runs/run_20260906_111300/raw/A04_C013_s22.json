@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"B+\",\n  \"confidence\": 3,\n  \"rationale\": \"High leverage (debt-to-equity 1.18) and low EBIT relative to debt suggest weak coverage, offset by strong retained earnings and adequate liquidity.\"\n}",
+ "reasoning_tail": "phase or something.\n\nBut with revenue 11B, assets 113B, it might be an asset-heavy company with low returns.\n\nFor example, a utility or real estate company.\n\nUtilities often have high debt but stable cash flows.\n\nHere, EBIT margin 17% is good for utility, but revenue small for assets.\n\nAssume it's such a company.\n\nThen, for utilities, debt ratios can be higher, and ratings might be investment grade if regulated.\n\nBut I don't have industry info.\n\nGeneral knowledge predating most recent fiscal year, I should assume it's a typical company.\n\nPerhaps from the numbers, it might be a company like AT&T or Verizon, which have high debt.\n\nFor example, in 2020, AT&T had debt/EBITDA around 3x, rating BBB.\n\nBut here, if I estimate EBITDA, as I did earlier, debt/EBITDA ~3.54, which is borderline.\n\nWith coverage around 1.3 at 3% interest, it's weak for BBB.\n\nBBB- might have coverage 2-3x.\n\nHere it's lower.\n\nPerhaps B+.\n\nLet's decide.\n\nI think the rating should be B+ with low confidence.\n\nBut let's see the rationale.\n\nFinal decision.\n\nI'll go with B+.\n\nConfidence 2 or 3.\n\nRationale: High leverage and low interest coverage indicate significant credit risk, partially offset by strong retained earnings and liquidity.\n\nWithin 25 words.\n\nFirst, assign rating.\n\nPerhaps BB- is better.\n\nAnother ratio: Shareholders' equity / Total liabilities = 51,940 / 61,341 = 0.846, so equity to liabilities less than 1.\n\nEBIT / Total debt service, but no data.\n\nI think B+ is reasonable.\n\nOr BB-.\n\nLet's choose B+.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 4726,
+ "usd": 0.010493,
+ "utc": "2026-09-06T17:18:09.523975+00:00"
+}

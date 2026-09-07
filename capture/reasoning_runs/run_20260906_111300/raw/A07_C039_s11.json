@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial weaknesses: a current ratio of 0.83 indicates acute liquidity risk, as current liabilities exceed current assets, making short-term obligations difficult to meet. The debt-to-equity ratio is extremely high at approximately 13.48, reflecting excessive leverage and a thin equity cushion. Additionally, profitability is poor with an EBIT to total assets ratio of only 0.32%, suggesting inefficient asset utilization and high credit risk.\n\nDECISION: CCC",
+ "reasoning_tail": "062\n\nNow, Altman Z-score:\n\n- Above 3.0: safe\n\n- 1.8 to 3.0: grey area\n\n- Below 1.8: distress\n\nHere 0.062 is way below 1.8, indicating high probability of bankruptcy.\n\nTherefore, credit rating should be very low, like CCC or lower.\n\nSince Z-score is not directly rating, but correlates.\n\nWith Z-score below 1.8, rating is typically B or lower.\n\nHere Z-score 0.062, so CCC or CC.\n\nBut EBIT positive, so not CC.\n\nCC is for imminent default.\n\nC for default.\n\nSo CCC.\n\nPerhaps CCC+ or CCC, but since no finer, I think CCC.\n\nThe scale has CCC+, CCC, CCC-, so I can choose.\n\nBut based on figures, I think CCC.\n\nNow, to assign, I think CCC.\n\nBut let's see the decision.\n\nReason in 1-3 sentences.\n\nThen DECISION: <label>\n\nSo for reason: Poor liquidity with current ratio below 1, extremely high leverage with debt-to-equity ratio over 13, and low profitability with EBIT/Assets at 0.32%, indicating high credit risk.\n\nThen DECISION: CCC\n\nBut CCC has subgrades, I can use CCC.\n\nThe scale includes CCC+, CCC, CCC-, so I need to choose one.\n\nSince EBIT is positive, perhaps CCC+ or CCC.\n\nBut current ratio below 1 is severe.\n\nPerhaps CCC.\n\nI think CCC is fine.\n\nAnother way: the current ratio is 0.83, which is less than 1 but not extremely low; some companies operate with that.\n\nBut with high debt, it's risky.\n\nI think CCC is appropriate.\n\nPerhaps B-, but B is higher.\n\nB is \"more vulnerable\" but CCC is \"currently vulnerable\".\n\nWith current ratio below 1, it is currently vulnerable.\n\nSo CCC.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 250,
+ "out_tok": 5488,
+ "usd": 0.012156,
+ "utc": "2026-09-06T19:43:07.729542+00:00"
+}

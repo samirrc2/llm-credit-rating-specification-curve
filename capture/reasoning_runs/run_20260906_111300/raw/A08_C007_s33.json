@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C007",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB+\", \"confidence\": 3, \"rationale\": \"Low current ratio (1.07) and high leverage (debt/EBIT ~16) indicate risk, offset by strong EBIT margin (30%).\"}",
+ "reasoning_tail": " of 16 means it would take 16 years to pay debt from EBIT, which is not good.\n\nBut EBIT is not cash flow, and debt may not be all.\n\nBut in absence of better data, this indicates high leverage.\n\nWith low liquidity, rating should be speculative grade.\n\nSay BB or B.\n\nBut EBIT margin is high, so perhaps BB+.\n\nLet's assign BB+.\n\nOr BBB-.\n\nI think BBB- is possible with low confidence.\n\nBut let's see the scale.\n\nPerhaps I can use the provided figures to see.\n\nAnother ratio: operating cash flow, but not given.\n\nI think I need to decide.\n\nFinal decision: due to weak liquidity (current ratio 1.07) and high leverage (debt-to-equity 1.43, debt/EBIT 16), the rating should be speculative grade, BB+.\n\nProfitability is strong, so not lower.\n\nBB+ is the highest speculative grade.\n\nConfidence: 3, medium.\n\nRationale: Weak liquidity and high leverage offset by strong profitability.\n\nIn 25 words.\n\n\"Low current ratio and high leverage indicate risk, but high EBIT margin supports credit; BB+ rating.\"\n\nBut debt/EBIT is high.\n\nLet's confirm the debt/EBIT.\n\nTotal liabilities 113,539M / EBIT 7,096M = 16.00, yes.\n\nFor credit rating, net debt/EBITDA is used, but here it's liabilities/EBIT, so similar.\n\nTypically, net debt/EBITDA below 3 is good for investment grade, above 5 is high.\n\nHere 16 is very high, so likely speculative.\n\nEven if only long-term debt, 62,670M / 7,096M = 8.83, still high.\n\nSo I think BB+ is reasonable.\n\nPerhaps B+.\n\nBut with large revenue and high margin, BB+.\n\nSo I'll go with BB+.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 6122,
+ "usd": 0.013546,
+ "utc": "2026-09-06T16:47:01.924149+00:00"
+}

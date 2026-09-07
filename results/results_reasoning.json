@@ -1,0 +1,40 @@
+{
+ "_meta": {
+  "grid": "12 specs x 45 credit items x 3 seeds",
+  "reasoning_model": "deepseek/deepseek-r1"
+ },
+ "reasoning.ighy_flip": {
+  "flip": 0.2554,
+  "CI95": [
+   0.209,
+   0.301
+  ],
+  "n": 45
+ },
+ "nano_flash.ighy_flip": {
+  "flip": 0.2468,
+  "CI95": [
+   0.1876,
+   0.305
+  ],
+  "n": 45
+ },
+ "flagship.ighy_flip": {
+  "flip": 0.236,
+  "CI95": [
+   0.1948,
+   0.2815
+  ],
+  "n": 45
+ },
+ "reasoning.band_accuracy_vs_altman": 0.5549,
+ "reasoning.ig_rate": 0.3142,
+ "reasoning_minus_nanoflash.diff": {
+  "diff": 0.0086,
+  "CI95": [
+   -0.0704,
+   0.0878
+  ],
+  "n": 45
+ }
+}

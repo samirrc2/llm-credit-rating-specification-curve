@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, I base the rating on key financial ratios and general knowledge predating the most recent fiscal year. The company exhibits extremely high leverage, with a debt-to-equity ratio of approximately 9.02 (total liabilities of $444,085M / shareholders' equity of $49,234M) and a debt-to-assets ratio of 90%, indicating significant financial risk. The current ratio of 12.41 shows strong short-term liquidity, but this is offset by weak profitability, with a return on assets (ROA) of only 0.65% (EBIT of $3,188M / total assets of $493,319M). The operating margin is high at 43.67% (EBIT of $3,188M / revenue of $7,300M), but extremely low revenue relative to assets suggests inefficiency, and estimated interest coverage is below 1 (assuming a reasonable interest rate on debt), implying insufficient earnings to service debt. High retained earnings signal historical strength but do not mitigate current risks. Overall, the credit profile is speculative grade with high default risk due to leverage and weak coverage, though substantial liquidity provides some near-term stability.\n\nDECISION: B-",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 251,
+ "out_tok": 6177,
+ "usd": 0.013666,
+ "utc": "2026-09-06T15:31:48.040518+00:00"
+}

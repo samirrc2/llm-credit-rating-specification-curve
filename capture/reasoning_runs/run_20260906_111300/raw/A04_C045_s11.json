@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n    \"decision\": \"CCC\",\n    \"confidence\": 3,\n    \"rationale\": \"Critical liquidity with current ratio 0.53 and high leverage (debt/equity ~2.7) indicate high default risk.\"\n}",
+ "reasoning_tail": " is a killer.\n\nAlso,   EBIT / revenue is good, but   size is small.\n\nPerhaps the company is in distress.\n\nFinal answer: I think CCC+ or CCC.\n\nBut let's see the scale: CCC+, CCC, CCC-.\n\nOr B-.\n\nI think CCC is reasonable.\n\nRationale in <=25 words.\n\nAlso confidence from 1 to 5, 5 highest.\n\nI'm not very confident due to data issues, but I'll go with 3.\n\n   decision: \"CCC\"\nconfidence: 3\nrationale: \"Severe liquidity risk with current ratio 0.53 and high leverage debt/equity 2.7.\"\n\n   Rationale must be <=25 words.\n\nYes, that works.\n\n\"Severe liquidity with current ratio 0.53 and high leverage, low interest coverage implied.\"\n\nBut I don't have coverage.\n\nBetter to stick to what I have.\n\nAnother ratio: Quick ratio, but no inventory given, current assets include inventory? Not specified, so not calculable.\n\nSo current ratio is key.\n\nAlso, for retained earnings, it's positive, so not a new company.\n\nI think CCC.\n\nPerhaps B-, but 0.53 is severe.\n\nIn some ratings, for example, a current ratio below 0.8 is often CCC or C territory if persistent.\n\nHere it's 0.53, so very low.\n\nSo I think CCC+ or CCC.\n\nSince we can use finest granularity, CCC.\n\nThe   scale has CCC+, CCC, CCC-, so I'll choose CCC.\n\nConfidence: 3\n\nRationale: \"Critical liquidity shortfall and high leverage indicate high default risk.\"\n\n25 words: Critical liquidity with current ratio 0.53, high debt/equity ~2.7.\n\nThat's 9 words.\n\nOr \"Severe working capital deficit and excessive leverage suggest imminent financial distress.\"\n\nOK.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 4670,
+ "usd": 0.010371,
+ "utc": "2026-09-06T20:08:24.526045+00:00"
+}

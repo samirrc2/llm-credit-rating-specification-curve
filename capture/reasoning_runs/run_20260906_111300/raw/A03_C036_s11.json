@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits significant liquidity risk with a current ratio of 0.79, well below the typical threshold of 1.0, indicating potential difficulty in meeting short-term obligations. Additionally, high leverage is evident from a debt-to-equity ratio of approximately 2.74 and a debt-to-assets ratio of about 73%, which are above levels associated with investment-grade ratings. Although the operating margin of 19.1% is solid, low asset turnover (approximately 4.95%) and weak return on assets (approximately 0.95% based on EBIT) suggest inefficiency and reduced capacity to service debt, placing the issuer in speculative grade territory.\n\nDECISION: B+",
+ "reasoning_tail": "sh or liquid, but not specified.\n\nSo, based on current ratio alone, it's poor.\n\nFinal decision: I think the issuer should be rated B+ or B, but let's say B+ because EBIT is positive and retained earnings provide a buffer.\n\nBut liquidity is critical.\n\nPerhaps BB-.\n\nI recall that in credit ratings, the current ratio is a key metric, and below 1 is often non-investment grade, and below 0.8 might be B range.\n\nFor instance, a current ratio of 0.8 to 1.0 might be BB, below 0.8 B or lower.\n\nHere it's 0.79, so close to 0.8.\n\nBut 0.79 is below 0.8.\n\nAlso, leverage high.\n\nSo, I think B+.\n\nBut let's see the answer choices.\n\nValid answers: AAA down to C.\n\nI think between BB- and B+.\n\nPerhaps BB- for retained earnings.\n\nBut retained earnings are part of equity, so leverage is already accounted for.\n\nAnother thing: total liabilities include current and long-term, but for debt, it's the interest-bearing portion.\n\nBut I don't have it.\n\nI think I should go with B+.\n\nReason briefly: The company has a very low current ratio of 0.79, indicating severe liquidity issues, and high leverage with a debt-to-equity ratio of 2.74. Although operating margin is healthy at 19.1%, low asset turnover and profitability relative to assets suggest inefficiency and high credit risk.\n\nSo, speculative grade with high risk, B+.\n\nB+ is for highly speculative, but with some capacity.\n\nCCC is for current vulnerability, but here EBIT positive, so not.\n\nSo B+.\n\nPerhaps BB-.\n\nI think B+ is fine.\n\nLet's box the decision.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 247,
+ "out_tok": 4522,
+ "usd": 0.010039,
+ "utc": "2026-09-06T19:26:20.583183+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Poor liquidity with current ratio below 1, high leverage implied by low EBIT relative to liabilities, but strong profitability margin.\"}",
+ "reasoning_tail": "EBIT 2,002M, so coverage 2.002 / 0.7626 \u2248 2.62x.\n\nFor short-term debt, if current liabilities have debt, say 4,000M short-term debt, interest at 5% for year = 200M, but short-term debt interest might be for less period.\n\nApproximately, total interest expense.\n\nSuppose total debt = long-term debt + short-term debt.\n\nBut not given.\n\nTotal liabilities include accounts payable, which have no interest.\n\nSo, only interest-bearing debt matters.\n\nBut I don't have that figure.\n\nIn many cases, credit rating agencies use total debt or net debt.\n\nBut here, only liabilities given.\n\nPerhaps for this exercise, use EBIT / Total Liabilities as a proxy.\n\n2,002 / 24,587 = 8.14%, which is low; for good rating, above 15% or so.\n\nFor example, EBIT / Total Assets = 3.29%, which is also low.\n\nSo, low profitability on assets.\n\nHigh margin but low turnover.\n\nOverall, I think rating should be speculative grade, around B.\n\nLet's pick B+ with medium confidence.\n\nBut confidence 1-5, 5 high.\n\nI think confidence is low because missing key data.\n\nBut I have to work with given.\n\nPerhaps the current ratio is the key issue.\n\nRationale: \"Poor liquidity with current ratio below 1, high leverage, but strong profitability.\"\n\nLeverage: debt-to-equity 0.79, not high, but EBIT coverage low.\n\nDebt-to-equity 0.79 is moderate.\n\nBut EBIT to liabilities low.\n\nI think B+ or B.\n\nLet's decide on B.\n\nScale: BB+ is better, BB is speculative, B is more speculative.\n\nWith current ratio 0.68, it's very low, so B.\n\nFinal decision.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 5194,
+ "usd": 0.011519,
+ "utc": "2026-09-06T18:11:05.499701+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company exhibits significant credit weaknesses, primarily due to poor liquidity and high leverage. The current ratio of 0.90 indicates insufficient short-term assets to cover current liabilities, suggesting potential liquidity strain. Additionally, the debt-to-equity ratio is approximately 4.17 (calculated as total liabilities of $89,110M divided by shareholders' equity of $21,383M), which is very high and implies elevated solvency risk. While EBIT margin is reasonable at about 16.5% and retained earnings are substantial, these are overshadowed by the liquidity and leverage issues, placing the company in a vulnerable position dependent on favorable conditions to meet obligations. Based on standard credit rating criteria predating the fiscal year, this profile aligns with a CCC+ rating, indicating current vulnerability and high default risk without imminent default.\n\nDECISION: CCC+",
+ "reasoning_tail": "is vulnerable.\n\nFinal decision: I'll go with CCC+ as it indicates current vulnerability.\n\nOr B-, which is more vulnerable.\n\nCCC+ is for currently vulnerable but not imminent default.\n\nWith EBIT positive, it's not near default, so CCC+ might be better.\n\nB- is defined as \"more vulnerable to adverse business, financial and economic conditions but currently has the capacity to meet financial commitments.\"\n\nCCC+ is \"currently vulnerable and dependent on favorable business, financial, and economic conditions to meet financial commitments.\"\n\nGiven the low current ratio, it might be dependent on favorable conditions, like rolling over debt.\n\nSo CCC+ seems fitting.\n\nBut let's see if there's a better fit.\n\nAnother thing: the company has revenue and EBIT, so it's operating, but with high leverage.\n\nPerhaps B-.\n\nI think CCC+ is reasonable.\n\nBut let's check the numbers again.\n\nCurrent liabilities 34,477M, current assets 30,916M, difference 3,561M negative.\n\nEBIT 3,213M, which could cover this gap if converted to cash, but it's annual, not immediate.\n\nSo short-term, there's a liquidity gap.\n\nTherefore, CCC+ or CCC.\n\nI think CCC+.\n\nFor the answer, I need to output DECISION: <label>\n\nSo I'll go with CCC+.\n\nBut let's make sure about the retained earnings.\n\nRetained earnings 73,165M is large, but total equity is 21,383M, which is confusing. Perhaps there are treasury shares or something reducing equity.\n\nBut for credit rating, the net equity is low, so leverage is high.\n\nI think CCC+ is fine.\n",
+ "parsed_letter": "C",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4820,
+ "usd": 0.010694,
+ "utc": "2026-09-06T17:41:01.790127+00:00"
+}

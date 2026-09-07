@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"CCC\",\n  \"confidence\": 3,\n  \"rationale\": \"Extremely low current ratio (0.42) and high leverage (debt/equity ~10.25) indicate severe liquidity risk and high default vulnerability.\"\n}",
+ "reasoning_tail": "leverage indicate high default risk\" is 7 words.\n\nUnder 25.\n\nSo decision: CCC\n\nOr CCC+.\n\nLet's see the scale: CCC+ is better than CCC, but still high risk.\n\nWith current ratio 0.42, it's severe.\n\nPerhaps B-.\n\nBut I think CCC is appropriate.\n\nAnother thing: retained earnings are high, 261,693M, which is large, but equity is 303,243M, so it's mostly retained earnings, meaning the company has been profitable, but current situation is bad.\n\nBut the low EBIT relative to size suggests current profitability is poor.\n\nEBIT 12,435M on assets 3,410,394M is very low return.\n\nSo I think CCC.\n\nBut let's confirm the rating.\n\nStandard & Poor's ratings:\n\n- BBB: adequate capacity to meet financial commitments\n\n- BB: less vulnerable in the near term but faces major ongoing uncertainties\n\n- B: more vulnerable to adverse business, financial, economic conditions\n\n- CCC: currently vulnerable and dependent on favorable conditions to meet commitments\n\n- CC: highly vulnerable\n\n- C: imminent default\n\nHere, with current ratio 0.42, it is vulnerable to meeting short-term obligations, so CCC seems fitting.\n\nEBIT is positive, so not CC or C.\n\nTherefore, CCC.\n\nCCC+ is slightly better, but I think CCC is fine.\n\nThe scale has CCC+, CCC, CCC-, so CCC is middle.\n\nBut based on data, I'll go with CCC.\n\nConfidence: 3 out of 5, since I don't have interest coverage or other details.\n\nRationale: \"Extremely low current ratio and high leverage suggest imminent liquidity crisis.\"\n\nWord count: 8 words.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 4878,
+ "usd": 0.010831,
+ "utc": "2026-09-06T19:25:35.095482+00:00"
+}

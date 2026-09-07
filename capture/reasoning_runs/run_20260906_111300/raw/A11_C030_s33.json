@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe issuer exhibits weak credit metrics, primarily driven by low profitability and high leverage. The EBIT to total assets ratio is approximately 1.4%, indicating poor operational efficiency and low returns on assets. Additionally, the liabilities-to-equity ratio is 1.45, suggesting elevated financial leverage. Although the current ratio of 2.29 demonstrates adequate short-term liquidity, the low retained earnings to total assets (about 2.4%) and high implied debt burden relative to EBIT (e.g., estimated interest coverage below 1.5 based on reasonable assumptions) point to significant long-term solvency risks. These factors align with a high credit risk profile, warranting a speculative grade rating with high default vulnerability.\n\nDECISION: CCC+",
+ "reasoning_tail": "s the rating is B or CCC.\n\nLet's look at the current ratio: 2.29, which is good, so not imminent default.\n\nBut long-term issues.\n\nAnother ratio: quick ratio, but I don't have inventory, so can't calculate.\n\nAssume current ratio is sufficient.\n\nI think based on the data, the company has weak earnings and high leverage relative to earnings.\n\nRevenue 5,633M, EBIT 811M, total debt implied high.\n\nPerhaps assign a rating of B- or CCC+.\n\nBut let's see the scale.\n\nThe labels are from AAA to C.\n\nWith EBIT of 811M and revenue 5,633M, it's not tiny, but inefficient.\n\nPerhaps for the industry, but unknown.\n\nI think I have to decide.\n\nReason briefly.\n\nBased on low profitability (EBIT/Assets ~1.4%), high leverage (Liabilities/Equity ~1.45), and low retained earnings, the issuer exhibits weak credit metrics. The current ratio indicates adequate liquidity, but overall financial health is poor, suggesting high credit risk.\n\nTherefore, a speculative grade rating is appropriate.\n\nFinest granularity: since coverage is likely very low, CCC+ or CCC.\n\nBut I don't have coverage.\n\nFrom Altman Z-score 0.75, which is very low, so CCC or lower.\n\nBut current ratio good, so not imminent default.\n\nCCC rating is for currently vulnerable, dependent on favorable conditions.\n\nCC for highly vulnerable.\n\nC for imminent default.\n\nWith current ratio 2.29, not imminent, so CCC or CCC-.\n\nLet's choose CCC+ as a middle.\n\nBut I need to justify.\n\nPerhaps B- for some chance.\n\nI think CCC+ is reasonable.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 5995,
+ "usd": 0.013266,
+ "utc": "2026-09-06T19:01:51.129414+00:00"
+}

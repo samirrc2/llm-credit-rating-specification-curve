@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"High debt-to-equity (4.22) and low current ratio (1.27) indicate severe leverage and liquidity risks; Altman Z-score of 0.73 signals high bankruptcy probability.\"}",
+ "reasoning_tail": " CCC.\n\nLet's see the confidence.\n\nConfidence 3 out of 5, since estimates are rough.\n\nRationale: High leverage and low liquidity indicate significant credit risk, with Altman Z-score in distress zone.\n\nIn 25 words.\n\nSo, decision: CCC+\n\nConfidence: 3\n\nRationale: High debt-to-equity and low current ratio signal distress; Altman Z-score 0.73 indicates high bankruptcy risk.\n\nWords: \"High debt-to-equity and low current ratio signal distress; Altman Z-score 0.73 indicates high bankruptcy risk.\" That's 12 words.\n\nFine.\n\nBut is CCC+ justified?\n\nPerhaps B-.\n\nB- is higher than CCC+.\n\nOn the scale: AAA best, then AA+, AA, AA-, A+, etc., down to CCC+, CCC, CCC-, CC, C.\n\nSo CCC+ is better than CCC, worse than B-.\n\nOrder: B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is above CCC+.\n\nB- is better than CCC+.\n\nB- is three notches above CCC+? Let's list:\n\nFrom high to low: ... BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is immediately above CCC+, so CCC+ is worse than B-.\n\nB- is one notch above CCC+.\n\nSimilarly, CCC is worse than CCC+.\n\nFor Z-score 0.73, it might be CCC or CCC-.\n\nBut let's see typical ratings for Z-score.\n\nI found online that Z-score below 1.8 is distress, and for ratings, below 1.23 might be CCC, but I'm not sure.\n\nPerhaps I should assign B- with low confidence.\n\nBut Altman Z-score is strong indicator.\n\nAnother idea: the EBIT is operating income, and revenue is given, so the company is operating.\n\nBut with high liabilities.\n\nI think I'll go with CCC+.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 6149,
+ "usd": 0.013605,
+ "utc": "2026-09-06T20:18:05.175135+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A02",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows strong profitability with a 14% operating margin and moderate leverage, as indicated by a debt-to-equity ratio of approximately 1.1 (total liabilities to shareholders' equity). However, the current ratio of 1.34 reflects weaker liquidity, which introduces some vulnerability to short-term obligations despite the company's scale and retained earnings. These factors place it in the upper medium grade with low credit risk but not in the highest tiers, justifying an A- rating.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 3681,
+ "usd": 0.008206,
+ "utc": "2026-09-06T15:16:17.931498+00:00"
+}

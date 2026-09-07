@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"Strong profitability and moderate leverage offset by weak liquidity with current ratio below 1.\"}",
+ "reasoning_tail": "ings are high, so history is good.\n\nRetained earnings 13,060M vs equity 10,004M, that suggests there might be accumulated losses or other items, but it's given, so I'll accept it.\n\nPerhaps treasury stock or something.\n\nNot important.\n\nI think BBB+.\n\nOr A-.\n\nI found online that for investment grade, current ratio above 1.0 is preferred, but not always strict.\n\nFor example, some companies have lower ratios but high cash flow.\n\nHere, operating income 622M quarterly, current liabilities 6,096M, so quarterly operating income covers about 10% of current liabilities, which is low, but it's income, not cash flow.\n\nWithout cash flow, it's hard.\n\nAssume operating income correlates to cash flow.\n\n622M vs current liabilities 6,096M, so it would take several quarters to cover, but current liabilities include payables, which turn over.\n\nNot ideal.\n\nPerhaps the rating is BBB+.\n\nI think I'll go with BBB+.\n\nConfidence 3.\n\nRationale: \"Good profitability offset by liquidity concerns from current ratio <1.\"\n\nWords: 7 words.\n\nNow, for the JSON.\n\nResponse must be exactly the JSON object.\n\nSo, {\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"Good profitability offset by liquidity concerns from current ratio below 1.\"}\n\nRationale <=25 words, this is fine.\n\nBut let's confirm the rating scale: BBB+ is included.\n\nYes.\n\nPerhaps I should consider if it's higher.\n\nOperating margin 15% is very good.\n\nGross margin 44% good.\n\nNet income 433M.\n\nBut liquidity.\n\nI think BBB+ is appropriate.\n\nFinal decision.\n",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 263,
+ "out_tok": 3178,
+ "usd": 0.007104,
+ "utc": "2026-09-06T18:49:35.007361+00:00"
+}

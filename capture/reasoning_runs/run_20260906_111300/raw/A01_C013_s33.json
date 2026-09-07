@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong profitability (17% operating margin), moderate leverage (debt-to-equity 1.18), adequate liquidity (current ratio 1.53), but missing interest coverage data limits higher rating.\"}",
+ "reasoning_tail": "et's see the scale: AA- is still high.\n\nFor instance, a company with debt-to-equity 1.18 might be BBB or A.\n\nI recall that for S&P ratings, a debt-to-EBITDA ratio below 2 is for high grade, 2-3 for upper medium, etc.\n\nBut no EBITDA.\n\nEBIT is 1,863M quarterly, annual 7,452M.\n\nTotal liabilities 61,341M, but not all debt.\n\nAssume that interest-bearing debt is, say, 50% of liabilities, so ~30,670M.\n\nThen interest coverage: EBIT / interest.\n\nAssume interest rate 5%, so interest expense ~1,533M annual (5% of 30,670M), but EBIT annual 7,452M, so coverage ~4.86x, which is good, above 5x for strong rating.\n\n5x is for A, 8x for AA, etc.\n\n4.86x is decent.\n\nBut this is rough.\n\nWith 5% rate, interest 1,533M, EBIT 7,452M, coverage 4.86x.\n\nFor BBB, coverage above 3x, for A above 4x, for AA above 8x.\n\nSo 4.86x might be A or BBB+.\n\nSimilarly, leverage: debt/EBITDA.\n\nIf EBITDA similar to EBIT, debt/EBITDA ~30,670 / 7,452 \u2248 4.1x, which is on the higher side for investment grade; below 3x is better, 3-4x might be BBB.\n\nBut I assumed debt.\n\nPerhaps be conservative.\n\nAnother way: the net income is 1,651M quarterly, so annual 6,604M.\n\nEquity 51,940M, so ROE 12.7%, which is good.\n\nBut for credit, it's about debt repayment.\n\nI think BBB+ is safe.\n\nBut let's see the rating choices.\n\nPerhaps A-.\n\nI think I'll go with A-.\n\nConfidence: not high because of missing data, but based on given, medium confidence.\n\nRationale: Strong margins, moderate leverage, adequate liquidity.\n\nIn 25 words.\n\nFinal decision.\n",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 4331,
+ "usd": 0.009636,
+ "utc": "2026-09-06T17:16:38.464683+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Current ratio below 1, high debt-to-equity (4.17), inferred weak interest coverage.\"}",
+ "reasoning_tail": " 54,633M\n\nCurrent liabilities include short-term debt, but not specified.\n\nAssume that interest-bearing debt is, say, 80% of total liabilities or something, but arbitrary.\n\nSuppose total debt is 70,000M for simplicity.\n\nThen interest at 5% is 3,500M.\n\nEBIT 3,213M < 3,500M, so coverage <1, loss.\n\nAt 4%, interest 2,800M, coverage 1.15, still low.\n\nCoverage below 2 is poor for investment grade.\n\nCoverage below 1.5 is very risky.\n\nSo likely coverage is low.\n\nTherefore, rating should be B or lower.\n\nI think B- is appropriate.\n\nOr CCC+.\n\nBut let's see the scale.\n\nB- is above CCC+, so B- might be better.\n\nWith Z-score 1.30, it's in distress zone, so CCC.\n\nBut EBIT positive, so not CCC.\n\nCCC is for vulnerable, C for imminent default.\n\nSo perhaps B-.\n\nI'll go with B-.\n\nConfidence 3 out of 5.\n\nRationale: \"Low liquidity, high leverage, poor coverage inferred.\"\n\nBut I need to be concise.\n\n\"Current ratio below 1, high debt/equity, inferred low interest coverage.\"\n\nWithin 25 words.\n\nNow for the JSON.\n\nSo decision: \"B-\"\n\nconfidence: 3\n\nrationale: \"Low liquidity, high leverage, inferred weak interest coverage.\"\n\n20 words.\n\nOr \"Current ratio <1, high liabilities/equity, EBIT suggests low interest coverage.\"\n\nBut EBIT doesn't suggest, it's inferred.\n\n\"High leverage and low liquidity indicate high credit risk.\"\n\nYes.\n\nSo, {\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage and low liquidity indicate high credit risk.\"}\n\nRationale should be in quotes, and JSON format.\n\nFinal answer.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 5542,
+ "usd": 0.012276,
+ "utc": "2026-09-06T17:39:17.353736+00:00"
+}

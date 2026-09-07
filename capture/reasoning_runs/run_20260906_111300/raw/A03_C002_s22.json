@@ -1,0 +1,21 @@
+{
+ "spec_id": "A03",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided information, the issuer exhibits extremely high leverage with a total liabilities to equity ratio of approximately 9.02, indicating severe solvency risk, and an implied weak interest coverage ratio due to operating income (EBIT) of $3,188M relative to total liabilities of $444,085M. However, this is partially offset by strong liquidity (current ratio of 12.41) and high profitability (EBIT margin of 43.7%). These factors place the issuer in the highly speculative category, warranting a B rating.\n\nDECISION: B",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 7288,
+ "usd": 0.016099,
+ "utc": "2026-09-06T15:32:40.731120+00:00"
+}

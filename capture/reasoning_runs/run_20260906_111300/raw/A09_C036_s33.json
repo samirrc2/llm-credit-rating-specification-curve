@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Low liquidity (current ratio 0.79) and high leverage (D/E ~2.74), offset by strong operating margin (19%).\"}",
+ "reasoning_tail": "is explicitly given, so it's important.\n\nFinal decision.\n\nI think the rating should be B+, with moderate confidence.\n\nConfidence: 3 out of 5, since limited data.\n\nRationale: \"Low liquidity with current ratio 0.79 and high leverage offset by strong profitability.\"\n\nWord count: 10 words.\n\nWithin 25.\n\nNow, for the JSON.\n\n{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Low liquidity (current ratio 0.79) and high leverage, partially offset by strong operating margin.\"}\n\nIs B+ appropriate?\n\nB+ is below BB-, which is the lowest of BB.\n\nBB- is still speculative grade, but higher than B+.\n\nBB ratings are for less vulnerable, B for more vulnerable.\n\nWith current ratio 0.79, it's more vulnerable.\n\nPerhaps BB-.\n\nBut let's see the equity.\n\nShareholders' equity is positive, retained earnings positive, so not in distress.\n\nBut liquidity issue.\n\nI think B+ is fine.\n\nTo be precise, let's assign.\n\nAnother thought: the diluted EPS is 0.9, but no share count, so not useful.\n\nNet income 524M, which is good.\n\nBut leverage high.\n\nDebt to capital: total liabilities / (total liabilities + equity) = 57,973 / (57,973 + 21,181) = 57,973 / 79,154 \u2248 73.2%, high.\n\nIn credit ratings, for investment grade, debt to capital usually below 50% or so, but varies.\n\nHere 73%, so speculative.\n\nWith current ratio low, lower speculative.\n\nI think B+.\n\nPerhaps BB-.\n\nBut I'll go with B+.\n\nDecision: B+\n\nConfidence: 3\n\nRationale: \"Low current ratio (0.79) and high leverage, despite strong profitability.\"\n\nNow for JSON.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 2726,
+ "usd": 0.00612,
+ "utc": "2026-09-06T19:27:50.358202+00:00"
+}

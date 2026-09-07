@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 4, \"rationale\": \"Severe liquidity crisis with current ratio 0.27 and negative equity, indicating high default risk.\"}",
+ "reasoning_tail": " 1,860M, total liabilities 33,311M, so liability/op income about 18, which is high, but not precise.\n\nNot helpful.\n\nFocus on key metrics.\n\nNegative equity and current ratio 0.27 point to high risk.\n\nRetained earnings -20,476M, while annual net income around 600M, so it would take decades to break even, assuming no dividends, but still.\n\nSo, I think rating should be in the B or CCC range.\n\nI'll go with CCC+ as a starting point.\n\nBut let's see the confidence.\n\nI need to be confident.\n\nPerhaps B-.\n\nDecision: I think CCC+.\n\nRationale: Severe liquidity shortfall and negative equity indicate high default risk.\n\nConfidence: 3 or 4? I'll say 4, as the numbers are clear.\n\nConfidence scale: 1 low, 5 high.\n\nI'm fairly confident based on the data.\n\nFinal rating.\n\nAnother thought: the gross margin and operating margin are high, which might be from a tech company or something, but still, with such leverage, it's risky.\n\nFor example, companies like Uber or WeWork had negative equity and were rated low.\n\nUber was rated B or something, but I think it had better liquidity.\n\nNot sure.\n\nI think CCC+ is reasonable.\n\nBut let's check the options: CCC+ is available.\n\nPerhaps B-.\n\nI recall that for credit ratings, negative net worth often leads to CCC or lower.\n\nCurrent ratio below 1 is bad.\n\nHere, 0.27 is extreme.\n\nSo, I'll go with CCC+.\n\nRationale: \"Extremely weak liquidity with current ratio 0.27 and negative equity, posing high default risk.\"\n\nThat's 12 words.\n\nConfidence: 4.\n\nNow, for the JSON.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 2745,
+ "usd": 0.00616,
+ "utc": "2026-09-06T20:02:33.695491+00:00"
+}

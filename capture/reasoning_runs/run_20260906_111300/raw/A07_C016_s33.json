@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity issues with a current ratio of 0.90, indicating insufficient current assets to cover short-term obligations. Leverage is extremely high, with a debt-to-equity ratio of approximately 4.16 and a debt ratio of 80.5%, suggesting elevated financial risk. Although the EBIT margin is decent at 16.5%, the Altman Z-score of approximately 1.30 places the issuer in the distress zone, indicating a high risk of bankruptcy, further supported by implied interest coverage below 1.0 based on reasonable interest rate assumptions. These factors align with a highly vulnerable credit profile.\n\nDECISION: CCC",
+ "reasoning_tail": "ties include non-interest bearing, like accounts payable.\n\nCurrent liabilities include short-term debt and payables.\n\nI don't have breakdown.\n\nTotal liabilities 89,110M, let's say half is interest-bearing, roughly.\n\nCurrent liabilities 34,477M, some may be payables, not debt.\n\nLong-term liabilities 54,633M, likely interest-bearing.\n\nAssume that interest-bearing debt is long-term debt plus short-term debt.\n\nBut not specified.\n\nPerhaps use total liabilities as proxy, but it's crude.\n\nEBIT / total liabilities = 3,213 / 89,110 \u2248 0.036, which is low, meaning EBIT is only 3.6% of liabilities, so coverage is poor.\n\nSimilarly, EBIT / interest expense, if interest is say 4% of liabilities, interest = 0.04*89,110 = 3,564.4, EBIT / interest = 3,213/3,564.4 \u2248 0.90 <1.\n\nSo interest coverage below 1.\n\nIn S&P criteria, interest coverage below 1.0 is typically CCC or lower.\n\nFor example, CCC rated companies often have interest coverage below 1.\n\nCC for those closer to default.\n\nHere, coverage is around 0.9, so CCC.\n\nAlso, liquidity is weak.\n\nTherefore, I think CCC is appropriate.\n\nBut the scale has CCC+, CCC, CCC-, so I need to choose.\n\nSince current ratio is below 1 and coverage below 1, probably plain CCC.\n\nCCC+ might be for slightly better situations.\n\nBut here, it's poor.\n\nPerhaps B- or something, but I think CCC.\n\nLet's see the retained earnings: high retained earnings might indicate ability to absorb losses, but with low equity, it's not helping.\n\nI think CCC is fine.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 4524,
+ "usd": 0.010041,
+ "utc": "2026-09-06T17:38:01.657712+00:00"
+}

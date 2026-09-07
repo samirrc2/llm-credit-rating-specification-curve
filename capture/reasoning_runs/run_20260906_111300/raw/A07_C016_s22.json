@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits significant financial weaknesses, including a current ratio of 0.90 (below 1), indicating poor short-term liquidity and an inability to cover current liabilities with current assets. Additionally, the debt-to-equity ratio is approximately 4.17 (89,110M / 21,383M), reflecting very high leverage, while the operating margin of 16.5% (3,213M / 19,443M) is moderate but insufficient to offset these risks. These factors collectively point to high credit risk, placing the issuer in the speculative grade range, specifically B-, due to the severe liquidity and leverage issues.\n\nDECISION: B-",
+ "reasoning_tail": "sually have current ratio above 1.\n\nFor example, BB rated companies might have current ratio 1.0 to 1.5.\n\nHere it's 0.90, below 1.\n\nSo probably B range.\n\nB+ might be for better situations.\n\nI think B or B-.\n\nAltman Z-score 1.3 is close to distress.\n\nIn practice, ratings agencies might have more nuance.\n\nBut based on given, I'll go with B-.\n\nPerhaps CCC+.\n\nLet's see the equity part.\n\nShareholders' equity is only 21,383M with retained earnings 73,165M, which suggests a large deficit elsewhere, like from treasury stock or accumulated losses, indicating financial engineering or problems.\n\nThat's a sign of weakness.\n\nSo, I think CCC+ or B-.\n\nBut EBIT is positive, so not CCC.\n\nCCC is for current vulnerability.\n\nHere, with current ratio below 1, it is vulnerable.\n\nBut let's see the scale.\n\nPerhaps B-.\n\nI think I should output a decision.\n\nReason briefly: Poor liquidity with current ratio below 1, high leverage with debt-to-equity ratio over 4, and low profitability metrics suggest high credit risk, warranting a speculative grade rating.\n\nThen, for the rating, I'll say B-.\n\nBut let's confirm the calculation.\n\nDebt-to-equity: total liabilities / equity = 89,110 / 21,383 = 4.165, yes.\n\nCurrent ratio 0.90.\n\nOperating margin 16.5%, which is okay, but not enough to offset.\n\nSo, DECISION: B-\n\nBut in the Altman Z-score, it's 1.3, which for non-manufacturing might be different, but still low.\n\nPerhaps CCC+.\n\nI think B- is reasonable.\n\nAnother ratio: equity to assets 19.3%, low.\n\nI think B-.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 4299,
+ "usd": 0.009548,
+ "utc": "2026-09-06T17:37:29.216703+00:00"
+}

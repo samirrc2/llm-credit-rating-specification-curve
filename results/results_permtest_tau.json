@@ -1,0 +1,38 @@
+{
+ "_meta": {
+  "seed": 42
+ },
+ "R3_3.rating_invariance_permutation": {
+  "subgrid": "Google, requested temperature 0 (deterministic)",
+  "n_obs": 1080,
+  "n_specs": 8,
+  "statistic": "between-specification SD of item-centred letter rating",
+  "observed": 1.5875,
+  "null_mean": 0.1815,
+  "null_sd": 0.0503,
+  "n_permutations": 2000,
+  "n_exceed_observed": 0,
+  "p_value": 0.0005,
+  "specification_eta2_itemcentred": 0.4603,
+  "note": "Null permutes specification-condition assignments across observations (rating-invariance null), not accuracy labels. eta^2 is on specification-level aggregates of the item-centred rating and is not comparable to the individual-rating variance partition in Table 1."
+ },
+ "R3_5.tau_calibration": {
+  "construction": "score = SIS on 16 calibration specs; flag = any IG/HY flip on the disjoint 16 validation specs (45 issuers)",
+  "tau_selected_youdenJ": 0.08,
+  "precision_at_tau": 1.0,
+  "recall_at_tau": 0.882,
+  "f1_at_tau": 0.938,
+  "base_rate_flip": 0.756,
+  "reference_points": {
+   "tau=0.3": {
+    "precision": 1.0,
+    "recall": 0.647
+   },
+   "tau=0.5": {
+    "precision": null,
+    "recall": null
+   }
+  },
+  "note": "tau chosen to maximise Youden's J on the held-out split; practitioners raise tau for higher precision, lower for higher recall."
+ }
+}

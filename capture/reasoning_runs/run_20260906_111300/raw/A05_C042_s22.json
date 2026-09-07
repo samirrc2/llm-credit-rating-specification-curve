@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity, current ratio below 1, high leverage, and Altman Z-score indicate severe financial distress.\"}}",
+ "reasoning_tail": "MVE/BVL) + 1.0*(Sales/TA)\n\nWC/TA = -890 / 30,558 \u2248 -0.0291\n\nRE/TA = -8,881 / 30,558 \u2248 -0.2907\n\nEBIT/TA = 777 / 30,558 \u2248 0.0254\n\nSales/TA = 9,532 / 30,558 \u2248 0.3120\n\nMVE/BVL: unknown. Since equity negative, MVE might be small or zero. If I assume MVE = 0 for worst case, then 0.6*(0) = 0\n\nSo Z \u2248 1.2*(-0.0291) + 1.4*(-0.2907) + 3.3*(0.0254) + 0.6*(0) + 1.0*(0.3120)\n\nCalculate:\n\n1.2 * -0.0291 = -0.03492\n\n1.4 * -0.2907 = -0.40698\n\n3.3 * 0.0254 = 0.08382\n\n1.0 * 0.3120 = 0.3120\n\nSum: -0.03492 -0.40698 + 0.08382 + 0.3120 = (-0.03492 -0.40698) = -0.4419; +0.08382 = -0.35808; +0.3120 = -0.04608\n\nSo Z \u2248 -0.046, which is less than 1.8, indicating high bankruptcy risk.\n\nZ-score below 1.8 is distress zone.\n\nSo this supports a low credit rating.\n\nTherefore, CCC or lower.\n\nSince Z-score is negative, very high risk.\n\nIn rating terms, CCC+ to CCC-.\n\nBut let's choose one.\n\nPerhaps CCC.\n\nConfidence: I used an external model, but the instruction is to use provided figures and knowledge, so it should be okay.\n\nRationale: Negative equity, poor liquidity, high bankruptcy risk.\n\nIn <=25 words.\n\nFinal decision: CCC\n\nConfidence: 3, since not all factors covered.\n\nBut I think it's reasonable.\n\nPerhaps B- or something, but B is speculative, but with negative equity, it should be lower.\n\nB- is below BB-, so B- is still speculative but not as bad as CCC.\n\nB-: More vulnerable to adverse business conditions.\n\nCCC: Currently vulnerable.\n\nGiven negative equity, CCC seems more appropriate.\n\nI think CCC is fine.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 2833,
+ "usd": 0.006349,
+ "utc": "2026-09-06T19:55:33.504039+00:00"
+}

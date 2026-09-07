@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Low current ratio, negative retained earnings, and weak EBIT coverage imply high default risk.\"}",
+ "reasoning_tail": "s BBB- if I'm optimistic, but with current ratio 1.00 and negative retained earnings, unlikely.\n\nCurrent ratio 1.00 is a red flag.\n\nFor example, companies with current ratio below 1 often have lower ratings.\n\nRetained earnings negative is another red flag.\n\nSo, I think speculative grade.\n\nLet's say BB-.\n\nBB- is the highest speculative grade, just below BBB-.\n\nBut with possible coverage issues, lower.\n\nI think B+.\n\nDecision: B\n\nConfidence: 3\n\nRationale: \"Weak liquidity, negative retained earnings, and low profitability suggest high credit risk.\"\n\nLow profitability: ROA 0.58% is low.\n\nEBIT margin 17.3% is good, but ROA low due to high assets.\n\nRevenue 1,635M on assets 48,860M, so it's an asset-heavy business with low revenue, like utilities or something, but EBIT margin 17.3% is decent for such, but retained earnings negative.\n\nI think B is appropriate.\n\nPerhaps CCC+.\n\nBut let's choose B.\n\nThe JSON format: {\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Weak liquidity and historical losses indicate high risk.\"}\n\nRationale <=25 words.\n\n\"Low current ratio, negative retained earnings, and poor coverage imply speculative grade.\"\n\nCoverage not given, so avoid.\n\n\"Current ratio 1.00, retained earnings deficit, and low EBIT/liabilities suggest B rating.\"\n\nEBIT/liabilities = 283/23463 \u2248 1.2%, low.\n\nYes.\n\nSo, decision: B\n\nConfidence: 3 (medium)\n\nRationale: \"Low liquidity, retained losses, and weak coverage indicate high credit risk.\" 8 words.\n\nCoverage is implied.\n\nI think that's fine.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4245,
+ "usd": 0.009435,
+ "utc": "2026-09-06T19:33:17.960598+00:00"
+}

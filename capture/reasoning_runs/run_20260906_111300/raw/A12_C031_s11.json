@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 4, \"rationale\": \"Extremely low current ratio (0.34) and high leverage (debt-to-EBIT ~346x) indicate severe liquidity and solvency risks.\"}",
+ "reasoning_tail": "positive, so not C.\n\nPerhaps CCC.\n\nEBIT positive, so operating.\n\nBut with negative working capital, it's struggling.\n\nI think CCC+ or CCC.\n\nLet me see if I can use a specific method.\n\nS&P has a credit model, but I don't recall.\n\nLiquidity: S&P assesses liquidity with ratios like cash to ST ebt, but no data.\n\nCurrent ratio  0.34 implies poor S&P liquidity rating like \"less than adequate\" or \"weak\".\n\nFor leverage, debt-to-Capital high, like 9 times.\n\nIn S&P criteria, for industrials, leverage above 8x is B or CCC category.\n\nWith current ratio low, it fits CCC.\n\nB is for less leveraged but other issues.\n\nFor example, B rating might have EBIT coverage lees than 1.0, or negative, but here EBIT positive.\n\nCoverage not ava lable.\n\nI think CCC is reasonable.\n\nBut let's see the retained earnings large, which could be a positive, but it's not liquid.\n\nPerhaps the company has cash issues.\n\nAnother thought: the numbers might have a typo, but I have to go with the data.\n\nCurrent assets 612,094M, current liabilities 1,775,239M, difference huge.\n\nSo in my judgment, I'll assign CCC.\n\nFor confidence, since I have to choose 1-5, 5 highest.\n\nI have most key ratios, but no interest, so confidence 3 or 4.\n\nRationale should be short.\n\nPossible rating: let's say CCC with confidence 3.\n\nRationale: \"Extremely low current ratio and high leverage indicate severe liquidity risk.\"\n\nNow for the JSON.\n\nFirst, label: I'll go with CCC.\n\nOr CCC-.\n\nSince current ratio very low, CCC-.\n\nBut I think CCC is fine.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 4657,
+ "usd": 0.010347,
+ "utc": "2026-09-06T19:05:39.296950+00:00"
+}

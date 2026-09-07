@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Negative equity and weak liquidity (current ratio 1.09) indicate high leverage and risk, despite positive profitability and margins.\"}",
+ "reasoning_tail": "8 / 64,211 \u2248 2.53% quarterly, so about 10% annually, so debt burden is heavy.\n\nProfitability: net margin 7%, but leverage high.\n\nI think credit rating should be low.\n\nFinal decision: I think B- a good choice.\n\nBut let's see if it should be CCC.\n\nDifference between B and CCC: B is more vulnerable, CCC is currently vulnerable.\n\nWith positive earnings, not CCC yet.\n\nFor example, a company might be B with high leverage and weak liquidity.\n\nHere, both.\n\nSo, B-.\n\n  Or BB-, but I think too optimistic.\n\nBB- might be for companies with weaker investment grade metrics but still positive equity.\n\nHere negative, so not.\n\nSo, B-.\n\nAnd confidence: I'd say 3, since I have to make some assumptions.\n\nRationale: short, like \"Negative equity, weak liquidity, but profitable operations.\"\n\n25 words max.\n\nNow for the JSON.\n\nResponse should be only JSON.\n\nSo, {\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"Negative shareholders' equity and tight current ratio pose high credit risk despite profitability.\"}\n\nRationale must be <=25 words; that's 9 words so fine. \n\nDecision must be one of the given labels: I have B- listed.\n\nLabels are: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nYes, B- is there.\n\nConfidence 3: medium.\n\nIf I think negative equity is critical, perhaps lower rating like CCC+, but I think with profitability, B- is justified.\n\nSome might assign CCC if default is likely, but here not indicated.\n\nI think B- is reasonable.\n\nFinal answer.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 269,
+ "out_tok": 3197,
+ "usd": 0.007149,
+ "utc": "2026-09-06T19:11:41.720230+00:00"
+}

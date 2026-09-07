@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extreme leverage (D/E: 11.35), critically low current ratio (0.34), and negative working capital indicate high default risk.\"}",
+ "reasoning_tail": " is defined as: \"Currently vulnerable to non-payment, and dependent upon favorable business, financial, and economic conditions to meet its financial commitments.\"\n\nThis seems to fit.\n\nBut let's compare with the current ratio and debt levels in rating criteria.\n\nAlso, note that the revenue is 31,795M and EBIT is 5,851M, but the interest expense isn't provided. However, with total liabilities over 2 trillion, even a low interest rate would result in huge interest expenses. For example, at 1% the annual interest would be 20,254M, which is more than EBIT (5,851M). So the company is not covering interest by a large margin.\n\nTherefore, the rating should be **CCC**.\n\nGiven the scale, I choose:\n\n**CCC**\n\nConfidence: 3 (because we don't have the exact interest coverage ratio, but the metrics are very bad).\n\nRationale: \"Extreme leverage, negative working capital, EBIT insufficient for interest.\"\n\nBut wait: we don't know the interest expense. However, with the given numbers, we can infer it's likely impossible to service.\n\nAlternatively, we can compute the EBIT to Interest Coverage only if we had interest, but we don't. So the leverage and liquidity are the primary concerns.\n\nDecision: CCC\n\nConfidence: 3 (medium, because while the ratios are bad, the company is large and might have other unmentioned factors, but the data we have is alarming).\n\nRationale: \"Very low current ratio (0.34), high D/E (11.35), and negative working capital.\"\n\nNow, keep the word limit: <=25 words.\n\nFinal JSON:\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 1376,
+ "usd": 0.003162,
+ "utc": "2026-09-06T19:03:16.820341+00:00"
+}

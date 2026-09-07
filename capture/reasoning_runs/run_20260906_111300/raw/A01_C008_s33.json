@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Negative equity, current ratio 0.62 indicates severe liquidity risk; strong profitability insufficient to offset solvency concerns.\"}",
+ "reasoning_tail": "and interest exist.\n\nNet income is 2,375M, so let's say cash flow about that.\n\nLiabilities/cash flow: 37,604 / 2,375 \u2248 15.83 years, too high.\n\nInterest: not given, but if interest is high, coverage low.\n\nSo definitely low rating.\n\nI think B or lower.\n\nPerhaps B-.\n\nBut with l  liquidity issue, CCC+.\n\nI recall that Tesla had negative equity in the past and was rated B- or something, but I'm not sure.\n\nUpon quick search in mind, Tesla was B3/B- at times with negative cash flow but improving.\n\nBut here, net income positive.\n\nPerhaps a CCC rating is too low if not imminent default.\n\nCCC is for when default is a possibility.\n\nCurrent ratio 0.62 might indicate short-term default risk.\n\nFor example, if they can't pay bills, they might default.\n\nSo CCC could be appropriate.\n\nBut let's choos a rating.\n\nI'll go with CCC+\n\nDecision: CCC+\n\nConfidence: 3, as I have no debt details.\n\nRationale: \"Negative equity, poor liquidity, strong profitability.\"\n\nNegative equity: bad, poor liquidity: current ratio low, strong profitability: good but may not offset.\n\nUnder 25 words.\n\n\"Negative shareholders' equity, current ratio 0.62, high profits but financial distress.\"\n\n20 words.\n\nFor confidence, 3 out of 5.\n\nThe answer must be JSON.\n\n{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Negative equity, poor liquidity, strong profitability but financial distress.\"}\n\nRationale: \"Negative shareholders' equity, current ratio below 1, high profitability insufficient to prevent distress.\"\n\n19 words.\n\nYes.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 276,
+ "out_tok": 3693,
+ "usd": 0.008239,
+ "utc": "2026-09-06T16:46:33.126029+00:00"
+}

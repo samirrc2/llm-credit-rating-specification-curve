@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Very low current ratio (0.55) and high debt-to-equity (2.58) indicate severe liquidity and leverage risks.\"}",
+ "reasoning_tail": "se the ratios are clear.\n\nRationale must be <=25 words.\n\nPossible rating: B or CCC.\n\nLet's see the options.\n\nCCC is for vulnerable, dependent on favorable conditions.\n\nCC for highly vulnerable.\n\nC for near default.\n\nHere, EBIT positive, so not near default.\n\nBut with low liquidity and high leverage, it might be CCC.\n\nRetained earnings are large, 34,747M, which could be used to weather storms.\n\nBut current liabilities are pressing.\n\nShareholders' equity is 54,181M, so net worth is positive.\n\nBut the liquidity gap is immediate.\n\nPerhaps the rating is B- or CCC+.\n\nI think B- is for highly speculative, with high risk.\n\nLet me assign.\n\nDecision: Based on poor liquidity and very high leverage, I think B- or CCC+.\n\nBut let's choose one.\n\nFinal answer should be in JSON.\n\nRationale: \"Poor liquidity with current ratio 0.55 and high leverage with debt/equity 2.58.\"\n\nConfidence: 4, since ratios are clear but industry context unknown.\n\nGeneral knowledge predating, so I assume standard ratios.\n\nRevenue is low, but margin high, so mixed.\n\nBut leverage and liquidity are key.\n\nI think B- is appropriate.\n\nSome might say CCC.\n\nBut let's see the retained earnings: 34,747M is large, but it's part of equity, not liquid.\n\nCurrent assets are only 12,671M vs liabilities 22,911M.\n\nSo, they need to refinance or something.\n\nIn credit terms, this is weak.\n\nRating: B-\n\nConfidence: 4\n\nRationale: \"Very low current ratio and high debt/equity indicate significant financial risk.\"\n\nWord count: 9 words.\n\nOkay.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 2863,
+ "usd": 0.006413,
+ "utc": "2026-09-06T19:49:44.637802+00:00"
+}

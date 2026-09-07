@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company has a very high debt-to-equity ratio of approximately 4.22 (78,289M / 18,552M) and a debt-to-assets ratio of 80.8% (78,289M / 96,889M), indicating excessive leverage. The decent EBIT margin of 29.8% (3,639M / 12,222M) and positive retained earnings are offset by weak liquidity (current ratio of 1.27) and implied poor interest coverage, suggesting high credit risk and vulnerability to adverse conditions, placing it in the distressed category but not near immediate default.\n\nDECISION: CCC+",
+ "reasoning_tail": "CC, C.\n\nSo B- is above CCC+.\n\nBut based on numbers, it might be lower.\n\nLet's compare to real-world ratings for companies with similar ratios.\n\nFor example, a company with debt/ebitda of 8-10 might be rated B or B-.\n\nHere much higher.\n\nDebt/EBIT 21, if leverage high, rating low.\n\nI think I should go with CCC+ or CCC.\n\nSince retained earnings are high, it might provide some cushion, but not for cash flows.\n\nDECISION.\n\nI think the credit rating should be CCC+ based on high leverage and marginal liquidity, with good profitability offset by debt burden.\n\nBut CCC is also possible.\n\nPerhaps  CCC range.\n\nFinal answer.\n\nReasoning in brief: The company exhibits very high leverage with a debt-to-equity ratio of approximately 4.22 and a debt-to-assets ratio of 80.8%, indicating significant financial risk. Despite a strong EBIT margin of 29.8%, the high debt levels suggest poor coverage capacity, and the current ratio of 1.27 shows weak short-term liquidity. This combination points to a highly speculative credit profile with vulnerability to adverse conditions.\n\nTherefore, assign a rating in the CCC category. Specifically, due to some retained earnings cushion, I'll go with CCC+.\n\nBut I need to choose one.\n\nThe valid choices include CCC+, CCC, CCC-, etc.\n\nI think CCC+ is acceptable.\n\nSome might say B-, but I think lower.\n\nLet's see the numbers again: retained earnings 17,093M is positive, shareholders' equity 18,552M, so they have not eroded equity.\n\nBut the debt is high.\n\nI think CCC+.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4929,
+ "usd": 0.010933,
+ "utc": "2026-09-06T18:33:12.239820+00:00"
+}

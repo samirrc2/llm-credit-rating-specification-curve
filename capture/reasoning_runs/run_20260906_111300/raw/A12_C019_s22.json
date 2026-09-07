@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"High leverage (debt-to-equity ~3.5), low current ratio (1.22), and weak profitability indicate elevated credit risk, near distressed territory.\"}",
+ "reasoning_tail": "o-EBITDA around 4-6, for example.\n\nHere, if debt is say 41,215M, EBIT 2,575, ratio about 16, which is very high.\n\nFor any interest rate, coverage is low.\n\nSimilarly, current ratio 1.22 is weak.\n\nSo likely BB- or B+.\n\nBut Z-score points lower.\n\nLet's calculate Z-score more accurately.\n\nX1 = (19405 - 15620) / 73090 = 3425 / 73090 = 0.04685\n\nX2 = 20151 / 73090 = 0.27570\n\nX3 = 2575 / 73090 = 0.03523\n\nX4 = 16227 / 56835 = 0.28549\n\nX5 = 24479 / 73090 = 0.33496\n\nZ = 1.2*0.04685 = 0.05622\n\n1.4*0.27570 = 0.38598\n\n3.3*0.03523 = 0.116259\n\n0.6*0.28549 = 0.171294\n\n1.0*0.33496 = 0.33496\n\nSum = 0.05622 + 0.38598 = 0.4422\n\n0.4422 + 0.116259 = 0.558459\n\n0.558459 + 0.171294 = 0.729753\n\n0.729753 + 0.33496 = 1.064713\n\nSo Z = 1.065\n\nFor Z < 1.8, typically rated B or lower. Specifically, Z < 1.23 is ccc, etc., but I don't have the exact bands.\n\nIn practice, Z-score around 1.0 is often CCC.\n\nFor example, companies with Z below 1.2 are high default risk.\n\nSo I think CCC+ or CCC.\n\nBut let's choose BBB- is for Z above 2.0 or so.\n\n2.0 to 2.5 might be BB.\n\n1.8 to 2.0 B, etc.\n\nBut 1.065 is below  1.8, so B or lower.\n\nI found a reference: Z-score below 1.8 is distress zone, and such companies are often rated below B.\n\nSo for this, B- or CCC.\n\nSince the scale has B- at 16, CCC+ at 17, etc.\n\nWith other factors, revenue size, retained earnings, it might not be the worst.\n\nBut I think credit rating should be low.\n\nPerhaps I can give it B-.\n\nBut let's see the rationale short.\n\nI think I'll go with B- or CCC+.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 5231,
+ "usd": 0.011601,
+ "utc": "2026-09-06T17:58:41.244644+00:00"
+}

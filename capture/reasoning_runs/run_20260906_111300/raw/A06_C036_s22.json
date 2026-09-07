@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability with a 19% operating margin and 13.4% net margin, which supports creditworthiness. However, the low current ratio of 0.79 indicates significant liquidity risk, and the high debt-to-equity ratio of 2.74 suggests elevated leverage. These factors outweigh the profitability strengths, placing the issuer in speculative grade territory, specifically in the B+ range due to the immediate liquidity concerns but ongoing profitability.\n\nDECISION: B+",
+ "reasoning_tail": "5-2x, debt/EBITDA 4-5x, current ratio 0.8-1.0\n\n- CCC: Below that\n\nHere, current ratio 0.79, which is in the B range if we use this.\n\nBut I don't have interest coverage or EBITDA.\n\nOperating income 749M, which is similar to EBIT if no other items.\n\nBut no interest expense.\n\nSo, I can't calculate coverage.\n\nDebt not known.\n\nBut current ratio 0.79 is close to 0.8, so B rating.\n\nDebt/equity 2.74, which for B might be acceptable if coverage is ok.\n\nBut without coverage, I'll use current ratio.\n\nSo, B rating.\n\nB+ or B.\n\nB+ is a notch better.\n\nBut current ratio 0.79 is below 0.8, so B.\n\nBut let's not split hairs.\n\nThe scale has B+ and B.\n\nPerhaps B.\n\nBut I think B+ is reasonable.\n\nLet's see the answer format.\n\nI need to reason briefly.\n\nThen output DECISION: <label>\n\nSo, for reason: Low current ratio of 0.79 indicates liquidity risk, high debt-to-equity ratio of 2.74 indicates high leverage, but strong profitability with operating margin of 19% and net margin of 13.4% provides some offset. Overall, creditworthiness is speculative grade.\n\nRating: B+ or BB-.\n\nI think B+ is fine.\n\nBB- has higher current ratio expectation.\n\nIn the B range for current ratio below 1.0.\n\nSo, B+.\n\nBut let's choose.\n\nPerhaps BBB- is too high.\n\nAnother thing: the equity is 21,181M, which is substantial, so they have assets to cover, but assets are not liquid.\n\nFor example, if they sell assets, but credit rating is for ongoing concern.\n\nI think B+.\n\nOr BB- for moderate risk.\n\nI'll go with B+.\n\nFinal decision.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 252,
+ "out_tok": 4460,
+ "usd": 0.009906,
+ "utc": "2026-09-06T19:27:23.930116+00:00"
+}

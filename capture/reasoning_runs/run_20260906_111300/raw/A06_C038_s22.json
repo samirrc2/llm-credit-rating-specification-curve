@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extreme financial leverage with a debt-to-equity ratio of approximately 14.47 and severe liquidity strain from a current ratio of 0.63, indicating high default risk despite strong profitability margins. Negative retained earnings further undermine financial stability, placing it well into speculative grade without sufficient justification for investment-grade status.\n\nDECISION: B-",
+ "reasoning_tail": " currently has the capacity to meet financial commitments.\"\n\nCCC+ is \"currently vulnerable and dependent on favorable conditions to meet financial commitments.\"\n\nGiven the high operating margin, they might have capacity, but the leverage is extreme.\n\nWith debt-to-equity of 14, any shock could be catastrophic.\n\nSo perhaps CCC+ or CCC.\n\nBut let's not overstate.\n\nAlso, the gross margin and operating margin are high, which could be from high-value products or services, so cash flow might be good.\n\nFor example, a company like this might be able to refinance or have growth prospects, but for credit rating, it's about default risk.\n\nI think on balance, B- is reasonable.\n\nI recall that for Standard & Poor's, a debt-to-equity ratio above 5 is considered very high risk for industrial companies.\n\nHere it's 14.47, so off the charts.\n\nCurrent ratio below 1 is also a major flaw.\n\nRetained earnings negative is another issue.\n\nAll point to a low rating.\n\nPerhaps BB- is the highest possible.\n\nBB- is still speculative, e lower than investment grade.\n\nLet's list the ratings:\n\nAAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nBBB- is the lowest investment grade.\n\nThen BB+ to B- is speculative grade, with BB being less risky in speculative.\n\nB is more risky.\n\nCCC and below are highly speculative.\n\nWith the given data, it's hard to justify BB because of the leverage and liquidity.\n\nPerhaps B+ or B at best.\n\nBut I think B- or lower.\n\nDraft a decision.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 256,
+ "out_tok": 3615,
+ "usd": 0.008058,
+ "utc": "2026-09-06T19:36:26.996827+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"AA-\", \"confidence\": 4, \"rationale\": \"High profitability (48% operating margin), strong liquidity (current ratio 1.55), and moderate leverage offset by strong earnings, consistent with high investment grade.\"}",
+ "reasoning_tail": "ck ratio or something, but not given.\n\nFrom the data, current assets 62B, if I assume receivables and cash cover current liabilities, but not specified.\n\nI think it's fine.\n\nOr lower, like A+.\n\nLet's see the scale: AAA is highest.\n\nFew companies have AAA, like Microsoft or Johnson & Johnson.\n\nJohnson & Johnson has high ratings.\n\nBut Microsoft isn't AAA with all agencies.\n\nAs of 2024, S&P has Microsoft at AA+ with stable outlook.\n\nFor this company, with similar metrics, but leverage is higher.\n\nMicrosoft has net cash, so leverage low.\n\nHere, total liabilities higher than equity.\n\nBut based on my debt to EBITDA estimate, it could be moderate.\n\nI think for this, I'll go with A+.\n\nBut let's calculate the leverage properly.\n\nAssume that long term debt is say 50B out of 50.944 long term liabilities, current debt portion 5B out of 40B, so total debt 55B.\n\nEst. EBITDA annual 35,544, so net debt/EBITDA.\n\nBut current assets 62B, if cash is 30B, then net debt 55-30=25B, then 25/35.544 ~0.7, very low.\n\nIf cash is 10B, net debt 45B, ebitda 35, 1.27x, still low.\n\nIf cash low, but in tech, high cash, so likely net debt low.\n\nFor example, current assets 62B, could have high cash.\n\nSo net leverage likely low.\n\nSimilarly coverage good.\n\nSo upper medium grade.\n\nAA- or A+.\n\nI think AA- is reasonable.\n\nFor fine granularity, the  21-scale has + and -, so we can choose.\n\nRationale: High profitability, strong margins, moderate leverage.\n\nWith confidence 4, since some estimation.\n\n25 words rational.\n",
+ "parsed_letter": "AA-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 5596,
+ "usd": 0.012408,
+ "utc": "2026-09-06T16:34:07.416221+00:00"
+}

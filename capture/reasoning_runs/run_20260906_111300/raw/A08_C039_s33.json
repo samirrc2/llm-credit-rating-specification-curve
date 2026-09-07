@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"High leverage (debt-to-equity ~13.5), current ratio below 1, low EBIT/assets (~0.3%) indicate substantial risk.\"}",
+ "reasoning_tail": "ince EBIT is positive.\n\nBut with coverage implied low, it's worse.\n\nI think CCC.\n\nDecision: CCC\n\nConfidence: 3 or 4? Since I inferred interest coverage, but not given, so confidence might be medium.\n\nBut the task says \"use only the figures provided\", and I don't have interest, so I should not assume.\n\nWithout interest coverage, I have to rely on leverage and liquidity.\n\nHigh leverage and poor liquidity suggest high risk.\n\nCurrent ratio below 1 is a red flag.\n\nSo, speculative grade low.\n\nPerhaps B+ or B.\n\nBut let's see the retained earnings: 165,288M, which is high, but not helping short-term.\n\nI think B is for highly speculative, CCC for currently vulnerable.\n\nWith current liabilities > current assets, it is currently vulnerable to liquidity crisis.\n\nSo CCC.\n\nEBIT positive, so not CC or C.\n\nSo CCC.\n\nFor confidence, I'll say 4.\n\nRationale: \"High leverage, low liquidity, implied negative interest coverage.\"\n\nBut implied is not from figures; figures don't have interest.\n\nSo better to say: \"Very high leverage, current ratio below 1, low profitability relative to assets.\"\n\nEBIT/Assets is low.\n\nRevenue/Assets low.\n\nSo rationale: \"Extremely high debt-to-equity, current ratio <1, low asset efficiency.\"\n\nThen rating CCC.\n\nPerhaps BB-, but I think too high.\n\nLet's see if there's a standard way.\n\nAnother ratio: times interest earned, but missing.\n\nI think I have to go with CCC.\n\nFinal decision: CCC\n\nConfidence: 4\n\nRationale: \"High leverage and poor liquidity indicate substantial risk.\"\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 5271,
+ "usd": 0.011687,
+ "utc": "2026-09-06T19:43:29.614439+00:00"
+}

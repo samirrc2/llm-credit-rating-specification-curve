@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company exhibits severe financial distress, primarily due to negative shareholders' equity (-9,270M), indicating insolvency as total liabilities exceed total assets. Additionally, the weak current ratio (1.09) suggests marginal liquidity, and deeply negative retained earnings (-9,884M) reflect cumulative losses. Although positive EBIT (2,554M) provides some operational cash flow, the high leverage (total liabilities/EBIT \u2248 25.1) and negative net worth outweigh this, placing the issuer in the high-risk CCC range, specifically CCC+ due to ongoing profitability offering slight mitigation.\n\nDECISION: CCC+",
+ "reasoning_tail": "wer format.\n\nReason briefly in 1-3 sentences.\n\nThen DECISION: label.\n\nSo for reason: The company has negative shareholders' equity, indicating insolvency, and a weak current ratio of 1.09, despite positive EBIT, suggesting high credit risk and vulnerability to default.\n\nTherefore, a rating in the CCC range is appropriate.\n\nSpecifically, CCC+ to reflect some operating profitability.\n\nCCC+ is \"CCC, with positive elements\" or something.\n\nThe scale: CCC+ is better than CCC.\n\nCCC: Currently vulnerable\n\nCCC+: still vulnerable but slightly better.\n\nSince EBIT is positive, CCC+.\n\nPerhaps B-.\n\nB- is \"highly speculative\" .\n\nCCC+ is \"currently vulnerable, recovery possible\" .\n\nI think CCC+ is fine.\n\nAnother way: the Altman Z-score calculation I did gave around 0.36 without one term, which is far below 1.8, indicating high distress probability.\n\nZ-score below 1.8 is distress zone.\n\n1.8 to 3.0 is grey area.\n\nAbove 3.0 safe.\n\nHere, even with optimistic assumptions, Z-score low.\n\nSo rating should be low.\n\nIn practice, Z-score below 1.8 corresponds to ratings B or lower.\n\nSpecifically, Z-score < 1.23 is distress, 1.23-2.90 grey, but varies.\n\nBut here, my calculation was 0.36, so very low.\n\nThus, rating should be CCC or CC.\n\nBut with EBIT positive, not CC.\n\nCC is for very high risk or default likely.\n\nCCC is vulnerable.\n\nSo CCC.\n\nBut with positive elements, CCC+.\n\nI think CCC+ is reasonable.\n\nPerhaps the company is large, revenue 23B, so not small, but balance sheet weak.\n\nI'll go with CCC+.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4319,
+ "usd": 0.009597,
+ "utc": "2026-09-06T19:14:31.428678+00:00"
+}

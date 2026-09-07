@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows negative shareholders' equity (-$8.465B) and retained earnings (-$8.881B), indicating significant leverage and a history of losses. The current ratio of 0.92 suggests liquidity stress, as current assets cannot cover current liabilities. Despite moderate profitability (operating margin of 8%), these weaknesses place the issuer in the highly speculative range.\n\nDECISION: B+",
+ "reasoning_tail": "l, or economic conditions.\"\n\nB rating: \"More vulnerable to adverse business, financial, or economic conditions but currently has the capacity to meet financial commitments.\"\n\nCCC: \"Currently vulnerable and dependent on favorable business, financial, and economic conditions to meet financial commitments.\"\n\nWith current ratio below 1, they might not have the capacity to meet commitments without refinancing or asset sales, so vulnerable.\n\nBut with positive cash flow from operations, they might be okay.\n\nOperating income is positive, so cash flow might be positive, but not given.\n\nOnly net income, which includes non-cash items.\n\nBut not given.\n\nAssuming operating income correlates with cash generation.\n\nInterest coverage: earlier I estimated interest expense around 100M quarterly? Let's not assume.\n\nPerhaps I should assign a rating.\n\nI think B+ or B is reasonable.\n\nSince current ratio is very close to 1, 0.92, and they have revenue, it might not be imminent danger.\n\nBut negative equity is a big point.\n\nAnother thing: fiscal quarter, so they might have seasonality, but not specified.\n\nI think for credit rating, the negative equity and low liquidity point to a B category.\n\nPerhaps BB-.\n\nBut let's see retained earnings -8,881M while equity -8,465M, difference might be treasury stock or something, but not given.\n\nApproximately.\n\nI think I'm overcomplicating.\n\nDECISION: B\n\nBut finest granularity I can justify.\n\nReasons in 1-3 sentences.\n\nThen \"DECISION: <label>\"\n\nSo, brief reasoning.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 2986,
+ "usd": 0.006683,
+ "utc": "2026-09-06T19:54:27.881437+00:00"
+}

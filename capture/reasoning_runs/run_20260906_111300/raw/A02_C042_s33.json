@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits significant financial distress with negative shareholders' equity of -8,465 million and a current ratio of 0.92, indicating solvency and liquidity risks. Although it generates positive operating income with an 8% margin and estimated interest coverage is adequate (around 6x, based on typical tax rates), the persistent negative retained earnings of -8,881 million and leverage issues point to a high probability of default. These factors align with speculative-grade ratings, particularly the B category due to the severe balance sheet weaknesses despite operational profitability.\n\nDECISION: B",
+ "reasoning_tail": "g.\n\nRating scale granularity: I need to justify with available info.\n\nGiven no trend, one point,\n\nLiquidity weak, leverage high, profitability fair.\n\nSo, speculative grade with B rating.\n\nSpecifically, I'll say B+ because coverage is okay.\n\nBut equity negative, so B.\n\nI think B.\n\nCases like this: if a company has negative book equity but market cap high, it could be fine.\n\nHere, no market cap.\n\nBut diluted EPS 0.45, shares estimated 1136M, so if P/E 10, market cap 5.11B, market cap to debt ratio low.\n\nLiabilities 39B, market cap 5B, so debt/equity market high.\n\nStill risky.\n\nDefault risk.\n\nI think the rating should be B.\n\nPerhaps CCC, but coverage good, so not imminent default.\n\nCCC is for currently vulnerable, e.g., missing payments.\n\nHere no indication.\n\nSo B or B- .\n\nLet's choose B.\n\nBut let's see the financials again.\n\nRevenue 9,532M Q2, so annual run rate say 38B, op income 777M Q2, annual 3.1B, net income annual about 2B.\n\nTotal liabilities 39B, so total liabilities to EBIT = 39B / 3.1B \u2248 12.6, or with op income, EBIT.\n\nInterest expense estimated 130M quarterly, annual 520M, EBIT annual 3.1B, coverage 6, good.\n\nBut for rating, it's leverage metrics and liquidity.\n\nWith negative book value, it's often rated B or lower.\n\nI think for this case, BB- could be possible if we are optimistic, but with current ratio below 1, it's worse.\n\nCurrent ratio below 1 means net working capital negative, short-term insolvency risk.\n\nSo liquidity is weak.\n\nLikely B+ or B.\n\nI'll go with B.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 4574,
+ "usd": 0.010161,
+ "utc": "2026-09-06T19:55:45.171872+00:00"
+}

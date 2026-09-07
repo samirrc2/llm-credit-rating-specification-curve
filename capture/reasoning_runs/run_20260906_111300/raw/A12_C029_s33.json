@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Poor liquidity (current ratio 0.99), high leverage (debt-to-equity 1.5), low ROA (2.48%), but solid EBIT margin (15.3%). Speculative grade due to short-term risk.\"}",
+ "reasoning_tail": "r B+.\n\nLet's see EBIT relative to revenue: 15.3% margin, which is healthy, so the business is profitable, but leveraged and illiquid.\n\nDebt-to-equity 1.5, which is manageable if profitable.\n\nBut with current ratio below 1, short-term risk.\n\nPerhaps BB.\n\nThe scale has BB+, BB, BB-.\n\nI think BB is a possibility.\n\nAnother ratio: Quick ratio. But I don't have inventory or receivables breakdown, so I can't calculate.\n\nCurrent assets include cash, receivables, inventory, etc., but not specified.\n\nSo, current ratio is all I have for liquidity.\n\nI think the rating should be BB-.\n\nOr BBB- if I'm lenient, but I think not.\n\nLet's look for a decision.\n\nPerhaps I can calculate the interest coverage if I assume interest expense.\n\nSuppose total debt is long-term liabilities, 8,913M, and part of current liabilities, say 50% of current liabilities are short-term debt, so 3,048M, total debt 8,913 + 3,048 = 11,961M.\n\nInterest at 5%, 598M.\n\nEBIT 622M, so coverage 622/598 \u2248 1.04x, very low.\n\nIf interest rate 4%, 478M, coverage 1.3x.\n\nStill low.\n\nWith coverage around 1x, it's CCC or B territory, but with good margin, it might be B or B+.\n\nBut current ratio below 1 adds risk.\n\nRetained earnings high, so net worth positive.\n\nI think B+ or BB-.\n\nBB- is below BB.\n\nBB- is speculative.\n\nLet's assign BB-.\n\nConfidence: 3, since I have to assume on interest.\n\nRationale: Poor liquidity with current ratio below 1, low interest coverage estimated, but good profitability margin.\n\nIn 25 words.\n\nFinal decision.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3912,
+ "usd": 0.00871,
+ "utc": "2026-09-06T18:52:57.087137+00:00"
+}

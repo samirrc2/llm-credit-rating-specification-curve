@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely high leverage with a debt-to-equity ratio of approximately 13.48 (total liabilities of 1,684,348M vs. shareholders' equity of 124,972M) and poor liquidity with a current ratio of 0.83 (current assets of 1,018,577M vs. current liabilities of 1,226,809M), indicating significant solvency and liquidity risks. Despite strong profitability (gross margin of 52%, operating margin of 19%, and net margin of approximately 15.3%), the unsustainable debt levels and negative net working capital of approximately -208,232M outweigh these strengths, suggesting high vulnerability to adverse conditions and dependence on refinancing or favorable circumstances to meet obligations.\n\nDECISION: CCC",
+ "reasoning_tail": "ss, financial, and economic conditions to meet financial commitments.\"\n\nHere, with high profitability, conditions might be favorable, but the leverage is so high that any change could cause default.\n\nThe current ratio suggests immediate liquidity risk.\n\nSo, perhaps CCC+ or CCC.\n\nThe scale has CCC+, CCC, CCC-.\n\nI think CCC is fine.\n\nBut let's see if there's a better fit.\n\nPerhaps B- for \"has high credit risk but capacity to meet financial commitments.\"\n\nWith current ratio below 1, capacity is questionable.\n\nI think CCC is more accurate.\n\nIn the context, this might be a specific company, but I have to go with numbers.\n\nAnother thought: the filed date is 2026-02-25 for 2025 Q4, so most recent.\n\nPerhaps the company has a strong brand or market position, but I can't use external knowledge.\n\nBased solely on figures, I think CCC.\n\nBut let's confirm the equity: shareholders' equity 124,972M, which is positive, so not bankrupt.\n\nRetained earnings 165,288M, but equity is less, so there might be other items, but still.\n\nI think for credit rating, CCC is reasonable.\n\nPerhaps BB-, but that seems too high.\n\nLet's look for comparable ratings.\n\nI recall that companies with high leverage and weak liquidity are often rated B or CCC.\n\nFor example, Hertz during bankruptcy had negative equity, but here equity is positive.\n\nSo, B- or CCC+.\n\nI'll go with CCC.\n\nBut the decision must be one label.\n\nPerhaps CCC+ as a middle ground.\n\nCCC+ is \"vulnerable\" as well.\n\nI think CCC is fine.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 4790,
+ "usd": 0.010635,
+ "utc": "2026-09-06T19:42:33.858227+00:00"
+}

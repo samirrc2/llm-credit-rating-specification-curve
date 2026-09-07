@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"CCC+\",\n  \"confidence\": 3,\n  \"rationale\": \"Critical liquidity risk (current ratio 0.63) and extreme leverage offset by strong margins; high default vulnerability despite profitability.\"\n}",
+ "reasoning_tail": "companies are often CCC or lower if not addressed.\n\nWith earnings, it might be B.\n\nI found online that companies with current ratio below 1 are typically rated below B, but it varies.\n\nFor example, Tesla in bad times had low current ratio but not that low.\n\nHere 0.63 is very low.\n\nLet's calulate the ratio: assets 63,190M, with current assets 2,495M, so non-current assets 60,695M, likely illiquid, so cannot cover short-term liabilities.\n\nCompany would need to roll over debt or sell assets, but with market conditions, hard.\n\nIn a credit perspective, this indicates high risk of restructuring or default.\n\nTherefore, I think CCC+ or CCC.\n\nBut net income positive, so not immediate default.\n\nLikely CCC+.\n\nCCC+ is defined as \"currently vulnerable\" and \"dependent upon favorable business, financial and economic conditions to meet its commitment\".\n\nHere, with the numbers, it seems fitting.\n\nB- is \"more vulnerable to adverse business conditions\" but still capacity for payment.\n\nSo with liquidity crisis, CCC+ might be apt.\n\nI think I'll go with CCC+.\n\nConfidence 3, as no direct coverage ratio.\n\nRationale: \"Critical liquidity risk with current ratio 0.63, high leverage, but strong margins; vulnerable to default despite profitability.\"\n\n20 words.\n\nFinal answer as JSON.\n\nSo decision: CCC+\n\nConfidence: 3\n\nRationale: \"Critical liquidity risk with current ratio 0.63, high leverage offset by strong margins; vulnerable to default.\"\n\nNow, for confidence, 1 to 5, 5 high; I think 3 is medium.\n\nYes.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 4852,
+ "usd": 0.010777,
+ "utc": "2026-09-06T19:35:15.863057+00:00"
+}

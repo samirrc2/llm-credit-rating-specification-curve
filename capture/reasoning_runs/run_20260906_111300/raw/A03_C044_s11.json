@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows critical weaknesses: a current ratio of 0.27 indicates severe liquidity issues and high short-term default risk, while negative shareholders' equity (-1,920M) and total liabilities exceeding total assets confirm insolvency. Although EBIT is positive at 465M, it is insufficient to offset the substantial accumulated losses (retained earnings of -20,476M) and the immediate liquidity crisis, placing the issuer in a highly vulnerable position.\n\nDECISION: CCC-",
+ "reasoning_tail": "C, CCC-.\n\nSimilarly for others.\n\nWith current ratio 0.27, it's worse than, say, 0.5.\n\nFor example, a current ratio below 0.5 might be CCC- or lower.\n\nLet's see if there's a standard.\n\nI recall that for S&P, a current ratio below 1 is a warning, and below 0.5 is critical.\n\nHere, 0.27 is very low.\n\nNegative equity is another strong negative.\n\nSo, I think CCC- is appropriate.\n\nCC might be too low since EBIT is positive.\n\nCC is for highly vulnerable, C for imminent.\n\nWith EBIT positive, not imminent, but liquidity poor.\n\nPerhaps CCC-.\n\nI think I'll go with CCC-.\n\nBut let's confirm the numbers.\n\nCurrent assets: 1,254M\n\nCurrent liabilities: 4,705M\n\nDeficit: 3,451M\n\nEBIT: 465M\n\nSo, EBIT could cover about 13.5% of the deficit per quarter, but since liabilities are due, it's not helpful.\n\nThe company might have cash from operations, but not specified.\n\nGiven the data, I think CCC- is reasonable.\n\nSome might argue for B- or BB, but that seems too high given the negatives.\n\nB- is still speculative but higher than CCC.\n\nFor example, B- might have current ratio above 1 or positive equity.\n\nHere, both are bad.\n\nSo, speculative grade low.\n\nFinal answer: CCC-\n\nThen, for the response, I need to reason in 1-3 sentences.\n\nReason: The company exhibits severe financial distress with a critically low current ratio of 0.27 and negative shareholders' equity, indicating high default risk. Despite positive EBIT, the liquidity crisis and insolvency position warrant a low credit rating.\n\nDECISION: CCC-\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 247,
+ "out_tok": 3976,
+ "usd": 0.008843,
+ "utc": "2026-09-06T20:04:00.946773+00:00"
+}

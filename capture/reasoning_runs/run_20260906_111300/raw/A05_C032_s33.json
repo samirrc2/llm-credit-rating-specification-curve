@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Extremely low current ratio (0.35) and high leverage (D/E ~8.09) indicate severe liquidity risk despite strong profitability.\"}",
+ "reasoning_tail": "t's given.\n\nI think the rating should be in the B range.\n\nB+ might be too high.\n\nBB- is for higher quality speculative.\n\nBut D/E 8.09 is too high for BB.\n\nBB rated companies often have D/E around 2-4.\n\nHere it's 8, so lower.\n\nB rated might have D/E 4-6 or higher.\n\nBut current ratio 0.35 is worse.\n\nLet's assign.\n\nI think B- with confidence 3.\n\nOr CCC+.\n\nI recall that for companies with liquidity crisis, ratings can be CCC.\n\nFor example, if dependent on refinancing.\n\nHere, with large current liabilities, refinancing risk is high.\n\nSo CCC+ or B-.\n\nI'll go with CCC+.\n\nBut let's see the rationale.\n\nRationale: \"High leverage, poor liquidity, strong profitability, but high default risk.\"\n\nFor rating: CCC+.\n\nConfidence: 3, because no debt maturity or interest data.\n\nBut I have to choose.\n\nPerhaps B- is better.\n\nLet's count the notches.\n\nFrom top: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nBBB- is investment grade lowest.\n\nBB+ is highest speculative.\n\nThen BB, BB-, B+, B, B-, CCC+, etc.\n\nWith current ratio 0.35, it's below B, so CCC range.\n\nB- is above CCC+.\n\nB- is one notch above CCC+.\n\nIn the list: BB-, B+, B, B-, CCC+, CCC, CCC-, etc.\n\nSo B- is higher than CCC+.\n\nGiven the severity, I think CCC+ or CCC.\n\nBut profitability is strong, so CCC+.\n\nI think CCC+ is appropriate.\n\nDecision: CCC+\n\nConfidence: 3\n\nRationale: \"Extremely low current ratio of 0.35 and high leverage indicate severe liquidity risk.\"\n\nWord count: 10 words.\n\nYes.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 267,
+ "out_tok": 4876,
+ "usd": 0.010825,
+ "utc": "2026-09-06T19:08:59.984222+00:00"
+}

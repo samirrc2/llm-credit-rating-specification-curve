@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt/equity ~26.5), negative net income, interest coverage below 1, and weak liquidity (current ratio 1.18) indicate high default risk.\"}",
+ "reasoning_tail": "think CCC is fine.\n\nPerhaps B+, but I think CCC is more accurate.\n\nAnother thing: diluted EPS -0.11, but not per share value given, so not very informative.\n\nAssets include current assets high, 124,141M, which might be liquid, but current liabilities 105,547M, so net working capital positive: 124,141 - 105,547 = 18,594M, which is okay, but not great.\n\nBut with high debt, it's still risky.\n\nI think CCC is justified.\n\nSo, decision: CCC\n\nConfidence: 3 (since interest expense inferred)\n\nRationale: \"Extremely high leverage, negative profitability, interest coverage below 1, and tight liquidity indicate high default risk.\"\n\nCount words: Extremely (1), high (2), leverage (3), negative (4) profitability (5), interest (6) coverage (7) below (8) 1 (9), and (10) tight (11) liquidity (12) indicate (13) high (14) default (15) risk (16). 16 words. Good.\n\nNow, JSON format.\n\n{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extremely high leverage, negative profitability, interest coverage below 1, and tight liquidity indicate high default risk.\"}\n\nBut in rationale, I said \"interest coverage below 1\", which I inferred, but it's based on the data.\n\nIs there a better rating?\n\nBB- might be too high, as BB- can have interest coverage above 1.\n\nFor instance, BB ratings often have coverage above 1 but with high leverage.\n\nHere coverage is below 1, so worse.\n\nB+ or B: B ratings might have coverage around 1 or less.\n\nBut CCC is for current vulnerability.\n\nI think CCC is appropriate.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 2896,
+ "usd": 0.006491,
+ "utc": "2026-09-06T17:45:27.437170+00:00"
+}

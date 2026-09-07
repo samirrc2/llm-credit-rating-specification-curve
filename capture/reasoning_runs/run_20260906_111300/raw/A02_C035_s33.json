@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity risk with a current ratio of 0.42, indicating insufficient short-term assets to cover liabilities, and extreme leverage with a debt-to-equity ratio of approximately 10.25, signaling high solvency risk. Despite strong profitability metrics like a 25% operating margin, these financial weaknesses outweigh the positives, placing the issuer in the highly speculative grade.\n\nDECISION: B",
+ "reasoning_tail": "enue 50B for 3.4T assets; Apple has revenue 380B on 350B assets, so asset turnover ~1.08, not 0.014.\n\nSo this company is not efficient.\n\nI think it's fair to assign a low rating.\n\nFinal decision: I think B or B-.\n\nBut let's see the options: B+, B, B-.\n\nI think B is appropriate.\n\nPerhaps CCC+, but net income positive, so not that low.\n\nCCC is for companies where default is a real possibility, which it might be here due to liquidity.\n\nBut with positive earnings, it could be B.\n\nI recall that credit ratings for companies with high leverage and low liquidity are often in the B range.\n\nFor example, Tesla was rated B+ at some point with high debt.\n\nBut here ratios are worse.\n\nAnother metric: quick ratio, but I don't have inventory, so not calculable.\n\nCurrent ratio includes inventory, but here it's given as 0.42, so it's low regardless.\n\nI think I'm overcomplicating.\n\nBased on standard credit analysis:\n\n- High leverage: debt/equity > 10\n\n- Poor liquidity: current ratio < 0.5\n\n- Low profitability: ROA ~0.22%\n\nThis points to a highly speculative grade.\n\nRating: B\n\nBut to be finest granularity, B+ or B-.\n\nSince current ratio is very low, B- might be better.\n\nB+ is for less risk.\n\nI think B is fine.\n\nPerhaps BB- if I focus on profitability.\n\nBut liquidity is a key concern.\n\nIn credit ratings, liquidity is critical for short-term solvency.\n\nWith current liabilities due, and not enough assets to cover, it's a major risk.\n\nSo I'll go with B.\n\nDecision: B\n\nBut let's see the answer format.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 271,
+ "out_tok": 3748,
+ "usd": 0.008357,
+ "utc": "2026-09-06T19:20:02.508058+00:00"
+}

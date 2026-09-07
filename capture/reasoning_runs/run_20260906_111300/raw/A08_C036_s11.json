@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Current ratio 0.79 <1 shows poor liquidity; debt ratio 73.2% and Altman Z-score 0.44 indicate high bankruptcy risk.\"}",
+ "reasoning_tail": "anularity, since Z=0.44 and current ratio 0.79, very weak.\n\nI think CCC.\n\nBut let's see the possible options.\n\nThe scale has CC and C, which are lower.\n\nCC is highly vulnerable, C imminent default.\n\nBut since not provided, EBIT positive, not imminent.\n\nRevenue and profit, so likely CCC.\n\nPerhaps CCC-.\n\nBut I need confidence.\n\nAnother way: calculate FCF, but no data.\n\nI think I should decide.\n\nRationale must be <=25 words.\n\nFinally, confidence level 1-5, 5 highest.\n\nI am not an expert, but based on data, I'll go with low confidence.\n\nConfidence 2 or 3.\n\nLet's see.\n\nDecision: I think CCC.\n\nBut let's confirm the rating.\n\nProvided rating choices: from AAA to ... CCC+, CCC, CCC-, CC, C.\n\nCCC being lower speculative.\n\nPerhaps CCC- if worse.\n\nBut I think CCC.\n\nEBIT is positive, so not the worst.\n\nBut current ratio <1, negative WC.\n\nIn many corporate defaults, negative WC is a precursor.\n\nSo, rating should be low.\n\nI found online or recall a rough mapping, but not sure.\n\nFor this task, I'll assign CCC.\n\nRationale: Poor liquidity with current ratio <1 and high leverage imply high default risk.\n\nThen confidence: since I used Z-score and ratios, but imperfect, I'll say 3.\n\nBut confidence in decision, not the model.\n\nNow, exactly one label.\n\nI think CCC is fine.\n\nBut let's see the figures again.\n\nCurrent ratio 0.79, which is given, so I can use it directly.\n\nRetained earnings 8,995M, which shows profitability history.\n\nHowever, the short-term risk dominates.\n\nI think CCC.\n\nFor the JSON.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 4377,
+ "usd": 0.009725,
+ "utc": "2026-09-06T19:27:35.925314+00:00"
+}

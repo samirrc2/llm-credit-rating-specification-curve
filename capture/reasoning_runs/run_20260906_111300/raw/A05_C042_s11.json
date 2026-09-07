@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Negative equity, current ratio below 1, and high leverage indicate severe financial risk despite profitability.\"}",
+ "reasoning_tail": "ault, not here.\n\nCC is very high risk, near default.\n\nHere, net income positive, so not near default.\n\nCCC: currently vulnerable.\n\nWith current ratio <1, it is vulnerable.\n\nOperating margin 8%, so it can cover if no immediate issues.\n\nBut negative equity is a big problem.\n\nIn practice, companies like this might be rated B- or CCC+.\n\nFor example, Tesla in its early days had negative equity at times, but it was growing.\n\nHere, revenue 9.5B, but we don't have trends.\n\nOnly one quarter, so hard to say.\n\nAssume this is representative.\n\nI think B- is possible, but CCC+ might be better.\n\nFinal decision.\n\nRationale: Negative equity, poor liquidity, but profitable.\n\n<=25 words.\n\nSo, something like: \"Negative equity and current ratio below 1 indicate high financial risk despite profitability.\"\n\nRating: CCC+\n\nConfidence: 3 out of 5, since no debt details.\n\nBut confidence 1-5, 5 is highest.\n\nI'll say 3.\n\nNow, JSON format.\n\n{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Negative equity, low current ratio, but positive earnings.\"}\n\nRationale must be <=25 words, that's 6 words, fine.\n\nBut is CCC+ justified?\n\nPerhaps B-.\n\nLet's see the scale.\n\nBB- is below investment grade but higher speculative.\n\nB+ is moderate speculative risk.\n\nB is high speculative risk.\n\nB- is very high risk.\n\nCCC+ is substantial risk.\n\nWith negative equity, it's very high risk.\n\nCurrent ratio <1 adds to it.\n\nBut earnings positive.\n\nI think CCC+ is reasonable.\n\nSome might say B-.\n\nI'll go with CCC+.\n\nFinal answer.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 2942,
+ "usd": 0.006588,
+ "utc": "2026-09-06T19:55:36.691223+00:00"
+}

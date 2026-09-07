@@ -1,0 +1,21 @@
+{
+ "spec_id": "A11",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits moderate liquidity with a current ratio of 1.34 and strong accumulated retained earnings of $22,804 million, indicating historical profitability. However, the Altman Z-score, a key predictor of financial distress, is calculated as approximately 1.54 using book values (due to the absence of market data), falling below the 1.8 threshold that indicates severe distress risk. This low Z-score is driven by weak profitability (EBIT/Total Assets \u2248 3.72%) and inefficiencies like low asset turnover (Revenue/Total Assets \u2248 26.91%), suggesting high vulnerability despite moderate leverage. As a result, the issuer is assessed as highly speculative and vulnerable to adverse conditions, fitting into the 'B' rating category on the 21-grade scale.\n\nDECISION: B",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 5165,
+ "usd": 0.011451,
+ "utc": "2026-09-06T15:26:07.306153+00:00"
+}

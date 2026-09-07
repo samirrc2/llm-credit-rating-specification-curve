@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C009",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB+\", \"confidence\": 3, \"rationale\": \"High profitability with 56% EBIT margin and strong liquidity (current ratio 2.29), but moderate leverage with debt-to-equity around 0.68.\"}",
+ "reasoning_tail": "ve most data but missing interest coverage, confidence might be medium.\n\nRationale short.\n\nFinal decision.\n\nPerhaps from the retained earnings,  3,431M, and equity 33,867M, so it has a good equity base.\n\nEBIT 3,688M, if interest is say 500M, then coverage good.\n\nBut assume it's fine.\n\nI think BBB+ is appropriate, or A-.\n\nLet's see the values:\n\nRevenue 6,571M, EBIT 3,688M, so net income probably around 2,500M after tax, so with equity 33,867M, ROE about 7.4%, reasonable.\n\nFor rating, let's say A- with high profit and liquidity, though leverage moderate.\n\nBut debt/EBIT at 4.7 is borderline.\n\nAnother ratio: EBIT to total expenses.\n\nRevenue 6,571M, EBIT 3,688M, so op expenses = revenue - EBIT = 6,571 - 3,688 = 2,883M, but includes COGS, SG&A, etc.\n\nNot directly helpful.\n\nI think I'm overcomplicating.\n\nBased on standard ratios, this company has:\n\n- Good liquidity: current ratio 2.29\n\n- Moderate leverage: debt/equity 0.68 or equity/assets 59%\n\n- High profitability: 56% EBIT margin\n\n- Sufficient size\n\nSo for a credit rating, it should be in the A range, but with the debt level, perhaps A-.\n\nLet's see  is BB+ or lower? No, investment grade definitely.\n\nBBB is adequate, A strong, AA very strong.\n\nHere with high margin, it is strong, so A or A-.\n\nBut debt/EBIT high.\n\nPerhaps BBB+.\n\nI think I'll go with BBB+.\n\nConfidence 3.\n\nRationale: High EBIT margin and good liquidity, moderate leverage.\n\nWithin 25 words.\n\nFinal anser.\n\nThe output should be JSON with decision, confidence, rationale.\n",
+ "parsed_letter": "BBB+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 262,
+ "out_tok": 5478,
+ "usd": 0.012141,
+ "utc": "2026-09-06T16:54:34.792744+00:00"
+}

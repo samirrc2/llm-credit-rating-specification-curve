@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows strong profitability with high gross and operating margins (74% and 46%, respectively) and positive net income ($151M), indicating operational efficiency. However, it has a negative shareholders' equity (-$1,920M), a critically low current ratio of 0.27 (far below the safe threshold of 1.0), and large negative retained earnings (-$20,476M), signaling severe financial distress, solvency issues, and acute liquidity risk that heighten the near-term default vulnerability. These weaknesses outweigh the profitability, placing the issuer deep in speculative grade with current vulnerability to non-payment.\n\nDECISION: CCC",
+ "reasoning_tail": "atings can be as low as CCC if they have going concern issues.\n\nHere's a reasoned step:\n\n1. Strong profitability and margins indicate business strength.\n\n2. Negative equity and high negative retained earnings show weak capital structure and historical losses.\n\n3. Very low current ratio indicates acute liquidity risk, potentially leading to default if not managed.\n\nTherefore, the issuer is vulnerable to default, meriting a CCC rating, specifically CCC+ or CCC.\n\nBut diluted EPS is positive, so not the worst.\n\nPerhaps B- is too high; B- might imply less immediacy.\n\nStandard definition:\n\n- B ratings: Highly speculative; major risk exposure to adverse conditions.\n\n- CCC: Currently vulnerable to non-payment, dependent upon favorable conditions.\n\nThis seems more CCC because the liquidity issue makes them currently vulnerable.\n\nCurrent ratio 0.27 with negative equity makes them dependent on favorable financing or rapid improvement.\n\nThus, I think CCC.\n\nBut which subcategory?\n\nSince they have positive operating income, not CCC-, but not strong enough for higher.\n\nCCC+ is one notch better.\n\nBut the current ratio is extremely low, which is a severe problem.\n\nTherefore, I'll go with CCC.\n\nFinal decision: CCC\n\nReasoning: The issuer exhibits strong profitability with high operating margins but suffers from negative shareholders' equity, a critically low current ratio of 0.27, and large negative retained earnings, indicating severe financial distress and high default risk in the near term.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 3134,
+ "usd": 0.007007,
+ "utc": "2026-09-06T20:02:58.003511+00:00"
+}

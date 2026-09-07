@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits high financial leverage with a debt-to-equity ratio of approximately 3.83 (total liabilities / shareholders' equity = 91,085M / 23,793M) and moderate liquidity with a current ratio of 1.55, indicating elevated credit risk despite strong profitability evidenced by an EBIT margin of about 47.6% (EBIT / revenue = 8,386M / 17,601M). These factors, particularly the high leverage, place the issuer in the speculative grade category, with BB- being the most appropriate given the strong margin partially offsetting the risk.\n\nDECISION: BB-",
+ "reasoning_tail": "he issuer is a company like Netflix or Tesla at some point, but they have different profiles.\n\nTesla had high leverage but improved.\n\nBut here, with the numbers, let's assign.\n\nI will go with B+.\n\nBut let's see the answer format.\n\nReason in 1-3 sentences.\n\nThen DECISION: <label>\n\nSo, briefly.\n\nReason: High leverage with debt-to-equity of 3.83 and moderate liquidity (current ratio 1.55) indicate significant credit risk, despite strong profitability (EBIT margin 47.6%).\n\nTherefore, speculative grade rating.\n\nFinest granularity: B+ or B.\n\nBut which one?\n\nSince EBIT margin is very strong, it might support B+.\n\nZ-score low, so B.\n\nI think B+ is reasonable.\n\nOr BB-.\n\nLet's say BB- for moderate speculative grade.\n\nBut leverage is high.\n\nI found online that for BB rating, debt-to-EBITDA might be 4-6, here it's 10.86 if EBIT\u2248EBITDA, so higher, so B or CCC.\n\nDebt-to-EBITDA 10.86 is very high.\n\nFor B, it might be 6-8 or higher.\n\nCCC can be 10+.\n\nSo perhaps CCC+ or B-.\n\nBut with high margin, B-.\n\nLet's choose B-.\n\nBut I think for the purpose, I'll go with B+ as a compromise.\n\nNo, let's be consistent.\n\nPerhaps the current ratio is 1.55, which is not terrible, and EBIT high, so coverage might be adequate.\n\nAssume interest coverage is around 2.5-3, which is BB territory.\n\nFor example, BB+ rating might have coverage 2-3.\n\nB+ 1.5-2.\n\nSo if coverage is 2.3, it could be BB or B+.\n\nI think BB- is possible.\n\nBut with leverage so high, it might be lower.\n\nI think I'll assign BB-.\n\nFinal decision.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 6545,
+ "usd": 0.014467,
+ "utc": "2026-09-06T16:33:41.416376+00:00"
+}

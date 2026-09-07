@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Low interest coverage implied, negative working capital, and large accumulated losses indicate high default risk.\"}",
+ "reasoning_tail": "ion, I'll go with CCC.\n\nRationale should be concise, <=25 words.\n\nFinal decision: CCC\n\nConfidence: 3, since no industry and estimated interest.\n\nRationale: Very low interest coverage, negative working capital, and accumulated losses indicate high default risk.\n\nNow for JSON output.\n\n{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Low interest coverage, negative working capital, and accumulated losses\"}\n\nThat's 8 words.\n\nOr \"Very low interest coverage, tight liquidity, and significant retained deficit.\"\n\nBut need to be precise.\n\nSince I estimated coverage, but in rationale, I can say based on ratios.\n\nThe problem says \"using only the information below\", so I shouldn't introduce external assumptions, but I had to for coverage.\n\nPerhaps I can use the given ratios without coverage.\n\nKey points from data:\n\n- Current ratio 1.00: weak liquidity\n\n- Negative retained earnings: poor profitability history\n\n- EBIT positive but low relative to assets\n\n- Leverage moderate\n\nBut without coverage, it's harder.\n\nBut the current ratio and negative working capital suggest liquidity risk.\n\nRetained earnings negative suggests weak financial position.\n\nSo speculative grade, BB or B.\n\nBut with the coverage issue, I think CCC is better.\n\nPerhaps from the current ratio.\n\nA current ratio below 1.0 is often associated with CCC ratings.\n\nFor example, companies with current ratio below 1 are usually in distress.\n\nSimilarly, negative retained earnings.\n\nSo I think CCC is reasonable.\n\nI'll go with that.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 258,
+ "out_tok": 5052,
+ "usd": 0.011206,
+ "utc": "2026-09-06T19:32:02.220891+00:00"
+}

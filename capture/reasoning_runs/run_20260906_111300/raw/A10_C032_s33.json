@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits strong profitability with high gross (85%) and operating margins (32%), and positive net income. However, it faces severe liquidity issues, as evidenced by a critically low current ratio of 0.35, indicating insufficient short-term assets to cover current liabilities. Additionally, the debt-to-equity ratio of approximately 8.08 reflects extremely high leverage, elevating default risk despite operational strength. These factors place the issuer in the very high credit risk category.\n\nDECISION: CCC+",
+ "reasoning_tail": " grade, debt/EBITDA below 3-4, current ratio above 1.2 or so.\n\nHere both are poor.\n\nSo, speculative grade, and low end.\n\nPerhaps BB- or B+.\n\nBut current ratio 0.35 is worse than leverage in some ways for short-term risk.\n\nFor issuer rating, it's overall default risk.\n\nI think CCC+ is defensible.\n\nBut let's check the retained earnings.\n\nRetained earnings 26,088M, which is high, but it's part of equity, so already included.\n\nIt doesn't provide additional liquidity.\n\nI think the rating should be CCC+.\n\nPerhaps B-.\n\nI recall that for companies like this, ratings might be B or CCC.\n\nBut let's decide.\n\nPerhaps I can look at the quick ratio, but no data.\n\nAssume that a significant portion of current assets is inventory, but with gross margin 85%, COGS is 15% of revenue, so for Q1 revenue 20,880M, COGS = 20,880 * 0.15 = 3,132M, so inventory might be related, but not directly given.\n\nCurrent assets include cash, AR, inventory, etc.\n\nBut without breakdown, hard to say quick ratio.\n\nLikely quick ratio is even lower than current ratio.\n\nSo, very poor liquidity.\n\nTherefore, I think the credit rating should be CCC+.\n\nCCC+ is \"very high credit risk\".\n\nYes.\n\nSome might say B-, but I think CCC+ is better.\n\nFinal decision.\n\nReason briefly: Severe liquidity issues with current ratio of 0.35 and high leverage with debt-to-equity ratio of 8.08, indicating very high credit risk despite strong profitability.\n\nThen DECISION: CCC+\n\nBut CCC+ is one of the options.\n\nThe scale has CCC+, CCC, etc.\n\nYes.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 3249,
+ "usd": 0.007261,
+ "utc": "2026-09-06T19:09:28.734603+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe liquidity issues with a current ratio of 0.63, indicating insufficient current assets to cover short-term liabilities, and high leverage with a debt-to-equity ratio of approximately 2.71 and a debt ratio of 72.6%. While the operating margin is strong at 26.9%, the low return on assets (EBIT/total assets \u2248 1.21%) and extremely high debt-to-EBIT ratio (\u224859.8) suggest significant financial distress and an unsustainable debt burden, pointing to a high risk of default.\n\nDECISION: CCC",
+ "reasoning_tail": "r example, if current ratio below 1 and high debt.\n\nSo, I think CCC is appropriate.\n\nBut CCC+ might be a bit higher.\n\nPerhaps B-.\n\nB- is for highly speculative.\n\nBut with negative working capital, it's worse.\n\nCurrent ratio 0.63 is severely low.\n\nIn many cases, that alone can push to CCC.\n\nFor instance, if a company has current ratio below 1, it might be in technical default or high risk.\n\nSo, I think CCC.\n\nBut let's check the numbers again.\n\nTotal assets 192,293M, current assets 12,208M, so only 6.35% of assets are current, which is very low, meaning illiquid assets.\n\nRevenue 8,669M from assets of 192,293M, so inefficient.\n\nEBIT 2,334M.\n\nIf the company has to refinance short-term debt, it might struggle.\n\nI think credit rating should be CCC.\n\nFor granularity, CCC or CCC-.\n\nBut CCC+ is above, so perhaps CCC.\n\nSince EBIT is positive, CCC+ might be possible.\n\nBut I think CCC is fine.\n\nThe decision must be one label.\n\nPerhaps I should go with CCC.\n\nBut let's see the retained earnings: 4,718M, which is not negative, so not in distress from losses.\n\nBut the leverage and liquidity are poor.\n\nI think B- is too high; BB and B are for companies with some cushion.\n\nHere, no cushion.\n\nFor example, BB ratings might have current ratio above 1, debt/EBITDA below 6 or so.\n\nHere, if EBITDA ~ EBIT, debt/EBIT 60, way higher.\n\nSo, very high leverage.\n\nThus, low rating.\n\nI think CCC+ or CCC.\n\nI'll go with CCC for simplicity.\n\nBut CCC+ is available.\n\nPerhaps CCC-.\n\nBut I think CCC is reasonable.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 4631,
+ "usd": 0.010279,
+ "utc": "2026-09-06T19:46:09.427482+00:00"
+}

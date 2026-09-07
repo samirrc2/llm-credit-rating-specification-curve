@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the financial metrics provided, the company exhibits significant financial stress, including a high debt-to-equity ratio of 3.50 and an estimated interest coverage ratio of approximately 1.25x (assuming an average 5% interest rate on long-term debt), indicating limited ability to service debt. Additionally, the Altman Z-score of 1.06 falls in the distress zone, signaling a high risk of bankruptcy, and the current ratio of 1.22 reflects weak liquidity. These factors align with a speculative-grade rating, specifically in the CCC range due to the severe financial vulnerability.\n\nDECISION: CCC",
+ "reasoning_tail": "bearing.\n\nBut I don't know.\n\nAssume that only long-term debt bears interest, about 41,215M.\n\nAssume interest rate: for high-yield firms, say 8-10%, but for calculation, let's use 5% for conservative.\n\nAt 5%, interest = 0.05 * 41,215 \u2248 2,060.75M\n\nEBIT 2,575M\n\nCoverage = 2,575 / 2,060.75 \u2248 1.249, about 1.25x\n\nIf higher rate, it's worse.\n\nWith 1.25x, it cannot cover interest well if EBIT fluctuates.\n\nTherefore, for such low coverage, and high leverage, it should be CCC.\n\nCurrent ratio 1.22 might force them to use cash or assets to pay short-term debt.\n\nSo, I think CCC is appropriate.\n\nOn the scale, CCC+ is slightly better than CCC, but with coverage below 1.5, it's probably CCC.\n\nStandard & Poor's, for example:\n\n- B: 2.0-3.0x coverage, but can be lower\n\nBetter to look at guidelines.\n\nSince it's a thought process, I'll go with CCC.\n\nThe decision should be one label.\n\nAlso, retained earnings are high, but that doesn't directly affect debt repayment; it's equity.\n\nAlthough it shows past profitability, with high debt, it might not help.\n\nIn Altman Z-score, it's one component, but score low overall.\n\nI think CCC or B-.\n\nB- might have coverage around 2x, here it's lower.\n\nAssume current liabilities include short-term debt; say, if 50% is interest-bearing, 7,810M long-term 41,215M, total interest-bearing debt roughly 49,025M.\n\nInterest at 5% = about 2,451M, coverage = 2,575/2,451 \u2248 1.05, even worse.\n\nSo, coverage very low.\n\nHence, high risk.\n\nThus, I assign CCC.\n\nFor the final answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 3858,
+ "usd": 0.008588,
+ "utc": "2026-09-06T17:56:54.820305+00:00"
+}

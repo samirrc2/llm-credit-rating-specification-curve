@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Current ratio below 1 indicates liquidity crisis; high leverage (debt/equity ~2.87) and low profitability (EBIT margin 3.75%) heighten default risk.\"}",
+ "reasoning_tail": ", rating around CCC.\n\nBut let's confirm the calculation.\n\nWorking Capital/Total Assets = (20,702 - 21,242)/59,991 = (-540)/59,991 = -0.009004\n\nRetained Earnings/Total Assets = 8,777/59,991 \u2248 0.1463\n\nEBIT/Total Assets = 948/59,991 \u2248 0.0158\n\nMVE/BVL: assume MVE = book equity, so 15,501/44,490 \u2248 0.3484\n\nSales/Total Assets = 25,270/59,991 \u2248 0.4213\n\nZ = 1.2*(-0.009004) = -0.0108048\n\n1.4*0.1463 = 0.20482\n\n3.3*0.0158 = 0.05214\n\n0.6*0.3484 = 0.20904\n\n1.0*0.4213 = 0.4213\n\nSum: -0.0108048 + 0.20482 = 0.1940152\n\n+0.05214 = 0.2461552\n\n+0.20904 = 0.4551952\n\n+0.4213 = 0.8764952 \u2248 0.88\n\nYes.\n\nZ-score below 1.23 is distress zone, 1.23 to 2.9 grey, above 2.9 safe.\n\n0.88 < 1.23, so distress.\n\nTherefore, for credit rating, it should be CCC or lower.\n\nBut CCC+ is \"Currently vulnerable\", CCC \"Currently highly vulnerable\", etc.\n\nSince EBIT is positive, perhaps CCC+.\n\nBut retained earnings are high, suggesting past strength.\n\nIn credit rating, current conditions matter more.\n\nPerhaps B-.\n\nI think CCC+ is possible.\n\nBut let's see the options.\n\nValid answers include CCC+, CCC, CCC-, etc.\n\nWith Z-score 0.88, it's very low.\n\nIn practice, ratings might be higher if the company has support, but no information.\n\nBased on fundamentals, low rating.\n\nRationale: Very low Altman Z-score indicates high bankruptcy risk.\n\nBut I need to assign a rating.\n\nPerhaps B-.\n\nI think CCC+.\n\nConfidence 3.\n\nRationale: \"Severe liquidity issues and high leverage suggest substantial credit risk.\"\n\nIn 25 words.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 258,
+ "out_tok": 4833,
+ "usd": 0.010726,
+ "utc": "2026-09-06T20:00:32.671483+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C022",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Low current ratio (0.59), high debt-to-equity (1.76), and low ROA (1.37%) indicate financial distress.\"}",
+ "reasoning_tail": "y, debt-to-equity 1.76 is high.\n\nFor instance, in retail or similar, but no industry.\n\nAssume it's a general case.\n\nI think I'll go with CCC+ or CCC.\n\nBut let's see the rating scale: CCC+, CCC, CCC-.\n\nPerhaps CCC.\n\nConfidence: not high because of data inconsistency.\n\nBut I need to provide a rating.\n\nAnother ratio: quick ratio, but I don't have inventory or receivables breakdown.\n\nCurrent assets include cash, receivables, inventory, but not specified.\n\nSo only current ratio given.\n\nEBIT / interest, but no interest.\n\nI think CCC is a safe bet.\n\nBut let's see retained earnings: if I use it, RE/TA = 36,413/71,487 \u2248 0.509, which is high, and in Z-score it helped, but Z was still low because of negative WC and low EBIT/TA.\n\nIn Z-score, RE/TA is positive, but WC/TA negative dominates.\n\nSo overall distress.\n\nPerhaps the rating is B- or CCC+.\n\nI think for the final decision, I'll assign CCC.\n\nConfidence: 3 out of 5, since limited data.\n\nRationale: Poor liquidity, high leverage, low profitability.\n\nIn 25 words.\n\nSo \"decision\": \"CCC\"\n\n\"confidence\": 3\n\n\"rationale\": \"Low current ratio, high debt, low ROA indicate distress.\"\n\nNow, for the JSON format.\n\nBut let's confirm the rating.\n\nPerhaps BB- if I'm optimistic, but with current ratio 0.59, it's hard.\n\nCurrent ratio 0.59 means current liabilities exceed current assets, so it can't pay short-term debts without selling assets or refinancing.\n\nWith EBIT positive, it might survive, but rating should reflect risk.\n\nI think CCC is appropriate.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4551,
+ "usd": 0.010105,
+ "utc": "2026-09-06T18:14:54.741130+00:00"
+}

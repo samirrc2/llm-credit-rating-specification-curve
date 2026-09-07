@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong profitability (44% operating margin) and liquidity (current ratio 12.41) partially offset high leverage (debt-to-equity ~9).\"}",
+ "reasoning_tail": " - Int) , since interest tax-deductible.\n\nLet T be tax rate, say 20%.\n\nThen (EBIT - Int) * (1 - 0.2) = NI\n\nSo 0.8 * (EBIT - Int) = 2,479\n\nEBIT = 3,188\n\nSo 0.8 * (3,188 - Int) = 2,479\n\nThen (3,188 - Int) = 2,479 / 0.8 = 3,098.75\n\nSo 3,188 - Int = 3,098.75\n\nThus Int = 3,188 - 3,098.75 = 89.25M for the quarter, annual 357M\n\nThen interest coverage ratio, EBIT/Int = 3,188 / 89.25 \u2248 35.72, which is excellent.\n\nFor annual EBIT 12,752, int annual 357, coverage 35.7, very high.\n\nSo interest coverage is strong.\n\nSimilarly, with net income positive.\n\nAlso, liquidity strong.\n\nThe only issue is high leverage, but with high interest coverage, it might be manageable.\n\nLeverage is high, but serviceability is good.\n\nFor such a company, it could be rated in the A range.\n\nFor example, companies with high leverage but strong cash flows can have BBB+ to A.\n\nWith debt/equity 9, it's high, but for ratings, it's the ability to pay that matters.\n\nAlso, the high current ratio shows prudence.\n\nRetained earnings indicate a history of profitability.\n\nSo perhaps AA- or A+, but given leverage, A- or BBB+.\n\nI think A- is reasonable.\n\nOr BBB+.\n\nLet's choose.\n\nThe rationale should be short.\n\nFinal decision.\n\nI will go with A- rating.\n\nConfidence 3.\n\nRationale: Strong profitability and liquidity offset high leverage.\n\nLet's see the ratings.\n\nAAA to C.\n\nFor example, Apple AA+, but with lower leverage.\n\nHere leverage higher, so lower.\n\nMicrosoft AAA with low leverage.\n\nSo for this, perhaps A or A-.\n\nI think A-.\n",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 278,
+ "out_tok": 5925,
+ "usd": 0.013129,
+ "utc": "2026-09-06T15:54:13.549213+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High debt-to-equity ratio (3.62) and low implied interest coverage indicate speculative grade with elevated risk.\"}",
+ "reasoning_tail": ", B-, etc.\n\nB+ is higher than B.\n\nLet's see the order: CCC+, CCC, CCC-, CC, C, and before that BB+, BB, BB-, B+, B, B-.\n\nSo B+ is above B.\n\nWith metrics, perhaps B.\n\nBut let's calculate the interest coverage roughly.\n\nAssume that non-current liabilities are all debt, 40,709M.\n\nCurrent liabilities include short-term debt; assume 10,000M for example, total debt 50,709M.\n\nInterest at 5%, 2,535M.\n\nEBIT 2,660M, coverage 1.05x, which is very low, below 1.5x, so B or CCC.\n\nBut it's an assumption.\n\nIf less debt, better coverage.\n\nBut with high liabilities, likely high debt.\n\nPerhaps for this company, it's manageable.\n\nBut based on data, I think B rating.\n\nConfidence 3.\n\nRationale: High debt-to-equity ratio and low EBIT relative to liabilities imply weak credit metrics.\n\nWithin 25 words.\n\n\"High leverage and low coverage indicate speculative grade with high risk.\"\n\nSo rating B.\n\nBut let's choose B+ or B.\n\nI think B is \"More vulnerable\", which fits.\n\nB- is \"Highly vulnerable\", but B+ is \"Highly speculative\" but less vulnerable than B.\n\nS&P definitions:\n\nB+: More vulnerable than BB, but currently has capacity to meet financial commitments.\n\nB: More vulnerable, adverse conditions could impair capacity.\n\nB-: Currently has weaknesses, vulnerable.\n\nWith current ratio ok, EBIT positive, B+ might be appropriate.\n\nBut coverage low.\n\nI think B+.\n\nFinal decision: B+\n\nConfidence 3.\n\nRationale: High leverage and low implied interest coverage suggest high risk, speculative grade.\n\nNow for the JSON.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 6791,
+ "usd": 0.015011,
+ "utc": "2026-09-06T17:34:43.162207+00:00"
+}

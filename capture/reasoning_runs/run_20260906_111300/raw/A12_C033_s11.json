@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Negative equity, high leverage, and tight liquidity indicate substantial default risk.\"}",
+ "reasoning_tail": "\n\nFinal decision: CCC or CCC-?\n\nThe scale has CCC+, CCC, CCC-.\n\nWith Z-score 0.36, very low, and no mitigating factors, perhaps CCC-.\n\nBut let's see the current ratio is slightly above 1, and EBIT positive, so not the worst.\n\nCCC is for substantial risks, where default is a possibility.\n\nCC is for high vulnerability, C for imminent.\n\nWith EBIT 2.5B, not imminent.\n\nSo CCC.\n\nPerhaps CCC- to reflect the severity.\n\nBut I think CCC is fine.\n\nAnother way: leverage ratio.\n\nDebt to equity is undefined or negative, but debt to assets is 117%, which is high.\n\nIn ratings, for industrial companies, leverage above 50% might be BB, above 70% B, and with negative equity, lower.\n\nBut no strict rules.\n\nI found online that companies with negative equity often have ratings of B- or CCC.\n\nFor example, J.C. Penney when it filed bankruptcy had CCC rating.\n\nBut here, not bankrupt yet.\n\nBased on the data, I'll go with CCC.\n\nConfidence: 4, since negative equity and high liabilities are clear.\n\nRationale: Negative equity, high leverage, and low liquidity indicate high default risk.\n\nThat's 10 words.\n\nNow, for the JSON output.\n\nDecision: \"CCC\"\n\nConfidence: 4\n\nRationale: \"Negative equity and high liabilities suggest substantial default risk.\"\n\nWithin 25 words.\n\nBut let's make sure.\n\nPerhaps BB-? No, that might be too high.\n\nBB is for speculative grade with some cushion.\n\nHere, no cushion.\n\nCurrent assets barely cover current liabilities, and long-term liabilities exceed assets.\n\nSo, CCC.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 3119,
+ "usd": 0.006975,
+ "utc": "2026-09-06T19:13:37.817303+00:00"
+}

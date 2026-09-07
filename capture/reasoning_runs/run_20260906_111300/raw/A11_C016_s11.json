@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C016",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company shows significant financial weaknesses: liquidity is poor with a current ratio of 0.90, indicating difficulty in meeting short-term obligations. Leverage is high with a debt-to-equity ratio of approximately 4.17 (total liabilities / shareholders' equity = 89,110 / 21,383), suggesting elevated financial risk. Additionally, inferred interest coverage is weak (EBIT of 3,213M is insufficient to cover estimated interest expenses given the high debt load), pointing to a high probability of default without favorable conditions.\n\nDECISION: CCC",
+ "reasoning_tail": "rrent ratio <1\n\n- High leverage: debt/equity >4\n\n- Low interest coverage (inferred)\n\n- Low ROA\n\nBut retained earnings high, suggesting past strength.\n\nHowever, current situation dominates.\n\nBased on Altman Z-score, distress zone.\n\nI think speculative grade, low end.\n\nFinal decision: CCC\n\nBut to be precise, let's see the options.\n\nPerhaps BB- or B+.\n\nNo, too high.\n\nFor example, a company with current ratio <1 and coverage <1 is often CCC.\n\nSo I'll go with CCC.\n\nThe retained earnings inconsistency: perhaps it's a typo, and retained earnings are 7,316.5M or something, but it's given as 73,165M, which is large.\n\n73,165M is 73.165 billion, while assets are 110.646 billion, so retained earnings / assets = 73,165 / 110,646 \u2248 66%, which is high, but in Altman, it was positive.\n\nBut in Z-score, it helped, but overall still low.\n\nI think CCC is fine.\n\nPerhaps B-.\n\nBut let's choose.\n\nReason briefly: \"The company exhibits poor liquidity with a current ratio below 1, high leverage with debt-to-equity ratio exceeding 4, and inferred weak interest coverage, indicating high credit risk.\"\n\nThen DECISION: CCC\n\nBut the scale has CCC+, CCC, CCC-, so I need to pick one.\n\nSince EBIT is positive and revenue decent, perhaps CCC+.\n\nCCC+ is higher than CCC.\n\nCCC+ is above CCC.\n\nThe order is CCC+, CCC, CCC-, so CCC+ is best of the three.\n\nWith current ratio 0.90, very close to 1, and EBIT positive, I'll say CCC+.\n\nBut coverage is likely below 1.\n\nPerhaps CCC.\n\nI think CCC is reasonable.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4386,
+ "usd": 0.009743,
+ "utc": "2026-09-06T17:40:40.064795+00:00"
+}

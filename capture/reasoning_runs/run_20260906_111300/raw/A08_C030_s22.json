@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C030",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 2, \"rationale\": \"High debt to EBIT ratio (33.79x), low profitability, and implied interest coverage below 1 indicate severe credit distress.\"}",
+ "reasoning_tail": "ebt to EBIT ratio, low profitability, and implied poor interest coverage indicate high credit risk.\"\n\nNow for rating: CCC.\n\nBut let's confirm the scale.\n\nAAA to C.\n\nCCC is above CC and C.\n\nWith Z-score 0.75, it's very low.\n\nPerhaps CCC-.\n\nBut I think CCC is fine.\n\nSince current ratio is good, maybe CCC+.\n\nBut I think CCC.\n\nLet's see the figures again.\n\nCurrent liabilities 6,019M, total liabilities 27,401M, so long-term debt 21,382M.\n\nEBIT 811M, so if interest on long-term debt, say at 5%, interest ~1,069M, EBIT 811 < 1,069, so coverage <1.\n\nSimilarly, for all liabilities.\n\nSo distressed.\n\nRating agencies might have CCC for such companies.\n\nSo I'll go with CCC.\n\nConfidence 2 out of 5, since missing key data.\n\nRationale: \"High debt burden, low EBIT relative to debt, and implied negative interest coverage suggest distress.\"\n\n25 words: \"High debt to EBIT ratio indicates severe leverage; low profitability and implied interest coverage below 1 point to credit distress.\"\n\nNow for JSON: {\"decision\": \"CCC\", \"confidence\": 2, \"rationale\": \"High debt to EBIT, low profitability, implied poor coverage\"}\n\nRationale must be <=25 words.\n\n\"High debt to EBIT ratio, low profitability, and implied interest coverage below 1 indicate high credit risk.\" 12 words.\n\nYes.\n\nDecision: CCC\n\nBut is there a better one?\n\nPerhaps B- if we consider liquidity, but I think not.\n\nAnother ratio: retained earnings to total assets is low, 2.38%, which for Altman is bad.\n\nI think CCC is reasonable.\n\nSo final answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4829,
+ "usd": 0.010714,
+ "utc": "2026-09-06T18:58:09.624890+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe issuer demonstrates strong profitability with a 53% gross margin and 19% operating margin, supporting debt service capacity. However, it faces high solvency risk due to elevated leverage (debt-to-equity ratio of 2.74) and severe liquidity stress, evidenced by a current ratio of 0.79, indicating insufficient short-term asset coverage for liabilities. This combination of high leverage and poor liquidity justifies a speculative grade rating with high vulnerability to default.\n\nDECISION: B-",
+ "reasoning_tail": ", which can absorb losses.\n\nBut short-term, liquidity issue.\n\nI think the rating should be B-.\n\nBut let's see the answer choices.\n\nPerhaps I can justify BBB- if I ignore liquidity, but I can't.\n\nThe current ratio is given explicitly.\n\nAnother point: retained earnings 8,995M, which is positive, but not helping short-term.\n\nI think I have to go with speculative grade.\n\nFinal decision: let's say B+ or B.\n\nBut with high leverage, B.\n\nI think B-.\n\nBut let's box the decision.\n\nReason step by step:\n\n- The company has strong profitability with gross margin of 53% and operating margin of 19%, indicating good operational efficiency.\n\n- However, it has high financial leverage with a debt-to-equity ratio of 2.74 and a debt ratio of 73%, suggesting significant solvency risk.\n\n- Most critically, the current ratio of 0.79 indicates severe liquidity issues, as current assets are insufficient to cover current liabilities, posing immediate default risk.\n\nTherefore, the issuer is assigned a speculative grade rating with high vulnerability.\n\nGiven the liquidity crisis and high leverage, the rating is B-.\n\nB- is \"Highly speculative\" or \"More vulnerable\".\n\nCCC+ is \"Currently vulnerable\".\n\nWith profitability, B- might be better.\n\nBut Z-score low, so CCC+.\n\nI think B- is reasonable.\n\nPerhaps BB- for less vulnerable.\n\nBut current ratio below 1 is a strong indicator.\n\nI found online that for current ratio below 1, ratings are often B or lower.\n\nFor example, companies in distress.\n\nSo I'll go with B-.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 259,
+ "out_tok": 5530,
+ "usd": 0.012253,
+ "utc": "2026-09-06T19:26:57.841081+00:00"
+}

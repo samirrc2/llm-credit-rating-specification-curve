@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Very low current ratio (0.55) and high debt-to-equity (2.58) indicate severe liquidity and leverage issues.\"}",
+ "reasoning_tail": "current ratio 0.55, quick ratio would be even lower if there's inventory.\n\nBut not given.\n\nI think CCC is reasonable.\n\nPerhaps CCC+.\n\nBut let's see the EBIT: 2,527M, which is decent, but not enough to cover liabilities quickly.\n\nRevenue 7,966M, so the company is operating.\n\nBut the liquidity gap is large.\n\nCurrent liabilities 22,911M vs current assets 12,671M, shortfall of 10,240M.\n\nEBIT 2,527M per year, so it would take about 4 years of EBIT to cover the shortfall, but EBIT is not cash flow, and there are other expenses.\n\nSo challenging.\n\nI think the rating should be in the CCC range.\n\nFor confidence, I'll say 3, as there are uncertainties.\n\nRationale: \"Poor liquidity, high leverage, low Z-score\"\n\nBut need <=25 words.\n\nFinal decision.\n\nI'll go with CCC.\n\nOr CCC+.\n\nSince EBIT is positive, maybe CCC+.\n\nBut current ratio is very low.\n\nPerhaps B-.\n\nI think CCC+ is a compromise.\n\nBut let's see the scale: CCC+ is above CCC, so slightly better.\n\nBut with current ratio 0.55, it's critical.\n\nAnother thought: the figures might be for a specific company, but I don't know which, so I have to base on numbers.\n\nPerhaps it's a large company with assets, but still.\n\nTotal assets 204,354M, which is about $204 billion, so large company, but ratios matter.\n\nRetained earnings 34,747M, which is significant, but not liquid.\n\nI think CCC is appropriate.\n\nDecision: CCC\n\nConfidence: 3\n\nRationale: \"Very low current ratio and high leverage indicate high default risk.\"\n\nThat's 10 words.\n\nNow for JSON.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 4319,
+ "usd": 0.009598,
+ "utc": "2026-09-06T19:52:52.884623+00:00"
+}

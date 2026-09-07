@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Severe liquidity crunch, negative equity, but positive EBIT.\"}",
+ "reasoning_tail": "except EBIT.\n\nEBIT margin is high, but scale small.\n\nRevenue 1,010M, assets 31,391M, so inefficient use of assets.\n\nBut credit rating focuses on ability to pay debt.\n\nWith current liabilities 4,705M and current assets 1,254M, shortfall, so need to refinance or use EBIT.\n\nBut EBIT annual, liabilities due now.\n\nEBIT is for the year, so it might not cover immediate needs.\n\nLikely, the company is in distress.\n\nI think CCC.\n\nLet me assign CCC.\n\nBut which subcategory? Since current ratio is very low, CCC-.\n\nCCC- is one below CCC.\n\nThe scale has CCC+, CCC, CCC-, so CCC- is the lowest CCC.\n\nThen CC, C.\n\nI think CCC- might be too low; CCC is fine.\n\nPerhaps B- or something.\n\nB is highly speculative, which could fit.\n\nBut with negative equity, it's worse.\n\nStandard & Poor's criteria: for non-financial companies, negative net worth is a sign for B or lower.\n\nCurrent ratio below 1 is also for speculative grade.\n\nSpecifically, CCC ratings are for companies currently vulnerable to non-payment.\n\nGiven the data, I think CCC is reasonable.\n\nEBIT is 465M, which could help if sustained.\n\nBut retained earnings show history of losses.\n\nSo, likely CCC.\n\nConfidence: 3 out of 5, since no industry context.\n\nRationale: \"Severe liquidity crunch and negative equity despite positive EBIT.\"\n\nWord count: 6 words.\n\n\"Severe liquidity, negative equity, but profitable operations.\" 5 words.\n\nGood.\n\nSo decision: CCC\n\nConfidence: 3\n\nRationale: \"Severe liquidity, negative equity, but positive EBIT.\"\n\nNow for JSON.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3164,
+ "usd": 0.007072,
+ "utc": "2026-09-06T20:06:53.166267+00:00"
+}

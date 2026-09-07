@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress with a dangerously low current ratio of 0.63, indicating acute liquidity issues and an inability to cover short-term obligations. High leverage is evident from a debt-to-equity ratio of approximately 14.5, coupled with negative retained earnings (-5,086M), eroding solvency. Although the EBIT margin is healthy at around 42%, the low revenue base and high liabilities (52,835M) relative to EBIT (1,161M) suggest inadequate debt service capacity, placing the issuer in the highly vulnerable spectrum.\n\nDECISION: CCC",
+ "reasoning_tail": " equity only 3.6 billion, it's weak.\n\nNow, for the decision.\n\nI think a rating of CCC is appropriate.\n\nBut which notch? CCC+, CCC, CCC-?\n\nNot much to distinguish, but current ratio 0.63 is very low, so perhaps CCC.\n\nSimilarly, BB ratings might have better liquidity.\n\nFor example, a current ratio above 1 could be B or BB, but below 1, worse.\n\nI found online that companies with current ratio below 1.0 are often rated B or lower.\n\nIn financial ratios and credit ratings, a current ratio of 0.5 to 0.8 might correspond to CCC.\n\nWith negative working capital, it's dire.\n\nAlso, quick ratio not calculable as no inventory breakdown, but current assets may include inventory, but still.\n\nI think CCC.\n\nBut let's see EBIT positive, so not the worst.\n\nCCC+ is the first of CCC, meaning less vulnerable than CCC.\n\nWith current ratio 0.63, it's quite vulnerable.\n\nPerhaps CCC.\n\nIn the 21-grade scale, CCC is one step above CC.\n\nCC is \"currently highly vulnerable to nonpayment,\" CCC is \"currently vulnerable.\"\n\nThis seems in the middle.\n\nBut I think for this issuer, given the data, I'll go with CCC.\n\nTo be specific.\n\nPerhaps look at the numbers again.\n\nAnother ratio: EBITDA, but only EBIT given, so similar.\n\nLiabilities to EBITDA: 52,835 / 1,161 \u2248 45.5, which is very high; normally above 5 or 6 is high for ratings, 45 is enormous.\n\nFor lower ratings, it can be high, but usually with some mitigating factors.\n\nHere, no mitigation.\n\nSo, I think speculative grade low end.\n\nFinal decision: I think CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3744,
+ "usd": 0.008337,
+ "utc": "2026-09-06T19:35:42.393220+00:00"
+}

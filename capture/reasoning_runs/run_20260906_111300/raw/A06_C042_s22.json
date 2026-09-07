@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress with negative shareholders' equity (-8,465M), negative working capital (current ratio 0.92), and accumulated losses (retained earnings -8,881M), indicating solvency and liquidity risks that heighten default vulnerability despite moderate profitability (operating margin 8%, net income 511M).\n\nDECISION: CCC",
+ "reasoning_tail": "nt ratio is under 1, and negative equity, CCC- might be too low, CCC+ might be high.\n\nStandard practice: BB is for where default risk is low in immediate future but possible over long term.\n\nB is high risk.\n\nCCC is current vulnerability.\n\nHere, current ratio 0.92 means they might struggle to pay bills now, so CCC makes sense.\n\nWith net income, they can generate cash, but liquidity is tight.\n\nPerhaps a bank would lend to them if profitable, but with negative equity, it's difficult.\n\nI think CCC+ or CCC.\n\nI recall that S&P defines CCC as \"currently vulnerable to nonpayment, dependent on favorable conditions.\"\n\nThat seems to fit.\n\nConditions: operating income 777M, so they have earnings, so \"dependent on favorable conditions\" might apply.\n\nIf earnings decline, they default.\n\nBut with profit, not currently defaulting.\n\nBBB: adequate capacity, but not with this leverage.\n\nLet's assign:\n\nBased on liquidity risk alone, since current ratio <1, rating could be downgraded to B or below.\n\nIn many cases, companies with current ratio below 1 are rated B or CCC.\n\nAlso, negative equity is serious.\n\nI think CCC is justified.\n\nTo be precise, I'll go with CCC.\n\nBut perhaps I can be finer.\n\nRatings have CCC+, CCC, CCC-. I think CCC is middle of that.\n\nSince net income positive, maybe CCC+.\n\nBut negative equity weighs heavily.\n\nRetained earnings negative also.\n\nSo, perhaps plain CCC or CCC-.\n\nDiluted EPS implies shares outstanding, but I don't need it.\n\nI think CCC is reasonable.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 254,
+ "out_tok": 2417,
+ "usd": 0.005433,
+ "utc": "2026-09-06T19:55:22.238327+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC-\", \"confidence\": 4, \"rationale\": \"Extremely low current ratio (0.42), very high leverage (debt/equity ~10.25), EBIT likely insufficient for debt service, indicating high default risk.\"}",
+ "reasoning_tail": "nd below is high risk.\n\nWith current ratio 0.42, very close to default.\n\nI think CCC is fine.\n\nBut let's find the finest granularity I can justify.\n\nPerhaps B-, but I think that's too high.\n\nReason: B- might have some hope, but here EBIT doesn't cover interest.\n\nIn credit rating, for corporations, coverage below 1 often leads to D (default) or C rating.\n\nBut here, the rating scale goes down to C.\n\nC is \"imminent default\" or default, but not yet.\n\nCC is \"bonds that may be in default but recovery expected\" or something.\n\nS&P defines:\n\n- CCC: Currently vulnerable and dependent on favorable conditions\n\n- CC: Highly vulnerable, very speculative bonds\n\n- C: Currently highly vulnerable to nonpayment\n\nWith coverage <1 and liquidity <0.5, it's highly vulnerable.\n\nI think CC or C.\n\nBut retained earnings large, so not default yet, so perhaps CC.\n\nBut I should use the most precise.\n\nPerhaps CCC-.\n\nBut I think CCC is acceptable.\n\nConfidence: 4 or 5? I think the numbers are clear, so high confidence.\n\nRationale must be <=25 words.\n\nFinal answer in JSON.\n\nDecision: let's set as CCC.\n\nBut I think CCC- might be better for low end.\n\nThe data: perhaps it could be Apple or something, but numbers don't match.\n\nFor example, Apple has high cash, low debt, but here, high debt, low assets cover.\n\nNot Apple.\n\nPerhaps a company like Tesla or with high growth, but revenue small, liabilities huge, not matching.\n\nAssume it's a real company; from ratios, it's distress.\n\nSo, rating CCC.\n\nBut let's specify.\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 4223,
+ "usd": 0.009397,
+ "utc": "2026-09-06T19:20:20.783232+00:00"
+}

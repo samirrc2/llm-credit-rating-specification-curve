@@ -1,0 +1,21 @@
+{
+ "spec_id": "A12",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB+\", \"confidence\": 3, \"rationale\": \"Low current ratio (1.34) and high debt-to-equity (1.10) indicate risk; Altman Z-score (1.54) suggests distress zone.\"}",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 4597,
+ "usd": 0.010213,
+ "utc": "2026-09-06T15:26:12.397995+00:00"
+}

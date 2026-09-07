@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extremely low current ratio (0.35) indicates severe liquidity risk, compounded by high leverage (debt-to-equity ~8.1).\"}",
+ "reasoning_tail": "CCC-.\n\nI'll go with CCC.\n\nBut let's see the equity.\n\nShareholders' equity 33,995M, total liabilities 274,899M, so leverage high.\n\nEBIT / Interest, but no interest.\n\nAssume that interest expense is, say, 5% of total liabilities, but not accurate.\n\nTotal liabilities 274,899M, if 5% interest, 13,745M, but EBIT 6,598M, so coverage 0.48, less than 1, which is critical.\n\nBut not all liabilities bear interest; for example, accounts payable no interest.\n\nCurrent liabilities 159,640M may include payables, short-term debt.\n\nSimilarly, non-current may have long-term debt.\n\nBut without breakdown, hard.\n\nTypically, interest-bearing debt is part of liabilities.\n\nBut let's say if half is interest-bearing, at 5%, interest ~6,872M, EBIT 6,598M, coverage ~0.96, still less than 1.\n\nIf less debt, better.\n\nBut with current ratio low, liquidity issue remains.\n\nI think coverage might be low.\n\nSo overall, high risk.\n\nRating: B or CCC.\n\nB is for high speculative, CCC for vulnerable.\n\nWith current ratio 0.35, I think CCC.\n\nPerhaps BB-, but that might be too high.\n\nBB- is for speculative, but not as bad.\n\nCurrent ratio 0.35 is very bad.\n\nIn comparison, a current ratio of 1.0 might be BB, below 0.5 CCC.\n\nBut not strict rules.\n\nI found online that for S&P, CCC rating is for companies vulnerable to non-payment.\n\nI think CCC is appropriate.\n\nDecision: CCC\n\nConfidence: 3\n\nRationale: \"Severe liquidity shortfall with current ratio 0.35 and high leverage.\"\n\nRationale <=25 words, that's 7 words.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 4329,
+ "usd": 0.009624,
+ "utc": "2026-09-06T19:08:13.968087+00:00"
+}

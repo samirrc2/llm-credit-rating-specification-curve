@@ -1,0 +1,21 @@
+{
+ "spec_id": "A10",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company demonstrates strong profitability with a 14% operating margin and 10.3% net margin, but faces moderate leverage with a debt-to-equity ratio of approximately 1.10 and weaker liquidity with a current ratio of 1.34, which introduces some financial risk despite large scale and solid earnings retention.\n\nDECISION: A-",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 267,
+ "out_tok": 3676,
+ "usd": 0.008197,
+ "utc": "2026-09-06T15:24:09.029667+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates critical weaknesses: a current ratio of 0.53 indicates severe liquidity stress, as current obligations exceed liquid assets, and with negative working capital, short-term solvency is compromised. High leverage (total debt-to-equity of ~2.67 and debt-to-assets of 72%) combined with low EBIT relative to total liabilities (implying insufficient interest coverage) exacerbates default risk. Although retained earnings are substantial and EBIT margin is healthy (~22.6%), the company's asset inefficiency (low ROA of ~1.16%) and revenue scale relative to liabilities intensify vulnerability. These factors align with a distressed profile, fitting the CCC category due to high default vulnerability but not imminent default (e.g., positive EBIT provides some buffer).\n\nDECISION: CCC",
+ "reasoning_tail": "rage < 0.53.\n\nIf higher interest, worse.\n\nEven at low interest, coverage is poor.\n\nMoreover, revenue is only ~6 billion with ~85 billion liabilities, so debt/revenue is about 14x, which is very high.\n\nGenerally, for investment grade, debt/revenue should be low, e.g., 2-4x.\n\nHere, 14x, very high.\n\nRatios point to speculative grade with high risk.\n\nThus, I think B- or CCC+.\n\nIn Altman Z-score, very low.\n\nPerhaps CCC.\n\nBut let's see the exact scale output.\n\nThe decision label should be one of: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSince distress, probably BB- or lower.\n\nBB is still moderate, but here severe issues.\n\nB- is high risk, CCC+ vulnerable.\n\nI think CCC+ might be too high; better CCC or lower.\n\nLook for comparable situations.\n\nFor example, companies rated CCC often have coverage ratios below 1 or liquidity issues.\n\nHere, both.\n\nRetained earnings large, but not helping short-term.\n\nPerhaps the rating is CCC.\n\nI think CCC is within reason.\n\nBut let's decide.\n\nFinal decision: Based on critically low liquidity (current ratio 0.53), high leverage (debt-to-equity ~2.67), and insufficient EBIT to cover interest, the issuer is highly vulnerable to default, warranting a CCC rating.\n\nReason: The company exhibits severe liquidity stress with a current ratio below 1 and negative working capital, coupled with high leverage and operating income that is inadequate to service interest obligations, indicating high default risk.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 3722,
+ "usd": 0.00829,
+ "utc": "2026-09-06T20:10:51.400820+00:00"
+}

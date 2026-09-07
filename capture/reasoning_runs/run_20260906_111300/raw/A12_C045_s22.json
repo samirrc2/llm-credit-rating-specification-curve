@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extremely low current ratio (0.53) and high leverage indicate severe liquidity risk and default vulnerability.\"}",
+ "reasoning_tail": "ed on given, confidence 3 or 4.\n\nRationale must be <=25 words.\n\nPossible rationale: \"Severe liquidity shortfall with current ratio below 1 and high leverage indicate high default risk.\"\n\nNow for the rating: Let's choose CCC.\n\nBut CCC has modifiers: CCC+, CCC, CCC-.\n\nSince EBIT margin is good, perhaps not the worst.\n\nBut liquidity is critical.\n\nI think CCC is appropriate.\n\nPerhaps B- or something.\n\nAnother ratio: Quick ratio, but I don't have inventory, so can't calculate.\n\nCurrent assets include cash, receivables, etc., but not specified.\n\nAssume worst.\n\nI think CCC.\n\nBut let's see the scale: CC is \"highly vulnerable\", CCC is \"currently vulnerable\".\n\nWith current ratio 0.53, it might be CC.\n\nBut retained earnings show historical profitability.\n\nPerhaps B-.\n\nI recall that companies like Tesla during tough times had ratings around B, but with better ratios.\n\nFor example, Tesla had current ratio above 1 usually.\n\nHere current ratio is very low.\n\nPerhaps CCC+ or CCC.\n\nI'll go with CCC.\n\nConfidence: 3, since I'm estimating.\n\nRationale: \"Extremely low current ratio and high leverage suggest imminent liquidity crisis.\"\n\nWord count: 7 words.\n\nNow for JSON output.\n\nDecision: \"CCC\"\n\nConfidence: integer 1-5, say 3\n\nRationale: \"Extremely low current ratio and high leverage indicate high default risk.\" 8 words.\n\nBut in rationale, it should be concise.\n\nSince the instruction says \"based only on the above and knowledge predating\", but no predating knowledge, so only current.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 3107,
+ "usd": 0.006948,
+ "utc": "2026-09-06T20:11:36.940369+00:00"
+}

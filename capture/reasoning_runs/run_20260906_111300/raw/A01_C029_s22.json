@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C029",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Good operating and net margins offset by weak liquidity (current ratio below 1) and moderate leverage (debt-to-equity 1.5).\"}",
+ "reasoning_tail": " healthy, margins good.\n\nThe deficit is small.\n\nFor example, working capital deficit of 53M vs operating income of 622M per quarter, so easily covered in a short period.\n\nOperationally strong.\n\nSo, likely, BBB rating might be defendable.\n\nBBB has three levels: BBB+, BBB, BBB-.\n\nGiven the current ratio, BBB-.\n\nOr BBB.\n\nLet's decide.\n\nAnother ratio: equity to assets or something.\n\nShareholders' equity 10,004M, assets 25,041M, so equity ratio 40%, which is ok, not great.\n\nFor rating, investment grade from BBB- up.\n\nIf I assign BBB-, it's the lowest investment grade.\n\nBB+ is highest speculative, so almost investment.\n\nGiven the size and profitability, bBB- could be suitable.\n\nI think I'll go with BBB-.\n\nRationale: Good profitability margins balance liquidity concern.\n\nConfidence 3, since incomplete data.\n\nThen final answer in JSON.\n\nt's should be  one label.\n\nOptions are like BBB-.\n\nSo, {\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Strong margins but current ratio slightly below 1\"}\n\nRationale <=25 words.\n\nThat's 5 words.\n\n\"Good profitability and margins, but current ratio under 1 indicates liquidity risk.\"\n\n19 words.\n\nConfidence 3.\n\nBut let's see if AA is possible? No, not with current ratio under 1.\n\nLeverage D/E 1.5 is not AA level AA might have lower leverage.\n\nFor example, AA companies often have D/E under 0.5 or so.\n\nA rated might have around 1.\n\nSo BBB is appropriate.\n\nWith current ratio, BBB-.\n\nPerhaps A- if liquidity wasn't issue, but it is.\n\nI think BBB- is fine.\n",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 272,
+ "out_tok": 4059,
+ "usd": 0.009039,
+ "utc": "2026-09-06T18:48:02.371608+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt-to-equity ~13.5), poor liquidity (current ratio 0.83), but strong profitability offsets some risk.\"}",
+ "reasoning_tail": "om assets.\n\nFor example, if it's a real estate company, assets are properties, revenue is rent, but operating margin 19% is good for real estate.\n\nBut leverage is high.\n\nIn real estate, debt-to-equity can be high, but current ratio should be manageable.\n\nHere current ratio 0.83, so liquidity issue.\n\nPerhaps it's a company in distress but still profitable.\n\nI think the rating should be low.\n\nPerhaps CCC+ or B-.\n\nBut let's see the retained earnings: 165,288M, which is large, so it has accumulated profits, which is positive.\n\nBut with current liabilities high, it needs cash.\n\nNet income 4,617M can help, but with a gap of 208B in current assets vs liabilities, it's huge.\n\nCurrent liabilities exceed current assets by 208,232M, while net income is 4,617M, so it would take many years to cover the gap from earnings, but earnings are for the year, not for covering liabilities directly.\n\nThey might refinance or sell assets.\n\nBut with high leverage, refinancing might be costly.\n\nOverall, high credit risk.\n\nI think the rating is B+.\n\nOr B.\n\nConfidence level: 3, medium.\n\nRationale in 25 words.\n\nFinal decision.\n\nPerhaps I can look for similar companies.\n\nAnother idea: the total assets include a lot of intangible or something, but not specified.\n\nI think I should assign B+.\n\nOr BB-.\n\nLet's go with B+.\n\nThe scale has BB+, BB, BB-, then B+, etc.\n\nBB is Ba2 in Moody's, which is speculative but not the worst.\n\nB is B2, higher risk.\n\nWith current ratio below 1, it might be B.\n\nBut let's decide.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 282,
+ "out_tok": 4514,
+ "usd": 0.010041,
+ "utc": "2026-09-06T19:39:57.590814+00:00"
+}

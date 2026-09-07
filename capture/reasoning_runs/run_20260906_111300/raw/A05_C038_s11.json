@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity ~14.5), poor liquidity (current ratio 0.63), strong profitability.\"}",
+ "reasoning_tail": "aps BBB- is generous, but leverage too high.\n\nI think BBB is out of question.\n\nAA or A for profitability, but balance sheet weak.\n\nNo, credit rating for debt focuses on ability to pay, so debt levels key.\n\nSo for me, BB or B.\n\nChoose B.\n\nFor the granularity, it can be B+ or B.\n\nBut given current ratio, B.\n\nB is \"More vulnerable to adve rse business, financial, and economic conditions but currently has the capa ability to meet financial commitments.\"\n\nCCC: \"Currently vulnerable, and dependent on favorable conditions to meet financial commitments.\"\n\nWith current ratio 0.63, they are dependent on favorable conditions like refinancing or continued operations to meet current liabilities, so CCC might be possible.\n\nWith operating income high, they can generate cash, so not necessarily dependent on favorability, but the low ratio means they need to use that cash for obligations immediately.\n\nFor example, if something interrupts, trouble.\n\nBut generally, with no other information, I think B is better.\n\nPerhaps BB- or B+.\n\nI recall companies like Tesla when it was losing money had high leverage and was rated B- or so.\n\nBut here, profit positive, but retained earnings negative.\n\nI think I'll go with B.\n\nRationale: \"High leverage, poor liquidity, strong profitability.\"\n\nLabel B.\n\nConfidence 3.\n\nBut the scale has CCC+, etc.\n\nLet's see the equity: 3,652M vs total liabilities 52,835M, so if earnings dip, debt service could be at risk.\n\nBut for now, profitable.\n\nI think B.\n\nFinal decision.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 267,
+ "out_tok": 4810,
+ "usd": 0.010681,
+ "utc": "2026-09-06T19:36:49.596699+00:00"
+}

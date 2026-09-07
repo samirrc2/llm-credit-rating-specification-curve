@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt-to-equity ~26.5), negative net income, and weak liquidity (current ratio 1.18) indicate substantial default risk.\"}",
+ "reasoning_tail": " might be 6-8 or higher.\n\nHere, if EBITDA \u2248 operating income = 446M, then total liabilities/EBITDA = 158,800 / 446 \u2248 356, which is insane. That can't be right.\n\nEBITDA should be higher than operating income if there's depreciation.\n\nBut I don't have depreciation, so operating income is a lower bound.\n\nAssume EBITDA is, say, 500M or something, still, liabilities/EBITDA \u2248 300+, which is astronomical.\n\nNo company can sustain that; it must be misstated.\n\nPerhaps I misinterpreted.\n\nTotal liabilities include all obligations, but for leverage, we often focus on interest-bearing debt.\n\nBut here, I don't have that detail.\n\nFor example, current liabilities might include trade payables, which are not debt, similarly for non-current.\n\nBut in the absence of data, I have to use what's given.\n\nShareholders' equity is low, so leverage is high by any measure.\n\nNet income negative, so coverage is poor.\n\nCurrent ratio low.\n\nSo, definitely low rating.\n\nPerhaps CCC.\n\nAnother thing: retained earnings positive, but that's not helping credit directly.\n\nI think CCC is reasonable.\n\nDecision: CCC\n\nConfidence: 3\n\nRationale: \"Extremely high leverage and net loss indicate high default vulnerability.\"\n\n20 words.\n\nOr \"High debt, negative income, weak liquidity point to substantial credit risk.\"\n\nBut liquidity is weak but not critical.\n\nCurrent ratio 1.18 is not weak; it's acceptable but low.\n\n1.18 means it can cover, but tightly.\n\nIn context, with high leverage, it's a concern.\n\nI think CCC.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 3465,
+ "usd": 0.007737,
+ "utc": "2026-09-06T17:45:55.664752+00:00"
+}

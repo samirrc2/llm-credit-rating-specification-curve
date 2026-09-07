@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, I focus on key financial metrics to assess creditworthiness. The current ratio of 0.35 indicates severe liquidity stress, as current assets are insufficient to cover current liabilities, highlighting significant short-term repayment risk. High leverage is evident from the total liabilities of 274,899M relative to shareholders' equity of 33,995M (debt-to-equity ratio ~8.1), elevating default risk despite a healthy EBIT margin of ~31.6%. These factors, combined with negative working capital of -103,116M, place the issuer in a highly vulnerable position, typical of a distressed credit profile.\n\nDECISION: CCC",
+ "reasoning_tail": "(13), B+ (14), B (15), B- (16), CCC+ (17), CCC (18), CCC- (19), CC (20), C (21).\n\nSo CCC is 18, CCC- is 19, CC is 20, C is 21.\n\nFor high bankruptcy risk, say 19 or 20.\n\nBut with some positive aspects, 18 or 17.\n\nI think CCC is fine.\n\nBut let's see the EBIT margin 31.6% is good, but leverage is high.\n\nLeverage: Total debt to capital, assuming all liabilities are debt-like for simplicity.\n\nDebt/ total capital = total liabilities / (total liabilities + equity) = 274,899 / (274,899 + 33,995) = 274,899 / 308,894 = same as debt/assets, 89%.\n\nHigh.\n\nIn coverage terms, if interest rate on average debt is 5%, interest expense about 5% of total liabilities, but not all liabilites are debt.\n\nAssume half or something; current liabilities include short-term debt, long-term in non-current.\n\nTotal liabilities minus shareholders' equity is debt-like, but not precise.\n\nShareholders' equity is 33,995, total liabilities 274,899, so the debt portion is the liabilities.\n\nI think for rating, we use interest coverage ratio, but not given.\n\nPerhaps ignore and focus on liquidity.\n\nI think the current ratio is the standout issue.\n\nSo, final decision: based on severe liquidity shortfall and high leverage, the issuer is assigned a CCC rating.\n\nBut to be precise, on the scale, CCC.\n\nDECISION: CCC\n\nBut the instruction says \"finest granularity you can justify,\" so perhaps CCC might not be fine enough.\n\nCCC+, CCC, CCC- are options.\n\nWith negative working capital, maybe CCC-.\n\nBut I think CCC is reasonable.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 253,
+ "out_tok": 4574,
+ "usd": 0.010156,
+ "utc": "2026-09-06T19:10:54.707601+00:00"
+}

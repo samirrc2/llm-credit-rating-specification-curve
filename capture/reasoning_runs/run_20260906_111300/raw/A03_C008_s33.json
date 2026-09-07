@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial weaknesses, including a critically low current ratio of 0.62, negative shareholders' equity (-2,646M), and total liabilities exceeding total assets (37,604M vs. 35,008M), indicating poor liquidity and solvency. Despite positive EBIT (3,230M) and high retained earnings (36,115M), the estimated interest coverage ratio is weak (around 1.5-2 based on typical debt assumptions), and the negative working capital (-3,167M) heightens default risk. These factors align with a highly speculative credit profile, warranting a B rating due to the elevated vulnerability to adverse conditions.\n\nDECISION: B",
+ "reasoning_tail": "current ratio is very low, B-.\n\nBut let's see if I can justify.\n\nIn practice, with negative equity, ratings are often B- or lower.\n\nFor example, companies like Tesla in early days had negative equity but high growth, rated B or similar.\n\nBut here, retained earnings large, so not a startup.\n\nRetained earnings 36,115M suggests it's an established company with profits.\n\nBut negative equity means accumulated losses or buybacks.\n\nPerhaps it had a large loss or write-off recently.\n\nBut EBIT is positive, so not.\n\nEBIT 3,230M, revenue 5,251M, so if no interest or taxes, net income could be high, but with liabilities, interest high.\n\nAssume net income is, say, after interest and taxes.\n\nSuppose interest expense 1,500M (estimate), taxes 30%, so EBT = EBIT - interest = 3,230 - 1,500 = 1,730, taxes 519, net income 1,211M.\n\nThen retained earnings increase, but balance is high.\n\nBut equity is negative, so it might not affect much.\n\nI think I'm overcomplicating.\n\nFor credit rating, the key is ability to service debt, which is questionable with low liquidity and high leverage.\n\nSo, I'll assign B.\n\nThen DECISION: B\n\nBut let's see the answer format.\n\nReason briefly in 1-3 sentences.\n\nReason: The company has very weak liquidity with a current ratio of 0.62 and negative shareholders' equity, indicating high financial risk. Despite positive EBIT, the estimated interest coverage is poor, placing it in the speculative grade.\n\nThen DECISION: B\n\nTo be finer, perhaps B-.\n\nBut I think B is acceptable.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 4577,
+ "usd": 0.010161,
+ "utc": "2026-09-06T16:48:39.257117+00:00"
+}

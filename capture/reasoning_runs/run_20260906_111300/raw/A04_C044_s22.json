@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC-\", \"confidence\": 4, \"rationale\": \"Severe liquidity crisis (current ratio 0.27), negative equity, and massive cumulative losses indicate very high near-term default risk.\"}",
+ "reasoning_tail": "\n\nNext, examining the balance sheet health, shareholders' equity is negative at -$1,920M. Retained earnings are also deeply negative at -$20,476M. These figures suggest cumulative losses over time. The total liabilities ($33,311M) exceed total assets ($31,391M), putting the company in negative equity territory. \n\nMoving to profitability, the EBIT/operating income of $465M on revenue of $1,010M seems positive at first glance. However, given the massive negative retained earnings, it appears this profitability is either very recent or insufficient to offset prior substantial losses.\n\nConsidering the overall financial position:\n- Negative tangible net worth (negative equity)\n- High leverage (liabilities exceed assets)\n- Severe liquidity shortage\n- Cumulative losses indicated by negative retained earnings\n\nThis paints a picture of an entity under significant financial distress. The current ratio below 1 suggests immediate liquidity issues, while negative equity indicates a weakened capital structure that's incapable of absorbing further losses.\n\nGiven these critical weaknesses across both short-term liquidity and long-term solvency metrics, the company appears to be at serious risk of default. The severe liquidity crunch could lead to imminent bankruptcy without external intervention.\n\nTherefore, I would categorize this company in the \"CCC-\" rating tier. This rating reflects the very high default risk due to immediate liquidity constraints and a fundamentally weak balance sheet.\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 427,
+ "usd": 0.001078,
+ "utc": "2026-09-06T20:01:54.538125+00:00"
+}

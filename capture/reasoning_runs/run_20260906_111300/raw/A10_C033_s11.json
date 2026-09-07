@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows severe financial distress with negative shareholders' equity (-$9,270M) and negative retained earnings (-$9,884M), indicating an unsustainable capital structure and high leverage. Despite recent profitability in Q1 2026, the weak current ratio (1.09) and negative net worth outweigh these positives, pointing to substantial default risk in adverse conditions. This positions the issuer in the high-risk CCC category, with CCC+ reflecting some near-term stability from operating income but overall vulnerability.\n\nDECISION: CCC+",
+ "reasoning_tail": ".\n\nPerhaps BB- if there's strong profitability, but here profit is good but not extreme.\n\nNet income $1.6B per quarter, annual $6.4B, with total liabilities $64B, so net income to liabilities about 10%, which is not great.\n\nSince equity negative, it's worse.\n\nEBIT to liabilities: $10.2B annual / $64B \u2248 16%, not high.\n\nFor high yield, typical leverage ratios.\n\nI think I'm overcomplicating.\n\nConsensus for credit rating with negative equity is around B or CCC.\n\nI recall: in S&P ratings, companies like AMC Entertainment had negative equity and were rated CCC+ or similar.\n\nAMC was rated Caa or something. I think CCC+.\n\nSimilarly, other firms.\n\nSo perhaps CCC+ is conservative.\n\nBut with positive earnings, it might be a bit higher.\n\nCurrent ratio 1.09 is weak but ok.\n\nLet's assign B-.\n\nThen the modifier.\n\nThe scale has CCC+, CCC, CCC- for substantial risk.\n\nI think B is possible.\n\nOutput format: reason in 1-3 sentences, then DECISION: label.\n\nSo for reason: The issuer exhibits negative shareholders' equity and retained earnings, indicating deep financial distress and high bankruptcy risk. While current profitability provides some relief, the weak liquidity position (current ratio 1.09) further constrains financial flexibility.\n\nThen rating: I think B or CCC+.\n\nI'll go with CCC+ as it reflects high vulnerability.\n\nBut let's check the options: CCC+ is available.\n\nPerhaps B- to acknowledge the profit.\n\nI think CCC+ is more accurate for substantial risk.\n\nFinal decision: DECISION: CCC+\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 267,
+ "out_tok": 3516,
+ "usd": 0.007847,
+ "utc": "2026-09-06T19:13:14.979967+00:00"
+}

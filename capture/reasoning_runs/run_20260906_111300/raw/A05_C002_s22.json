@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity 9.02) suggests risk, offset by strong operating margin (44%), robust liquidity (current ratio 12.41), and profitability (net margin ~34%).\"}",
+ "reasoning_tail": "- cash.\n\nIf long-term liabilities include 400B debt, then net debt = 400B - 180B = 220B, still high.\n\nBut with EBIT 12.7B annual, coverage ok, debt/EBIT~17.3, which is high but not terrible.\n\nIf debt/EBIT 17, e.g., for B rating, debt/EBITDA >5 or 6, 17 is very high.\n\nBut if net debt 220B, EBIT 12.7B, debt/EBIT ~17.3.\n\nFor S&P, debt/EBITDA >5 is often speculative grade, here it's much higher.\n\nEven with low net debt, if EBIT is small.\n\nBut in my calculation, EBIT is 12.7B annual, which is substantial.\n\nRevenue annual 29.2B, EBIT 12.7B, so profit margin 43.5%, so they generate cash.\n\nWith interest coverage high, it might be lower investment grade.\n\nBut let's assign.\n\nI think BBB- is reasonable.\n\nOr BB+ for high yield.\n\nBut with stry liquidity, it could beinvestment grade.\n\nI recall that for companies woth high cash, they can have higher leverage.\n\nBut here leverage is extreme.\n\nPerhaps there's a mistake.\n\nTotal assets 493,319M, liabilities 444,085M, equity 49,234M.\n\n  444085 + 49234 = 493319, so correct.\n\nCurrent assets 186,246M, which is 37.8% of assets.\n\nIn current assets, it could be cash, securities, inventory, etc.\n\nNo breakdown.\n\nI think I have to make a decision.\n\nrationale in 25 words.\n\nFor rating, I will go with BBB-  , low investment grade, due to high leverage but offset by strong profitability and very high liquidity.\n\nConfidence 3, medium.\n\nOr better.\n\nAnother idea: the retained earnings a 45,912M, close to equity, so t company has generated value.\n\nI think BBB- .\n",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 269,
+ "out_tok": 6156,
+ "usd": 0.01363,
+ "utc": "2026-09-06T15:49:03.829280+00:00"
+}

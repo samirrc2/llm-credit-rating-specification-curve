@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Low current ratio (0.63), high leverage (debt/equity ~14.5), negative retained earnings, but positive EBIT.\"}",
+ "reasoning_tail": "n on assets.\n\nSales/Total Assets = 2,738/63,190 \u2248 4.33%, low turnover.\n\nSo inefficient use of assets.\n\nFor credit rating, this seems like a highly leveraged company with liquidity issues.\n\nPerhaps it's in a turnaround or something, but with negative retained earnings, not yet.\n\nFinal decision: I think CCC is appropriate.\n\nCCC means \"currently vulnerable and dependent on favorable conditions to meet commitments\".\n\nThat matches the low current ratio.\n\nCC is \"highly vulnerable\", C is \"extremely poor prospects\".\n\nSince EBIT is positive, not CC or C.\n\nSo CCC.\n\nNow, which one: CCC+, CCC, or CCC-?\n\nThe data doesn't specify, so I'll go with CCC.\n\nConfidence: 3, since I have some data but not all, like interest expense.\n\nRationale: \"Poor liquidity, high leverage, negative retained earnings, but positive EBIT.\"\n\nUnder 25 words.\n\nNow, for JSON output.\n\n{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Low current ratio, high debt, negative retained earnings, but positive operating income.\"}\n\nRationale should be <=25 words.\n\n\"Low current ratio, high debt, negative retained earnings, but positive EBIT.\" That's 7 words.\n\nFine.\n\nBut is CCC the finest granularity? I could say CCC+ or something, but I don't see a reason for + or -.\n\nSince EBIT is positive, perhaps CCC+.\n\nBut I think CCC is fine.\n\nPerhaps B-.\n\nB- is \"highly speculative\" or \"substantial risks\".\n\nCCC is specifically for current vulnerability.\n\nWith current ratio below 1, it's current vulnerability.\n\nSo CCC.\n\nI think that's it.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 4424,
+ "usd": 0.009833,
+ "utc": "2026-09-06T19:39:35.294811+00:00"
+}

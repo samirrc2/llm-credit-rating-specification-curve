@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress, primarily due to negative shareholders' equity (-9,270M) and negative retained earnings (-9,884M), indicating insolvency and cumulative losses. Additionally, the current ratio of 1.09 shows weak liquidity, and high leverage is evident with total liabilities exceeding total assets (64,211M vs. 54,941M). While EBIT is positive at 2,554M, it is insufficient to mitigate the structural weaknesses, placing the issuer in the high-risk category with substantial default risk.\n\nDECISION: CCC",
+ "reasoning_tail": "e high yield or junk.\n\nHere, with negative equity, it's likely below B-.\n\nFor example, companies in Chapter 11 often have negative equity and are rated D, but if operating, CCC or CC.\n\nSince it's not in default, probably CCC or similar.\n\nBut let's see if I can justify finer granularity.\n\nAnother ratio: EBIT / total liabilities = 2,554 / 64,211 \u2248 0.0398, or 3.98%, which is low for coverage.\n\nIn credit metrics, EBIT coverage ratio.\n\nBut without interest, it's hard.\n\nI think based on the information, the issuer has severe solvency issues due to negative equity and high leverage, coupled with weak liquidity from the low current ratio. Profitability is present but insufficient to offset the structural weaknesses.\n\nTherefore, a rating in the CCC category is appropriate.\n\nNow, between CCC+, CCC, CCC-, etc.\n\nSince EBIT is positive and revenue is substantial, perhaps not the lowest.\n\nCCC+ might be too high; CCC is for substantial risk.\n\nCCC- is the lowest of CCC.\n\nBut let's see the figures.\n\nRetained earnings are deeply negative, which is bad.\n\nPerhaps CCC.\n\nI think CCC is reasonable.\n\nBut let's confirm the scale: the options include CCC+, CCC, CCC-, CC, C.\n\nI think CCC is fine.\n\nSome might say CC, but CC is for default imminent, which may not be the case.\n\nWith current ratio above 1, it can meet short-term obligations, barely.\n\nSo, not imminent default.\n\nTherefore, CCC.\n\nBut CCC has subcategories.\n\nPerhaps CCC- to reflect the vulnerability.\n\nBut I think CCC is okay.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3136,
+ "usd": 0.007001,
+ "utc": "2026-09-06T19:12:46.080849+00:00"
+}

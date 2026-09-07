@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity stress with a current ratio of 0.53, indicating inability to cover short-term obligations. High leverage is evident from a debt-to-equity ratio of approximately 3.4, and negative retained earnings of -12,237M reflect a history of losses, eroding equity. Although the EBIT margin is strong at approximately 40.8%, the low asset turnover (revenue to total assets of about 5.5%) and overall financial distress outweigh this positive, placing the issuer in the high-risk category.\n\nDECISION: CCC+",
+ "reasoning_tail": "bility is high.\n\nSo probably CCC+ or CCC.\n\nBut let's see the options.\n\nValid answers: AAA down to C.\n\nI think for this, B- or CCC+.\n\nPerhaps I can look at the net income, but not given.\n\nRetained earnings changed, but not given.\n\nI think I have to decide.\n\nPerhaps the issuer is in a turnaround, but based on data, weak.\n\nAnother ratio: quick ratio, but no inventory or receivables given, so can't calculate.\n\nCurrent assets include cash, receivables, inventory, etc., but not specified.\n\nWith current ratio 0.53, quick ratio would be worse if inventory is high.\n\nBut not known.\n\nSo I think overall, speculative grade with high risk.\n\nFinal decision: I'll go with CCC+.\n\nBut let's see if it fits.\n\nPerhaps B+.\n\nNo, too high.\n\nCompare to standards.\n\nI recall that BBB requires current ratio above 1.2 or something, but varies.\n\nFor this, I think CCC+.\n\nBut CCC+ is still vulnerable.\n\nPerhaps B-.\n\nLet's box the answer.\n\nReason briefly: The company exhibits severe liquidity issues with a current ratio of 0.53, high leverage (debt-to-equity of 3.4), and negative retained earnings, indicating financial distress despite positive EBIT.\n\nThen rating: CCC+\n\nCCC+ is for high credit risk.\n\nYes.\n\nSome might say B-, but I think CCC+ is more appropriate given the current ratio.\n\nIn the scale, CCC+ is above CCC.\n\nCCC+ is better than CCC.\n\nScale: CCC+, CCC, CCC-, CC, C.\n\nSo CCC+ is the highest of the very low ratings.\n\nWith EBIT positive, it might be CCC+.\n\nIf EBIT was negative, lower.\n\nSo I think CCC+.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 4852,
+ "usd": 0.010763,
+ "utc": "2026-09-06T19:15:48.411979+00:00"
+}

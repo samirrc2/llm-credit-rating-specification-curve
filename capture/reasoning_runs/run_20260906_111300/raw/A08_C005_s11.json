@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High debt-to-equity (3.83) indicates leverage risk, but strong EBIT margin (47.6%) provides some offset.\"}",
+ "reasoning_tail": "l interest might be lower if not all liabilities are debt.\n\nFor example, if only long-term debt is interest-bearing.\n\nSuppose non-current liabilities 50,944M are debt, current liabilities include some debt.\n\nSay total debt 60,000M for estimation.\n\nInterest at 5% = 3,000M.\n\nCoverage = 8,386 / 3,000 = 2.795, which is better, around 2.8, which might be BB or B.\n\nBB ratings have coverage around 2-3.\n\nB is 1-2.\n\nSo with 2.8, it could be BB- or B+.\n\nBut arbitrary.\n\nI think with the given data, the safest is to use the leverage ratios.\n\nI'll assign B+ with medium confidence.\n\nOr BBB- but that might be too optimistic.\n\nLet's see if there's a way to justify investment grade.\n\nEBIT margin 47.6% is very strong, so if leverage was lower, it would be high rating, but with high leverage, it's speculative.\n\nPerhaps BBB-.\n\nBut debt-to-equity 3.83 is too high for BBB.\n\nFor example, Apple has low leverage, high rating.\n\nA leveraged company like some telecoms have BB ratings.\n\nSo I think BB or B.\n\nI'll go with B+.\n\nFinal decision.\n\nRating: B+\n\nConfidence: 3\n\nRationale: High leverage offset by strong EBIT margin.\n\nRationale must be <=25 words.\n\n\"High debt-to-equity ratio but strong profitability suggests speculative grade B+.\"\n\nWords: 9.\n\nNow, confidence 3 out of 5, since interest coverage not available.\n\nSo JSON: {\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High leverage offset by strong profitability\"}\n\nBut leverage is high, profitability strong, so B+.\n\nPerhaps BB-.\n\nI think B+ is fine.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 5546,
+ "usd": 0.012285,
+ "utc": "2026-09-06T16:33:03.581781+00:00"
+}

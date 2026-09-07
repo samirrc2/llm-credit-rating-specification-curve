@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits critical liquidity issues with a current ratio of 0.35, indicating an inability to cover short-term obligations, and extreme leverage with a debt-to-equity ratio of approximately 8.1 (total liabilities/shareholders' equity = 274,899M / 33,995M), heightening default risk. Despite positive EBIT of 6,598M, which shows operational profitability, the combination of poor liquidity and high financial leverage places the issuer in a highly vulnerable position, dependent on favorable conditions for debt servicing.\n\nDECISION: CCC",
+ "reasoning_tail": "s are part of equity, but it's not liquid.\n\nAnother point: shareholders' equity is 33,995M, which is positive, so not insolvent yet.\n\nBut the liquidity gap is huge.\n\nI think CCC is reasonable.\n\nPerhaps B- , but B is for less vulnerable.\n\nI found online that companies with current ratio below 0.8 are often CCC, and below 0.5 is CC or C, but with positive earnings, not C.\n\nC is for imminent default.\n\nHere, EBIT is positive, so not imminent.\n\nTherefore, CCC or CCC-.\n\nI'll go with CCC.\n\nBut let's confirm the decision.\n\nReason briefly: The company exhibits extremely poor liquidity with a current ratio of 0.35 and very high leverage with a debt-to-equity ratio of approximately 8.1. Despite positive EBIT, the low coverage and liquidity crisis indicate high default risk.\n\nTherefore, rating CCC.\n\nBut CCC+ is higher, CCC is middle.\n\nSince EBIT margin is good, but overshadowed by leverage, CCC seems fine.\n\nPerhaps CCC+ if optimistic, but I think not.\n\nAnother ratio: net debt to EBITDA, but no cash given.\n\nCurrent assets include cash, but not specified.\n\nAssume minimal cash.\n\nI think CCC is appropriate.\n\nSo, decision: CCC\n\nBut the label is CCC, which is one of the options.\n\nOutput format: Reason in 1-3 sentences, then DECISION: <label>\n\nSo, reason: Extremely low current ratio of 0.35 indicates severe liquidity issues, and high leverage (debt-to-equity ~8.1) suggests significant financial risk. Positive EBIT provides some operating capability, but default risk is elevated.\n\nDECISION: CCC\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 3839,
+ "usd": 0.008545,
+ "utc": "2026-09-06T19:10:29.261501+00:00"
+}

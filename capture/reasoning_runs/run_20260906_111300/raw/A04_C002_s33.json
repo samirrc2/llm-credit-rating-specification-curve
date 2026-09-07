@@ -1,0 +1,21 @@
+{
+ "spec_id": "A04",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extreme leverage (debt-to-equity ~9x), low EBIT relative to debt implies poor interest coverage, high default risk despite strong liquidity.\"}",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 5155,
+ "usd": 0.011434,
+ "utc": "2026-09-06T15:31:58.521490+00:00"
+}

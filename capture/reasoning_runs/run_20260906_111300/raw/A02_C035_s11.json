@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits extremely high leverage with a debt-to-equity ratio of approximately 10.25 and critically poor liquidity with a current ratio of 0.42, indicating severe short-term refinancing risk and vulnerability to adverse conditions. Despite solid profitability metrics like a 25% operating margin, these financial weaknesses overshadow the company's earnings strength and justify a speculative grade rating with high default vulnerability.\n\nDECISION: CCC+",
+ "reasoning_tail": "ly speculative\".\n\nB- is 15 on the scale.\n\nCCC+ is 20.\n\nLet's list the ratings:\n\nAAA 21, AA+ 20, AA 19, AA- 18, A+ 17, A 16, A- 15, BBB+ 14, BBB 13, BBB- 12, BB+ 11, BB 10, BB- 9, B+ 8, B 7, B- 6, CCC+ 5, CCC 4, CCC- 3, CC 2, C 1.\n\nB- is 6, CCC+ is 5.\n\nWith such poor liquidity, CCC+ or lower.\n\nBut net income is positive, so not near default.\n\nCCC+ \"currently vulnerable to nonpayment\".\n\nCC \"highly vulnerable\".\n\nC \"default imminent\".\n\nSince it's profitable, not C or CC.\n\nSo CCC+ or CCC.\n\nI think CCC+ is reasonable.\n\nPerhaps B- , but liquidity is worse.\n\nAnother metric: equity to assets 8.9%, which for non-financial is very low; for financial, it's low but not critical.\n\nBut with current ratio 0.42, it's problematic.\n\nI think I'll go with CCC+.\n\nBut let's see the answer format.\n\nReason in 1-3 sentences.\n\nThen DECISION: <label>\n\nSo for reason: High leverage (debt-to-equity ~10.25) and critically low liquidity (current ratio 0.42) indicate severe financial risk, despite profitability.\n\nTherefore, speculative grade with high vulnerability.\n\nRating: CCC+\n\nCCC+ is \"currently vulnerable\" which fits.\n\nB- is \"highly speculative\" but might be a bit high.\n\nB- has a higher number than CCC+ in some scales, but in this list, B- is 6, CCC+ is 5, so CCC+ is lower.\n\nIn the list I have, CCC+ is above CCC.\n\nIn the valid answers: CCC+, CCC, CCC-, etc.\n\nCCC+ is the highest of the CCC range.\n\nFor example, S&P CCC+ is better than CCC.\n\nSo for severe risk but not default, CCC+.\n\nYes.\n\nSo I think CCC+.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 271,
+ "out_tok": 4732,
+ "usd": 0.010512,
+ "utc": "2026-09-06T19:20:45.898642+00:00"
+}

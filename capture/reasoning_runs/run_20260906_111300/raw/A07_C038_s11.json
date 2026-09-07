@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer's financial metrics indicate severe distress: a critically low current ratio of 0.63 reflects acute liquidity issues, retained earnings of -$5,086M signal substantial accumulated losses, and a debt-to-equity ratio of approximately 14.5 (based on total liabilities of $52,835M and equity of $3,652M) denotes extreme leverage. Although EBIT is positive at $1,161M, the overall profile points to high default risk due to poor solvency and weak liquidity.\n\nDECISION: CCC",
+ "reasoning_tail": "avorable business, financial, and economic conditions to meet financial commitments.\" (From S&P rating definition).\n\nThat seems fitting.\n\nWith very low Z-score, it's vulnerable.\n\nSimilarly, CC is for \"currently highly vulnerable\".\n\nBut from EBIT, it might be CCC.\n\nLet's see if we can rationalize.\n\nRevenue 2,738M, EBIT 1,161M, so operating margin high, which might indicate a niche or operationally strong, but financial structure weak.\n\nWith negative retained earnings, it may have large debt or past losses.\n\nIn this case, the key is liquidity and leverage.\n\nI think CCC is appropriate.\n\nBut let's confirm the decision.\n\nI should output a specific rating.\n\nFinal answer based on reasoning.\n\nReason briefing: The issuer exhibits severe financial distress with very high leverage (debt-to-equity ratio ~14.5), negative working capital (current ratio 0.63), and significant accumulated losses (retained earnings -$5,086M). Despite positive EBIT, the overall risk profile indicates a high probability of default, warranting a speculative grade with high vulnerability.\n\nDECISION: CCC or lower? CCC- or CC?\n\nThe scale has CCC- as a rating.\n\nSince Z-score near zero, very low.\n\nPerhaps CCC-.\n\nBut let's see if there's a convention.\n\nAnother way: in some models, negative equity or high leverage corresponds to low ratings.\n\nShareholders' equity is positive, 3,652M, but small.\n\nI think CCC or CCC-.\n\nI'll go with CCC.\n\nList the options: AAA down to C.\n\nCCC is within.\n\nDECISION: CCC\n\nBut to be precise.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 244,
+ "out_tok": 3531,
+ "usd": 0.007867,
+ "utc": "2026-09-06T19:36:26.993544+00:00"
+}

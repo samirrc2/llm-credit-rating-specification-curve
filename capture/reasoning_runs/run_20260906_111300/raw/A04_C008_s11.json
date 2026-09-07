@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Negative equity, low current ratio (0.62), and high liabilities indicate severe distress. Positive EBIT mitigates but insufficient for higher rating. High default risk places at B-.\"}",
+ "reasoning_tail": " appropriate.\n\nBut EBIT is strong, so not the lowest.\n\nPerhaps B-.\n\nLet's review the points:\n\n- Negative equity: severe issue\n\n- Current ratio <1: liquidity crisis potential\n\n- Positive EBIT: ongoing operations profitable\n\n- High Liabilities/EBIT: about 11.6, bad\n\nSo overall, highly speculative with high default risk.\n\nRating: B or CCC.\n\nI think B- or CCC+.\n\nBut let's see the scale.\n\nPerhaps CCC+ for some margin.\n\nSince the current ratio is very low, and negative equity, it might be currently vulnerable, so CCC or CCC+.\n\nCCC is defined as currently vulnerable and dependent on favorable conditions.\n\nHere, they are profitable but need to refinance or manage liquidity.\n\nSo probably CCC or B-.\n\nI will go with B- .\n\nBut let's see the confidence.\n\nrationle short.\n\nRetained earnings positive but large, EBIT high, but negative equity and poor liquidity dominate.\n\nFinal answer.\n\nPerhaps BBB- is too high; no, with negative equity, not investment grade.\n\nA company with negative equity usually not rated investment grade.\n\nEBIT margin high, but balance sheet weak.\n\nI recall that credit ratings can be higher if operations are strong, but negative net worth is a no-go.\n\nFor example, Sprint had negative equity and was rated junk.\n\nBut let's assign.\n\nI think BB- might be possible, but that seems high with current ratio 0.62.\nBB- is for speculative, but this is worse.\n\nB+  to B-.\n\nI think B-  is reasonable.\n\nThe decision should be one label.\n\nRationale in 25 words.\n\nThen JSON.\n\nLet me choose.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 4578,
+ "usd": 0.01017,
+ "utc": "2026-09-06T16:48:58.892366+00:00"
+}

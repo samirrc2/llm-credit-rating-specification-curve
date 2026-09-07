@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"High leverage (debt/equity 2.47), weak EBIT coverage (EBIT/debt 1.68%), and zero retained earnings indicate substantial risk.\"}",
+ "reasoning_tail": "ress often have debt/EBIT above 10.\n\nHere it's 59, so probably CCC or lower.\n\nBut CC and C are for imminent default or in default, which isn't indicated here.\n\nEBIT is positive, so not defaulting yet.\n\nRevenue is positive.\n\nSo likely CCC.\n\nNow, between CCC+, CCC, CCC-.\n\nI think CCC is fine.\n\nBut let's see if there's a better fit.\n\nPerhaps B- or something.\n\nB ratings might have debt/EBIT around 10-20, but here it's higher.\n\nStandard & Poor's, for instance, CCC ratings imply high default risk.\n\nWith Altman Z-score 0.54, it's deep in distress zone.\n\nSo I think CCC.\n\nConfidence: I have most key metrics, but missing interest expense, so confidence not highest.\n\nRationale should be short.\n\nFinal decision.\n\nI think CCC.\n\nBut let's confirm the scale: CC is for very high risk, C for imminent default.\n\nHere, EBIT positive, so not CC or C.\n\nCCC is appropriate.\n\nPerhaps CCC- to be conservative.\n\nBut I think CCC is okay.\n\nAnother thing: current ratio 1.39 >1, so not immediately illiquid.\n\nBut with high debt, it's risky.\n\nI think CCC.\n\nNow for confidence, on scale 1-5, 5 being highest.\n\nI have data for leverage, liquidity, profitability, but missing coverage directly, so confidence 3 or 4.\n\nSince EBIT is given, and liabilities, I can infer coverage is poor.\n\nConfidence 4.\n\nRationale: \"High leverage, low interest coverage, zero retained earnings.\"\n\nWithin 25 words.\n\nSo, decision: CCC\n\nConfidence: 4\n\nRationale: \"High leverage, weak EBIT coverage, no retained earnings.\"\n\nNow, in JSON format.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 256,
+ "out_tok": 3533,
+ "usd": 0.007878,
+ "utc": "2026-09-06T18:26:51.678386+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Negative equity and poor liquidity (current ratio 0.62) outweigh strong profitability, indicating high credit risk.\"}",
+ "reasoning_tail": "e CCC.\n\nBut let's see if there's a formula.\n\nI recall that credit ratings often use interest coverage, but not here.\n\nPerhaps I can infer.\n\nTotal liabilities 37,604M, net income 2,375M, so if all liabilities were debt, interest coverage would depend on interest rate, but not given.\n\nAssume average interest rate, say 5%, then interest expense approx 1,880M, operating income 3,230M, coverage about 1.72, which is low, but not terrible.\n\nBut not all liabilities are interest-bearing; current liabilities include payables, etc.\n\nCurrent liabilities 8,286M, which might include short-term debt, accruals, etc.\n\nNot specified.\n\nSo, difficult.\n\nBut with negative equity, it's still risky.\n\nI think B- is reasonable.\n\nPerhaps BB-.\n\nBut current ratio 0.62 is too low for BB.\n\nBB ratings usually have current ratio above 1.\n\nFor example, a company with current ratio below 1 and negative equity might be B or lower.\n\nI found online that for S&P, a current ratio below 1 can lead to downgrade to B or CCC if persistent.\n\nHere, with strong profits, it might be B.\n\nSo, I'll go with B.\n\nB or B-.\n\nSince diluted EPS is given, but not useful.\n\nAnother thing: shareholders' equity negative, but retained earnings positive, so the company might be able to recover if profits continue.\n\nBut for credit rating, it's about current risk.\n\nI think B is fine.\n\nDecision: B\n\nConfidence: 3\n\nRationale: \"Negative net worth and low current ratio indicate high default risk despite strong profits.\"\n\n20 words.\n\nNow for JSON.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 2975,
+ "usd": 0.006666,
+ "utc": "2026-09-06T16:46:09.116933+00:00"
+}

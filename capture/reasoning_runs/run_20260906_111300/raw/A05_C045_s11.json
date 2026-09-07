@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Strong profitability offset by very low current ratio (0.53) and high leverage (debt-to-equity ~2.67).\"}",
+ "reasoning_tail": "an B.\n\nBB+ to B-.\n\nWith current ratio 0.53, it's worse than typical BB.\n\nFor instance, BB rated companies might have current ratio around 1.\n\nHere it's 0.53, so lower.\n\nPerhaps B.\n\nI found online that for corporate bonds, a current ratio below 0.8 is associated with CCC ratings, but I'm not sure.\n\nUpon thinking, let's assign B.\n\nConfidence 3.\n\nOr B-.\n\nLet's choose B+.\n\nNo.\n\nFinal decision: I think B is reasonable.\n\nBut let's see the options: B+, B, B-.\n\nPerhaps B.\n\nCCC might be too low because they are profitable.\n\nCCC is for vulnerable to default, which might not be the case if they can refinance.\n\nBut with the data, B or CCC.\n\nI think B+ is a compromise.\n\nBut Altman score suggests CCC.\n\nPerhaps for this context, B.\n\nAnother thing: the fiscal year is 2026 Q1, filed 2026-05-05, so recent.\n\nBut no trend data, only one quarter.\n\nRetained earnings 15,795M, which is cumulative, so historically profitable.\n\nBut current situation is tight.\n\nI think I'll go with B+.\n\nRationale: \"High leverage and very low liquidity despite strong profitability.\"\n\nRating B+.\n\nConfidence 3.\n\nBut let's see if it fits.\n\nPerhaps BB-.\n\nBB- is higher.\n\nBut current ratio 0.53 is too low for BB.\n\nBB ratings can have current ratio below 1 but not that low.\n\nFor example, 0.8 or so.\n\n0.53 is very low.\n\nI think B+ is appropriate.\n\nSo, decision: B+\n\nConfidence: 3 (medium)\n\nRationale: \"Strong margins but weak liquidity and high leverage increase credit risk.\"\n\nWord count: 8 words.\n\nWithin 25 words.\n\nNow for JSON.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 4737,
+ "usd": 0.01052,
+ "utc": "2026-09-06T20:09:48.539298+00:00"
+}

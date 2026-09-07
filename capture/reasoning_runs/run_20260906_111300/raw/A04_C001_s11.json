@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"A-\",\n  \"confidence\": 3,\n  \"rationale\": \"Moderate leverage (debt-to-equity ~1.1), solid profitability (EBIT margin ~14%), but low current ratio (1.34) indicates liquidity risk.\"\n}",
+ "reasoning_tail": "s to total liabilities: 22,804/34,289 \u2248 0.665, or 66.5%, which is good protection.\n\nBut not a standard metric.\n\nLiquidity: current ratio 1.34, which for large companies, might be acceptable if they have access to capital markets.\n\nOverall, I think it's investment grade, low A or high BBB.\n\nFrom the Z-score, if I assume market value, it might be above 1.81.\n\nSuppose market cap is same as book, Z=1.54, distress; but if market cap is 1.5x book, MVE=46,816, /liab=1.365, 0.6*1.365=0.819, then Z= previous without MVE term was 0.126144 + 0.476014 + 0.122694 + 0.269100 = 0.993952, plus 0.819 = 1.812952, which is 1.813, above 1.81? 1.81 is the cutoff, but 1.813 is slightly above, grey zone.\n\nBut Z-score for bankruptcy, not direct rating.\n\nPerhaps for rating, it's B B or B.\n\nLet's not rely on Z-score.\n\nI think I should assign BBB+ as a conservative estimate.\n\nOr A-.\n\nLet's see the decision.\n\nAnother thought: the numbers resemble a real company? For example, revenue 18B, assets 67B, EBIT 2.5B, in 2023 or before, what companies?\n\nBut I shouldn't identify.\n\nPerhaps for a company like this, rating is around BBB+ to A.\n\n final answer.\n\nRationale to be short.\n\nI'll go with BBB+.\n\nConfidence 3.\n\nRationale: Moderate leverage with debt-to-equity of 1.1, EBIT coverage estimated around 3.7x, and acceptable liquidity.\n\nEBIT coverage not given, so from estimate.\n\nOr say, \"Sound profitability but low current ratio suggesting some liquidity risk, with moderate leverage.\"\n\nThen rating.\n\nLet's choose.\n",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 262,
+ "out_tok": 4681,
+ "usd": 0.010395,
+ "utc": "2026-09-06T15:37:39.557148+00:00"
+}

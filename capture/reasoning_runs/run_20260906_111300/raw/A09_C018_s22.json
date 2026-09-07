@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Extreme leverage, negative net income, and weak liquidity indicate high default vulnerability.\"}",
+ "reasoning_tail": "ng income annualized 1,784M, so not covering interest at all. Operating income 446M quarterly, annualized 1,784M, interest if 5% of 158,800M is 7,940M, way higher, so interest coverage negative.\n\nEven if only on long-term debt, say long-term liabilities 53,253M, interest at 5% is 2,663M, still higher than operating income 1,784M, so coverage less than 1.\n\nThus, the company cannot cover interest expenses from operations, which is critical.\n\nTherefore, credit risk is very high.\n\nIn this case, rating should be CCC or lower.\n\nBut current ratio 1.18 means it can pay short-term debts for now.\n\nRetained earnings positive, so it has reserves.\n\nBut with negative coverage, it's vulnerable.\n\nLikely CCC+ or CCC.\n\nCCC+ is \"Currently vulnerable\", CCC is \"Currently vulnerable, dependent on favorable conditions\".\n\nGiven the data, I think CCC+.\n\nBut let's confirm.\n\nRationale: Negative interest coverage implied, high leverage, and quarterly loss indicate vulnerability to default.\n\nInterest coverage isn't given, but inferred.\n\nBased on provided: operating margin low, net loss, high liabilities to equity.\n\nI think CCC+ is appropriate.\n\nConfidence: 3, since some assumptions.\n\nRationale: \"Extreme leverage, negative net income, weak liquidity suggest high default risk.\" 8 words.\n\nRating: CCC+\n\nOn the scale, CCC+ is available.\n\nBB- might be too high.\n\nBB is for companies with some issues but still able to manage.\n\nHere, with implied negative interest coverage, it's worse.\n\nSo CCC+.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 2749,
+ "usd": 0.00617,
+ "utc": "2026-09-06T17:49:49.851390+00:00"
+}

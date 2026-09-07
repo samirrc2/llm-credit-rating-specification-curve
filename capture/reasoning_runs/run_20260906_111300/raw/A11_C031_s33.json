@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the key factors from the provided data indicate severe financial distress. The current ratio of 0.34 shows critical liquidity issues, as current liabilities far exceed current assets, posing a high risk of default on short-term obligations. Additionally, the debt-to-equity ratio of approximately 11.35 (calculated as total liabilities / shareholders' equity = 2,025,439M / 178,396M) reflects extreme leverage, while EBIT relative to total liabilities is very low at about 0.29% (5,851M / 2,025,439M), indicating insufficient operating income to service debt. These metrics align with a high vulnerability to default, consistent with the CCC category, which denotes dependence on favorable conditions to meet financial commitments.\n\nDECISION: CCC",
+ "reasoning_tail": "for similar cases.\n\nAnother ratio: cash flow from operations, but not given.\n\nI think I have to decide.\n\nPerhaps the rating is B- or CCC+.\n\nBut let's be conservative.\n\nI think CCC is reasonable.\n\nBut let's check the retained earnings: high retained earnings could indicate profitability over time, but it doesn't help with current liquidity.\n\nSo I think CCC.\n\nPerhaps BB, but that's too high.\n\nBB is for less vulnerable, but here it's highly vulnerable.\n\nFor example, a current ratio below 0.5 is often associated with CCC ratings.\n\nHere it's 0.34.\n\nSimilarly, debt/EBITDA above 10 is CCC, here it's way above.\n\nSo I think CCC or lower.\n\nI'll go with CCC+ as the finest granularity, but CCC+ might be a bit high.\n\nCCC+ is still CCC range.\n\nThe scale has CCC+, CCC, CCC-, so CCC+ is the highest in CCC.\n\nBut with such ratios, it should be lower.\n\nPerhaps CCC-.\n\nLet's assign CCC.\n\nBut in the decision, I need to choose one.\n\nPerhaps B-, but I think that's optimistic.\n\nLet's see the revenue: 31,795M, but EBIT 5,851M, so net income might be lower, but not given.\n\nI think I'm overcomplicating.\n\nBased on standard credit analysis, this company has multiple indicators of high credit risk.\n\nTherefore, I assign a rating of CCC.\n\nTo be precise, since the current ratio is extremely low, perhaps CCC-.\n\nBut I'll say CCC.\n\nThe answer should be one label.\n\nPerhaps B- is for companies with high leverage but some profitability.\n\nBut here liquidity is critical.\n\nI think CCC is appropriate.\n\nFinal decision.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 257,
+ "out_tok": 5168,
+ "usd": 0.011459,
+ "utc": "2026-09-06T19:06:13.629883+00:00"
+}

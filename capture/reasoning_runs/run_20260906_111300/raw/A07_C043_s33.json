@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits weak liquidity with a current ratio below 1 (0.97), indicating potential difficulty in meeting short-term obligations, and high leverage with a debt-to-equity ratio of approximately 2.87 (total liabilities / shareholders' equity = 44,490M / 15,501M), which is elevated and increases financial risk. Additionally, the operating margin is low at approximately 3.75% (EBIT / revenue = 948M / 25,270M), reflecting poor profitability and limited capacity to service debt, suggesting high credit risk consistent with a CCC rating.\n\nDECISION: CCC",
+ "reasoning_tail": "5:A+, 6:A, 7:A-, 8:BBB+, 9:BBB, 10:BBB-, 11:BB+, 12:BB, 13:BB-, 14:B+, 15:B, 16:B-, 17:CCC+, 18:CCC, 19:CCC-, 20:CC, 21:C.\n\nSo CCC+ is 17, CCC is 18, CCC- is 19.\n\nNow, with Z-score 0.88, which is very low, it should be CCC or lower.\n\nBut EBIT positive, so not CC or C.\n\nThus, CCC or CCC-.\n\nSince current ratio is 0.97, close to 1, perhaps CCC+.\n\nBut coverage implied low.\n\nI think CCC is fine.\n\nPerhaps B-.\n\nBut let's see the figures again.\n\nTotal assets 59,991M, current assets 20,702M, so non-current assets 59,991 - 20,702 = 39,289M.\n\nIf the company sells assets, it can cover, but not liquid.\n\nI think for credit rating, it's based on ability to pay debt, which is in doubt.\n\nI think I should go with CCC.\n\nBut let's see if there's a standard.\n\nPerhaps from the ratios.\n\nAnother ratio: EBIT / interest, but no interest.\n\nI think I have to decide.\n\nPerhaps the rating is B- or CCC+.\n\nBut I think CCC is justified.\n\nIn the reasoning, I can say poor liquidity and high leverage imply high credit risk.\n\nSo, for the rating, I'll say CCC.\n\nBut let's make it CCC+ to be slightly better, since current ratio almost 1.\n\nNo, 0.97 is below, so not.\n\nCCC+ is for very weak, CCC for currently vulnerable.\n\nI think CCC.\n\nPerhaps BB- but that seems too high.\n\nBB- is 13, which is higher.\n\nFor example, current ratio above 1.0 might be BB, below 1.0 B or lower.\n\nHere below.\n\nEBIT margin low.\n\nSo, I think B or CCC.\n\nWith negative working capital, CCC.\n\nI'll go with CCC.\n\nSo, DECISION: CCC\n\nBut let's confirm.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 240,
+ "out_tok": 5014,
+ "usd": 0.011113,
+ "utc": "2026-09-06T20:02:34.174585+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress based on key ratios: a current ratio of 0.83 indicates inability to cover short-term obligations, debt-to-equity ratio of approximately 13.48 reflects extreme leverage, and EBIT to total assets of 0.32% shows very poor asset efficiency. Retained earnings are positive, but this does not offset the critical liquidity and solvency risks. Given the high vulnerability to non-payment and dependence on favorable conditions for debt servicing, the rating falls into the CCC range, with CCC- being the most justified due to the granularity of the scale and the severity of the ratios.\n\nDECISION: CCC-",
+ "reasoning_tail": "diate danger, but here with current ratio below 1, it is immediate danger.\n\nBB ratings might have current ratio above 1.\n\nFor example, a company with current ratio 1.2 might be BB, but here 0.83 is worse.\n\nSo I think CCC is reasonable.\n\nBetween CCC+, CCC, CCC-, I'll go with CCC, as mid-point.\n\nBut let's see if there's a way to be more precise.\n\nAnother ratio: Cash flow from operations, but not given.\n\nEBIT is given, but not cash flow.\n\nI think I have to decide.\n\nPerhaps the issuer is a large company with high debt, like some telecoms, but their ratios are better.\n\nFor instance, Verizon might have debt/EBITDA of 5 or so, not 287.\n\nSo this is worse.\n\nTherefore, I think the rating should be CCC or lower.\n\nBut since EBIT is positive, not C.\n\nSo CCC.\n\nCCC- if I want finer granularity.\n\nBut the scale has CCC+, CCC, CCC-, so three levels.\n\nGiven the numbers, I think CCC- is justified.\n\nCurrent liabilities are 1.226 trillion, current assets 1.018 trillion, so shortfall of 208 billion, which is huge, and EBIT only 5.855 billion, so it can't cover from earnings quickly.\n\nIt needs refinancing.\n\nSo vulnerable.\n\nCCC- is often for companies with high default risk.\n\nCC is for very high risk.\n\nI think CCC- is appropriate.\n\nPerhaps CCC.\n\nI'll go with CCC-.\n\nBut let's confirm the retained earnings: 165,288M, which might indicate some profitability over time, but with equity low, it might have high dividends or buybacks, but for credit, it doesn't help directly.\n\nI think CCC-.\n\nFinal decision.\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 250,
+ "out_tok": 4444,
+ "usd": 0.00987,
+ "utc": "2026-09-06T19:42:38.466969+00:00"
+}

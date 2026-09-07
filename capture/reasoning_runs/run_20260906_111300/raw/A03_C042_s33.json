@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe liquidity risk with a current ratio of 0.92 (<1), indicating inability to cover short-term obligations, and has negative shareholders' equity (-8,465M), reflecting insolvency and high leverage (total liabilities exceed total assets). While positive EBIT (777M) shows some operating profitability, the accumulated losses (retained earnings of -8,881M) and overall financial distress outweigh this, suggesting high default vulnerability consistent with a CCC+ rating.\n\nDECISION: CCC+",
+ "reasoning_tail": "is B- justified?\n\nPerhaps CCC+.\n\nLet's look at the numbers: current liabilities 11,449M, current assets 10,559M, difference 890M.\n\nEBIT 777M per year, so if it can cover the shortfall with operations, but it's not immediate.\n\nThe company might have cash from operations.\n\nBut not given.\n\nI think B- is fine.\n\nPerhaps the answer is CCC+.\n\nAnother idea: retained earnings -8,881M, which is very negative, and it's a measure of cumulative profitability, so poor.\n\nI think I'll go with CCC+.\n\nBut let's see the scale.\n\nCCC+ is for \"currently vulnerable\", CCC for \"currently vulnerable, dependent on favorable conditions\", etc.\n\nWith current ratio <1, it is currently vulnerable to liquidity crisis.\n\nEBIT positive provides some buffer, but not enough for comfort.\n\nSo CCC+.\n\nB- is for \"more vulnerable to adverse business conditions\" but not currently vulnerable.\n\nHere, current ratio <1 suggests current vulnerability.\n\nSo perhaps CCC+.\n\nYes, that makes sense.\n\nFor example, a company with current ratio below 1 is at risk of default if it can't pay its bills.\n\nSo CCC+ or CCC.\n\nWith EBIT positive, CCC+.\n\nCCC+ is between CCC and B-.\n\nB- is higher than CCC+.\n\nThe scale is: ... B+, B, B-, CCC+, CCC, CCC-, ...\n\nSo B- is above CCC+.\n\nB- is less risky than CCC+.\n\nCCC+ is for higher vulnerability.\n\nSo for current vulnerability, CCC+.\n\nYes.\n\nIn this case, current ratio <1 indicates current vulnerability, so CCC+.\n\nNegative equity adds to solvency risk.\n\nSo I think CCC+ is appropriate.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 247,
+ "out_tok": 4831,
+ "usd": 0.010716,
+ "utc": "2026-09-06T19:56:31.202241+00:00"
+}

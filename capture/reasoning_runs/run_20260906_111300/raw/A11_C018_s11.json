@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company exhibits severe financial weaknesses: extremely high leverage (debt-to-equity ratio of ~26.5), very low profitability (EBIT margin of ~2%), and weak liquidity (current ratio of 1.18). Interest coverage is likely below 1 (estimated at ~0.2 based on reasonable assumptions for interest expense), indicating inability to meet interest obligations from operating earnings. The Altman Z-score of ~0.45 falls deep in the distress zone, signaling high bankruptcy risk. These factors align with a \"CCC\" rating, reflecting current vulnerability and dependence on favorable conditions to meet commitments.\n\nDECISION: CCC",
+ "reasoning_tail": "le assets might be low if there are intangibles.\n\nBut not given.\n\nI think based on data, low rating.\n\nFinal decision: I'll go with CCC.\n\nBut let's confirm the scale: AAA to C, 21 grades.\n\nCCC is one of them.\n\nPerhaps B- , but B- is for less vulnerable than CCC.\n\nS&P:\n\nB: More vulnerable to adverse business, financial and economic conditions but currently has the capacity to meet financial commitments.\n\nCCC: Currently vulnerable.\n\nWith interest coverage below 1, it's vulnerable.\n\nIn practice, companies with coverage below 1 are often CCC or lower.\n\nFor example, Tesla during tough times had negative coverage, rated B- or CCC.\n\nBut here, EBIT positive, so coverage might be low but not negative.\n\nAssume interest expense: suppose long-term debt 53,253M at 5% = 2,663M interest, EBIT 446M, so coverage 446/2663 \u2248 0.17 < 1, so negative if taxes considered, but EBIT is before interest, so operating income covers only 17% of interest, meaning not covering.\n\nThus, CCC.\n\nSimilarly, debt/EBIT 356, very high.\n\nCurrent ratio 1.18, weak.\n\nSo I think CCC.\n\nFor the label, I need to choose one.\n\nSince it's not immediately defaulting, CCC.\n\nCCC+ might be too high, CCC- too low, so CCC.\n\nBut CCC is specific.\n\nIn the scale, CCC+, CCC, CCC- are separate.\n\nI think CCC is fine.\n\nPerhaps BB-, but no, too high.\n\nBB is for less vulnerable, but here metrics are worse.\n\nBB might have coverage above 1, debt/EBITDA under 6.\n\nHere, debt/EBIT ~356, coverage ~0.2, so much worse.\n\nTherefore, CCC.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 4191,
+ "usd": 0.009315,
+ "utc": "2026-09-06T17:51:41.064181+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability with high gross and operating margins (71% and 42%, respectively), but faces severe financial risk due to extremely high leverage (debt-to-equity ratio of approximately 14.5) and poor liquidity (current ratio of 0.63). Additionally, negative retained earnings (-5,086M) indicate accumulated losses, reducing financial flexibility and increasing default risk despite current earnings.\n\nDECISION: B",
+ "reasoning_tail": "s on operating cash flow or refinancing.\n\nWith operating income 1,161M quarterly, and current liabilities 3,973M, it could cover in a few months if cash flow is strong, but it's risky.\n\nAssuming quarterly figures, operating income 1,161M per quarter, annual ~4,644M, current liabilities 3,973M, so it can cover from cash flow, but the low current ratio still indicates liquidity risk.\n\nFor rating, it might be B or BB-.\n\nI think BB- is for moderate speculative risk, but here it's severe.\n\nLet's look for similar companies.\n\nBut I don't have industry.\n\nPerhaps the rating is B+.\n\nI recall that companies like J.C. Penney when near bankruptcy had similar ratios, rated CCC or C.\n\nBut here net income is positive.\n\nAnother idea: the shareholders' equity is small, but positive, and net income positive, so not in default.\n\nBut credit rating is forward-looking.\n\nWith the information, I think B is appropriate.\n\nPerhaps BBB- if we focus on profitability, but leverage is too high.\n\nNo, leverage is key.\n\nLet's calculate quick ratio roughly. Current assets 2,495M, minus inventory if any, but not given, so assume similar to current ratio.\n\nI think I'm overcomplicating.\n\nDecision: Based on high leverage and poor liquidity, despite profitability, the issuer has high credit risk and should be rated in the B category.\n\nSpecifically, B+ or B.\n\nI'll go with B.\n\nBut let's see the options: B+, B, B-.\n\nPerhaps B.\n\nCCC+ is also possible.\n\nBut I think B is for highly speculative, which fits.\n\nFinal answer.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 4063,
+ "usd": 0.009042,
+ "utc": "2026-09-06T19:35:42.711279+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Very weak liquidity (current ratio 0.63), high leverage (debt/equity ~14.5), and negative retained earnings indicate severe financial distress and default risk.\"}",
+ "reasoning_tail": "ns\n\n- CC: highly vulnerable\n\nHere, with liquidity issue and likely low coverage, it's currently vulnerable.\n\nSo CCC.\n\nBut to be specific, since current ratio is so low, perhaps CCC-.\n\nBut I think CCC is fine.\n\nAnother metric: quick ratio, but not calculable.\n\nTotal debt to capital: debt / (debt + equity) = 52,835 / (52,835 + 3,652) = 52,835 / 56,487 \u2248 93.5%, very high.\n\nTypically above 80% is high risk.\n\nSo consistent with low rating.\n\nI think the rating should be CCC.\n\nBut let's confirm the scale: valid answers include CCC+, CCC, CCC-.\n\nI think CCC is reasonable.\n\nRationale: Poor liquidity with current ratio below 1, high leverage, and likely weak interest coverage.\n\nConfidence: 3, since I estimated interest coverage.\n\nEBIT is given, but interest not, so some uncertainty.\n\nBut based on ratios, high risk.\n\nPerhaps B-, but liquidity is critical.\n\nCurrent ratio 0.63 is severe.\n\nIn many cases, that alone can push to CCC.\n\nFor example, companies in distress often have current ratio <1.\n\nSo I'll go with CCC.\n\nDecision: CCC\n\nConfidence: 3\n\nRationale: Very weak liquidity, high leverage, and negative retained earnings indicate high credit risk.\n\nRationale should be <=25 words.\n\n\"Very weak liquidity (current ratio 0.63), high leverage, and negative retained earnings suggest high default risk.\"\n\n18 words.\n\nNow for confidence, 1-5, 5 highest.\n\nI think 3, medium, because interest expense not given.\n\nBut overall, clear signs of distress.\n\nPerhaps confidence 4.\n\nI'll say 3.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 5244,
+ "usd": 0.011627,
+ "utc": "2026-09-06T19:37:09.757059+00:00"
+}

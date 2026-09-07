@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CC\", \"confidence\": 4, \"rationale\": \"Current ratio of 0.27 and negative equity indicate severe liquidity crisis and high default risk.\"}",
+ "reasoning_tail": "ve\n\n- Liabilities > assets\n\n- EBIT positive but not sufficient to cover leverage\n\nAll point to lowest ratings.\n\nPerhaps in the B range, but I don't think so.\n\nB- is the lowest B, and for companies with high risk but not as critical.\n\nHere it is critical.\n\nFor example, a current ratio below 1 is often associated with ratings below BB.\n\nWith 0.27, it should be CCC or lower.\n\nI think CCC- or CC.\n\nBut let's pick one.\n\nI recall that when companies file for chapter 11, ratings are CCC or lower.\n\nBut not all with negative equity file bankruptcy.\n\nHere, with liquidity issue, it might.\n\nBut for assignment, I think CC.\n\nRationale: \"Extremely low current ratio and negative equity indicate high default vulnerability; operating profit insufficient to remedy.\" 12 words.\n\nConfidence:4\n\nRating: CC\n\nIn the list, CC is before C.\n\nC is for near default.\n\nI think CC is appropriate.\n\nAlso, in the JSON, decision should be one label.\n\nSo {\"decision\": \"CC\", \"confidence\":4, \"rationale\":\"Extremely low current ratio and negative equity pose imminent default risk\"}\n\n20 words.\n\nImminent? Not sure, but highly likely.\n\nTo be precise.\n\nPerhaps CCC-.\n\nBut I think CC.\n\nLet's see the EBIT.\n\nEBIT 465M, revenue 1010M, that's good margin, so if not for the leverage, it could be investment grade, but with high debt and negative equity, it's dragged down.\n\nBut the numbers are too extreme.\n\nTotal liabilities 33,311M, 2EBIT is 465*2=930M, but liabilities are 33,000M, so coverage is terrible.\n\nNo way.\n\nSo i think CC.\n",
+ "parsed_letter": "CC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3878,
+ "usd": 0.008636,
+ "utc": "2026-09-06T20:04:06.968329+00:00"
+}

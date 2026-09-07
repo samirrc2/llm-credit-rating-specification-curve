@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C045",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Current ratio of 0.53 indicates severe liquidity crisis; high leverage (debt-to-equity 2.67) and low ROA increase default risk.\"}",
+ "reasoning_tail": "is three notches above CCC.\n\nB- then CCC+ then CCC then CCC-.\n\nB- is speculative, CCC is high yield with substantial risk.\n\nWith current ratio 0.53, it's substantial risk.\n\nSo I think CCC or CCC+.\n\nLet's assign CCC.\n\nRationale: \"Very low current ratio and high leverage indicate high default risk.\"\n\nConfidence: 3, since EBIT is positive but liquidity poor.\n\nEBIT is 1,360M, which is good, but not enough to cover the liquidity gap immediately.\n\nSo CCC.\n\nPerhaps B- if we focus on profitability.\n\nBut I think liquidity is critical.\n\nIn many cases, credit ratings downgrade to CCC when there is imminent default concern.\n\nHere, current ratio 0.53 suggests that.\n\nSo I'll go with CCC.\n\nBut let's confirm the numbers.\n\nCurrent assets: 6,623M\n\nCurrent liabilities: 12,594M\n\nRatio 0.53\n\nYes.\n\nTotal liabilities 84,798M\n\nEquity 31,808M\n\nEBIT 1,360M\n\nRevenue 6,020M\n\nAll consistent.\n\nSo rating: CCC\n\nConfidence: 3\n\nRationale: \"Extremely low liquidity and high leverage pose default risk.\"\n\nThat's 7 words.\n\nNow for JSON.\n\n{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extremely low liquidity and high leverage pose default risk.\"}\n\nBut the rationale should be <=25 words, which it is.\n\nIs CCC the right choice? CCC is on the scale.\n\nCCC+ might be slightly better, but I think CCC is fine.\n\nPerhaps BB-, but that seems too high.\n\nAnother thought: retained earnings are high, 15,795M, which could be used, but it's not cash, it's reinvested, so not immediately available.\n\nSo I think CCC is appropriate.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 5187,
+ "usd": 0.011503,
+ "utc": "2026-09-06T20:10:10.904647+00:00"
+}

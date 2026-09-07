@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Severe liquidity (CR 0.53), deep retained deficit (-$12.2B), and high leverage indicate substantial risk. Profitability is insufficient to offset.\"}",
+ "reasoning_tail": "ined earnings at -12.237 billion. Wow, that's a huge negative number. Negative retained earnings mean the company has been accumulating losses over time instead of profits. That's not a good sign at all. It indicates long-term financial distress.\n\nLooking at the balance sheet, the equity is positive at 12.807 billion, but total liabilities are much higher at 43.578 billion. So total debt to equity is around 3.4 times\u201443.578 divided by 12.807. That's a high leverage ratio. Companies with too much debt are riskier because they have more obligations to meet.\n\nThe EBIT is 1.307 billion on revenue of 3.198 billion. That gives an operating margin of about 40.8%, which is pretty decent. So the company can generate profits from its sales. However, with that massive debt load and negative retained earnings, profitability alone might not be enough to offset the other risks.\n\nPutting it all together: the liquidity is poor with the low current ratio, meaning they're tight on cash. The negative retained earnings show a history of losses. High leverage adds to the financial risk. The good profit margin is a positive, but it's overwhelmed by the negatives.\n\nCredit ratings like BB typically signal speculative investments, with high credit risk. Considering all these factors\u2014especially the liquidity issues and accumulated losses\u2014this company is likely in a highly risky position. Therefore, a BB- rating seems justified as it reflects significant vulnerability to economic or financial changes.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 445,
+ "usd": 0.001119,
+ "utc": "2026-09-06T19:13:40.999911+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"High debt-to-equity ratio (2.47), zero retained earnings, and low EBIT/assets (1.2%) indicate significant credit risk and speculative grade.\"}",
+ "reasoning_tail": "y B.\n\nRationale should be short.\n\nThe JSON should have decision, confidence 1-5, rationale <=25 words.\n\nDecision: let's say B\n\nConfidence: 3, medium\n\nRationale: High leverage, zero retained earnings, low profitability relative to assets.\n\nNow, to be precise.\n\nAnother thing: the scale includes CCC+, etc., but I think B is appropriate.\n\nPerhaps BB-.\n\nLet's see the numbers again.\n\nCurrent liabilities 22,085M, current assets 30,590M, so working capital positive.\n\nBut total liabilities high.\n\nShareholders' equity 21,312M, so book value positive.\n\nEBIT 886M.\n\nIf I assume net income is, say, 60% of EBIT, roughly 531.6M, but not given.\n\nThen return on equity: if net income 531.6M / equity 21,312M \u2248 2.5%, low.\n\nBut not given.\n\nI think B is reasonable.\n\nPerhaps BB+ or BB, but I think lower.\n\nLet's think about the rating process.\n\nCredit ratings consider:\n\n- Leverage: high\n\n- Coverage: likely low\n\n- Liquidity: moderate\n\n- Profitability: moderate\n\n- Retained earnings: poor\n\nOverall, speculative grade with high risk.\n\nSince EBIT is positive, not CCC.\n\nCCC might be for companies with negative EBIT.\n\nHere EBIT positive, so B or B+.\n\nB+ is higher than B.\n\nScale: AAA best, C worst.\n\nB+ is better than B.\n\nIn terms of risk, B+ has less risk than B.\n\nSo for this company, high risk, so B or B-.\n\nI think B is fine.\n\nDecision: B\n\nConfidence: 3\n\nRationale: \"High debt-to-equity ratio, zero retained earnings, and low EBIT/assets indicate significant credit risk.\"\n\nWithin 25 words.\n\nNow, for the JSON.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 258,
+ "out_tok": 4186,
+ "usd": 0.009309,
+ "utc": "2026-09-06T18:31:24.350174+00:00"
+}

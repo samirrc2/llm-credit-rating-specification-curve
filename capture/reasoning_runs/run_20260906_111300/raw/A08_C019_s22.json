@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C019",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"High debt-to-equity ratio of 3.5, weak current ratio of 1.22, and low EBIT margin suggest significant credit risk and speculative grade.\"}",
+ "reasoning_tail": "I think B is reasonable.\n\nConfidence: 3 out of 5, since no interest coverage.\n\nBut I have to assign.\n\nPerhaps BBB- if I'm optimistic, but leverage is too high.\n\nDebt ratio 77.8%, equity ratio 22.2%, which is low for investment grade.\n\nInvestment grade usually has higher equity ratios.\n\nFor example, BBB might have 30-40% equity ratio.\n\nHere 22.2%, so below.\n\nEBIT margin 10.5% is okay.\n\nBut with high debt, coverage might be low.\n\nI think BB is possible.\n\nBB is Ba in Moody's, which is speculative but not the worst.\n\nWith Z-score 1.065, it's poor.\n\nLet's see the rating scale.\n\nPerhaps for this, I'll go with B+.\n\nBut let's see the figures again.\n\nRevenue 24,479M, EBIT 2,575M, total assets 73,090M, so asset turnover low, but not relevant.\n\nI think I should assign B.\n\nDecision: B\n\nConfidence: 3\n\nRationale: High leverage with debt-to-equity 3.5 and weak liquidity; Altman Z-score indicates distress.\n\nRationale must be <=25 words.\n\n\"High debt-to-equity ratio of 3.5, low current ratio of 1.22, and low EBIT/Assets suggest high credit risk; speculative grade B.\"\n\nWords: 15.\n\nOr include Z-score.\n\nBut Z-score is not standard for rating, but I used it.\n\nPerhaps without.\n\nAnother common metric is interest coverage, but missing.\n\nI think B is fair.\n\nBut let's see if there's a better fit.\n\nAA is for very strong, A for strong, BBB for adequate, BB for speculative, B for vulnerable, CCC for weak.\n\nHere, vulnerable with some liquidity.\n\nSo B.\n\nPerhaps BB-.\n\nBut I think B is fine.\n\nFinal decision.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 5241,
+ "usd": 0.011617,
+ "utc": "2026-09-06T17:56:43.818106+00:00"
+}

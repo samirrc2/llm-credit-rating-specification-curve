@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C014",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"BBB-\",\n  \"confidence\": 3,\n  \"rationale\": \"Moderate leverage (debt-to-equity ~1.49) and weak liquidity (current ratio 1.30) with low profitability (EBIT margin 4.4%), offset by strong retained earnings and large scale.\"\n}",
+ "reasoning_tail": "he numbers: revenue 34,015M, retained earnings 33,239M, etc.\n\nFor example, Apple has high retained earnings, but also high profits.\n\nHere EBIT is low relative.\n\nPerhaps it's a company like a retailer.\n\nBut I think for credit rating, based on ratios, it's weak.\n\nAnother ratio: operating income / revenue = 4.4%, low.\n\nI think I'll assign BB+.\n\nRationale: Moderate leverage but weak profitability and liquidity, with strong retained earnings providing some support.\n\nConfidence 3.\n\nThen label BB+.\n\nBut BB+ is speculative.\n\nLet's see the list: BBB+ is higher.\n\nBBB+ might be too high.\n\nI think BBB- is possible.\n\nLet's calculate the quick ratio implicitly.\n\nCurrent assets 17,271M, current liabilities 13,326M, but quick assets not given, so assume similar to current ratio.\n\nI think I have to decide.\n\nI'll go with BBB-.\n\nFinal decision: BBB-\n\nConfidence: 3\n\nRationale: Moderate leverage and weak liquidity offset by strong retained earnings and large size.\n\nRationale <=25 words.\n\n\"Moderate leverage, weak liquidity, low profitability, but strong retained earnings and large scale suggest lowest investment grade.\"\n\n25 words: Moderate leverage, weak liquidity, low profitability, but strong retained earnings support BBB- rating.\n\n18 words.\n\nConfidence 3.\n\nBut earlier coverage estimates were low, so perhaps not.\n\nI think it's borderline.\n\nPerhaps the rating is BB+.\n\nI found a way: the current ratio is given, and for ratings, it's one factor.\n\nBut I think BBB- is acceptable.\n\nI'll go with that.\n",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 260,
+ "out_tok": 6812,
+ "usd": 0.015061,
+ "utc": "2026-09-06T17:26:00.184678+00:00"
+}

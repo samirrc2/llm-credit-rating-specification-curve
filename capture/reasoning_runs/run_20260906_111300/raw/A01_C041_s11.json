@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Strong profitability with 32% operating margin, but weak liquidity with current ratio 0.55 poses significant risk.\"}",
+ "reasoning_tail": " 13.8, which is very high, but not all liabilities are debt.\n\nIf we assume long-term debt is part of liabilities, say half, 70,000M, then debt/EBITDA ~6.9, still high.\n\nBut not specified.\n\nI think it's messy.\n\nPerhaps the company has low debt, but current liabilities high.\n\nFor example, current liabilities 22,911M, which might include short-term debt.\n\nBut not detailed.\n\nI think I have to go with the current ratio as a key indicator.\n\nIn credit rating, a current ratio below 1 can lead to downgrade to speculative grade if severe.\n\nWith 0.55, it might be BB.\n\nBut profitability is high, so perhaps BB+.\n\nLet's decide.\n\nFinal decision: I'll go with BBB-, as it's investment grade but with negative outlook implied.\n\nBBB- is the lowest investment grade.\n\nRationale: \"High margins but poor liquidity with current ratio 0.55.\"\n\nConfidence: 3, since no industry or trend.\n\nBut the instruction says \"general knowledge predating the most recent fiscal year,\" so I can assume standard ratios.\n\nFor example, a current ratio below 1 is weak, and 0.55 is very low.\n\nSimilarly, leverage is high based on liabilities/equity.\n\nBut profitability strong.\n\nSo, BBB-.\n\nPerhaps A- if liquidity was better.\n\nBut with 0.55, not.\n\nAnother idea: the current ratio might be due to high payables, which is normal in some industries, but not specified.\n\nI think BBB- is reasonable.\n\nSo, decision: BBB-\n\nConfidence: 3\n\nRationale: \"Strong profitability offset by weak liquidity, current ratio 0.55.\" 7 words.\n\nNow for JSON.\n",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 4319,
+ "usd": 0.009609,
+ "utc": "2026-09-06T19:49:26.702206+00:00"
+}

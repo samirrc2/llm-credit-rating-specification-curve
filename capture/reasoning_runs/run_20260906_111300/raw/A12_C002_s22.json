@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C002",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Extreme leverage (debt/equity ~9x), extremely low EBIT/total assets (0.65%), and high default risk from unsustainable interest coverage.\"}",
+ "reasoning_tail": " is small.\n\nI think for this exercise, I should use the data as given.\n\nRationale must be 25 words or less.\n\nLet's assign B with confidence 3 or so.\n\nPerhaps look at EBIT to total assets ratio.\n\n0.006% is very low; below 1% is distress zone for some models.\n\nAltman Z-score rough.\n\nWorking cap/TA: 0.347\n\nRE/TA: 0.093\n\nEBIT/TA: 0.00647\n\nSales/TA: 0.0148\n\nAssume MV Equity/BV Liabilities, but if MV similar to BV, 49,234 / 444,085 \u2248 0.111\n\nThen Z = 1.2*0.347 + 1.4*0.093 + 3.3*0.00647 + 0.6*0.111 + 1.0*0.0148\n\nCalculate:\n\n1.2*0.347 = 0.4164\n\n1.4*0.093 = 0.1302\n\n3.3*0.00647 \u2248 3.3*0.0065 = 0.02145\n\n0.6*0.111 = 0.0666\n\n1.0*0.0148 = 0.0148\n\nSum: 0.4164 + 0.1302 = 0.5466\n\n+0.02145 = 0.56805\n\n+0.0666 = 0.63465\n\n+0.0148 = 0.64945\n\nZ-score around 0.65, which is far below 1.8, indicating high distress, likely bankruptcy.\n\nBased on that, rating should be very low, CCC or lower.\n\nWith the high current ratio, it might buy time, but ultimately weak.\n\nSo, I think CCC or B-.\n\nLet's choose CCC+ as a start.\n\nOr B-.\n\nFor confidence, I'll say 2, since revenue might be misinterpreted.\n\nBut in the data, it's given.\n\nPerhaps in the context, M means something else, but in financial statements, M is million.\n\nAnother idea: the revenue 7,300M might be for a quarter or something, but it says \"as of the most recent fiscal year,\" so annual.\n\nI have to proceed.\n\nFinal decision: B- or CCC+.\n\nLet's see the equity: only 49B vs liabilities 444B, so leverage is sky high.\n\nEBIT small.\n\nSo rating low.\n\nI think CCC+.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 4856,
+ "usd": 0.01078,
+ "utc": "2026-09-06T15:57:42.251525+00:00"
+}

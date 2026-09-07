@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company exhibits severe financial distress, primarily due to negative shareholders' equity (-1,920M), indicating insolvency where liabilities exceed assets. The critically low current ratio (0.27) suggests acute liquidity risk, as current assets are insufficient to cover current liabilities, raising near-term default concerns. Although EBIT is positive (465M), it is inadequate relative to the high total liabilities (33,311M) and massive retained losses (-20,476M), placing the company in a vulnerable position dependent on favorable conditions to meet obligations, consistent with a CCC rating.\n\nDECISION: CCC",
+ "reasoning_tail": "nterest expense is part of liabilities.\n\nTotal liabilities include current and long-term.\n\nCurrent liabilities are 4,705M, which might include short-term debt.\n\nBut I don't know the composition.\n\nPerhaps I should look at the ratio.\n\nAnother metric: net debt to EBITDA, but no debt breakdown.\n\nI think based on the information, CCC is appropriate.\n\nTo be precise, since the liquidity is critical, CCC-.\n\nBut EBIT is decent relative to revenue.\n\nRevenue 1,010M, EBIT 465M, so good margins, but the asset base is large with low revenue.\n\nTotal assets 31,391M for revenue 1,010M, so it's not efficient.\n\nBut again, for rating, the solvency and liquidity are key.\n\nI think the rating should be CCC.\n\nPerhaps I can see if it's investment grade or not. BBB- is lowest investment grade, but with negative equity, it's definitely speculative grade.\n\nBB might be for companies with high debt but positive earnings and some liquidity.\n\nHere, liquidity is poor.\n\nFor example, a BB company might have current ratio above 1, positive equity.\n\nHere, both are bad.\n\nB rating: highly speculative, major risk exposure.\n\nCCC: vulnerable to non-payment.\n\nI think CCC fits.\n\nWith current ratio 0.27, it might be on the verge, so CCC-.\n\nBut let's not split hairs; I'll go with CCC.\n\nThe problem says \"finest granularity you can justify.\"\n\nSo perhaps CCC-.\n\nSince EBIT is positive, CCC might be better.\n\nI recall that ratings also consider the ability to refinance.\n\nBut no data.\n\nI think I'll assign CCC.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 2981,
+ "usd": 0.006665,
+ "utc": "2026-09-06T20:06:29.919965+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Low current ratio (0.53), high leverage (debt/equity ~3.4), negative retained earnings indicate severe financial distress despite positive EBIT margin.\"}",
+ "reasoning_tail": "nce EBIT is decent, maybe CCC+.\n\nBut leverage is high.\n\nDebt-to-EBITDA: I don't have EBITDA, but EBIT is 1,307M, suppose EBITDA similar.\n\nTotal liabilities 43,578M, but not all debt.\n\nAssume net debt or something.\n\nPerhaps interest coverage: if I assume interest expense.\n\nSuppose average interest rate 5%, on say 40,000M debt, interest = 2,000M, then EBIT/interest = 1,307 / 2,000 \u2248 0.65x, which is less than 1, meaning cannot cover interest, which is critical.\n\nIf interest rate lower, say 4%, on 35,000M debt, interest 1,400M, coverage 1,307/1,400 \u2248 0.93x, still below 1.\n\nIf debt is lower, say 30,000M at 4%, interest 1,200M, coverage 1,307/1,200 \u2248 1.09x, barely above 1.\n\nBut with current liabilities high, short-term obligations might pressure liquidity.\n\nGiven the low current ratio, it's likely that interest coverage is weak.\n\nIn practice, for CCC ratings, interest coverage is often below 1x or negative.\n\nHere EBIT positive, so coverage might be above 1 if debt not too high.\n\nBut I think it's marginal.\n\nThe Altman Z-score was negative, which suggests high distress.\n\nI think CCC is reasonable.\n\nFor the specific label, perhaps CCC.\n\nBut let's see if B- is possible.\n\nB- ratings might have current ratio above 1 or better leverage.\n\nHere current ratio 0.53 is very low.\n\nSimilarly, retained earnings negative.\n\nSo I think CCC+ or CCC.\n\nPerhaps CCC.\n\nConfidence: I'd say medium, like 3.\n\nRationale: Poor liquidity, high leverage, negative retained earnings.\n\nIn 25 words.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 4284,
+ "usd": 0.009526,
+ "utc": "2026-09-06T19:18:49.858080+00:00"
+}

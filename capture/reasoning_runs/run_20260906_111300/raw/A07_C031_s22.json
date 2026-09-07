@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The current ratio of 0.34 indicates severe liquidity issues, as current liabilities far exceed current assets, suggesting difficulty in meeting short-term obligations. The debt-to-equity ratio of approximately 11.35 (calculated as total liabilities / shareholders' equity = 2,025,439M / 178,396M) reflects extremely high leverage, increasing default risk. Although the EBIT margin is healthy at around 18.4% (EBIT / revenue = 5,851M / 31,795M), the low absolute EBIT relative to the massive liabilities implies insufficient coverage for interest expenses, further supported by a negative working capital of approximately -1,163,145M. These factors collectively point to a high probability of financial distress, warranting a rating in the CCC category.\n\nDECISION: CCC",
+ "reasoning_tail": "t interest, total interest expense high.\n\nBut EBIT only 5,851M, so interest coverage less than 1, likely negative coverage.\n\nThus, the company cannot cover its interest payments from operating income, indicating high default risk.\n\nTherefore, rating should be CCC or lower.\n\nSince EBIT is positive, not yet in default, so CCC range.\n\nFor granularity, perhaps CCC+ or CCC.\n\nBut current ratio is extremely low, so CCC.\n\nThe scale has CCC+, CCC, CCC-.\n\nI think CCC is appropriate.\n\nBut let's see if there's a better way.\n\nPerhaps use the provided ratios directly.\n\nThe task is to assign based on the figures.\n\nAnother thing: retained earnings are high, which might indicate resilience, but with current losses or low profit, it might not help.\n\nRetained earnings are 232,459M, which could be used, but it's part of equity, not liquid.\n\nThe company has negative working capital, so it needs cash.\n\nI think the rating is low.\n\nPerhaps BB, but that seems too high given the ratios.\n\nBB is still speculative, but higher.\n\nFor example, BB ratings might have current ratio above 1, leverage not as high.\n\nHere, current ratio 0.34, so definitely below BB.\n\nB ratings have higher risk.\n\nI think CCC is reasonable.\n\nFinal decision: CCC\n\nBut let's confirm the scale.\n\nThe options include CCC+, CCC, CCC-, etc.\n\nSince EBIT is positive, but coverage poor, and liquidity bad, CCC.\n\nPerhaps CCC- for worse.\n\nBut I think CCC is fine.\n\nIn the Altman Z-score, it was very low, indicating distress.\n\nSo I'll go with CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 248,
+ "out_tok": 4542,
+ "usd": 0.010083,
+ "utc": "2026-09-06T19:04:46.147870+00:00"
+}

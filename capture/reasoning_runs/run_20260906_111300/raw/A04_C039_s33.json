@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"High leverage, current ratio below 1, insufficient EBIT relative to liabilities.\"}",
+ "reasoning_tail": "on: I think CCC is appropriate, as the company is vulnerable.\n\nCCC+ or CCC.\n\nBut confidence: I'll say 4, since metrics are clear.\n\nRationale: \"Poor liquidity, high leverage, low interest coverage implied.\"\n\nNow, for the rating: let's choose CCC.\n\nBut let's see the options: CCC+, CCC, CCC-.\n\nPerhaps CCC.\n\nSince current ratio <1 and high debt, CCC-.\n\nBut I think CCC is fine.\n\nAnother thought: retained earnings are high, $165B, which could provide some cushion, but with equity only $125B, it's not helping much.\n\nIn fact, negative working capital.\n\nI think B- might be too high; B- is for companies with some capacity but high risk.\n\nHere, with current ratio <1, it's more vulnerable.\n\nCCC: currently vulnerable.\n\nYes.\n\nSo, decision: CCC\n\nConfidence: 4\n\nRationale: \"High leverage, current ratio below 1, weak profitability relative to debt.\"\n\nRationale must be <=25 words.\n\n\"High leverage, liquidity shortfall, insufficient EBIT for debt service.\"\n\nNow, for JSON output.\n\nBut the rating scale includes CC and C, but I think CCC is better.\n\nPerhaps BB, but no, too high.\n\nBB ratings might have current ratio above 1 and lower leverage.\n\nFor example, BB rated companies might have debt/EBITDA 5-6x, here implied debt/EBIT is high.\n\nEBIT $5.855B, liabilities $1,684B, so if debt is say $1,000B, debt/EBIT ~170, which is enormous.\n\nEven if debt is only long-term, $457B, debt/EBIT ~78, still very high.\n\nTypical for CCC: debt/EBITDA over 10x or so.\n\nHere it's way higher.\n\nSo CCC is appropriate.\n\nYes.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 268,
+ "out_tok": 3989,
+ "usd": 0.008883,
+ "utc": "2026-09-06T19:41:03.521705+00:00"
+}

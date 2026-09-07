@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative shareholders' equity and retained earnings, weak liquidity (current ratio 1.09), and high leverage indicate severe financial distress and default risk.\"}",
+ "reasoning_tail": "nue = 11%, which is decent, but with high leverage, coverage might be low.\n\nI think without specific interest, I have to go with the balance sheet insolvency.\n\nFinal decision: I think CCC is reasonable.\n\nBut let's see the scale: CCC+, CCC, CCC-.\n\nPerhaps CCC, as a middle ground.\n\nConfidence: I'd say 3, since I have most metrics but missing interest expense.\n\nRationale: Negative equity and weak liquidity indicate high default risk.\n\nWithin 25 words.\n\nSo rationale: \"Negative shareholders' equity, weak current ratio, and negative retained earnings signal severe financial distress and high default probability.\"\n\nDecision: CCC\n\nConfidence: 3\n\nBut is CCC too low? EBIT is positive, so maybe B-.\n\nB- is still speculative.\n\nCompare to definitions:\n\nB: \"Highly speculative; 'B' ratings indicate that material default risk is present, but a limited margin of safety remains.\"\n\nCCC: \"Substantial risks; default is a real possibility.\"\n\nCC: \"Very high levels of credit risk; default of some kind appears probable.\"\n\nC: \"Extremely high levels of credit risk; default is imminent or inevitable.\"\n\nGiven that EBIT is positive and current ratio >1, default is not imminent, so C or CC might be too severe.\n\nCCC seems fitting.\n\nWith negative equity, it's vulnerable.\n\nI think CCC is appropriate.\n\nPerhaps BB-, but that might be too optimistic.\n\nBB: \"Less vulnerable; faces major ongoing uncertainties.\"\n\nBut with negative equity, it's more than uncertainties; it's insolvent on paper.\n\nSo CCC.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 3119,
+ "usd": 0.006975,
+ "utc": "2026-09-06T19:13:48.237080+00:00"
+}

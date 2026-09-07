@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe issuer demonstrates strong profitability with an 85% gross margin and 32% operating margin, which supports debt servicing capacity. However, the debt-to-equity ratio of approximately 8.1 indicates excessive leverage, and the current ratio of 0.35 reveals severe liquidity stress, impairing the ability to meet short-term obligations. The estimated interest coverage ratio of about 2.3 (based on a 21% tax rate) is weak, further signaling high default risk, placing the issuer in the highly speculative B category.\n\nDECISION: B",
+ "reasoning_tail": "s low, further indicating weak ability to service debt.\n\nGiven the severe liquidity problem and high leverage, the issuer is highly speculative with substantial credit risk, warranting a rating in the B category.\n\nWithin B, B+ might be too high, B- too low, so B.\n\nBut B+ or B?\n\nWith current ratio 0.35, it's critical, so B or B-.\n\nB- is for companies with higher risk.\n\nBut let's see the scale definitions loosely.\n\nGenerally:\n\n- BB: speculative, less vulnerable\n\n- B: highly speculative\n\n- CCC: vulnerable to default\n\nHere, not vulnerable to default immediately, but at risk.\n\nPerhaps B+ is possible if the business is strong.\n\nBut the liquidity is too weak.\n\nAnother point: retained earnings 26,088M, which is positive, but not sufficient to offset liabilities.\n\nI think B is appropriate.\n\nFinal answer.\n\nPerhaps BB-.\n\nBut I think B.\n\nLet's see the numbers again.\n\nTotal liabilities 274,899M, equity 33,995M, so liabilities are 8 times equity.\n\nCurrent ratio 0.35.\n\nIn practice, such companies might be rated B or lower.\n\nFor example, companies in distress have such ratios.\n\nBut here profitable, so B.\n\nI think DECISION: B\n\nBut let's confirm the scale.\n\nValid answers include B+, B, B-.\n\nI'll go with B.\n\nReason briefly: The issuer exhibits strong profitability but has extremely high leverage and critically poor liquidity, with a current ratio of 0.35 and estimated interest coverage around 2.3, indicating high credit risk.\n\nTherefore, a speculative grade rating is assigned.\n\nFinal rating: B\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 4074,
+ "usd": 0.009067,
+ "utc": "2026-09-06T19:06:27.314958+00:00"
+}

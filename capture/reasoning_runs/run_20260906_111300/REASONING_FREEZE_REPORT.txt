@@ -1,0 +1,10 @@
+# Reasoning-arm freeze report
+
+- run: run_20260906_111300
+- model: deepseek/deepseek-r1
+- cells: 1620/1620
+- ok: 1620 | empty/failed: 0
+- IG/HY dist: {'IG': 509, 'HY': 1111}
+- combined SHA-256: 5e107064dfd6cdd0cf5db4aedc6a858926e57369e3b5d8ba68e3d879ec3629d3
+
+Frozen. Downstream analysis reads this corpus offline; do not modify.

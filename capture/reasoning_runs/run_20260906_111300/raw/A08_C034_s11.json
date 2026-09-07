@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Extremely low current ratio (0.53), high leverage (debt-to-equity ~3.4), and large negative retained earnings indicate severe financial distress.\"}",
+ "reasoning_tail": "here's a standard way.\n\nPerhaps I can use the ratios to map to rating.\n\nFor instance, S&P ratings might have guidelines, but I don't have them.\n\nFrom memory, for investment grade, current ratio above 1.2 or something, debt-to-ebitda below 3, etc.\n\nHere, current ratio 0.53 << 1, debt-to-equity 3.4, EBIT 1,307M, so debt/EBIT = total liabilities/EBIT = 43,578 / 1,307 \u2248 33.34, which is extremely high, meaning it would take 33 years of EBIT to pay off debt, ignoring interest. That's unsustainable.\n\nDebt/EBIT ratio is a common metric; above 5-6 is high risk, 33 is enormous.\n\nSimilarly, leverage is sky-high.\n\nLiquidity poor.\n\nSo, definitely speculative grade, and likely very low.\n\nRating should be CCC or lower.\n\nBut CC and C are for very high risk or default, so CCC.\n\nCCC+ is for slightly better.\n\nBut here, ratios are terrible.\n\nPerhaps CCC.\n\nConfidence: I'm not sure, but based on figures, it's clear.\n\nRationale: \"Very low current ratio, high leverage, negative retained earnings.\"\n\nThat's concise.\n\nNow, for confidence: on a scale of 1-5, 5 being highest confidence.\n\nI think it's fairly clear, so confidence 4 or 5.\n\nBut since I don't have all ratios, maybe 4.\n\nEBIT is positive, so not CCC- or lower.\n\nCCC- is for very vulnerable.\n\nBut let's pick CCC.\n\nDecision: CCC\n\nConfidence: 4\n\nRationale: \"Extremely low liquidity and high leverage indicate high default risk.\"\n\nUnder 25 words.\n\n\"Extremely low current ratio, negative retained earnings, high debt.\" 7 words.\n\nGood.\n\nNow, final answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 3790,
+ "usd": 0.008439,
+ "utc": "2026-09-06T19:16:38.023448+00:00"
+}

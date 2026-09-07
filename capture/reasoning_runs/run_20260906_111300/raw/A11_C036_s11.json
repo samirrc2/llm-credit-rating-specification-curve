@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company shows severe liquidity issues with a current ratio of 0.79 (below 1), indicating inability to cover short-term obligations. Leverage is high, with a debt-to-equity ratio of approximately 2.74 (total liabilities / shareholders' equity = 57,973 / 21,181) and a debt-to-assets ratio of 73.2%, signaling solvency concerns. Profitability is weak relative to asset size, with an EBIT/Total Assets ratio of about 0.95%. The Altman Z-score, calculated at approximately 0.44, falls deep within the distress zone (Z < 1.81), indicating a high risk of bankruptcy. Despite a decent operating margin of 19.1%, the overall financial health is poor, warranting a low speculative-grade rating due to substantial default risk.\n\nDECISION: CCC",
+ "reasoning_tail": "igh risk.\n\nHere 0.44, so CCC.\n\nSpecifically, let's assign CCC.\n\nBut CCC has subcategories.\n\nSince EBIT is positive, not CCC- or lower.\n\nCCC- is for higher risk than CCC.\n\nCCC: Vulnerable, default possible.\n\nCCC-: Currently highly vulnerable.\n\nWith positive EBIT, perhaps CCC.\n\nBut let's compare to revenue.\n\nRevenue 3,915M, EBIT 749M, so they have operations.\n\nBut high debt.\n\nI think CCC is fine.\n\nPerhaps B-, but B is less risky.\n\nB ratings are for highly speculative, but CCC is for substantial risk.\n\nI think CCC is better.\n\nDecision: CCC\n\nBut to output exactly.\n\nThe user said \"assign the issuer a letter credit rating\" and \"choose exactly one label\".\n\nAlso, reason briefly.\n\nSo reason: The company exhibits poor liquidity with a current ratio below 1, high leverage with debt-to-equity ratio of approximately 2.74, and low profitability relative to assets. The Altman Z-score of approximately 0.44 indicates high bankruptcy risk, placing it in the distress zone.\n\nTherefore, a CCC rating is assigned, reflecting substantial credit risk and vulnerability to default.\n\nThen DECISION: CCC\n\nBut is CCC the right choice? Let me confirm the scale.\n\nThe scale given: CCC+, CCC, CCC-, etc.\n\nIn some scales, CCC is a specific rating.\n\nPerhaps I should specify.\n\nSince Z-score is very low, and no mitigating factors, CCC.\n\nAnother thing: retained earnings are high, which might suggest some financial stability, but with negative working capital, it's offset.\n\nI think CCC is appropriate.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 3797,
+ "usd": 0.008452,
+ "utc": "2026-09-06T19:29:43.908028+00:00"
+}

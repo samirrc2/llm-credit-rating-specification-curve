@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits poor liquidity with a current ratio of 0.91 (<1), indicating potential difficulty meeting short-term obligations. High leverage is evident with a debt-to-equity ratio of approximately 2.86 (computed as total liabilities / shareholders' equity = 298,517M / 104,460M) and a low return on assets of about 1.24% (EBIT / total assets = 5,004M / 404,258M). Despite substantial retained earnings, the weak liquidity and high leverage suggest a high credit risk, consistent with speculative grade.\n\nDECISION: B-",
+ "reasoning_tail": " CCC range.\n\nPerhaps B.\n\nI need to choose.\n\nLet me think of a justification.\n\nBased on poor liquidity (current ratio <1), high leverage ( D/E ~2.86), and low return on assets, the credit risk is high, indicating a speculative grade with high probability of distress.\n\nAssign a rating of B- or CCC.\n\nIn the Altman Z-score, 0.65 is below 1.8, so for public companies, Z<1.8 suggests high risk, but ratings are more nuanced.\n\nBut B or CCC.\n\nB is above CCC, with CCC being higher risk.\n\nThe scale has B+, B, B-, then CCC+, CCC, etc.\n\nSo B- is above CCC.\n\nWith such metrics, I think B- or lower.\n\nBut let's see the figures again.\n\nRetained earnings 94,744M is large, but it's cumulative, not current.\n\nPerhaps the company is like a large corporation with some issues.\n\nAnother idea: total assets 404,258M, which is very large, so it could be a major company, but with problems.\n\nI think I have to decide.\n\nI'll go with B-.\n\nOr CCC+.\n\nBut let's assign.\n\nPerhaps I can calculate the ratio for interest coverage indirectly.\n\nFrom shareholders' equity and retained earnings, net income might be derived from change, but not given, so no.\n\nI think for the purpose of this task, the credit rating should be low.\n\nFinal decision: B- \n\nWhy? Because it has positive EBIT but severe liquidity crisis and high leverage.\n\nBut the current ratio is 0.91, which is close to 1, not say 0.5, so not as critical.\n\nFor example, some companies operate with less than 1.\n\nBut generally, it's risky.\n\nI think B- is reasonable.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 244,
+ "out_tok": 4886,
+ "usd": 0.010835,
+ "utc": "2026-09-06T18:02:08.319019+00:00"
+}

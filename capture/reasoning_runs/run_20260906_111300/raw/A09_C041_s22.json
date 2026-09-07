@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Poor liquidity with current ratio 0.55 and high leverage (liabilities-to-equity 2.58), offset by strong profitability.\"}",
+ "reasoning_tail": "idity with current ratio 0.55 and high debt leverage.\"\n\nThat's under 25 words.\n\nWords: poor, liquidity, with, current, ratio, 0.55, and, high, debt, leverage. That's 10 words.\n\nYes.\n\nBut is it justified?\n\nThe operating margin is high, which could be a counter.\n\nBut in the rationale, it's short.\n\nRating: B+ is \"Highly speculative; default is a real possibility, but capacity remains.\"\n\nBB- is \"Speculative; vulnerable to adverse conditions.\"\n\nWith profits, perhaps BB-.\n\nBut current ratio very low.\n\nI found online or recall that companies with current ratio below 0.8 may be rated CCC if severe, but with other strengths higher.\n\nBut here, no other issues.\n\nFor example, Apple has high current ratio, Tesla sometimes low but strong.\n\nBased on this data, I think B+ or BB-.\n\nLet's compromise at BB-.\n\nOr B+ for emphasis on risk.\n\nThe current ratio is given as 0.55, which is alarming.\n\nIn many rating methodologies, a current ratio below 1 contributes to a lower rating.\n\nPerhaps BBB- is too high.\n\nTotal liabilities / total assets = 139758/204354 \u2248 68.4%, which is high but not extreme.\n\nCommonly, above 60-70% is high for non-financial.\n\nI think BB- or B+.\n\nI'll go with BB- and confidence 3.\n\nThen rationale: \"Weak current ratio of 0.55 and high liabilities-to-equity ratio.\"\n\n11 words.\n\nLiabilities-to-equity is 2.58, but I can omit the number.\n\n\"High leverage and poor liquidity\" 4 words.\n\nMust include key points.\n\nThe confidence: 1 low to 5 high.\n\nSince data is limited, confidence not high.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 278,
+ "out_tok": 3587,
+ "usd": 0.008008,
+ "utc": "2026-09-06T19:52:51.904223+00:00"
+}

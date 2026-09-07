@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt-to-equity ~14.5), critical liquidity shortfall (current ratio 0.63), but strong profitability offsets.\"}",
+ "reasoning_tail": "mple, Tesla in early days had low current ratio and was rated B- or something.\n\nBut Tesla had growth potential.\n\nHere, no industry, so general.\n\nWith high margins, it might be a tech company, but still.\n\nI think BBB- is investment grade lowest, but with current ratio 0.63, it can't be investment grade.\n\nAA or A is for strong companies with good liquidity.\n\nThis has good profitability but bad liquidity and high leverage.\n\nSo, likely BB or B.\n\nConfidence level: I need to assign confidence from 1 to 5.\n\nBased on the data, I have key metrics, but missing interest coverage, so confidence not high.\n\nRationale in 25 words or less.\n\nFinal decision.\n\nI think BB- or B+.\n\nLet's choose.\n\nPerhaps CCC+ because of the liquidity crunch.\n\nCCC+ is \"vulnerable, dependent on favorable conditions\"\n\nWith current ratio 0.63, it depends on rolling over debt or new financing.\n\nNet income positive, so not imminent default.\n\nSo CCC+ or B-.\n\nB- is \"highly speculative\"\n\nI think CCC+ is reasonable.\n\nBut let's see the rating scale: CCC+ is between CCC and CCC+, etc.\n\nThe scale has CCC+, CCC, CCC-.\n\nCCC+ is better than CCC.\n\nIn 21-grade scale, CCC+ is above CCC.\n\nFor this, I'll go with CCC+.\n\nRationale: \"High leverage, negative liquidity, strong profitability.\"\n\nConfidence: 3, since no debt details.\n\nBut I have to choose.\n\nAnother thing: retained earnings -5,086M, which is worse than equity, so net worth is low.\n\nBut equity is positive.\n\nI think CCC+ is appropriate.\n\nPerhaps B+.\n\nI think I'll go with CCC+.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 5038,
+ "usd": 0.011183,
+ "utc": "2026-09-06T19:36:11.452921+00:00"
+}

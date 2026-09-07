@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity, low liquidity (current ratio 0.92), high leverage indicate vulnerability to default despite positive net income.\"}",
+ "reasoning_tail": "s the negative equity and low liquidity.\n\nHence, speculative grade with high risk.\n\nRating B or CCC.\n\nI recall that BB is for issuers with moderate vulnerability, B for high vulnerability.\n\nHere, with negative equity, vulnerability is high.\n\nAlso, debt levels.\n\nPerhaps B+ is too high.\n\nLet's see: for example, in years past, companies like J.C. Penney or Sears had poor ratings when distressed.\n\nWith interest coverage of 6, they can pay interest, but principal is the issue.\n\nDebt maturity not given.\n\nBased on this, I think CCC+ or CCC.\n\nBut let's pick one.\n\nI think B- is possible.\n\nList: BBB or above is too high; no way.\n\nBB might be for borderline cases.\n\nBut here, with negative equity and current ratio below 1, it's worse than BB.\n\nBB can have positive equity and better ratios.\n\nSo, below BB.\n\nPerhaps BB-, which is B+, BB, BB-, then B+.\n\nBB- is one step above B+.\n\nScale is: BBB-, then BB+, BB, BB-, then B+, B, B-, etc.\n\nBB+ is higher than BB-, and BB- is lowest BB.\n\nThen B+ is below BB-.\n\nFor clarity:\n\nFrom high to low: AAA, AA+, ..., BBB+, BBB, BBB-, then BB+, BB, BB-, then B+, B, B-, then CCC+, CCC, CCC-, CC, C.\n\nSo, BB- is speculative, moderate risk; B is highly speculative; CCC vulnerable.\n\nWith negative equity, it should be B or lower.\n\nB- might be appropriate.\n\nBut in some cases, with strong earnings, it could be higher, but here earnings are just decent.\n\nNet margin 5.4%, so not amazing.\n\nEBIT 777M on revenue 9532M, 8% margin.\n\nBut leverage too high.\n\nI think B or B-.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 3580,
+ "usd": 0.00799,
+ "utc": "2026-09-06T19:54:26.173110+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC-\", \"confidence\": 4, \"rationale\": \"Negative equity, low current ratio (0.27), high leverage, and massive retained losses indicate severe distress.\"}",
+ "reasoning_tail": "t be positive, but liabilities are high.\n\nTotal liabilities 33,311M vs EBIT 465M, so to pay off liabilities from EBIT would take many years, but that's not how it works.\n\nInterest coverage: suppose interest expense is, say, 10% of debt, but I don't know debt amount.\n\nTotal liabilities include non-debt items like accounts payable.\n\nCurrent liabilities are 4,705M, which might include short-term debt.\n\nBut not specified.\n\nPerhaps assume that a portion is debt.\n\nBut it's messy.\n\nI think based on solvency and liquidity, the rating should be low.\n\nPerhaps CCC.\n\nBut let's see the retained earnings: -20,476M is huge, while revenue is only 1,010M, so losses are massive relative to size.\n\nThis suggests deep financial trouble.\n\nI think CCC- is appropriate.\n\nConfidence: I'd say 4, since the negative equity and low current ratio are clear distress signals, but without interest coverage, it's not perfect.\n\nRationale: \"Negative equity, low current ratio, high leverage.\"\n\nThat's concise.\n\nWord count: \"Negative equity, low current ratio, high leverage.\" 6 words.\n\nNow, for the rating: I'll go with CCC-.\n\nBut let's confirm the scale: CCC+ is better than CCC, CCC- is worse.\n\nWith such poor metrics, CCC- seems right.\n\nSome might say CC, but EBIT positive suggests not imminent default.\n\nCC is for \"highly vulnerable, very speculative bonds\", while CCC is \"currently vulnerable\".\n\nI think CCC- fits.\n\nFinal decision: CCC-\n\nConfidence: 4\n\nRationale: \"Negative equity, low current ratio, high leverage.\"\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 2710,
+ "usd": 0.006073,
+ "utc": "2026-09-06T20:05:11.991785+00:00"
+}

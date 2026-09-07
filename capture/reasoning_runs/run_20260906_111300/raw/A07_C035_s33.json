@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress, primarily due to a critically low current ratio of 0.42, indicating insufficient liquidity to cover short-term obligations, and an extremely high debt-to-equity ratio of approximately 10.25, reflecting excessive leverage. Despite a positive EBIT margin of 25%, the negative working capital and low return on assets (EBIT/total assets \u2248 0.365%) underscore high vulnerability to non-payment.\n\nDECISION: CCC",
+ "reasoning_tail": " Altman Z-score is negative, and ratios poor, CCC- might be justified.\n\nCCC- is one notch below CCC.\n\nIn the scale, CCC+ is higher than CCC, CCC- lower.\n\nWith EBIT positive, perhaps CCC.\n\nBut let's see the revenue: 49,691M, which is about $50 billion, and assets $3.4 trillion, which is unusual. Normally, companies with $3.4T assets have higher revenue, like banks, but banks have different ratios.\n\nFor example, banks have high leverage, but current ratio might not apply directly.\n\nBut here, current ratio is given, so probably not a bank, or it is.\n\nBanks have different rating criteria.\n\nBut the task doesn't specify industry, so I must use general approach.\n\nPerhaps it is a financial company, but I have to work with given figures.\n\nIn general, for any company, low current ratio and high leverage indicate high risk.\n\nSo, I think CCC rating.\n\nI'll choose CCC.\n\nBut to be precise, let's see the figures again.\n\nCurrent ratio 0.42: critically low\n\nDebt-to-equity 10.25: very high\n\nEBIT margin 25%: good but not sufficient\n\nAsset turnover low\n\nSo, overall, high credit risk.\n\nRating: CCC\n\nNow for the output, I need to reason briefly in 1-3 sentences, then DECISION: label.\n\nSo, reason: The issuer has a critically low current ratio of 0.42 and very high debt-to-equity ratio of 10.25, indicating severe liquidity issues and high financial leverage, which suggest substantial credit risk.\n\nThen DECISION: CCC\n\nBut should I use CCC or specify?\n\nSince EBIT is positive, not CC or C.\n\nCCC is fine.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 250,
+ "out_tok": 4488,
+ "usd": 0.009966,
+ "utc": "2026-09-06T19:22:07.596379+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Severe liquidity shortfall (current ratio 0.53) and high leverage offset by strong profitability.\"}",
+ "reasoning_tail": "\" , B is \"Speculative and high risk\", B- is \"Substantial credit risk\".\n\nWith coverage around 4x, it might be B+.\n\nBut liquidity is critical.\n\nIn practice, a current ratio below 1.0 can lead to downgrades to B or lower.\n\nFor example, companies in retail or other sectors with seasonal issues might have low current ratios, but here it's 0.53, which is very low.\n\nMoreover, current liabilities are 6,106M vs current assets 3,244M, so shortfall of about 2,862M, which is significant.\n\nNet income is 734M, but that's annual, so it can't cover the shortfall immediately.\n\nSo, high risk of default if not refinanced.\n\nTherefore, rating should be in the B or CCC range.\n\nBut since net income is positive, not CCC yet.\n\nCCC is for current vulnerability, like default possible within a year.\n\nHere, with positive earnings, it might not be imminent.\n\nSo, perhaps B+ or B.\n\nI think B is reasonable.\n\nConfidence: not high because of missing data, but based on given, I'll go with medium confidence.\n\nThe output needs confidence 1-5, 5 being highest.\n\nI'll say 3.\n\nRationale: \"Poor liquidity with current ratio 0.53 and high leverage.\"\n\nNow, for the rating, let's choose B.\n\nBut let's see if BB- is possible.\n\nBB- might be too high given the liquidity.\n\nBB- is the lowest BB, still speculative but less vulnerable.\n\nWith current ratio 0.53, it's more vulnerable.\n\nSo B+ or B.\n\nI think B.\n\nFinal decision: B\n\nConfidence: 3\n\nRationale: \"Severe liquidity shortfall and high leverage offset by strong profitability.\"\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 4506,
+ "usd": 0.010018,
+ "utc": "2026-09-06T19:15:41.490737+00:00"
+}

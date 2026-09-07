@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Severe liquidity crunch (current ratio 0.27), negative equity, and high leverage indicate high default risk despite positive EBIT.\"}}",
+ "reasoning_tail": ".11\n\nB = retained earnings / total assets = -20,476 / 31,391 \u2248 -0.652\n\nC = EBIT / total assets = 465 / 31,391 \u2248 0.0148\n\nD: Without market value, assume D = equity / liabilities, but equity negative, so D = -1920 / 33311 \u2248 -0.0576\n\nE = sales / total assets = 1010 / 31391 \u2248 0.0322\n\nBut Altman Z-score isn't directly applicable, but components:\n\nNegative A, negative B, low C, negative D, low E \u2192 very high bankruptcy risk, likely below 1.8, distressed.\n\nThus, poor credit rating.\n\nNow, for the rating: Since there is positive EBIT, it might not be immediate default, so CCC range.\n\nSpecific rating: I think CCC+ or CCC, but let's see the options.\n\nOptions: CCC+, CCC, CCC-, CC, C.\n\nI think CCC is appropriate.\n\nWhy not CCC- or lower? CC is for imminent default, but EBIT positive, so not imminent.\n\nC is for default or similar.\n\nRevenue covers operating expenses, but liquidity may cause issues.\n\nFinal decision: The issuer has severe liquidity issues (current ratio 0.27), negative equity, and high leverage, indicating high credit risk. The positive EBIT provides some capacity but not enough to offset the weak balance sheet.\n\nThus, I think a rating of CCC is justified.\n\nConfidence: I'd say 4, as the data clearly shows distress but not default.\n\nRationale must be <=25 words.\n\nSummarize.\n\nFirst, the label: I'll go with CCC.\n\nNow, confidence: 4 out of 5.\n\nRationale: Severe liquidity crunch and negative equity indicate high default risk despite positive EBIT.\n\nWord count: That's 9 words, good.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 2315,
+ "usd": 0.005209,
+ "utc": "2026-09-06T20:04:38.632501+00:00"
+}

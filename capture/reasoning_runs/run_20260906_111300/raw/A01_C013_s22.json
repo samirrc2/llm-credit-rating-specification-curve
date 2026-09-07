@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C013",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong profitability with 17% operating margin, adequate liquidity (current ratio 1.53), and moderate leverage (debt-to-equity ~1.18) support investment grade.\"}",
+ "reasoning_tail": "r financial institution, but for banks, credit ratings are different, and assets would be financial assets.\n\nHere, no indication.\n\nPerhaps it's a typo in the data, but I have to use it.\n\nAnother idea: diluted EPS 4.43, so shares outstanding = net income / EPS = 1,651 / 4.43 \u2248 372.7 million shares.\n\nMarket cap not given.\n\nBut not relevant for credit rating.\n\nI think I need to make a decision.\n\nLet's assign BBB+ or A-.\n\nBBB+ is good rating.\n\nOr A-.\n\nSince the operating margin is high and leverage moderate, I'll go with A-.\n\nConfidence level.\n\nRationale in 25 words.\n\nFinal decision.\n\nPerhaps from the current ratio and margins, it's solid.\n\nI recall that for some companies, with similar metrics, ratings are A.\n\nFor example, Apple has high margins, low debt, AAA, but here leverage is higher.\n\nApple has low debt.\n\nHere debt-to-equity 1.18, which is higher.\n\nBut not all liabilities are debt.\n\nAssume that credit rating is A-.\n\nOr BBB+.\n\nLet's see the scale.\n\nFinest granularity.\n\nPerhaps I can say BBB+.\n\nBut let's box it.\n\nI think I'll go with A-.\n\nRationale: Strong profitability and liquidity, moderate leverage.\n\nConfidence 3, since no debt details.\n\nConfidence on a scale of 1-5.\n\n5 is high.\n\nI'd say 3, medium.\n\nRationale: \"High operating margin, good liquidity, moderate leverage.\"\n\nUnder 25 words.\n\nSo decision: A-\n\nConfidence: 3\n\nRationale: \"Strong profitability with 17% operating margin, adequate liquidity, and reasonable leverage support investment grade rating.\"\n\n19 words.\n\nYes.\n",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 274,
+ "out_tok": 6763,
+ "usd": 0.014962,
+ "utc": "2026-09-06T17:18:09.911563+00:00"
+}

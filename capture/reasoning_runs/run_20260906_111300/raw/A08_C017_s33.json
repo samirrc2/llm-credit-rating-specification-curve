@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C017",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Moderate leverage (debt-to-equity ~1.10), strong EBIT margin (41.7%), but low estimated interest coverage (~3-4x) suggests lower investment grade.\"}",
+ "reasoning_tail": "B.\n\nWith coverage unknown, but estimated low, BBB or BB.\n\nBut EBIT is high, so I'll go with BBB-.\n\nPerhaps the issuer is in a stable industry.\n\nAnother thought: the EBIT/Revenue margin is 41.67%, which is very high, suggesting a strong competitive position, which is good for credit.\n\nSo perhaps A- or BBB+.\n\nBut leverage is moderate.\n\nLet's calculate the financial leverage: Total Assets / Equity = 171,092 / 81,292 \u2248 2.10, which is moderate.\n\nROA 4.39%, so ROE would be ROA * leverage = 4.39% * 2.10 \u2248 9.22%, which is decent.\n\nBut for credit, it's about safety.\n\nI think BBB is reasonable.\n\nBut let's choose a rating.\n\nI recall that for corporate bonds, interest coverage above 8x is strong, 5-8x good, 3-5x adequate, below 3x weak.\n\nFrom my estimation, coverage around 3-4x, so adequate to weak, so BBB or BB+.\n\nBBB is investment grade, BB+ speculative.\n\nWith high margin, it might be investment grade.\n\nPerhaps BBB-.\n\nI'll go with BBB-.\n\nConfidence 3.\n\nRationale: Moderate leverage with strong EBIT margin but estimated low interest coverage.\n\nRationale must be <=25 words.\n\nSo \"Moderate leverage, high EBIT margin, but low estimated interest coverage suggests lower investment grade.\"\n\nWords: 9 words.\n\nNow for the rating, BBB-.\n\nBut let's see if I can be finer.\n\nPerhaps BBB.\n\nBut I think BBB- is safer.\n\nAnother ratio: Retained earnings to total assets: 9,761 / 171,092 \u2248 0.057 or 5.7%, which is low, indicating less internal financing, but not critical.\n\nI think BBB- is ok.\n\nFinal decision.\n",
+ "parsed_letter": "BBB-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 253,
+ "out_tok": 5906,
+ "usd": 0.013073,
+ "utc": "2026-09-06T17:44:52.457236+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows significant credit weaknesses, including a critically low current ratio of 1.00 indicating no liquidity buffer, high leverage with liabilities nearly equaling equity (debt-to-equity ~1.00), and deeply negative retained earnings (-6,947M) reflecting a history of losses. Despite recent profitability (net income of 179M), these factors elevate default risk, placing the rating in the highly speculative B category.\n\nDECISION: B",
+ "reasoning_tail": "Operating margin positive, so it might be a temporary issue.\n\nBut based on snapshot, it's risky.\n\nI think B+ or B.\n\nLet's choose B.\n\nThe decision must be one label.\n\nPerhaps BB-.\n\nBut I think B is more appropriate.\n\nAnother way: the quick ratio or acid-test isn't given, but current assets include inventory, which might not be liquid.\n\nCurrent assets 3,857M, but no breakdown, so we assume it includes less liquid items.\n\nWith current liabilities 3,862M, it's tight.\n\nSo, I think B+ or B.\n\nI'll go with B.\n\nBut let's see the answer format.\n\nReason briefly: Due to tight liquidity (current ratio 1.00), high financial leverage (liabilities/equity ~1), and accumulated deficits (negative retained earnings), the issuer has elevated credit risk despite recent profitability.\n\nRating: B\n\nB is one of the options.\n\nB+ might be a bit higher.\n\nPerhaps BB-.\n\nBut I think B is fine.\n\nThe scale has BB+, BB, BB-, so BB- is higher than B+.\n\nOrder: BBB-, then BB+, BB, BB-, then B+, B, B-, etc.\n\nBBB- is lowest investment grade.\n\nThen BB+ (highest speculative), BB, BB-, B+, B, B-, CCC+, etc.\n\nSo BB- is better than B+.\n\nBB- is above B+.\n\nIn terms of risk, BB- has lower risk than B+.\n\nNumerically, AAA=1, AA+=2, ..., BBB-=10, BB+=11, BB=12, BB-=13, B+=14, B=15, B-=16, etc.\n\nSo BB- is 13, B+ is 14, B is 15.\n\nSo BB- is better than B+.\n\nFor this company, with current ratio 1.00, it might be B or lower.\n\nBut net income positive, so not CCC.\n\nI think B is reasonable.\n\nPerhaps B+.\n\nLet's decide.\n\nFinal answer.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 3602,
+ "usd": 0.008032,
+ "utc": "2026-09-06T19:33:16.157004+00:00"
+}

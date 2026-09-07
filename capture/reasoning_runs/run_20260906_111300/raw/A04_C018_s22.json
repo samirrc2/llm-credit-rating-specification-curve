@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt-to-equity ~26.5) and weak profitability (EBIT margin 2.1%) indicate high vulnerability.\"}",
+ "reasoning_tail": "CCC+.\n\n   Now, for  the decision, I need to choose one.\n\n   Let's list the options: B+, B, B-, CCC+, CCC, etc.\n\n   I think B or B- might be too high for such high leverage.\n\n   CCC+.\n\n   But let's see if it's investment grade. No, clearly not.\n\n   Another thing: revenue to debt ratio: revenue 22,217 / total liab 158,800 ~ 0.14, low.\n\n   But not standard.\n\n   I think I have to go with speculative gra e low end.\n\nPerhaps this is a company like GE in bad times, but GE was investment grade I think.\n\nOr Kraft Heinz with high leverage.\n\nKraft Heinz has ratings around BBB- or lower, but better numbers.\n\nIn 2019, it was downgraded to BBB- with debt/EBITDA high.\n\nBut here, EBIT 446, no da.\n\nAssume EBITDA ~ EBIT if low depreciation, or not.\n\nBut I don't know.\n\nFrom revenue, 22,217M, costs must be high.\n\nI think based on data, credit rating should be CCC+ or CCC.\n\nBut let's check the current ratio: 1.18, which is above 1, so not immediate default, so CCC+ might be appropriate.\n\nCCC+ is defined as vulnerable, dependent on favorable conditions.\n\nB- is more vulnerable, but not immediate.\n\nB- has slightly better position.\n\nI think for this, CCC+.\n\nBut earlier I thought about the size: large revenue, so perhaps not worst.\n\nBut numbers are bad.\n\nFinal decision.\n\nRationale must be <=25 words.\n\nSo let's assign.\n\nDecision: CCC+\n\nConfidence: I'm not 100% sure, but let's say 3 out of 5.\n\nRationale: Very high leverage, low profitability, and weak liquidity indicate high credit risk.\n\nNow for JSON.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 4667,
+ "usd": 0.010364,
+ "utc": "2026-09-06T17:48:45.598073+00:00"
+}

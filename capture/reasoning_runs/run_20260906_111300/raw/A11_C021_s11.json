@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C021",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company exhibits severe liquidity issues with a current ratio of 0.68 and negative working capital, indicating high short-term default risk despite moderate leverage (debt-to-equity ratio of 0.79) and strong profitability (EBIT margin of 48%). The Altman Z-score of approximately 1.45 falls within the distress zone, signaling significant bankruptcy risk. Given these factors, the issuer is assessed as highly vulnerable to non-payment, warranting a speculative grade with high risk.\n\nDECISION: B-",
+ "reasoning_tail": "due in less than a year 9,335M, so insufficient to cover from operations; needs refinancing.\n\nHence, vulnerable.\n\nRating CCC+ or CCC.\n\nI think CCC+.\n\nBut let's see the equity. Equity 31,173M, so net worth high, can support debt.\n\nBut for short-term, liquidity issue.\n\nPerhaps B-.\n\nI think I'm splitting hairs.\n\nThe finest granularity I can justify.\n\nWith the data, I think B or CCC.\n\nLet's say B-.\n\nBut B- is below B.\n\nScale: B+, B, B-.\n\nB+ is better.\n\nPerhaps from retained earnings, it's strong, but current weakness.\n\nI think the current ratio dominates for short-term risk.\n\nSo I'll go with CCC+.\n\nBut let's see if there's a standard.\n\nAnother metric: debt to capital.\n\nDebt to capital = total liabilities / (total liabilities + equity) = 24,587 / (24,587 + 31,173) = 24,587 / 55,760 \u2248 0.441, or 44.1%, which is moderate.\n\nNot helpful.\n\nI think for the rating, it's speculative with high risk, so B or CCC.\n\nLet's choose B.\n\nBut Z-score suggests distress.\n\nPerhaps BB- for the high margin.\n\nI think not.\n\nFinal decision: I'll assign B-.\n\nReason: Poor liquidity with current ratio below 1 and negative working capital, indicating high short-term default risk, despite moderate leverage and high operating margin.\n\nThen DECISION: B-\n\nBut let's see if CCC+ is better.\n\nCCC+ is for currently vulnerable.\n\nI think B- is for more vulnerable, which might fit.\n\nB- is S&P rating for highly speculative.\n\nCCC+ is for substantial risks.\n\nBut with positive EBIT, B- might be okay.\n\nI think I'll go with B-.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 5452,
+ "usd": 0.012078,
+ "utc": "2026-09-06T18:11:06.120770+00:00"
+}

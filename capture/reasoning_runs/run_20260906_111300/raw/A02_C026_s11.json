@@ -1,0 +1,22 @@
+{
+ "spec_id": "A02",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability with a high operating margin of 30% and net margin of approximately 18%, supported by solid revenue and retained earnings. However, it has elevated leverage with a debt-to-equity ratio of approximately 4.2 and a weak current ratio of 1.27, indicating significant financial risk and liquidity concerns. These factors place it in the speculative grade category, but the robust earnings provide some cushion against default risk.\n\nDECISION: BB+",
+ "reasoning_tail": "-to-capital ratio above 60% or so might be below investment grade.\n\nDebt-to-capital = debt / (debt + equity).\n\nBut I don't have debt, so use liabilities as proxy.\n\nTotal capital = liabilities + equity = 78,289 + 18,552 = 96,841M, close to assets.\n\nDebt-to-capital = 78,289 / 96,841 \u2248 80.8%, which is very high.\n\nTypically, above 50% is considered leveraged, above 60-70% might be speculative grade.\n\nFor example, BBB companies have debt-to-capital below 50% often.\n\nAA below 30%.\n\nHere 80.8% is high.\n\nWith interest coverage 5.17x, it might be BB.\n\nBB is speculative grade with moderate risk.\n\nBB+ is the highest in BB.\n\nOr BBB- if we consider coverage good.\n\nBut the low current ratio adds risk.\n\nPerhaps BBB-.\n\nI think I'm leaning towards BB+.\n\nLet's see the answer format.\n\nReason briefly in 1-3 sentences.\n\nThen DECISION: <label>\n\nSo for reason: Strong profitability with high operating and net margins, but elevated leverage with debt-to-equity ratio around 4.2 and weak current ratio of 1.27, indicating higher credit risk.\n\nTherefore, speculative grade rating.\n\nSo BB+ or BB.\n\nBB+ is one notch below BBB-.\n\nWith coverage above 5x, it might be BBB-, but leverage high.\n\nI think BB+ is reasonable.\n\nPerhaps BBB-.\n\nAnother thought: the operating margin is 30%, which is very strong, so it can support debt.\n\nBut the current ratio is a concern for short-term.\n\nIn practice, credit ratings consider the industry, but here no industry given.\n\nSo based on numbers, I'll go with BB+.\n\nFinal decision.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 5690,
+ "usd": 0.012606,
+ "utc": "2026-09-06T18:33:52.068296+00:00"
+}

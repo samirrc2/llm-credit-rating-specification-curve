@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C003",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Low leverage (debt-to-equity 0.89) and strong retained earnings, but modest liquidity (current ratio 1.32) and low ROA (2.21%).\"}",
+ "reasoning_tail": "l assume general.\n\nLet's look at the numbers: current assets 15,884M, current liabilities 12,009M, difference 3,875M, which is positive.\n\nEBIT 2,702M, which can cover interest.\n\nI think I'll go with A-.\n\nRationale: Low leverage and strong retained earnings, but moderate liquidity and low ROA.\n\nConfidence 3 out of 5, since no interest coverage.\n\nBut the task says \"finest granularity you can justify\", so I need to pick one.\n\nPerhaps AA-.\n\nBut current ratio 1.32 might be too low for AA.\n\nAA is very high.\n\nLet's see the rating scale: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, etc.\n\nI think A- is reasonable.\n\nOr BBB+.\n\nLet's calculate the debt to capital: debt/(debt+equity) = 57,549 / (57,549 + 64,923) = 57,549 / 122,472 = 0.470, so 47%.\n\nFor investment grade, below 50% is good.\n\nEBIT margin 18% is strong.\n\nRevenue size.\n\nBut ROA low.\n\nI think A-.\n\nFinal decision.\n\nRationale in 25 words.\n\nSo \"Low leverage and high retained earnings, but current ratio and ROA modest.\"\n\nConfidence 3.\n\nRating A-.\n\nBut let's see if BBB+ is better.\n\nPerhaps I can look for similar companies.\n\nBut I don't know.\n\nAnother thought: the retained earnings are 68,459M, which is larger than revenue 14,969M, so the company has accumulated profits over years.\n\nThat suggests stability.\n\nSo I think A- is fine.\n\nOr A.\n\nLet's go with A-.\n\nI think BBB+ might be too low.\n\nFor example, a company with debt-to-equity 0.89 and EBIT margin 18% should be at least A-.\n\nWith current ratio 1.32, it's not AAA.\n\nSo A-.\n\nYes.\n",
+ "parsed_letter": "A-",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 253,
+ "out_tok": 5753,
+ "usd": 0.012738,
+ "utc": "2026-09-06T16:08:22.131615+00:00"
+}

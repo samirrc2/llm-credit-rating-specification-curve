@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Negative equity and retained earnings indicate severe distress; low current ratio shows liquidity risk despite positive EBIT.\"}",
+ "reasoning_tail": "ent ratio 1.09, so they can pay, but if there's a slight downturn, they might default.\n\nBut EBIT positive, so not imminent.\n\nI think B is reasonable.\n\nFinal decision: B\n\nConfidence: 3 out of 5, since I lack some key metrics.\n\nRationale: Negative equity and retained earnings indicate high leverage and distress, despite positive EBIT.\n\nWord count: \"Negative equity and retained earnings show severe distress, low liquidity, high leverage.\" That's 8 words.\n\nNow for JSON: {\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Negative equity and retained earnings indicate high financial distress and leverage.\"}\n\nBut let's see if I can be finer.\n\nThe scale has B+, B, B-, etc.\n\nPerhaps B- because of the low current ratio.\n\nCurrent ratio 1.09 is very close to 1, which is risky.\n\nIn some criteria, current ratio below 1.2 or 1.5 is weak.\n\nHere 1.09 is poor.\n\nSo B- might be better.\n\nEBIT is decent size.\n\n2,554M EBIT on 23,078M revenue is 11% margin, not bad.\n\nBut the balance sheet drags it down.\n\nI think B is fine.\n\nOr to justify, let's say B-.\n\nBut I'll go with B.\n\nAnother thought: shareholders' equity is -9,270M, which is negative, but total assets 54,941M, so tangible assets exist, but liabilities higher.\n\nIn default, recovery might be low.\n\nRating agencies might assign CCC if default is likely, but here not necessarily.\n\nI think B is appropriate.\n\nSo, decision: B\n\nConfidence: 3\n\nRationale: \"Severe financial distress due to negative equity and retained earnings, weak liquidity.\"\n\n20 words.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3059,
+ "usd": 0.006842,
+ "utc": "2026-09-06T19:11:23.846350+00:00"
+}

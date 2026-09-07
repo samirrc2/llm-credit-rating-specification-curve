@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows high leverage with a debt-to-equity ratio of 2.47 and weak liquidity with a current ratio of 1.39, compounded by zero retained earnings indicating no accumulated profits or potential past losses. Additionally, the Altman Z-score of approximately 0.54 suggests high financial distress risk, supporting a low credit rating.\n\nDECISION: CCC",
+ "reasoning_tail": " = 0.543805\n\nYes, approximately 0.54, which is far below 1.8.\n\nSo high probability of financial distress.\n\nTherefore, credit rating should be low, CCC+ or CCC.\n\nSince retained earnings are zero, it might be even worse.\n\nBut CCC is for vulnerable to default, which fits.\n\nB- is for high speculative risk, but less immediate.\n\nHere with Z-score so low, CCC is better.\n\nPerhaps CCC+.\n\nBut I think CCC or CCC-.\n\nCCC+ is an option.\n\nThe options include CCC+, CCC, CCC-.\n\nI think CCC is fine.\n\nBut let's see if there's any positive.\n\nEBIT is positive, so not losing money currently.\n\nBut with high debt, it might be struggling.\n\nRevenue is only 9,143M with assets 73,988M, so it's underperforming.\n\nI think CCC is appropriate.\n\nFor the answer format, I need to reason in 1-3 sentences, then DECISION: label.\n\nSo reason: The issuer exhibits high financial leverage with a debt-to-equity ratio of 2.47, weak liquidity with a current ratio of 1.39, and zero retained earnings, indicating significant credit risk and potential distress, as reflected in a low Altman Z-score.\n\nThen DECISION: CCC\n\nBut CCC+ or CCC? I think CCC is fine.\n\nPerhaps B- , but Z-score suggests worse.\n\nAnother thing: the scale has 21 grades, so I need finest granularity I can justify.\n\nWith the data, CCC might be justified.\n\nPerhaps BB- , but that seems too high.\n\nLet's compare to typical companies.\n\nFor example, a company with debt/EBITDA of 6x might be B, but here I don't have.\n\nI think CCC is reasonable.\n\nSo I'll go with CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 238,
+ "out_tok": 4738,
+ "usd": 0.010507,
+ "utc": "2026-09-06T18:30:11.526057+00:00"
+}

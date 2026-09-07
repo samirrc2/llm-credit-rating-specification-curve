@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Severe liquidity (current ratio 0.79), excessive leverage (debt/EBIT ~77), and weak profitability (ROA ~1%) indicate high default risk.\"}",
+ "reasoning_tail": "mes interest earned <1 means operating income doesn't cover interest, high default risk.\n\nTherefore, based on implied interest coverage, it's very poor.\n\nSo, rating should be CCC or lower.\n\nNow, between CCC+, CCC, CCC-, CC, C.\n\nCCC is \"currently vulnerable\", CC is \"highly vulnerable\", C is \"imminent default\".\n\nWith current ratio 0.79, it might be imminent, but equity is positive, so probably not C.\n\nRetained earnings large, so perhaps CCC.\n\nBut let's see the exact scale.\n\nI think CCC is appropriate.\n\nConfidence: Since I have to infer interest coverage, but ratios are clear, confidence 4.\n\nRationale: Poor liquidity, high leverage, low profitability.\n\nWord count: \"Poor liquidity, high leverage, low profitability\" is 5 words.\n\nFinal answer.\n\nThe JSON format: {\"decision\": \"<one label>\", \"confidence\": <integer 1-5>, \"rationale\": \"<=25 words\"}\n\nSo, decision: CCC\n\nConfidence: 4\n\nRationale: \"Severe liquidity issues, excessive debt, and weak profitability indicate high default risk.\"\n\nCount: \"Severe liquidity issues, excessive debt, and weak profitability indicate high default risk.\" That's 9 words.\n\nUnder 25.\n\nI could include the current ratio and debt/EBIT.\n\nBut concise.\n\nAnother label: BBB- is investment grade, but with these ratios, no way.\n\nBB is speculative, but still, Debt/EBIT 77 is too high.\n\nFor BB, Debt/EBITDA might be 3-5, here it's 77, so much worse.\n\nSo, CCC.\n\nPerhaps CCC+ or CCC-.\n\nBut I think CCC is fine.\n\nSince Altman Z-score is very low, distress.\n\nI'll go with CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 3576,
+ "usd": 0.007974,
+ "utc": "2026-09-06T19:29:39.656935+00:00"
+}

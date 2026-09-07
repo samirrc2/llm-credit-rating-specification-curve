@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C010",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Estimated interest coverage ratio of 1.6x indicates high credit risk.\"}",
+ "reasoning_tail": "o not capital-intensive.\n\nRevenue 5,638M, assets 51,799M, turnover 0.11, very low, which suggests that revenue might be quarterly.\n\nFor example, if quarterly revenue 5,638M, annual 22,552M, turnover 22,552 / 51,799 \u2248 0.435, still low but possible.\n\nIf annual revenue 5,638M, assets 51,799M, turnover 0.11, very low, like a utility or something, but operating margin 44% high, inconsistent.\n\nHigh operating margin suggests low capital intensity, like tech, so high turnover.\n\nFor tech, revenue/assets around 0.5 to 1, so if assets 51,799M, revenue should be higher if annual.\n\nDiluted EPS 1.3, if annual, very low, but not impossible.\n\nBut in context, I think it's quarterly.\n\nMoreover, the filing date is 2026-02-24 for 2025 Q4, so likely quarterly report.\n\nSo, I'll stick with quarterly.\n\nThus, coverage low.\n\nSo rating B.\n\nConfidence 3.\n\nRationale: Low interest coverage and high financial leverage implied.\n\nBut leverage is moderate.\n\nDebt to equity 0.74, not high.\n\nBut coverage low due to high interest expense.\n\nSo, B+.\n\nLet's choose B+.\n\nOr B.\n\nI think B is more appropriate.\n\nLabel: B\n\nConfidence: 3\n\nRationale: Estimated interest coverage ratio of 1.6x indicates high credit risk.\n\nUnder 25 words.\n\n\"Estimated interest coverage ratio of 1.6x indicates high credit risk.\" 7 words.\n\nGood.\n\nBut is it B or B-?\n\nB is for \"more vulnerable to adverse business conditions\" with coverage 1.25-1.75x.\n\nB- is 1.0-1.25x.\n\nHere 1.6, so B.\n\nB+ is 1.75-2.25, so 1.6 is below, so B.\n\nYes.\n\nFinal decision.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 274,
+ "out_tok": 5559,
+ "usd": 0.012325,
+ "utc": "2026-09-06T17:04:25.078488+00:00"
+}

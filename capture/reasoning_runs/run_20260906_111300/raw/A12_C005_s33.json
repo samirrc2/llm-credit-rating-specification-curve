@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High debt-to-equity (3.83) indicates significant leverage risk, but strong EBIT margin (47.6%) provides some profitability cushion.\"}",
+ "reasoning_tail": "le.\n\nBut let's see if there's a standard.\n\nPerhaps from the data, total assets 114,935M, revenue 17,601M, so it's not a high-turnover business, but high margin.\n\nFor credit, it might be ok.\n\nI recall that credit ratings for corporates often have EBIT coverage for BB around 2-3x.\n\nFor B, below 2x.\n\nFrom my earlier estimation, coverage around 2.36x at 5% interest, which is between 2 and 3, so BB.\n\nIf I assume less debt, coverage higher.\n\nSuppose only long-term liabilities are debt, 50,944M, interest at 5% = 2,547.2M, coverage = 8,386 / 2,547.2 \u2248 3.29x, which is good for investment grade.\n\nBut current liabilities include short-term debt, so probably not.\n\nCurrent liabilities could have interest-bearing items.\n\nBut not specified.\n\nSo on average, coverage around 2.5x, which is BB territory.\n\nWith high margin, BB+ or BB.\n\nZ-score low, but for rating, BB.\n\nBB is Ba2 or something.\n\nIn S&P, BB+ is below investment grade.\n\nLet's assign BB.\n\nThen confidence.\n\nBut the Z-score is 1.05, which is very low; companies with Z<1.8 are often in distress.\n\nFor example, Z<1.8 might be CCC or lower.\n\nBut this company has positive earnings, so not that bad.\n\nPerhaps B-.\n\nI think I'm overcomplicating.\n\nPerhaps for this exercise, the rating is B.\n\nLet's see the answer.\n\nAnother thought: retained earnings are high, which for Altman is a positive, but in this case, it's not enough.\n\nPerhaps the company is in a high-margin industry like tech, but not specified.\n\nI think I'll go with B+.\n\nFinal decision.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 5951,
+ "usd": 0.013177,
+ "utc": "2026-09-06T16:35:09.785282+00:00"
+}

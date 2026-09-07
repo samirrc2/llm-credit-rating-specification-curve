@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company exhibits severe liquidity issues with a current ratio of 0.35, indicating it cannot cover short-term obligations with current assets alone, and high leverage (debt-to-equity ratio of approximately 8.09) suggests significant solvency risk. Although profitability metrics like the 32% operating margin and 85% gross margin are strong, they are insufficient to mitigate the acute financial vulnerabilities, pointing to a high default risk under adverse conditions. This aligns with a CCC rating, indicating current vulnerability and dependence on favorable conditions.\n\nDECISION: CCC",
+ "reasoning_tail": " to economic downturns.\n\n2. Poor liquidity: current ratio of 0.35 suggests severe liquidity constraints, with current liabilities significantly exceeding current assets, indicating potential difficulty in meeting short-term obligations.\n\n3. Strong profitability: high gross and operating margins provide some cash flow generation ability, but not sufficient to overcome the liquidity and solvency issues in the short term.\n\nTherefore, the issuer is currently vulnerable and warrants a speculative grade with high risk, likely in the CCC category.\n\nChoose from: CCC+, CCC, CCC-, etc.\n\nI think CCC is fine, or CCC+.\n\nBut with no improvement, perhaps CCC is adequate.\n\nCCC+ might be for slightly better.\n\nI'll go with CCC.\n\nThe exact label.\n\nList: CCC+, CCC, CCC-, CC, C.\n\nCCC is between.\n\nFor instance, if it were slightly better, B, but not.\n\nI think CCC.\n\nFinal answer.\n\nReason briefly: The extremely low current ratio of 0.35 indicates acute liquidity risk, while high leverage (debt/equity ~8) poses solvency concerns. Despite strong profitability, these factors suggest high default risk under adverse conditions.\n\nRating: CCC\n\nThen \"DECISION: CCC\"\n\nBut CCC is on the scale.\n\nScale: CCC+, CCC, CCC-\n\nCCC might be acceptable, but usually specified.\n\nIn the list, it's CCC+, CCC, CCC-, so CCC might not be listed alone? No, in the scale given: \"CCC+, CCC, CCC-\", so CCC is part of it.\n\nSimilarly, AAA, AA+, etc., so CCC is a specific grade.\n\nYes.\n\nSome scales have CCC as distinct.\n\nSo I think CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 267,
+ "out_tok": 4144,
+ "usd": 0.009222,
+ "utc": "2026-09-06T19:09:43.408815+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB+\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity ~10) and poor liquidity (current ratio 0.42) despite solid profitability (operating margin 25%) indicate speculative grade risk.\"}",
+ "reasoning_tail": "verage high.\n\nSo I think BB+ is reasonable.\n\nBB+ is speculative grade with highest spec grade.\n\nOr BBB- with confidence low.\n\nThe confidence scale is 1 to 5, 5 highest.\n\nI'd say confidence 3, as we have limited data on coverage.\n\nFinal decision.\n\nRationale in 25 words.\n\nSo, let's say BB+.\n\nOr think about the figures.\n\nTotal shareholders' equity is 303,243M, but current liabilities are 2,559,605M, which are due within year, but equity is not to cover short-term obligations; long-term assets can be used.\n\nThe current assets are 1,067,083M, so for short-term, only those can cover.\n\nWith current ratio 0.42, long-term assets would need to be sold to cover, but long-term assets  total assets 3,410,394M - current assets 1,067,083M = 2,343,311M long-term assets.\n\nBut selling long-term assets like PP&E may not be easy.\n\nWith good cash flow, it might be okay, but rating agencies might downgrade for liquidity.\n\nIn this case, I think BB+ is the best fit.\n\nOr B+.\n\nBut let's not go too low.\n\nAA for Apple is with better ratios.\n\nHere, similar to companies with BB rating.\n\nI recall that as of recent, S&P has ratings like for AT&T BBB, with better ratios.\n\nAT&T leverage high, but current ratio above 0.5.\n\nHere 0.42, so BB+.\n\nI think I'll go with BB+\n\nConfidence 3.\n\nRationale: High leverage and poor liquidity despite good profitability.\n\nLess than 25 words.\n\n\"High debt, low liquidity, good margins suggest BB+ rating.\"\n\nBut the task is to assign based on the information.\n\nFinal answer in JSON.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 277,
+ "out_tok": 5802,
+ "usd": 0.012859,
+ "utc": "2026-09-06T19:22:06.395989+00:00"
+}

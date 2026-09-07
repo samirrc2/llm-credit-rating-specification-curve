@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 2, \"rationale\": \"High leverage, poor liquidity, and retained earnings deficit outweigh strong current profitability.\"}",
+ "reasoning_tail": "nt ratio 0.63, it's a liquidity crisis sign.\n\nSo I think B or B-.\n\nB- is below B.\n\nLet me google in mind; in practice, ratings like CCC are for near default.\n\nHere, the company is profitable, so not near default.\n\nB rating: issuer is vulnerable but has capacity o pay short-term.\n\nWith low current ratio, it may struggle with short-term paym ents.\n\nBut net income can cover if converted to cash.\n\nNot sure.\n\nPerhaps B+.\n\nI found a better way: look at the retained earnings deficit.\n\nRetained earnings -5,086M, while equity is 3,652M, so the deficit is larger than the equity, meaning that the company has lost more than the initial investment, so it's fragile.\n\nThat points to lower rating.\n\nI think B- or CCC+.\n\nBut let's see the fiscal year: 2025 Q4, filed 2026, so current.\n\nDecide on B+ with lower confidence.\n\nOr B.\n\nI think B is more likely for such profile.\n\nFor example, companies like Tesla or others had low ratings when highly leveraged.\n\nBut with good profits.\n\nAnother metric: debt/EBITDA, but missing.\n\nEstimated: if EBIT 1,161, assume EBITDA similar, say 1,200M, total liabilities 52,835, so Liabilities/EBITDA = 44, which is very high,  typical for low ratings.\n\nYes, for example, liabilities/EBITDA above 10 is high for investment grade, above 20 very high  for BB,  44 could be C or B territory.\n\nWith interest coverage, no.\n\nI think B or B-.\n\nChoose B.\n\nconfidence 2.\n\nrationale: \"High leverage and low liquidity despite strong 2025 profitability.\"\n\nunder 25 words.\n\nNow for JSON.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 276,
+ "out_tok": 4213,
+ "usd": 0.009378,
+ "utc": "2026-09-06T19:38:19.063372+00:00"
+}

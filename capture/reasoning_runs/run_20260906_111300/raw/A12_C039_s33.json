@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Extreme leverage (13.5x D/E), negative working capital, negligible EBIT/revenue to cover liabilities.\"}",
+ "reasoning_tail": "ully service this mountain of liabilities. I recall that Altman's Z-score for bankruptcy (though I don't have all inputs here) would likely place this near \"distress\" territory just from these ratios. \n\nComparable cases: I think of companies like Hertz or JC Penney before bankruptcy\u2014D/E ratios around 8-12 before filing. This company's metrics are equally dire. Current liabilities outweighing assets means operational cash flow can't cover ongoing payments without refinancing or asset liquidation. Refinancing would be nearly impossible at viable rates given risks.\n\nTherefore, this company seems perched on the edge of default. CCC ratings denote current vulnerability default events occurring with little \"wiggle room\" financially. The inability to pay short-term debts without restructuring, combined with inadequate earnings against debt loads, fits CCC+/CCC/CCC- range. Since EBIT exists but coverage is negligible, CCC+ might be too optimistic. At the same time, retained earnings show at least some cushion that prevents CC/C ratings. \n\nAfter balancing the extreme negative factors and minimal positive buffers, the company likely belongs in CCC category. The precise notch within CCC is tricky here, but either CCC or CCC- fits best. The liquidity crunch (current ratio below 1) with such high leverage especially pushes toward CCC. \n\nFinal decision: CCC. Confidence is moderate (3/5) since limited data prevents precise distress timing prediction, but the metrics scream severe distress.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 1053,
+ "usd": 0.002456,
+ "utc": "2026-09-06T19:41:56.463474+00:00"
+}

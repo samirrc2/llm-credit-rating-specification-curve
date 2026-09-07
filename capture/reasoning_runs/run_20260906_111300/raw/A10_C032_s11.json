@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C032",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability with high gross and operating margins (85% and 32%, respectively), but this is overshadowed by severe liquidity and leverage issues. The current ratio of 0.35 indicates critical short-term liquidity risk, as current assets cover only 35% of current liabilities, and the debt-to-equity ratio of approximately 8.1 suggests excessive leverage. Additionally, the estimated interest coverage ratio of around 2.5 (based on implied interest expense) is weak, further indicating vulnerability to financial distress despite solid earnings.\n\nDECISION: B-",
+ "reasoning_tail": "or debt payment.\n\nFinal decision: I think the rating should be B- or CCC+.\n\nBut let's choose one.\n\nReason briefly.\n\nReason: Extremely poor liquidity with current ratio of 0.35 indicates high risk of default on short-term obligations. High leverage with debt-to-equity ratio of approximately 8:1 and estimated interest coverage around 2.5 further weakens credit profile, despite strong profitability margins.\n\nSo, speculative grade, likely B or lower.\n\nOn the scale: BB+, BB, BB-, B+, B, B-, CCC+, etc.\n\nB+ might be too high; B or B-.\n\nCCC is for companies vulnerable to default, which this might be due to liquidity.\n\nBut with profitability, it might be able to refinance.\n\nStill, current ratio 0.35 is critical.\n\nPerhaps it's a mistake, or industry-specific.\n\nBut with data given, I think B- is appropriate.\n\nLet me assign.\n\nDECISION: B-\n\nBut let's confirm the scale: B- is one of the options.\n\nYes.\n\nPerhaps CCC+.\n\nBut I think B- is reasonable.\n\nAnother way: the current ratio is so low that it might be in distress, so CCC+.\n\nBut retained earnings are high, so it has a cushion, but equity is not liquid.\n\nShareholders' equity is 33,995M, but current liabilities are 159,640M, so even if sold all assets, it might not cover, but assets include long-term.\n\nTotal assets 308,894M > liabilities 274,899M, so solvent, but illiquid.\n\nIn the short term, it can't pay current liabilities without new financing.\n\nSo credit rating should reflect that.\n\nI think CCC+ or B-.\n\nI'll go with B-.\n\nFinal answer.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 3842,
+ "usd": 0.00856,
+ "utc": "2026-09-06T19:09:32.503592+00:00"
+}

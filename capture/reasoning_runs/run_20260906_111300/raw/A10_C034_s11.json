@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability with a high operating margin of 41% and positive net income of 734M, which supports debt servicing capacity. However, it faces severe liquidity issues with a current ratio of 0.53, indicating insufficient short-term assets to cover current liabilities, and high leverage evidenced by a debt-to-equity ratio of approximately 3.4. Additionally, negative retained earnings of -12,237M reflect historical losses, compounding credit risk and suggesting financial instability. These factors outweigh the profitability strengths, placing the issuer in speculative grade territory.\n\nDECISION: BB-",
+ "reasoning_tail": "let's see if there's a standard way.\n\nI recall that for corporate bonds, a current ratio below 1 can indicate distress.\n\nFor example, companies in financial trouble often have current ratios below 1.\n\nHere, net income is positive, so not immediate distress, but risk.\n\nPerhaps BB-.\n\nI think I'll go with BB-.\n\nBut let's see the answer format.\n\nI need to reason briefly.\n\nReason: The company exhibits strong profitability with a 41% operating margin, but it has very weak liquidity as indicated by a current ratio of 0.53 and high leverage with a debt-to-equity ratio of approximately 3.4. Additionally, negative retained earnings of -12,237M suggest historical losses, increasing credit risk.\n\nTherefore, a speculative grade rating is appropriate.\n\nFor granularity, BB- seems reasonable.\n\nBBB- might be possible if liquidity is temporary, but no indication.\n\nSo I'll say BB-.\n\nBut let's confirm the debt-to-equity.\n\nTotal liabilities / equity = 43,578 / 12,807 = 3.40, yes.\n\nIn credit terms, debt-to-EBITDA is key, but EBITDA not given.\n\nOperating income 1,307M.\n\nIf I assume all liabilities are debt, debt/EBIT = 43,578 / 1,307 \u2248 33.3, which is astronomical, but that's not accurate because liabilities include non-debt items.\n\nFor example, accounts payable don't have interest.\n\nSo it's better to stick with what I have.\n\nPerhaps the rating is B+.\n\nI found a guideline online in my mind: for current ratio below 1, ratings often fall to B or CCC.\n\nBut I think for this, BB- is ok.\n\nFinal decision.\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 3859,
+ "usd": 0.008596,
+ "utc": "2026-09-06T19:18:02.840019+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C044",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Severe negative equity and critically low current ratio indicate high default risk despite profitability.\"}",
+ "reasoning_tail": "w compared to liabilities.\n\nShare price not given, so EPS alone doesn't help.\n\nI think CCC+ is reasonable.\n\nBut let's confirm the rating.\n\nPerhaps B- , but liquidity is critical.\n\nB- is \"substantial credit risk\" but might be higher than CCC.\n\nIn terms of hierarchy, CCC is below B.\n\nB- is above CCC+.\n\nOrder: BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is better than CCC+.\n\nB- : substantial risks, but capacity to meet commitments.\n\nCCC+ : currently vulnerable, with reliance on favorable conditions.\n\nWith current ratio 0.27, it's vulnerable to any creditor action.\n\nSo CCC+ might be better.\n\nI recall that ratings below B are for very high risk.\n\nFor example, companies with liquidity issues often get CCC.\n\nNet income positive might prevent C rating.\n\nRetained earnings negative but improving? Not necessarily, since it's cumulative.\n\nRevenue 1,010M Q1, net income 151M, so profitable, but balance sheet weak.\n\nStill, the low current ratio is alarming.\n\nI think CCC+ is appropriate.\n\nConfidence: 3 out of 5, since I don't have full cash flow or industry context.\n\nRationale: \"Severe negative equity and critically low liquidity despite profitability.\"\n\nThat's 8 words.\n\nNow, for the JSON response.\n\nDecision: CCC+\n\nConfidence: 3\n\nRationale: \"Severe negative equity and critically low liquidity despite profitability.\"\n\nBut let's see if CCC is better.\n\nCCC: vulnerable, dependent on favorable conditions.\n\nSimilar.\n\nPerhaps CCC+ to be precise.\n\nSince CCC+ is available.\n\nFinal answer.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 263,
+ "out_tok": 2532,
+ "usd": 0.00569,
+ "utc": "2026-09-06T20:04:16.911476+00:00"
+}

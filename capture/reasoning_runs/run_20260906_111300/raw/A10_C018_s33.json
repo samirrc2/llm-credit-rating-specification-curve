@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C018",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The company demonstrates critical weaknesses in its financial position: extreme leverage with a debt-to-equity ratio of approximately 26.5 (total liabilities of 158,800M versus equity of 5,987M), weak profitability evidenced by a net loss of -4M and thin operating margin of 2%, and strained liquidity with a current ratio of only 1.18. These factors indicate high vulnerability to default and dependence on favorable conditions to meet obligations, aligning with a CCC rating due to the substantial credit risk.\n\nDECISION: CCC",
+ "reasoning_tail": "ed earnings are an accounting measure, not cash.\n\nBut it shows past profitability.\n\nCurrent quarter loss.\n\nI think CCC+.\n\nBut let's check the options.\n\nThe labels include CCC+, CCC, CCC-.\n\nCC is for very high risk, near default.\n\nC for default imminent.\n\nNot here.\n\nSo CCC+ or CCC.\n\nI'll go with CCC.\n\nReason: Extremely high leverage with debt-to-equity ratio of approximately 26.5, weak profitability with a net loss, and tight liquidity with a current ratio of 1.18, indicating significant credit risk and vulnerability to adverse conditions.\n\nThen DECISION: CCC\n\nBut CCC+ is slightly better.\n\nCCC+ is the highest in CCC range.\n\nBut with these numbers, CCC might be fine.\n\nPerhaps B-.\n\nI recall that companies like some highly leveraged firms have ratings in B or CCC.\n\nFor example, Tesla at some point had B rating, but with better metrics.\n\nHere, worse.\n\nAnother thing: the company has filed this, so it's ongoing.\n\nBut based on data, I think CCC.\n\nLet's see the answer format.\n\nI need to reason in 1-3 sentences.\n\nSo: The company exhibits severe financial leverage with a debt-to-equity ratio of 26.5, coupled with a net loss and a weak current ratio of 1.18, suggesting high default risk and dependence on favorable conditions for debt servicing.\n\nTherefore, a CCC rating is assigned.\n\nCCC or CCC+?\n\nCCC+ is \"CCC High\" essentially.\n\nBut in the scale, CCC+ is above CCC.\n\nCCC+ might be for slightly better situations.\n\nHere, it's bad.\n\nPerhaps CCC.\n\nI think CCC is appropriate.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 261,
+ "out_tok": 4169,
+ "usd": 0.009274,
+ "utc": "2026-09-06T17:51:32.360445+00:00"
+}

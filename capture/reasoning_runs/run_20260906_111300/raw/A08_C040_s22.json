@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Current ratio 0.63 indicates severe liquidity crisis; high leverage (debt-to-equity 2.71) and Altman Z-score ~0.30 signal distress.\"}",
+ "reasoning_tail": "onds to ratings B or lower.\n\nFor example, CCC rated companies have Z-scores around 0 or negative.\n\nHere Z=0.3, so CCC.\n\nBut let's confirm calculation.\n\nWorking Capital / TA = (12,208 - 19,405)/192,293 = (-7,197)/192,293 = -0.03743\n\nRetained Earnings / TA = 4,718 / 192,293 = 0.02453\n\nEBIT / TA = 2,334 / 192,293 = 0.01214\n\nMarket Value / Liabilities: assumed book equity / liabilities = 51,462 / 139,666 = 0.3684\n\nSales / TA = 8,669 / 192,293 = 0.04508\n\nZ = 1.2*(-0.03743) + 1.4*0.02453 + 3.3*0.01214 + 0.6*0.3684 + 1.0*0.04508\n\nCalculate step by step:\n\n1.2 * -0.03743 = -0.044916\n\n1.4 * 0.02453 = 0.034342\n\n3.3 * 0.01214 = 0.040062\n\n0.6 * 0.3684 = 0.22104\n\n1.0 * 0.04508 = 0.04508\n\nSum: -0.044916 + 0.034342 = -0.010574\n\n-0.010574 + 0.040062 = 0.029488\n\n0.029488 + 0.22104 = 0.250528\n\n0.250528 + 0.04508 = 0.295608 \u2248 0.30\n\nYes, Z=0.30\n\nIn Altman's model, Z < 1.81 indicates distress, and values below 1.0 are severe.\n\nFor ratings, CCC is common for such scores.\n\nMoreover, current ratio 0.63 is critical.\n\nSo I think rating should be CCC or lower.\n\nBut EBIT is positive, so not CC or C yet.\n\nCCC+ or CCC.\n\nThe scale has CCC+, CCC, CCC-.\n\nPerhaps CCC.\n\nConfidence: since I used a model, but with assumption on market value, confidence might be 3 or 4.\n\nRationale: \"Severe liquidity crisis and high leverage indicate distress.\"\n\nNow, for the JSON response.\n\nDecision: CCC\n\nConfidence: 4 (since Altman Z-score is a standard model, but assumption on market value)\n\nRationale: <=25 words.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 3896,
+ "usd": 0.008671,
+ "utc": "2026-09-06T19:47:07.771189+00:00"
+}

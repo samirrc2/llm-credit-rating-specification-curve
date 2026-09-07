@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C004",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the key factors considered are liquidity, leverage, and profitability. The current ratio of 2.04 indicates strong short-term liquidity, and the debt-to-equity ratio of approximately 0.70 (calculated as total liabilities / shareholders' equity = 58,979M / 84,113M) suggests low leverage, which is positive. However, profitability is weak, with an EBIT margin of about 4.2% (EBIT / revenue = 941M / 22,387M) and a return on assets (ROA) of approximately 0.65% (EBIT / total assets = 941M / 143,724M), which are below typical investment-grade standards. Retained earnings of 39,480M provide historical strength but do not fully offset the current year's poor profitability. Given the low profitability despite solid liquidity and leverage, the issuer falls into the lower end of investment grade, consistent with BBB- ratings that indicate adequate capacity but susceptibility to adverse conditions.\n\nDECISION: BBB-",
+ "reasoning_tail": "\n\nEBIT 941M, assume EBITDA 1,200M (adding depreciation).\n\nThen Debt/EBITDA = 30,000/1,200 = 25, which is very high.\n\nIf EBITDA is higher, but revenue is 22,387M, EBIT 941M, so operating expenses 21,446M, which may include depreciation.\n\nDepreciation could be large.\n\nFor example, if depreciation is 2,000M, then EBITDA 2,941M, then Debt/EBITDA = 30,000/2,941 \u2248 10.2, which is for B rating.\n\nIf depreciation is 4,000M, EBITDA 4,941M, Debt/EBITDA 6.07, for B or CCC.\n\nBut depreciation can't be that high; revenue is 22,387M, EBIT 941M, so EBITDA must be between 941M and 22,387M, but typically, for capital-intensive, depreciation might be 5-10% of assets.\n\nAssets 143,724M, 5% depreciation 7,186M, then EBITDA 941 + 7,186 = 8,127M.\n\nThen if debt 30,000M, Debt/EBITDA = 30,000/8,127 \u2248 3.69, which is around BBB.\n\nIf debt 40,000M, Debt/EBITDA 4.92, for BB.\n\nBut what is actual debt? Unknown.\n\nWith total liabilities 58,979M, let's say debt is 40,000M.\n\nThen Debt/EBITDA 40,000/8,127 \u2248 4.92, BB range.\n\nEBIT coverage: if interest rate 5%, interest 2,000M, EBIT 941M, coverage 0.47, very low.\n\nWith EBITDA 8,127M, interest coverage 4.06, which is for BBB- or BB+.\n\nAround 4x is BBB-.\n\nFor example, coverage 4-6x for BBB.\n\nHere approximately 4, so BBB-.\n\nSimilarly, Debt/EBITDA 4.92, for BB+ or BBB-.\n\n4.92 is high for BBB-; BBB- might be 3-4x, BB 4-5x.\n\nSo borderline.\n\nBut with good liquidity and low leverage ratio, it might be BBB-.\n\nI think I'll go with BBB-.\n\nSo the rating is BBB-.\n\nFinal decision.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 249,
+ "out_tok": 6168,
+ "usd": 0.013645,
+ "utc": "2026-09-06T16:30:10.422432+00:00"
+}

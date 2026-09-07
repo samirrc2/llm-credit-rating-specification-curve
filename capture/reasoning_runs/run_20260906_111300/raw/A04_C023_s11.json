@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C023",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"Extremely high leverage (debt-to-equity ~6), weak liquidity (current ratio 1.04), and implied EBIT interest coverage below 1 indicate high default risk.\"}",
+ "reasoning_tail": "es like this, ratings are low.\n\nBut I need to choose.\n\nLet's see the retained earnings: 87,663M, which is large, but since it's part of equity, and equity is low, it's confusing.\n\nShareholders' equity is 18,677M, retained earnings 87,663M, so other equity must be negative, like -69,000M or something, which is likely treasury stock, meaning the company has bought back a lot of shares, reducing equity and increasing leverage.\n\nThis is negative for creditors.\n\nSo, financial policy is aggressive.\n\nTherefore, credit rating should reflect high risk.\n\nI think CCC+ is appropriate.\n\nBut let's see the options.\n\nValid answers: CCC+, CCC, CCC-, etc.\n\nCCC+ is above CCC.\n\nWith Z-score 1.215, it's distress, so CCC range.\n\nEBIT coverage less than 1 if interest is moderate.\n\nSo, I'll go with CCC+.\n\nBut confidence level.\n\nRationale in 25 words.\n\nFirst, decision.\n\nPerhaps B- is too high.\n\nAnother thought: EBIT / Revenue is good, so if revenue is stable, it might be okay, but leverage is extreme.\n\nI think CCC+.\n\nFinal decision.\n\nThen confidence: how sure am I? Not very, since estimates, but based on data, I'll say confidence 3.\n\nRationale: \"High leverage, low liquidity, weak interest coverage implied.\"\n\nUnder 25 words.\n\n\"High debt-to-equity, low current ratio, EBIT insufficient for likely interest, indicating high default risk.\"\n\n20 words.\n\nFor rating, CCC+.\n\nBut let's see if BB- is possible, but I think not.\n\nBB is for less vulnerable.\n\nHere, with current ratio 1.04, it's vulnerable.\n\nSo CCC+.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 260,
+ "out_tok": 5231,
+ "usd": 0.011599,
+ "utc": "2026-09-06T18:18:06.129158+00:00"
+}

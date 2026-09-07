@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "As a credit rating analyst, the company exhibits severe financial weaknesses: the current ratio of 0.53 indicates acute liquidity stress, as current liabilities exceed current assets by approximately 50%, raising immediate default risks. Negative retained earnings of -12,237M suggest significant cumulative losses, eroding equity, and high leverage (liabilities-to-equity ratio of approximately 3.4) amplifies solvency concerns despite a positive EBIT margin around 41%. Considering historical knowledge predating the year, such persistent issues typically place firms in highly speculative, high-risk categories. Based on this, the issuer falls into the CCC range due to the urgent vulnerability and reliance on favorable conditions to meet obligations.\n\nDECISION: CCC",
+ "reasoning_tail": "ve, indicating high bankruptcy risk.\n\nSo credit rating should be low.\n\nOn the scale, B or below seems possible.\n\nLet's think about the exact rating.\n\nPossible ratings:\n\nCCC to C for high risk.\n\nBut EBIT is positive, so not immediately bankrupt.\n\nRevenue is positive, but low.\n\nShareholders' equity is positive 12,807M, but with total liabilities 43,578M, so leverage is 43,578 / 12,807 \u2248 3.4x, which is high.\n\nDebt to equity of 3.4 is common for BB or B rated companies, but combined with negative retained earnings and low current ratio.\n\nRetained earnings negative is a big issue for ratings.\n\nCredit rating agencies view negative retained earnings as a sign of inherent weakness.\n\nFor instance, companies with negative retained earnings are often rated below investment grade.\n\nInvestment grade is BBB- and above.\n\nSo probably speculative grade, BB or lower.\n\nCurrent ratio 0.53: I need to see if this is typical for the industry, but no industry given.\n\nAssume it's not.\n\nPerhaps this is a company that has experienced losses.\n\nAnother metric: the Z-score suggests distress.\n\nLet me assign a rating.\n\nBased on the data, I would say a CCC rating.\n\nBut let's see the granularity.\n\nThe scale has CCC+, CCC, CCC-, etc.\n\nWith EBIT positive, it might be CCC+ or CCC.\n\nBut liquidity is poor.\n\nDecision: I think CCC is appropriate.\n\nReason: weak liquidity with current ratio below 1, negative retained earnings indicating cumulative losses, high leverage, but with some profitability.\n\nIn 1-3 sentences.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 253,
+ "out_tok": 2811,
+ "usd": 0.006295,
+ "utc": "2026-09-06T19:17:33.517795+00:00"
+}

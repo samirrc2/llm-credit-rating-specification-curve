@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided data, the issuer exhibits severe financial strain, including a low current ratio of 0.83 indicating liquidity issues, extremely high leverage with a debt-to-equity ratio of approximately 13.5x, and weak earnings relative to assets (EBIT/Total Assets \u2248 0.32%). Retained earnings are substantial but insufficient to offset the high default risk, as implied by poor interest coverage (estimated EBIT/interest well below 1.0 given total liabilities). These characteristics are consistent with speculative-grade ratings, specifically at the lower end nearing distress.\n\nDECISION: CCC",
+ "reasoning_tail": " of liabilities are interest-bearing,  interest expense ~ (0.5*1,684,348)*0.03 = (842,174)*0.03 = 25,265.22M, which is >> 5,855M, so interest coverage <1, meaning unable to cover interest from earnings.\n\n   Interest coverage ratio = EBIT / interest expense < 5,855/25,265 ~ 0.23, which is very low.\n\n   If more conservatively, interest-bearing debt is lower.\n\n   Suppose only long-term debt and short-term debt, but not given.\n\n   From the data, short-term liabilities include short-term debt possibly.\n\n   In any case, coverage is likely very poor.\n\n   Standard: EBIT interest coverage below 1.0 is typically CCC territory.\n\n   Also, current ratio below 1.\n\n   Therefore, likely CCC rating.\n\n   Final answer: CCC or something.\n\n   But let's see the scale.\n\n   Options include CCC+, CCC, CCC-, etc.\n\n   With retained earnings, it might provide a buffer, but not immediately liquid.\n\n   So, I think CCC is appropriate.\n\n   Reason: Extremely high leverage with debt-to-equity ratio exceeding 13x, very poor liquidity with current ratio below 1, and weak earnings relative to size indicating high default risk, although retained earnings show some historical strength.\n\n   So rating: CCC or CCC-.\n\n   CCC is between B- and CC.\n\n   Typically, for coverage below 1, it's CCC.\n\n   Also, the company is large, with $30B revenue, so not tiny.\n\n   But still.\n\n   DECISION: B- or CCC+?\n\nLet's be precise.\n\nI think based on general rating criteria, the rating should be in the CCC range.\n\nSo, I'll go with CCC.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 259,
+ "out_tok": 4748,
+ "usd": 0.010541,
+ "utc": "2026-09-06T19:40:32.679922+00:00"
+}

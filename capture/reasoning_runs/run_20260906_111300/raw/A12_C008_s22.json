@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C008",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity, current ratio below 1, and high leverage indicate severe financial distress and default vulnerability.\"}",
+ "reasoning_tail": " for the JSON.\n\nFinal decision: CCC\n\nBut let's see if it could be higher.\n\nIf EBIT is high, maybe BB, but with negative equity, it's unlikely.\n\nBB is for less speculative, but here solvency is in question.\n\nPerhaps B- or something.\n\nI think CCC is fine.\n\nThe scale has CCC+, CCC, CCC-.\n\nWhich one?\n\nEBIT/Revenue high, so maybe CCC+.\n\nBut current ratio very low.\n\nRetained earnings large, but equity negative, so not helpful.\n\nI think CCC.\n\nPerhaps CCC-.\n\nBut let's not overcomplicate.\n\nI'll go with CCC.\n\nConfidence 3.\n\nRationale: \"Negative equity, low current ratio, and high leverage indicate high default risk.\"\n\nWord count: 8 words.\n\nNow, for JSON: {\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity, low current ratio, and high leverage indicate high default risk.\"}\n\nBut is there a better rating?\n\nAnother thing: revenue 5,251M, EBIT 3,230M, but total liabilities 37,604M, so debt/EBIT = 37,604 / 3,230 \u2248 11.64, which is very high, meaning it would take many years to pay off debt with EBIT.\n\nSimilarly, with negative equity, recovery in default would be low.\n\nSo definitely speculative grade with high risk.\n\nCCC is for current vulnerability to default, which fits.\n\nCC is for highly speculative with default likely, but here EBIT positive, so not default likely immediately.\n\nC is for imminent default.\n\nSo CCC seems appropriate.\n\nPerhaps BB-, but I think not.\n\nBB- might have current ratio above 1 but high leverage.\n\nHere current ratio below 1.\n\nSo CCC.\n\nI think that's it.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 3513,
+ "usd": 0.007838,
+ "utc": "2026-09-06T16:51:45.093294+00:00"
+}

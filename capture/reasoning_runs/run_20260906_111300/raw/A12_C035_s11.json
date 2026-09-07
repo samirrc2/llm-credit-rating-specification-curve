@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C035",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Current ratio of 0.42 shows critical liquidity risk; debt-to-equity ratio ~10.25 indicates extreme leverage, pointing to high default probability.\"}",
+ "reasoning_tail": " with current ratio 0.42, it's tough.\n\nPerhaps assign CCC+ or CCC.\n\nBut confidence level.\n\nThe rationale should be short.\n\nFinal decision.\n\nI think B- or CCC+.\n\nLet's look for similar companies.\n\nBut I don't have examples.\n\nPerhaps from the numbers, it's like a company in restructuring.\n\nBut I have to choose.\n\nAnother ratio: quick ratio, but not given, only current ratio.\n\nI think based on liquidity and leverage, rating should be speculative grade with high default risk.\n\nSo, BB or lower, but BB is for less vulnerable, here it's vulnerable.\n\nBB+ to B- for vulnerable, CCC for currently vulnerable.\n\nWith current ratio 0.42, it's currently vulnerable.\n\nSo CCC range.\n\nEBIT is 12,435M, which could cover some interest, but I don't know.\n\nAssume that current liabilities include short-term debt.\n\nSuppose a portion is debt.\n\nFor example, if half of current liabilities are interest-bearing, say 1,279,802M at 5% interest, interest = 63,990M, EBIT 12,435M, coverage ratio 12,435 / 63,990 \u2248 0.194, less than 1, so cannot cover.\n\nEven if only 10% is debt, 255,960.5M at 5% interest = 12,798M, EBIT 12,435M, coverage about 0.97, still less than 1.\n\nSo interest coverage poor.\n\nThus, low rating.\n\nI think CCC is appropriate.\n\nBut let's see the options: CCC+, CCC, CCC-, etc.\n\nSince it's not imminent default, CCC or CCC-.\n\nBut C is for near default.\n\nPerhaps CCC.\n\nConfidence: 3 or 4.\n\nRationale: \"Extremely low liquidity and high leverage indicate high default risk.\"\n\nWithin 25 words.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 5025,
+ "usd": 0.011153,
+ "utc": "2026-09-06T19:25:11.431773+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C038",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial weaknesses, including a critically low current ratio of 0.63, indicating inability to cover short-term obligations, and extremely high leverage with total liabilities to shareholders' equity at approximately 14.5x. Despite a strong EBIT margin of 42.4%, negative retained earnings of -$5,086M reflect significant accumulated losses and poor historical performance, compounding liquidity and solvency risks. These factors align with a very high credit risk profile, warranting a speculative grade rating with substantial default vulnerability.\n\nDECISION: CCC+",
+ "reasoning_tail": "h.\n\nBut retained earnings negative.\n\nI think B- is appropriate.\n\nPerhaps CCC+.\n\nBut let's decide.\n\nAnother point: EBIT / operating income is given, so the company is operating, not in default yet.\n\nSo rating should be above C or CC.\n\nC is for imminent default.\n\nSo CCC or B range.\n\nI think B-.\n\nBut let's see the numbers again.\n\nCurrent liabilities 3,973M, current assets 2,495M, difference 1,478M shortfall.\n\nEBIT 1,161M, so if EBIT can be converted to cash, it might cover part, but there are other expenses.\n\nFor example, interest and taxes.\n\nSuppose interest is 500M, taxes 200M, net income 461M, then it would take years to cover the shortfall, but current liabilities are due soon.\n\nSo liquidity crisis.\n\nTherefore, high default risk.\n\nRating CCC+ or CCC.\n\nCCC+ is \"vulnerable,\" CCC is \"currently vulnerable.\"\n\nI think CCC+.\n\nBut let's see if there's a better way.\n\nPerhaps from the ratios, assign a rating.\n\nI recall that for S&P, a current ratio below 1.0 is a red flag, and with other weaknesses, rating can be B or lower.\n\nSimilarly, debt to EBITDA above 10 is very high; here it's estimated high.\n\nI think CCC+ is reasonable.\n\nBut EBIT margin is 42.4%, which is strong, so perhaps the company has good operations but too much debt.\n\nIn that case, it might be a candidate for restructuring, but for credit rating, it's high risk.\n\nSo B- or CCC+.\n\nI'll go with CCC+.\n\nBut let's check the retained earnings: -5,086M, which is a huge loss, indicating past problems.\n\nSo CCC+.\n\nFinal decision.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 5469,
+ "usd": 0.012114,
+ "utc": "2026-09-06T19:37:10.353184+00:00"
+}

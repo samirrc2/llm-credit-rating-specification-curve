@@ -1,0 +1,22 @@
+{
+ "spec_id": "A06",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong profitability with high operating and net margins (32% and approximately 30.6%, respectively), indicating robust earnings capacity and potential for debt servicing. However, it has high leverage, with a debt-to-equity ratio of approximately 2.58 and a total liabilities-to-assets ratio of 68.4%, and critically weak liquidity, evidenced by a current ratio of 0.55 and negative working capital. These factors elevate credit risk, particularly for short-term obligations, but the strong profitability supports an investment-grade rating at the lower end.\n\nDECISION: BBB-",
+ "reasoning_tail": "rrent ratio of 0.55, indicating significant short-term risk.\n\nRating: BBB- (lowest investment grade, reflecting adequate capacity but vulnerability to adverse conditions).\n\nThen DECISION: BBB-\n\nBut let's see if it's finer.\n\nPerhaps BBB is possible, but liquidity is too weak.\n\nBBB+ is higher.\n\nNo, BBB- is lower.\n\nScale: BBB+, BBB, BBB-.\n\nBBB- is the lowest investment grade.\n\nThen BB+ is speculative.\n\nWith current ratio 0.55, it might be BB+.\n\nI think BBB- is a stretch.\n\nPerhaps the rating is BB+.\n\nLet me search my memory for similar companies.\n\nBut I can't recall.\n\nAnother ratio: cash ratio, but no cash given.\n\nI think I should output BBB-.\n\nOr BB+.\n\nLet's calculate the debt ratio.\n\nTotal liabilities / total assets = 139,758 / 204,354 = 68.4%, so leverage ratio 68.4%.\n\nFor investment grade, usually below 60% or so, but varies.\n\nWith high profitability, it might be ok.\n\nBut liquidity.\n\nI think for the sake of decision, I'll say BBB-.\n\nSo, reason: Despite strong profitability, the low current ratio and high leverage suggest elevated credit risk, placing it at the lower end of investment grade.\n\nDECISION: BBB-\n\nBut the current ratio is 0.55, which is very low; for example, a company with current ratio below 1 might be rated B or CCC if in distress, but here not in distress.\n\nNet income positive, so not distress.\n\nSo BBB- or BB+.\n\nI think BBB- is acceptable.\n\nPerhaps the answer is BB+.\n\nLet's see the diluted EPS 1.18, but not relevant.\n\nI think I'll go with BBB-.\n\nFinal decision.\n",
+ "parsed_letter": "A",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 256,
+ "out_tok": 5725,
+ "usd": 0.012679,
+ "utc": "2026-09-06T19:53:18.944110+00:00"
+}

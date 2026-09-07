@@ -1,0 +1,22 @@
+{
+ "spec_id": "A11",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer shows severe liquidity issues with a current ratio of 0.53, indicating an inability to cover short-term obligations. High leverage is evident with a debt-to-equity ratio of approximately 3.4 and negative retained earnings of -12,237M, signaling historical losses and financial distress. Despite a positive EBIT margin of about 40.9%, the overall credit risk is very high due to unsustainable debt levels and poor liquidity.\n\nDECISION: CCC",
+ "reasoning_tail": "ome operating capability\n\nRevenue of 3,198M with EBIT of 1,307M suggests good margins, but the scale is small relative to debt.\n\nAlso, total assets 58,573M, so revenue is low for asset size, but if it's a low-turnover business, it might be normal, but no context.\n\nI think the rating should be CCC.\n\nSpecifically, since EBIT is positive, perhaps CCC+.\n\nBut I think CCC is fine.\n\nCCC- is also possible.\n\nBut let's choose.\n\nIn the scale: CCC+ is higher than CCC.\n\nThe scale is: CCC+, CCC, CCC-.\n\nCCC+ is the highest of the CCC range.\n\nWith such low liquidity, CCC might be appropriate.\n\nI think I should go with CCC.\n\nReason briefly.\n\nReasoning:\n\nThe company exhibits critical liquidity risk with a current ratio of 0.53, cannot cover short-term obligations, and has significant leverage with debt-to-equity above 3. Negative retained earnings show prolonged unprofitability, offsetting the current positive EBIT margin. Thus, the credit risk is very high, warranting a CCC rating.\n\nThen final decision: DECISION: CCC\n\nBut is it CCC or CCC+?\n\nI think CCC implies substantial risk.\n\nIn practice, CCC is for current vulnerability to default.\n\nCurrent ratio below 1 supports that.\n\nAlso Z-score negative.\n\nSo I think CCC is justified.\n\nPerhaps BBB-, but no, that's investment grade, too high.\n\nBB is speculative, but not as risky.\n\nFor example, BB companies might have current ratio above 1, better profitability.\n\nHere, negative retained earnings and low current ratio push it down.\n\nSo CCC seems right.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 3802,
+ "usd": 0.008466,
+ "utc": "2026-09-06T19:18:25.671761+00:00"
+}

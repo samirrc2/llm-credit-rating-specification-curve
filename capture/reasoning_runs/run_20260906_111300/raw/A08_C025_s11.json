@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"High debt/equity ratio (2.47), zero retained earnings, low EBIT/assets (1.2%), weak liquidity.\"}",
+ "reasoning_tail": "onfidence 3 or 4.\n\nOn confidence scale 1-5, 5 is high.\n\nSince key metric missing, I'll say confidence 3.\n\nRationale: High leverage, low EBIT, zero retained earnings.\n\nUnder 25 words.\n\nFormat: {\"decision\": \"CCC+\", \"confidence\": 3, \"rationale\": \"High leverage, low profitability, zero retained earnings, weak interest coverage implied\"}\n\nBut interest coverage implied.\n\nOnly 25 words max.\n\n\"High debt, low EBIT assets ratio, no retained earnings, indicating distress.\"\n\nNow for granularity: I can justify CCC+ or CCC, but since current assets cover liabilities, not immediate default.\n\nCCC is default possible, CC is likely, C is imminent.\n\nAccording to S&P:\n\nCCC: Currently vulnerable and dependent on favorable conditions\n\nCC: Highly vulnerable\n\nC: Imminent default\n\nBecause current ratio >1 and working capital positive, not immediately vulnerable, so CCC+.\n\nBut let's check the values.\n\nTotal assets 73,988M, liabilities 52,676M, so not insolvent on balance sheet, but flow issue.\n\nWith EBIT low, it might decline.\n\nBut rating is based on current.\n\nI think CCC+.\n\nPerhaps from Altman Z-score around 0.5, which is distress zone, but Z<1.8 distress.\n\n0.5 very low.\n\nIn my calculation I had Z\u22480.54, which is extremely high risk.\n\nThus, rating should be low.\n\nBB for speculative, but with issues, lower.\n\nI think CCC+.\n\nDecision: CCC+\n\nConfidence: 3 because no interest given, but other factors consistent.\n\nRationale: \"High leverage, zero retained earnings, very low EBIT/assets ratio.\"\n\nNow in JSON.\n",
+ "parsed_letter": "CCC+",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 4523,
+ "usd": 0.010043,
+ "utc": "2026-09-06T18:30:07.352580+00:00"
+}

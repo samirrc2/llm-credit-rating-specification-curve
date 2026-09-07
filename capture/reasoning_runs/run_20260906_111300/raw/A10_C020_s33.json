@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C020",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "### Reasoning:\nThe company exhibits high leverage with a debt-to-equity ratio of approximately 2.86 and a low estimated interest coverage ratio of around 2.66, indicating significant debt burden and moderate risk. The current ratio of 0.91 below 1 suggests liquidity concerns, with negative working capital highlighting potential short-term solvency issues. Despite strong profitability margins (gross margin 80%, operating margin 14%), these factors collectively point to a speculative-grade rating, placing it in the BB- category due to moderate vulnerability to adverse conditions.\n\nDECISION: BB-",
+ "reasoning_tail": "urrent ratio below 1.\n\nFor example, companies with current ratio below 1 often have lower ratings.\n\nI think BB- is a safe choice.\n\nBut let's look for a decision.\n\nThe instruction is to reason step by step, then give decision.\n\nSo, for the reasoning: High leverage with debt-to-equity ratio of approximately 2.86 and low interest coverage around 2.66 indicate significant debt burden. Additionally, the current ratio of 0.91 below 1 suggests liquidity concerns with negative working capital. Despite good profitability margins, these factors point to a speculative grade rating.\n\nThen, assign BB-.\n\nBut is there a finer granularity?\n\nPerhaps BBB- is possible, but I doubt it with current ratio below 1.\n\nBBB- is the lowest investment grade, but current ratio below 1 would not qualify.\n\nFor instance, BBB companies typically have current ratio above 1.0.\n\nSo, I think speculative grade.\n\nAmong BB, BB- might be appropriate.\n\nB+ is also possible.\n\nBut let's see the rating: BB- is between BB and B+, so it's speculative with moderate vulnerability.\n\nI think BB-.\n\nPerhaps I can calculate the Altman Z-score for fun, but not all inputs given.\n\nAltman Z-score needs working capital, retained earnings, EBIT, market value, sales, total assets.\n\nI have working capital negative, retained earnings high, EBIT $5,004M, sales $36,381M, total assets $404,258M, but market value not given.\n\nSo can't calculate.\n\nNot necessary.\n\nI think based on standard credit analysis, BB- is reasonable.\n\nFinal decision: BB-\n",
+ "parsed_letter": "BB-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 265,
+ "out_tok": 3820,
+ "usd": 0.008512,
+ "utc": "2026-09-06T18:03:16.863856+00:00"
+}

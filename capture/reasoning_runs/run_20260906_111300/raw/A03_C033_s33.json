@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C033",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress with negative shareholders' equity (-9,270M), total liabilities exceeding total assets (64,211M vs. 54,941M), and a critically low current ratio (1.09), indicating high leverage and liquidity risk. While positive EBIT (2,554M) shows some operational viability, the deeply negative retained earnings (-9,884M) and overall weak balance sheet position the issuer as highly vulnerable and dependent on favorable conditions to meet obligations.\n\nDECISION: CCC",
+ "reasoning_tail": "(current ratio 1.09)\n\n- Solvency: Poor (negative equity, liabilities > assets)\n\n- Profitability: Moderate (EBIT margin 11%)\n\n- Leverage: High (debt/equity negative, debt/assets >1)\n\nOverall, high credit risk.\n\nI think CCC is appropriate.\n\nPerhaps B-, but I think CCC is better.\n\nAnother metric: Times Interest Earned, but no interest.\n\nI think CCC.\n\nBut let's see if it fits.\n\nCCC: Currently vulnerable and dependent on favorable business, financial, and economic conditions to meet financial commitments.\n\nThat seems to fit.\n\nCC: Highly vulnerable, very speculative.\n\nC: Near default.\n\nSince EBIT is positive, not near default, so CCC.\n\nCurrent ratio above 1, so not immediate default.\n\nBut negative equity.\n\nI think CCC.\n\nPerhaps CCC- to be conservative.\n\nBut EBIT is decent.\n\nRevenue 23,078M, EBIT 2,554M, so it's operating.\n\nBut the negative retained earnings suggest past issues.\n\nI think CCC is fine.\n\nFinal decision.\n\nReasoning: The issuer has negative shareholders' equity, high liabilities relative to assets, and a low current ratio, indicating severe financial distress and high credit risk, despite positive EBIT.\n\nTherefore, a CCC rating is justified.\n\nOutput format: Reason briefly in 1-3 sentences, then DECISION: <label>\n\nSo reason: Negative equity, liabilities exceeding assets, and weak liquidity position the issuer in a vulnerable state, warranting a CCC rating.\n\nThen DECISION: CCC\n\nBut the scale has CCC+, CCC, CCC-, etc.\n\nI think CCC is specific.\n\nPerhaps I can say CCC.\n\nYes.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 249,
+ "out_tok": 3282,
+ "usd": 0.007325,
+ "utc": "2026-09-06T19:11:28.877508+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A01",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Poor liquidity with current ratio 0.79, high leverage, but strong profitability and margins.\"}",
+ "reasoning_tail": "k.\n\nPerhaps BB- which is \"Speculative\" with moderate risk.\n\nBB- has less risk than B.\n\nWith good profitability, BB- might be justified, but liquidity is poor.\n\nI think I'm leaning towards B+.\n\nLet's see the equity: shareholders' equity 21,181M, which is reasonable.\n\nBut liabilities high.\n\nAnother thing: the current ratio might improve if they use profits, but profits are for the period, not cash.\n\nNet income doesn't mean cash inflow.\n\nSo still risky.\n\nI think B+ is a choice.\n\nPerhaps BBB- if I ignore liquidity, but I can't.\n\nBBB- is lowest investment grade.\n\nWith current ratio 0.79, it's below investment grade for sure.\n\nSo speculative grade.\n\nNow, between BB and B.\n\nBB is for companies with less vulnerability in the near term but facing major uncertainties.\n\nB is for more vulnerability.\n\nHere, near-term vulnerability due to liquidity.\n\nSo B.\n\nBut let's check the diluted EPS: 0.9, which might imply the company is small, but revenue 3,915M quarterly, so annual about 15.6B, which is large company.\n\nAssets 79B, so significant size.\n\nSize might help with rating, as larger companies have better access to capital.\n\nBut liquidity issue remains.\n\nI think B+ or B.\n\nI'll go with B+.\n\nConfidence: 3, medium, because of estimation.\n\nRationale: \"Poor liquidity with current ratio below 1, high leverage, but good profitability.\"\n\nCount words: Poor, liquidity, with, current, ratio, below, 1, high, leverage, but, good, profitability. That's 12 words.\n\nUnder 25.\n\nNow for JSON.\n\nFinal decision.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 270,
+ "out_tok": 4157,
+ "usd": 0.009252,
+ "utc": "2026-09-06T19:25:15.865669+00:00"
+}

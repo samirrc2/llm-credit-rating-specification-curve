@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Extremely low current ratio (0.34) and high leverage (D/E ~11.35) indicate significant default risk despite profitability.\"}",
+ "reasoning_tail": "tment grade.\n\nBut 0.34 current ratio is too low for BBB-.\n\nTypically, for investment grade, current ratio should be above 1, and leverage reasonable.\n\nHere, both are bad.\n\nSo, likely speculative grade.\n\nLet's assign BB- or B+.\n\nI think B+ is reasonable.\n\nB+ is \"Highly speculative; significant credit risk.\"\n\nWith current ratio 0.34, it's highly speculative.\n\nD/E 11.35, very high.\n\nProfitability good, but not sufficient to offset.\n\nSo, B+.\n\nBut let's see if there's a better fit.\n\nCCC+ is \"Currently vulnerable and dependent on favorable conditions.\"\n\nWith profitability, it might not be currently vulnerable, as they are making money.\n\nSo B+ or B.\n\nI think B+.\n\nConfidence: 3, medium, because I don't have debt structure or interest coverage.\n\nRationale: \"Extremely low current ratio and high leverage pose default risk.\"\n\nNow, word count: \"Extremely low current ratio and high leverage pose default risk.\" That's 8 words.\n\nFinal decision.\n\nThe JSON format: {\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"Extremely low current ratio and high leverage pose default risk.\"}\n\nBut is B+ on the scale? Yes, B+ is listed.\n\nScale: AAA to C, with intermediates.\n\nB+ is included.\n\nPerhaps I should consider the retained earnings.\n\nRetained earnings 232,459M, but equity is 178,396M, so it might indicate that the company has been profitable historically, but with buybacks or something, equity is low.\n\nBut for credit, it doesn't directly help with short-term liquidity.\n\nSo, I think B+ is appropriate.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 282,
+ "out_tok": 4136,
+ "usd": 0.009213,
+ "utc": "2026-09-06T19:04:51.058950+00:00"
+}

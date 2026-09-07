@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C042",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity, low current ratio, high leverage, and negative retained earnings indicate severe financial distress.\"}",
+ "reasoning_tail": " be CCC.\n\nConfidence: I'd say 3, since I have key metrics but not all.\n\nRationale: Negative equity, low liquidity, high leverage.\n\n<=25 words.\n\nFinal rating: I think CCC.\n\nBut let's see the options again.\n\nPerhaps B- or something, but B- is higher.\n\nB- is still speculative, but negative equity is worse.\n\nStandard & Poor's ratings: CCC is defined as \"currently vulnerable and dependent on favorable business, financial, and economic conditions to meet financial commitments.\"\n\nThat seems fitting here.\n\nCC is \"currently highly vulnerable.\"\n\nC is for imminent default.\n\nSince EBIT is positive and no mention of default, CCC is better.\n\nCurrent ratio <1 suggests vulnerability to meet current obligations.\n\nSo CCC.\n\nBut CCC has subcategories: CCC+, CCC, CCC-.\n\nI need to assign finest granularity I can justify.\n\nWith the data, I might not distinguish between them, so just CCC.\n\nBut let's see if I can.\n\nEBIT margin is 8.15%, which is okay, but overshadowed by leverage.\n\nRevenue to liabilities: 9,532 / 39,015 \u2248 0.244, low.\n\nNot great.\n\nI think CCC is fine.\n\nPerhaps CCC- because of negative equity.\n\nBut CCC includes that.\n\nI'll go with CCC.\n\nConfidence: 3, medium.\n\nRationale: Negative equity, current ratio below 1, high liabilities.\n\nWord count: \"Negative equity, low liquidity, high leverage.\" That's 5 words.\n\nOkay.\n\nNow for JSON: {\"decision\": \"CCC\", \"confidence\": 3, \"rationale\": \"Negative equity, low liquidity, high leverage\"}\n\nBut rationale must be <=25 words, which it is.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 251,
+ "out_tok": 2727,
+ "usd": 0.00611,
+ "utc": "2026-09-06T19:56:29.638158+00:00"
+}

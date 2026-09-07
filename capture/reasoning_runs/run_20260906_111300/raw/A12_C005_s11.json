@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"BB+\", \"confidence\": 3, \"rationale\": \"High debt-to-equity ratio (3.83) indicates elevated leverage, partially offset by strong EBIT margin (47.6%), but interest coverage data missing.\"}",
+ "reasoning_tail": "ign a rating.\n\nI think BBB- is the lowest investment grade, and with these ratios, it might be below.\n\nFor example, typical BBB has debt/EBITDA around 3-4.\n\nHere, if EBITDA is 8,386, debt say 60,000M (guess), debt/EBITDA = 7.15, still high.\n\nBut I don't know.\n\nPerhaps from the current ratio and leverage, it's consistent with BB.\n\nLet's see the 21-grade scale.\n\nBB+ is below BBB-, so speculative.\n\nI think I'll go with BB+ or BB.\n\nBut let's see the confidence.\n\nThe rationale should be brief.\n\nPerhaps the high retained earnings indicate strength.\n\nRetained earnings 22,252M, which is almost as much as equity, so it has built up reserves.\n\nBut for credit, it's about cash flow.\n\nI think I need to box the answer.\n\nFinal decision: With high leverage and no coverage data, but high profitability, I'll assign BB+.\n\nConfidence 3, medium.\n\nRationale: High debt-to-equity ratio but strong EBIT margin.\n\nUnder 25 words.\n\nBB+ is speculative.\n\nBut let's see if it could be BBB-.\n\nD/E 3.83 is high for BBB-.\n\nFor example, some BBB companies have D/E around 1-2.\n\nHere it's 3.83, so likely lower.\n\nEBIT margin 47.6% is exceptional, so it might support a higher rating.\n\nBut leverage is key for credit ratings.\n\nI recall that for S&P, leverage is a major factor.\n\nSo I think BB+ or BB.\n\nLet's say BB+.\n\nThen confidence 3.\n\nRationale: \"High leverage offset by strong profitability, but coverage unknown.\"\n\nBut I have to choose from the labels.\n\nLabels are like BBB+, BBB, BBB-, BB+, etc.\n\nSo I'll go with BB+.\n",
+ "parsed_letter": "BB+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 5059,
+ "usd": 0.011223,
+ "utc": "2026-09-06T16:34:05.669505+00:00"
+}

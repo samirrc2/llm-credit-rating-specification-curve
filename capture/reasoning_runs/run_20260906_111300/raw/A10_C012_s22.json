@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "Based on the provided financial data, the company exhibits exceptional profitability with high gross and operating margins (68% and 46%, respectively), strong net income, and moderate leverage (debt-to-equity ratio of approximately 0.68). Liquidity is adequate with a current ratio of 1.28, and retained earnings are substantial, indicating a robust equity base. These factors suggest low credit risk, supporting a high investment-grade rating. However, the current ratio is slightly below the typical level for AAA-rated companies, which often exceed 1.5, justifying a rating one notch below.\n\nDECISION: AA+",
+ "reasoning_tail": "leverage not high, liquidity acceptable.\n\nAnother ratio: interest coverage, but missing.\n\nNet income to total liabilities: 31,778 / 279,861 \u2248 0.1136 or 11.36%, which is good, meaning earnings can cover liabilities multiple times over.\n\nBut net income is quarterly, liabilities are as of date.\n\nIf net income quarterly is 31,778M, annualized 127,112M, total liabilities 279,861M, so earnings to debt ratio about 45.4%, which is strong.\n\nFor credit rating, EBIT interest coverage is key, but no EBIT or interest.\n\nOperating income is 38,398M quarterly, annualized 153,592M.\n\nIf interest expense were say 1,000M quarterly, coverage would be high, but I don't know.\n\nSince no debt is specified, and liabilities include non-debt, interest might be low.\n\nI think it's safe to assume the company has low financial risk.\n\nTherefore, high investment grade.\n\nNow, between AAA, AA+, etc.\n\nCurrent ratio is 1.28, which might be a slight concern for the highest rating, as AAA companies often have more liquidity.\n\nFor example, a current ratio below 1.5 might not be AAA.\n\nBut it depends.\n\nRetained earnings are large, so they can handle short-term needs.\n\nI think AA+ is reasonable.\n\nPerhaps AA.\n\nBut let's see the answer format.\n\nI need to reason briefly.\n\nFinal decision.\n\nAnother thing: the company has filed Q3 results, so it's ongoing, but no trend data.\n\nBased on this snapshot.\n\nI think AA+ is appropriate.\n\nSo, DECISION: AA+\n\nBut let's confirm the scale: AAA, AA+, AA, AA-, etc.\n\nAA+ is below AAA.\n\nYes.\n",
+ "parsed_letter": "AA+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 265,
+ "out_tok": 3278,
+ "usd": 0.007325,
+ "utc": "2026-09-06T17:14:49.168405+00:00"
+}

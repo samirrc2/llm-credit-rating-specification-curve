@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C034",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress, including a critically low current ratio (0.53), negative retained earnings (-12,237M), and high leverage (debt-to-equity ratio \u2248 3.4). These factors, combined with marginal interest coverage (estimated EBIT/interest expense \u2248 1 or less), indicate high default risk and vulnerability, aligning with a CCC rating.\n\nDECISION: CCC",
+ "reasoning_tail": "erhaps CCC-.\n\nCCC- is one grade above CC.\n\nCC is for highly vulnerable.\n\nPerhaps CCC.\n\nI think for the purpose, CCC is fine.\n\nBut let's see the answer format.\n\nI need to output DECISION: <label>\n\nReason briefly.\n\nReason: The issuer has a very low current ratio (0.53), negative retained earnings, high leverage (debt-to-equity ratio approximately 3.4), and marginal interest coverage, indicating high default risk.\n\nThus, a CCC rating is assigned.\n\nBut CCC+ or CCC?\n\nSince EBIT is positive, not CCC-, but CCC.\n\nCCC is defined as currently vulnerable and dependent on favorable conditions.\n\nHere, with current ratio below 1, it's vulnerable.\n\nSo CCC.\n\nPerhaps B- but I think CCC is lower.\n\nB- is higher than CCC.\n\nThe scale: AAA, AA+, ..., BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is above CCC+.\n\nB- is three notches above CCC.\n\nWith such poor ratios, it should be below B.\n\nFor example, BB might have current ratio above 1, etc.\n\nHere, current ratio 0.53, so definitely speculative and high risk.\n\nI think CCC is appropriate.\n\nTo confirm, let's think of a company like this.\n\nBut I don't have examples.\n\nPerhaps from Altman Z-score.\n\nZ-score -0.05, which is very low.\n\nIn practice, companies with Z-score below 0 are often in bankruptcy or rated C, but here EBIT positive, so not imminent.\n\nC is for imminent default.\n\nCC is for highly vulnerable, near default.\n\nCCC for vulnerable.\n\nSo perhaps CCC or CCC-.\n\nWith positive EBIT, CCC.\n\nI think CCC is fine.\n\nSo I'll go with that.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 3765,
+ "usd": 0.008378,
+ "utc": "2026-09-06T19:16:24.581097+00:00"
+}

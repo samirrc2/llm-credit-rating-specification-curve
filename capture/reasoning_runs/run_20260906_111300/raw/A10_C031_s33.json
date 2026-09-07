@@ -1,0 +1,22 @@
+{
+ "spec_id": "A10",
+ "item_id": "C031",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity issues with a current ratio of 0.34, indicating insufficient short-term assets to cover current liabilities, and extremely high leverage with a debt-to-equity ratio of approximately 11.35. Despite strong profitability metrics (gross margin of 64%, operating margin of 18%, and net income of $5,290M), the liquidity and leverage risks dominate, suggesting high vulnerability to default without favorable refinancing or external support. This aligns with a CCC rating, which denotes current vulnerability and dependence on favorable conditions to meet financial commitments.\n\nDECISION: CCC",
+ "reasoning_tail": " equity = 2,025,439 / 178,396 = 11.35\n\n- Equity ratio: equity / assets = 178,396 / 2,205,752 = 0.0809 or 8.09%\n\n- Interest coverage: not calculable, no interest expense.\n\n- Operating margin: 18%, good.\n\n- Net margin: net income / revenue = 5,290 / 31,795 \u2248 16.64%, good.\n\nBut liquidity and leverage are terrible.\n\nIn S&P ratings, for example, a company with high leverage and weak liquidity might be rated B or CCC.\n\nSpecifically, a current ratio below 0.5 is often associated with CCC ratings.\n\nFor instance, companies in distress have current ratios below 1.\n\nWith 0.34, it's very low.\n\nTherefore, I think CCC is appropriate.\n\nCCC+ is slightly better, CCC- worse.\n\nBut CCC is the middle.\n\nPerhaps CCC+.\n\nBut let's see the retained earnings; it shows historical profitability, but doesn't solve the immediate issue.\n\nDiluted EPS 1.6, which is fine.\n\nBut overall, I think the rating should be CCC.\n\nThen, for the decision.\n\nThe scale has CCC+, CCC, CCC-.\n\nI think CCC is fine.\n\nPerhaps B-, but B is for more capacity.\n\nB: \"Currently has the capacity to meet financial commitments, but vulnerable to adverse conditions.\"\n\nHere, with current ratio 0.34, they may not have the capacity without external help.\n\nCCC: \"Currently vulnerable and dependent on favorable business, financial, and economic conditions to meet financial commitments.\"\n\nThat seems fitting.\n\nCC: \"Currently highly vulnerable.\"\n\nBut with profitability, not highly vulnerable, just dependent on refinancing.\n\nSo CCC.\n\nFinal decision.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 271,
+ "out_tok": 3754,
+ "usd": 0.00837,
+ "utc": "2026-09-06T19:04:45.640079+00:00"
+}

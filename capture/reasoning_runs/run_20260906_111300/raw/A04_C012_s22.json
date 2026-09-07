@@ -1,0 +1,22 @@
+{
+ "spec_id": "A04",
+ "item_id": "C012",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"A+\",\n  \"confidence\": 4,\n  \"rationale\": \"Strong profitability (46% EBIT margin) and moderate leverage (D/E 0.68), but current ratio (1.28) indicates liquidity risk.\"\n}",
+ "reasoning_tail": "should be in the A+ to A- range.\n\nBut let's narrow down.\n\nAAA requires ironclad financials with no weaknesses. Here, current ratio is a weakness, so not AAA.\n\nAA could have minor weaknesses.\n\nPerhaps AA-.\n\nFor example, Microsoft or Apple have current ratios around 1.2-1.3 and are AA+ or AA.\n\nApple has a lot of cash, so their quick ratio is high.\n\nThis company might have low cash if inventory is high, but unknown.\n\nWithout more info, I'll go with the data.\n\nFinal decision:\n\nBased on the strong profitability (46.3% EBIT margin), moderate leverage (D/E 0.68), and high retained earnings, the financial health is good.\n\nThe current ratio of 1.28 is satisfactory but not excellent, indicating some liquidity risk.\n\nTherefore, I would assign an A+ rating, as it's strong investment grade but with a slight weakness.\n\nOr A.\n\nBBB is adequate, but with high margins, it should be higher.\n\nLet's list the ratings scale.\n\nAAA: Extremely strong\n\nAA: Very strong\n\nA: Strong\n\nBBB: Adequate\n\nBB: Speculative\n\netc.\n\nGiven the numbers, it should be at least A.\n\nBut to be precise, the current ratio is below the typical for AA.\n\nFor example, S&P might expect current ratio above 1.5 for AA.\n\nHere it's 1.28, so perhaps A+ or A.\n\nEBIT margin is very high, so that might push it to A+.\n\nConfidence: I have most of the data, except interest coverage, so confidence 3 or 4.\n\nRationale in 25 words.\n\nFinal answer in JSON.\n\nI think A+ or A.\n\nLet's calculate a quick metric.\n\nSuppose I use profitability and leverage.\n",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 262,
+ "out_tok": 3790,
+ "usd": 0.008444,
+ "utc": "2026-09-06T17:12:37.465608+00:00"
+}

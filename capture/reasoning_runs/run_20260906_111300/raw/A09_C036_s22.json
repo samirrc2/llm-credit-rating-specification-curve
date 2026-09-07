@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C036",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High debt-to-equity (2.74) and weak current ratio (0.79) indicate liquidity and leverage risks, partially offset by strong operating margin (19%).\"}",
+ "reasoning_tail": "est might be included.\n\nCurrent liabilities $7,148M, if short-term debt, say 50%, $3,574M at higher rate, say 6%, interest $214M annual.\n\nTotal interest annual roughly $2,033 + $214 = $2,247M.\n\nOperating income annual $2,996M, coverage 1.33, which is poor.\n\nCoverage below 1.5 is often CCC or B territory.\n\nBut net income annual $2,096M, which after interest and taxes, but coverage is pre-interest.\n\nInterest coverage ratio below 1.5 is weak.\n\nWith liquidity ratio low, it points to a lower rating.\n\nProfitability good, so not the worst.\n\nPerhaps B+ or B.\n\nCCC is for vulnerable companies.\n\nHere, with positive earnings, it might be B.\n\nRetained earnings high, but that's cumulative.\n\nI think B+ or B is reasonable.\n\nConfidence level: since some data missing, confidence not high.\n\nRationale must be <=25 words.\n\nPossible rating: B+ or B.\n\nLet's see the options: BB+, BB, BB-, B+, B, B-, etc.\n\nBB- is still speculative but higher than B.\n\nWith coverage potentially low and liquidity poor, I think B+.\n\nBut let's decide.\n\nAnother metric: quick ratio. Assume inventory is part of current assets. Suppose inventory is 50% of current assets, so $2,840.5M, then quick assets = CA - inventory = 5,681 - 2,840.5 = 2,840.5M, quick ratio = 2,840.5 / 7,148 \u2248 0.40, which is very low, confirming liquidity issues.\n\nSo definitely weak liquidity.\n\nTherefore, I assign B+.\n\nConfidence: 3, since no interest data.\n\nRationale: High leverage, weak liquidity, but strong profitability.\n\nIn 25 words.\n\nFinal decision.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 3519,
+ "usd": 0.007856,
+ "utc": "2026-09-06T19:28:19.447975+00:00"
+}

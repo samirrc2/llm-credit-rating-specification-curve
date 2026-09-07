@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C043",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits significant credit weaknesses, primarily due to a current ratio below 1 (0.97), indicating liquidity stress, and high leverage with a debt-to-equity ratio of approximately 2.87. Additionally, the operating margin is low at 3.75%, and implied interest coverage is poor given high total liabilities and low EBIT, suggesting elevated default risk. Despite large revenue scale and positive retained earnings, these factors support a speculative-grade rating.\n\nDECISION: B+",
+ "reasoning_tail": " = current assets - current liabilities = 20,702 - 21,242 = -540M\n\nTotal assets = 59,991M\n\nSo working capital / total assets = -540 / 59,991 \u2248 -0.009\n\nRetained earnings / total assets = 8,777 / 59,991 \u2248 0.146\n\nEBIT / total assets = 948 / 59,991 \u2248 0.0158\n\nFor Altman Z, there are market value and sales ratios, but I don't have them.\n\nFor manufacturing, Z-score = 1.2*(WC/TA) + 1.4*(RE/TA) + 3.3*(EBIT/TA) + 0.6*(MVE/BV) + 1.0*(Sales/TA)\n\nI don't have MVE (market value of equity) or BV of equity, but BV is shareholders' equity, 15,501M, but MVE not given.\n\nSales/TA = 25,270 / 59,991 \u2248 0.421\n\nBut without MVE, I can't compute full Z-score.\n\nApproximate: WC/TA negative, RE/TA positive but not high, EBIT/TA low, Sales/TA moderate.\n\nLikely Z-score low, indicating distress.\n\nBut not precise.\n\nI think for credit rating, based on standard ratios, this company has high credit risk.\n\nTherefore, I will assign a B+ rating, which is speculative with high risk, but not the lowest.\n\nB+ is for companies that have high risk but not immediately distressed.\n\nHere, with current ratio below 1, it might be closer to distressed.\n\nBut EBIT positive, so not CCC.\n\nCCC is for companies with current default or very high likelihood.\n\nSo B+ or B.\n\nLet's see the decision.\n\nPerhaps BB- is too high.\n\nBB- ratings can have current ratio above 1, I think.\n\nFor example, a company with current ratio 1.1, debt-to-equity 2, might be BB.\n\nHere current ratio below 1.\n\nSo lower.\n\nI think B+ is reasonable.\n\nFinal decision.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 247,
+ "out_tok": 3297,
+ "usd": 0.007356,
+ "utc": "2026-09-06T19:58:47.651809+00:00"
+}

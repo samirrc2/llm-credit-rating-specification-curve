@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C039",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity ~13.5) and sub-1 current ratio (0.83) indicate significant liquidity and default risks despite solid profitability.\"}",
+ "reasoning_tail": "e is positive, so not CCC.\n\nCCC is for high risk or near default.\n\nHere, they are profitable, so not that bad.\n\nB or B+.\n\nLet's say B+.\n\nConfidence 3.\n\nRationale: \"High leverage and sub-1 current ratio pose significant credit risk.\"\n\nWord count: 7 words.\n\nNow, for the JSON.\n\nBut I need to choose exactly one label.\n\nLabels: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nI think B+ is reasonable.\n\nPerhaps BB- since profitability is strong.\n\nBut liquidity overrides.\n\nIn credit rating, liquidity is crucial for short-term solvency.\n\nWith current ratio below 1, they may default on short-term debts.\n\nSo, I think B+.\n\nFinal decision: B+\n\nConfidence: 3\n\nRationale: High leverage and poor liquidity indicate elevated default risk.\n\n22 words? \"High leverage and poor liquidity indicate elevated default risk.\" That's 6 words.\n\n\"High leverage and sub-1 current ratio suggest high credit risk.\" 7 words.\n\nUnder 25.\n\nSo, JSON: {\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High leverage and poor liquidity indicate elevated default risk.\"}\n\nBut is B+ too low? Let's see if there's a better fit.\n\nPerhaps BB-.\n\nBut current ratio 0.83 is critical.\n\nAnother point: retained earnings are high, 165,288M, which could be used, but it's not liquid; it's equity.\n\nThey might have cash or equivalents, but not specified in current assets.\n\nCurrent assets include cash, inventory, receivables, etc., but with current ratio 0.83, it's tight.\n\nI think B+ is fine.\n",
+ "parsed_letter": "B+",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 284,
+ "out_tok": 3600,
+ "usd": 0.00804,
+ "utc": "2026-09-06T19:42:35.359628+00:00"
+}

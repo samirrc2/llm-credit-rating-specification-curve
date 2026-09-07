@@ -1,0 +1,22 @@
+{
+ "spec_id": "A07",
+ "item_id": "C040",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits severe liquidity problems with a current ratio of 0.63 (current assets $12,208M vs. current liabilities $19,405M), indicating inability to cover short-term obligations. Additionally, high leverage is evident with a debt-to-equity ratio of approximately 2.71 (total liabilities $139,666M / shareholders' equity $51,462M), and an Altman Z-score of approximately 0.30, calculated using available figures, places the issuer in the distress zone with high bankruptcy risk. Despite positive EBIT of $2,334M, the overall financial health is poor, warranting a low speculative-grade rating.\n\nDECISION: CCC",
+ "reasoning_tail": "334 / 139,666 \u2248 0.0167, or 1.67%, which is low coverage.\n\nBut again, not all liabilities are debt.\n\nCurrent liabilities 19,405M, EBIT 2,334M, so EBIT can cover current liabilities if needed, but EBIT is annual, I assume, while liabilities are snapshot.\n\nBut EBIT is flow, liabilities are stock.\n\nSo interest coverage missing.\n\nI think I have to go with the liquidity issue.\n\nPerhaps the rating is B- or CCC+.\n\nBut given Z-score, I think CCC is appropriate.\n\nAnother metric: retained earnings are 4,718M, which is positive, so they have accumulated profits.\n\nBut small.\n\nI think for the rating, it should be speculative grade with high risk.\n\nSo, between BB- to CCC.\n\nBut current ratio 0.63 is very low.\n\nTypically, companies with current ratio below 1 are rated B or lower.\n\nFor example, some distressed companies have ratings like CCC.\n\nSo, I'll go with CCC.\n\nBut let's see if I can be more specific.\n\nThe scale has CCC+, CCC, CCC-.\n\nSince EBIT is positive, perhaps CCC+ or CCC.\n\nBut Z-score is very low, so CCC.\n\nPerhaps CCC-.\n\nI think CCC is fine.\n\nReason briefly: The issuer has a very low current ratio of 0.63, indicating severe liquidity issues, and high leverage with debt-to-equity ratio of 2.71. The Altman Z-score of approximately 0.30 suggests high bankruptcy risk.\n\nTherefore, credit rating is CCC.\n\nDECISION: CCC\n\nBut let's make sure about the scale: the options include CCC+, CCC, CCC-, etc.\n\nSince there's some operating profit, maybe not the lowest.\n\nBut I think CCC is appropriate.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 242,
+ "out_tok": 4397,
+ "usd": 0.009763,
+ "utc": "2026-09-06T19:47:17.613087+00:00"
+}

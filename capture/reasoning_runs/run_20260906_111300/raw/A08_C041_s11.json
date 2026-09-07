@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C041",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"CCC-\", \"confidence\": 3, \"rationale\": \"Very low current ratio (0.55), negative working capital, high leverage with debt-to-equity of 2.58, indicating severe liquidity risk and distress.\"}",
+ "reasoning_tail": "interest and tax.\n\nWithout data, I assume interest is high.\n\nPerhaps use debt/EBITDA, but no EBITDA or interest.\n\nI think I must go with the Z-score from the first calculation or the liquidity.\n\nI found that a current ratio below 0.8 is very poor and associated with CCC ratings.\n\nFor example, companies with current ratio <1 are often rated B or below.\n\nWith 0.55, I think CCC or C.\n\nBut equity is positive, not negative, so not C probably.\n\nC is for imminent default or in default.\n\nHere, equity is 54,181M, so not in default.\n\nBut liquidity crisis.\n\nSo likely CCC.\n\nSpecific grade: CCC or CCC-.\n\nThe scale has CCC+, CCC, CCC-.\n\nI think CCC-.\n\nRationale: severe liquidity crisis with current ratio below 1 and high leverage.\n\nAlso, EBIT/TA low.\n\nFor confidence, I'll say 3, medium.\n\nShort rationale.\n\nNow for the JSON.\n\nDecision: CCC- \n\nRateds: AAA down to C.\n\nCCC- is above CC , C.\n\nScale: ... CCC+, CCC, CCC-, then CC, C.\n\nCCC- is low.\n\nPerhaps CCC.\n\nI think I need to box the answer.\n\nAnother thought: perhaps calculate interest coverage roughly.\n\nAssume interest rate on liabilities.\n\nSay, average interest rate 4%, on total liabilities, but not all are debt.\n\nAssume 50% of liabilities are debt or something.\n\nBut arbitrary.\n\nI think it's better to stick to available data.\n\nPerhaps the rating is CC, but let's see.\n\nI'll go with CCC-.\n\nFinal decision.\n\nThen confidence: 3\n\nRationale: \"Very low current ratio, negative working capital, high leverage.\"\n\nIn <=25 words.\n\nRationale for decision.\n",
+ "parsed_letter": "CCC-",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 255,
+ "out_tok": 4910,
+ "usd": 0.010893,
+ "utc": "2026-09-06T19:53:12.850143+00:00"
+}

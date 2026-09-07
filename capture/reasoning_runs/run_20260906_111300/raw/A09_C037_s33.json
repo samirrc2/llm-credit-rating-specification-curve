@@ -1,0 +1,22 @@
+{
+ "spec_id": "A09",
+ "item_id": "C037",
+ "benchmark_label": "DISTRESS",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L0",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Negative gross margin, current ratio 1.00, and large negative retained earnings indicate high credit risk.\"}",
+ "reasoning_tail": " distress yet.\n\nOperating margin 17% is strong.\n\nBut gross margin negative puzzles me.\n\nPerhaps it's a company with high fixed costs or something, but I don't know.\n\nMaybe revenue recognition or something.\n\nBut I should not overthink.\n\nBased on the data, the negative aspects dominate for credit risk.\n\nRationale: \"Negative gross margin, tight liquidity, negative retained earnings.\"\n\nThat's 7 words.\n\nRating: I think B+ is reasonable.\n\nB+ is \"Highly speculative\" according to S&P scale.\n\nBB is \"Less vulnerable\", B is \"More vulnerable\".\n\nWith current ratio 1.00, it's vulnerable.\n\nRetained earnings negative indicates vulnerability.\n\nSo B or B-.\n\nBut let's see the confidence.\n\nI'll go with B.\n\nConfidence 3, since no cash flow or debt details.\n\nRationale: \"Negative gross margin, low current ratio, negative retained earnings.\" 8 words.\n\nNow for JSON output.\n\n{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"Negative gross margin, low current ratio, negative retained earnings.\"}\n\nBut is B the best?\n\nPerhaps BB-.\n\nBB- is \"speculative\" but better than B.\n\nBut with gross margin negative, it's worse.\n\nAnother point: diluted EPS 0.46, but no share count, so not helpful.\n\nTotal assets large, so size might support rating, but not necessarily.\n\nI think B is fine.\n\nLet's see if CCC is possible.\n\nCCC is \"Currently vulnerable\", but net income positive, so not currently in default.\n\nOperating income positive.\n\nSo B is better.\n\nB+ might be too high.\n\nDecision: B\n\nConfidence: 3\n\nRationale: as above.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 272,
+ "out_tok": 3039,
+ "usd": 0.006805,
+ "utc": "2026-09-06T19:32:47.530357+00:00"
+}

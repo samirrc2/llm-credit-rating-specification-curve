@@ -1,0 +1,22 @@
+{
+ "spec_id": "A05",
+ "item_id": "C005",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"A+\",\n  \"confidence\": 4,\n  \"rationale\": \"Exceptional profitability (48% operating margin), strong liquidity (current ratio 1.55), manageable leverage relative to earnings.\"\n}",
+ "reasoning_tail": " EBIT, it can service debt.\n\nSo I think at least A, possibly A+.\n\nBut let's see the retained earnings: 22,252M, which is high, but part of equity.\n\nI think A+ is reasonable.\n\nPerhaps AA-.\n\nBut with current ratio 1.55, not very high.\n\nI think A+ is fine.\n\nConfidence: since I have to estimate, maybe 4.\n\nBut let's see the grade.\n\nThe scale has AA+, etc.\n\nPerhaps AA-.\n\nI recall that Apple is AA+, with lower leverage.\n\nHere leverage is higher.\n\nSo maybe A+.\n\nI'll decide.\n\nFinal decision: with high profitability, strong margins, moderate leverage when viewed as debt/EBIT, and good liquidity, I think A+.\n\nRationale in few words.\n\nFor the JSON.\n\nAnswer should have \"decision\": \"A+\", \"confidence\": say 4, \"rationale\": \"High profitability, strong margins, manageable leverage, moderate liquidity.\"\n\nWithin 25 words.\n\nRationale: \"Strong operating margin of 48%, good liquidity with current ratio 1.55, and reasonable debt/EBIT coverage implies solid investment grade.\"\n\nI don't have debt/EBIT, but calculated.\n\nIn rationale, I must use provided or derived.\n\nProvided figures.\n\nI derived debt/EBIT from figures.\n\nEBIT from operating income.\n\nTotal liabilities.\n\nBut liabilities include more than debt, but assumed.\n\nPerhaps better not to say that.\n\nKeep it general.\n\n\"Exceptional profitability with 83% gross margin, strong net income, adequate current ratio; high leverage offset by earnings.\"\n\nIn 25 words.\n\nThen A+.\n\nOr BBB+ if conservative.\n\nBut with those margins, it  should be higher.\n\nI think A.\n",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 269,
+ "out_tok": 4958,
+ "usd": 0.011006,
+ "utc": "2026-09-06T16:29:36.723337+00:00"
+}

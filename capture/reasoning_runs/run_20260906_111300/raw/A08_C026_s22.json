@@ -1,0 +1,22 @@
+{
+ "spec_id": "A08",
+ "item_id": "C026",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L1",
+ "paraphrase": "P2",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\n  \"decision\": \"CCC\",\n  \"confidence\": 3,\n  \"rationale\": \"High liabilities/EBIT ~21x and low current ratio 1.27 indicate severe default risk and distress.\"\n}",
+ "reasoning_tail": "ot critically low, so not CC or C.\n\nCC is for imminent default, C for bankruptcy.\n\nHere, not that bad.\n\nSo, CCC or B-.\n\nI think CCC.\n\nPerhaps B-.\n\nI'm torn.\n\nLet's calculate the debt ratio again.\n\nShareholders' equity 18,552M, total liabilities 78,289M, so leverage ratio high.\n\nEBIT 3,639M, if interest is, say, 10% of liabilities, 7,828.9M, which is more than EBIT, so coverage less than 1, which is critical.\n\nEven at 5%, interest 3,914.45M, coverage about 0.93, less than 1.\n\nSo, not covering interest, which is very bad.\n\nTherefore, rating should be low, like CCC+ or CCC.\n\nI'll go with CCC.\n\nConfidence: 3, since I don't have all details like interest or industry.\n\nRationale: High leverage and low interest coverage indicate substantial default risk.\n\nIn 25 words or less.\n\nFinal answer.\n\nSo, decision: CCC\n\nConfidence: 3\n\nRationale: \"Extremely high debt-to-equity ratio and low current ratio suggest high default risk.\"\n\nOr something.\n\nEBIT margin is good, but not mentioned.\n\nBut key is leverage.\n\n\"High liabilities, low equity, and marginal EBIT coverage imply severe credit risk.\"\n\nBut EBIT coverage unknown.\n\n\"Based on Altman Z-score below 1.8 and high leverage, issuer is in distress zone.\"\n\nBut rationale should be concise.\n\n\"Total liabilities/EBIT ~21x and current ratio 1.27 indicate very high credit risk.\"\n\nYes.\n\nNow for rating, CCC.\n\nBut let's see if it could be B-.\n\nSome might argue that with good profitability, it could be higher, but I think not.\n\nI think CCC is appropriate.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 253,
+ "out_tok": 4917,
+ "usd": 0.010907,
+ "utc": "2026-09-06T18:35:14.711482+00:00"
+}

@@ -1,0 +1,22 @@
+{
+ "spec_id": "A03",
+ "item_id": "C025",
+ "benchmark_label": "WATCH",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P1",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer exhibits high financial leverage with a debt-to-equity ratio of approximately 2.47 (total liabilities / shareholders' equity = 52,676 / 21,312), which is elevated and indicates significant risk. The retained earnings of $0M suggest a history of financial distress or an inability to accumulate profits, further weakening creditworthiness. Although the current ratio of 1.39 shows adequate short-term liquidity, the EBIT of $886M is insufficient to comfortably cover potential interest expenses given the high liabilities, implying poor interest coverage and high default risk.\n\nDECISION: CCC",
+ "reasoning_tail": "verage.\n\nBut no interest or principal given.\n\nI think based on the data, the issuer has poor credit metrics.\n\nFinal decision: I think CCC is appropriate.\n\nBut which one? CCC+, CCC, or CCC-.\n\nThe description says \"finest granularity you can justify.\"\n\nWith current ratio 1.39, not terrible, so not the worst.\n\nBut retained earnings zero is severe.\n\nEBIT positive.\n\nSo perhaps CCC.\n\nCCC+ might be too high.\n\nLet's see the scale: CCC+ is better than CCC.\n\nIn terms of default probability, CCC has high default risk.\n\nI think CCC is fine.\n\nPerhaps B- , but B- is higher than CCC.\n\nThe order is AAA best, then AA+, ..., BBB-, then BB+, BB, BB-, B+, B, B-, CCC+, CCC, CCC-, CC, C.\n\nSo B- is above CCC+.\n\nB- is speculative but not as bad as CCC.\n\nWith interest coverage potentially below 1, it should be CCC.\n\nFor example, a company with interest coverage below 1 is often CCC or lower.\n\nHere, based on estimates.\n\nRevenue 9,143M, EBIT 886M, total liabilities 52,676M.\n\nIf we take EBIT as proxy for cash flow, debt/EBIT = 52,676 / 886 \u2248 59.45, which is enormous; even for leveraged buyouts, it's rarely above 10.\n\nSo definitely high risk.\n\nTherefore, I think CCC rating.\n\nTo be precise, since current ratio is above 1, it might be CCC+.\n\nBut retained earnings zero pulls it down.\n\nI think CCC is justified.\n\nPerhaps CCC+.\n\nBut let's decide.\n\nAnother point: shareholders' equity is 21,312M, which is positive, so not negative equity.\n\nBut with retained earnings zero, it's weak.\n\nI think CCC.\n\nFinal answer.\n",
+ "parsed_letter": "CCC",
+ "parsed_band": "DISTRESS",
+ "parsed_ighy": "HY",
+ "in_tok": 245,
+ "out_tok": 4917,
+ "usd": 0.010903,
+ "utc": "2026-09-06T18:27:38.891433+00:00"
+}

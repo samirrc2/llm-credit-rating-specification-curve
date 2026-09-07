@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C015",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 11,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage (debt-to-equity 3.62), low EBIT/TA (2.7%), weak implied interest coverage.\"}",
+ "reasoning_tail": "o make assumptions, confidence might be medium.\n\nRationale should be concise, <=25 words.\n\nFinal decision.\n\nPerhaps BBB- is possible if I ignore the issues, but leverage is too high.\n\nDebt-to-equity 3.62 is very high; for investment grade, usually below 2 or so.\n\nFor example, BBB companies might have debt-to-EBITDA below 4, but here debt-to-EBIT, if EBIT 2,660, liabilities 77,267, ratio about 29, which is extremely high.\n\nEven if only half is debt, say 38,633, debt-to-EBIT 14.5, still high.\n\nCoverage low.\n\nSo no, not investment grade.\n\nLikely B or CCC.\n\nBetween B and CCC.\n\nCurrent ratio 1.44 provides some short-term stability, so not CCC yet.\n\nCCC is for companies likely to default soon.\n\nHere, with current ratio above 1, not immediate default.\n\nSo perhaps B+ or B.\n\nI recall that for credit ratings, one model is the Z-score mapped to ratings.\n\nFor example, Z-score above 3: AAA to A\n\n2.7 to 3: BBB\n\n2.4 to 2.7: BB\n\n2.0 to 2.4: B\n\nBelow 2.0: CCC or lower\n\nBut my Z is 1.57, so below 2.0, so CCC or B-.\n\nBut Z-score is not directly for ratings.\n\nIn practice, ratings agencies have their models.\n\nBased on the data, I think B- is reasonable.\n\nRationale: High leverage, low profitability, weak coverage.\n\nConfidence: 3, since some assumptions.\n\nBut let's see the scale.\n\nThe labels include BB+, BB, BB-, B+, B, B-, etc.\n\nPerhaps B-.\n\nBut retained earnings are high, which might suggest strength.\n\nIn Altman, X2 is high, but overall Z low.\n\nI think B- or CCC+.\n\nLet's choose.\n\nFinal decision.\n",
+ "parsed_letter": "B-",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 262,
+ "out_tok": 5344,
+ "usd": 0.011847,
+ "utc": "2026-09-06T17:35:25.067773+00:00"
+}

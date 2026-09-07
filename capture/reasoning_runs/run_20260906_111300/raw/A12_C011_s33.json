@@ -1,0 +1,22 @@
+{
+ "spec_id": "A12",
+ "item_id": "C011",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 33,
+ "presentation": "L1",
+ "paraphrase": "P3",
+ "format": "json",
+ "ok": true,
+ "raw_response": "{\"decision\": \"B\", \"confidence\": 3, \"rationale\": \"High leverage (liabilities/equity \u22481.11), low EBIT coverage (3.19% of liabilities), weak liquidity (current ratio 1.39).\"}",
+ "reasoning_tail": "point is the low EBIT relative to liabilities.\n\n   So I'll go with B.\n\n   Perhaps BB- is possible if I am optimistic on interest expense.\n\nAssume that inerest expense is low. For example, if only 10% of liabilities are interest-bearing debt, 5,773M, interest at 5% = 289M, then coverage 1,842 / 289 = 6.37, good.\n\nBut that might be too optimistic; usually, a significant portion of long-term liabilities is debt.\n\nWith long-term liabilities 39,351M, if half is debt, 19,675M, interest 984M, coverage 1.87, below 2, which is weak but not terrible.\n\nThen with moderate leverage, could be BB.\n\nBut sales/total assets  0.101 is very low, suggesting poor efficiency.\n\nAlso, the current ratio is 1.39, which for a company with low turnover, might imply inventory issues or something.\n\nBut not given.\n\nI think overall, a speculative grade rating.\n\nLet's settle on BB- .\n\nOr B+ .\n\nI recall that for credit ratings, companies like Tesla or high-growth might have lower ratings with similar numbers, but Tesla was B+ or something at points.\n\nThis company has revenue 11B, assets 110B, which is like a utility or telecom, with high assets.\n\nFor example, AT&T has Baa2/BBB rating with high debt.\n\nBut let's not assume.\n\nWith EBIT 1,842M, and revenue 11,164M, margin 16.5%, if leverage was low, ok, but debt/ebitda or similar.\n\nI think B is fair.\n\nBut let's calculate EBIT to interest.\n\nSince I have to choose, I'll say the issuer has weak earnings coverage and high leverage, meriting a B rating.\n\nFinal answer.\n",
+ "parsed_letter": "B",
+ "parsed_band": "WATCH",
+ "parsed_ighy": "HY",
+ "in_tok": 264,
+ "out_tok": 5222,
+ "usd": 0.011581,
+ "utc": "2026-09-06T17:12:54.590580+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "spec_id": "A06",
+ "item_id": "C001",
+ "benchmark_label": "SAFE",
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-r1",
+ "tier": "reasoning",
+ "seed": 22,
+ "presentation": "L0",
+ "paraphrase": "P2",
+ "format": "freetext",
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong profitability with a 14% operating margin and an estimated high interest coverage ratio, indicating robust earnings capacity to service debt. Leverage is moderate, with a debt-to-equity ratio of approximately 1.10, while liquidity is adequate but not strong, with a current ratio of 1.34. These factors support an investment-grade rating, though the liquidity position tempers it slightly below the AA category.\n\nDECISION: A+",
+ "parsed_letter": "A+",
+ "parsed_band": "SAFE",
+ "parsed_ighy": "IG",
+ "in_tok": 258,
+ "out_tok": 4240,
+ "usd": 0.009428,
+ "utc": "2026-09-06T15:20:17.495853+00:00"
+}
