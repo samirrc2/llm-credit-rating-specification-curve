@@ -1,7 +1,6 @@
 {
   "title": "Evaluating LLM-Based Credit Rating Systems: A Pre-Registered Specification-Curve Analysis — reproducibility artifact",
   "upload_type": "software",
-  "description": "<p>Reproducibility artifact for the manuscript <em>Evaluating LLM-Based Credit Rating Systems: A Pre-Registered Specification-Curve Analysis</em>. A pre-registered specification-curve (multiverse) study of large-language-model credit-rating instability. From a frozen corpus of 8,640 elicitations (90-item firm-profile battery with an objective Altman Z'' benchmark, crossed with a 32-specification factorial grid of elicitation choices spanning provider, model version, temperature, prompt paraphrase, output format, few-shot exemplars and answer presentation, three seeds, two providers) the analysis regenerates the OLS (Type-II ANOVA) variance decomposition, the honored-determinism permutation test, within/cross-vendor Fleiss-kappa agreement, the granularity-kappa ladder, and the economic translation (portfolio turnover, Cornaggia-anchored spread, a post-hoc Basel CRE20 capital recast, and the RCAP calibration). A decontaminated real-firm arm (31 anonymized, per-issuer-perturbed issuers benchmarked to disclosed agency ratings, under a pre-registered fingerprinting gate) shows the WATCH-stratum flip-share replicates (consistent with the constructed battery; the difference is not distinguishable from zero, though a formal TOST equivalence test is inconclusive at this sample size). A post-hoc flagship model-tier arm (gpt-5.4 and gemini-3.1-pro-preview on the frozen 12-specification grid, 1,620 elicitations) finds no evidence that the instability attenuates on larger models. The artifact also derives and validates a deployable specification-instability score (ROC-AUC 0.94 on held-out specifications; 0.70 on the real-issuer arm), with a self-consistency curve and a per-issuer cost model. The reproducible run is offline, deterministic and free; live model capture (vendor API keys) is intentionally excluded.</p>",
   "access_right": "open",
   "license": "cc-by-4.0",
   "creators": [
@@ -16,13 +15,23 @@
       "affiliation": "Independent researcher, New York, USA"
     }
   ],
+  "description": "Reproducibility artifact for the manuscript \"Evaluating LLM-Based Credit Rating Systems: A Pre-Registered Specification-Curve Analysis.\" A pre-registered specification-curve (multiverse) study of whether large-language-model credit ratings are stable when the underlying fundamentals are held fixed but the elicitation is varied. From a frozen corpus, the analysis evaluates 45 credit-health profiles across 32 specifications and three seeds (4,320 credit-rating elicitations), drawn from a pre-registered 90-item battery and a balanced grid of model version, temperature, prompt paraphrase, output format, few-shot exemplars and presentation over two providers, benchmarked to Altman Z''. The estimand is stability, not accuracy. Under a descriptive main-effects decomposition no controllable axis exceeds about 5% of rating variance and pure run-to-run seed variation accounts for about 8%; instability persists on the temperature-0-honored subgrid (single provider, temperature 0; rating-invariance permutation p = 0.0005). Cross-specification agreement stays low at every resolution (unweighted Fleiss' kappa at most 0.49 at the investment-grade/high-yield split, where 25.2% of matched pairs disagree), and switching or pooling providers does not remove it. Specification variation is also observed in 31 perturbed and fingerprint-screened real issuers benchmarked to disclosed agency ratings; a post-hoc flagship model-tier arm does not detect attenuation on larger models, and a post-hoc reasoning-architecture arm (DeepSeek-R1, native chain-of-thought) shows comparable instability. The artifact derives and validates a candidate operational, ground-truth-free specification-instability score (held-out ROC-AUC 0.94; 0.70 on the real-issuer arm), and reports honest limits: cross-model transfer of the score is moderate but inconsistent across model pairs (Spearman 0.14-0.73), and the fractional design has near-orthogonal main effects with bounded residual aliasing (main off-diagonal correlation 0.062; main x two-factor-interaction 0.333). A single offline entry point (reproduce.sh) regenerates every reported number, table and figure from the frozen inputs, deterministically (seed 42), with no network access, no API keys and no paid model calls; live model capture is retained for transparency only and is not part of the reproduction.",
   "keywords": [
     "large language models",
     "credit ratings",
     "specification-curve analysis",
+    "multiverse analysis",
     "model risk",
     "reproducibility",
+    "prompt sensitivity",
     "investment grade"
   ],
-  "notes": "Code released under MIT (see LICENSE); data, analysis outputs and text under CC-BY-4.0. Corresponding author: Robin Chawla (robin.chawla.cse14@iitbhu.ac.in). Working copy: https://github.com/samirrc2/llm-credit-rating-specification-curve. Insert related-publication DOI at deposit. Live-capture SDKs (openai, google-genai) are not required to reproduce results from the frozen data."
+  "notes": "Code released under MIT (see LICENSE); data, analysis outputs and text under CC-BY-4.0. Corresponding author: Robin Chawla (robin.chawla.cse14@iitbhu.ac.in). Associated manuscript submitted to the Natural Language Processing Journal (Elsevier).",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/samirrc2/llm-credit-rating-specification-curve",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
 }
