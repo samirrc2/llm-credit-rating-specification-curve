@@ -56,6 +56,7 @@ runtime is a few minutes on a standard laptop. No network access is required at 
 \code{data/raw/main/} & frozen response corpus (per-call JSON) \\
 \code{data/raw/realarm/} & real-firm arm model-output panels (arm / comparator / fingerprint) \\
 \code{capture/flagship\_runs/} & flagship model-tier arm corpus (1{,}620 per-call JSON), fixed by \code{MANIFEST\_FLAGSHIP} \\
+\code{capture/reasoning\_runs/} & reasoning-architecture arm corpus (DeepSeek-R1; 1{,}620 per-call JSON $+$ consolidated panel), fixed by \code{MANIFEST\_REASONING} \\
 \code{data/panel/panel.parquet} & analysis panel, built once from raw (the confirmatory analysis input) \\
 \code{results/} & all generated outputs (Section~6) \\
 \code{paper/ISWA/} & manuscript (Elsevier CAS), figures, highlights, cover letter, \code{.docx} \\
@@ -78,9 +79,10 @@ Every input the pipeline reads is a frozen artifact. The analysis is a pure, see
 \code{data/frozen/realarm/battery\_real45.json} & 31 & anonymized, perturbed real B2B issuers with disclosed agency ratings; benchmarked in \code{ratings\_provenance.csv} (verbatim 10-K quote, SEC URL, document SHA-256) \\
 \code{data/frozen/realarm/spec\_grid\_12.json} & 12 & the frozen 12-specification grid (presentation $\times$ provider $\times$ paraphrase $\times$ format) shared by the real-firm and flagship arms \\
 \code{capture/flagship\_runs/run\_20260830\_141844/} & 1{,}620 & flagship model-tier arm: \code{gpt-5.4} $+$ \code{gemini-3.1-pro-preview} on the 12-spec grid $\times$ 45 credit items $\times$ 3 seeds \\
+\code{capture/reasoning\_runs/run\_20260906\_111300/} & 1{,}620 & reasoning-architecture arm: \code{deepseek-r1} on the 12-spec grid $\times$ 45 credit items $\times$ 3 seeds (\code{reasoning\_panel.json} is the consolidated input read by \code{reasoning\_analysis.py}) \\
 \code{config/grid\_definition.json} & --- & the balance-constrained D-optimal specification grid \\
 \code{data/frozen/main/rating\_scale.json} & --- & 21-grade letter scale and the letter$\to$notch/band/IG-HY maps \\
-\code{data/frozen/main/capital\_map.json} & --- & Basel CRE20 ECRA risk-weight map (quote-verified; post-hoc) \\
+\code{data/frozen/main/capital\_map.json} & --- & Basel CRE20 ECRA risk-weight map (retained for provenance; the post-hoc capital analysis was removed in the major revision and is no longer part of the pipeline) \\
 \bottomrule
 \end{longtable}
 
@@ -110,14 +112,19 @@ All code is in \code{analysis/}; each module is deterministic (seed 42) and read
 \textbf{Script} & \textbf{Purpose} & \textbf{Produces} \\
 \midrule
 \endhead
-\code{run\_analysis.py} & confirmatory analysis: OLS Type-II ANOVA variance decomposition (item / axes / provider$\times$item / pure-seed / other), determinism-subgrid permutation test, within/cross-vendor agreement, granularity $\kappa$, IG/HY flip & \code{results.json}, \code{spec\_curves.json}, \code{H1\_results.json}, \code{MANIFEST\_ANALYSIS} \\
-\code{capital\_analysis.py} & post-hoc Basel CRE20 capital recast on the frozen panel & \code{results\_capital.json} \\
-\code{market\_analysis.py} & Cornaggia-anchored implied-spread translation & \code{results\_market.json} \\
+\code{run\_analysis.py} & confirmatory analysis: OLS Type-II ANOVA variance decomposition (item / axes / provider$\times$item / pure-seed / other), within/cross-vendor agreement, granularity $\kappa$, IG/HY flip & \code{results.json}, \code{spec\_curves.json}, \code{MANIFEST\_ANALYSIS} \\
 \code{addenda.py} & supplementary robustness figures/numbers & \code{results\_addenda.json} \\
 \code{benchmark\_validation.py} & power / benchmark validation checks & \code{benchmark\_validation.*}, \code{MANIFEST\_VALIDATION} \\
-\code{analyze\_realarm.py} & real-firm arm: fingerprint gate, WATCH-stratum flip-share, TOST equivalence & real-arm results \\
+\code{analyze\_realarm.py} & real-firm arm: fingerprint gate, WATCH-stratum flip-share, descriptive arm-vs-battery comparison (no equivalence test), band accuracy vs agency & \code{H1\_results.json} \\
+\code{realarm\_speccurve.py} & external-benchmark specification curve on real issuers (agency ratings; issuer-preserving permutation) & \code{results\_realarm\_speccurve\_*.json} \\
+\code{realarm\_scale\_sensitivity.py} & does instability track absolute dollar scale? ($Z''$-invariance, Spearman) & \code{results\_scale\_sensitivity.json} \\
 \code{tier\_analysis.py} & flagship vs nano/flash IG/HY \& band flip on the 12-spec grid, issuer-clustered CIs & \code{results\_tier.json} \\
 \code{extended\_analysis.py} & specification-instability score validation (ROC-AUC, held-out \& real-issuer), self-consistency curve, ordinal-weighted agreement, per-stratum flips, deployment cost & \code{results\_extended.json} \\
+\code{revision\_analysis.py} & boundary-distance severity (R3-7) and turnover recast (R3-6) & \code{results\_revision.json} \\
+\code{permtest\_and\_tau.py} & rating-invariance permutation null (R3-3) and SIS $\tau$ calibration (R3-5) & \code{results\_permtest\_tau.json} \\
+\code{variance\_model\_range.py} & range of variance explained by elicitation axes (main-effects / $+$2-way / issuer-OOS ridge) & \code{results\_variance\_model\_range.json} \\
+\code{crossmodel\_aliasing.py} & cross-model transfer of the instability score and design aliasing diagnostics (R2-4/R2-5/R3-2) & \code{results\_crossmodel\_aliasing.json} \\
+\code{reasoning\_analysis.py} & reasoning-architecture arm (DeepSeek-R1) vs nano/flash \& flagship on the frozen grid & \code{results\_reasoning.json} \\
 \code{build\_panel.py} & (audit) rebuild \code{panel.parquet} from the raw corpus & panel (row-identical) \\
 \code{make\_figures.py}, \code{make\_extended\_figures.py} & regenerate manuscript figures (optional; needs matplotlib) & \code{paper/ISWA/*.pdf,png} \\
 \bottomrule
@@ -126,8 +133,10 @@ All code is in \code{analysis/}; each module is deterministic (seed 42) and read
 \subsection{Pipeline order}
 \code{reproduce.sh} runs the modules in dependency order; all JSON outputs are timestamp-free, so re-runs
 are byte-identical:
-\begin{quote}\code{run\_analysis $\to$ capital\_analysis $\to$ market\_analysis $\to$ addenda $\to$
-benchmark\_validation $\to$ analyze\_realarm $\to$ tier\_analysis $\to$ extended\_analysis}\end{quote}
+\begin{quote}\code{run\_analysis $\to$ addenda $\to$ benchmark\_validation $\to$ analyze\_realarm $\to$
+realarm\_speccurve $\to$ realarm\_scale\_sensitivity $\to$ tier\_analysis $\to$ extended\_analysis $\to$
+revision\_analysis $\to$ permtest\_and\_tau $\to$ variance\_model\_range $\to$ crossmodel\_aliasing $\to$
+reasoning\_analysis}\end{quote}
 
 \section{Results (generated outputs)}
 Running the pipeline regenerates the following under \code{results/}. In a clean checkout these already
@@ -137,12 +146,18 @@ exist; the reproduction overwrites them and confirms they are unchanged.
 \textbf{Output} & \textbf{Contents} \\
 \midrule
 \endhead
-\code{results.json} & headline confirmatory numbers: variance shares (with issuer-clustered CIs), agreement ladder, IG/HY flip (25.2\%, 95\% CI 19.7--31.2), determinism permutation $p=0.001$ \\
-\code{spec\_curves.json} & per-specification accuracy / IG-share for the specification-curve figure \\
-\code{results\_tier.json} & flagship vs nano/flash flip shares and paired differences \\
+\code{results.json} & headline confirmatory numbers: variance shares (with issuer-clustered CIs), agreement ladder (within 82.5\% / cross 64.4\%), IG/HY matched-pair disagreement (25.2\%) \\
+\code{spec\_curves.json} & per-specification label-recovery / IG-share for the specification-curve figure \\
+\code{results\_permtest\_tau.json} & rating-invariance permutation null (temperature-0-honored subgrid: observed 1.59, $p=0.0005$, $\eta^2=0.46$) and SIS $\tau$ calibration ($\tau=0.08$) \\
+\code{results\_tier.json} & flagship vs nano/flash flip shares and paired differences ($-1.1$ pp, 95\% CI $-7.6$ to $+6.0$) \\
+\code{results\_reasoning.json} & DeepSeek-R1 reasoning arm: IG/HY flip 25.5\% (95\% CI 20.9--30.1), paired diff vs nano/flash $+0.9$ pp \\
 \code{results\_extended.json} & score validation (held-out ROC-AUC 0.94, CI 0.86--0.99; real-issuer 0.70), self-consistency curve ($k=1\ldots15$), Krippendorff $\alpha$, per-stratum flips, deployment cost \\
-\code{results\_capital.json}, \code{results\_market.json}, \code{results\_addenda.json} & economic translations (capital recast, implied spread, addenda) \\
-\code{H1\_results.json} & real-firm arm hypothesis-test outputs \\
+\code{results\_crossmodel\_aliasing.json} & cross-model transfer (Spearman 0.14--0.73, median 0.45; AUC 0.72) and aliasing (main off-diag 0.062; main$\times$2FI 0.333) \\
+\code{results\_variance\_model\_range.json} & variance explained by elicitation axes: 0.083 / 0.119 / 0.101 (main / $+$2-way / issuer-OOS) \\
+\code{results\_realarm\_speccurve\_*.json} & external-benchmark spec curve on real issuers (42.2--61.1\%, mean 53.7\%, perm $p=0.021$) \\
+\code{results\_scale\_sensitivity.json} & scale-invariance check (Spearman $-0.035$, perm $p=0.85$) \\
+\code{results\_revision.json}, \code{results\_addenda.json} & boundary-distance severity, turnover recast, supplementary robustness \\
+\code{H1\_results.json} & real-firm arm descriptive outputs (WATCH flip-shares, arm$-$battery difference, band accuracy) \\
 \code{benchmark\_validation.\{json,csv\}} & power / benchmark validation \\
 \code{results/exhibits/} & regenerated tables \\
 \bottomrule
@@ -172,9 +187,11 @@ which is not part of the pinned analysis dependencies.
 \section{Live data collection (not part of the reproduction)}
 \code{capture/} documents how the model-response corpora were originally collected: \code{collect.py}
 drives the main confirmatory grid; \code{run\_arm.py} and \code{realarm\_collect.py} run the real-firm arm;
-\code{run\_flagship.py} runs the flagship model-tier arm; \code{freeze\_flagship.py} writes its SHA-256
-manifest; \code{fingerprint\_pilot.py} runs the decontamination gate; \code{list\_models.py} enumerates
-served models. This phase requires internet access and OpenAI/Google API keys, incurs cost, and is
+\code{run\_flagship.py} runs the flagship model-tier arm and \code{freeze\_flagship.py} writes its SHA-256
+manifest; \code{run\_reasoning.py} runs the reasoning-architecture arm (DeepSeek-R1 via OpenRouter) and
+\code{freeze\_reasoning.py} writes \code{MANIFEST\_REASONING}; \code{fingerprint\_pilot.py} runs the
+perturbation-and-fingerprint-screening gate; \code{list\_models.py} enumerates
+served models. This phase requires internet access and provider API keys, incurs cost, and is
 intentionally excluded from the reproducible core. API keys are never distributed (\code{.gitignore}
 blocks \code{keys.env.txt} and any \code{API~Keys/} folder); all reported results derive only from the
 frozen corpora.
