@@ -54,7 +54,7 @@ data/
   raw/realarm/     # real-firm arm model-output panels (arm/comparator/fingerprint)
   panel/           # panel.parquet (built once from raw; the analysis input)
 results/           # regenerated results_*.json (incl. results_tier, results_extended) + exhibits
-paper/ISWA/        # manuscript (Elsevier CAS single-column), figures, highlights, cover letter, .docx
+paper/NLP/        # manuscript (Elsevier CAS single-column), figures, highlights, cover letter, .docx
 docs/              # reports, appendix D, changelog
 manifest/          # SHA-256 manifests for every frozen stage (incl. MANIFEST_FLAGSHIP)
 PREREGISTRATION.md, PREREGISTRATION_AMENDMENTS.md

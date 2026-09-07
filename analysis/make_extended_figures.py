@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Regenerate the revision figures (offline) from results/results_extended.json:
   fig_selfconsistency.pdf  — residual IG/HY flip vs k-of-n majority vote
-Writes into paper/ISWA/. Requires matplotlib (optional dependency)."""
+Writes into paper/NLP/. Requires matplotlib (optional dependency)."""
 import json
 from pathlib import Path
 import matplotlib
@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 PB = Path(__file__).resolve().parents[1]
 E = json.load(open(PB / "results" / "results_extended.json"))
-OUT = PB / "paper" / "ISWA"
+OUT = PB / "paper" / "NLP"
 plt.rcParams.update({"font.family": "sans-serif", "font.size": 10, "axes.spines.top": False,
                      "axes.spines.right": False, "figure.dpi": 200})
 

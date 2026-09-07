@@ -1,6 +1,6 @@
 # Manuscript edit log — cas-sc.tex (NLP major revision)
 
-Backup of pre-revision manuscript: `paper/ISWA/cas-sc.PREREV.bak` (1061 lines).
+Backup of pre-revision manuscript: `paper/NLP/cas-sc.PREREV.bak` (1061 lines).
 Legend: ✅ done · ⬜ pending. Each row records the exact surgical change.
 
 ## A. Abstract
@@ -68,9 +68,9 @@ Legend: ✅ done · ⬜ pending. Each row records the exact surgical change.
 ---
 ## Status: ALL EDITS IMPLEMENTED ✅
 - Compiled clean: **22 pages, 0 undefined refs/citations, 0 errors**, bibtex clean.
-- Source: `paper/ISWA/cas-sc.tex` (1061 → 1116 lines; +55 net, driven by the reasoning subsection/table and the added analyses, offset by economics removal).
-- Backup of original: `paper/ISWA/cas-sc.PREREV.bak`.
-- Revised PDF staged: `paper/ISWA/NLP_submission/cas-sc-revised.pdf`; response at `NLP_submission/RESPONSE_TO_REVIEWERS.pdf`.
+- Source: `paper/NLP/cas-sc.tex` (1061 → 1116 lines; +55 net, driven by the reasoning subsection/table and the added analyses, offset by economics removal).
+- Backup of original: `paper/NLP/cas-sc.PREREV.bak`.
+- Revised PDF staged: `paper/NLP/NLP_submission/cas-sc-revised.pdf`; response at `NLP_submission/RESPONSE_TO_REVIEWERS.pdf`.
 - Removed cleanly: economics translations (turnover/spread/Pillar-1/RCAP), TOST (both), 53.5%, $45bn, p=0.179, 999-perm.
 - Verified present: p=0.0005, reasoning 25.5% + deepseek-r1 + MANIFEST_REASONING, design-label recovery, aliasing 0.354, issuer-preserving perm, external curve 42.2–61.1%, τ any-disagreement rule, "do not detect attenuation".
 

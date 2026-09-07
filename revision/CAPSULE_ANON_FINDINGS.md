@@ -1,6 +1,6 @@
 # Anonymized-capsule re-verification — findings (2026-09-06)
 
-Scanned `paper/ISWA/submission/reproducibility_capsule_ANONYMIZED.zip` (17,929 files). The manuscript-identifier scrub (family-names → "Anonymous", ORCIDs → XXXX, DOIs/repo → withheld) held, BUT three metadata files still leak author identity. These MUST be fixed before the capsule is refreshed for resubmission.
+Scanned `paper/NLP/submission/reproducibility_capsule_ANONYMIZED.zip` (17,929 files). The manuscript-identifier scrub (family-names → "Anonymous", ORCIDs → XXXX, DOIs/repo → withheld) held, BUT three metadata files still leak author identity. These MUST be fixed before the capsule is refreshed for resubmission.
 
 ## Real leaks to fix (author de-anonymization risk)
 

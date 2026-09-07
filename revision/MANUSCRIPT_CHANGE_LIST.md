@@ -1,6 +1,6 @@
 # Manuscript change-list — NLP-D-26-00451 major revision
 
-Planning document only (no manuscript edits made yet). Each row is a concrete edit to `paper/ISWA/cas-sc.tex`, keyed to the reviewer point it answers, with the exact number/source to insert. Status: **PENDING** until the reasoning run finishes and we edit the doc. All offline numbers below were re-verified against the regenerated `results/*.json` on 2026-09-06 (zero drift).
+Planning document only (no manuscript edits made yet). Each row is a concrete edit to `paper/NLP/cas-sc.tex`, keyed to the reviewer point it answers, with the exact number/source to insert. Status: **PENDING** until the reasoning run finishes and we edit the doc. All offline numbers below were re-verified against the regenerated `results/*.json` on 2026-09-06 (zero drift).
 
 Decision on venue: **stay at the NLP journal** (major revision, not reject). We do NOT retarget. R2's "retarget to quant-finance" is declined in the response letter, and the NLP relevance is strengthened editorially instead.
 

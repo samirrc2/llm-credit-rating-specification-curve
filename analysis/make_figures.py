@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Regenerate the three manuscript figures from the current results (offline).
 Reads results/results.json + results/spec_curves.json; writes the figures into
-paper/ISWA so they always match the reported numbers.
+paper/NLP so they always match the reported numbers.
 Requires matplotlib (optional dependency; not needed to reproduce the numbers)."""
 import json
 from pathlib import Path
@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 PB = Path(__file__).resolve().parents[1]
 R = json.load(open(PB / "results" / "results.json"))
 SC = json.load(open(PB / "results" / "spec_curves.json"))
-OUT_DIRS = [PB / "paper" / "ISWA"]
+OUT_DIRS = [PB / "paper" / "NLP"]
 
 def find(key):
     for b in R.values():

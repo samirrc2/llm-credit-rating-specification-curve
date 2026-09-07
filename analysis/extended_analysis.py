@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extended offline analyses for the ISWA revision (deterministic, seed 42; no API calls).
+"""Extended offline analyses for the NLP-journal revision (deterministic, seed 42; no API calls).
 Computes and writes results/results_extended.json:
   A2  score validation: does the specification-instability score, fit on a calibration
       half of the specs, predict held-out IG/HY instability? (Spearman + ROC-AUC + AP)
