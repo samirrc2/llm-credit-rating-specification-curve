@@ -51,15 +51,15 @@
  },
  "B6.ighy_flip_by_stratum": {
   "DISTRESS": {
-   "ighy_flip": 0.2711,
+   "ighy_flip": 0.271085,
    "n_items": 15
   },
   "SAFE": {
-   "ighy_flip": 0.1299,
+   "ighy_flip": 0.129934,
    "n_items": 15
   },
   "WATCH": {
-   "ighy_flip": 0.3545,
+   "ighy_flip": 0.354536,
    "n_items": 15
   }
  },

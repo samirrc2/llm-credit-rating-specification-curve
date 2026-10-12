@@ -19,6 +19,5 @@
  "8640": "designed battery cell count; bound by build/check_denominators.py",
  "8633": "substantive battery cells; bound by build/check_denominators.py",
  "1361": "substantive decontamination calls; bound by build/check_denominators.py",
- "2.83": "1.7/0.6, stated arithmetic on two design constants",
- "35.5": "benchmark-WATCH stratum flip. Deposited value is 0.3545 (results_extended.json, B6.ighy_flip_by_stratum/WATCH/ighy_flip). Printed as 35.5% by rounding the ratio half-up at three decimals (0.3545 -> 0.355); a single rounding of 0.3545*100 = 35.4499... gives 35.4%. Double rounding, 0.05pp, no conclusion depends on it. Flagged here so it is not mistaken for an unsourced number."
+ "2.83": "1.7/0.6, stated arithmetic on two design constants"
 }

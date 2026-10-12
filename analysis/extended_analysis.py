@@ -192,7 +192,10 @@ out["B5.weighted_agreement"] = {
 strat = {}
 for band, g in CR.groupby("bench_band"):
     per = g.groupby("item_id").ighy.apply(lambda s: simpson_flip(s.tolist()))
-    strat[str(band)] = {"ighy_flip": round(float(per.mean()), 4), "n_items": int(per.shape[0])}
+    # 6dp, not 4. At 4dp the WATCH stratum deposits 0.3545, which lands exactly on the 1dp
+    # rounding boundary and cannot confirm the 35.5% the paper prints; the full value is
+    # 0.35453646. A claim harvested at too few digits cannot verify the figure above it.
+    strat[str(band)] = {"ighy_flip": round(float(per.mean()), 6), "n_items": int(per.shape[0])}
 out["B6.ighy_flip_by_stratum"] = strat
 
 # ---------- B8: flagship band accuracy vs Altman (+ nano/flash) --------------------
