@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R025",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company has moderate scale with $2.08B in revenue and a leverage profile characterized by high total liabilities ($4.93B) relative to total assets ($6.01B), resulting in a thin equity cushion ($1.08B) and negative retained earnings (-$449M). However, it maintains positive profitability (EBIT margin of ~7.6% and net income of $85M) and a adequate current ratio of 1.32x, placing it solidly in the lower-investment grade category. \n\nDECISION: BBB-",
+ "prompt_sha256": "c4a73c0e484bbc614c30eaf18419d5e30f7d8dfc6b78e421ebc0f839d7f5419e",
+ "in_tok": 215,
+ "out_tok": 121,
+ "usd": 0.001411,
+ "utc": "2026-10-11T20:45:59.623863+00:00"
+}

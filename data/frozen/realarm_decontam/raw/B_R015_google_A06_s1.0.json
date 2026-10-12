@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R015",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company displays strong liquidity with a current ratio of 2.85 and a solid balance sheet backed by $2,427M in equity and substantial retained earnings ($2,930M). However, operational performance is weak with a significant operating loss (-$988M EBIT), though bottom-line profitability remains positive with a net income of $644M. Overall, the financial profile reflects an investment-grade capital structure offset by operating volatility, supporting a mid-BBB rating.\n\nDECISION: BBB",
+ "prompt_sha256": "1bb0629ba624c79989ca694a7c088b69fb409fcee9c6c16432fd33c8fb67cadc",
+ "in_tok": 218,
+ "out_tok": 109,
+ "usd": 0.001308,
+ "utc": "2026-10-11T20:48:23.824111+00:00"
+}

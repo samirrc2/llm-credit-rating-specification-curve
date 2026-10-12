@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R012",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Strong liquidity (current ratio \u2248 2.35) and solid profitability (net margin \u2248 11%, EBIT margin \u2248 13%) support creditworthiness, while leverage is moderate (total liabilities \u2248 1.18B vs shareholders\u2019 equity \u2248 1.12B; equity ~48% of assets). This mix points to a lower-to-mid investment-grade profile but not the strongest balance-sheet leverage for higher ratings.  \n\nDECISION: BBB+",
+ "prompt_sha256": "2cf6e9e615f1395625c0a69b6f43a2d9baf0fd1a87fd5a89bdf93a5a45bc658d",
+ "in_tok": 228,
+ "out_tok": 248,
+ "usd": 0.000356,
+ "utc": "2026-10-11T20:45:17.845042+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R012",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Solid profitability, low leverage, strong asset coverage, and healthy retained earnings support a solid investment-grade credit profile.\"}\n```",
+ "prompt_sha256": "42495812ac4fe6d256669374f072b7759a4bce9b859f292fc12780e72b174fc4",
+ "in_tok": 269,
+ "out_tok": 46,
+ "usd": 0.000817,
+ "utc": "2026-10-11T20:48:15.314834+00:00"
+}

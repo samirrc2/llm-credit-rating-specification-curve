@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R026",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A09",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Thin EBIT margin (~5.4%), weak current ratio (<1), and high leverage (liabilities/equity ~4.4) indicate elevated credit risk.\"}",
+ "prompt_sha256": "c049f6b0f8eb1a4ba8a244711e75abafd219ac8fbcd1b418751bd83fc20189ca",
+ "in_tok": 224,
+ "out_tok": 199,
+ "usd": 0.000294,
+ "utc": "2026-10-11T20:46:06.505100+00:00"
+}

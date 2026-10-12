@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R027",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows solid short-term liquidity (current ratio \u2248 2.6) and moderate leverage (liabilities/assets \u2248 59%). However, profitability is weak at the net level (net margin \u2248 0.8%), indicating limited earnings power despite reasonable EBIT margin (~6.4%).  \n\nDECISION: BBB-",
+ "prompt_sha256": "0bd9a5d4ff6a05139921a57e49205706da171e2b70b5a18f4d6073c4383653f2",
+ "in_tok": 230,
+ "out_tok": 221,
+ "usd": 0.000322,
+ "utc": "2026-10-11T20:46:10.479795+00:00"
+}

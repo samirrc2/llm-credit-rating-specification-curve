@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R026",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Solid revenue and equity base with moderate profitability, balanced by high total debt and leverage ratios relative to assets.\"}\n```",
+ "prompt_sha256": "fed233ba491555ffc2d74546e6caf360c8a7b3be3616311807d84739b6e8e088",
+ "in_tok": 267,
+ "out_tok": 44,
+ "usd": 0.000796,
+ "utc": "2026-10-11T20:46:04.062276+00:00"
+}

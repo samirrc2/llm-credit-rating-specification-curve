@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows good short-term liquidity (current assets/current liabilities \u2248 2.3) and moderate leverage (equity/total assets \u2248 31%), but it is loss-making with negative EBIT and net income in the most recent fiscal year. Sustained operating losses would pressure credit quality despite the balance-sheet cushion.  \n\nDECISION: BB-",
+ "prompt_sha256": "f5c9b8545101e48cfe5a904b874cfe953787a5d834f43a05ffee41aaf0a01088",
+ "in_tok": 230,
+ "out_tok": 179,
+ "usd": 0.00027,
+ "utc": "2026-10-11T20:45:15.778128+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A05",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"EBIT and net income are negative, but equity is positive, liquidity is strong (current ratio ~2.3), and retained earnings remain high.\"}",
+ "prompt_sha256": "381977b79a52a4bf52cfe2fbe9897b285f76c6fc773624919fa17ee79bb3d8e3",
+ "in_tok": 213,
+ "out_tok": 238,
+ "usd": 0.00034,
+ "utc": "2026-10-11T20:45:15.538404+00:00"
+}

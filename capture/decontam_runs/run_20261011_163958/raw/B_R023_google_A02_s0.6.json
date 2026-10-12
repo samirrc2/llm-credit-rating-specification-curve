@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R023",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits an exceptionally strong balance sheet characterized by very low leverage (Total Liabilities to Total Assets of ~21.5%), robust liquidity (Current Ratio of 3.85x), and strong profit margins. While the negative retained earnings point to historical accumulated losses, current profitability is high (Net Income of 202M and EBIT of 54M relative to 376M in revenue) and the net equity base is substantial, supporting a solid investment-grade profile.\n\nDECISION: A",
+ "prompt_sha256": "9a75462b93e5ab537147a4bae29ece9dddbb4d8c2cd693270928768dc17ecca2",
+ "in_tok": 212,
+ "out_tok": 106,
+ "usd": 0.001272,
+ "utc": "2026-10-11T20:48:41.481748+00:00"
+}

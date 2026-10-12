@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R031",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong profitability with an EBIT margin of over 20% and a solid equity base, but exhibits significant leverage (Total Liabilities/Total Assets of 71%) and short-term liquidity pressure indicated by a working capital deficit (Current Ratio of 0.55). Balancing its substantial asset base ($17.3B) and solid earnings against a relatively low net margin (likely impacted by high interest expenses) and weak liquidity places the credit profile in the mid-to-low investment-grade category.\n\nDECISION: BBB-",
+ "prompt_sha256": "efa64426f9306eff782282975cfb0b4e5f22ece3cb03cf8221b388f8ac4fa1b6",
+ "in_tok": 228,
+ "out_tok": 112,
+ "usd": 0.00135,
+ "utc": "2026-10-11T20:48:50.898125+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R026",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows profitability (net income 517M; EBIT 710M) but has weak liquidity with a current ratio below 1 (current assets 2,565M vs. current liabilities 2,881M) and relatively high leverage (total liabilities 13,829M vs. equity 3,165M). Overall, despite operating earnings, the balance sheet strength and near-term funding position look more consistent with a lower-investment-grade/speculative profile.  \n\nDECISION: BB-",
+ "prompt_sha256": "8689598de09dcd4d87a953d421d67ae7c16311083e3edbb4792dd2b2cd484b0f",
+ "in_tok": 237,
+ "out_tok": 201,
+ "usd": 0.000299,
+ "utc": "2026-10-11T20:46:04.840448+00:00"
+}

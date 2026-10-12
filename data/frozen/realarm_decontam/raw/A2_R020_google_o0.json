@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R020",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "ANSWER: GATX CORP",
+ "prompt_sha256": "7b6de631f815953a3f0033d43d797ccb16fe01093c4192b83cab42d3a80a1c85",
+ "in_tok": 548,
+ "out_tok": 6,
+ "usd": 0.000876,
+ "utc": "2026-10-11T20:47:39.888520+00:00"
+}

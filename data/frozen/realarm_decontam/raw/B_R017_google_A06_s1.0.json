@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R017",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a strong financial profile with solid profitability (EBIT margin of ~23.2% and Net Income margin of ~12.7%), a healthy capital structure supported by equity of $2.39 billion against total liabilities of $4.41 billion, and good short-term liquidity (current ratio of 1.35x). These solid credit metrics and moderate leverage align well with an upper-medium grade investment-grade profile.\n\nDECISION: A",
+ "prompt_sha256": "a09344a452f84636cc2b489912dbf38ea44c6a4ac99fac6f916627390f9bfdee",
+ "in_tok": 214,
+ "out_tok": 99,
+ "usd": 0.001212,
+ "utc": "2026-10-11T20:48:28.697088+00:00"
+}

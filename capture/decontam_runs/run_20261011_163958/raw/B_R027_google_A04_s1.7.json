@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R027",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Adequate capital structure with strong asset base and low leverage, but profitability and net margins are relatively weak.\"}\n```",
+ "prompt_sha256": "74770c62d25caa0cdb08b52c92fc982b50f4a2f6f41f72d15ad4ab6a336f6c89",
+ "in_tok": 271,
+ "out_tok": 45,
+ "usd": 0.000811,
+ "utc": "2026-10-11T20:46:09.181565+00:00"
+}

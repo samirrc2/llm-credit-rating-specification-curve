@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R030",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Solid equity base ($6.56B) and stable profitability (EBIT $741M, Net Income $411M) offset elevated total debt and weak current ratio.\"}\n```",
+ "prompt_sha256": "a581a8451e58bcd2f6b67874d4f4b587a69c8390b329a4a515849fac4e9d99f9",
+ "in_tok": 266,
+ "out_tok": 62,
+ "usd": 0.000957,
+ "utc": "2026-10-11T20:46:22.931462+00:00"
+}

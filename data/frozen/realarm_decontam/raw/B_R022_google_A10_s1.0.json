@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R022",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays a solid operational profile with an EBIT margin of approximately 14.4% and an equity-to-assets ratio of nearly 43%, though profitability is constrained by a net margin of 2.7% and a modest current ratio of 1.14. The substantial retained earnings base of $4.96 billion demonstrates long-term cumulative profitability, balancing moderate financial leverage. These fundamentals reflect a stable investment-grade credit profile with manageable financial risk.\n\nDECISION: BBB",
+ "prompt_sha256": "da5122d4e7141695a6a62abf896e8e6607111f3e411e9e3a8b65f13af2e3511a",
+ "in_tok": 231,
+ "out_tok": 103,
+ "usd": 0.001273,
+ "utc": "2026-10-11T20:48:40.531726+00:00"
+}

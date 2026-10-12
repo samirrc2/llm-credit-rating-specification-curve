@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid profitability with a net income of $242M on revenue of $1,264M (an impressive net margin of ~19.1%) and a healthy equity cushion of $1,997M backed by substantial retained earnings. However, the financial profile reflects significant leverage, evidenced by a high debt-to-equity ratio driven by total liabilities of $10,429M against $13,067M in total assets (a leverage ratio of nearly 80%). Taking into account the strong earning power balanced against high financial leverage typical of a investment-grade financial or asset-heavy institution, the company warrants a solid mid-investment-grade rating.\n\nDECISION: BBB",
+ "prompt_sha256": "7f19399bd6f4733d24e619e7e71e0ab9ba6f2d1d1ab1bf55f648eada5c4aae73",
+ "in_tok": 199,
+ "out_tok": 152,
+ "usd": 0.001667,
+ "utc": "2026-10-11T20:48:09.699402+00:00"
+}

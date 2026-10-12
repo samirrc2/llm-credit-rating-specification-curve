@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer generates substantial revenue ($9,292M) and maintains a solvent balance sheet with a net equity cushion of $2,520M and positive working capital (current ratio of 1.21x). However, profitability is extremely weak with an operating margin near zero (EBIT of $7M) and a net loss of $139M, indicating operational stress and compressed interest coverage. This combination of significant scale and asset backing offset by negative net profitability positions the credit quality in the speculative grade.\n\nDECISION: BB",
+ "prompt_sha256": "b1e75050365a3146410a82e2547b0b73686f70bf44e49f607dd2a182141146cb",
+ "in_tok": 226,
+ "out_tok": 113,
+ "usd": 0.001356,
+ "utc": "2026-10-11T20:47:50.576798+00:00"
+}

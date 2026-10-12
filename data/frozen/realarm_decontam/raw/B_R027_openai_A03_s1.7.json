@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R027",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows solid balance-sheet strength with a healthy equity base (shareholders\u2019 equity of 4,859M vs. total assets of 11,776M) and good short-term liquidity (current ratio \u2248 2.57). However, profitability is relatively thin at the net level (net income margin \u2248 0.8%), which weakens the credit profile despite decent operating earnings (EBIT margin \u2248 6.4%).\n\nDECISION: BBB+",
+ "prompt_sha256": "56b33c854b7d777d347498339d560c72e0e9e6d052bc794da5c935be4b41dfe6",
+ "in_tok": 237,
+ "out_tok": 251,
+ "usd": 0.000361,
+ "utc": "2026-10-11T20:46:10.011170+00:00"
+}

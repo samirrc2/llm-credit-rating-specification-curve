@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R001",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong profitability, healthy liquidity, and moderate leverage (42% equity ratio) support a solid investment-grade rating.\"}\n```",
+ "prompt_sha256": "078a950691ecd9b40a0c7610225bc42489e2aba1c7bc46390b3095195680323c",
+ "in_tok": 271,
+ "out_tok": 48,
+ "usd": 0.000838,
+ "utc": "2026-10-11T20:47:47.746285+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "A1",
+ "item_id": "R031",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "GUESS: VZ",
+ "prompt_sha256": "0ff096b576b3bd2203c2c6ceb0f918195c0f768803ee30bbb98ee5c0fb0fda28",
+ "in_tok": 223,
+ "out_tok": 792,
+ "usd": 0.001035,
+ "utc": "2026-10-11T20:44:43.777052+00:00"
+}

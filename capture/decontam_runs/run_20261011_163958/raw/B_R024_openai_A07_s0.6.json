@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R024",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Liquidity is weak with a current ratio below 1 (current assets 876M vs. current liabilities 959M), and leverage is high (total liabilities 2,635M vs. total assets 3,200M; liabilities are ~82% of assets). Profitability is solid (net income margin ~9.4% and EBIT margin ~13.5%), which partially offsets the balance-sheet stress, supporting a speculative grade rather than investment grade.\n\nDECISION: BB-",
+ "prompt_sha256": "a6c53f7e7fcbd82a45c7adcefb23c049c94c4b4915e8b3eaee32ced89b4742b3",
+ "in_tok": 222,
+ "out_tok": 237,
+ "usd": 0.000341,
+ "utc": "2026-10-11T20:45:56.353161+00:00"
+}

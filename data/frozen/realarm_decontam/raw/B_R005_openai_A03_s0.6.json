@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R005",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows solid balance-sheet strength with positive equity (2,061M) and manageable leverage (total liabilities of 1,517M vs. assets of 3,609M), along with good short-term liquidity (current ratio \u2248 1.75). Profitability is positive (net income 125M on revenue 1,261M; EBIT 101M), but there is not enough evidence of consistently strong cash flow coverage to support an investment-grade top tier rating.  \n\nDECISION: BBB+",
+ "prompt_sha256": "b47f369eba2aa2e10777a103b54766f32e2119b414c3b94bb53331ebe827a069",
+ "in_tok": 235,
+ "out_tok": 214,
+ "usd": 0.000315,
+ "utc": "2026-10-11T20:44:56.305097+00:00"
+}

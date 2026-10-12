@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R008",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with total equity of 1.25B, solid profitability (ROA ~7%, EBIT 232M), and low current liabilities.\"}\n```",
+ "prompt_sha256": "61a5a576d49acf11e9417fd9472b2244e1cc5bbda9ff73ee52f7e43ccd8e065b",
+ "in_tok": 256,
+ "out_tok": 57,
+ "usd": 0.000897,
+ "utc": "2026-10-11T20:48:04.378289+00:00"
+}

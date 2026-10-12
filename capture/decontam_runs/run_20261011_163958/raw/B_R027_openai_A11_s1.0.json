@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R027",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Liquidity is solid (current ratio \u2248 2.6) and the balance sheet is reasonably cushioned by equity (equity \u2248 41% of assets, with liabilities/assets \u2248 59%). However, profitability is relatively thin (net margin \u2248 0.8% and EBIT margin \u2248 6.4%), which limits earnings-based credit resilience despite manageable leverage. Overall, the risk profile points to the lower end of the investment spectrum / upper speculative range.\n\nDECISION: BB+",
+ "prompt_sha256": "ad174100e5f40ccf9bed27eb4f424c76b6fe5c386bedc7113b3b8286362eaec5",
+ "in_tok": 237,
+ "out_tok": 352,
+ "usd": 0.000487,
+ "utc": "2026-10-11T20:46:10.028379+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R001",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage (Total Liabilities/Assets of 57.7%) combined with solid profitability (EBIT margin of 15.7%) supports a mid-investment grade rating.\"}\n```",
+ "prompt_sha256": "8babde38f0ead5a5a4eea807f8434e34c24561b49a9cc8cc112a3b3d811f663f",
+ "in_tok": 272,
+ "out_tok": 60,
+ "usd": 0.000948,
+ "utc": "2026-10-11T20:47:48.916800+00:00"
+}

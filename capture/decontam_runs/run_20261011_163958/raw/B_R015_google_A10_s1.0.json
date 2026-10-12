@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R015",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays strong current liquidity (current ratio of ~2.85x) and a healthy equity buffer with positive retained earnings and substantial net income; however, the severe operational loss (EBIT of -$988M on $2,325M revenue) indicates significant core business volatility or reliance on non-operating items. This severe operating deficit is counterbalanced by moderate leverage (Total Debt/Liabilities to Assets around 58.7%) and strong bottom-line capitalization, placing the company in the high-yield speculative category.\n\nDECISION: BB",
+ "prompt_sha256": "d99873f54493af1443f8a8f5849ee7171943653b46b758ae6f6c4e912b7be845",
+ "in_tok": 226,
+ "out_tok": 117,
+ "usd": 0.001392,
+ "utc": "2026-10-11T20:48:24.301973+00:00"
+}

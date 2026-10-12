@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R004",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A05",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB\",\"confidence\":3,\"rationale\":\"Profitable with solid liquidity (current assets/current liabilities >2), but negative retained earnings weakens capitalization/earnings stability despite positive equity.\"}",
+ "prompt_sha256": "d65db5858ad78c9e7ba1bf274bd5cbd3a09052221f82ab80a5030a132b853001",
+ "in_tok": 207,
+ "out_tok": 221,
+ "usd": 0.000318,
+ "utc": "2026-10-11T20:44:53.249303+00:00"
+}

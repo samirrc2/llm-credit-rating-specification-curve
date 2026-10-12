@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R031",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits significant financial distress characterized by a severely weak liquidity profile (working capital of -$229M and a current ratio of 0.55), a highly leveraged capital structure (total liabilities-to-assets of 71.3% and liabilities-to-equity of 2.53x), and poor earnings quality (net margin of only 3.7% despite solid operating margins, indicating extremely high interest or non-operating expense burdens). These leverage and short-term solvency vulnerabilities place the firm well into speculative grade, consistent with a high risk of refinancing stress or default.\n\nDECISION: B-",
+ "prompt_sha256": "20318c53938561326ef3f4fa74e7cef68108a4b578bce1659d99e9dc6c359475",
+ "in_tok": 221,
+ "out_tok": 129,
+ "usd": 0.001492,
+ "utc": "2026-10-11T20:48:50.687342+00:00"
+}

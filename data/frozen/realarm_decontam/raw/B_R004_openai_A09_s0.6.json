@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R004",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A09",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Profitability and liquidity are adequate (EBIT margin ~17%, current ratio >2), but negative retained earnings and high leverage (~67% liabilities/assets) weaken credit.\"}",
+ "prompt_sha256": "e28e7c3dd11428e3505274afc0a9324805fb64d7e05946b77dbafa3442192fd8",
+ "in_tok": 216,
+ "out_tok": 179,
+ "usd": 0.000267,
+ "utc": "2026-10-11T20:44:53.486155+00:00"
+}

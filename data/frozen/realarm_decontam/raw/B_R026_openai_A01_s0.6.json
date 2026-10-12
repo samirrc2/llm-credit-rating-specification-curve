@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R026",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A01",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"Leverage is high (liabilities/assets ~81%), liquidity weak (current ratio ~0.89), and margins moderate (EBIT ~5%). Profitability supports but risk remains.\"}",
+ "prompt_sha256": "07d7e2b4ef05487b2436478bb414e5af441ae27cdf1e7f08555baf1cbd5856ab",
+ "in_tok": 220,
+ "out_tok": 161,
+ "usd": 0.000245,
+ "utc": "2026-10-11T20:46:02.429923+00:00"
+}

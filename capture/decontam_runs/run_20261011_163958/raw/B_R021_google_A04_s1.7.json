@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R021",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Solid revenue and earnings with low leverage (Debt/Equity around 1.5) and good liquidity support an investment-grade BBB rating.\"}\n```",
+ "prompt_sha256": "650232d1361cf1d23e8400e8593231bad07d81472e7679e8acf668f0eb94f43f",
+ "in_tok": 265,
+ "out_tok": 51,
+ "usd": 0.000856,
+ "utc": "2026-10-11T20:48:38.401346+00:00"
+}

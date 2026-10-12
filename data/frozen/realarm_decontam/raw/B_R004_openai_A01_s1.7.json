@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R004",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A01",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Healthy EBIT margin and liquidity (current ratio ~2.2) but high leverage (liabilities/assets ~67%) and negative retained earnings weaken credit quality.\"}",
+ "prompt_sha256": "fb212253f8964e88e920c8bbd31e0b60d45e04f853642d4996416d7e70629e19",
+ "in_tok": 222,
+ "out_tok": 199,
+ "usd": 0.000293,
+ "utc": "2026-10-11T20:44:54.520467+00:00"
+}

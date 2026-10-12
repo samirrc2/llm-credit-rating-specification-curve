@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R004",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "ANSWER: Chemours Co",
+ "prompt_sha256": "d832eff590fbf9f186a1d42d1a51e9973e0a485c9bfb31f8400435b13c5b339f",
+ "in_tok": 546,
+ "out_tok": 830,
+ "usd": 0.001147,
+ "utc": "2026-10-11T20:42:23.746761+00:00"
+}

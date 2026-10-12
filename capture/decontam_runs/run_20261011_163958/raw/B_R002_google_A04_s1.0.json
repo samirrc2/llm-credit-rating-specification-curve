@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High revenue and assets provide scale, but negative net income, high leverage (Total Liabilities $7.5B vs. Equity $2.5B), and weak EBIT constrain rating.\"}\n```",
+ "prompt_sha256": "4dc7e3cf9621395f0f2415ccbb260494bf9e1db291ee6ccb9c6d20a07e7174f6",
+ "in_tok": 270,
+ "out_tok": 60,
+ "usd": 0.000945,
+ "utc": "2026-10-11T20:47:50.532428+00:00"
+}

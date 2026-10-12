@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R019",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows significant leverage (total liabilities of 11,824M versus shareholders\u2019 equity of 415M) with sustained operating weakness (EBIT/operating income of -459M and net income of -640M). While liquidity appears acceptable on a current basis (current assets 4,976M vs. current liabilities 2,796M), the combination of thin equity and negative profitability points to elevated default risk.  \n\nDECISION: B-",
+ "prompt_sha256": "7138b08d6d218dc78e73542ee77ded7d7418d63d3d652da6a76efadeb3bf1abe",
+ "in_tok": 237,
+ "out_tok": 273,
+ "usd": 0.000389,
+ "utc": "2026-10-11T20:45:40.879676+00:00"
+}

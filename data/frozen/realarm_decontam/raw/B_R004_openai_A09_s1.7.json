@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R004",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A09",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":3,\"rationale\":\"Profitable but with negative retained earnings and moderate leverage (liabilities/equity ~2.1). Liquidity strong (current ratio ~2.2) yet earnings quality uncertain.\"}",
+ "prompt_sha256": "970583dbd93bf3a5caad1f732868370008e46dc4d5a760839197ee79b9c6e61d",
+ "in_tok": 224,
+ "out_tok": 188,
+ "usd": 0.00028,
+ "utc": "2026-10-11T20:44:55.488432+00:00"
+}

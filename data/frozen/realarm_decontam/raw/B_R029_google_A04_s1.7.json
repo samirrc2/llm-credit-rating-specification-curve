@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R029",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Solid profitability, large asset base, and excellent equity cushion with low leverage relative to revenue and earnings support a strong rating.\"}\n```",
+ "prompt_sha256": "0632347ce81f9f540eda6b974d2c9e37e28c5ab1afded445933449c8922ede3e",
+ "in_tok": 272,
+ "out_tok": 47,
+ "usd": 0.000831,
+ "utc": "2026-10-11T20:46:19.599695+00:00"
+}

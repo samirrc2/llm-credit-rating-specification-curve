@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer operates at a massive scale with $17.8B in revenue and holds a strong current ratio above 2.3x alongside substantial retained earnings ($21.7B). However, profitability is severely strained by significant net losses (-$1.5B) and negative operating income (-$488M), paired with a elevated leverage profile (total liabilities of $22.1B against $9.7B in equity), which points to high speculative risk and places the company in the lower speculative grade category.\n\nDECISION: B",
+ "prompt_sha256": "7ac3cbfe25b93d91b3c2b8e959b8c753e9021ae0b42b9d055a4e767af7adf2c8",
+ "in_tok": 234,
+ "out_tok": 114,
+ "usd": 0.001377,
+ "utc": "2026-10-11T20:48:13.731029+00:00"
+}

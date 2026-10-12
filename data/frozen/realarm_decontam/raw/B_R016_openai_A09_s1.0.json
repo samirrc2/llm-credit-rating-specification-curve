@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R016",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A09",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"EBIT and net losses (-127M/-214M) weaken credit fundamentals, but strong liquidity and moderate leverage (liabilities/equity ~1.3) provide support.\"}",
+ "prompt_sha256": "b346a5b852a0133524c6edf0c0f539e6ec99cf6a9a86710bb1232f74d2c62c29",
+ "in_tok": 216,
+ "out_tok": 241,
+ "usd": 0.000344,
+ "utc": "2026-10-11T20:45:31.563750+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R029",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "ANSWER: ACADIA PHARMACEUTICALS INC",
+ "prompt_sha256": "64901f6e9bc7f07fc9c7b0ff3dc9ad311416f356fcb27b9db55c7f7267070225",
+ "in_tok": 548,
+ "out_tok": 11,
+ "usd": 0.000921,
+ "utc": "2026-10-11T20:47:45.189869+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R025",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a moderate revenue base of $2.08B and positive operating profits ($158M EBIT), but carries high leverage with a total debt-to-assets ratio of approximately 82% ($4.93B in total liabilities against $6.01B in assets) and negative retained earnings (-$449M). Its profitability ratios are modest (EBIT margin of ~7.6% and ROA of ~1.4%), though it maintains adequate short-term liquidity with a current ratio of 1.32x. These credit metrics are consistent with a non-investment grade speculative profile, balancing moderate cash flow generation against a leveraged capital structure.\n\nDECISION: BB-",
+ "prompt_sha256": "9d04807e3f22bb523a67c081b5449e93ab08d478f09937ba8fcd6ca207b2c755",
+ "in_tok": 222,
+ "out_tok": 149,
+ "usd": 0.001674,
+ "utc": "2026-10-11T20:48:44.726301+00:00"
+}

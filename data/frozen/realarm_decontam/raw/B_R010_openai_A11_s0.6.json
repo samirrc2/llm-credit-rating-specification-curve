@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows high leverage with shareholders\u2019 equity of about 15% of total assets (equity/assets \u2248 1,997/13,067) and liabilities exceeding equity by over 5x (liabilities/equity \u2248 10,429/1,997). Despite this, profitability appears solid with a healthy net income margin (~242/1,264 \u2248 19%), which partially offsets the balance-sheet pressure but still points to a weaker credit profile.  \n\nDECISION: BB-",
+ "prompt_sha256": "85616ef1ba29f61348926f6dff781fd6b6f04687e9681bfc157c1caeb80bc571",
+ "in_tok": 206,
+ "out_tok": 213,
+ "usd": 0.000307,
+ "utc": "2026-10-11T20:45:11.936729+00:00"
+}

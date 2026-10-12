@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R030",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows solid operating profitability (EBIT margin ~20% and net margin ~11%), supporting earnings capacity. However, leverage is high (total liabilities ~66% of assets) and liquidity is weak (current ratio ~0.72), increasing financial risk in a downturn. Overall, these factors point to a speculative-grade rating around the lower end of the BB category.\n\nDECISION: BB-",
+ "prompt_sha256": "32d217f23cd0ec734035305b1583fa59280e130a926c95f726d46347683a77f5",
+ "in_tok": 233,
+ "out_tok": 187,
+ "usd": 0.00028,
+ "utc": "2026-10-11T20:46:20.884220+00:00"
+}

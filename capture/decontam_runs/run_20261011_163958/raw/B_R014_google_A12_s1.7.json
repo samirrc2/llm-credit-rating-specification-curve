@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R014",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong balance sheet with low leverage (TD/TA ~38%) and solid profitability (EBIT margin ~15.5%, ROA ~9.7%) support a stable investment-grade rating.\"}\n```",
+ "prompt_sha256": "c82f65ae122ced5b522e8de6654b7154921ca0684867aded557af21b5349fa24",
+ "in_tok": 272,
+ "out_tok": 66,
+ "usd": 0.001002,
+ "utc": "2026-10-11T20:48:21.899576+00:00"
+}

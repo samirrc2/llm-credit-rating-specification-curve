@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R020",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits solid profitability (EBIT margin of ~18%) and a substantial equity base ($6.99B), but carries a heavy leverage profile (total liabilities to assets of ~67.6%) and weak short-term liquidity indicated by a current ratio below 1.0 (0.83x). Based on these balanced fundamentals, the credit profile aligns with an upper-investment-grade rating reflecting low credit risk mitigated by elevated balance sheet leverage.\n\nDECISION: A-",
+ "prompt_sha256": "604f7e4aa68f61a1ee87032a5d2b231bb517033c1dbb623772036fc4093ded9e",
+ "in_tok": 230,
+ "out_tok": 102,
+ "usd": 0.001263,
+ "utc": "2026-10-11T20:48:37.045812+00:00"
+}

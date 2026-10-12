@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R024",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 1,
+ "ok": true,
+ "raw_response": "ANSWER: SEALED AIR CORP/DE",
+ "prompt_sha256": "7f787c267c0111485f4a1a2953061788fa2f92d61ff80766003c11417d63f545",
+ "in_tok": 546,
+ "out_tok": 566,
+ "usd": 0.000817,
+ "utc": "2026-10-11T20:44:31.989763+00:00"
+}

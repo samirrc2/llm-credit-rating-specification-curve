@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R026",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Liquidity is weak (current ratio \u2248 0.89) and leverage is high (liabilities \u2248 81% of assets), which adds refinancing and downside risk. Profitability is modest (EBIT margin \u2248 5.4%, net margin \u2248 3.9%), indicating limited cushion. Overall, this aligns with a speculative-grade profile around **BB-**.  \nDECISION: BB-",
+ "prompt_sha256": "0f0c660473a72bf7a0783c626c2681bbd6e380834b48a6e9b7ad7489fed52043",
+ "in_tok": 230,
+ "out_tok": 213,
+ "usd": 0.000312,
+ "utc": "2026-10-11T20:46:04.806648+00:00"
+}

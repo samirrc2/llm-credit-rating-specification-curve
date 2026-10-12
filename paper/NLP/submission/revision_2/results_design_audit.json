@@ -1,0 +1,136 @@
+{
+ "_meta": {
+  "spec": "analysis/revision2/SPEC_r3_heldout_issuer_and_audit.md",
+  "spec_sha256": "c14c7e60032e2699e3aaba9868df06c6430b72947cbf11d0d79dffd51d172e9e"
+ },
+ "analysed_spec_count": 32,
+ "grid_spec_count": 48,
+ "scripts_examined": 23,
+ "scope_risk_scripts": [
+  "analysis/crossmodel_aliasing.py"
+ ],
+ "detail": [
+  {
+   "script": "analysis/addenda.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": true
+  },
+  {
+   "script": "analysis/analyze_realarm.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": false
+  },
+  {
+   "script": "analysis/build_panel.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": false
+  },
+  {
+   "script": "analysis/capital_analysis.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": true
+  },
+  {
+   "script": "analysis/crossmodel_aliasing.py",
+   "reads_48_spec_grid": true,
+   "filters_to_two_providers": false
+  },
+  {
+   "script": "analysis/extended_analysis.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": true
+  },
+  {
+   "script": "analysis/make_figures.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": true
+  },
+  {
+   "script": "analysis/market_analysis.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": true
+  },
+  {
+   "script": "analysis/permtest_and_tau.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": true
+  },
+  {
+   "script": "analysis/realarm_scale_sensitivity.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": false
+  },
+  {
+   "script": "analysis/realarm_speccurve.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": false
+  },
+  {
+   "script": "analysis/report_gen.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": false
+  },
+  {
+   "script": "analysis/revision2/design_audit.py",
+   "reads_48_spec_grid": true,
+   "filters_to_two_providers": true
+  },
+  {
+   "script": "analysis/revision2/r2_chance_baseline.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": false
+  },
+  {
+   "script": "analysis/revision2/r2r3_followups.py",
+   "reads_48_spec_grid": true,
+   "filters_to_two_providers": true
+  },
+  {
+   "script": "analysis/revision2/r3_alias_bounds.py",
+   "reads_48_spec_grid": true,
+   "filters_to_two_providers": true
+  },
+  {
+   "script": "analysis/revision2/r3_decision_curve.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": true
+  },
+  {
+   "script": "analysis/revision2/r3_decontam_analysis.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": false
+  },
+  {
+   "script": "analysis/revision2/r3_heldout_issuer.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": true
+  },
+  {
+   "script": "analysis/revision2/r3_sis_baselines.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": true
+  },
+  {
+   "script": "analysis/revision_analysis.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": true
+  },
+  {
+   "script": "analysis/run_analysis.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": true
+  },
+  {
+   "script": "analysis/variance_model_range.py",
+   "reads_48_spec_grid": false,
+   "filters_to_two_providers": true
+  }
+ ],
+ "verdict": {
+  "scope_errors_found": 1,
+  "script": "analysis/crossmodel_aliasing.py",
+  "affected_output": "aliasing_diagnostics (0.062 / 0.333), already corrected to 0.125 / 0.504 on the analysed 32-specification arm",
+  "unaffected_output": "crossmodel_transfer is computed from data/panel/panel.parquet (loaded at line 67) before grid_definition.json is read (line 121), so the transfer figures do not depend on the 48-specification grid",
+  "conclusion": "No other reported result or conclusion changed."
+ }
+}

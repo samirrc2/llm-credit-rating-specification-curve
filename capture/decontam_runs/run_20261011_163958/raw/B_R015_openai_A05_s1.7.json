@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R015",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A05",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"Operating income is significantly negative (EBIT -1,680M), indicating weak operating profitability; liquidity is solid (current ratio ~2.9) and equity is strong.\"}",
+ "prompt_sha256": "4aa0e6c1a1f6d4e1bcc27e22b2f13b8dbb2016cae6c5916572d88209e45b5bec",
+ "in_tok": 215,
+ "out_tok": 184,
+ "usd": 0.000273,
+ "utc": "2026-10-11T20:45:28.744697+00:00"
+}

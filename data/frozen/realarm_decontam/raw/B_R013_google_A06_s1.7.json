@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits significant financial distress, characterized by negative net income (-$39M), negative shareholders' equity (-$843M), and a deeply negative retained earnings balance (-$1,810M) indicating persistent historical losses. Liabilities exceed total assets, creating a high-risk capital structure that severely impairs creditworthiness despite thin operating profitability.\n\nDECISION: CCC+",
+ "prompt_sha256": "414d861dff85ddc1a31b33e3869230345e7904c3d61344bd4dce7b1928b4ecd0",
+ "in_tok": 213,
+ "out_tok": 78,
+ "usd": 0.001021,
+ "utc": "2026-10-11T20:48:19.515110+00:00"
+}

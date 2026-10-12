@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R008",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits strong financial fundamentals, characterized by excellent profitability (EBIT margin of ~26.6% and ROA of ~7.0%), a robust liquidity position (current ratio of 2.27x), and a moderate leverage profile (solvency ratio / equity-to-assets of 47%). These metrics reflect a stable investment-grade profile with low default risk and high debt-service capacity.\n\nDECISION: A",
+ "prompt_sha256": "42f7f65a153580e2dbe6ef1753db682a7a1132550f216e7f7698b57e8d3a8ac8",
+ "in_tok": 216,
+ "out_tok": 91,
+ "usd": 0.001143,
+ "utc": "2026-10-11T20:48:05.660217+00:00"
+}

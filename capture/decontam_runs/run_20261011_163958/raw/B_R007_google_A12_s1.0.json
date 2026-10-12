@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R007",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong balance sheet with total assets of $10.8B, moderate leverage (0.51 Debt/Assets), solid interest coverage capacity, and healthy profitability.\"}\n```",
+ "prompt_sha256": "07ac3c7073ce9c1c2013180c7816f7c29b0b2abbbb18eab8a3b7639002544613",
+ "in_tok": 273,
+ "out_tok": 58,
+ "usd": 0.000932,
+ "utc": "2026-10-11T20:48:03.246842+00:00"
+}

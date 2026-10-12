@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Adequate capital structure and asset coverage are offset by operating losses and low profitability, indicating speculative-grade credit risk.\"}\n```",
+ "prompt_sha256": "f3e2cdb85597ecf0df7e736791e880f963b1f7e87da2f91804626d31bfddbb39",
+ "in_tok": 271,
+ "out_tok": 47,
+ "usd": 0.000829,
+ "utc": "2026-10-11T20:48:00.357994+00:00"
+}

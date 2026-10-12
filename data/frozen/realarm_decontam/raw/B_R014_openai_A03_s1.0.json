@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R014",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows solid financial strength: leverage is moderate (total liabilities are ~38% of total assets) and liquidity is strong (current assets/current liabilities \u2248 2.5x). Profitability is healthy for its size (net margin \u2248 10.8%, EBIT margin \u2248 15.5%), supporting stable credit performance, though limited balance-sheet detail (e.g., debt structure/cash flow) prevents a higher rating.\n\nDECISION: A-",
+ "prompt_sha256": "32b3b738f33a19d87e6a42dbae0fc9331244d6c9547daaceee3725b9752f119a",
+ "in_tok": 233,
+ "out_tok": 237,
+ "usd": 0.000343,
+ "utc": "2026-10-11T20:45:24.472552+00:00"
+}

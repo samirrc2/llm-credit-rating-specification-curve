@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R022",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Strong revenue and solid EBIT coverage are offset by thin net margins and moderate leverage, aligning with an investment-grade BBB rating.\"}\n```",
+ "prompt_sha256": "06782e5e03d9de9c26d6d5e3739c297dc7e51e50c52e1f1e544574a940a060c0",
+ "in_tok": 277,
+ "out_tok": 48,
+ "usd": 0.000847,
+ "utc": "2026-10-11T20:45:51.205332+00:00"
+}

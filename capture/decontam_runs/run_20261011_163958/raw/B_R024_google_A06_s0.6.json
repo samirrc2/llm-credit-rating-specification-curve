@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R024",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company demonstrates solid profitability with a strong EBIT margin of approximately 13.5% and a return on assets of 7.2%. However, its financial leverage is elevated, evidenced by a high debt-to-equity profile (liabilities-to-equity ratio of 4.66x) and a weak current ratio of 0.91x indicating slight liquidity pressure.\n\nDECISION: BBB",
+ "prompt_sha256": "20015e10abfcd18fb590552db74314abce877560b987b62882b74fd6659c4ba7",
+ "in_tok": 212,
+ "out_tok": 85,
+ "usd": 0.001083,
+ "utc": "2026-10-11T20:45:55.244594+00:00"
+}

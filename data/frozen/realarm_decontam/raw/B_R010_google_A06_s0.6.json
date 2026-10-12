@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid financial profile with substantial total assets ($13,067M), positive equity ($1,997M), a strong retained earnings base ($2,506M), and healthy profitability with net income of $242M on revenues of $1,264M. However, leverage is relatively high, as total liabilities ($10,429M) represent roughly 80% of total assets, which constrains the rating to the investment-grade category rather than high-grade.\n\nDECISION: BBB",
+ "prompt_sha256": "ab7894bbf0583a8cca577f24bc040c56ef3051d7e1e818e797d55cf50b87bfbb",
+ "in_tok": 192,
+ "out_tok": 117,
+ "usd": 0.001341,
+ "utc": "2026-10-11T20:48:09.487535+00:00"
+}

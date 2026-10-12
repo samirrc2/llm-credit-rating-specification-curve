@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R009",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits exceptional profitability with an operating margin above 33% and strong earnings power (EBIT of 1,572M and Net Income of 973M). Its balance sheet is robust, featured by low leverage (Total Debt/Liabilities of 7,758M against Total Assets of 15,011M and Equity of 7,253M) and a solid retained earnings base (4,042M), despite a slightly tight current ratio. These high-grade financial credit metrics align with a solid single-A profile.\n\nDECISION: A",
+ "prompt_sha256": "55842aca20ca65ff8bcc509e7d9e253f4cbb3aa26ddd8327d15dd2007349798a",
+ "in_tok": 223,
+ "out_tok": 128,
+ "usd": 0.001486,
+ "utc": "2026-10-11T20:48:08.103782+00:00"
+}

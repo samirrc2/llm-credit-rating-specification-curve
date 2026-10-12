@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R003",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid profitability with an operating margin of approximately 21.8% and a healthy equity cushion of $2.35B, but exhibits notable liquidity pressure with a current ratio of 0.72x (current liabilities exceed current assets by $372M) and a relatively high total liabilities-to-assets ratio of ~76.1%. While generating stable earnings to support its balance sheet, the near-term refinancing and working capital deficit balance its overall profile into the upper-medium speculative tier.\n\nDECISION: BB+",
+ "prompt_sha256": "a679ec19f425634869e7f330998068668562392cfc2ba0021054554e77a85dd2",
+ "in_tok": 224,
+ "out_tok": 114,
+ "usd": 0.001362,
+ "utc": "2026-10-11T20:47:54.295609+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R005",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows moderate profitability (net margin ~10% and EBIT margin ~8%) and a solid balance sheet with reasonable leverage (total liabilities/assets ~42%) and liquidity (current ratio ~1.75). However, there\u2019s insufficient evidence of strong, stable earnings coverage (e.g., interest coverage) to support an investment-grade rating at the higher end.  \n\nDECISION: BBB+",
+ "prompt_sha256": "c3f63d41b8b88d24da0a517ffd3730be6ca993fe1909fef7ff1aae6e2e6be9b9",
+ "in_tok": 230,
+ "out_tok": 199,
+ "usd": 0.000295,
+ "utc": "2026-10-11T20:44:58.267103+00:00"
+}

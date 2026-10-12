@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R026",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A05",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":2,\"rationale\":\"Thin profitability (net margin ~3.9%), high leverage (liabilities/assets ~81%), and weak liquidity (current ratio ~0.89) constrain credit quality.\"}",
+ "prompt_sha256": "352f3fb6ba79975ec751b4ebe0d983cf3d54c52554ff56ab53b256e908444123",
+ "in_tok": 213,
+ "out_tok": 159,
+ "usd": 0.000241,
+ "utc": "2026-10-11T20:46:03.000758+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R023",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 2,
+ "ok": true,
+ "raw_response": "ANSWER: ACADIA PHARMACEUTICALS INC",
+ "prompt_sha256": "065b7f10a8910abf11527cd1560570361f4d015cdbe647f4a37a324db6816b98",
+ "in_tok": 546,
+ "out_tok": 1020,
+ "usd": 0.001384,
+ "utc": "2026-10-11T20:44:33.554218+00:00"
+}

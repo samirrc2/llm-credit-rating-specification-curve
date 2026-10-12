@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R003",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "ANSWER: NORTHWEST NATURAL HOLDING COMPANY",
+ "prompt_sha256": "cbe2af040dfcd231a900b87d4c3485ab5fbeeef91849119e3a4badc0f348c03c",
+ "in_tok": 546,
+ "out_tok": 690,
+ "usd": 0.000972,
+ "utc": "2026-10-11T20:41:37.523884+00:00"
+}

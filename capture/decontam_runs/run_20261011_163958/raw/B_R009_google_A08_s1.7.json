@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R009",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A+\", \"confidence\": 4, \"rationale\": \"Strong profitability, large asset base ($25.5B), and solid equity buffer ($12.3B) support a high investment-grade rating despite tight liquidity.\"}\n```",
+ "prompt_sha256": "e292ae2216604e360494daa7b0d437c3992397ccced58a1bfaec498390dd4d44",
+ "in_tok": 271,
+ "out_tok": 58,
+ "usd": 0.000928,
+ "utc": "2026-10-11T20:48:09.997050+00:00"
+}

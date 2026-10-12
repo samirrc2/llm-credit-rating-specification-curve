@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R017",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Solid leverage ratios with moderate profitability and strong equity base support an investment-grade rating of BBB.\"}\n```",
+ "prompt_sha256": "19bb5af7a4a24870ec2e475cfd550ef4e45d2ca9fa815033fd0542afb71fa865",
+ "in_tok": 258,
+ "out_tok": 42,
+ "usd": 0.000765,
+ "utc": "2026-10-11T20:48:28.657386+00:00"
+}

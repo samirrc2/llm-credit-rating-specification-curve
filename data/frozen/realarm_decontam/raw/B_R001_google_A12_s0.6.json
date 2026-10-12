@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R001",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Strong profitability and interest coverage are balanced by moderate leverage (Debt/Equity 1.37) and asset efficiency, supporting a solid investment-grade rating.\"}\n```",
+ "prompt_sha256": "321683d4c8b6a2fe8f4ab757c1b0e1781f3f01c46020202c242fcebcd2ba4ee7",
+ "in_tok": 266,
+ "out_tok": 55,
+ "usd": 0.000894,
+ "utc": "2026-10-11T20:47:47.377150+00:00"
+}

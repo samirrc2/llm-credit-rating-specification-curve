@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R012",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong solvency with total assets exceeding total liabilities, solid profitability, and healthy liquidity support an investment-grade rating.\"}\n```",
+ "prompt_sha256": "82739d22bdc10c075d7fb59184fb941a88ac30534f16eaa47234054691bb2cee",
+ "in_tok": 270,
+ "out_tok": 46,
+ "usd": 0.000819,
+ "utc": "2026-10-11T20:48:14.765680+00:00"
+}

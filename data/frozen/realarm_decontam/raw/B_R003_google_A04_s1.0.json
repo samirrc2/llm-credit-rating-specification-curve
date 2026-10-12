@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R003",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High total debt-to-equity and weak current ratio are offset by positive profitability and a solid investment-grade scale asset base.\"}\n```",
+ "prompt_sha256": "e2a5c13c68c7b8928feae785a56d298f331e91d45a9b469eb4fb03793f379494",
+ "in_tok": 265,
+ "out_tok": 50,
+ "usd": 0.000847,
+ "utc": "2026-10-11T20:47:52.898953+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R016",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a solid scale ($3.5B revenue) and a relatively healthy balance sheet with a low debt profile (equity of $1.4B and current ratio above 3.0x), providing short-term financial flexibility. However, operational performance is severely impaired by negative profitability (EBIT of -$216M and Net Income of -$364M), which significantly weakens debt service coverage and signals underlying business model pressures. Balancing the substantial asset/equity buffer against the ongoing operating losses places the credit quality in the speculative-grade range.\n\nDECISION: BB-",
+ "prompt_sha256": "61ae1fc598141dc1b493f9ba40e7e40f9548682881b4271d57b08c2f53968f01",
+ "in_tok": 224,
+ "out_tok": 120,
+ "usd": 0.001416,
+ "utc": "2026-10-11T20:48:27.643208+00:00"
+}

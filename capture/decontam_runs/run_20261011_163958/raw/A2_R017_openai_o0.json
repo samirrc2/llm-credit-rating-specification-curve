@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R017",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "ANSWER: GATX CORP",
+ "prompt_sha256": "bc564157df25f6032b1329152ed24beab44dc4e90ea632c59712994ff5dd59e1",
+ "in_tok": 546,
+ "out_tok": 321,
+ "usd": 0.00051,
+ "utc": "2026-10-11T20:44:21.130943+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R017",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows solid operating profitability (EBIT margin ~23% and net margin ~13%) and adequate short-term liquidity (current ratio ~1.35). However, balance-sheet leverage is relatively high (total liabilities ~65% of total assets), which limits downside protection despite strong shareholders\u2019 equity.  \nDECISION: BBB-",
+ "prompt_sha256": "3d6b94f786f64f738116dd3de462c029917bd7ef5d293be7294e9b690eb24ce1",
+ "in_tok": 237,
+ "out_tok": 258,
+ "usd": 0.00037,
+ "utc": "2026-10-11T20:45:35.455221+00:00"
+}

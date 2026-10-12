@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R019",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits significant financial distress, characterized by negative operating income (-$459M) and net income (-$640M), alongside an extremely weak balance sheet with minimal equity relative to total debt (Total Liabilities of $11,824M against Shareholders' Equity of $415M). Given the substantial operating losses and extremely high leverage, the issuer faces severe credit risk and elevated probability of default.\n\nDECISION: CCC+",
+ "prompt_sha256": "2777910ff93b08e4142fe2737d7a0656485437bf9a4468e5f68692ebea26b613",
+ "in_tok": 221,
+ "out_tok": 93,
+ "usd": 0.001168,
+ "utc": "2026-10-11T20:48:33.552464+00:00"
+}

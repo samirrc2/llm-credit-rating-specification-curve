@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R029",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer has very strong capitalization with total liabilities of only 11M versus shareholders\u2019 equity of 3,342M (minimal leverage), supporting excellent balance-sheet credit strength. Liquidity is moderate (current ratio ~1.30 from current assets 2,929M vs current liabilities 2,248M) and earnings margins are positive but not exceptionally high (net income 445M on revenue 8,634M). Overall, this points to a high investment-grade rating but not the very top tier.\n\nDECISION: AA-",
+ "prompt_sha256": "cf58858974100087c5f60a7c423e8a1ed4246e61a83de716ee6ef1e7e642a2cf",
+ "in_tok": 228,
+ "out_tok": 252,
+ "usd": 0.000361,
+ "utc": "2026-10-11T20:46:17.328157+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R021",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage (Liabilities/Assets at ~60%), decent profitability (ROE > 11%), strong liquidity, and solid revenue scale support a solid investment-grade rating.\"}\n```",
+ "prompt_sha256": "4ab6b441e2cf24b9e0202245f77dd77377003a4f5257b4fdbffb54e9505f37b0",
+ "in_tok": 259,
+ "out_tok": 59,
+ "usd": 0.000919,
+ "utc": "2026-10-11T20:48:37.365681+00:00"
+}

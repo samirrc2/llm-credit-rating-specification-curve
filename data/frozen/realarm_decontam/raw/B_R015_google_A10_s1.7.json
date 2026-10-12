@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R015",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer presents a mixed financial profile: while it maintains a solid balance sheet with strong solvency (equity of $4,126M against total liabilities of $5,867M), robust liquidity (current ratio of ~2.85), and positive net income ($1,095M), its core operations suffered significant losses with an EBIT of -$1,680M on $3,952M in revenue. This severe operational weakness is offset by substantial accumulated historical earnings (retained earnings of $4,981M) and overall financial flexibility, supporting an investment-grade rating despite high operational volatility.\n\nDECISION: BBB",
+ "prompt_sha256": "3535fcc1e3569de0e8a22db0578509756ea30dd199c7b56da45b37a7eed942c3",
+ "in_tok": 230,
+ "out_tok": 137,
+ "usd": 0.001578,
+ "utc": "2026-10-11T20:48:25.179646+00:00"
+}

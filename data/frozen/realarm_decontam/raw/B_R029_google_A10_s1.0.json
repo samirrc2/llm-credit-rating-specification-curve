@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R029",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates an exceptionally strong balance sheet with negligible debt relative to its substantial equity base ($3,342M) and assets ($11,798M), yielding near-zero financial leverage and an extremely low default risk. Additionally, the company is highly profitable with $806M in EBIT and maintains robust liquidity with a healthy current ratio. Although the provided figures show an accounting discrepancy between Total Assets ($11,798M) and the sum of Liabilities ($11M) and Equity ($3,342M), the underlying solvency and cash-flow generation capacity remain characteristic of a top-tier investment-grade credit.\n\nDECISION: AAA",
+ "prompt_sha256": "dbf784fd4e389df0837fcde20b762079b7683537f15dcebcbf60a2126712e21e",
+ "in_tok": 226,
+ "out_tok": 140,
+ "usd": 0.001599,
+ "utc": "2026-10-11T20:46:17.775121+00:00"
+}

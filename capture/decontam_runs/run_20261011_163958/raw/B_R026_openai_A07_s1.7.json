@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R026",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Leverage is high (total liabilities of 23,509M vs. assets of 28,890M), while liquidity is weak with a sub-1 current ratio (current assets 4,360M vs. current liabilities 4,898M). Profitability is modest (EBIT margin ~5.4% and net margin ~3.9%), which suggests limited financial flexibility, pointing to a speculative-grade rating.\n\nDECISION: BB-",
+ "prompt_sha256": "f195aa39ac9442140fa65c168b084b2b4d6127d325a2f99fc88b92339d93cff1",
+ "in_tok": 232,
+ "out_tok": 211,
+ "usd": 0.00031,
+ "utc": "2026-10-11T20:46:06.705738+00:00"
+}

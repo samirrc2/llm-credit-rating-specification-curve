@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R031",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company has high leverage (total liabilities of 12,308M against total assets of 17,260M) and weak short-term liquidity (current ratio of ~0.55), which elevates refinancing and cash-flow risk. While operating performance is solid (EBIT of 631M on revenue of 3,099M), profitability after expenses is thin (net income 114M), limiting cushion for downturns.  \n\nDECISION: BB-",
+ "prompt_sha256": "a4fe36ea8a1423a9c0f167054a7eab7e965aa88a84b43e25e689061ec7790b84",
+ "in_tok": 237,
+ "out_tok": 246,
+ "usd": 0.000355,
+ "utc": "2026-10-11T20:46:28.362933+00:00"
+}

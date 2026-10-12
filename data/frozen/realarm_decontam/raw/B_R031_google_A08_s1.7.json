@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R031",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High total debt-to-equity and low liquidity are balanced by strong equity, positive EBIT, and profitability, warranting an investment-grade rating.\"}\n```",
+ "prompt_sha256": "855c93061c3b911245e8eadef5d8f0dcf8ab199ff95a964bb06657480b384132",
+ "in_tok": 264,
+ "out_tok": 54,
+ "usd": 0.000882,
+ "utc": "2026-10-11T20:46:27.705264+00:00"
+}

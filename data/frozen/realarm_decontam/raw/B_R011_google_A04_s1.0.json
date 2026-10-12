@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage (Total Liabilities/Assets ~70%) and operational losses (Net Income -892M) are offset by decent current liquidity and size.\"}\n```",
+ "prompt_sha256": "429e55d848fa0bfe6ba4ae37d31e72aaaf571a57c9a5dd699d1fe9bdcdcb75db",
+ "in_tok": 275,
+ "out_tok": 56,
+ "usd": 0.000916,
+ "utc": "2026-10-11T20:48:13.197402+00:00"
+}

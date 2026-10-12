@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R030",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Moderate leverage with Total Debt/Assets over 60%, positive operating profitability, and solid equity base support an investment-grade rating.\"}\n```",
+ "prompt_sha256": "754e99d8b2aa39a26ff1f92b5ebb033cb3e90099a1aa981b5f202664f08ee357",
+ "in_tok": 261,
+ "out_tok": 50,
+ "usd": 0.000842,
+ "utc": "2026-10-11T20:46:21.852355+00:00"
+}

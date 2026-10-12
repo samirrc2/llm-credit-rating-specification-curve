@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R016",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B+\", \"confidence\": 3, \"rationale\": \"High liquidity and decent equity ratio are offset by significant net losses and negative operating income.\"}\n```",
+ "prompt_sha256": "66fde88408ab6c0b6a74674ff34befb4257b426770778c32e9b153b46d8c08a3",
+ "in_tok": 258,
+ "out_tok": 40,
+ "usd": 0.000747,
+ "utc": "2026-10-11T20:48:25.987682+00:00"
+}

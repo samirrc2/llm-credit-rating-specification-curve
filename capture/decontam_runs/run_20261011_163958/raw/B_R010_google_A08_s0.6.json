@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Solid asset base and equity cushion offset moderate profitability and leverage, supporting an investment-grade BBB rating.\"}",
+ "prompt_sha256": "c004198f189ce7ff9a86648a846d08047050f52f58c8ef9430624dc0dca2afb4",
+ "in_tok": 224,
+ "out_tok": 38,
+ "usd": 0.000678,
+ "utc": "2026-10-11T20:48:09.415482+00:00"
+}

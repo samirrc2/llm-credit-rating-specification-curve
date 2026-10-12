@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R016",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid current liquidity position (current ratio of 3.19x) and a moderate leverage profile (total liabilities to assets of 54.7%), but it suffers from severe operational underperformance as evidenced by negative operating income (-$216M) and net losses (-$364M). These substantial losses heavily weigh on the company's debt-service capacity and financial stability, placing it in high-yield territory.\n\nDECISION: BB-",
+ "prompt_sha256": "22085fb8a6282f6320d48cf7212f3823d65fc05a0c539a9b6273fd4ec0d1408f",
+ "in_tok": 223,
+ "out_tok": 99,
+ "usd": 0.001226,
+ "utc": "2026-10-11T20:48:26.480211+00:00"
+}

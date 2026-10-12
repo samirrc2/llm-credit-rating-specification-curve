@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R025",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage with total liabilities of 8.2B on 10B assets, negative retained earnings, but positive revenue and EBIT support a mid-speculative rating.\"}\n```",
+ "prompt_sha256": "47c90f43f0a0247d148c54cc71ab0a737a20511c2f2334471985b1bb60f88f85",
+ "in_tok": 263,
+ "out_tok": 58,
+ "usd": 0.000916,
+ "utc": "2026-10-11T20:48:45.313341+00:00"
+}

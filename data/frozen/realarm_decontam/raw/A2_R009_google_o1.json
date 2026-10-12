@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R009",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 1,
+ "ok": true,
+ "raw_response": "ANSWER: Matador Resources Company",
+ "prompt_sha256": "6fd993919d9b81cffccbec6df9edcf5d85b879f3b0672e8078daee58ef46d657",
+ "in_tok": 549,
+ "out_tok": 6,
+ "usd": 0.000878,
+ "utc": "2026-10-11T20:47:34.150717+00:00"
+}

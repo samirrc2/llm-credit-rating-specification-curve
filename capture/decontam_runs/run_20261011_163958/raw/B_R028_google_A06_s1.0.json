@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R028",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits a strong balance sheet with substantial equity ($4,503M) relative to liabilities ($7,354M), a healthy current ratio of 1.28, and robust profitability with an EBIT margin of 8.7% ($539M on $6,178M revenue) and net income of $500M. While its leverage and interest coverage metrics reflect a solid investment-grade profile, the financial ratios align best with an upper-medium credit rating.\n\nDECISION: A",
+ "prompt_sha256": "dc2195669010e143f43c4d56ae4ff1a4e4ab2485255a4f9e4f31943486661723",
+ "in_tok": 221,
+ "out_tok": 111,
+ "usd": 0.001331,
+ "utc": "2026-10-11T20:46:12.264381+00:00"
+}

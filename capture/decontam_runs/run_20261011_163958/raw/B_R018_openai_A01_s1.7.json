@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R018",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A01",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":2,\"rationale\":\"Moderate leverage (liabilities/assets ~0.62) and negative retained earnings, despite positive EBIT and net income; indicates somewhat elevated financial risk.\"}",
+ "prompt_sha256": "e71cf114a131036245cdfc8e45931d345748194d606a7ed764c13e33b344f4da",
+ "in_tok": 222,
+ "out_tok": 179,
+ "usd": 0.000268,
+ "utc": "2026-10-11T20:45:38.214097+00:00"
+}

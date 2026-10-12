@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R009",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong profitability with an EBIT margin of approximately 33.2% and a healthy return on assets of 6.5%, supported by a robust equity base that accounts for nearly half of its $9.01 billion total assets (leverage ratio of roughly 51.7%). Although the current ratio is slightly below 1.0 (0.79x), the solid net income of $584 million and large retained earnings cushion provide strong overall creditworthiness and financial stability.\n\nDECISION: A",
+ "prompt_sha256": "7a3c908d1518fbdcc738915c15f9cc927a306324904faa28c0e3116c5a2e5d4a",
+ "in_tok": 216,
+ "out_tok": 109,
+ "usd": 0.001305,
+ "utc": "2026-10-11T20:48:07.057125+00:00"
+}

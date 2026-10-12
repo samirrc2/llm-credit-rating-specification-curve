@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R021",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows moderate balance-sheet leverage (total liabilities of 1,952M vs. total assets of 3,269M, with equity providing a 40% cushion) and reasonable short-term liquidity (current ratio \u2248 1.50). However, profitability is relatively thin (net margin \u2248 4% and EBIT margin \u2248 7%), which limits credit strength and raises vulnerability to downturns.  \n\nDECISION: BBB-",
+ "prompt_sha256": "ef6bfabf7c001ee7f2d726c9ed5d14a1827269483772752d951ae0a3f66db909",
+ "in_tok": 233,
+ "out_tok": 276,
+ "usd": 0.000392,
+ "utc": "2026-10-11T20:45:48.672935+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A09",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB-\",\"confidence\":3,\"rationale\":\"Strong profitability (net margin ~19%) but high leverage (liabilities/assets ~80%) and thin equity (15%) limit credit strength.\"}",
+ "prompt_sha256": "f55abdd3f54857d8bda1c3f1b53f88bd7ac7eea87e9e38f2117d4c2d40c82820",
+ "in_tok": 198,
+ "out_tok": 155,
+ "usd": 0.000233,
+ "utc": "2026-10-11T20:45:11.783455+00:00"
+}

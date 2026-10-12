@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R031",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays a strong asset base ($17.3B) and solid operating profitability with an EBIT of $631M (20.4% margin), but high leverage (Total Liabilities/Assets of 71.3%) and lower net profit margins (3.7%) due to heavy interest or non-operating expenses reduce overall credit strength. Furthermore, a working capital deficit (current ratio of 0.55x) points to moderate short-term liquidity pressures, aligning the credit profile with the investment-grade BBB tier.\n\nDECISION: BBB",
+ "prompt_sha256": "d80c3ae431e9011d7c416080713b04f5a497d9b860c792c70380dcfce425b504",
+ "in_tok": 227,
+ "out_tok": 117,
+ "usd": 0.001393,
+ "utc": "2026-10-11T20:46:26.810563+00:00"
+}

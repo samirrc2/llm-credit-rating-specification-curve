@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R003",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company demonstrates moderate profitability with an EBIT of $158M and net income of $64M on $724M in revenue, alongside a solid asset base of $3,464M. However, it carries a relatively high leverage profile with total liabilities of $2,635M against $829M in shareholders' equity, as well as a tight liquidity position with current liabilities ($470M) exceeding current assets ($338M). This combination of stable operating earnings offset by elevated leverage and modest liquidity supports an investment-grade rating at the BBB level.\n\nDECISION: BBB",
+ "prompt_sha256": "6cb40856fbd15b0d00e4256d386b95b3e9d32903b3be79eb737a0efa847cd9cc",
+ "in_tok": 209,
+ "out_tok": 130,
+ "usd": 0.001483,
+ "utc": "2026-10-11T20:47:52.617999+00:00"
+}

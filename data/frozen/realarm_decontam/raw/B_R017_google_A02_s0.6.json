@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R017",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid financial profile with an EBIT margin of approximately 23.3% ($202M on $868M revenue), strong profitability relative to assets (ROA of ~2.7%), a healthy current ratio of 1.35x, and a moderate leverage profile reflected in an equity-to-assets ratio of 35.2%. While the earnings base is moderate in absolute terms ($868M revenue) compared to large investment-grade peers, the strong operating profitability and comfortable balance sheet support an investment-grade credit rating.\n\nDECISION: BBB",
+ "prompt_sha256": "6f08a8ee4d1df3d11063a070843e6ed79856f2fe2b8343946dd889bca8bee17e",
+ "in_tok": 219,
+ "out_tok": 124,
+ "usd": 0.001445,
+ "utc": "2026-10-11T20:48:28.532817+00:00"
+}

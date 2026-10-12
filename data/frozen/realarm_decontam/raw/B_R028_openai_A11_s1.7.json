@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R028",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows moderately leveraged balance sheet strength (total liabilities of ~62% of total assets) with a decent equity base (shareholders\u2019 equity of ~$7.7B). Liquidity is modest (current ratio ~1.28) and profitability is solid but not exceptional (net margin ~8%). Overall, these factors suggest a mid\u2013investment grade credit quality rather than a top-tier rating.\n\nDECISION: BBB+",
+ "prompt_sha256": "5cb4d0bfb067fb079b15d52882d5bea083a78fcc510d61c1c2b3e1fabff90733",
+ "in_tok": 239,
+ "out_tok": 195,
+ "usd": 0.000292,
+ "utc": "2026-10-11T20:46:15.161232+00:00"
+}

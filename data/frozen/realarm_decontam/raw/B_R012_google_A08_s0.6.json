@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R012",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong profitability, robust current ratio of 2.35, low leverage (48% debt-to-equity), and solid EBIT margin support a strong rating.\"}\n```",
+ "prompt_sha256": "1aa668d2da5082c5017c5d233dc544efaf7ab3f9c3428e7b947eee171ae3cc66",
+ "in_tok": 262,
+ "out_tok": 57,
+ "usd": 0.000906,
+ "utc": "2026-10-11T20:48:15.137667+00:00"
+}

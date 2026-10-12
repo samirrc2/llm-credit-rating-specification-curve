@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits severe financial distress, highlighted by negative shareholders' equity (-$298M) and a heavily eroded capital base reflected in accumulated losses (-$639M retained earnings). While the company generates substantial revenue ($1,680M) and a thin operating profit ($44M), high interest or other non-operating expenses drive net income into negative territory (-$14M), leaving the firm highly leveraged and vulnerable to default.\n\nDECISION: CCC+",
+ "prompt_sha256": "821b65cea97867955f7cfa3aa9da22bb24dc6815cc94ab0c4039719b3c7e6956",
+ "in_tok": 217,
+ "out_tok": 99,
+ "usd": 0.001216,
+ "utc": "2026-10-11T20:48:17.271586+00:00"
+}

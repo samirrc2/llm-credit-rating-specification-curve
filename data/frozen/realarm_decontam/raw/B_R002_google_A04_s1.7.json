@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High revenue and moderate leverage are offset by negative net income and weak operating profitability (EBIT margin near zero).\"}\n```",
+ "prompt_sha256": "4b748510435a0ff54a10e06241b951e1f3a90b8c22f3ca8af03f631471ec8da1",
+ "in_tok": 273,
+ "out_tok": 45,
+ "usd": 0.000815,
+ "utc": "2026-10-11T20:47:51.113613+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company operates at a massive scale with over $11.7 billion in revenue and maintains a strong balance sheet with positive equity ($2,542M) and a moderate leverage ratio (Total Liabilities / Total Assets of ~58%). However, profitability is weak with negative operating income (-$26M) and net income (-$76M), which constrains the rating to the solid investment-grade spectrum rather than higher categories.\n\nDECISION: BBB",
+ "prompt_sha256": "6bd216abbfdc22a2626ac1d0bb77e29c9aa68bbeb533e8624b6463152f47dc31",
+ "in_tok": 219,
+ "out_tok": 96,
+ "usd": 0.001192,
+ "utc": "2026-10-11T20:47:59.697514+00:00"
+}

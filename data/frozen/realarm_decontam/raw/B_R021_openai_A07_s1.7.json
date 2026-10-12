@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R021",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows moderate leverage (total liabilities are ~60% of total assets) but a solid capitalization (equity ~40% of assets) and adequate liquidity (current ratio ~1.5). Profitability is positive but margins are relatively thin (net margin ~4%), suggesting only moderate credit strength.  \nDECISION: BBB-",
+ "prompt_sha256": "a43c82494d1a6433739d113a8b24d2c61ab026c9ee84235bb0d8ee5d4e2e9c7a",
+ "in_tok": 224,
+ "out_tok": 211,
+ "usd": 0.000309,
+ "utc": "2026-10-11T20:45:47.500637+00:00"
+}

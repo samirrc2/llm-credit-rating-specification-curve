@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A09",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"CC\",\"confidence\":2,\"rationale\":\"Negative shareholders\u2019 equity (-298M) with total liabilities exceeding assets and recent net loss; weak profitability and near-tight liquidity (current assets vs liabilities).\"}",
+ "prompt_sha256": "84523a3e5a40c5efb443bb52b7d66b261808c97a33304d147b1c18841cb25b15",
+ "in_tok": 214,
+ "out_tok": 127,
+ "usd": 0.000202,
+ "utc": "2026-10-11T20:45:20.542358+00:00"
+}

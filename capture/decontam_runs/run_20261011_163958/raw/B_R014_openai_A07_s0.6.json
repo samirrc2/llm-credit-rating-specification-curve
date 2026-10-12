@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R014",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows strong balance-sheet strength (equity of 1,838M vs. total assets of 2,962M, and a current ratio of ~2.48), alongside solid operating performance (EBIT margin ~15% and net margin ~11%). With moderate leverage (total liabilities of 1,123M vs. total assets), the credit profile appears consistent with an upper single-B? or low A tier; given limited coverage/financing details, a conservative **A-** is justified.  \n\nDECISION: A-",
+ "prompt_sha256": "501db76e1a491c0f72b257c420ef543ddceea2694c259d6efbb23b3f6d6ae14c",
+ "in_tok": 224,
+ "out_tok": 224,
+ "usd": 0.000325,
+ "utc": "2026-10-11T20:45:23.283981+00:00"
+}

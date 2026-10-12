@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R019",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 2,
+ "ok": true,
+ "raw_response": "ANSWER: Calumet, Inc. /DE",
+ "prompt_sha256": "7bc545071a97df1e125c3b48ea6c497d5c7d50396c62b3771d1a65c920394828",
+ "in_tok": 548,
+ "out_tok": 9,
+ "usd": 0.000903,
+ "utc": "2026-10-11T20:47:40.041012+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Adequate capital structure and asset coverage are offset by negative profitability and operating losses on large revenues.\"}\n```",
+ "prompt_sha256": "ff9dbdf001e0069854912895b73af7b5ccc504dce1748bf7542f0a6b9fc61c8f",
+ "in_tok": 274,
+ "out_tok": 42,
+ "usd": 0.000789,
+ "utc": "2026-10-11T20:48:01.995910+00:00"
+}

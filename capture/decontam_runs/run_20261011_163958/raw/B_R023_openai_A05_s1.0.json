@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R023",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A05",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":3,\"rationale\":\"Low leverage (liabilities/assets ~0.21) and strong profitability (net income 337M; EBIT margin ~14%), but negative retained earnings signal accumulated losses.\"}",
+ "prompt_sha256": "4a460ce2812afbfb7a9601a4007cd0793554bb9268daccf1556bfda86a5456cc",
+ "in_tok": 205,
+ "out_tok": 196,
+ "usd": 0.000286,
+ "utc": "2026-10-11T20:45:52.948858+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R008",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays exceptional financial health, highlighted by an outstanding EBIT margin of 26.6%, a strong return on assets of 7.0%, a healthy current ratio of 2.28x, and a conservative balance sheet with a total debt-to-equity ratio well under 1.13x. Furthermore, retained earnings comprise over 65% of total equity, demonstrating a long history of cumulative profitability and conservative capital management typical of high-grade investment-class borrowers.\n\nDECISION: AA",
+ "prompt_sha256": "a25d8f864baad147ee76dfb35c6a7e7f4e9d74b52cf99d0ad7be877b9be7fa72",
+ "in_tok": 226,
+ "out_tok": 106,
+ "usd": 0.001293,
+ "utc": "2026-10-11T20:48:06.561101+00:00"
+}

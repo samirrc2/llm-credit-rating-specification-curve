@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company demonstrates severe financial distress, highlighted by negative shareholders' equity (-298M) driven by substantial accumulated losses (retained earnings of -639M), net losses (-14M), and very thin operating margins (EBIT of 44M on 1,680M revenue). High leverage and negative net worth significantly increase default risk, positioning the issuer deep within speculative grade.\n\nDECISION: CCC+",
+ "prompt_sha256": "027e5acd5f188a7f9a8043a2cf89706951585b6ae65d15f167402ff227f6935d",
+ "in_tok": 210,
+ "out_tok": 90,
+ "usd": 0.001125,
+ "utc": "2026-10-11T20:48:18.040303+00:00"
+}

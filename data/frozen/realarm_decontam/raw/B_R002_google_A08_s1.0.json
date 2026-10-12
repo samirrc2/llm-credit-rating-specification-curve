@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High revenue and moderate leverage are offset by weak profitability (net loss) and low interest coverage.\"}\n```",
+ "prompt_sha256": "d35623bcc6d881554b23305b1e8051e04ab7de24b19f77f15de6c36f604f29c4",
+ "in_tok": 263,
+ "out_tok": 43,
+ "usd": 0.000782,
+ "utc": "2026-10-11T20:47:50.577751+00:00"
+}

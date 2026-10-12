@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R001",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid profitability with an operating margin of approximately 15.7% (EBIT of $454M on $2,899M in revenue) and a strong return on assets of 9.2%. Financial leverage is moderate with a total liabilities-to-equity ratio of 1.37x and an equity-to-assets ratio of 42.3%, complemented by good short-term liquidity indicated by a current ratio of 1.87x. These metrics reflect a healthy investment-grade profile, albeit with moderate scale and leverage that fit comfortably in the BBB range.\n\nDECISION: BBB",
+ "prompt_sha256": "f5cdb5bf53b5ca2b6ff5b3fd25e465e522be45545531ab730804100868f02303",
+ "in_tok": 227,
+ "out_tok": 133,
+ "usd": 0.001538,
+ "utc": "2026-10-11T20:47:48.037982+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R018",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid financial profile with revenue of $11.3B, positive operating income of $938M, a healthy net margin supported by $1.02B in net income, and a moderate debt profile with total liabilities to assets at approximately 61.6%. Current assets ($4.82B) comfortably cover current liabilities ($3.35B), though negative retained earnings and moderate leverage weigh slightly on the overall balance sheet strength, placing the credit profile in the investment-grade single-A range.\n\nDECISION: A-",
+ "prompt_sha256": "6c60b0c3fc3541606e6897978ff9398b532edd6d39099e934dc233062b92a7c6",
+ "in_tok": 222,
+ "out_tok": 117,
+ "usd": 0.001386,
+ "utc": "2026-10-11T20:48:29.920614+00:00"
+}

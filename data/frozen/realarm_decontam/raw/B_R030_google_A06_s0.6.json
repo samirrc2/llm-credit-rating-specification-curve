@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R030",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company demonstrates solid profitability with an EBIT margin of approximately 20.3% and a net income of $145M, backed by a strong equity base of $2,315M (an equity-to-assets ratio of 34.1%). However, its leverage is moderately high with total liabilities of $4,471M, and current liabilities ($559M) exceed current assets ($404M), pointing to minor short-term liquidity tight spots. Overall, the solid core earnings and robust balance sheet size support a stable investment-grade profile.\n\nDECISION: BBB+",
+ "prompt_sha256": "bd415fc3ca6d18887c3c7f61bf0e829c167e4e4009ef9000f1be1853e6d08178",
+ "in_tok": 214,
+ "out_tok": 129,
+ "usd": 0.001482,
+ "utc": "2026-10-11T20:46:20.565991+00:00"
+}

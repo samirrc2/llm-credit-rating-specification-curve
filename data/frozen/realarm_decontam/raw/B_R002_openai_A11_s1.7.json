@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows high leverage (total liabilities 12,709M vs. equity 4,284M) and very weak current profitability (EBIT/operating income of 12M on revenue of 15,796M, with a net loss of 236M). While liquidity is slightly supportive (current ratio \u2248 1.21), the combination of low earnings power and recent losses suggests elevated credit risk.  \n\nDECISION: B+",
+ "prompt_sha256": "d2694ade062559509abd15c31fce205fab5dcedb90356604e92e264a50c38a3c",
+ "in_tok": 239,
+ "out_tok": 261,
+ "usd": 0.000374,
+ "utc": "2026-10-11T20:44:49.771077+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R026",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer generates substantial revenue ($13.1B) and maintains profitability (EBIT of $710M and Net Income of $517M), but operates with high leverage (Total Debt/Liabilities of $13.8B against $3.2B in equity) and a weak liquidity position with a current ratio below 1.0 (Current Assets of $2.57B vs. Current Liabilities of $2.88B). These financial metrics indicate moderate creditworthiness, characteristic of lower-tier investment-grade issuers that possess adequate capacity to meet financial commitments but face heightened vulnerability to adverse economic conditions.\n\nDECISION: BBB-",
+ "prompt_sha256": "1f31cdb19dbceb671028c02700fce32b9ca3d7d0020e5eea784527dbb174a8fd",
+ "in_tok": 230,
+ "out_tok": 137,
+ "usd": 0.001578,
+ "utc": "2026-10-11T20:48:46.949008+00:00"
+}

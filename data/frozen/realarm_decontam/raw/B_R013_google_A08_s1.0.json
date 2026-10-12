@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage with negative equity and retained earnings offset by positive EBIT and a modest working capital surplus.\"}",
+ "prompt_sha256": "64c13b29a8a48b7334674db27853a98e7399aaf2c21cb21b01222aee01e0081b",
+ "in_tok": 256,
+ "out_tok": 38,
+ "usd": 0.000726,
+ "utc": "2026-10-11T20:48:18.210927+00:00"
+}

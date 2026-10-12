@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R018",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong asset base, solid equity cushion ($4.5B), robust revenues ($11.3B), and healthy profitability offset moderate overall leverage.\"}\n```",
+ "prompt_sha256": "0c0e147b0057ea8c0b6f2c0efcbe2a1bc4b1270d3361abe570b71b364813808e",
+ "in_tok": 273,
+ "out_tok": 54,
+ "usd": 0.000896,
+ "utc": "2026-10-11T20:48:29.914322+00:00"
+}

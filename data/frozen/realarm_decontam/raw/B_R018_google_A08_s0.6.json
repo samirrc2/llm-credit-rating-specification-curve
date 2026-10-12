@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R018",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Strong revenue and solid profitability are offset by negative retained earnings and a moderate debt profile with total liabilities of 8,761M.\"}\n```",
+ "prompt_sha256": "33c5f5c770c3d2eddaf0856427f283380d035d9b1fdf69c9c923e8ff2f67d781",
+ "in_tok": 266,
+ "out_tok": 51,
+ "usd": 0.000858,
+ "utc": "2026-10-11T20:48:30.901046+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R016",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "ANSWER: PBF ENERGY INC.",
+ "prompt_sha256": "4f227eb8c9964c682059c51156841e240967a80fabb6a16e3ed377c364a63617",
+ "in_tok": 550,
+ "out_tok": 7,
+ "usd": 0.000888,
+ "utc": "2026-10-11T20:47:38.011942+00:00"
+}

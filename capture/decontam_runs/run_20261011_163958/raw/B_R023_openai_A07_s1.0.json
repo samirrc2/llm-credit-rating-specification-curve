@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R023",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows strong balance-sheet strength and liquidity (current ratio \u2248 3.8 and total liabilities of 290M versus assets of 1,349M), supporting comparatively low credit risk. Profitability is positive (net income 337M) but retained earnings are negative (-1,564M), indicating past losses and some earnings retention/trajectory risk. Overall, this fits an **A-** profile rather than a higher tier.  \nDECISION: A-",
+ "prompt_sha256": "5000592730cdad08d7c6f21c6c668dea019d576399ffaccb887f1d52f4c7de82",
+ "in_tok": 222,
+ "out_tok": 217,
+ "usd": 0.000316,
+ "utc": "2026-10-11T20:45:53.509617+00:00"
+}

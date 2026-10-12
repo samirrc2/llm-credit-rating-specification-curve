@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R028",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong balance sheet with $20.2B in assets and $7.7B equity, moderate leverage, and solid profitability support a low investment-grade rating.\"}\n```",
+ "prompt_sha256": "d1d4fb937c08d7dac7695840466ff4b9dbc37c9faa1f47a9a8a623cbe6c36b0f",
+ "in_tok": 274,
+ "out_tok": 58,
+ "usd": 0.000933,
+ "utc": "2026-10-11T20:46:13.208213+00:00"
+}

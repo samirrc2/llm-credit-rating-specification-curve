@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R020",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a strong balance sheet with $21.57B in total assets, $6.99B in equity, and healthy profitability evidenced by an EBIT of $913M (18.0% margin) and net income of $498M. However, moderate financial leverage (Total Liabilities/Assets of 67.6%) and a slightly constrained short-term liquidity profile (Current Ratio of 0.83) position the company firmly in the solid investment-grade tier.\n\nDECISION: BBB+",
+ "prompt_sha256": "5773a2ee4e7063b69eb619408b1204b122db7c0ba5fed8bf6a88df8581175984",
+ "in_tok": 222,
+ "out_tok": 113,
+ "usd": 0.00135,
+ "utc": "2026-10-11T20:45:43.390764+00:00"
+}

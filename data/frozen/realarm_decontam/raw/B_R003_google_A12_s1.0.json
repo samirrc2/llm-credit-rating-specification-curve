@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R003",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 4, \"rationale\": \"High leverage with total liabilities of $4.39B and modest coverage (EBIT $263M) indicate a non-investment grade, speculative profile.\"}\n```",
+ "prompt_sha256": "a22c510fc3a3908427aab4f0d717174aba90e793d55cbb971640f87a1401175d",
+ "in_tok": 266,
+ "out_tok": 57,
+ "usd": 0.000912,
+ "utc": "2026-10-11T20:47:53.361201+00:00"
+}

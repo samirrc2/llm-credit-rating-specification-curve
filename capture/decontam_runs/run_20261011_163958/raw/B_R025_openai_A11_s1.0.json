@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R025",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows moderate near-term liquidity (current ratio \u2248 1.32) and positive operating profitability (EBIT margin \u2248 7.6%), but its capital structure is highly leveraged (total liabilities \u2248 82% of total assets) and it has significant accumulated losses (retained earnings of -$748M). This combination points to elevated financial risk and limited balance-sheet resilience, consistent with a speculative-grade profile.  \n\nDECISION: BB-",
+ "prompt_sha256": "6850090b64bfb34c8830f9158f83c50c6cdf89dc6d9f8e8372e6f3ac96cc7f83",
+ "in_tok": 237,
+ "out_tok": 273,
+ "usd": 0.000389,
+ "utc": "2026-10-11T20:46:01.696939+00:00"
+}

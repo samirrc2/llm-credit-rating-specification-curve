@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R031",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage with Total Liabilities/Assets at ~71% and weak liquidity (Current Ratio < 0.6) outweigh moderate profitability and interest coverage.\"}\n```",
+ "prompt_sha256": "f9c59b2e3ca636e3a333456ddfc0f6fbfb2f889615588e9c9d4b34ddb780d0ab",
+ "in_tok": 266,
+ "out_tok": 54,
+ "usd": 0.000885,
+ "utc": "2026-10-11T20:46:26.149063+00:00"
+}

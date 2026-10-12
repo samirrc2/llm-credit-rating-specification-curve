@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R014",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A05",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"A+\",\"confidence\":3,\"rationale\":\"Strong profitability (EBIT margin ~15%, net margin ~11%) and liquidity (current ratio ~2.5) with low leverage (liabilities/assets ~38%).\"}",
+ "prompt_sha256": "1fbbf667b21bf8d0e7943df61cf492ce628d427e80184d6379fff0cf74887fb7",
+ "in_tok": 209,
+ "out_tok": 165,
+ "usd": 0.000248,
+ "utc": "2026-10-11T20:45:24.211003+00:00"
+}

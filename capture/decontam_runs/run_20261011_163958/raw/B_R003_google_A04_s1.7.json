@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R003",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High leverage (TL/TA ~76%) is offset by solid profitability (EBIT margin ~22%), supportable interest coverage, and positive net income.\"}\n```",
+ "prompt_sha256": "82f473cd2d69461af0b995f854fb525e1d300d086ff6df8149419bd1671189fa",
+ "in_tok": 267,
+ "out_tok": 57,
+ "usd": 0.000914,
+ "utc": "2026-10-11T20:47:53.736343+00:00"
+}

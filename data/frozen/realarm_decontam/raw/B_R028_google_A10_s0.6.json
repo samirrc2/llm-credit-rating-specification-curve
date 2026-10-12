@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R028",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits moderate leverage (Debt/Assets around 62%, Total Liabilities/Equity of 1.63x) and solid profitability with an EBIT margin of 8.7% and a Return on Assets of 4.2%. Additionally, the company maintains a healthy liquidity position with a current ratio of 1.28x and a positive retained earnings base relative to its overall capital structure, supporting an investment-grade profile.\n\nDECISION: BBB",
+ "prompt_sha256": "894e95ad1fec737ad53748d0f3821e8496234ceb67711649e2dd60e5d086fbde",
+ "in_tok": 222,
+ "out_tok": 95,
+ "usd": 0.001188,
+ "utc": "2026-10-11T20:48:48.544576+00:00"
+}

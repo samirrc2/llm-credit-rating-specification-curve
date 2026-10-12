@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R014",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Strong liquidity (current ratio \u2248 2.5) and a solid capital base (equity/assets \u2248 62%) indicate low balance-sheet stress. Profitability is healthy (net margin \u2248 11% and EBIT margin \u2248 15%), supporting stable earnings power, though limited coverage metrics prevent a top-tier rating.  \nDECISION: AA-",
+ "prompt_sha256": "31a19bedebbaeb8bce3fde08f7ac34e888e758b6929c05967dc58e6dd7b0ed85",
+ "in_tok": 230,
+ "out_tok": 223,
+ "usd": 0.000325,
+ "utc": "2026-10-11T20:45:25.425990+00:00"
+}

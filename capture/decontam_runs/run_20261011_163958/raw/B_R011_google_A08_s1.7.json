@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High asset base and liquidity offset strong leverage and negative profitability, placing the credit profile in the upper speculative grade.\"}\n```",
+ "prompt_sha256": "7d93ec1a7272d45ace33a9ebfebd4c07cf6f2a8e0b03b8cf01309387fb030414",
+ "in_tok": 271,
+ "out_tok": 46,
+ "usd": 0.00082,
+ "utc": "2026-10-11T20:48:14.133407+00:00"
+}

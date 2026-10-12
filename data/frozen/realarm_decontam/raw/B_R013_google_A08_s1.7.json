@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage with negative equity and thin profit margins offset by positive operating income and adequate current liquidity.\"}\n```",
+ "prompt_sha256": "f98d0190a28d230332f3d05a27a3b75ad2f76ac09eaf6942a19bc09ed2112791",
+ "in_tok": 257,
+ "out_tok": 43,
+ "usd": 0.000772,
+ "utc": "2026-10-11T20:48:19.527490+00:00"
+}

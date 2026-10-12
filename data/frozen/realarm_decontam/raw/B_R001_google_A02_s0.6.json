@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R001",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a robust financial profile, characterized by strong profitability (EBIT margin of ~15.6% and ROA of ~9.2%), a healthy capital structure with a moderate leverage ratio (Total Liabilities / Total Assets of 57.7%), and solid liquidity evidenced by a current ratio of 1.87. Additionally, the substantial accumulated retained earnings relative to total equity indicate a consistent history of profitable operations and capital retention. These fundamentals align with a strong investment-grade credit profile.\n\nDECISION: A-",
+ "prompt_sha256": "f6831cd19d424f612babf47815c9054661571c0a1ddb75ca5058a766aa6c6fa1",
+ "in_tok": 221,
+ "out_tok": 109,
+ "usd": 0.001313,
+ "utc": "2026-10-11T20:47:47.084856+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R026",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Solid revenue base and profitability with significant total assets, but elevated leverage (total liabilities of $23.5B) limits the rating.\"}\n```",
+ "prompt_sha256": "e59dc4451de8482ab373b32099af9d7e82d6d4a8e409329604df240ee60e80b6",
+ "in_tok": 276,
+ "out_tok": 51,
+ "usd": 0.000873,
+ "utc": "2026-10-11T20:46:05.399413+00:00"
+}

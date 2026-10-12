@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R009",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Liquidity is weak (current ratio \u2248 1,047 / 1,322 = 0.79), which can pressure near-term obligations, but overall profitability is strong (net margin \u2248 973 / 4,738 = 20.5%) and leverage is moderate (liabilities \u2248 7,758 vs. assets \u2248 15,011). On balance, the profile suggests credit quality around the lower investment-grade boundary.  \n\nDECISION: BBB-",
+ "prompt_sha256": "64ac8f2d81ba3212185bc99382382bb6dc7af11b83f26080c9090574008d1abe",
+ "in_tok": 232,
+ "out_tok": 227,
+ "usd": 0.00033,
+ "utc": "2026-10-11T20:45:09.817756+00:00"
+}

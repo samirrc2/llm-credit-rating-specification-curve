@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R027",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Adequate liquidity and strong equity base offset low profitability (Net Margin <1%), supporting an investment-grade rating.\"}\n```",
+ "prompt_sha256": "bec63fe0c90c8affd4b15a08637d6583857293b3d24e5d04e981ac9f2f9393db",
+ "in_tok": 269,
+ "out_tok": 47,
+ "usd": 0.000826,
+ "utc": "2026-10-11T20:46:09.011169+00:00"
+}

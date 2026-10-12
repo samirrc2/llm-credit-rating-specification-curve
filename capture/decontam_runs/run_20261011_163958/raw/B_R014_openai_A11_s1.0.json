@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R014",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Liquidity is strong (current ratio \u2248 1,566 / 631 = 2.48) and the balance sheet appears well-capitalized (total liabilities \u2248 38% of total assets; liabilities-to-equity \u2248 0.61). Profitability is solid (net income margin \u2248 334 / 3,102 = 10.8%; EBIT/operating income \u2248 480M), though there\u2019s insufficient detail on interest burden to infer very high debt service headroom. Overall, this supports an upper-investment-grade view.\n\nDECISION: A-",
+ "prompt_sha256": "0dadf40694dea17e417f7926d0bdc7bd0abc704cc64640a2478b6655154eb9e6",
+ "in_tok": 235,
+ "out_tok": 278,
+ "usd": 0.000394,
+ "utc": "2026-10-11T20:45:25.621526+00:00"
+}

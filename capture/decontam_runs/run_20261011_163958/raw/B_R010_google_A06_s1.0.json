@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a solid balance sheet with total assets of $21.78 billion and shareholders' equity of $3.33 billion, supported by strong profitability evidenced by a net income of $403 million on $2.11 billion in revenue and healthy retained earnings of $4.18 billion. However, high leverage with total liabilities of $17.38 billion (a debt-to-equity ratio above 5x) anchors the financial risk profile in the investment-grade category. These parameters reflect a stable, investment-grade credit profile consistent with a BBB rating.\n\nDECISION: BBB",
+ "prompt_sha256": "7e5fd5fe777bb6355068ba102ad681758c4dff7dd5ece9596e47daa541c38732",
+ "in_tok": 192,
+ "out_tok": 128,
+ "usd": 0.00144,
+ "utc": "2026-10-11T20:48:10.670221+00:00"
+}

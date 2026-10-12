@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows weak credit fundamentals with negative EBIT and net income, indicating ongoing operating losses. Liquidity is only modest (current ratio ~1.21) and leverage is moderate (liabilities/assets ~0.58), so despite a solid equity base, the earnings deterioration elevates default risk.  \nDECISION: B+",
+ "prompt_sha256": "30a20b26e9a36f6a2603ef4507f6726ee5babbb259e26a82dc9d5309723b0e76",
+ "in_tok": 239,
+ "out_tok": 198,
+ "usd": 0.000295,
+ "utc": "2026-10-11T20:45:01.765938+00:00"
+}

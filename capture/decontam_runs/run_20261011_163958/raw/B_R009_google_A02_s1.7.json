@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R009",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits exceptional profitability with an operating margin above 33% and strong capitalization, reflected in a low debt-to-equity ratio (total liabilities of $13.19B against equity of $12.33B) and substantial retained earnings of $6.87B. While current liabilities exceed current assets, the company's robust earnings power ($2.67B EBIT) and large asset base ($25.52B) provide substantial financial flexibility and interest coverage, placing it solidly in the high single-A tier.\n\nDECISION: A",
+ "prompt_sha256": "d68b4366688d2190534a31777207aad45336eea528cd09f79ee1995fb2379ea8",
+ "in_tok": 234,
+ "out_tok": 120,
+ "usd": 0.001431,
+ "utc": "2026-10-11T20:48:08.500629+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R027",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows solid near-term liquidity with a current ratio of ~2.6x (current assets of 1,228M vs. current liabilities of 477M) and moderate leverage (total liabilities of 2,441M vs. total assets of 4,156M). However, profitability is relatively weak for the revenue scale (net income margin ~0.8% and EBIT margin ~6.4%), which limits debt-service cushion and keeps the credit profile in the lower investment-grade range.\n\nDECISION: BBB-",
+ "prompt_sha256": "42d4ec12a3e3b1453be55316351fe5803350dbfacda319e2eafeeecccfd56fe5",
+ "in_tok": 237,
+ "out_tok": 254,
+ "usd": 0.000365,
+ "utc": "2026-10-11T20:46:08.427100+00:00"
+}

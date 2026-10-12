@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R025",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "With a current ratio of about 1.3, near-term liquidity appears acceptable, and profitability is positive (net income of 85M; EBIT margin ~7.6%). However, the balance sheet shows high leverage (liabilities ~4,931M vs. assets ~6,013M) and negative retained earnings (-449M), which weakens financial resilience. Overall, this profile is more consistent with a **lower-investment-grade/speculative** credit risk, best captured at **BB-**.\n\nDECISION: BB-",
+ "prompt_sha256": "042c56d53b55a926fcc997a0e7c65b098468deffb51f982fabed04b4af68c242",
+ "in_tok": 235,
+ "out_tok": 258,
+ "usd": 0.000369,
+ "utc": "2026-10-11T20:46:00.559528+00:00"
+}

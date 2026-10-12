@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R008",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company demonstrates strong profitability and operational efficiency (EBIT margin of ~26.6% and Return on Assets of ~7.0%) combined with a conservative capital structure, characterized by a low debt-to-equity ratio (Liabilities/Equity of ~1.13x) and a solid current ratio of 2.28x. Furthermore, substantial retained earnings ($1,362M) relative to total equity indicate a sustained track record of cumulative profitability and balance sheet strength typical of a strong investment-grade issuer.\n\nDECISION: A",
+ "prompt_sha256": "425c65e8558b788e55d8d9e2348cc47fee0203d965836e9c8f58d395ad42b683",
+ "in_tok": 224,
+ "out_tok": 115,
+ "usd": 0.001371,
+ "utc": "2026-10-11T20:48:05.684007+00:00"
+}

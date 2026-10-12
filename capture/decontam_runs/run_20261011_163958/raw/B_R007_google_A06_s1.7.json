@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R007",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits a strong balance sheet with substantial equity ($8,575M) relative to liabilities ($8,905M), robust liquidity with a current ratio of 3.37, and solid profitability (EBIT of $1,197M on revenue of $8,855M). Additionally, a large retained earnings base of $4,250M indicates long-term financial stability and strong debt-servicing capacity, consistent with a high investment-grade profile.\n\nDECISION: A+",
+ "prompt_sha256": "1563da3f67ae175e0b1beb50d4c2241a3e30b51cc4096c04adea7b9bafeec9ec",
+ "in_tok": 223,
+ "out_tok": 111,
+ "usd": 0.001334,
+ "utc": "2026-10-11T20:48:03.751184+00:00"
+}

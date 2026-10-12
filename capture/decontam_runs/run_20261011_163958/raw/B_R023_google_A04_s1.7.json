@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R023",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 3, \"rationale\": \"Strong solvency and liquidity with low total liabilities ($493M) relative to assets ($2,293M) and robust net income ($573M).\"}\n```",
+ "prompt_sha256": "08ed7f6fa3bdaa7ee98a59382e2951686bb366c35b0347ba9bf8431a37e6d15f",
+ "in_tok": 267,
+ "out_tok": 58,
+ "usd": 0.000922,
+ "utc": "2026-10-11T20:48:42.579678+00:00"
+}

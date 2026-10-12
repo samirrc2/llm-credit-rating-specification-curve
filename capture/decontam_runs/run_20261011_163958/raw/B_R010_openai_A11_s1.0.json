@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows relatively strong profitability (net margin \u2248 403/2,106 = 19% and ROE \u2248 403/3,328 = 12%), but its balance sheet leverage is high (liabilities \u2248 17,381 vs. assets 21,779; equity/assets \u2248 15%). This combination suggests credit strength from earnings yet notable balance sheet risk.  \nDECISION: BB+",
+ "prompt_sha256": "86922da719bdeaa3f23272607d52e4e3f15ea98a0af802dc6044ee070fe22a45",
+ "in_tok": 206,
+ "out_tok": 230,
+ "usd": 0.000329,
+ "utc": "2026-10-11T20:45:13.889520+00:00"
+}

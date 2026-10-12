@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R019",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer has weak credit fundamentals, evidenced by large operating and net losses (EBIT of -780M and net income of -1,088M on 18,710M of revenue) indicating poor ongoing profitability. Balance sheet leverage is also high with shareholders\u2019 equity of only 706M versus total liabilities of 20,101M, though liquidity is somewhat supported by a current ratio of about 1.78 (current assets 8,459M vs. current liabilities 4,753M). Overall, the combination of losses and thin capitalization points to a speculative-grade rating.\n\nDECISION: B+",
+ "prompt_sha256": "4b35466ae1eed72738598236fae58caeaf940814440e2b7b629899cafe0019fb",
+ "in_tok": 237,
+ "out_tok": 299,
+ "usd": 0.000421,
+ "utc": "2026-10-11T20:45:41.476128+00:00"
+}

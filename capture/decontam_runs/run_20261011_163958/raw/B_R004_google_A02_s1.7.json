@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R004",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays strong operating profitability with an EBIT margin of ~17.5% ($1,236M on $7,080M revenue) and a solid liquidity profile with a current ratio of 2.19 ($5,511M / $2,513M). However, the balance sheet exhibits moderate leverage with a total liabilities-to-equity ratio of ~2.06 and negative retained earnings (-$1,846M), which constrains the rating to the lower end of the investment-grade spectrum.\n\nDECISION: BBB",
+ "prompt_sha256": "78224b30dbc17fe3fdd6e48b43985cede22026693aa3a66e9ea5cd9f20ebb227",
+ "in_tok": 229,
+ "out_tok": 122,
+ "usd": 0.001442,
+ "utc": "2026-10-11T20:47:56.080166+00:00"
+}

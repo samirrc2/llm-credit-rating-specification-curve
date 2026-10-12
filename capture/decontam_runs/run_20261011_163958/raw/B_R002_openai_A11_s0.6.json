@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows high leverage (total liabilities ~74.5% of total assets; equity of 1,512M vs liabilities of 4,486M) and very weak operating profitability (EBIT ~4M on revenue of 5,575M). Additionally, it reported a net loss (-83M), indicating limited capacity to self-fund and higher downside risk under stress, despite a modest liquidity buffer (current ratio ~1.21).  \n\nDECISION: B+",
+ "prompt_sha256": "b4c874617bcd7e1490315e8915aa69d84120a9fc4bbe64ebbc6b4549c9a184e5",
+ "in_tok": 239,
+ "out_tok": 258,
+ "usd": 0.00037,
+ "utc": "2026-10-11T20:44:47.805274+00:00"
+}

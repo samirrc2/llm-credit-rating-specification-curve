@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R005",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Adequate interest coverage and moderate leverage offset low profitability margins, supporting a mid-tier investment-grade rating.\"}\n```",
+ "prompt_sha256": "acfe67d4a675416d21e3a5cd0e036ce84d0abea138fe1df4477af74aca8941f6",
+ "in_tok": 274,
+ "out_tok": 45,
+ "usd": 0.000816,
+ "utc": "2026-10-11T20:47:59.256257+00:00"
+}

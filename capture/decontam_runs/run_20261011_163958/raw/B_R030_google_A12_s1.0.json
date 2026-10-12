@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R030",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High total debt and weak liquidity are balanced by moderate profitability and positive EBIT, placing the issuer at investment grade threshold.\"}\n```",
+ "prompt_sha256": "53a3afcec2c291de82ea32c53dd8041185ec39498feb0ac669d20a185d7aa484",
+ "in_tok": 269,
+ "out_tok": 47,
+ "usd": 0.000826,
+ "utc": "2026-10-11T20:48:50.040130+00:00"
+}

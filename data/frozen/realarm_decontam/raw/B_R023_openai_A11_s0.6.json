@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R023",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows solid current liquidity (current assets of 550M vs. current liabilities of 143M) and manageable leverage (total liabilities of 174M vs. total assets of 809M), along with good operating profitability (EBIT of 54M on 376M revenue). However, very large negative retained earnings (-938M) indicates substantial accumulated losses and weak earnings retention, tempering credit quality.  \n\nDECISION: BBB+",
+ "prompt_sha256": "d0ef5fc241f1c2bd5d4c858a7d0c9de197bd5a6ff253f6a98093750299a1353f",
+ "in_tok": 225,
+ "out_tok": 287,
+ "usd": 0.000404,
+ "utc": "2026-10-11T20:45:53.358490+00:00"
+}

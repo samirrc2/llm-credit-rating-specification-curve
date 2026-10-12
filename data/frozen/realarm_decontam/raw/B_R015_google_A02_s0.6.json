@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R015",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays a strong liquidity profile with current assets significantly exceeding current liabilities (current ratio of 2.85x) and a solid equity base ($1.46B equity supporting $3.53B in total assets). However, the core operations reflect severe weakness with a deeply negative EBIT (-$593M on $1.4B revenue), indicating that the positive net income ($386M) was likely driven by volatile non-operating gains or one-off items. Balancing these high operational risks and substantial operating losses against a respectable capital structure and positive equity places the issuer in the high-yield speculative category.\n\nDECISION: BB",
+ "prompt_sha256": "3ebe780c4290b1caafa5524013d9e591581e5c6f9ad54d447f3be73191a0443d",
+ "in_tok": 223,
+ "out_tok": 135,
+ "usd": 0.001549,
+ "utc": "2026-10-11T20:48:22.743484+00:00"
+}

@@ -1,0 +1,100 @@
+{
+ "_meta": {
+  "spec": "analysis/revision2/SPEC_r3_heldout_issuer_and_audit.md",
+  "spec_sha256": "c14c7e60032e2699e3aaba9868df06c6430b72947cbf11d0d79dffd51d172e9e",
+  "n_splits": 300,
+  "seed": 42,
+  "new_model_calls": 0,
+  "note": "Features and events use the SAME 16/16 specification split as the specification-held-out benchmark; the issuer split determines only which issuers discrimination is evaluated on."
+ },
+ "by_resolution": {
+  "ighy": {
+   "n_items": 45,
+   "event_base_rate": 0.756,
+   "computable": true,
+   "splits_used": 300,
+   "mean_auc": {
+    "sis": 0.9364,
+    "sem_entropy": 0.9364,
+    "dissent": 0.9364,
+    "neg_margin": 0.9364,
+    "neg_boundary_dist": 0.7685
+   },
+   "auc_pct_interval": {
+    "sis": [
+     0.8675,
+     1.0
+    ],
+    "sem_entropy": [
+     0.8675,
+     1.0
+    ],
+    "dissent": [
+     0.8675,
+     1.0
+    ],
+    "neg_margin": [
+     0.8675,
+     1.0
+    ],
+    "neg_boundary_dist": [
+     0.6285,
+     0.9222
+    ]
+   },
+   "auc_diff_sis_minus_dissent_mean": 0.0,
+   "auc_diff_max_abs": 0.0,
+   "auc_diff_interval": [
+    0.0,
+    0.0
+   ]
+  },
+  "band": {
+   "n_items": 45,
+   "event_base_rate": 0.822,
+   "computable": true,
+   "splits_used": 300,
+   "mean_auc": {
+    "sis": 0.9498,
+    "sem_entropy": 0.9498,
+    "dissent": 0.9498,
+    "neg_margin": 0.9498,
+    "neg_boundary_dist": 0.6495
+   },
+   "auc_pct_interval": {
+    "sis": [
+     0.8821,
+     1.0
+    ],
+    "sem_entropy": [
+     0.8821,
+     1.0
+    ],
+    "dissent": [
+     0.8821,
+     1.0
+    ],
+    "neg_margin": [
+     0.8821,
+     1.0
+    ],
+    "neg_boundary_dist": [
+     0.4605,
+     0.8393
+    ]
+   },
+   "auc_diff_sis_minus_dissent_mean": 0.0,
+   "auc_diff_max_abs": 0.0,
+   "auc_diff_interval": [
+    0.0,
+    0.0
+   ]
+  },
+  "letter": {
+   "n_items": 45,
+   "event_base_rate": 1.0,
+   "computable": false,
+   "reason": "event base rate 1.00; discrimination undefined"
+  }
+ }
+}

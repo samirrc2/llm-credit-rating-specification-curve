@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R002",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "ANSWER: Alcoa Corp",
+ "prompt_sha256": "933ec27897a4be8755708e3cee70f00a0792d07fc0310b6aeda08a0ea2ccf65b",
+ "in_tok": 546,
+ "out_tok": 707,
+ "usd": 0.000993,
+ "utc": "2026-10-11T20:41:32.450292+00:00"
+}

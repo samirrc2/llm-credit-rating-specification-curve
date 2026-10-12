@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R026",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Leverage is very high (total liabilities/total assets \u2248 81% and liabilities-to-equity \u2248 4.4x), while liquidity is weak with a sub-1.0 current ratio (current assets/current liabilities \u2248 0.89). Profitability is modest (EBIT margin \u2248 5.4%), leaving limited cushion despite positive net income. Overall, this points to a credit profile consistent with the lower end of investment grades/upper speculative range\u2014closer to **BB-**.\n\nDECISION: BB-",
+ "prompt_sha256": "8aa3ed72ba709dab37158b032b4985e8a787b2a0d8b7da769dec8ce83339ae36",
+ "in_tok": 241,
+ "out_tok": 278,
+ "usd": 0.000396,
+ "utc": "2026-10-11T20:46:06.830065+00:00"
+}

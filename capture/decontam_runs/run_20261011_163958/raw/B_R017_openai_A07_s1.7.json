@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R017",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Liquidity appears adequate with a current ratio of about 1.35, and profitability is solid (EBIT margin ~23%). However, leverage is relatively high (total liabilities ~1.84x shareholders\u2019 equity) and net return on equity is moderate (~7.6%), limiting the buffer for adverse conditions.  \nDECISION: BBB",
+ "prompt_sha256": "58c7f5963e2165769af8dd3f03b8ebd0992352a8a048654c453dd7387ac1b16f",
+ "in_tok": 228,
+ "out_tok": 216,
+ "usd": 0.000316,
+ "utc": "2026-10-11T20:45:34.811398+00:00"
+}

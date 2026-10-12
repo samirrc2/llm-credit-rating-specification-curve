@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R019",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A01",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"B\",\"confidence\":3,\"rationale\":\"Sustained losses (negative EBIT/net income) and thin equity (7,094M liabilities vs 249M equity) indicate high leverage and weak credit strength.\"}",
+ "prompt_sha256": "85767f71abf8999eafc6855b9777a4b20b3680ebce00df3e92399d0ee47f0585",
+ "in_tok": 218,
+ "out_tok": 170,
+ "usd": 0.000256,
+ "utc": "2026-10-11T20:45:38.320408+00:00"
+}

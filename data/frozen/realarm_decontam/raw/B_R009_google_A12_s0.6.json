@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R009",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with healthy profitability, solid EBIT margin, low leverage, and robust equity base, offset by negative working capital.\"}\n```",
+ "prompt_sha256": "6c7c97d25c3f620aac7e45928acc3119c141bfc392b84b5266592238f6af9471",
+ "in_tok": 268,
+ "out_tok": 48,
+ "usd": 0.000834,
+ "utc": "2026-10-11T20:48:07.398839+00:00"
+}

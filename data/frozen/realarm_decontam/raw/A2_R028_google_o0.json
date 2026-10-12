@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R028",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "ANSWER: OTTER TAIL CORPORATION",
+ "prompt_sha256": "726cb61574ba1ca1d20b809cfd943d467b938dea79c7c464faf6b013f806a9ba",
+ "in_tok": 546,
+ "out_tok": 7,
+ "usd": 0.000882,
+ "utc": "2026-10-11T20:47:44.775015+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R005",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "With solid liquidity (current ratio \u2248 1.75) and reasonable profitability (net margin \u2248 10%, EBIT margin \u2248 8%), the company can likely service routine obligations. However, leverage is moderate (total liabilities/assets \u2248 42% and liabilities/equity \u2248 0.74), which limits cushion against an adverse downturn. Overall this supports a **BBB**-category assessment.\n\nDECISION: BBB",
+ "prompt_sha256": "c6da3530bc18a5437a29ad6e2ea108b3dd030ad62de1b40ff02a08e84194b6f1",
+ "in_tok": 239,
+ "out_tok": 221,
+ "usd": 0.000324,
+ "utc": "2026-10-11T20:44:58.494157+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R017",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits a strong financial profile with solid profitability (EBIT margin of ~23.3% and Return on Assets of ~2.7%), a healthy leverage position (Total Liabilities to Total Assets of ~64.8%), and good short-term liquidity (Current Ratio of 1.35x). The substantial equity cushion of $1.44B relative to total assets supports an investment-grade rating, though the absolute size of revenue ($868M) places it in the upper-tier of mid-sized issuers.\n\nDECISION: BBB+",
+ "prompt_sha256": "14aafbe1b3e8533ecdf1aae54bfd8a13eddb4d86c751eea77f88d52e9527795f",
+ "in_tok": 212,
+ "out_tok": 118,
+ "usd": 0.00138,
+ "utc": "2026-10-11T20:48:27.831505+00:00"
+}

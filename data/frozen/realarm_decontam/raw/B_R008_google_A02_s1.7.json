@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R008",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability and interest coverage with an EBIT of $658M and a net income of $525M on $2.47B in revenue, alongside a healthy current ratio of 2.28x. Capitalization is solid, supported by $3.54B in equity against $4.00B in total liabilities and a substantial retained earnings base of $2.32B. These high-investment-grade financial metrics align with a low default risk profile in the single-A rating category.\n\nDECISION: A",
+ "prompt_sha256": "ce08f54489f9836e9e6b65c8ab11840f808718fa0e3c0c3d63d9a07bfe8ed62c",
+ "in_tok": 225,
+ "out_tok": 117,
+ "usd": 0.00139,
+ "utc": "2026-10-11T20:48:05.944553+00:00"
+}

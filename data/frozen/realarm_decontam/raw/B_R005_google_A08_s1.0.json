@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R005",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Solid leverage ratios, moderate profitability, strong equity base, and robust liquidity support a strong investment-grade credit profile.\"}\n```",
+ "prompt_sha256": "ddbf6978472a1b737c02d9fd0165aa7d8b8856c57f6cc4b4c8e4c94176583517",
+ "in_tok": 262,
+ "out_tok": 46,
+ "usd": 0.000807,
+ "utc": "2026-10-11T20:47:58.085855+00:00"
+}

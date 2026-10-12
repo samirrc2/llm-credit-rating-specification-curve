@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A09",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"Recent EBIT and net losses indicate weak profitability, though liquidity is solid (current ratio ~2.3) and equity covers liabilities.\"}",
+ "prompt_sha256": "3ce70adb7f245e33eea70cfd148be7a82bbbe50af3c65d7006f46cb6ea76a7f2",
+ "in_tok": 222,
+ "out_tok": 146,
+ "usd": 0.000227,
+ "utc": "2026-10-11T20:45:14.557351+00:00"
+}

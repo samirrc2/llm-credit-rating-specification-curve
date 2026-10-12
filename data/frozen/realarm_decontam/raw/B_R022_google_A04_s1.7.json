@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R022",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with $21.7B assets and $9.3B equity, combined with solid EBIT ($2.2B), supports a investment-grade rating.\"}\n```",
+ "prompt_sha256": "4b1d869e008cbf056b58f78ed88d620555755fc14a3ba6f05846a6962ee39874",
+ "in_tok": 276,
+ "out_tok": 59,
+ "usd": 0.000945,
+ "utc": "2026-10-11T20:48:41.265164+00:00"
+}

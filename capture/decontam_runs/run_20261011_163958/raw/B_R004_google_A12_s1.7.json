@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R004",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB+\", \"confidence\": 3, \"rationale\": \"Strong profitability and current liquidity offset by negative retained earnings and a high total debt-to-equity ratio.\"}\n```",
+ "prompt_sha256": "a57b1c722f8d8c8bbdaf177cfd6199130fbfc3211ddc7788731697141e8a993d",
+ "in_tok": 274,
+ "out_tok": 44,
+ "usd": 0.000807,
+ "utc": "2026-10-11T20:47:56.676156+00:00"
+}

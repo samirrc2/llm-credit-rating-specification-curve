@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A01",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB-\",\"confidence\":2,\"rationale\":\"Moderate leverage and solid liquidity, but sustained losses (negative EBIT and net income) weaken credit profile versus investment grade.\"}",
+ "prompt_sha256": "0d0401dfd12d2d2bbd29261d3776ce84f6ce0f1ab56ec6bb662aac3481ce40ff",
+ "in_tok": 220,
+ "out_tok": 238,
+ "usd": 0.000342,
+ "utc": "2026-10-11T20:45:15.543509+00:00"
+}

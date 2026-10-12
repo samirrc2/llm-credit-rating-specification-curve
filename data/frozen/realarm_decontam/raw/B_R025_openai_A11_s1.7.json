@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R025",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows moderate near-term liquidity (current ratio \u2248 1.32) and positive profitability (EBIT margin \u2248 7.6%, net income of 241M). However, leverage is high (total liabilities of 13,971M vs. equity of 3,067M) and retained earnings are materially negative (-1,272M), indicating cumulative earnings pressure and weaker financial resilience. Overall, this aligns best with a lower-investment-grade/speculative boundary rating.  \n\nDECISION: BB-",
+ "prompt_sha256": "56a94bbddda222dd83ca0981a8f18479beb47049d7bab7c9b24268a7c03b5f6d",
+ "in_tok": 239,
+ "out_tok": 238,
+ "usd": 0.000345,
+ "utc": "2026-10-11T20:46:02.610779+00:00"
+}

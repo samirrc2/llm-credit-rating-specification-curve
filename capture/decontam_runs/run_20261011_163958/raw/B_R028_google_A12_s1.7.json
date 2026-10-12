@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R028",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Moderate leverage with Debt/Assets ~62%, positive earnings, and solid interest coverage align with an investment-grade BBB profile.\"}\n```",
+ "prompt_sha256": "d6a4896b4c1d25d611edca285d0f7f3efae0965781a27c1c86f983477693a805",
+ "in_tok": 275,
+ "out_tok": 49,
+ "usd": 0.000853,
+ "utc": "2026-10-11T20:48:48.562795+00:00"
+}

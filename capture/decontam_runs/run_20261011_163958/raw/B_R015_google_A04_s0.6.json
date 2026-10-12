@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R015",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Solid equity base and liquidity are offset by negative operating income, though bottom-line net income remains strongly positive.\"}\n```",
+ "prompt_sha256": "6802b83a47a8676abf9d095bf974fc9a94e4a7473d3a3c0c633f0b86d6a1f2d3",
+ "in_tok": 267,
+ "out_tok": 45,
+ "usd": 0.000806,
+ "utc": "2026-10-11T20:48:22.663548+00:00"
+}

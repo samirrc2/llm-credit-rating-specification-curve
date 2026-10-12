@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R001",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a strong financial profile with robust profitability (EBIT margin of ~15.7% and ROA of ~9.2%), a healthy capital structure supported by strong retained earnings, and solid short-term liquidity indicated by a current ratio of 1.87x and a total debt-to-assets ratio of under 58%. These metrics reflect a stable investment-grade profile with manageable leverage and strong debt-service capacity.\n\nDECISION: BBB+",
+ "prompt_sha256": "80a397d991be78f8d36273ea996853176d841ba3d8caf28cfbcedabafe728892",
+ "in_tok": 227,
+ "out_tok": 98,
+ "usd": 0.001223,
+ "utc": "2026-10-11T20:47:48.688241+00:00"
+}

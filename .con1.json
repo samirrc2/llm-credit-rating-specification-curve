@@ -1,0 +1,38 @@
+{
+  "run": "bash reproduce.sh",
+  "manuscript": "paper/NLP/cas-sc.tex",
+  "claims": "results/results_*.json",
+  "artifacts": [
+    "results/*.json",
+    "results/*.csv",
+    "paper/NLP/tab_*_body.tex"
+  ],
+  "capsule": {
+    "code": [
+      "analysis",
+      "build",
+      "reproduce.sh",
+      "requirements.txt"
+    ],
+    "data": [
+      "data"
+    ],
+    "run": "bash reproduce.sh"
+  },
+  "clone_extras": [],
+  "env": {
+    "PY": "/Users/samirchincholikar/Desktop/NIW/Paper 3/.venv/bin/python"
+  },
+  "gates": [
+    "python3 build/check_denominators.py",
+    "python3 build/check_tables_fresh.py",
+    "python3 capture/freeze_decontam.py --verify"
+  ],
+  "inputs": [
+    "data/frozen/main/*.json",
+    "data/frozen/realarm/*.json",
+    "data/frozen/realarm_decontam/MANIFEST.json",
+    "data/panel/panel.parquet"
+  ],
+  "normalize": []
+}

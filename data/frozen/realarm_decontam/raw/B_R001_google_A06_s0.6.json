@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R001",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits a strong financial profile with solid profitability (EBIT margin of ~15.6% and ROA of ~9.2%), a healthy leverage position (Total Liabilities/Total Assets of ~57.7%), and robust liquidity (Current Ratio of ~1.87). While its absolute size and equity base ($965M) place it below top-tier global conglomerates, its strong earnings and balanced balance sheet indicate an investment-grade rating with low credit risk.\n\nDECISION: A-",
+ "prompt_sha256": "1c589d74f1b07669a691e494f6d66de2e251917e6b9eb82791c9fab589cb00c1",
+ "in_tok": 214,
+ "out_tok": 106,
+ "usd": 0.001275,
+ "utc": "2026-10-11T20:47:47.456150+00:00"
+}

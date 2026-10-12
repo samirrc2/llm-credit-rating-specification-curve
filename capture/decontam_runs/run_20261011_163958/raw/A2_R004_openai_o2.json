@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R004",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 2,
+ "ok": true,
+ "raw_response": "ANSWER: Matador Resources Company",
+ "prompt_sha256": "30c2b064413e36c0f7951a6025ac448c1c0894cccddacb40b922dcd11eb285a1",
+ "in_tok": 546,
+ "out_tok": 690,
+ "usd": 0.000972,
+ "utc": "2026-10-11T20:42:23.097454+00:00"
+}

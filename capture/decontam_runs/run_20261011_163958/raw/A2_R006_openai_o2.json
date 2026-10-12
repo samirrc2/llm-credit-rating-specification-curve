@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R006",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 2,
+ "ok": true,
+ "raw_response": "ANSWER: Gates Industrial Corporation plc",
+ "prompt_sha256": "4fad2e033f32b5a67b1c1169f66b0592ac60c37487f2d1156fb9b1e0a99d26f6",
+ "in_tok": 546,
+ "out_tok": 496,
+ "usd": 0.000729,
+ "utc": "2026-10-11T20:43:15.979774+00:00"
+}

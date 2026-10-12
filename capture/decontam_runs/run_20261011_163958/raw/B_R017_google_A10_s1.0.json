@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R017",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company demonstrates a healthy operational profile with strong profitability (EBIT margin of ~23.2%) and solid short-term liquidity (current ratio of 1.35x), alongside an equity cushion supporting 35% of total assets. However, total liabilities of $4,411M relative to EBIT of $336M indicate moderate leverage (Debt-to-EBITDA or Liabilities-to-EBIT implied around 13x total liabilities, though net debt is lower), which places its risk profile squarely within the solid investment-grade spectrum. Balancing the robust profit margins and capital base against the absolute scale of total liabilities yields an A- credit profile.\n\nDECISION: A-",
+ "prompt_sha256": "6837ac8b61ba363826a16626c4e38211d2a54a70917cca524af30d4c313ef5b1",
+ "in_tok": 222,
+ "out_tok": 147,
+ "usd": 0.001656,
+ "utc": "2026-10-11T20:48:29.465696+00:00"
+}

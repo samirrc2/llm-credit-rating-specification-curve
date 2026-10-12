@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R014",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits a strong balance sheet with low leverage (Total Liabilities / Total Assets of 37.9%), robust profitability (EBIT margin of 15.5% and ROA of 6.8%), and solid liquidity with a current ratio of 2.48. These credit metrics, supported by a substantial equity cushion of $1.84B and strong earnings, reflect a stable, investment-grade financial profile with low default risk.\n\nDECISION: A",
+ "prompt_sha256": "74136db9949dc8810384d217bb1d316421ce0ebdee3676387e030f3bc7df3d32",
+ "in_tok": 214,
+ "out_tok": 99,
+ "usd": 0.001212,
+ "utc": "2026-10-11T20:48:20.334700+00:00"
+}

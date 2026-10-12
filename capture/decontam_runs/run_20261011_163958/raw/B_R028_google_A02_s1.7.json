@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R028",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a solid financial profile with revenue exceeding $10.5 billion, healthy profitability (EBIT of $916 million and net income of $850 million), and a strong balance sheet supported by $7.655 billion in equity and a current ratio above 1.28x. While total liabilities are moderate relative to total assets (leverage ratio around 62%), the overall credit metrics, strong earnings capacity, and substantial asset base align with a solid investment-grade rating.\n\nDECISION: BBB+",
+ "prompt_sha256": "4b3942f92f9b158aa626ba785c131aab20ac28bd3a2d84bf62681d786aa97842",
+ "in_tok": 230,
+ "out_tok": 112,
+ "usd": 0.001353,
+ "utc": "2026-10-11T20:46:13.701739+00:00"
+}

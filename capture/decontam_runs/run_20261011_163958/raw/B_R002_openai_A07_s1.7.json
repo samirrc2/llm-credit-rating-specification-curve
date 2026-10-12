@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Liquidity is only modest (current ratio \u2248 1.21), while leverage is relatively high (liabilities/assets \u2248 0.75). Profitability is extremely weak\u2014EBIT is only 12M vs. revenue of 15,796M and the company reported a net loss (-236M)\u2014suggesting elevated credit risk despite positive shareholders\u2019 equity.\n\nDECISION: BB-",
+ "prompt_sha256": "7039016a81e452184686bece3092e194db9d7baa9a316c66d6b7d5fedbc3ad09",
+ "in_tok": 230,
+ "out_tok": 268,
+ "usd": 0.000381,
+ "utc": "2026-10-11T20:44:49.463882+00:00"
+}

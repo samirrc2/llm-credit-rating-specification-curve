@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R016",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company demonstrates a solid liquidity profile with current assets ($1,131M) significantly exceeding current liabilities ($354M) and a moderate leverage ratio (total liabilities to assets of ~55%). However, creditworthiness is severely constrained by operational unprofitability, evidenced by negative EBIT (-$127M) and a net loss (-$214M) on $2,044M in revenue. These metrics align with a speculative-grade profile, where current debt obligations can be met but ongoing operating losses pose significant risks.\n\nDECISION: BB-",
+ "prompt_sha256": "aa8464dbc043addac10ea009bf57cba83a1e269eca9a76838a14b0d3dc878865",
+ "in_tok": 214,
+ "out_tok": 120,
+ "usd": 0.001401,
+ "utc": "2026-10-11T20:48:26.117179+00:00"
+}

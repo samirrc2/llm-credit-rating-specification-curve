@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R012",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong profitability, robust current ratio (2.35x), low leverage (Total Liabilities/Assets = 51%), and solid equity base justify a strong investment-grade rating.\"}\n```",
+ "prompt_sha256": "b7ce016ac30a31af6ca85cb72fce334ddd798d05d7741d36474ef7d8f8baaadc",
+ "in_tok": 262,
+ "out_tok": 60,
+ "usd": 0.000933,
+ "utc": "2026-10-11T20:48:15.487492+00:00"
+}

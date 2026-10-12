@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R007",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 2,
+ "ok": true,
+ "raw_response": "ANSWER: TXNM Energy, Inc.",
+ "prompt_sha256": "92d60115278837ea882f768e71ea53c116e9215369f91441e2ea650601362061",
+ "in_tok": 546,
+ "out_tok": 564,
+ "usd": 0.000814,
+ "utc": "2026-10-11T20:43:26.024292+00:00"
+}

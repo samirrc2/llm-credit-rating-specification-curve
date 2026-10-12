@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R022",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 2,
+ "ok": true,
+ "raw_response": "ANSWER: Stanley Black & Decker, Inc.",
+ "prompt_sha256": "ba36cbc9bebc270de8649a7b7474f56ae8ab9b51aa05b26470ea40e41dca44a7",
+ "in_tok": 548,
+ "out_tok": 9,
+ "usd": 0.000903,
+ "utc": "2026-10-11T20:47:41.528527+00:00"
+}

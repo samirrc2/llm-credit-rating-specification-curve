@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R023",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A09",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":3,\"rationale\":\"Low leverage and strong liquidity (current ratio ~3.8), but deeply negative retained earnings (-2,659M) signals accumulated losses and weaker credit durability.\"}",
+ "prompt_sha256": "bb1f3e14a785e4050c00c15b74d1d7415b38da007b00cc3134f773903f71dddc",
+ "in_tok": 218,
+ "out_tok": 238,
+ "usd": 0.000341,
+ "utc": "2026-10-11T20:45:55.109276+00:00"
+}

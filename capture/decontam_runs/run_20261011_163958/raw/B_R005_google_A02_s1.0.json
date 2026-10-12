@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R005",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a strong balance sheet with substantial equity ($3,435M), low financial leverage (Total Liabilities / Total Assets of ~42%), and solid liquidity evidenced by a current ratio of 1.75x. Operating profitability is healthy with an EBIT of $168M and Net Income of $209M on $2,101M in revenue, backed by a large retained earnings base ($5,941M) indicating sustained historical profitability. These solid investment-grade credit metrics warrant an upper-tier medium grade rating.\n\nDECISION: A-",
+ "prompt_sha256": "6fa5b76839c829de056932acdfc2d0d716319e3f800cfa40f1cf9a900c6f3af5",
+ "in_tok": 225,
+ "out_tok": 123,
+ "usd": 0.001445,
+ "utc": "2026-10-11T20:47:57.969551+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R022",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows positive profitability at the operating level (EBIT margin ~14%), but net income is relatively thin (~2.7% of revenue), indicating some financial pressure below operating earnings. Balance-sheet leverage is moderate-to-high (total liabilities 12,471M vs. equity 9,265M) and liquidity is only adequate (current ratio ~1.14), which together suggest a speculative credit profile.  \nDECISION: BB-",
+ "prompt_sha256": "f5358d1b8879c28f19f1ba4cafae7d76a37866c28ee3e4e8c2ae976df0f8eb1c",
+ "in_tok": 239,
+ "out_tok": 208,
+ "usd": 0.000308,
+ "utc": "2026-10-11T20:45:50.820796+00:00"
+}

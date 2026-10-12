@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R014",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays a strong balance sheet with a robust equity base ($3,064M against total liabilities of $1,872M), healthy profitability metrics (EBIT margin of ~15.5% and net margin of ~10.8%), and a strong liquidity position with a current ratio of 2.48x. The modest scale of revenues ($3.1B) and asset size ($4.9B) relative to larger mega-cap peers keeps the company in the solid investment-grade tier rather than the highest rating levels.\n\nDECISION: A",
+ "prompt_sha256": "6c637e6ba4554c74d570907c0ea9993a9ba372924af917df60a63d352d5bb416",
+ "in_tok": 223,
+ "out_tok": 121,
+ "usd": 0.001423,
+ "utc": "2026-10-11T20:48:20.792799+00:00"
+}

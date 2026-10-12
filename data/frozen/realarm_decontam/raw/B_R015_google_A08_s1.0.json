@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R015",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Solid equity cushion and liquidity are offset by negative operating income, though net income remains strong due to non-operating items.\"}\n```",
+ "prompt_sha256": "0220b40306235d54161df2698d119bc25caac643ac5d8a6e300be380cdd0d588",
+ "in_tok": 262,
+ "out_tok": 47,
+ "usd": 0.000816,
+ "utc": "2026-10-11T20:48:23.665629+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R016",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A05",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":2,\"rationale\":\"Loss-making (EBIT -216M, net income -364M) despite strong current liquidity; leverage moderate (liabilities 1,894M vs equity 1,425M).\"}",
+ "prompt_sha256": "025bc977369cdc65bd844485072363cd79b4db72d44a057889f2bfb806a4ed0b",
+ "in_tok": 209,
+ "out_tok": 144,
+ "usd": 0.000222,
+ "utc": "2026-10-11T20:45:31.158352+00:00"
+}

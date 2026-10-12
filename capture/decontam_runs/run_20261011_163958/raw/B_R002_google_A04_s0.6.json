@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High leverage, low equity relative to liabilities, and net losses offset by substantial revenue and a slightly positive operating income.\"}\n```",
+ "prompt_sha256": "20955b438c699771856a6ba3350f8d9ca989f8203c805bd721541fa19eb5b4c8",
+ "in_tok": 268,
+ "out_tok": 47,
+ "usd": 0.000825,
+ "utc": "2026-10-11T20:47:49.607925+00:00"
+}

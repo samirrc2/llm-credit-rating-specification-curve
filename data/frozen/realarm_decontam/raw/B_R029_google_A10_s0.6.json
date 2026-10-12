@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R029",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates an exceptional solvency profile with virtually no debt (Total Liabilities of $7M against $2,005M in Shareholders' Equity) and solid profitability with an 9.3% EBIT margin and $267M in Net Income. While the balance sheet leverage is minimal enough to support a top-tier rating, the absolute scale of revenue ($5.18B) and earnings reflects a large but not dominant market position compared to mega-cap AAA issuers, placing it solidly in the high-grade category.\n\nDECISION: AA",
+ "prompt_sha256": "fbccd22b7a87e0b68a9b86ea67d7902c607049d2fedc76da963d58afb0a7a814",
+ "in_tok": 222,
+ "out_tok": 114,
+ "usd": 0.001359,
+ "utc": "2026-10-11T20:46:16.097649+00:00"
+}

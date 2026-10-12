@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R019",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage, thin equity base ($415M vs $11.8B liabilities), negative EBIT and net income indicate substantial credit risk.\"}\n```",
+ "prompt_sha256": "76b69e3065dcb76a154c8033d2d8e0a3ee6dcc5cda9cafb4d22696c4b1f13617",
+ "in_tok": 272,
+ "out_tok": 54,
+ "usd": 0.000894,
+ "utc": "2026-10-11T20:48:33.348579+00:00"
+}

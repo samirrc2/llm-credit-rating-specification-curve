@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer has solid liquidity (current ratio \u2248 2.31) and moderate leverage (equity covers about 30.5% of assets), but it is currently unprofitable with negative EBIT (\u2248 -172M) and net income (\u2248 -535M). Persistent operating losses weaken credit quality and suggest limited capacity to service obligations under stress.  \n\nDECISION: B",
+ "prompt_sha256": "8320a809a0164cb776d02e904657b12b0e14b53bdee3e1383f35528e88ed3cee",
+ "in_tok": 230,
+ "out_tok": 257,
+ "usd": 0.000367,
+ "utc": "2026-10-11T20:45:14.881057+00:00"
+}

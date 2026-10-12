@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R021",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits solid profitability and sound liquidity metrics, with a revenue of $2.08B, operating income of $152M, and a current ratio of 1.50x. Leverage is moderate, evidenced by a total liabilities-to-assets ratio of approximately 60% and a healthy equity base of $773M, placing the financial profile comfortably within the investment-grade spectrum.\n\nDECISION: BBB",
+ "prompt_sha256": "4da3214eae1d2b485a29310ad00e10af35f7834a4a939fff1e04528baf60bfd7",
+ "in_tok": 218,
+ "out_tok": 91,
+ "usd": 0.001146,
+ "utc": "2026-10-11T20:48:38.498490+00:00"
+}

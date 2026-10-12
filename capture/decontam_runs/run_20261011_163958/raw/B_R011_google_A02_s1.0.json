@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer has a substantial scale with over $10 billion in revenue and a respectable equity base of $5.7 billion, supported by strong current liquidity (current ratio above 2.3x). However, the company is experiencing operational distress, evidenced by negative EBIT (-$287M) and a significant net loss (-$892M), alongside a high debt-to-equity profile implied by $13 billion in total liabilities. These negative earnings metrics place the company into high-yield speculative territory, though its size and asset base prevent an immediate distress rating.\n\nDECISION: BB",
+ "prompt_sha256": "b5eebf7370ba37615d8b79b3dc58a2bf8d437b1fe3935dbfb60e349092abbbeb",
+ "in_tok": 231,
+ "out_tok": 123,
+ "usd": 0.001454,
+ "utc": "2026-10-11T20:48:12.796844+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R023",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates an exceptionally strong balance sheet with very low leverage (Total Liabilities to Total Assets of 21.5%), high liquidity (Current Ratio of 3.83x), and strong profitability relative to its debt obligations. While net income is unusually high relative to operating income (likely driven by a non-operating tax benefit or gain) and negative retained earnings point to historical losses or past restructurings, the current solvency profile and minimal financial risk support a solid investment-grade rating.\n\nDECISION: A-",
+ "prompt_sha256": "e44732ed9c249dce311342c45dfba0dccaecdc3ae58d10a1cc3c8689af81c5c9",
+ "in_tok": 219,
+ "out_tok": 107,
+ "usd": 0.001292,
+ "utc": "2026-10-11T20:48:42.757279+00:00"
+}

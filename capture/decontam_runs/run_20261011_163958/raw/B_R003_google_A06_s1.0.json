@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R003",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits solid profitability and scale, with an operating margin (EBIT/Revenue) of nearly 22% and a healthy asset base of $5.77B. However, its credit profile is constrained by elevated leverage (total liabilities-to-assets ratio of 76%) and a weak liquidity position with a current ratio below 0.72x.\n\nDECISION: BBB",
+ "prompt_sha256": "2d1811bee3e0460c28f78c472b8999882e5f9d88272dfa7ca99d9e30478d6519",
+ "in_tok": 214,
+ "out_tok": 82,
+ "usd": 0.001059,
+ "utc": "2026-10-11T20:47:52.966811+00:00"
+}

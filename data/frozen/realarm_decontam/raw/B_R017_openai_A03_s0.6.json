@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R017",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows solid profitability (net margin ~12.7%) and strong capitalization (equity of 1,436M vs total liabilities of 2,647M), which provides meaningful balance sheet support. Liquidity is adequate with a current ratio of about 1.35, but the leverage is still moderate (liabilities/assets ~65%), limiting the ability to rate in the highest bands.\n\nDECISION: A-",
+ "prompt_sha256": "7d510dc2663c9cb92ed18e7fa82a7120dfbf71ea34af3b87de3fd8995ff1212c",
+ "in_tok": 229,
+ "out_tok": 324,
+ "usd": 0.000451,
+ "utc": "2026-10-11T20:45:33.516111+00:00"
+}

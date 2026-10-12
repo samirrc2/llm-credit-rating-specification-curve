@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R025",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits high financial leverage with a total liabilities-to-equity ratio of 4.56x (liabilities of $8,218M against equity of $1,804M), modest operating profitability (EBIT margin of 7.6%), and negative retained earnings (-$748M) indicating a history of accumulated losses. While the company maintains positive net income ($142M) and a current ratio above 1.0 (1.32x), its elevated leverage profile and weak balance sheet coverage place it in the speculative grade.\n\nDECISION: BB",
+ "prompt_sha256": "3515b479272b706d68f5cf87cc6637d2e9f61f18fb72f20e5b883d46504c5679",
+ "in_tok": 227,
+ "out_tok": 125,
+ "usd": 0.001466,
+ "utc": "2026-10-11T20:48:45.490743+00:00"
+}

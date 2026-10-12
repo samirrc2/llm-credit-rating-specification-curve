@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R007",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays a strong financial profile characterized by high profitability (EBIT margin of ~13.5%), robust liquidity (current ratio of ~3.37x), and a balanced capital structure with equity nearly equal to total liabilities ($3,026M vs. $3,143M). Furthermore, substantial retained earnings ($1,500M) relative to asset size ($6,491M) underscore a solid track record of cumulative profitability and moderate leverage, supporting a solid investment-grade profile.\n\nDECISION: A",
+ "prompt_sha256": "95cb404b67675ea48bb203b8af035ef4c876892bb4b3b0b09b77fa14c64db8e6",
+ "in_tok": 225,
+ "out_tok": 114,
+ "usd": 0.001364,
+ "utc": "2026-10-11T20:48:01.763693+00:00"
+}

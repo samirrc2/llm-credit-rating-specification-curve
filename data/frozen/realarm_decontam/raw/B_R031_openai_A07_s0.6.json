@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R031",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows weak liquidity (current ratio \u2248 0.55) and relatively high leverage (liabilities \u2248 71% of total assets), alongside modest profitability (net margin \u2248 3.7%). However, operating earnings are solid in absolute terms (EBIT \u2248 223M vs revenue 1,094M), which supports debt servicing capacity despite the weaker balance-sheet and liquidity profile.  \n\nDECISION: B+",
+ "prompt_sha256": "4215a1d047e9ce84a79846aab4c6c8003c6582084fbac05d1df7b252f2204462",
+ "in_tok": 224,
+ "out_tok": 209,
+ "usd": 0.000306,
+ "utc": "2026-10-11T20:46:24.902593+00:00"
+}

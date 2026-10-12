@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R012",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong profitability, robust current ratio of 2.35x, solid equity base, and low leverage relative to revenue and earnings support an A rating.\"}\n```",
+ "prompt_sha256": "10b225bc3168fc291908021696bee5fb3b7f6648eedc71de3bfd8821948458e9",
+ "in_tok": 269,
+ "out_tok": 54,
+ "usd": 0.000889,
+ "utc": "2026-10-11T20:48:15.145492+00:00"
+}

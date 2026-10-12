@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R019",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays significant credit distress, characterized by negative operating income (-$275M) and a net loss (-$384M), alongside an extremely high leverage profile with total liabilities of $7,094M against total assets of $7,344M (thin equity base of $249M). While the company maintains positive current liquidity (current assets of $2,986M versus current liabilities of $1,678M) and substantial revenue scale, its ongoing operational burn and weak capital structure place it deep in non-investment grade territory.\n\nDECISION: B-",
+ "prompt_sha256": "da15cae55e571942d4d37066a20f15386aca6b2d22b08df987be42d53a7ff583",
+ "in_tok": 225,
+ "out_tok": 128,
+ "usd": 0.001489,
+ "utc": "2026-10-11T20:48:32.658961+00:00"
+}

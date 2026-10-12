@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer generates substantial revenue ($6,286M) and maintains a solid equity base ($3,427M) with strong current liquidity (current ratio of ~2.31x) and high historical retained earnings. However, performance is weighed down by negative operating income (-$172M) and a significant net loss (-$535M), alongside a leverage ratio (Total Liabilities / Total Assets) of approximately 69.6%. These factors reflect moderate financial risk and operational headwinds, balancing strong scale against profitability pressures.\n\nDECISION: BBB-",
+ "prompt_sha256": "a97592856c76e6555a8a2ebc5105c0ee34daf000dcddf54cd0e095c3e279ed7b",
+ "in_tok": 221,
+ "out_tok": 119,
+ "usd": 0.001403,
+ "utc": "2026-10-11T20:48:12.214880+00:00"
+}

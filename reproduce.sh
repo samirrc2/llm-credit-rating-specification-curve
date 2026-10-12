@@ -27,4 +27,17 @@ echo "== Cross-model transfer of the instability score (R2-5/R3-5) + design alia
 python3 analysis/crossmodel_aliasing.py
 echo "== Reasoning-architecture arm (offline; skips gracefully if corpus not yet collected) =="
 python3 analysis/reasoning_analysis.py
+echo "== Revision-2 analyses (offline, deterministic; feed Tables 1, 4, 5, 7, 8, 9) =="
+python3 analysis/revision2/r2_chance_baseline.py
+python3 analysis/revision2/r3_sis_baselines.py
+python3 analysis/revision2/r3_alias_bounds.py
+python3 analysis/revision2/r3_decision_curve.py
+python3 analysis/revision2/r2r3_followups.py
+python3 analysis/revision2/r3_heldout_issuer.py
+python3 analysis/revision2/r3_decontam_analysis.py
+python3 analysis/revision2/design_audit.py
+python3 analysis/revision2/canonical_fixes.py
+echo "== Regenerate the generated table bodies from the result JSONs =="
+python3 build/make_sis_tables.py
+python3 build/make_decontam_table.py
 echo "== Done. Outputs in results/ =="

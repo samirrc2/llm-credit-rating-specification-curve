@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R001",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "ANSWER: SENSATA TECHNOLOGIES HOLDING PLC",
+ "prompt_sha256": "de9b5df3e3af674144d8f6a6c478590686ef9bf2650d7e829e96f2194f765798",
+ "in_tok": 546,
+ "out_tok": 392,
+ "usd": 0.000599,
+ "utc": "2026-10-11T20:40:09.915402+00:00"
+}

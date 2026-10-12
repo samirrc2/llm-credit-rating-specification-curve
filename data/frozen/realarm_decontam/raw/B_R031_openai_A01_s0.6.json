@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R031",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A01",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"High leverage (liabilities/assets ~71%) and weak liquidity (current ratio ~0.55) offset strong operating profitability (EBIT margin ~20%), leading to speculative-grade risk.\"}",
+ "prompt_sha256": "9516839eda14188c1a900e1768055d11c91244fda86760c7ac7322c968e7c9af",
+ "in_tok": 214,
+ "out_tok": 161,
+ "usd": 0.000244,
+ "utc": "2026-10-11T20:46:23.829681+00:00"
+}

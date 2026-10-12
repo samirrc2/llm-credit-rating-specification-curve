@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R012",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows solid liquidity (current ratio \u2248 1.96/0.835 \u2248 2.35) and healthy profitability (EBIT margin \u2248 474/3,617 \u2248 13% and net margin \u2248 11%). Leverage appears moderate (total liabilities of 1.97B vs equity of 1.86B), and substantial retained earnings support resilience. Overall, this profile suggests an upper investment-grade risk level but not at the strongest sovereign/corporate extremes.\n\nDECISION: A-",
+ "prompt_sha256": "7169f8f21193a777d244578ac8c792ef23658e8b7a2057984b0740e6b351b949",
+ "in_tok": 237,
+ "out_tok": 276,
+ "usd": 0.000392,
+ "utc": "2026-10-11T20:45:19.337498+00:00"
+}

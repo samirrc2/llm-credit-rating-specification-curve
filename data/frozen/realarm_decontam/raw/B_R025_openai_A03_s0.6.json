@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R025",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows positive profitability (EBIT margin ~7.6% and net income margin ~4%), but leverage is relatively high with equity of only ~18% of total assets and negative retained earnings, which weakens financial resilience. Liquidity is acceptable (current ratio ~1.32), yet the combination of leverage and accumulated losses suggests elevated risk.  \nDECISION: BB-",
+ "prompt_sha256": "8eb89f7841d2bde70f3d798573e25379e7132710346adcec8727c14a385526f2",
+ "in_tok": 233,
+ "out_tok": 228,
+ "usd": 0.000332,
+ "utc": "2026-10-11T20:45:59.621382+00:00"
+}

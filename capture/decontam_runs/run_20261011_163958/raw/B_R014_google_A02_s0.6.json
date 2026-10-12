@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R014",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid financial profile with an EBIT margin of ~15.5%, a strong return on assets (~6.75%), and an exceptionally conservative leverage structure evidenced by total liabilities to total assets of only ~37.9% and an equity ratio of ~62%. Additionally, liquidity is robust with a current ratio of ~2.48, indicating low default risk and strong operational capacity to service debt.\n\nDECISION: A",
+ "prompt_sha256": "2a5e7bddfa3f29de4800ddd2d59ed69419c5e7105adb0f8c3a46d9a1d4f40c1d",
+ "in_tok": 221,
+ "out_tok": 92,
+ "usd": 0.001159,
+ "utc": "2026-10-11T20:48:19.996208+00:00"
+}

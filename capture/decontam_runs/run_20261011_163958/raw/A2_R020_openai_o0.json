@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R020",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "ANSWER: Southwest Gas Holdings, Inc.",
+ "prompt_sha256": "7b6de631f815953a3f0033d43d797ccb16fe01093c4192b83cab42d3a80a1c85",
+ "in_tok": 546,
+ "out_tok": 770,
+ "usd": 0.001072,
+ "utc": "2026-10-11T20:44:27.790729+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R014",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows solid financial health with strong liquidity (current assets/current liabilities \u2248 2.48) and moderate leverage (total liabilities/assets \u2248 0.38; liabilities-to-equity \u2248 0.61). Profitability is also solid for a typical rated issuer (net margin \u2248 10.8%, EBIT margin \u2248 15.5%), supporting stable debt service capacity, though absence of explicit interest coverage and cash flow limits the upside.\n\nDECISION: A-",
+ "prompt_sha256": "1cf3a3f0801190c7aee7382043578050e93eb6e716a8eccae043b9712c9a1acb",
+ "in_tok": 239,
+ "out_tok": 336,
+ "usd": 0.000468,
+ "utc": "2026-10-11T20:45:27.476333+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R019",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer faces severe financial distress, evidenced by negative operating income (-$780M) and net income (-$1,088M), alongside an extremely high leverage ratio where total liabilities ($20,101M) comprise over 96% of total assets ($20,808M), leaving a thin equity cushion of only $706M. Additionally, while the current ratio appears temporarily adequate, the combination of substantial operational losses and heavy debt burdens significantly impairs the company's debt-servicing capacity and creates high default risk.\n\nDECISION: CCC",
+ "prompt_sha256": "f94c69b1560c9aa02fe6fe914ded2e91043a8eeecd0086d7499d0451e3121240",
+ "in_tok": 231,
+ "out_tok": 122,
+ "usd": 0.001445,
+ "utc": "2026-10-11T20:48:34.711583+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R007",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Strong balance sheet with healthy equity and working capital, offset by moderate leverage and conservative profit margins.\"}\n```",
+ "prompt_sha256": "19ca269ad68062c964f462582c3dcf24c2523cfe280351ab0bd7938bc2068da6",
+ "in_tok": 270,
+ "out_tok": 42,
+ "usd": 0.000783,
+ "utc": "2026-10-11T20:48:02.299043+00:00"
+}

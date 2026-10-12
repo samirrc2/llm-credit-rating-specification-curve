@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R022",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong asset coverage and revenue base with solid operating income, but moderate net margin and leverage lower the rating.\"}\n```",
+ "prompt_sha256": "d198b47a797ca540c27575b3d396f1b0e4dc8e1ab13c32d92d2378143ba08918",
+ "in_tok": 267,
+ "out_tok": 45,
+ "usd": 0.000806,
+ "utc": "2026-10-11T20:48:40.466515+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R023",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Strong solvency, liquidity, and profitability are offset by negative retained earnings, indicating significant historical losses and an evolving credit profile.\"}\n```",
+ "prompt_sha256": "b0ef8ffaa97017e902da13641bc9501ea2c400f6128306b8e6bfa2048326198b",
+ "in_tok": 263,
+ "out_tok": 47,
+ "usd": 0.000817,
+ "utc": "2026-10-11T20:45:53.592534+00:00"
+}

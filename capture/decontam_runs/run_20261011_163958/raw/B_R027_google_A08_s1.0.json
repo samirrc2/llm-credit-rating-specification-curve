@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R027",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Moderate leverage (58.7% liabilities/assets), strong equity base, and positive profitability (EBIT 244M, net income 32M) support an investment-grade rating.\"}\n```",
+ "prompt_sha256": "684767acfbc29b7ea920862f7247fe77355093fefa87484cefd66f4677f36922",
+ "in_tok": 261,
+ "out_tok": 65,
+ "usd": 0.000976,
+ "utc": "2026-10-11T20:48:47.239712+00:00"
+}

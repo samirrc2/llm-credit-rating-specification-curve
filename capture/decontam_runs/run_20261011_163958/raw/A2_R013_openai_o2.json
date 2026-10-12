@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R013",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 2,
+ "ok": true,
+ "raw_response": "ANSWER: PBF ENERGY INC.",
+ "prompt_sha256": "4e360aa44d3c59237e26b65f82773e703fbe39784d31f7273e2d865428ad1b74",
+ "in_tok": 546,
+ "out_tok": 826,
+ "usd": 0.001142,
+ "utc": "2026-10-11T20:44:17.914269+00:00"
+}

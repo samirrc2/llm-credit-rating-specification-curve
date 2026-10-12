@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Strong revenue and asset scale with moderate leverage are offset by negative net income and operating losses.\"}\n```",
+ "prompt_sha256": "0aa9a920adfb34efa0b0c0db3957c82972f596aa31c835c66d759f1c1b6d652a",
+ "in_tok": 265,
+ "out_tok": 41,
+ "usd": 0.000767,
+ "utc": "2026-10-11T20:48:00.309232+00:00"
+}

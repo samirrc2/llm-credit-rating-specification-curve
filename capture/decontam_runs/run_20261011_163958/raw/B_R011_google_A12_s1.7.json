@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Adequate liquidity and strong revenue are offset by severe profitability challenges, negative net income, and high leverage relative to equity.\"}\n```",
+ "prompt_sha256": "33114345aa93d9c20b85c3e2197aaa33e48889f9cc8f29cbd547953bd836ec76",
+ "in_tok": 279,
+ "out_tok": 48,
+ "usd": 0.000851,
+ "utc": "2026-10-11T20:48:13.890121+00:00"
+}

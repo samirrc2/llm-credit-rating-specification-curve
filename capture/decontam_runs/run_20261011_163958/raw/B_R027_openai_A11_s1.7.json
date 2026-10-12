@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R027",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows solid liquidity (current ratio \u2248 2.6) and positive operating profitability (EBIT margin \u2248 6.4%), but profitability at the bottom line is very weak (net margin \u2248 0.8%). Leverage is moderate-to-high (total liabilities/assets \u2248 59% and liabilities/equity \u2248 1.4), and the large gap between EBIT and net income suggests meaningful fixed charges or other deductions not reflected in operating earnings alone.  \n\nDECISION: BB-",
+ "prompt_sha256": "ce01a45f370195d2c34c11be4fc8ef3a6eaf21951cadeb35161c361e3487bc8a",
+ "in_tok": 239,
+ "out_tok": 341,
+ "usd": 0.000474,
+ "utc": "2026-10-11T20:46:11.691439+00:00"
+}

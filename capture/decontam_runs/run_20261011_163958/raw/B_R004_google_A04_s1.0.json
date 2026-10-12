@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R004",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Strong liquidity, solid EBIT margins, and moderate leverage (48% Equity/Assets) are offset by negative retained earnings.\"}\n```",
+ "prompt_sha256": "f74b4cf2c62bebc10adc29230606e9fc362b6d3074e45a0338cc328c388c7ccd",
+ "in_tok": 271,
+ "out_tok": 48,
+ "usd": 0.000838,
+ "utc": "2026-10-11T20:47:55.425592+00:00"
+}

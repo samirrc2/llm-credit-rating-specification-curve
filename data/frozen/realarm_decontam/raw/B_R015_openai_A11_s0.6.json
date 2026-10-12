@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R015",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows good near-term liquidity (current ratio \u2248 922/323 = 2.85) and substantial accumulated equity (shareholders\u2019 equity of 1,456M), but it also reports a large operating loss (EBIT/operating income of -593M), indicating weak core profitability. Combined with relatively high leverage (total liabilities 2,071M versus equity 1,456M), this points to credit risk consistent with the lower end of the investment-grade boundary but not deep distress.\n\nDECISION: BB-",
+ "prompt_sha256": "d3540f6431bae98622ace223766a4ae79c97b97ae7f68b23e5dbc4f6226d094b",
+ "in_tok": 235,
+ "out_tok": 272,
+ "usd": 0.000387,
+ "utc": "2026-10-11T20:45:26.998107+00:00"
+}

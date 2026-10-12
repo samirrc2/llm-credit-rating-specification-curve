@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R028",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability (EBIT margin ~8.7%, net margin ~8.1%) and adequate liquidity (current ratio ~1.28). However, leverage is moderately high (total liabilities ~62% of total assets), which limits the credit quality despite strong retained earnings and equity.\n\nDECISION: BBB+",
+ "prompt_sha256": "a1ca3b6f8cdb4e415b20e7bc3124d5e4b9ba2555140e444bd344df59abad326e",
+ "in_tok": 231,
+ "out_tok": 224,
+ "usd": 0.000326,
+ "utc": "2026-10-11T20:46:11.247430+00:00"
+}

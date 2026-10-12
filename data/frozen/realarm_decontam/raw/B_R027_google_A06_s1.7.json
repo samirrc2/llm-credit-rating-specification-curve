@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R027",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a solid balance sheet with total assets of $11,776M, shareholders' equity of $4,859M, and strong liquidity as evidenced by a current ratio of approximately 2.57x. However, profitability ratios are relatively modest, with an operating margin of 6.42% ($415M EBIT on $6,462M revenue) and a net margin of 0.84% ($54M net income), reflecting moderate leverage and operational efficiency characteristic of an investment-grade credit profile.\n\nDECISION: BBB",
+ "prompt_sha256": "19650d126bfcc62f69a245243a8ad51b5b75433edd7f0d5de4c093c53a981679",
+ "in_tok": 220,
+ "out_tok": 123,
+ "usd": 0.001437,
+ "utc": "2026-10-11T20:48:47.798354+00:00"
+}

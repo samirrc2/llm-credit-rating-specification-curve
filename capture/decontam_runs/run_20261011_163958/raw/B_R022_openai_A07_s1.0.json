@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R022",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows moderate leverage (total liabilities 7,336M vs. equity 5,450M) and modest liquidity (current ratio ~1.14). Operating profitability is decent (EBIT 1,310M on revenue 9,106M), but the low net income (242M) relative to revenue suggests weaker bottom-line resilience, pointing to a below-investment-grade credit profile.  \n\nDECISION: BB-",
+ "prompt_sha256": "034fa58e20f15483105953d22db61ca68ea23c9cfdeccf76b15cd9f02229fc3e",
+ "in_tok": 232,
+ "out_tok": 218,
+ "usd": 0.000319,
+ "utc": "2026-10-11T20:45:50.108594+00:00"
+}

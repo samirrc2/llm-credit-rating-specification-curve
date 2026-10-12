@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R029",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong asset base and moderate profitability are offset by data inconsistency between total and current liabilities, pointing to a solid investment-grade profile.\"}\n```",
+ "prompt_sha256": "c80910a4e5b9943315cc1d9e2c42fc873bc1840734b51f89dda87ea0cb3ed02a",
+ "in_tok": 270,
+ "out_tok": 50,
+ "usd": 0.000855,
+ "utc": "2026-10-11T20:48:49.384501+00:00"
+}

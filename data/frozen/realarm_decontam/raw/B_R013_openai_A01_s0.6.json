@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A01",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"CCC-\",\"confidence\":3,\"rationale\":\"Negative equity (-298M), retained earnings deeply negative (-639M), net losses, and liabilities exceed assets indicate significant financial stress despite modest EBIT.\"}",
+ "prompt_sha256": "305cf3164632a315c89d375cc2389f385d929c2c96b42e7b9953173f31c43085",
+ "in_tok": 212,
+ "out_tok": 151,
+ "usd": 0.000231,
+ "utc": "2026-10-11T20:45:20.397140+00:00"
+}

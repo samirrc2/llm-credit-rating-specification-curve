@@ -1,0 +1,76 @@
+{
+ "_meta": {
+  "n_specs": 32,
+  "axes": [
+   "A1_provider",
+   "A2_version",
+   "A3_temperature",
+   "A4_paraphrase",
+   "A5_format",
+   "A6_fewshot",
+   "A7_presentation"
+  ],
+  "coding": "effect (sum-to-zero), as the design was optimised",
+  "n_main_contrasts": 8,
+  "n_omitted_2fi": 27
+ },
+ "alias_sensitivity": {
+  "A1_provider=google": {
+   "l2_norm": 0.7557438574870272,
+   "l1_norm": 2.7191420958928503,
+   "max_abs": 0.395416819028062,
+   "worst_partner": "A2_version=current*A5_format=freetext"
+  },
+  "A2_version=current": {
+   "l2_norm": 1.0436485978534413,
+   "l1_norm": 4.228805806516513,
+   "max_abs": 0.44356403598675664,
+   "worst_partner": "A6_fewshot=0*A7_presentation=L0"
+  },
+  "A3_temperature=0.0": {
+   "l2_norm": 0.6826168572196212,
+   "l1_norm": 2.877227239379696,
+   "max_abs": 0.32211454982146553,
+   "worst_partner": "A2_version=current*A4_paraphrase=P2"
+  },
+  "A4_paraphrase=P1": {
+   "l2_norm": 0.8987603225174582,
+   "l1_norm": 3.29106073881769,
+   "max_abs": 0.5119498384096686,
+   "worst_partner": "A1_provider=google*A2_version=current"
+  },
+  "A4_paraphrase=P2": {
+   "l2_norm": 1.0118390521817882,
+   "l1_norm": 4.17941273832713,
+   "max_abs": 0.5220736594616019,
+   "worst_partner": "A2_version=current*A3_temperature=0.0"
+  },
+  "A5_format=freetext": {
+   "l2_norm": 0.7092890418903753,
+   "l1_norm": 2.6416313866373553,
+   "max_abs": 0.4295857753678576,
+   "worst_partner": "A1_provider=google*A2_version=current"
+  },
+  "A6_fewshot=0": {
+   "l2_norm": 0.9485336426040327,
+   "l1_norm": 3.60816507090885,
+   "max_abs": 0.5231274326189324,
+   "worst_partner": "A2_version=current*A7_presentation=L0"
+  },
+  "A7_presentation=L0": {
+   "l2_norm": 0.8779560862037395,
+   "l1_norm": 3.262077757922384,
+   "max_abs": 0.4838222129505793,
+   "worst_partner": "A2_version=current*A6_fewshot=0"
+  }
+ },
+ "presentation_contrasts": [
+  "A7_presentation=L0"
+ ],
+ "presentation_l2": {
+  "A7_presentation=L0": 0.878
+ },
+ "item_spec_fully_crossed": true,
+ "provider_by_item_identified": true,
+ "reading": "E[beta_hat] = beta + A gamma. A main effect's bias is bounded by ||a_j||_2 * ||gamma||_2 (Cauchy-Schwarz), so no finite bound exists without an external constraint on the omitted interaction vector gamma; the design alone does not supply one. The provider-by-item interaction is in a different position: items are fully crossed with specifications, so it is orthogonal to the specification-axis contrasts and is identified without assumption."
+}

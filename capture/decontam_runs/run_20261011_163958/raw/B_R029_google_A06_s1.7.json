@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R029",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits an exceptionally strong balance sheet characterized by extremely minimal total liabilities ($19M) relative to total assets ($20,057M) and equity ($5,681M), resulting in virtually zero leverage risk and strong liquidity. Furthermore, the company demonstrates significant operating scale and robust profitability with revenues of $14.68B and an EBIT of $1.37B, placing it in the highest tier of creditworthiness.\n\nDECISION: AAA",
+ "prompt_sha256": "2470ef9926be6abcc3d67f5babf831cdd847e2d2432fcbf32a72c524a597926e",
+ "in_tok": 221,
+ "out_tok": 99,
+ "usd": 0.001223,
+ "utc": "2026-10-11T20:48:49.523066+00:00"
+}

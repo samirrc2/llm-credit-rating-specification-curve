@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R022",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits a strong market presence and solid profitability with revenue of $9.11B, an EBIT margin of 14.4%, and an EBIT-to-Total Assets ratio of 10.2%. It maintains a healthy capital structure with an equity ratio of 42.6% (Total Assets of $12.79B against Total Liabilities of $7.34B) and substantial retained earnings of $4.96B, balanced by moderate short-term liquidity (current ratio of 1.14). These solid investment-grade financial metrics support a strong upper-medium grade credit profile.\n\nDECISION: A",
+ "prompt_sha256": "142b984a298758463f4d9638f83ecc6049cef6f7af7d6c96bdc4f84b5dd48039",
+ "in_tok": 223,
+ "out_tok": 136,
+ "usd": 0.001558,
+ "utc": "2026-10-11T20:45:49.805945+00:00"
+}

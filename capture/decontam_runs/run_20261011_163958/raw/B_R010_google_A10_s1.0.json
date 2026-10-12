@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays strong profitability with a net margin of approximately 19% (Net Income $403M on Revenue $2,106M) and a solid retained earnings base; however, its financial leverage is elevated, as evidenced by an asset-to-equity ratio of over 6.5x and total liabilities representing nearly 80% of total assets ($17,381M against $21,779M in assets). This asset-heavy balance sheet relative to revenue, combined with substantial leverage, is characteristic of a solid investment-grade financial or capital-intensive corporate entity, balancing high earnings quality against moderate balance sheet risk.\n\nDECISION: BBB+",
+ "prompt_sha256": "73e694a1e9f8a3d1e1ff52ca92a3571f1f148dc620cf1a021dcf09d30fa6cb09",
+ "in_tok": 200,
+ "out_tok": 144,
+ "usd": 0.001596,
+ "utc": "2026-10-11T20:48:11.246841+00:00"
+}

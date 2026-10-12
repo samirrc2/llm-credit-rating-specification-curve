@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R029",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A+\", \"confidence\": 3, \"rationale\": \"Strong profitability, high equity base, and robust interest coverage offsets high current liabilities relative to reported total debt.\"}\n```",
+ "prompt_sha256": "81344775a453adcc1a0d12bdbc80070d2606a24b48437b894f9c19f360f46bbf",
+ "in_tok": 273,
+ "out_tok": 44,
+ "usd": 0.000806,
+ "utc": "2026-10-11T20:46:18.892896+00:00"
+}

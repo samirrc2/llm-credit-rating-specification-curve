@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R009",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows solid operating profitability (EBIT of 2,672M on 8,055M revenue, ~33%) and substantial equity capitalization (shareholders\u2019 equity 12,330M). However, liquidity is weak with current assets below current liabilities (current ratio ~0.79), and overall leverage is moderate (total liabilities 13,189M vs. equity 12,330M). This combination points to a lower investment-grade profile.\n\nDECISION: BBB-",
+ "prompt_sha256": "96c4d0f6e7c588e1e3b1a0842e762dcb6b87c0ddc16e7d38f23d1bde99703736",
+ "in_tok": 243,
+ "out_tok": 256,
+ "usd": 0.000369,
+ "utc": "2026-10-11T20:45:11.671666+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R019",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows clear operating stress with negative EBIT and net income, indicating ongoing profitability shortfalls. Leverage is very high (total liabilities of 20,101M versus assets of 20,808M, leaving thin equity of only 706M), which heightens balance-sheet vulnerability despite a moderately supportive current ratio (~1.78).\n\nDECISION: B+",
+ "prompt_sha256": "ce987122758f71b337d3d72da42e46208041c3b0cfe3459746d25eb18ccbe193",
+ "in_tok": 239,
+ "out_tok": 299,
+ "usd": 0.000422,
+ "utc": "2026-10-11T20:45:41.765270+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows negative net income and operating income (net loss of 76M and EBIT loss of 26M), indicating currently weak profitability. Balance sheet liquidity is only modest (current ratio \u2248 1.21) but leverage appears moderate (liabilities \u2248 58% of assets) and equity coverage is solid. Overall, the earnings weakness drives the credit rating into the sub-investment-grade range.\n\nDECISION: BB-",
+ "prompt_sha256": "5e7991d21efe6ab872606ab55454e5c7ebafefdd739e3c74ddd8d3335ec99257",
+ "in_tok": 230,
+ "out_tok": 245,
+ "usd": 0.000352,
+ "utc": "2026-10-11T20:44:59.988452+00:00"
+}

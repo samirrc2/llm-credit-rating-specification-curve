@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R004",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Solid profitability, strong current ratio (2.19), and moderate leverage offset by negative retained earnings.\"}",
+ "prompt_sha256": "58c90b56231d79de8c91ca99e8f129148870f0fbc9e6ac2486bfc402f8855cb3",
+ "in_tok": 258,
+ "out_tok": 39,
+ "usd": 0.000738,
+ "utc": "2026-10-11T20:47:55.222960+00:00"
+}

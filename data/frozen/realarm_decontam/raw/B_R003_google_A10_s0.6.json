@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R003",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid profitability with an EBIT margin of ~21.8% and a modest return on equity (~7.7%), but it carries a highly leveraged balance sheet with a total debt-to-assets ratio of ~76% and a weak liquidity profile evidenced by a current ratio of 0.72x. Altman Z-score analysis yields a score of approximately 1.15, placing the company in the \"distress\" zone and indicating a speculative-grade credit profile with non-negligible default risk.\n\nDECISION: B+",
+ "prompt_sha256": "e0a206f8a4d919c9e00bed0ec0d60c7d06a5a771aa0f0d1173313b16a1b1ec64",
+ "in_tok": 217,
+ "out_tok": 116,
+ "usd": 0.00137,
+ "utc": "2026-10-11T20:47:52.638040+00:00"
+}

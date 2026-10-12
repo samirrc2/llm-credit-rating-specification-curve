@@ -1,0 +1,16 @@
+{
+ "experiment": "A1",
+ "item_id": "R026",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "GUESS: Krongene / Kroger (KR)",
+ "prompt_sha256": "e207fda7a1f1a17e60c601bd690ec232bb8f9e5cd40196ef4c136943920a2cd6",
+ "in_tok": 235,
+ "out_tok": 11,
+ "usd": 0.000451,
+ "utc": "2026-10-11T20:47:44.043223+00:00"
+}

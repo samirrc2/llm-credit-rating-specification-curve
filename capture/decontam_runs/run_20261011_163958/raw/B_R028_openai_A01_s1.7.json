@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R028",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A01",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BBB\",\"confidence\":3,\"rationale\":\"Moderate profitability (EBIT margin ~8.7%), solid equity buffer (38%), but leverage remains meaningful (liabilities/assets ~62%) and liquidity is only adequate (1.28x).\"}",
+ "prompt_sha256": "204b3fe8ba8271fc0fa14ce56d20f7e9e301f330137192e198467e4b2b13f60a",
+ "in_tok": 220,
+ "out_tok": 159,
+ "usd": 0.000243,
+ "utc": "2026-10-11T20:46:13.387927+00:00"
+}

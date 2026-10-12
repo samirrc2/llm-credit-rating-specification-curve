@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R031",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 2,
+ "ok": true,
+ "raw_response": "ANSWER: BLACK HILLS CORP /SD/",
+ "prompt_sha256": "b7bd931d9d21f67f3b65f907ed4672a720007ef1572c4572f8c706829af798eb",
+ "in_tok": 546,
+ "out_tok": 752,
+ "usd": 0.001049,
+ "utc": "2026-10-11T20:44:43.319832+00:00"
+}

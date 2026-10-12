@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R025",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows moderate liquidity (current ratio \u2248 1.32) and positive profitability (net income of 142M; EBIT of 264M), but it has high leverage (total liabilities 8.218B vs. equity 1.804B; liabilities/equity \u2248 4.6) and a negative retained earnings balance (-748M), indicating some balance-sheet strain. Overall credit quality appears more speculative than investment grade, but not clearly distressed based on current profitability.\n\nDECISION: BB-",
+ "prompt_sha256": "541c5fa1c3d18fddec82041ce5112290e016906f8909b6a148063a567145195b",
+ "in_tok": 235,
+ "out_tok": 237,
+ "usd": 0.000343,
+ "utc": "2026-10-11T20:46:00.594494+00:00"
+}

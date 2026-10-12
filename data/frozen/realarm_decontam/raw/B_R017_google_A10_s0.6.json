@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R017",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability (EBIT margin of ~23.3%) and a healthy short-term liquidity profile with a current ratio of 1.35x. However, the balance sheet reflects moderate leverage with a total liabilities-to-assets ratio of ~64.8% and total liabilities-to-equity of ~1.84x, which tempers the credit profile into the investment-grade BBB tier. Overall, the solid earnings generation relative to its asset base and manageable debt load support an upper-tier BBB rating.\n\nDECISION: BBB+",
+ "prompt_sha256": "1e76ef30bb41598f0f37e3bb20e9ad1e9f970de625b260b8fe386f71b94ddfe3",
+ "in_tok": 220,
+ "out_tok": 118,
+ "usd": 0.001392,
+ "utc": "2026-10-11T20:48:28.008867+00:00"
+}

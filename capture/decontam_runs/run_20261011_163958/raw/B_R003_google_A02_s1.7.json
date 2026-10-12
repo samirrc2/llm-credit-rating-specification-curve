@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R003",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays solid profitability with revenue of $2,052M and an EBIT margin of 21.8%, along with a substantial equity base of $2,348M. However, its financial profile is constrained by elevated leverage (Total Liabilities / Total Assets of 76.1%) and a weak liquidity profile as evidenced by a current ratio of 0.72x. These factors balance out to a solid investment-grade credit profile.\n\nDECISION: BBB",
+ "prompt_sha256": "a21adf2cfd35157d47b47af678f86ea197cafcd3d1ba47d9343c4508ef6df16b",
+ "in_tok": 223,
+ "out_tok": 101,
+ "usd": 0.001244,
+ "utc": "2026-10-11T20:47:53.620677+00:00"
+}

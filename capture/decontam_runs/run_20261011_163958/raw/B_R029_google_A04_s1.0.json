@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R029",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 3, \"rationale\": \"Strong asset base and profitability with solid equity and earnings, though total liabilities figure presents reporting inconsistencies.\"}\n```",
+ "prompt_sha256": "8c038cf69279e0a2afeadd413de7da85adb5f5204d1dfd85ae47ffc93d5b397f",
+ "in_tok": 269,
+ "out_tok": 42,
+ "usd": 0.000781,
+ "utc": "2026-10-11T20:46:16.113624+00:00"
+}

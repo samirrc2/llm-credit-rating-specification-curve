@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R014",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 1,
+ "ok": true,
+ "raw_response": "ANSWER: BAXTER INTERNATIONAL INC",
+ "prompt_sha256": "e75ab4a562a7d764b3abb1d21ada56369868219eb84bb137833e7f8b83fd9c52",
+ "in_tok": 546,
+ "out_tok": 856,
+ "usd": 0.001179,
+ "utc": "2026-10-11T20:44:18.568618+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R029",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows strong balance-sheet resilience with shareholders\u2019 equity of 2,005M against total liabilities of only 7M, implying very low leverage overall. Liquidity is more moderate (current ratio \u2248 1.30), while profitability is solid but not exceptional (EBIT margin \u2248 9% and net margin \u2248 5%).  \n\nDECISION: A-",
+ "prompt_sha256": "20753becef74ca9b49b2c9dde1964e2719f185fe7507f86b860afa5c2d65b3c3",
+ "in_tok": 235,
+ "out_tok": 308,
+ "usd": 0.000432,
+ "utc": "2026-10-11T20:46:16.831133+00:00"
+}

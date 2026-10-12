@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows solid near-term liquidity (current ratio \u2248 2.3x) but remains highly leveraged (total liabilities \u2248 70% of total assets) with no buffer from profitability, as both EBIT and net income are negative. Sustained operating losses increase the risk of continued credit pressure and limit internal capital generation, supporting a speculative-grade rating.  \n\nDECISION: BB-",
+ "prompt_sha256": "9ed340e44c2d67dc4bb1cd894655bb234ea1105a81a5a5e2a3ffe0a4e1983ea0",
+ "in_tok": 241,
+ "out_tok": 245,
+ "usd": 0.000354,
+ "utc": "2026-10-11T20:45:17.279322+00:00"
+}

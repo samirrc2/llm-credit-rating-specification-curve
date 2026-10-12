@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R008",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 1,
+ "ok": true,
+ "raw_response": "ANSWER: Ultra Clean Holdings, Inc.",
+ "prompt_sha256": "69c7b0da4dd6c85694e9dc99fe7c4644fbacd80fe2c7294845dbe71ac3d654c0",
+ "in_tok": 546,
+ "out_tok": 980,
+ "usd": 0.001334,
+ "utc": "2026-10-11T20:43:37.474473+00:00"
+}

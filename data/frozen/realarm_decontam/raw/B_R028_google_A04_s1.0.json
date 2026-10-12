@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R028",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Solid profitability and sound leverage ratios (Equity/Assets ~38%), balanced by moderate debt levels and limited operating margin coverage.\"}\n```",
+ "prompt_sha256": "571b1f47ec7f884f32c5f815fee509253c0dc28cefdbc3531b1254e364af6deb",
+ "in_tok": 272,
+ "out_tok": 48,
+ "usd": 0.00084,
+ "utc": "2026-10-11T20:46:11.939531+00:00"
+}

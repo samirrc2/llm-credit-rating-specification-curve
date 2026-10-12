@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R019",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays severe financial distress, evidenced by negative EBIT (-$780M) and net income (-$1,088M), alongside an extremely high leverage profile with total liabilities of $20,101M against a thin equity base of $706M. While the company maintains scale and liquidity to meet short-term obligations, its current burn rate and thin capital buffer place it at high risk of restructuring or default in the medium term. Consequently, these credit metrics align with a highly speculative, single-B rating.\n\nDECISION: B-",
+ "prompt_sha256": "bff52f11b462acc3c04f95d19bd7eb1d848df98ac9a93d7a404705eb161b4805",
+ "in_tok": 230,
+ "out_tok": 118,
+ "usd": 0.001407,
+ "utc": "2026-10-11T20:48:34.388068+00:00"
+}

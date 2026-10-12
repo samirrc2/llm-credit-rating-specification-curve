@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R031",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"High leverage (71% total debt/assets) and low current ratio (0.55) are offset by solid equity, positive EBIT, and net profitability.\"}",
+ "prompt_sha256": "eaf9af1236f4aac0dab864a204c2bf612c9bb58c2c6371eb1db4ff3e9e9238c8",
+ "in_tok": 258,
+ "out_tok": 53,
+ "usd": 0.000864,
+ "utc": "2026-10-11T20:46:25.675201+00:00"
+}

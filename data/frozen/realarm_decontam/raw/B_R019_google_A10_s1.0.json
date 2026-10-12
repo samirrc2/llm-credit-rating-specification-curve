@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R019",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays severe financial distress, evidenced by negative operating profitability (EBIT of -$459M) and substantial net losses (-$640M), alongside an extremely high leverage profile with total liabilities ($11,824M) making up over 96% of total assets ($12,240M) and eroding equity to just $415M. While current assets provide short-term liquidity cover against current liabilities, the unsustainable capital structure and ongoing cash burn create a significant risk of default or restructuring in the near to medium term.\n\nDECISION: CCC+",
+ "prompt_sha256": "a694146107d00c8a4d1724efc4a12e956d75e827453b8e19b26f0baa1736d258",
+ "in_tok": 229,
+ "out_tok": 123,
+ "usd": 0.001451,
+ "utc": "2026-10-11T20:48:35.991886+00:00"
+}

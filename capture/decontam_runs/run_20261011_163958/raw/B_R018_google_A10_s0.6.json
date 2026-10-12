@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R018",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates solid top-line revenue ($11.3B) and profitable operations ($938M EBIT), but exhibits notable credit weaknesses including negative retained earnings (-$239M), moderate leverage (liabilities-to-assets of ~61.6%), and a modest current ratio (~1.44x). Net income exceeding EBIT indicates significant non-operating gains or tax benefits, masking an otherwise mid-single-digit operating margin (~8.3%) that aligns with a lower-tier investment-grade profile.\n\nDECISION: BBB-",
+ "prompt_sha256": "c529383a5b0b57cd4b0da7a2746a28554b1d2cec155c9abe4be00e619e9668a8",
+ "in_tok": 230,
+ "out_tok": 116,
+ "usd": 0.001389,
+ "utc": "2026-10-11T20:48:30.839161+00:00"
+}

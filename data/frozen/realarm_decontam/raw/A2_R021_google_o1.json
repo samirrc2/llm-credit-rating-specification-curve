@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R021",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 1,
+ "ok": true,
+ "raw_response": "ANSWER: VALMONT INDUSTRIES INC",
+ "prompt_sha256": "5a7c9bc12b468d20cc268de68c19e751cea10c377f377b066f290bc2b7836cdd",
+ "in_tok": 547,
+ "out_tok": 6,
+ "usd": 0.000874,
+ "utc": "2026-10-11T20:47:40.611997+00:00"
+}

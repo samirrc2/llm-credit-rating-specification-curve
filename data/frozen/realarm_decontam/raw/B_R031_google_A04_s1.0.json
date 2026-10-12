@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R031",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"High total leverage relative to equity and revenue, weak current liquidity, and low net profit margins constrain the issuer to sub-investment grade.\"}\n```",
+ "prompt_sha256": "0801e9c092176ac0f80b5dd03fbe9cf512d5e49ce2e542e5e0663fb3e69c4ee5",
+ "in_tok": 265,
+ "out_tok": 51,
+ "usd": 0.000856,
+ "utc": "2026-10-11T20:48:50.031410+00:00"
+}

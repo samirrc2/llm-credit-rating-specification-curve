@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R030",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows solid operating profitability (EBIT of 741M on 3,660M revenue \u2248 20%), but liquidity is weak with current assets (1,146M) below current liabilities (1,584M), implying tighter near-term funding. Leverage is also meaningful (total liabilities 12,668M vs. equity 6,559M), which increases financial risk despite decent profitability.  \n\nDECISION: BB+",
+ "prompt_sha256": "6b2e67f6d86c8e168a00515e10fc7b26ffcb7cfcafa5ce34f5058fd7a044d375",
+ "in_tok": 239,
+ "out_tok": 254,
+ "usd": 0.000365,
+ "utc": "2026-10-11T20:46:24.040294+00:00"
+}

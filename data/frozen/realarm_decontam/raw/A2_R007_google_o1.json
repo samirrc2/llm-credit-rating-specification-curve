@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R007",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 1,
+ "ok": true,
+ "raw_response": "ANSWER: GRAHAM HOLDINGS CO",
+ "prompt_sha256": "5e3b0bea4196a84939914c2d4f4d70581a3286b5e8dd356352cdae97a9ddecca",
+ "in_tok": 549,
+ "out_tok": 7,
+ "usd": 0.000887,
+ "utc": "2026-10-11T20:47:32.958596+00:00"
+}

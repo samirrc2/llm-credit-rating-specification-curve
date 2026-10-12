@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R031",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Leverage is very high (total liabilities of 7,240M versus total assets of 10,153M; liabilities/equity \u2248 2.5x), which constrains balance-sheet resilience. While operating performance appears solid (EBIT margin \u2248 20%), profitability to the bottom line is thin (net margin \u2248 3.7%) and liquidity is weak (current ratio \u2248 0.55), together supporting a lower investment-grade boundary rating.  \n\nDECISION: BB-",
+ "prompt_sha256": "952be782ce0ab30453b485627ee12426d388b895cd533302936bcf337d16ca50",
+ "in_tok": 233,
+ "out_tok": 278,
+ "usd": 0.000394,
+ "utc": "2026-10-11T20:46:26.870234+00:00"
+}

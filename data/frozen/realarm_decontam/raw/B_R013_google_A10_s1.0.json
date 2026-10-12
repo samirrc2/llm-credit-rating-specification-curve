@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company is severely distressed, as evidenced by a negative net income (-$23M), negative retained earnings (-$1,065M), and negative shareholders' equity (-$496M) indicating technical insolvency and cumulative balance sheet erosion. Furthermore, operational profitability is extremely thin relative to its revenue base (EBIT margin of ~2.6%), leaving virtually no cushion to service its heavy liability load of $2,149M. Consequently, the issuer faces substantial credit risk and a high likelihood of default or restructuring without significant external intervention.\n\nDECISION: CCC",
+ "prompt_sha256": "a0cc68387aee151a794bc262360b7381ab04bf33ac0cf0f43de563a7facaa85b",
+ "in_tok": 220,
+ "out_tok": 119,
+ "usd": 0.001401,
+ "utc": "2026-10-11T20:48:19.189967+00:00"
+}

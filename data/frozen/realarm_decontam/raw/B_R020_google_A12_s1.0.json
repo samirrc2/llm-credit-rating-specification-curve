@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R020",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Moderate leverage (D/E ~2.1x), positive profitability (EBIT margin ~18%), but negative working capital indicates slight short-term liquidity pressure.\"}\n```",
+ "prompt_sha256": "f51261c9a796ffab0fe884d539cde6817ddf93b4d5aff7c83c41a6747b4e7526",
+ "in_tok": 273,
+ "out_tok": 57,
+ "usd": 0.000923,
+ "utc": "2026-10-11T20:48:36.715528+00:00"
+}

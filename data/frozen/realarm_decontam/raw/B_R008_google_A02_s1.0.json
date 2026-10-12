@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R008",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong profitability with an EBIT margin of approximately 26.6% and a healthy return on assets of nearly 7%. Balance sheet strength is solid, reflected in a current ratio of 2.27x, moderate leverage (Total Liabilities / Total Assets of 53%), and a robust equity base backed by significant retained earnings. These financial metrics indicate a low credit risk profile consistent with an upper-medium investment grade rating.\n\nDECISION: A",
+ "prompt_sha256": "66892d0c8a39701ada77ba1b297710ced10b18d2cf4051ed4c5dd6ac60ee339f",
+ "in_tok": 223,
+ "out_tok": 95,
+ "usd": 0.00119,
+ "utc": "2026-10-11T20:48:05.157099+00:00"
+}

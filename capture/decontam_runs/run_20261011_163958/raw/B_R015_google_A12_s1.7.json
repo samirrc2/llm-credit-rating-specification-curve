@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R015",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Strong solvency and liquidity metrics are severely undercut by a negative EBIT of -$1,680M, signaling high operational risk.\"}\n```",
+ "prompt_sha256": "4bf7c5662eec7fb40c2978b363f9d02d29a480f9be2dc98cc018fba82dadaf9c",
+ "in_tok": 274,
+ "out_tok": 49,
+ "usd": 0.000852,
+ "utc": "2026-10-11T20:48:24.928932+00:00"
+}

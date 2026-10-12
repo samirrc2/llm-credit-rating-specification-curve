@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R012",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 4, \"rationale\": \"Strong profitability, excellent liquidity, and low leverage relative to revenue and asset base support an investment-grade rating.\"}\n```",
+ "prompt_sha256": "f59642b24bace78db166455fda2cc79c791c6a8f761122d6b7ca94245a7ca163",
+ "in_tok": 272,
+ "out_tok": 46,
+ "usd": 0.000822,
+ "utc": "2026-10-11T20:48:17.522473+00:00"
+}

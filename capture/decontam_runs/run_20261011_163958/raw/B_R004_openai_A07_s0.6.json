@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R004",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows good short-term liquidity (current assets/current liabilities \u2248 2.2) and solid profitability (EBIT margin \u2248 17% and positive net income of 248M). However, retained earnings are deeply negative (-652M), indicating accumulated losses, which limits confidence despite a moderate equity buffer (equity/assets \u2248 33%).  \nDECISION: BB+",
+ "prompt_sha256": "8d9592b6b2fe31f456ab3740df940709fcdc37b38959f2a9459a9b3b2575b498",
+ "in_tok": 224,
+ "out_tok": 213,
+ "usd": 0.000311,
+ "utc": "2026-10-11T20:44:53.171294+00:00"
+}

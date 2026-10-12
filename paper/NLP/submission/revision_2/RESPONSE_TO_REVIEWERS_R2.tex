@@ -1,0 +1,418 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\PassOptionsToPackage{hyphens}{url}
+\usepackage{url}
+\makeatletter
+\g@addto@macro\UrlBreaks{\do\/\do\_\do\.\do\-}
+\makeatother
+\Urlmuskip=0mu plus 1mu\relax
+\usepackage[dvipsnames]{xcolor}
+\definecolor{ReviewerGreen}{HTML}{008000}
+\newcommand{\rvcomment}[1]{{\color{ReviewerGreen}#1}}
+\newcommand{\concern}[1]{\textbf{\color{ReviewerGreen}#1}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setlist[itemize,1]{leftmargin=1.6em,labelsep=0.6em,itemsep=3pt,topsep=3pt,parsep=0pt,
+                    label=\raisebox{-0.15ex}{\large\textbullet}}
+\setlist[itemize,2]{leftmargin=1.4em,labelsep=0.5em,itemsep=2pt,topsep=3pt,parsep=0pt,
+                    label=\textendash}
+\pagestyle{plain}
+\begin{document}
+
+\concern{Reviewer \#2, Concern \#1}
+
+\concern{Reviewer comment:}
+
+\rvcomment{1. Please formalize the ``near-boundary'' component of the operational review rule in
+Section 4 and Algorithm 1. The function $g$ maps a letter rating to a decision class, such as
+IG/HY, and $\hat r$ is subsequently defined as the modal decision class. It is therefore unclear how
+the condition $\hat r \in B$ identifies a rating ``near'' the IG/HY boundary.}
+
+\textbf{Author response:}
+
+\begin{itemize}
+\item We agree that the original rule did not formally represent proximity to the IG/HY boundary. Because
+$g(r)$ maps a letter rating to a decision class, the modal class $\hat r$ can only be IG or HY and
+therefore cannot encode distance from the boundary. We have corrected the rule so that boundary
+proximity is defined using the modal letter rating and its notch distance from the BBB$-$/BB$+$
+boundary.
+\end{itemize}
+
+\textbf{Author action:}
+
+\begin{itemize}
+\item Algorithm 1 now defines boundary proximity from the modal letter rating using the half-step boundary $b=\{\mathrm{rank}_L(\mathrm{BBB}-)+\mathrm{rank}_L(\mathrm{BB}+)\}/2$. The operational referral rule is stated separately on the dissent count, $d\ge c_{\mathrm{ref}}$. Because instability is not confined to the boundary region, proximity is returned as a priority indicator rather than a mandatory referral condition. Requiring both dissent and $w=1$ proximity would refer 13.3\% of profiles with recall 0.176.
+\item The earlier ``roughly halves to about 33\%'' statement has been removed; on the held-out split, referring on any disagreement ($c_{\mathrm{ref}}=1$) covers 88.9\% of profiles.
+\item We have removed the earlier statement that $w=1$ reproduces the WATCH stratum. WATCH is the Altman $Z''$ stratum spanning BB$+$ through B$-$, a different construct, whereas the rule measures distance from the BBB$-$/BB$+$ cut. The manuscript now calls this an operational near-boundary band, and the stale Section~3.5 cross-reference has been deleted.
+\end{itemize}
+
+\vspace{4pt}
+
+\concern{Reviewer \#2, Concern \#2}
+
+\concern{Reviewer comment:}
+
+\rvcomment{2. Please clarify the sampling convention underlying the reported matched-pair flip
+probabilities. The Methods and the captions of Figures 2--4 should state whether two draws may
+select the same elicitation cell and whether the pair may differ in specification, seed, or both.
+This clarification would make the 25.2\% result and the self-consistency analysis fully
+reproducible.}
+
+\textbf{Author response:}
+
+\begin{itemize}
+\item We agree that the sampling convention should have been stated explicitly. The reported flip
+probability,
+\[
+1-\sum_c p_c^2,
+\]
+is the probability that two independent draws with replacement from the same firm's observed
+elicitation distribution fall in different classes. The firm profile is always held fixed. The two draws may differ in
+specification, in seed, or in both. Identical-cell draws are permitted and count as agreement.
+\item A complete credit-health profile contributes $32\times3=96$ elicitations, though four profiles are short one seed and contribute $95$, so we no longer write $n=96$ universally. Using draws without replacement, evaluated at each profile's own $n_i$ rather than with a blanket $96/95$, changes the pooled estimate only from $25.2\%$ to 25.45\%.
+\item We also label the $25.2\%$ explicitly as total elicitation instability, since the two draws may differ in specification, in seed, or in both, and report two complementary conditional measures, which are not additive: 24.3\% after collapsing repeated seeds within specification and 6.9\% when varying seed within an identical profile$\times$specification cell. The four two-observation cells are unanimous, so the modal tie rule does not bind. The headline figure is not attributed to specification choices alone.
+\end{itemize}
+
+\textbf{Author action:}
+
+\begin{itemize}
+\item We added the full sampling convention to Section 6.3 and to the caption of Figure 2, covering replacement, same-cell treatment, the permitted sources of variation, and the fixed-firm condition.
+\item We removed it from Figure 3, which reports Fleiss $\kappa$ and is not computed from sampled pairs, and Figure 4's caption now states the procedure actually used: $p$ is the profile's empirical investment-grade share, the $k$ votes are modelled as independent Bernoulli$(p)$ draws so $q$ follows in closed form from the binomial, ties at even $k$ are resolved to either class with probability one half, and the plotted residual is the mean of $2q(1-q)$.
+\item Section 3.5 now reports the overall 25.2\% elicitation-disagreement rate together with these two complementary conditional measures.
+\end{itemize}
+
+\vspace{4pt}
+
+\concern{Reviewer \#2, Concern \#3}
+
+\concern{Reviewer comment:}
+
+\rvcomment{3. Please harmonize the description of the analytical sample near the beginning of the
+paper. The abstract reports 45 credit-health profiles, 32 specifications, and three seeds, giving
+4,320 credit-rating elicitations, whereas the Introduction describes a 90-item battery and 8,640
+elicitations. Although Section 6.1 explains that the additional 45 directional items are not
+analyzed in this paper, this distinction should be stated at the first mention of the 8,640-cell
+experiment to avoid the impression of inconsistent sample sizes.}
+
+\textbf{Author response:}
+
+\begin{itemize}
+\item We agree that the analytical and full-battery sample counts should be reconciled at their first
+appearance. The full battery contains two families of 45 profiles. This paper analyses the 45
+credit-health profiles, corresponding to $45\times32\times3=4{,}320$ designed elicitation cells, of
+which $4{,}316$ returned substantive content. The additional 45 directional profiles use the same
+specification grid, are included in the archive, and are not analysed in this paper.
+\end{itemize}
+
+\textbf{Author action:}
+
+\begin{itemize}
+\item The Introduction now makes this distinction at the first mention of the full experiment, and the manuscript consistently distinguishes designed from realized sample sizes.
+\item The Methods note that four of the seven non-substantive cells occur in the credit-health arm. These cells were not re-collected, because the corpus had already been frozen.
+\end{itemize}
+
+\vspace{4pt}
+
+\concern{Reviewer \#2, Concern \#4}
+
+\concern{Reviewer comment:}
+
+\rvcomment{4. In Table 4 and Section 3.6, the statement that approximately 33\% agreement is
+``expected by chance'' requires qualification. If this is a uniform three-class reference value,
+please label it as such. If it is intended as a chance-corrected baseline based on the observed
+class marginals, the corresponding calculation should be provided.}
+
+\textbf{Author response:}
+
+\begin{itemize}
+\item We agree that the uniform $33.3\%$ reference is not the appropriate chance benchmark for the
+observed class distributions. Using the empirical machine and agency marginals, expected agreement
+is $48.9\%$, compared with observed agreement of $53.7\%$. The excess agreement is therefore $4.9$
+percentage points (issuer-clustered $95\%$ CI $-7.9$ to $17.1$), with Cohen's $\kappa=0.095$.
+\item Accordingly, the real-issuer arm does not provide evidence that machine--agency agreement exceeds
+the marginal-matching chance benchmark. This correction does not affect the separate within-issuer
+specification contrast reported for this arm.
+\end{itemize}
+
+\textbf{Author action:}
+
+\begin{itemize}
+\item Section 3.6 and Table 4 now report observed agreement, marginal-matching expected agreement, the excess with its confidence interval, and Cohen's $\kappa$.
+\item The manuscript no longer interprets machine--agency agreement as evidence of rating accuracy.
+\end{itemize}
+
+\vspace{4pt}
+
+\concern{Reviewer \#3, Concern \#1}
+
+\concern{Reviewer comment:}
+
+\rvcomment{the authors have made efforts to address the previous review comments, including
+reframing the contribution as an evaluation-methodology case study, removing the economic
+translations, correcting the permutation test, adding a reasoning-architecture arm, and providing
+held-out-specification validation for the SIS\dots\ however, the revised manuscript still requires
+careful evaluation, and the following points must be considered before it can be further considered
+for publication. this manuscript is a research article, and it is evaluated as such.}
+
+\rvcomment{the per-axis variance decomposition remains non-identified under the
+resolution-limited d-optimal fractional grid, yet the abstract, highlights, and conclusions still
+state that no controllable axis exceeds about 5\% of rating variance. the authors now report
+aliasing diagnostics, including a maximum absolute correlation of 0.333 between a main effect and a
+two-factor interaction of other factors, and they correctly label the decomposition as descriptive.
+however, the headline claim of ``no axis exceeds \textasciitilde5\%'' is still presented as a
+substantive finding rather than as a model-dependent descriptive partition. because main effects can
+be partially aliased with omitted interactions, the per-axis point estimates cannot support even a
+descriptive ranking of axes without explicit bounds or a design that separates them. the added
+R\textsuperscript{2} range of 0.083 to 0.119 across model specifications does not identify individual
+axes; it only shows that the elicitation axes jointly explain little variance under the assumed
+models. this remains important because the paper's central interpretation---that instability is
+spread across elicitation choices rather than concentrated in a tunable knob---depends in part on
+this decomposition.}
+
+\rvcomment{required action: either remove all per-axis numeric claims from the abstract, highlights,
+and conclusions, or conduct a fully crossed or resolution-v sub-experiment on a reduced set of
+factors and items that can cleanly estimate main effects and relevant two-way interactions. if a new
+experiment is not feasible, provide formal bounds on each per-axis variance share under all aliasing
+structures consistent with the observed design matrix, or fit a bayesian hierarchical model with
+explicit shrinkage priors on interaction terms and report posterior intervals for the main effects.
+the abstract and highlights should then state only what is identified: that the elicitation axes
+jointly explain a small and model-dependent share of variance, not that any specific axis is bounded
+by \textasciitilde5\%.}
+
+\textbf{Author response:}
+
+\begin{itemize}
+\item We agree that the fractional design does not identify individual elicitation-axis variance shares
+once two-way interactions are allowed. We have therefore removed the per-axis interpretation rather
+than attempting to rank individual axes. Formally, if $Z$ denotes the omitted interaction contrasts,
+\[
+\mathbb{E}[\hat{\beta}]=\beta+A\gamma,\qquad A=(X'X)^{-1}X'Z,
+\]
+so that $|a_j'\gamma|\leq\lVert a_j\rVert_2\lVert\gamma\rVert_2$. Because the design imposes no
+finite restriction on $\lVert\gamma\rVert_2$, no finite design-only bound exists for an individual
+main effect. For answer presentation $\lVert a_j\rVert_2=0.878$, so the former ${\sim}4.6\%$
+estimate cannot support an identified per-axis interpretation.
+\item We also recomputed the aliasing diagnostics on the 32-specification design actually used in the
+variance decomposition. The maximum main-effect--interaction correlation is $0.504$, and
+canonical-correlation analysis shows substantial overlap between the main-effect and interaction
+subspaces, with the largest canonical correlation at $1.000$ and six of eight above $0.9$. As a
+quality-control check, we re-audited all design-dependent diagnostics and variance-decomposition
+inputs on the analysed 32-specification arm, and no other design-dependent diagnostic or variance-decomposition result changed. The
+paper therefore no longer makes any claim about how instability is distributed across individual
+elicitation axes. The retained result is only that, under the fitted models, the elicitation axes
+jointly account for $R^2=0.083$--$0.119$ of observed variation. The model-free disagreement
+results are unaffected by this decomposition.
+\item The provider$\times$item term is different because items are crossed with specifications. All
+$45\times32=1{,}440$ item--specification cells are represented, with $1{,}436$ containing all three
+seeds and four containing two. The resulting imbalance is numerically negligible, because the
+largest realized correlation with a specification-axis contrast is only $0.0022$. We therefore describe the
+provider$\times$item component as identified up to this small imbalance.
+\end{itemize}
+
+\textbf{Author action:}
+
+\begin{itemize}
+\item We removed the ``no individual axis exceeds ${\sim}5\%$'' statement from the Abstract, Highlights, Results and Discussion.
+\item Section 6.2 now states explicitly what the design does and does not identify, including the aliasing algebra, corrected design diagnostics and canonical-correlation analysis.
+\item Individual-axis estimates have been removed from Table 1.
+\end{itemize}
+
+\vspace{4pt}
+
+\concern{Reviewer \#3, Concern \#2}
+
+\concern{Reviewer comment:}
+
+\rvcomment{the real-issuer arm still does not provide strong external validity, and the
+decontamination procedure remains insufficiently validated for the claims made\dots\ the perturbation
+applies a single per-issuer uniform scaling factor to all dollar quantities. this preserves financial
+ratios and Altman Z'' by construction, but it does not prevent an LLM from inferring issuer identity
+from the pattern of ratios, nor does it rule out memorized issuer knowledge that is not based on
+exact figures. the fingerprinting test only measures exact-figure lookup. the authors acknowledge
+this limitation, but the abstract still states that specification variation is observed in ``31
+perturbed and fingerprint-screened real issuers,'' which can be read as external validation. in
+addition, the scale factor is confounded with issuer identity because each issuer receives only one
+draw. the sample of 31 issuers and 12 specifications is also small for any quantitative external
+claim.}
+
+\rvcomment{required action: add a ratio-pattern identification test. for example, train a classifier
+on financial ratios to predict issuer identity from the perturbed profiles, or prompt the LLM to
+infer the issuer from the ratio profile after perturbation, and report the identification rate.
+conduct a within-issuer scale sensitivity design by re-eliciting a subset of issuers at multiple
+scale factors, such as 0.6, 1.0, and 1.7, so that scale is not fully confounded with issuer
+identity. if these checks show residual identification or if the sample remains too small, remove
+the real-issuer claim from the abstract and conclusion and present the arm only as an illustrative
+descriptive limitation. the paper should not imply external validity beyond what the design can
+support.}
+
+\textbf{Author response:}
+
+\begin{itemize}
+\item We agree that uniform scaling alone cannot establish decontamination, because it preserves
+financial ratios and the original design assigned only one scale factor per issuer. We therefore
+performed both additional checks suggested by the reviewer, under a specification fixed and hashed
+before the new model calls.
+\item First, we conducted a within-issuer scale experiment. All 31 issuers were re-elicited at scales
+$0.6$, $1.0$ and $1.7$ on the frozen 12-specification grid, making each issuer its own control. The
+IG/HY class differed between the extreme scales in $15.9\%$ of issuer--specification cells,
+compared with $15.2\%$ under the within-issuer permutation null ($p=0.644$, 10{,}000 permutations).
+We therefore do not detect evidence that absolute scale contributes additional instability beyond
+the re-elicitation variability represented by this null. The experiment uses one realization per
+issuer--specification--scale cell and is therefore not intended to estimate seed-level variance
+separately. Its purpose is narrower, namely to remove the original confounding between issuer
+identity and scale and to test scale labels within matched issuer--specification blocks.
+\item Second, we conducted a ratio-pattern identification experiment. In the open-ended probe, neither
+provider correctly identified an issuer in the 60 substantive completions from 62 attempted calls.
+In the more stringent closed-set probe, however, the correct issuer was selected in $19.4\%$ of
+substantive calls ($95\%$ CI $12.4\%$--$27.4\%$), substantially above the $1/31=3.2\%$ chance
+benchmark ($p=5\times10^{-18}$), and nineteen of the 31 issuers were identified correctly at least
+once. Because the ratio-identification check detects residual identifying
+information, we adopt the conservative branch proposed by the reviewer. The 31-issuer arm is
+retained only as an illustrative descriptive check and is not used as evidence of external
+validity. The closed-set probe should itself be interpreted conservatively, because supplying the
+candidate names creates a stronger identification setting than an open-ended task. Taken together,
+the new checks resolve the design question without upgrading the arm's evidentiary status. We find
+no detectable incremental scale effect under the paired test, but ratio patterns retain enough
+identifying information that ratio-preserving scaling cannot be treated as decontamination.
+\end{itemize}
+
+\textbf{Author action:}
+
+\begin{itemize}
+\item We added Section 3.7 and Table 5 reporting both new experiments.
+\item The Abstract, Section 3.6 and Conclusion now describe the real-issuer arm as illustrative and descriptive, and make no external-validity claim from it.
+\item The pre-registered experimental specification, frozen outputs, manifests and analysis code have been added to the archive.
+\end{itemize}
+
+\vspace{4pt}
+
+\concern{Reviewer \#3, Concern \#3}
+
+\concern{Reviewer comment:}
+
+\rvcomment{the SIS validation is improved, but its incremental value over simple
+disagreement-based baselines and its status as a deployable model-risk control remain unproven\dots\
+at the binary IG/HY gate with a low threshold, the SIS flag reduces to ``any disagreement'' across
+the k elicitations. the reported Youden-optimal threshold of 0.08 is below the smallest non-zero SIS
+value at k=16, so the operating rule is essentially ``flag any issuer with at least one disagreeing
+calibration elicitation.'' this rule is already directly observable from the k elicitations and does
+not require the continuous SIS. the manuscript does not compare SIS against simple baselines such as
+the number of dissenting elicitations, the modal rating's distance to the IG/HY boundary,
+self-consistency vote margins, semantic entropy, or token-level confidence. the threshold is also
+chosen and evaluated on the same held-out split, and cross-model transfer is moderate and
+inconsistent. this matters because the abstract and highlights present the SIS as a ``validated'' and
+``deployable model-risk control.''}
+
+\rvcomment{required action: benchmark SIS against these simple baselines in both
+held-out-specification and held-out-issuer settings. report a decision-curve analysis or net-benefit
+analysis for triage, showing whether SIS improves referral decisions over ``flag any disagreement,''
+over distance to the IG/HY boundary, and over self-consistency vote margins. if SIS does not provide
+incremental value beyond these baselines, reframe it as a descriptive dispersion index rather than a
+deployable control, and remove or substantially qualify the ``validated'' and ``deployable'' language
+in the abstract and highlights. if it does provide incremental value, report the threshold selection
+in a fully nested cross-validation or on an independent calibration set and show how performance
+varies with k and tau.}
+
+\textbf{Author response:}
+
+\begin{itemize}
+\item We agree that the relevant question is whether $\mathrm{SIS}$ provides information beyond simpler
+measures of disagreement, and we therefore benchmarked it directly. As requested, we evaluated
+these comparisons in both the held-out-specification setting and a profile-split subsampling analysis, reported
+separately in Table 8. The same conclusion holds in both, namely that $\mathrm{SIS}$ provides no
+incremental ranking information over the corresponding dissent count at the binary IG/HY gate. In
+a profile-split subsampling analysis, which splits the 45 credit-health profiles at random into
+halves over 300 draws and scores only the held-out half, the mean AUC is 0.936 at the gate and 0.950 at three bands, and the
+index-minus-dissent-count difference is exactly zero on every split. At the binary IG/HY
+resolution,
+if $m$ of $k$ elicitations belong to the minority class,
+\[
+\mathrm{SIS}=2(m/k)(1-m/k),
+\]
+which is strictly increasing in $m$ for $m<k/2$. $\mathrm{SIS}$, dissent count and vote margin are
+therefore rank-equivalent at the binary gate, and the empirical results confirm this exactly.
+Each yields AUC $0.936$, the bootstrap AUC difference is $0.000$, the Spearman correlation is
+$1.000$, and their net-benefit curves coincide. At three bands the measures are not rank-identical, with a Spearman correlation of $0.971$ between the index and the dissent count, yet they yield the same AUC in the present specification-split and profile-split analyses. The operational rule is therefore stated directly on the dissent count, $d\ge c_{\mathrm{ref}}$, with the threshold chosen according to referral cost and capacity. On the held-out split, $c_{\mathrm{ref}}=3$ yields precision 1.000 and recall 0.882 and dominates the $c_{\mathrm{ref}}=1$ ``any disagreement'' rule when review is sufficiently costly. The former Youden-selected $\tau=0.08$ is retained nowhere in the operating recommendation; for the record it equals $d\ge3$ at the held-out $k=48$ and would collapse to $c_{\mathrm{ref}}=1$ at $k=16$.
+\item In preparing this response, we identified and corrected a numerical inconsistency. Section 4.2 previously reported precision $1.00$ and recall $0.88$ for ``any disagreement,'' which cannot hold alongside a net benefit that varies with the threshold probability. Both are now generated from one calculation. Referring on any disagreement gives $\mathrm{TP}=33$, $\mathrm{FP}=7$, precision $0.825$ and recall $0.971$, whereas the $1.00$/$0.88$ pair belongs to $\tau=0.08$ on the same split, which gives $\mathrm{TP}=30$, $\mathrm{FP}=0$ and hence a flat net benefit of $0.6667$ at every threshold probability. The two rules had been conflated in the prose, not miscomputed.
+\item We also benchmarked boundary distance and discrete semantic entropy. Boundary distance is
+materially weaker. For discrete semantic entropy, following Farquhar et al.\ (2024), probabilities
+can be estimated from empirical generation frequencies without token probabilities. Because our
+outputs are categorical ratings, the corresponding discrete entropy reduces to the Shannon entropy
+of the rating distribution, which is again rank-equivalent at the binary gate and produces the same
+AUC and net benefit as $\mathrm{SIS}$ and dissent count. Two scope limits apply. Farquhar et al.\
+(2024) study repeated generations under a fixed prompt, whereas our application varies elicitation
+specifications, so we use this only as a specification-level analogue of the estimator. Token-level
+confidence cannot be reconstructed, because the frozen corpus retains no log-probabilities and
+these are not uniformly available across the providers evaluated. Because $\mathrm{SIS}$ shows no incremental value and the manuscript no longer proposes a tuned
+$\mathrm{SIS}$ threshold as a predictive instrument, we do not estimate or validate an optimized
+$\tau$. Nested threshold selection would answer a deployment question that the revised manuscript
+no longer claims to answer. The resulting interpretation is simpler, in that early specification
+disagreement predicts later disagreement, but $\mathrm{SIS}$ does not provide incremental
+predictive information beyond the corresponding dissent count at the binary gate. We therefore present $\mathrm{SIS}$ as a
+descriptive dispersion index and governance representation rather than as an incrementally
+validated predictive instrument.
+\end{itemize}
+
+\textbf{Author action:}
+
+\begin{itemize}
+\item Section 4.3 and Table 8 now benchmark $\mathrm{SIS}$ against dissent count, vote margin, boundary distance and discrete semantic entropy, in both the held-out-specification setting and a profile-split subsampling analysis, reported separately, and a separate net-benefit analysis following Vickers and Elkin (2006) compares the corresponding referral strategies with refer-all and refer-none in Table 9.
+\item The Abstract and Highlights no longer describe $\mathrm{SIS}$ as a validated or deployable model-risk control.
+\item Sections 4.1--4.3 instead present it as a descriptive dispersion index and governance trigger.
+\end{itemize}
+
+\vspace{4pt}
+
+\concern{Reviewer \#3, Concern \#4}
+
+\concern{Reviewer comment:}
+
+\rvcomment{under the resolution-limited d-optimal fractional grid, can you provide formal
+identifiable bounds on the maximum possible main effect of answer presentation and the
+provider-by-item interaction under all aliasing structures consistent with the observed design
+matrix, and how would those bounds change the abstract's claim that no controllable axis exceeds
+about 5\% of rating variance?}
+
+\textbf{Author response:}
+
+\begin{itemize}
+\item The two quantities in the reviewer's question have different identification properties. For answer
+presentation, no finite design-only bound exists. With omitted interaction coefficients $\gamma$,
+\[
+\mathbb{E}[\hat{\beta}]=\beta+A\gamma,
+\]
+and the alias contribution is bounded only conditional on an external restriction on
+$\lVert\gamma\rVert_2$, which the observed design does not provide. The former ${\sim}4.6\%$
+answer-presentation estimate therefore cannot be interpreted as an identified upper bound or used
+to rank that axis against others.
+\item For provider$\times$item, the analysed $45\times32$ item--specification grid is fully represented,
+although four cells contain two rather than three seeds. The resulting imbalance is very small, with the largest realized
+correlation between provider$\times$item and a specification-axis contrast at only $0.0022$. We therefore describe the approximately $1.4\%$ provider$\times$item component as
+identified up to this numerically negligible imbalance.
+\item The implication for the headline result is that the former statement that no controllable axis
+exceeds ${\sim}5\%$ has been removed. The manuscript now reports only the joint explanatory share
+under the fitted specifications ($R^2=0.083$--$0.119$), without assigning that share to individual
+elicitation axes. Thus the answer to the reviewer's bounds question changes the abstract
+qualitatively rather than numerically. There is no defensible finite upper bound supporting the
+former ${\sim}5\%$ statement, so that statement has been removed rather than weakened.
+\end{itemize}
+
+\textbf{Author action:}
+
+\begin{itemize}
+\item Section 6.2 now provides the formal aliasing analysis and numerical diagnostics.
+\item The Abstract and Highlights no longer contain the per-axis ${\sim}5\%$ statement, and individual-axis estimates have been removed from Table 1.
+\end{itemize}
+
+\vspace{4pt}
+
+\end{document}

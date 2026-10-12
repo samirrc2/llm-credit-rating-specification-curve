@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R003",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows moderate profitability (EBIT margin ~21.8% and net margin ~8.8%), but its balance sheet is highly leveraged (liabilities ~76% of assets) and liquidity is weak (current ratio ~0.72), which increases financial risk. Overall, these factors suggest a speculative-grade profile rather than investment grade.\n\nDECISION: BB+",
+ "prompt_sha256": "2df0d188c56d1c085ff0f903ec1a14a60a8277ddafb3c7a08d1e9878a15636f9",
+ "in_tok": 226,
+ "out_tok": 253,
+ "usd": 0.000361,
+ "utc": "2026-10-11T20:44:52.699308+00:00"
+}

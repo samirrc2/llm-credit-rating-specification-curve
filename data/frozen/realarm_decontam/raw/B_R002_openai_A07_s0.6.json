@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows weak profitability (EBIT of only 4M vs. 5,575M revenue and negative net income of -83M), which limits debt-servicing capacity. Leverage is moderate-to-high (total liabilities of 4,486M vs. equity of 1,512M), though liquidity is only moderately supported (current ratio ~1.21).  \nDECISION: B-",
+ "prompt_sha256": "91af9cc30b56280cd33e966754f411b0e0812236d37d90d63a7b427c460b277b",
+ "in_tok": 230,
+ "out_tok": 204,
+ "usd": 0.000301,
+ "utc": "2026-10-11T20:44:47.324152+00:00"
+}

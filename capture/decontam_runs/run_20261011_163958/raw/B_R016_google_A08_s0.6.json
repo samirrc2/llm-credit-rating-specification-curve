@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R016",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"Strong asset base and equity cushion offset negative net income and EBIT, placing the issuer in mid-speculative grade.\"}\n```",
+ "prompt_sha256": "e43e3682c0eed6f7d28962813a560d4d99d5292fc274dca2d2d2309cf6031a16",
+ "in_tok": 253,
+ "out_tok": 46,
+ "usd": 0.000794,
+ "utc": "2026-10-11T20:48:25.210572+00:00"
+}

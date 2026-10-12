@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R030",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "With solid profitability (EBIT margin ~20% and net margin ~11%), the company shows an ability to generate earnings, but balance-sheet leverage is high (total liabilities ~7,452M vs. equity ~3,858M, liabilities/equity ~1.9). Liquidity is also weak (current ratio ~0.72), increasing refinancing/near-term risk. Overall, this supports a lower-investment-grade profile around the BB area.  \n\nDECISION: BB+",
+ "prompt_sha256": "2228bce33990b2ecde003ba5823a5e3232b65eb3aaac84d5bc584c5bca2852dc",
+ "in_tok": 235,
+ "out_tok": 251,
+ "usd": 0.000361,
+ "utc": "2026-10-11T20:46:22.505453+00:00"
+}

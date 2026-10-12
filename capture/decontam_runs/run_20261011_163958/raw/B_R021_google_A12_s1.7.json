@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R021",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Solid profitability and leverage (Debt/Equity ~1.5x) paired with moderate interest coverage and revenue scale support a mid-investment grade rating.\"}\n```",
+ "prompt_sha256": "3d4480c13c43339905cf80dbb09ed8c81fe6394a5d8519815bb6ec26cf9cd491",
+ "in_tok": 266,
+ "out_tok": 53,
+ "usd": 0.000876,
+ "utc": "2026-10-11T20:48:39.927242+00:00"
+}

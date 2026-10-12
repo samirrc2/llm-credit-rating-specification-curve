@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R012",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 1,
+ "ok": true,
+ "raw_response": "ANSWER: VALMONT INDUSTRIES INC",
+ "prompt_sha256": "957359808687589edbda8ac6548dcebecc0a6ed63a30d6c0669b89c3803b6587",
+ "in_tok": 546,
+ "out_tok": 710,
+ "usd": 0.000997,
+ "utc": "2026-10-11T20:47:38.677226+00:00"
+}

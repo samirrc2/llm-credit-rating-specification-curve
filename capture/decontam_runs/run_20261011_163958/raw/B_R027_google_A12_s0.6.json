@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R027",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Adequate leverage and interest coverage with positive profitability support an investment-grade rating, constrained by modest net margins.\"}\n```",
+ "prompt_sha256": "17977d2ad7e8058458c276280d4481ed0c56823afe33f37f1e9a646503a31d37",
+ "in_tok": 269,
+ "out_tok": 45,
+ "usd": 0.000808,
+ "utc": "2026-10-11T20:48:47.492600+00:00"
+}

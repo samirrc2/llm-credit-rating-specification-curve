@@ -1,0 +1,203 @@
+{
+ "_meta": {
+  "spec": "analysis/revision2/SPEC_r3_realarm_experiments.md",
+  "spec_sha256": "137367c9175070210afa5cdc1f9534e77d99b014e196dd32fec5d17f02284fba",
+  "n_issuers": 31,
+  "model_calls": 0,
+  "scale_invariance_asserted_at": [
+   0.6,
+   1.0,
+   1.7,
+   3.3,
+   11.0
+  ]
+ },
+ "profiles": [
+  {
+   "item_id": "R001",
+   "benchmark_label": "SAFE",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 15.7; Net margin (% of revenue) 12.1; Return on assets (% of total assets) 9.2; Asset turnover (revenue / total assets) 0.761; Total liabilities / total assets 0.577; Total liabilities / equity 1.366; Equity / total assets 0.423; Current ratio (current assets / current liabilities) 1.869; Working capital / total assets 0.231; Retained earnings / total assets 0.404; EBIT / total assets 0.119"
+  },
+  {
+   "item_id": "R002",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 0.1; Net margin (% of revenue) -1.5; Return on assets (% of total assets) -1.4; Asset turnover (revenue / total assets) 0.926; Total liabilities / total assets 0.745; Total liabilities / equity 2.967; Equity / total assets 0.251; Current ratio (current assets / current liabilities) 1.21; Working capital / total assets 0.047; Retained earnings / total assets 0.292; EBIT / total assets 0.001"
+  },
+  {
+   "item_id": "R003",
+   "benchmark_label": "SAFE",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 21.8; Net margin (% of revenue) 8.8; Return on assets (% of total assets) 1.8; Asset turnover (revenue / total assets) 0.209; Total liabilities / total assets 0.761; Total liabilities / equity 3.18; Equity / total assets 0.239; Current ratio (current assets / current liabilities) 0.72; Working capital / total assets -0.038; Retained earnings / total assets 0.071; EBIT / total assets 0.046"
+  },
+  {
+   "item_id": "R004",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 17.5; Net margin (% of revenue) 9.9; Return on assets (% of total assets) 8.3; Asset turnover (revenue / total assets) 0.834; Total liabilities / total assets 0.674; Total liabilities / equity 2.06; Equity / total assets 0.327; Current ratio (current assets / current liabilities) 2.194; Working capital / total assets 0.353; Retained earnings / total assets -0.217; EBIT / total assets 0.145"
+  },
+  {
+   "item_id": "R005",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 8.0; Net margin (% of revenue) 9.9; Return on assets (% of total assets) 3.5; Asset turnover (revenue / total assets) 0.349; Total liabilities / total assets 0.42; Total liabilities / equity 0.736; Equity / total assets 0.571; Current ratio (current assets / current liabilities) 1.751; Working capital / total assets 0.124; Retained earnings / total assets 0.988; EBIT / total assets 0.028"
+  },
+  {
+   "item_id": "R006",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) -0.2; Net margin (% of revenue) -0.6; Return on assets (% of total assets) -1.2; Asset turnover (revenue / total assets) 1.882; Total liabilities / total assets 0.581; Total liabilities / equity 1.423; Equity / total assets 0.409; Current ratio (current assets / current liabilities) 1.213; Working capital / total assets 0.06; Retained earnings / total assets 0.242; EBIT / total assets -0.004"
+  },
+  {
+   "item_id": "R007",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 13.5; Net margin (% of revenue) 7.3; Return on assets (% of total assets) 3.5; Asset turnover (revenue / total assets) 0.481; Total liabilities / total assets 0.484; Total liabilities / equity 1.038; Equity / total assets 0.466; Current ratio (current assets / current liabilities) 3.373; Working capital / total assets 0.244; Retained earnings / total assets 0.231; EBIT / total assets 0.065"
+  },
+  {
+   "item_id": "R008",
+   "benchmark_label": "SAFE",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 26.6; Net margin (% of revenue) 21.3; Return on assets (% of total assets) 7.0; Asset turnover (revenue / total assets) 0.328; Total liabilities / total assets 0.53; Total liabilities / equity 1.13; Equity / total assets 0.47; Current ratio (current assets / current liabilities) 2.275; Working capital / total assets 0.113; Retained earnings / total assets 0.307; EBIT / total assets 0.087"
+  },
+  {
+   "item_id": "R009",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 33.2; Net margin (% of revenue) 20.5; Return on assets (% of total assets) 6.5; Asset turnover (revenue / total assets) 0.316; Total liabilities / total assets 0.517; Total liabilities / equity 1.07; Equity / total assets 0.483; Current ratio (current assets / current liabilities) 0.792; Working capital / total assets -0.018; Retained earnings / total assets 0.269; EBIT / total assets 0.105"
+  },
+  {
+   "item_id": "R010",
+   "benchmark_label": "SAFE",
+   "n_fields": 7,
+   "ratios_only_text": "Net margin (% of revenue) 19.1; Return on assets (% of total assets) 1.9; Asset turnover (revenue / total assets) 0.097; Total liabilities / total assets 0.798; Total liabilities / equity 5.223; Equity / total assets 0.153; Retained earnings / total assets 0.192"
+  },
+  {
+   "item_id": "R011",
+   "benchmark_label": "SAFE",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) -2.7; Net margin (% of revenue) -8.5; Return on assets (% of total assets) -4.8; Asset turnover (revenue / total assets) 0.561; Total liabilities / total assets 0.696; Total liabilities / equity 2.276; Equity / total assets 0.306; Current ratio (current assets / current liabilities) 2.314; Working capital / total assets 0.195; Retained earnings / total assets 0.683; EBIT / total assets -0.015"
+  },
+  {
+   "item_id": "R012",
+   "benchmark_label": "SAFE",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 13.1; Net margin (% of revenue) 11.1; Return on assets (% of total assets) 10.4; Asset turnover (revenue / total assets) 0.941; Total liabilities / total assets 0.513; Total liabilities / equity 1.058; Equity / total assets 0.485; Current ratio (current assets / current liabilities) 2.351; Working capital / total assets 0.293; Retained earnings / total assets 0.937; EBIT / total assets 0.123"
+  },
+  {
+   "item_id": "R013",
+   "benchmark_label": "DISTRESS",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 2.6; Net margin (% of revenue) -0.8; Return on assets (% of total assets) -1.3; Asset turnover (revenue / total assets) 1.538; Total liabilities / total assets 1.181; Total liabilities / equity -4.333; Equity / total assets -0.273; Current ratio (current assets / current liabilities) 1.019; Working capital / total assets 0.006; Retained earnings / total assets -0.585; EBIT / total assets 0.041"
+  },
+  {
+   "item_id": "R014",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 15.5; Net margin (% of revenue) 10.8; Return on assets (% of total assets) 6.8; Asset turnover (revenue / total assets) 0.628; Total liabilities / total assets 0.379; Total liabilities / equity 0.611; Equity / total assets 0.621; Current ratio (current assets / current liabilities) 2.482; Working capital / total assets 0.189; Retained earnings / total assets 0.134; EBIT / total assets 0.097"
+  },
+  {
+   "item_id": "R015",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) -42.5; Net margin (% of revenue) 27.7; Return on assets (% of total assets) 11.0; Asset turnover (revenue / total assets) 0.396; Total liabilities / total assets 0.587; Total liabilities / equity 1.422; Equity / total assets 0.413; Current ratio (current assets / current liabilities) 2.85; Working capital / total assets 0.17; Retained earnings / total assets 0.498; EBIT / total assets -0.168"
+  },
+  {
+   "item_id": "R016",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) -6.2; Net margin (% of revenue) -10.5; Return on assets (% of total assets) -10.5; Asset turnover (revenue / total assets) 1.003; Total liabilities / total assets 0.547; Total liabilities / equity 1.329; Equity / total assets 0.411; Current ratio (current assets / current liabilities) 3.195; Working capital / total assets 0.381; Retained earnings / total assets 0.109; EBIT / total assets -0.062"
+  },
+  {
+   "item_id": "R017",
+   "benchmark_label": "SAFE",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 23.2; Net margin (% of revenue) 12.7; Return on assets (% of total assets) 2.7; Asset turnover (revenue / total assets) 0.213; Total liabilities / total assets 0.648; Total liabilities / equity 1.843; Equity / total assets 0.352; Current ratio (current assets / current liabilities) 1.346; Working capital / total assets 0.024; Retained earnings / total assets 0.124; EBIT / total assets 0.049"
+  },
+  {
+   "item_id": "R018",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 8.3; Net margin (% of revenue) 9.0; Return on assets (% of total assets) 7.2; Asset turnover (revenue / total assets) 0.796; Total liabilities / total assets 0.616; Total liabilities / equity 1.926; Equity / total assets 0.32; Current ratio (current assets / current liabilities) 1.439; Working capital / total assets 0.103; Retained earnings / total assets -0.017; EBIT / total assets 0.066"
+  },
+  {
+   "item_id": "R019",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) -4.2; Net margin (% of revenue) -5.8; Return on assets (% of total assets) -5.2; Asset turnover (revenue / total assets) 0.899; Total liabilities / total assets 0.966; Total liabilities / equity 28.492; Equity / total assets 0.034; Current ratio (current assets / current liabilities) 1.78; Working capital / total assets 0.178; Retained earnings / total assets 0.165; EBIT / total assets -0.037"
+  },
+  {
+   "item_id": "R020",
+   "benchmark_label": "SAFE",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 18.0; Net margin (% of revenue) 9.8; Return on assets (% of total assets) 2.3; Asset turnover (revenue / total assets) 0.235; Total liabilities / total assets 0.676; Total liabilities / equity 2.086; Equity / total assets 0.324; Current ratio (current assets / current liabilities) 0.83; Working capital / total assets -0.018; Retained earnings / total assets 0.108; EBIT / total assets 0.042"
+  },
+  {
+   "item_id": "R021",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 7.3; Net margin (% of revenue) 4.3; Return on assets (% of total assets) 4.7; Asset turnover (revenue / total assets) 1.083; Total liabilities / total assets 0.597; Total liabilities / equity 1.485; Equity / total assets 0.402; Current ratio (current assets / current liabilities) 1.499; Working capital / total assets 0.091; Retained earnings / total assets 0.12; EBIT / total assets 0.079"
+  },
+  {
+   "item_id": "R022",
+   "benchmark_label": "SAFE",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 14.4; Net margin (% of revenue) 2.7; Return on assets (% of total assets) 1.9; Asset turnover (revenue / total assets) 0.712; Total liabilities / total assets 0.574; Total liabilities / equity 1.346; Equity / total assets 0.426; Current ratio (current assets / current liabilities) 1.14; Working capital / total assets 0.034; Retained earnings / total assets 0.388; EBIT / total assets 0.102"
+  },
+  {
+   "item_id": "R023",
+   "benchmark_label": "SAFE",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 14.4; Net margin (% of revenue) 53.8; Return on assets (% of total assets) 25.0; Asset turnover (revenue / total assets) 0.464; Total liabilities / total assets 0.215; Total liabilities / equity 0.274; Equity / total assets 0.784; Current ratio (current assets / current liabilities) 3.833; Working capital / total assets 0.502; Retained earnings / total assets -1.159; EBIT / total assets 0.067"
+  },
+  {
+   "item_id": "R024",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 13.5; Net margin (% of revenue) 9.4; Return on assets (% of total assets) 7.2; Asset turnover (revenue / total assets) 0.764; Total liabilities / total assets 0.824; Total liabilities / equity 4.667; Equity / total assets 0.176; Current ratio (current assets / current liabilities) 0.914; Working capital / total assets -0.026; Retained earnings / total assets 0.147; EBIT / total assets 0.104"
+  },
+  {
+   "item_id": "R025",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 7.6; Net margin (% of revenue) 4.1; Return on assets (% of total assets) 1.4; Asset turnover (revenue / total assets) 0.346; Total liabilities / total assets 0.82; Total liabilities / equity 4.555; Equity / total assets 0.18; Current ratio (current assets / current liabilities) 1.32; Working capital / total assets 0.051; Retained earnings / total assets -0.075; EBIT / total assets 0.026"
+  },
+  {
+   "item_id": "R026",
+   "benchmark_label": "SAFE",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 5.4; Net margin (% of revenue) 3.9; Return on assets (% of total assets) 3.0; Asset turnover (revenue / total assets) 0.773; Total liabilities / total assets 0.814; Total liabilities / equity 4.369; Equity / total assets 0.186; Current ratio (current assets / current liabilities) 0.89; Working capital / total assets -0.019; Retained earnings / total assets 0.157; EBIT / total assets 0.042"
+  },
+  {
+   "item_id": "R027",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 6.4; Net margin (% of revenue) 0.8; Return on assets (% of total assets) 0.5; Asset turnover (revenue / total assets) 0.549; Total liabilities / total assets 0.587; Total liabilities / equity 1.424; Equity / total assets 0.413; Current ratio (current assets / current liabilities) 2.574; Working capital / total assets 0.181; Retained earnings / total assets 0.34; EBIT / total assets 0.035"
+  },
+  {
+   "item_id": "R028",
+   "benchmark_label": "SAFE",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 8.7; Net margin (% of revenue) 8.1; Return on assets (% of total assets) 4.2; Asset turnover (revenue / total assets) 0.521; Total liabilities / total assets 0.62; Total liabilities / equity 1.633; Equity / total assets 0.38; Current ratio (current assets / current liabilities) 1.282; Working capital / total assets 0.025; Retained earnings / total assets 0.098; EBIT / total assets 0.045"
+  },
+  {
+   "item_id": "R029",
+   "benchmark_label": "WATCH",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 9.3; Net margin (% of revenue) 5.2; Return on assets (% of total assets) 3.8; Asset turnover (revenue / total assets) 0.732; Total liabilities / total assets 0.001; Total liabilities / equity 0.003; Equity / total assets 0.283; Current ratio (current assets / current liabilities) 1.303; Working capital / total assets 0.058; Retained earnings / total assets 0.137; EBIT / total assets 0.068"
+  },
+  {
+   "item_id": "R030",
+   "benchmark_label": "SAFE",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 20.3; Net margin (% of revenue) 11.2; Return on assets (% of total assets) 2.1; Asset turnover (revenue / total assets) 0.19; Total liabilities / total assets 0.659; Total liabilities / equity 1.932; Equity / total assets 0.341; Current ratio (current assets / current liabilities) 0.723; Working capital / total assets -0.023; Retained earnings / total assets 0.106; EBIT / total assets 0.039"
+  },
+  {
+   "item_id": "R031",
+   "benchmark_label": "SAFE",
+   "n_fields": 11,
+   "ratios_only_text": "Operating margin (% of revenue) 20.4; Net margin (% of revenue) 3.7; Return on assets (% of total assets) 0.7; Asset turnover (revenue / total assets) 0.18; Total liabilities / total assets 0.713; Total liabilities / equity 2.526; Equity / total assets 0.282; Current ratio (current assets / current liabilities) 0.554; Working capital / total assets -0.038; Retained earnings / total assets 0.072; EBIT / total assets 0.037"
+  }
+ ]
+}

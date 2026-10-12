@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R016",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer generates substantial revenue ($2.04 billion) and maintains a solid liquidity cushion with a current ratio above 3.0x alongside a moderate debt-to-equity ratio, indicating fair balance sheet flexibility. However, the company faces significant operational distress as evidenced by negative operating income (-$127 million) and a net loss (-$214 million) in the most recent fiscal year. Consequently, these sustained earnings headwinds and negative coverage metrics position the company in high-yield, speculative-grade territory.\n\nDECISION: BB-",
+ "prompt_sha256": "747c3d34996c80998fd26401c3fe5d3f02562faa659daaefa9cbb6914e3cf09d",
+ "in_tok": 221,
+ "out_tok": 112,
+ "usd": 0.001339,
+ "utc": "2026-10-11T20:48:25.862893+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows relatively high leverage (total liabilities of 29,548M versus shareholders\u2019 equity of 5,658M; liabilities/equity \u2248 5.2x) and a thin equity cushion (equity/assets \u2248 15%). Offsetting this, profitability is solid for the size provided (net income of 685M on revenue of 3,580M; net margin \u2248 19%). Overall balance sheet risk points to a lower-investment-grade credit profile.  \n\nDECISION: BB-",
+ "prompt_sha256": "7333c2d54e1c9463fde210b0b55cb732539ff2d339a72604bd77b4154dae84a5",
+ "in_tok": 206,
+ "out_tok": 227,
+ "usd": 0.000325,
+ "utc": "2026-10-11T20:45:14.044662+00:00"
+}

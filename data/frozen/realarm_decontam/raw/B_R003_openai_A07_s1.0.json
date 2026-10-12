@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R003",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Liquidity is weak with a current ratio of 0.72 (current assets of 564M vs. current liabilities of 783M), and leverage is high with total liabilities at 76% of total assets. However, profitability is solid (EBIT margin ~21.8% and net margin ~8.8%), and the equity base (1,381M) provides some balance-sheet support.  \nDECISION: BBB-",
+ "prompt_sha256": "80ac0eb71e96dff6fa11627cf9cd94b8960d0971f0f2dc3e3e9fb795595244fe",
+ "in_tok": 224,
+ "out_tok": 246,
+ "usd": 0.000352,
+ "utc": "2026-10-11T20:44:51.404101+00:00"
+}

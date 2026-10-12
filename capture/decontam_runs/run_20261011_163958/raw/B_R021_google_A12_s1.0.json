@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R021",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 4, \"rationale\": \"Solid profitability and leverage (EBIT/Assets 7.9%, Liabilities/Assets 59.7%) support a stable investment-grade rating despite moderate size.\"}\n```",
+ "prompt_sha256": "b58031212044083e51c8094164c0a5a8dc19648a89900a4f226ec2381b08f7aa",
+ "in_tok": 263,
+ "out_tok": 57,
+ "usd": 0.000907,
+ "utc": "2026-10-11T20:48:38.340648+00:00"
+}

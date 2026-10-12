@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R028",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 1,
+ "ok": true,
+ "raw_response": "ANSWER: AVISTA CORP",
+ "prompt_sha256": "c018512c51e9396a5b47891e088261dad985e52015bc783b20cd134303674b2b",
+ "in_tok": 546,
+ "out_tok": 436,
+ "usd": 0.000654,
+ "utc": "2026-10-11T20:44:37.531042+00:00"
+}

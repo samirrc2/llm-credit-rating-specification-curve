@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R007",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a strong financial profile characterized by robust profitability (EBIT margin of ~13.5%), excellent short-term liquidity (current ratio of 3.37x), and a conservative capital structure with low leverage (total debt/liabilities well-covered by equity of $3.03B and total assets of $6.49B). Solid cumulative earnings capacity reflected in $1.50B of retained earnings supports high investment-grade creditworthiness, though the absolute scale of earnings places it just below the top-tier categories.\n\nDECISION: A",
+ "prompt_sha256": "bd490e576427fb7b61681cddf3c5803b992ee9c25ac6f957b0a9a4d80dfb7575",
+ "in_tok": 226,
+ "out_tok": 119,
+ "usd": 0.00141,
+ "utc": "2026-10-11T20:48:02.959123+00:00"
+}

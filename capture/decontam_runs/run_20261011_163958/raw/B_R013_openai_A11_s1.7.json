@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer has negative shareholders\u2019 equity (and retained earnings), indicating substantial accumulated losses and weak balance-sheet solvency, while total liabilities exceed total assets. Liquidity is only marginally adequate (current assets ~986M vs. current liabilities ~967M), and despite positive EBIT, the company still reports a net loss, supporting elevated credit risk.  \n\nDECISION: CCC",
+ "prompt_sha256": "3460a5136d480ea2fa51fdeae6758467b5a1c08155739989151ff0b4126260db",
+ "in_tok": 233,
+ "out_tok": 243,
+ "usd": 0.00035,
+ "utc": "2026-10-11T20:45:23.125369+00:00"
+}

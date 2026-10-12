@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R014",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong solvency and liquidity, solid profitability, low leverage (Total Liabilities/Assets ~38%), and healthy interest coverage justify a strong investment-grade rating.\"}\n```",
+ "prompt_sha256": "8427111a65dce1966a1a9d84174ced8580d3bbf143842177f62ca7642c65b9ae",
+ "in_tok": 267,
+ "out_tok": 54,
+ "usd": 0.000886,
+ "utc": "2026-10-11T20:48:20.602852+00:00"
+}

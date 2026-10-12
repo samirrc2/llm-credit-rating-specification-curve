@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R030",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability (net margin ~11% and EBIT of 741M) and meaningful equity (shareholders\u2019 equity 6,559M), but leverage is high (total liabilities 12,668M vs. equity 6,559M) and liquidity is weak (current ratio ~0.72). Overall credit quality appears more speculative than investment grade, but not severely distressed.  \nDECISION: BB-",
+ "prompt_sha256": "5bc0f0551571675cd11fccec95a1762d23f49584150a4a5285c3f6f26ec982a3",
+ "in_tok": 230,
+ "out_tok": 196,
+ "usd": 0.000291,
+ "utc": "2026-10-11T20:46:23.507925+00:00"
+}

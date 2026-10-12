@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows moderate profitability (net income of 242M on revenue of 1,264M, ~19% net margin), but its balance sheet is highly leveraged with total liabilities of 10,429M versus shareholders\u2019 equity of 1,997M (liabilities/equity ~5.2). This combination points to credit quality below investment grade but not distressed.\n\nDECISION: BB-",
+ "prompt_sha256": "5b4140a7c6ac987b64fcc0211a7da0a75f9df594d74c8d7678543e27331f1d5d",
+ "in_tok": 204,
+ "out_tok": 222,
+ "usd": 0.000318,
+ "utc": "2026-10-11T20:45:11.615733+00:00"
+}

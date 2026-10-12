@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows solid short-term liquidity (current ratio \u2248 2.3) and moderate overall size, but profitability is weak with both net income (-535M) and EBIT (-172M) being negative. Combined with relatively high leverage (total liabilities 7,801M vs. equity 3,427M), this points to ongoing financial stress and limited ability to self-fund without improvement in earnings power.\n\nDECISION: BB-",
+ "prompt_sha256": "ca83010ce28bf3fb8cc2bbdb2b0323ac2ac84e6da1db1bbad25c5d923999186a",
+ "in_tok": 237,
+ "out_tok": 192,
+ "usd": 0.000287,
+ "utc": "2026-10-11T20:45:14.145524+00:00"
+}

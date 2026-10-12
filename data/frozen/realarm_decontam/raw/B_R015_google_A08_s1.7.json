@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R015",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong balance sheet with solid equity and liquidity offsets negative operating income, supported by high net income and revenue.\"}\n```",
+ "prompt_sha256": "47bc8dae4372014e8188d4ffde58112970a519581fd115917e6e15dbf587cf63",
+ "in_tok": 266,
+ "out_tok": 45,
+ "usd": 0.000804,
+ "utc": "2026-10-11T20:48:24.255199+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R019",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows significant financial stress: operating income and net income are both materially negative (EBIT -459M; net income -640M), indicating weak profitability. Leverage is very high (equity of 415M versus total liabilities of 11,824M), leaving limited balance-sheet cushion despite a moderate current ratio (~1.8).  \n\nDECISION: CCC-",
+ "prompt_sha256": "e5ef78dfe144fa982ac595c9c3bf98bb67dbebfe4b5ad773ca965b37a42fdea5",
+ "in_tok": 235,
+ "out_tok": 180,
+ "usd": 0.000272,
+ "utc": "2026-10-11T20:45:39.626745+00:00"
+}

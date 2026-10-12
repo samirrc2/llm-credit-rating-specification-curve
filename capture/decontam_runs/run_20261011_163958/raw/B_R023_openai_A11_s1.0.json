@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R023",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows strong liquidity (current ratio \u2248 916/239 = 3.8) and low leverage (total liabilities of 290M vs equity of 1,058M). However, the very large negative retained earnings (-1,564M) signal accumulated losses and potential earnings volatility despite positive recent profitability (net income 337M) and modest operating profitability (EBIT 90M), leading to a cautious, sub-investment-grade view.\n\nDECISION: BBB-",
+ "prompt_sha256": "2b590be669d4d52d9fdae386cdcebe320bba38e5a15331b8ee99007dc177d5fe",
+ "in_tok": 231,
+ "out_tok": 353,
+ "usd": 0.000487,
+ "utc": "2026-10-11T20:45:54.419920+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R001",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability (net margin ~12% and EBIT margin ~16%) and good balance-sheet cushioning (shareholders\u2019 equity of ~42% of assets) along with adequate short-term liquidity (current ratio ~1.9). Leverage is moderate (liabilities ~58% of assets), but there isn\u2019t enough information on debt burden/interest coverage to support a higher tier than low investment grade.  \n\nDECISION: BBB+",
+ "prompt_sha256": "0c6d963f9516996754921443e1b4a2adc4b47c9660eb677b1adac91fda5c7203",
+ "in_tok": 230,
+ "out_tok": 288,
+ "usd": 0.000406,
+ "utc": "2026-10-11T20:44:46.517775+00:00"
+}

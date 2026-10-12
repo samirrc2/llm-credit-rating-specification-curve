@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R005",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong solvency with low leverage (TD/TA ~42%), solid liquidity (CR 1.75x), and positive profitability support an investment-grade rating.\"}\n```",
+ "prompt_sha256": "f3dd68fa5d83cdba114ce814213e712226374f23e4c409c71bf1060fcb209a8b",
+ "in_tok": 270,
+ "out_tok": 58,
+ "usd": 0.000927,
+ "utc": "2026-10-11T20:47:57.442046+00:00"
+}

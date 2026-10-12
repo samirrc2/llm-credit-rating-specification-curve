@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R003",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows solid operating performance (EBIT margin ~22% and positive net income of 64M), which helps support debt service capacity. However, leverage is high (total liabilities 2,635M vs. equity 829M) and liquidity is weak with a sub-1 current ratio (current assets 338M vs. current liabilities 470M), which limits resilience under stress.  \nDECISION: BB-",
+ "prompt_sha256": "8ae8c376be738c859a95f4ef22162d98a9d9a2efb4e8233c2c77deb917fd25bc",
+ "in_tok": 227,
+ "out_tok": 199,
+ "usd": 0.000294,
+ "utc": "2026-10-11T20:44:50.050863+00:00"
+}

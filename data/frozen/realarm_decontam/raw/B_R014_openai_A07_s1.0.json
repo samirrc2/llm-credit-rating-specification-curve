@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R014",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows strong liquidity (current ratio \u2248 2.48) and solid profitability (net margin \u2248 10.8%, EBIT margin \u2248 15.5%), with moderate leverage (total liabilities of 1,872M vs. shareholders\u2019 equity of 3,064M). Overall financial flexibility appears good for the peer set, though lack of debt/interest coverage data limits confidence at the very top tier.  \nDECISION: A-",
+ "prompt_sha256": "a205f823c579c5f079bd5e2368b68569aae8189f30eccee5ae76a9df618ad0ea",
+ "in_tok": 226,
+ "out_tok": 211,
+ "usd": 0.000309,
+ "utc": "2026-10-11T20:45:24.675180+00:00"
+}

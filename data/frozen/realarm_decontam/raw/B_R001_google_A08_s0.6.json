@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R001",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong profitability, robust interest coverage potential, solid equity base, and a healthy current ratio support an A rating.\"}\n```",
+ "prompt_sha256": "cdd360cf0643d2d4bc2587aafdd4a787a9d90bef038e7f784afc385642f011e3",
+ "in_tok": 258,
+ "out_tok": 45,
+ "usd": 0.000792,
+ "utc": "2026-10-11T20:47:47.163218+00:00"
+}

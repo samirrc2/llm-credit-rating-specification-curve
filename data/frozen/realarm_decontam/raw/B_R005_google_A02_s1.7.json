@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R005",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid balance sheet with strong solvency (Shareholders' Equity of $5,840M against Total Liabilities of $4,298M, giving a debt-to-equity leverage ratio well below 1.0x), healthy liquidity (Current Ratio of 1.75x), and significant accumulated profits reflected in Retained Earnings of $10,100M. While profitability is moderate with an operating margin (EBIT/Revenue) of 8.0%, net margins are reinforced by additional income, demonstrating stable cash flow generation and financial flexibility consistent with a high investment-grade profile.\n\nDECISION: A+",
+ "prompt_sha256": "6a13e13008f26d1db90989bbc3796c59b02490a7aa578acdd6208b59bc0fc658",
+ "in_tok": 229,
+ "out_tok": 135,
+ "usd": 0.001558,
+ "utc": "2026-10-11T20:47:59.003994+00:00"
+}

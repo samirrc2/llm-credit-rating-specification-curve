@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R015",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company displays strong liquidity with a current ratio of 2.85 and a solid balance sheet anchored by $1.46B in shareholders' equity and a moderate leverage ratio (Total Assets/Total Liabilities of 1.70). Although operating income is negative (-$593M), net income remains positive ($386M) and substantial retained earnings ($1.76B) reflect long-term capital accumulation, supporting a solid investment-grade profile.\n\nDECISION: BBB+",
+ "prompt_sha256": "95c102ff6f5390e2951d7f4a0cc4972c9c7f0b5001229cc78c72398e09ddec88",
+ "in_tok": 216,
+ "out_tok": 104,
+ "usd": 0.00126,
+ "utc": "2026-10-11T20:48:22.691458+00:00"
+}

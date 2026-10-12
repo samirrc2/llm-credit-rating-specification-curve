@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R020",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company demonstrates moderate profitability with an EBIT margin of 18.0% and a net margin of 9.8%, backed by a respectable leverage profile (Total Liabilities to Total Assets of 67.6% and Debt-to-Equity equivalent structure). However, liquidity is slightly constrained with a current ratio of 0.83x (Current Assets of $664M vs. Current Liabilities of $800M). Overall, the credit profile shows investment-grade balance sheet strength and profitability, consistent with a solid BBB rating.\n\nDECISION: BBB",
+ "prompt_sha256": "eb70746832508ec9a99fe5c89c8897ce1e48ccf27872bcec1193d87a2e6b8b23",
+ "in_tok": 214,
+ "out_tok": 118,
+ "usd": 0.001383,
+ "utc": "2026-10-11T20:48:35.560565+00:00"
+}

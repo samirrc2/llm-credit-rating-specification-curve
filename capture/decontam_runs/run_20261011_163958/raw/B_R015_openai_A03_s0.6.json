@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R015",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Despite solid liquidity (current assets/current liabilities \u2248 922/323 \u2248 2.9) and positive net income (386M), the issuer shows severe operating underperformance with EBIT/operating income of -593M, indicating weak core earnings power and limited ability to sustainably service obligations through operations. The leverage is moderate (total liabilities 2,071M vs. equity 1,456M), which further increases vulnerability if operating losses persist.  \n\nDECISION: B+",
+ "prompt_sha256": "3b5a97d2b71357ba1a1272c5f9c7a0eda7202ed7ffb2ab08d62d26a02a613028",
+ "in_tok": 233,
+ "out_tok": 236,
+ "usd": 0.000342,
+ "utc": "2026-10-11T20:45:26.800009+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R005",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer has solid balance sheet strength with shareholders\u2019 equity of 3,435M (about 57% of total assets) and manageable leverage (total liabilities of 2,528M). Liquidity is also adequate with a current ratio of roughly 1.75, and profitability is decent (net margin ~10% and EBIT margin ~8%), supporting continued operating coverage. Overall, these factors point to an investment-grade credit profile, though lack of detailed debt/coverage metrics prevents a higher rating.\n\nDECISION: A-",
+ "prompt_sha256": "920cfaf1d3f29d69c6aba2f7f69a83ee55e03721ad8afc5732f6c8216b282ad5",
+ "in_tok": 235,
+ "out_tok": 297,
+ "usd": 0.000418,
+ "utc": "2026-10-11T20:44:57.345655+00:00"
+}

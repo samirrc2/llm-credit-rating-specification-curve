@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R021",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows moderate leverage (total liabilities of 1,952M versus equity of 1,314M) but adequate liquidity (current ratio ~1.5x). Profitability is positive yet relatively modest (net margin ~4% and EBIT margin ~7%), which limits resilience versus more strongly rated peers. Overall, this supports a lower investment-grade rating.\n\nDECISION: BBB-",
+ "prompt_sha256": "c5efae36d64bc811d596c9326bb6b890df4152765862eb5a1fec380f42838bed",
+ "in_tok": 231,
+ "out_tok": 202,
+ "usd": 0.000299,
+ "utc": "2026-10-11T20:45:47.277445+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R023",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows strong liquidity (current ratio \u2248 1,557/406 = 3.8) and low leverage (total liabilities \u2248 493/2,293 = 21%), with positive profitability in the most recent year (net income 573M; EBIT 153M). However, the very large negative retained earnings (-2,659M) indicates substantial accumulated losses, tempering confidence in long-term capital resilience.  \nDECISION: A-",
+ "prompt_sha256": "c9b387bfde6e0403d64aa1659451ae1d5f2b078033be14ae54590e561b8012e1",
+ "in_tok": 235,
+ "out_tok": 268,
+ "usd": 0.000382,
+ "utc": "2026-10-11T20:45:55.346274+00:00"
+}

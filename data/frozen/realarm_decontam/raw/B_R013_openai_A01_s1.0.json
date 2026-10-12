@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A01",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Negative equity and retained earnings, tight current coverage, modest operating profit and small net loss indicate elevated leverage and weaker credit fundamentals.\"}",
+ "prompt_sha256": "1a80853a2a84bea1284977b0d78e4209b0c8c9f0e9c1126301eb0d92daac52ac",
+ "in_tok": 214,
+ "out_tok": 151,
+ "usd": 0.000232,
+ "utc": "2026-10-11T20:45:20.858417+00:00"
+}

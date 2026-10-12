@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R007",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Based on the financial metrics provided, the issuer displays strong credit fundamentals, including a robust equity base ($8.58B), low leverage (Total Liabilities to Total Assets of ~48.4%), healthy profitability (EBIT margin of ~13.5%), and excellent short-term liquidity with a current ratio of ~3.37. These solid balance sheet metrics, paired with substantial retained earnings ($4.25B), indicate an investment-grade profile with strong capacity to meet financial obligations.\n\nDECISION: A",
+ "prompt_sha256": "66788b7d2c187a15c72a6340ef7b8875794cda5045af20441428b3d7482404f7",
+ "in_tok": 231,
+ "out_tok": 108,
+ "usd": 0.001319,
+ "utc": "2026-10-11T20:48:04.251791+00:00"
+}

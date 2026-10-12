@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R009",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 4, \"rationale\": \"Strong equity base and solid profitability offset mild liquidity constraints and a moderate debt profile, supporting an investment-grade rating.\"}\n```",
+ "prompt_sha256": "f5610cf70317549d23eeccf6590ce7d2f01c72ee79e9bc9f9b1abf4c18f29daa",
+ "in_tok": 267,
+ "out_tok": 47,
+ "usd": 0.000824,
+ "utc": "2026-10-11T20:48:06.674696+00:00"
+}

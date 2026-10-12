@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB-\", \"confidence\": 3, \"rationale\": \"Massive revenue and strong equity provide investment-grade support, but negative profitability and elevated liabilities cap the rating.\"}\n```",
+ "prompt_sha256": "a1e47cd50055791d5a16732bb477795f3ae67c0db1cdf08e15c3a8eec17d7ff4",
+ "in_tok": 263,
+ "out_tok": 46,
+ "usd": 0.000808,
+ "utc": "2026-10-11T20:47:59.958017+00:00"
+}

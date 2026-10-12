@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R007",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong balance sheet with healthy equity ($8.58B), solid interest coverage (EBIT $1.2B), and low leverage support an investment-grade rating.\"}\n```",
+ "prompt_sha256": "00bdaf722522b695e9db83e3839002977d4ec4ef2ef9a8a353e7690a8ab9b609",
+ "in_tok": 275,
+ "out_tok": 59,
+ "usd": 0.000944,
+ "utc": "2026-10-11T20:48:04.261681+00:00"
+}

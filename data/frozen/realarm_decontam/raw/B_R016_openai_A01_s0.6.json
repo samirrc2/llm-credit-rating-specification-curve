@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R016",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A01",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":3,\"rationale\":\"Sustained losses (EBIT -76M, net income -128M) indicate weak credit strength; leverage moderate (liabilities 668M) with adequate liquidity (current assets 679M).\"}",
+ "prompt_sha256": "82590cd1f88fe8f48fd5984d77f553511b4fde7723e61eba66ea7c8371cb4838",
+ "in_tok": 210,
+ "out_tok": 231,
+ "usd": 0.000331,
+ "utc": "2026-10-11T20:45:29.336822+00:00"
+}

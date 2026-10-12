@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R014",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with low leverage, excellent liquidity, and solid profitability margins support a high investment-grade credit profile.\"}\n```",
+ "prompt_sha256": "c2c4bd5221ec3633f4136ebff2a0236f3b02e6ab5dee44ce37d4d39006c3cf47",
+ "in_tok": 265,
+ "out_tok": 46,
+ "usd": 0.000811,
+ "utc": "2026-10-11T20:48:20.661283+00:00"
+}

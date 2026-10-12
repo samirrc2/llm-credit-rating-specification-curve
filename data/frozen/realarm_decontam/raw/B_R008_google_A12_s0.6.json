@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R008",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 4, \"rationale\": \"Strong profitability, healthy liquidity, and robust equity base yield a low default risk, balanced by moderate leverage relative to revenue.\"}\n```",
+ "prompt_sha256": "61f90680b1d5ee335aed937fe80086f2bd9862e156c8f35ef3bb703ffd07e8df",
+ "in_tok": 264,
+ "out_tok": 48,
+ "usd": 0.000828,
+ "utc": "2026-10-11T20:48:04.858997+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R029",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer appears financially well-capitalized with positive profitability (net income of 756M and EBIT of 1,370M) and substantial retained earnings (2,749M), which supports strong solvency. However, liquidity is only moderately buffered (current assets of 4,979M vs. current liabilities of 3,822M), tempering the credit profile.  \n\nDECISION: BBB+",
+ "prompt_sha256": "5170c6b57b51c02072daa92e50e03762d26c85b66ec89fff7a22a20182033c55",
+ "in_tok": 237,
+ "out_tok": 283,
+ "usd": 0.000401,
+ "utc": "2026-10-11T20:46:19.046040+00:00"
+}

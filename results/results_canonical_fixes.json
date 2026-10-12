@@ -1,0 +1,263 @@
+{
+ "_meta": {
+  "rows": 4316,
+  "profiles": 45,
+  "specs": 32,
+  "new_model_calls": 0
+ },
+ "item1_boundary": {
+  "rank_BBBminus": 9,
+  "rank_BBplus": 10,
+  "b_halfstep": 9.5,
+  "letters_in_band_by_w": {
+   "1": [
+    "BBB-",
+    "BB+"
+   ],
+   "1.5": [
+    "BBB",
+    "BBB-",
+    "BB+",
+    "BB"
+   ],
+   "2": [
+    "BBB",
+    "BBB-",
+    "BB+",
+    "BB"
+   ],
+   "2.5": [
+    "BBB+",
+    "BBB",
+    "BBB-",
+    "BB+",
+    "BB",
+    "BB-"
+   ],
+   "3": [
+    "BBB+",
+    "BBB",
+    "BBB-",
+    "BB+",
+    "BB",
+    "BB-"
+   ]
+  },
+  "WATCH_stratum_letters": [
+   "BB+",
+   "BB",
+   "BB-",
+   "B+",
+   "B",
+   "B-"
+  ],
+  "band_equals_WATCH_at_any_w": false,
+  "share_of_profiles_near_boundary_by_w": {
+   "1": 0.1333,
+   "1.5": 0.1778,
+   "2": 0.1778,
+   "2.5": 0.5778,
+   "3": 0.5778
+  },
+  "note": "w=1 admits only the two letters straddling the boundary; the WATCH stratum spans BB+ through B-. The two constructs are not the same and must not be equated."
+ },
+ "item2_decomposition": {
+  "n_i_distribution": {
+   "96": 41,
+   "95": 4
+  },
+  "profiles_with_n_lt_96": 4,
+  "total_pair_disagreement_with_replacement": 0.2519,
+  "total_pair_disagreement_without_replacement_per_profile_n": 0.2545,
+  "specification_only_pair_disagreement": 0.2427,
+  "seed_only_pair_disagreement_within_cells": 0.0691,
+  "note": "Total pools both sources. Specification-only collapses the three seeds to the per-cell modal call before varying specification. Seed-only varies seed inside identical profile x specification cells."
+ },
+ "item8_canonical": {
+  "construction": "score on the 16 calibration specifications; event = the profile's modal IG/HY call changes on at least one of the 16 disjoint validation specifications; n = 45 profiles",
+  "k_calibration_elicitations_per_profile": [
+   48
+  ],
+  "smallest_nonzero_sis_at_k_cal": 0.0408,
+  "smallest_nonzero_sis_at_k16": 0.1172,
+  "min_dissent_count_satisfying_sis_ge_0.08": 3,
+  "event_base_rate": 0.7556,
+  "rules": {
+   "any_disagreement_sis_gt_0": {
+    "TP": 33,
+    "FP": 7,
+    "FN": 1,
+    "TN": 4,
+    "precision": 0.825,
+    "recall": 0.9706,
+    "flagged_share": 0.8889,
+    "net_benefit": {
+     "0.10": 0.716049,
+     "0.20": 0.694444,
+     "0.30": 0.666667,
+     "0.45": 0.606061,
+     "0.60": 0.5
+    }
+   },
+   "sis_ge_0.08": {
+    "TP": 30,
+    "FP": 0,
+    "FN": 4,
+    "TN": 11,
+    "precision": 1.0,
+    "recall": 0.8824,
+    "flagged_share": 0.6667,
+    "net_benefit": {
+     "0.10": 0.666667,
+     "0.20": 0.666667,
+     "0.30": 0.666667,
+     "0.45": 0.666667,
+     "0.60": 0.666667
+    }
+   },
+   "dissent_ge_2": {
+    "TP": 30,
+    "FP": 3,
+    "FN": 4,
+    "TN": 8,
+    "precision": 0.9091,
+    "recall": 0.8824,
+    "flagged_share": 0.7333,
+    "net_benefit": {
+     "0.10": 0.659259,
+     "0.20": 0.65,
+     "0.30": 0.638095,
+     "0.45": 0.612121,
+     "0.60": 0.566667
+    }
+   },
+   "dissent_ge_3": {
+    "TP": 30,
+    "FP": 0,
+    "FN": 4,
+    "TN": 11,
+    "precision": 1.0,
+    "recall": 0.8824,
+    "flagged_share": 0.6667,
+    "net_benefit": {
+     "0.10": 0.666667,
+     "0.20": 0.666667,
+     "0.30": 0.666667,
+     "0.45": 0.666667,
+     "0.60": 0.666667
+    }
+   }
+  },
+  "note": "tau=0.08 and 'any disagreement' are DIFFERENT rules on this calibration set, which pools three seeds per specification (k=48). The equivalence of tau=0.08 to 'any disagreement' holds only at k=16."
+ },
+ "item9_equivalence_scope": {
+  "by_resolution": {
+   "ighy": {
+    "spearman_sis_vs_dissent": 1.0,
+    "rank_identical": true
+   },
+   "band": {
+    "spearman_sis_vs_dissent": 0.970732,
+    "rank_identical": false
+   }
+  },
+  "note": "At the binary gate the equivalence is algebraic, since SIS=2(m/k)(1-m/k) is strictly increasing in the minority count. At three bands the measures are NOT rank-identical."
+ },
+ "item2b_tie_handling": {
+  "two_observation_cells": 4,
+  "two_observation_cells_with_disagreeing_seeds": 0,
+  "three_observation_cells_with_no_modal_winner": 0,
+  "rule": "the per-specification outcome is the modal call across that cell's seeds; a tie with no modal winner would be resolved by treating the cell as dissenting",
+  "note": "The rule never binds in these data: all four two-observation cells are unanimous and no three-observation cell lacks a modal winner."
+ },
+ "item3b_dissent_rule": {
+  "construction": "score on the 16 calibration specifications; event = the profile's modal IG/HY call changes on at least one of the 16 disjoint validation specifications; n = 45 profiles",
+  "by_threshold_c": {
+   "1": {
+    "TP": 33,
+    "FP": 7,
+    "precision": 0.825,
+    "recall": 0.9706,
+    "referred_share": 0.8889,
+    "net_benefit": {
+     "0.10": 0.716049,
+     "0.30": 0.666667,
+     "0.60": 0.5
+    }
+   },
+   "2": {
+    "TP": 30,
+    "FP": 3,
+    "precision": 0.9091,
+    "recall": 0.8824,
+    "referred_share": 0.7333,
+    "net_benefit": {
+     "0.10": 0.659259,
+     "0.30": 0.638095,
+     "0.60": 0.566667
+    }
+   },
+   "3": {
+    "TP": 30,
+    "FP": 0,
+    "precision": 1.0,
+    "recall": 0.8824,
+    "referred_share": 0.6667,
+    "net_benefit": {
+     "0.10": 0.666667,
+     "0.30": 0.666667,
+     "0.60": 0.666667
+    }
+   },
+   "4": {
+    "TP": 29,
+    "FP": 0,
+    "precision": 1.0,
+    "recall": 0.8529,
+    "referred_share": 0.6444,
+    "net_benefit": {
+     "0.10": 0.644444,
+     "0.30": 0.644444,
+     "0.60": 0.644444
+    }
+   },
+   "6": {
+    "TP": 26,
+    "FP": 0,
+    "precision": 1.0,
+    "recall": 0.7647,
+    "referred_share": 0.5778,
+    "net_benefit": {
+     "0.10": 0.577778,
+     "0.30": 0.577778,
+     "0.60": 0.577778
+    }
+   },
+   "8": {
+    "TP": 23,
+    "FP": 0,
+    "precision": 1.0,
+    "recall": 0.6765,
+    "referred_share": 0.5111,
+    "net_benefit": {
+     "0.10": 0.511111,
+     "0.30": 0.511111,
+     "0.60": 0.511111
+    }
+   }
+  },
+  "and_gate_d_ge_1_and_near_w1": {
+   "TP": 6,
+   "FP": 0,
+   "precision": 1.0,
+   "recall": 0.1765,
+   "referred_share": 0.1333,
+   "net_benefit": {
+    "0.10": 0.133333,
+    "0.30": 0.133333,
+    "0.60": 0.133333
+   }
+  },
+  "note": "d>=3 attains precision 1.000 with a flat net benefit of 0.6667 and so dominates d>=1 once referral is costly. Conjoining near-boundary status with dissent cuts recall to 0.176, so near-boundary status is reported as a severity indicator rather than a mandatory gate."
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A01",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":2,\"rationale\":\"Sustained losses (negative EBIT and net income) weaken credit quality; liquidity is moderate and leverage is not extreme (liabilities/assets ~58%).\"}",
+ "prompt_sha256": "51b725451dcc2f349eb5183e61aa084577e63bff53a201b3929f4e47b5d5b84d",
+ "in_tok": 220,
+ "out_tok": 134,
+ "usd": 0.000212,
+ "utc": "2026-10-11T20:44:59.780708+00:00"
+}

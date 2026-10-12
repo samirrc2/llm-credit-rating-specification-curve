@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R018",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows adequate liquidity (current ratio \u2248 1.44) and currently profitable operations (net income and EBIT are positive), supporting near-term debt service capacity. However, leverage is relatively high (total liabilities about 62% of assets; liabilities-to-equity \u2248 1.9) and retained earnings are materially negative, indicating weaker long-run earnings retention despite recent profitability. Overall, this profile aligns with the lower end of investment grade risk.  \nDECISION: BBB-",
+ "prompt_sha256": "78ee5b6f8c34fe408b34cbdd5398ed4f95f4a0ef937a4912b0d7b16a231de0f4",
+ "in_tok": 239,
+ "out_tok": 268,
+ "usd": 0.000383,
+ "utc": "2026-10-11T20:45:37.251734+00:00"
+}

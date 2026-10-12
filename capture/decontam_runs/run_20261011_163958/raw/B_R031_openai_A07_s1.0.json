@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R031",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Liquidity appears weak with a current ratio of 0.55 (current assets $475M vs. current liabilities $857M), which increases near-term financial stress. While operating performance is solid (EBIT margin ~20%) and leverage is partially buffered by sizeable equity ($2,866M), the low net margin (~3.7%) limits earnings resilience.  \nDECISION: BB-",
+ "prompt_sha256": "1a0d84274ca43770de8ca8334f14b2a65abd8149f1219855619ddc052d3807e6",
+ "in_tok": 224,
+ "out_tok": 211,
+ "usd": 0.000309,
+ "utc": "2026-10-11T20:46:26.020805+00:00"
+}

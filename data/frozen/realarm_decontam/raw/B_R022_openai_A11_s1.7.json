@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R022",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows moderate liquidity (current ratio \u2248 1.14) and solid capitalization (equity of 9,265M vs. total liabilities of 12,471M), but profitability is thin with net income margin \u2248 2.7% despite higher EBIT (2,227M). Leverage is meaningful (liabilities \u2248 57% of assets), which\u2014combined with low bottom-line earnings\u2014limits credit strength to the lower end of investment grade.  \n\nDECISION: BBB-",
+ "prompt_sha256": "3418e00706d28a473f2006b3314b5a6338978781a5a3de8ae013d142c35d54a8",
+ "in_tok": 241,
+ "out_tok": 312,
+ "usd": 0.000438,
+ "utc": "2026-10-11T20:45:52.809666+00:00"
+}

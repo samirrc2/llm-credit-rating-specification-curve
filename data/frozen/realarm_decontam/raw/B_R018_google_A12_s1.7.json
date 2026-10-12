@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R018",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 4, \"rationale\": \"Strong balance sheet, substantial revenue, high EBIT margin, and solid equity cushion, tempered by negative retained earnings.\"}\n```",
+ "prompt_sha256": "151a87e1b5d45a50c7267873f26f95e19bff2c93d69e202293a75a820c770cb6",
+ "in_tok": 279,
+ "out_tok": 46,
+ "usd": 0.000833,
+ "utc": "2026-10-11T20:48:31.900566+00:00"
+}

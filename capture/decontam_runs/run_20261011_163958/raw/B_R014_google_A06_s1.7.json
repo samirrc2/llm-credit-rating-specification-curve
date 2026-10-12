@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R014",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company demonstrates a very strong financial profile, characterized by solid profitability (EBIT margin of ~15.5% and ROA of ~6.8%), a robust balance sheet with a low total debt/liabilities burden relative to equity (Equity/Assets of ~62%), and strong liquidity (Current Ratio of ~2.48). These credit metrics indicate very high creditworthiness and strong capacity to meet financial commitments, fully supporting a high investment-grade rating.\n\nDECISION: A+",
+ "prompt_sha256": "df1af21228c44b629cbe2a66fdf021efa93447e8adf447fc7038f0558c6da619",
+ "in_tok": 220,
+ "out_tok": 102,
+ "usd": 0.001248,
+ "utc": "2026-10-11T20:48:22.212217+00:00"
+}

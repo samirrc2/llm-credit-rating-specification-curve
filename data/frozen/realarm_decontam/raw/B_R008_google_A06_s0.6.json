@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R008",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits strong financial health, characterized by high profitability (EBIT margin of ~26.6% and ROA of ~7.0%), a robust capital structure with equity backing nearly 47% of total assets, excellent liquidity (current ratio of 2.27x), and a substantial retained earnings base relative to liabilities. These high-investment-grade fundamentals, paired with a moderate asset scale ($2.66B), align with a solid upper-medium grade credit profile.\n\nDECISION: A",
+ "prompt_sha256": "0b044a3c270a1fc90bd96f1bf8b7c82f651832cc816612183b16355962c5a42e",
+ "in_tok": 212,
+ "out_tok": 107,
+ "usd": 0.001281,
+ "utc": "2026-10-11T20:48:04.471619+00:00"
+}

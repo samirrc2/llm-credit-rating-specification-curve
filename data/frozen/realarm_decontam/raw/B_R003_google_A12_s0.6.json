@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R003",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage with Total Liabilities of $2.64B against $829M equity, poor liquidity (working capital -$132M), and Altmans Z-score in distress zone.\"}\n```",
+ "prompt_sha256": "de4d569d07622918f86bfba0eaf9208b8d2ffd3e76cbdf6e071fcd4067e966bb",
+ "in_tok": 261,
+ "out_tok": 65,
+ "usd": 0.000976,
+ "utc": "2026-10-11T20:47:52.503125+00:00"
+}

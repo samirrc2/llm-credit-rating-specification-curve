@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows solid profitability (net income of 403M on revenue of 2,106M, ~19% net margin), but it is highly leveraged with total liabilities (17,381M) nearly matching total assets (21,779M) and relatively thin shareholders\u2019 equity (3,328M). This combination suggests moderate credit risk rather than high-grade stability.  \nDECISION: BBB-",
+ "prompt_sha256": "a067d9c43795ce815bcbbbff9253aa493ff201e4d807ea3e7f70b8e803373dc9",
+ "in_tok": 197,
+ "out_tok": 187,
+ "usd": 0.000273,
+ "utc": "2026-10-11T20:45:12.924014+00:00"
+}

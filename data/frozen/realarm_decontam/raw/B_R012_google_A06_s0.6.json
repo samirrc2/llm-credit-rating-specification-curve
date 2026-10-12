@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R012",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits strong financial health, highlighted by high profitability (EBIT margin of ~13.1% and ROA of ~10.4%), a solid leverage profile with an equity ratio of 48.5%, excellent liquidity (current ratio of 2.35x), and significant accumulated earnings relative to total assets. These credit metrics demonstrate robust debt-service capability and financial flexibility consistent with a strong investment-grade profile.\n\nDECISION: A",
+ "prompt_sha256": "9470e660873ef920ae49e011a583effef5494860d06cf339783513c80a5df565",
+ "in_tok": 218,
+ "out_tok": 95,
+ "usd": 0.001182,
+ "utc": "2026-10-11T20:48:14.795453+00:00"
+}

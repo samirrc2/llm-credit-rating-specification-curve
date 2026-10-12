@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R029",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong profitability with $5,180M in revenue and $484M in EBIT, alongside an exceptionally pristine capital structure characterized by negligible debt and $7M in total liabilities against $2,005M in equity. While the balance sheet leverage and interest coverage metrics are virtually risk-free, the overall business scale, moderate operating margin (~9.3%), and lower current ratio (~1.3x) align the credit profile with high investment-grade standards rather than the highest AAA tiers.\n\nDECISION: AA",
+ "prompt_sha256": "bfd3cee40fc829522d32179cccaae6579a07b062f32f151e6db7eac069ed08b7",
+ "in_tok": 221,
+ "out_tok": 112,
+ "usd": 0.001339,
+ "utc": "2026-10-11T20:46:14.922902+00:00"
+}

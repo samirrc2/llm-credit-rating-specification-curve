@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R017",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows decent profitability (net income margin ~12.7% and EBIT of 571M) and manageable near-term liquidity (current ratio ~1.35). However, leverage is high with total liabilities at ~65% of total assets (7,499M vs. 11,567M), limiting rating headroom. Overall this points to a speculative-grade profile with moderate credit risk.  \n\nDECISION: BB",
+ "prompt_sha256": "d9c504a32bc5dbe1542343e0fc829eea763c970197e5015bb216699dcfc8ceea",
+ "in_tok": 235,
+ "out_tok": 216,
+ "usd": 0.000317,
+ "utc": "2026-10-11T20:45:34.908324+00:00"
+}

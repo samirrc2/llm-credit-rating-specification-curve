@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R012",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company demonstrates a very strong financial profile, characterized by solid profitability (EBIT margin of ~13.1%), excellent liquidity (current ratio of 2.35x), low leverage (debt/liabilities well-covered by equity and assets), and a substantial retained earnings base relative to its asset scale. These credit metrics consistently map to a strong investment-grade rating, reflecting very low default risk and high financial flexibility.\n\nDECISION: A+",
+ "prompt_sha256": "02ce794d6d76dc2704316237b2466f1fd1b87e754b8d2ed08d2c8eb9d17a580b",
+ "in_tok": 228,
+ "out_tok": 93,
+ "usd": 0.001179,
+ "utc": "2026-10-11T20:48:17.009859+00:00"
+}

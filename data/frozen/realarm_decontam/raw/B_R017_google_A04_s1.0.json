@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R017",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Solid equity base ($2.4B) and profitable operations ($183M net income) offset moderate leverage (Total Debt/Assets around 65%).\"}\n```",
+ "prompt_sha256": "eaa2d2cd7a10afd1342ae99326487e41c33d58b24ff34ff2caab8ea2614e8087",
+ "in_tok": 265,
+ "out_tok": 56,
+ "usd": 0.000901,
+ "utc": "2026-10-11T20:48:28.227580+00:00"
+}

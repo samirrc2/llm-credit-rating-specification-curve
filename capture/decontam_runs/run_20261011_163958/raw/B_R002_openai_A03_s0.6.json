@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows weak profitability with a net loss (-83M) and very low operating income (EBIT of 4M) relative to revenue (5,575M). Liquidity is only modest (current ratio \u2248 1.21), while leverage is fairly high (total liabilities of 4,486M versus equity of 1,512M), indicating limited balance-sheet strength to absorb continued losses.  \n\nDECISION: BB-",
+ "prompt_sha256": "d58a5cb2ec7132abec0af2b2d8cbba74608ec714e793d2d853753e1b9b920862",
+ "in_tok": 237,
+ "out_tok": 218,
+ "usd": 0.00032,
+ "utc": "2026-10-11T20:44:46.659377+00:00"
+}

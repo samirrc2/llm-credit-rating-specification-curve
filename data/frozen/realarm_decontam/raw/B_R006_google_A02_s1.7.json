@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits massive scale with over $33 billion in revenue and a strong asset base, alongside a solid solvency profile reflected in $7.2 billion in shareholders' equity and a moderate liabilities-to-assets ratio (~58%). However, profitability is weak with negative EBIT (-$73 million) and a net loss (-$214 million), while liquidity is somewhat tight with a current ratio of roughly 1.21x. Balancing the company's substantial market presence and positive equity cushion against its current operational unprofitability justifies an investment-grade rating at the lower end of the spectrum.\n\nDECISION: BBB-",
+ "prompt_sha256": "73d125778d5b29803fa9454ecda20acf3f6bf58be86fd554c112d380ef51b938",
+ "in_tok": 229,
+ "out_tok": 130,
+ "usd": 0.001513,
+ "utc": "2026-10-11T20:48:01.898678+00:00"
+}

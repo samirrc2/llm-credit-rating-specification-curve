@@ -1,7 +1,7 @@
 Highlights
 
-In the evaluated systems, prompt and model choices move ~25% of AI credit ratings across the IG/HY line.
-Descriptive main-effects decomposition: no single elicitation axis accounts for >~5% variance; pure seed noise is ~8%.
-Instability persists on the temperature-0-honored subgrid (one provider, temperature 0).
+About 25% of matched elicitation pairs disagree on the IG/HY classification.
+Elicitation axes jointly explain little variance (R2 0.083-0.119); seed noise is ~8%.
+Instability persists even under deterministic execution (one provider, temp 0).
 Unweighted cross-specification agreement stays modest (Fleiss kappa <= 0.49).
-Score validated on held-out specs (ROC-AUC 0.94) gives a candidate operational model-risk control.
+A dispersion index flags unstable issuers, but adds nothing over counting dissents.

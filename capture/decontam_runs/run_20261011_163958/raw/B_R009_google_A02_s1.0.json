@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R009",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits strong profitability and interest coverage with an EBIT of $1.572 billion on $4.738 billion in revenue (33.2% operating margin), alongside a solid capital structure characterized by a 48.3% equity-to-assets ratio and substantial retained earnings. Although current liabilities slightly exceed current assets, the company's robust net income ($973 million) and large asset base ($15.011 billion) provide strong financial flexibility and low credit risk.\n\nDECISION: A-",
+ "prompt_sha256": "05389e91bfd683383eb6274d27387297cef8456a44b2ba248d1aafd6bef283a1",
+ "in_tok": 230,
+ "out_tok": 112,
+ "usd": 0.001353,
+ "utc": "2026-10-11T20:48:07.696633+00:00"
+}

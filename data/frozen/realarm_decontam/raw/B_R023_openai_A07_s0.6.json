@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R023",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Despite strong liquidity (current ratio ~3.8) and positive profitability (net income 202M on revenue 376M), the deeply negative retained earnings (-938M) indicate significant accumulated losses and weaken the balance-sheet credit quality. With moderate leverage (total liabilities 174M vs. equity 635M), overall credit strength is good but not investment-grade.\n\nDECISION: BB+",
+ "prompt_sha256": "0d5d5a585aad2c585b8eb8e8a1bcf86d68304b950f5eaaf8f2255ebebc2343f4",
+ "in_tok": 216,
+ "out_tok": 205,
+ "usd": 0.000299,
+ "utc": "2026-10-11T20:45:52.137026+00:00"
+}

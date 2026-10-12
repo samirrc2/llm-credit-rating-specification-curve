@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R004",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows good operating profitability (EBIT margin ~17% based on EBIT of 436M on revenue of 2,499M) and solid near-term liquidity (current ratio ~2.2x). However, leverage is elevated (total liabilities 2,020M vs. equity 980M) and retained earnings are negative (-652M), indicating a weaker cumulative balance-sheet profile despite current earnings strength.  \n\nDECISION: BB-",
+ "prompt_sha256": "4b0a61db3d0317a4b171fdb1db4cdb1110af9e949447523cb8879bf0e0660d5c",
+ "in_tok": 231,
+ "out_tok": 197,
+ "usd": 0.000292,
+ "utc": "2026-10-11T20:44:52.502501+00:00"
+}

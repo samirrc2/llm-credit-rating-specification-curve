@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R016",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer has solid liquidity (current ratio ~3.2) and positive equity (838M), but it is loss-making with significantly negative operating income (EBIT -127M) and net income (-214M) relative to revenue (2,044M), indicating weak profitability and earnings pressure. Leverage is moderate (total liabilities 1,114M vs. equity 838M), but ongoing losses constrain credit quality.  \n\nDECISION: BB-",
+ "prompt_sha256": "e625d26349aefb1469d66d62070388fe33c4ae96cb13ca9bab3d5c0ca094a16f",
+ "in_tok": 231,
+ "out_tok": 240,
+ "usd": 0.000346,
+ "utc": "2026-10-11T20:45:31.439807+00:00"
+}

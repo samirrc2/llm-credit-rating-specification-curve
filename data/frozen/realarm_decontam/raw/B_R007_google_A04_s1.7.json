@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R007",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with healthy equity ($8.58B), solid liquidity (2.25 current ratio), and consistent profitability support an investment-grade rating.\"}\n```",
+ "prompt_sha256": "705c41dfeeb7b44311a6db78a6bad807ae3e7319129d98cdb180d2800eaebe3a",
+ "in_tok": 274,
+ "out_tok": 57,
+ "usd": 0.000924,
+ "utc": "2026-10-11T20:48:03.373166+00:00"
+}

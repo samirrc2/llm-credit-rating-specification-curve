@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R025",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company generates substantial revenue ($3.47B) and positive operating income ($264M), maintaining moderate leverage with an assets-to-liabilities ratio of ~1.22x and a current ratio of 1.32x. However, the negative retained earnings (-$748M) and relatively low net margin (~4.1%) highlight historical losses and moderate debt coverage, placing the issuer in the solid investment-grade BBB range.\n\nDECISION: BBB",
+ "prompt_sha256": "e373297064e48e4a12be62130edf3ad8a129992584d092d5fd1608eb2e9a2f37",
+ "in_tok": 219,
+ "out_tok": 101,
+ "usd": 0.001237,
+ "utc": "2026-10-11T20:46:00.494560+00:00"
+}

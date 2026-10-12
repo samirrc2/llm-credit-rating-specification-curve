@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays extremely low profitability and debt-coverage capabilities, highlighted by an operating margin near zero (EBIT of $4M on $5,575M in revenue) and a net loss of -$83M. While the company maintains positive net worth ($1,512M) and a moderate current ratio (1.21x), its high debt burden ($4,486M in total liabilities) relative to negligible operating earnings presents significant credit risk and speculative characteristics.\n\nDECISION: B",
+ "prompt_sha256": "cbdc3754aff3ef6322605d4d758a5e85a0f0c71dc3102b3fb37af06754a8bc76",
+ "in_tok": 225,
+ "out_tok": 107,
+ "usd": 0.001301,
+ "utc": "2026-10-11T20:47:50.411553+00:00"
+}

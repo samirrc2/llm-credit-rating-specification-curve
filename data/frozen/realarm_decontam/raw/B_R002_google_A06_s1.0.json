@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company demonstrates significant top-line scale with $9.3 billion in revenue, but exhibits extremely weak profitability (EBIT of $7M and a net loss of $139M) and high leverage, with total liabilities representing nearly 75% of total assets. Additionally, while the net current asset position is slightly positive, thin operating margins and a negative bottom line constrain debt-servicing capacity and financial flexibility, placing the credit profile in high-yield territory.\n\nDECISION: BB-",
+ "prompt_sha256": "05e83e048d7ea08981704ef7f55f6c23f9051edb7b17512e4ae1fcebc1b4c538",
+ "in_tok": 219,
+ "out_tok": 103,
+ "usd": 0.001256,
+ "utc": "2026-10-11T20:47:51.104025+00:00"
+}

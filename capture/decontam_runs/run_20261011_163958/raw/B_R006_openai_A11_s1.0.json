@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows modest liquidity (current ratio \u2248 1.21) and meaningful equity (equity/assets \u2248 0.41), which supports stability. However, profitability is negative at the operating level (EBIT \u221243M; net income \u2212126M) and leverage is relatively high (total liabilities \u2248 58% of assets; liabilities/equity \u2248 1.42), indicating elevated credit risk.  \n\nDECISION: BB-",
+ "prompt_sha256": "4a1bbda149d5f773dfd8bc9f773aa57db5a24afb0d55d3af94fdb7d476722e4d",
+ "in_tok": 239,
+ "out_tok": 339,
+ "usd": 0.000472,
+ "utc": "2026-10-11T20:45:00.889706+00:00"
+}

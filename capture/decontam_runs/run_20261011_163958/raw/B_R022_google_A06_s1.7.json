@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R022",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits a strong balance sheet with $21.7B in total assets, $9.3B in shareholders' equity, solid revenue of $15.5B, and an operating margin of approximately 14.4%. While profitability is robust and the overall capital structure is healthy, net income is compressed relative to EBIT, and short-term liquidity is somewhat tight with a current ratio of 1.14. These financial metrics align well with a solid upper-medium investment grade profile.\n\nDECISION: A-",
+ "prompt_sha256": "a8eb30c8786ee08f7a31ae4e4488e18442401a8f6b13101c5287a9a0d26526e9",
+ "in_tok": 225,
+ "out_tok": 110,
+ "usd": 0.001328,
+ "utc": "2026-10-11T20:48:41.392128+00:00"
+}

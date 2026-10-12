@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays significant financial distress, highlighted by negative shareholders' equity (-$843M), negative retained earnings (-$1,810M), a net loss of -$39M, and total liabilities that exceed total assets. While the company remains operational with $4,760M in revenue and positive operating income of $126M, its highly leveraged balance sheet and thin current ratio indicate substantial credit risk consistent with a high-yield rating.\n\nDECISION: B-",
+ "prompt_sha256": "be0c662ca0bb69ebe8b1c19ae63f20ecb8d75663f939727d960cade163402af8",
+ "in_tok": 220,
+ "out_tok": 102,
+ "usd": 0.001248,
+ "utc": "2026-10-11T20:48:19.141718+00:00"
+}

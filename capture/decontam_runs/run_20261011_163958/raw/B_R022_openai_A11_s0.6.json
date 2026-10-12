@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R022",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows moderate leverage (total liabilities 4,402M vs. total assets 7,672M; ~57% gearing) with solid operating profitability (EBIT margin ~14%). Liquidity is only adequate (current ratio ~1.14), and net profitability is thin (net margin ~2.7%), which tempers credit strength. Overall, this supports an upper investment-grade but not top-tier rating.\n\nDECISION: BBB+",
+ "prompt_sha256": "f4299598ea600a07ca8cc6984b925e98cc0ff683375dd722e6aa6b21c1fe52da",
+ "in_tok": 239,
+ "out_tok": 260,
+ "usd": 0.000373,
+ "utc": "2026-10-11T20:45:49.479823+00:00"
+}

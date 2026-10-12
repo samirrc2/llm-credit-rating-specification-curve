@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R025",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A05",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":3,\"rationale\":\"High leverage (liabilities/assets ~82%) and negative retained earnings indicate stress; profitability is positive but thin (EBIT margin ~7.6%). Liquidity is modest (current ratio ~1.3).\"}",
+ "prompt_sha256": "78655f31dd80c46eb229c928fd9d324774312bf2f20cbd35aca324dbc0591d84",
+ "in_tok": 213,
+ "out_tok": 226,
+ "usd": 0.000325,
+ "utc": "2026-10-11T20:46:01.787709+00:00"
+}

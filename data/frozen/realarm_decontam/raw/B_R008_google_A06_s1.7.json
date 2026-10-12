@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R008",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits strong financial fundamentals, characterized by excellent profitability (EBIT margin of ~26.6% and ROA of ~8.7%), a healthy balance sheet with a low total debt-to-equity profile (liabilities/equity ratio of ~1.13), and solid liquidity (current ratio of 2.28). Additionally, substantial retained earnings relative to total assets demonstrate a strong track record of cumulative profitability and capital preservation, supporting a high investment-grade profile.\n\nDECISION: A+",
+ "prompt_sha256": "34f0a25d8818cfb6352ca7a60b158358b5c22bd0b1b72311199ca514cb530d79",
+ "in_tok": 218,
+ "out_tok": 106,
+ "usd": 0.001281,
+ "utc": "2026-10-11T20:48:06.959130+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R007",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\": \"A+\", \"confidence\": 4, \"rationale\": \"Strong balance sheet with total assets of $18.4B, solid equity base ($8.6B), low leverage, and consistent profitability.\"}",
+ "prompt_sha256": "d640d70d8e2d720b3e92c05a62e139ee6c08577c0f494cb1b86a096b09c4eee2",
+ "in_tok": 267,
+ "out_tok": 48,
+ "usd": 0.000832,
+ "utc": "2026-10-11T20:48:03.868162+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R018",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A05",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Moderate profitability (EBIT margin ~8%), decent liquidity (current ratio ~1.44), but negative retained earnings and high leverage (liabilities/equity ~1.93).\"}",
+ "prompt_sha256": "6ac8aeafaf7e9813933e3d8d2fc56c54df0f3c756287bf959443d93b1dc45376",
+ "in_tok": 215,
+ "out_tok": 223,
+ "usd": 0.000322,
+ "utc": "2026-10-11T20:45:36.611153+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R025",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 2,
+ "ok": true,
+ "raw_response": "ANSWER: RYDER SYSTEM, INC.",
+ "prompt_sha256": "487c6ad55ae0a2d7ba5ff15ef79f7d729b4e1e40577268ed31f2c5497f18f98a",
+ "in_tok": 545,
+ "out_tok": 8,
+ "usd": 0.00089,
+ "utc": "2026-10-11T20:47:43.156555+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R018",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong asset base, solid revenue, positive net income, and healthy current ratio offset negative retained earnings and moderate leverage.\"}\n```",
+ "prompt_sha256": "ef5e50cb431896d4e094e71fcb3585747c673b772cad3dd3f3ab1c4c9171d6c4",
+ "in_tok": 269,
+ "out_tok": 46,
+ "usd": 0.000817,
+ "utc": "2026-10-11T20:48:31.362815+00:00"
+}

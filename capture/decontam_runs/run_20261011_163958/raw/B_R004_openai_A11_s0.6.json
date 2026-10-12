@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R004",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows decent operating profitability (EBIT of 436M on 2,499M revenue) and good near-term liquidity (current ratio \u2248 2.2). However, leverage is relatively high (total liabilities \u2248 67% of total assets) and retained earnings are materially negative (-652M), indicating accumulated financial stress despite current earnings strength.  \n\nDECISION: BB-",
+ "prompt_sha256": "a787ba1c504e4e5fcbe78f2389e663797654e6dea0a1bb15e48a9c82caa85c23",
+ "in_tok": 233,
+ "out_tok": 250,
+ "usd": 0.000359,
+ "utc": "2026-10-11T20:44:54.109593+00:00"
+}

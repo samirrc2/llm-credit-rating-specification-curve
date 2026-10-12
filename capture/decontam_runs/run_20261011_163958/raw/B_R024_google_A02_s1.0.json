@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R024",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer generates solid revenue ($4.08B) and maintains healthy profitability with an operating margin of 13.5% (EBIT $552M) and net income of $384M. However, creditworthiness is constrained by high leverage (Total Liabilities/Total Assets of 82.3% and Liabilities-to-Equity of 4.67x) and weak short-term liquidity, as evidenced by a current ratio below 1.0 (Current Assets of $1.46B vs. Current Liabilities of $1.60B). Taking into account these moderate investment-grade operating metrics offset by elevated leverage, the financial profile is consistent with a lower investment-grade credit rating.\n\nDECISION: BBB-",
+ "prompt_sha256": "03572b2dda660a2c63fec713a93c257fa4f5836ecb93ff82d3d9ac0d35832fd8",
+ "in_tok": 223,
+ "out_tok": 157,
+ "usd": 0.001747,
+ "utc": "2026-10-11T20:48:44.041545+00:00"
+}

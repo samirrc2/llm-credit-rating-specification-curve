@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R021",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company demonstrates solid financial stability with strong leverage metrics (Equity/Assets of 40.2%, Total Debt/Liabilities well-covered by total assets), healthy liquidity (Current Ratio of 1.50x), and robust profitability (Revenue of $3.54B with a Net Margin of 4.3% and Return on Equity of 11.6%). These credit fundamentals reflect an investment-grade profile with moderate risk.\n\nDECISION: BBB",
+ "prompt_sha256": "d589fabfa681334ef76285c9e216a18d856a3ece5b7a0d8a9cb30082a6f55082",
+ "in_tok": 214,
+ "out_tok": 97,
+ "usd": 0.001194,
+ "utc": "2026-10-11T20:48:39.152345+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer is experiencing significant profitability distress, evidenced by negative EBIT (-$172M) and a large net loss (-$535M), which severely undermines debt service coverage. However, the credit risk is partially mitigated by a substantial equity cushion ($3,427M), solid liquidity with current assets ($3,842M) well exceeding current liabilities ($1,660M), and significant historical cumulative profitability reflected in retained earnings ($7,662M). These factors place the issuer in the speculative grade, but well above imminent default territory.\n\nDECISION: BB",
+ "prompt_sha256": "1fa87778b20f1a50eb4bf92d83011453fa120bc3e1381eae5d8c4c3c83d76c19",
+ "in_tok": 229,
+ "out_tok": 123,
+ "usd": 0.001451,
+ "utc": "2026-10-11T20:48:12.836848+00:00"
+}

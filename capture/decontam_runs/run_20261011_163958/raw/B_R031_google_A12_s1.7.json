@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R031",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"High leverage with Total Liabilities/Assets over 70% and low interest coverage potential, but positive EBIT and equity support a mid-speculative rating.\"}\n```",
+ "prompt_sha256": "42c9bfdcfceda182130037f56408d7418f3037b8dfdc0469132b9265623ae4b4",
+ "in_tok": 272,
+ "out_tok": 54,
+ "usd": 0.000894,
+ "utc": "2026-10-11T20:48:50.608632+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R008",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows solid profitability (net margin ~21% and EBIT margin ~27%) and strong near-term liquidity (current ratio ~2.3x), indicating good operating performance and financial flexibility. Leverage is moderate (total liabilities ~53% of total assets), which limits the ability to reach the higher investment-grade categories. Overall, the profile aligns most closely with **BBB+**.\n\nDECISION: BBB+",
+ "prompt_sha256": "ea7811d86f388672de80272f20c95ca711df2e8c258ff55598ce24da8d78d5bc",
+ "in_tok": 233,
+ "out_tok": 238,
+ "usd": 0.000344,
+ "utc": "2026-10-11T20:45:06.234189+00:00"
+}

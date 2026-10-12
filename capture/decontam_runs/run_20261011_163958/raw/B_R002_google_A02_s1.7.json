@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer generates substantial revenue ($15.8 billion) and holds a solid asset base with positive equity ($4.3 billion), but its profitability is severely strained as evidenced by a thin operating margin (EBIT of $12 million) and a substantial net loss of $236 million. Additionally, leverage is elevated (total liabilities of $12.7 billion against total assets of $17.1 billion) and liquidity is tight with a current ratio of roughly 1.21x, placing the credit profile in the speculative grade.\n\nDECISION: BB",
+ "prompt_sha256": "f0df50578a741565be15436723b848cdda68e89cc52e338a32953af4736fe730",
+ "in_tok": 229,
+ "out_tok": 118,
+ "usd": 0.001406,
+ "utc": "2026-10-11T20:47:51.128768+00:00"
+}

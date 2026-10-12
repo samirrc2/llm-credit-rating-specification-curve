@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R020",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows moderate profitability (net margin ~9.8% and EBIT of 537M), with substantial equity providing a meaningful balance-sheet cushion. However, liquidity is weak (current assets 1,107M vs. current liabilities 1,333M; current ratio ~0.83) and leverage is elevated (total liabilities 8,577M vs. total assets 12,689M), which constrains credit quality.  \nDECISION: BBB-",
+ "prompt_sha256": "5402963029dbd552202b982e1728f2647e0e055005353fd5c3234a9e0e14710b",
+ "in_tok": 237,
+ "out_tok": 220,
+ "usd": 0.000322,
+ "utc": "2026-10-11T20:45:43.392835+00:00"
+}

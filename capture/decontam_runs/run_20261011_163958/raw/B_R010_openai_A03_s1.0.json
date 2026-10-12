@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows strong profitability (net income margin ~19%) and substantial retained earnings, indicating good earning capacity to support obligations. However, leverage is high with total liabilities representing a large share of assets (liabilities/assets ~80%), which elevates credit risk and limits headroom. Overall, this profile aligns best with a speculative-grade rating.\n\nDECISION: BB",
+ "prompt_sha256": "69c20c0cf69b46def146ab195805a010356febd106e10aacbba547e51557e183",
+ "in_tok": 204,
+ "out_tok": 156,
+ "usd": 0.000236,
+ "utc": "2026-10-11T20:45:12.299315+00:00"
+}

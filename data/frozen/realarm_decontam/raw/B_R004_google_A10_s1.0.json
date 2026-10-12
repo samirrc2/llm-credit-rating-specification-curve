@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R004",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits solid profitability (EBIT margin of ~17.5%) and strong liquidity with a current ratio of 2.19, alongside a manageable leverage profile (total liabilities to assets of ~67%). However, the negative retained earnings balance (-$1,086M) reflects historical financial deficit or aggressive capital distribution, constraining the credit profile below the single-A tier into solid investment grade.\n\nDECISION: BBB",
+ "prompt_sha256": "4d58c04d4f1d6c731aac1b4b550a97fd310179c5bb3178ad9875f1ebfe479ec8",
+ "in_tok": 228,
+ "out_tok": 90,
+ "usd": 0.001152,
+ "utc": "2026-10-11T20:47:55.634875+00:00"
+}

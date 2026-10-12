@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R001",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows solid liquidity (current ratio \u2248 1.87) and profitability (net margin \u2248 12% and EBIT margin \u2248 16%), with a healthy equity buffer (equity/assets \u2248 42%). However, leverage is not minimal (total liabilities of ~2.2B vs. equity of ~1.6B, implying meaningful balance-sheet leverage), which limits the ability to reach the very top tiers.  \n\nDECISION: BBB+",
+ "prompt_sha256": "5381780f25f412cbf2ac06b1360055a0b3819394cc1093cd2e466e4c86051b1e",
+ "in_tok": 237,
+ "out_tok": 301,
+ "usd": 0.000424,
+ "utc": "2026-10-11T20:44:45.062898+00:00"
+}

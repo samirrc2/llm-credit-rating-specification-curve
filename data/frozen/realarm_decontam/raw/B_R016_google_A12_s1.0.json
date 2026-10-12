@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R016",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 3, \"rationale\": \"High leverage, negative EBIT (-127M), and substantial net losses (-214M) indicate significant credit risk despite positive liquidity and equity cushions.\"}\n```",
+ "prompt_sha256": "070e448d76dbb4861b7678f6b53a34ddcabc42907b289ed5a5bcbfac15c2bb13",
+ "in_tok": 266,
+ "out_tok": 56,
+ "usd": 0.000903,
+ "utc": "2026-10-11T20:48:26.621458+00:00"
+}

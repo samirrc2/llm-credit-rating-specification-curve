@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R030",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a strong asset base ($11.31B) and solid profitability (EBIT of $436M on $2.15B in revenue, yielding an operating margin above 20%). However, financial leverage is moderately elevated with a total liabilities-to-equity ratio of nearly 1.9x and a weak current ratio (0.72x), which poses short-term liquidity constraints typical of an upper-investment-grade or strong mid-investment-grade profile.\n\nDECISION: BBB+",
+ "prompt_sha256": "39b22d20c44cf7377b938be241e7ea291e1effc4de4bb5b3d12eb82c3fcbc59a",
+ "in_tok": 217,
+ "out_tok": 111,
+ "usd": 0.001325,
+ "utc": "2026-10-11T20:48:49.971979+00:00"
+}

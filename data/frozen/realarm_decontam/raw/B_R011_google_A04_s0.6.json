@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB-\", \"confidence\": 3, \"rationale\": \"Adequate liquidity and equity cushion are offset by operating losses and high leverage, signaling a speculative-grade profile.\"}\n```",
+ "prompt_sha256": "8e7e0ccb70f6da73478b12e68295e00662d3ceef3abf91f47610c32f12aa638c",
+ "in_tok": 272,
+ "out_tok": 46,
+ "usd": 0.000822,
+ "utc": "2026-10-11T20:48:11.699695+00:00"
+}

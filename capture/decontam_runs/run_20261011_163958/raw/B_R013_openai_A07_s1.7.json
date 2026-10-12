@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer has negative shareholders\u2019 equity (-843M) and retained earnings (-1,810M), indicating persistent capital impairment, along with a net loss (-39M). Liquidity is only marginal (current assets 986M vs. current liabilities 967M) and operating profitability is thin (EBIT 126M on revenue 4,760M), increasing refinancing and solvency risk.  \nDECISION: CCC-",
+ "prompt_sha256": "ebda13521b874670322933aca5695e8e225dec8d6809de75511a5673bbe2b4d0",
+ "in_tok": 224,
+ "out_tok": 279,
+ "usd": 0.000394,
+ "utc": "2026-10-11T20:45:22.886623+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R019",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC+\", \"confidence\": 4, \"rationale\": \"High leverage, thin equity cushion, negative EBIT, and net losses indicate severe financial distress and high default risk.\"}\n```",
+ "prompt_sha256": "314fc4d0cc426a8b30fd7f2bafe7debefd031e330468b187679c36c25ecc02bf",
+ "in_tok": 273,
+ "out_tok": 45,
+ "usd": 0.000815,
+ "utc": "2026-10-11T20:48:34.052742+00:00"
+}

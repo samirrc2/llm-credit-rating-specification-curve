@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R027",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a respectable balance sheet with a low total liabilities-to-equity ratio (~1.42x), strong liquidity indicated by a current ratio of 2.57x, and solid cumulative profitability evidenced by substantial retained earnings. However, operational efficiency and ultimate bottom-line profitability are relatively thin, with an EBIT margin of 6.42% and a Net Income margin of under 1%. Considering the strong asset coverage and moderate leverage balanced against slim profit margins, the credit profile aligns with an investment-grade rating.\n\nDECISION: BBB",
+ "prompt_sha256": "f7c24e5eebf6d522a3e8fe02f98e463912e18a68b77bf523bda760903740ccb6",
+ "in_tok": 225,
+ "out_tok": 114,
+ "usd": 0.001364,
+ "utc": "2026-10-11T20:48:47.726900+00:00"
+}

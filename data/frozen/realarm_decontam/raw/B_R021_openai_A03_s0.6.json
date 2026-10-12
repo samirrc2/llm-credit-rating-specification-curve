@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R021",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer has reasonable balance-sheet strength with moderate leverage (total liabilities of 689M vs. total assets of 1,154M) and solid near-term liquidity (current ratio \u2248 1.50). However, profitability appears modest for the revenue base (net margin \u2248 4.3% and EBIT margin \u2248 7.3%), limiting cushion against downturns. Overall, this supports a lower-investment-grade profile rather than a stronger rating tier.\n\nDECISION: BBB-",
+ "prompt_sha256": "9c6ad08f7b221f104d723ac56682de3ff975409aabd2f06b699fce463d74e5a0",
+ "in_tok": 227,
+ "out_tok": 235,
+ "usd": 0.000339,
+ "utc": "2026-10-11T20:45:45.640220+00:00"
+}

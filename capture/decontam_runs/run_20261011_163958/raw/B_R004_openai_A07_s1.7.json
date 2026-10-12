@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R004",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "Liquidity is solid (current ratio \u2248 2.2) and profitability is strong (EBIT margin \u2248 17.5%). However, retained earnings are significantly negative (\u22121,846M) and leverage is moderate (total liabilities of 5,722M vs. equity of 2,778M), indicating weaker balance-sheet resilience.  \n\nDECISION: BB-",
+ "prompt_sha256": "1b66300aeec3ded0f7154f1bd3da5033b6829002b9c5f815990ce3a66927a2d8",
+ "in_tok": 232,
+ "out_tok": 226,
+ "usd": 0.000329,
+ "utc": "2026-10-11T20:44:55.031135+00:00"
+}

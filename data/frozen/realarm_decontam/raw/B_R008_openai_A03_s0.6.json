@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R008",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows strong liquidity (current ratio ~2.3) and solid profitability (net margin ~21% with EBIT of 232M), which supports reliable operating performance. Leverage appears moderate with total liabilities of 1,411M versus equity of 1,249M, suggesting manageable balance-sheet risk, though lack of detailed debt/interest coverage limits the highest rating.  \n\nDECISION: A-",
+ "prompt_sha256": "49fb5511979c36ccb8c10987bf1cd55026ff67fe7afeffbc2780ccf834585802",
+ "in_tok": 229,
+ "out_tok": 257,
+ "usd": 0.000367,
+ "utc": "2026-10-11T20:45:05.643977+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R026",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid revenue base of $7.88B and profitable operations (EBIT of $426M, Net Income of $310M), but carries significant leverage with total liabilities of $8.30B against shareholders' equity of $1.90B (debt-to-equity roughly 4.37x). Additionally, the current ratio is slightly below 1.0 (0.89x), indicating mild short-term liquidity tight spots, which balances its investment-grade earnings capacity into a solid lower-tier investment-grade profile.\n\nDECISION: BBB",
+ "prompt_sha256": "8f5e81beff6c113b72bb9ea4d35b563b6eafc0124003e3c4b9985593072bede1",
+ "in_tok": 228,
+ "out_tok": 127,
+ "usd": 0.001485,
+ "utc": "2026-10-11T20:46:02.721736+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company demonstrates significant scale with $5.58B in revenue, but suffers from extremely weak profitability with an EBIT of just $4M and a net loss of $83M. Furthermore, financial leverage is elevated with total liabilities of $4.49B against $1.51B in equity, resulting in fragile debt-servicing capability and a high-yield credit profile.\n\nDECISION: BB-",
+ "prompt_sha256": "52092b7c16663c4a20db16a5b99ff2f8540adab9ade174c73a9d45263aadd535",
+ "in_tok": 217,
+ "out_tok": 87,
+ "usd": 0.001109,
+ "utc": "2026-10-11T20:47:50.049243+00:00"
+}

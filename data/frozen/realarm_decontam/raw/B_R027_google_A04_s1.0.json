@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R027",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Adequate leverage and strong liquidity offset low profitability margins (Net Income of $32M) and moderate debt burden, supporting investment grade.\"}\n```",
+ "prompt_sha256": "8b570c039ec2c75f9339709f19476ad527620c1d16c57840b7c07287674d76bb",
+ "in_tok": 268,
+ "out_tok": 51,
+ "usd": 0.000861,
+ "utc": "2026-10-11T20:46:08.071292+00:00"
+}

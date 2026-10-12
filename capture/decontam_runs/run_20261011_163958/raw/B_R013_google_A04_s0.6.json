@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"B-\", \"confidence\": 4, \"rationale\": \"Negative equity, high debt burdens, negative retained earnings, and net losses place the company in high speculative-grade territory despite positive EBIT.\"}\n```",
+ "prompt_sha256": "5361cb67f83fadd6dd15efbc49d5d706bae51260eed8ed1bca41ebacfc57961a",
+ "in_tok": 261,
+ "out_tok": 51,
+ "usd": 0.000851,
+ "utc": "2026-10-11T20:48:17.886246+00:00"
+}

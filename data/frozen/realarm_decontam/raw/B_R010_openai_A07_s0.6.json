@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows moderate profitability (net income of 242M on 1,264M revenue, ~19% margin), but leverage appears high with total liabilities of 10,429M versus shareholders\u2019 equity of 1,997M (equity covers only ~15% of assets). This balance suggests elevated credit risk despite positive earnings generation.  \nDECISION: BB-",
+ "prompt_sha256": "e71e3fc31713080de1d33e937dc621a267c6d731ae4e17c7f10a156ad9cc1d34",
+ "in_tok": 197,
+ "out_tok": 168,
+ "usd": 0.000249,
+ "utc": "2026-10-11T20:45:11.563577+00:00"
+}

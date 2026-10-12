@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R026",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Adequate profitability and solid equity base are balanced by high leverage (Total Liabilities/Assets ~81%) and tight current liquidity.\"}\n```",
+ "prompt_sha256": "97bd6e034abec879eda75a59eede7328ac2c4aa74f47c02fb287151f298eb360",
+ "in_tok": 274,
+ "out_tok": 49,
+ "usd": 0.000852,
+ "utc": "2026-10-11T20:46:03.805584+00:00"
+}

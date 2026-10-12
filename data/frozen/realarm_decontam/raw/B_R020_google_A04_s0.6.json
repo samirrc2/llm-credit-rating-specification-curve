@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R020",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Adequate capital structure with solid equity base ($2.47B), positive net income ($176M), and moderate leverage, offset by minor liquidity pressure.\"}\n```",
+ "prompt_sha256": "20e3a600e71913a6595d1ac088ed389fef34c669ee7affd1de2d624a201039bc",
+ "in_tok": 265,
+ "out_tok": 57,
+ "usd": 0.00091,
+ "utc": "2026-10-11T20:48:35.359581+00:00"
+}

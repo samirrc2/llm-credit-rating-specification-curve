@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A09",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":3,\"rationale\":\"Near-zero operating profitability (EBIT 7M on 9,292M revenue) and net loss (-139M) with high leverage (liabilities 7,476M) imply elevated credit risk.\"}",
+ "prompt_sha256": "9b06f45492455a287b6c7e9367ed9c19c8a37c897c66c9c3081e7b32fb72af78",
+ "in_tok": 222,
+ "out_tok": 254,
+ "usd": 0.000362,
+ "utc": "2026-10-11T20:44:48.620961+00:00"
+}

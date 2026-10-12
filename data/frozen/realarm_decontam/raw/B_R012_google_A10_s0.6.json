@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R012",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong profitability with an EBIT margin of 13.1% and a healthy return on assets, alongside a robust balance sheet featuring a low leverage ratio (total liabilities to assets of 51.3%), a strong current ratio of 2.35x, and substantial accumulated retained earnings. With moderate business scale ($2.17B in revenue) balanced by solid operational coverage and financial stability, the company's risk profile aligns with a mid-to-high investment-grade credit rating.\n\nDECISION: A",
+ "prompt_sha256": "d429009bb8504f67a1f5f71b465158bc1fcbca6bc82690279c73d29e556c3312",
+ "in_tok": 226,
+ "out_tok": 110,
+ "usd": 0.001329,
+ "utc": "2026-10-11T20:48:15.417234+00:00"
+}

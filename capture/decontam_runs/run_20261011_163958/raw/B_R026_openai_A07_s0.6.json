@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R026",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows relatively weak liquidity (current ratio \u2248 0.89) and high leverage (liabilities \u2248 81% of total assets), which limits financial flexibility. While profitability is positive (net margin \u2248 3.9% and EBIT of 426M), the balance-sheet structure suggests elevated credit risk rather than investment-grade stability.  \n\nDECISION: BB-",
+ "prompt_sha256": "263d82cfc38f65cf6851e6b75ae15109d9e6525523ac95ac1de07c0c0c717ae4",
+ "in_tok": 230,
+ "out_tok": 247,
+ "usd": 0.000355,
+ "utc": "2026-10-11T20:46:03.585817+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer's massive scale (over $17.8B in revenue and $31.7B in assets) and strong balance sheet cushion\u2014supported by $9.7B in equity, a substantial $21.7B in cumulative retained earnings, and solid liquidity (current ratio above 2.3x)\u2014mitigate the impact of its current operational downturn. While significant operating and net losses reflect temporary cyclical or structural headwinds, the firm's vast asset base and balance sheet strength keep its credit profile in the solid investment-grade territory.\n\nDECISION: BBB+",
+ "prompt_sha256": "60b895dffd3fe0819a624e159016bbfe3495b8ea54ada1e767f75038023ab536",
+ "in_tok": 235,
+ "out_tok": 120,
+ "usd": 0.001432,
+ "utc": "2026-10-11T20:48:14.383492+00:00"
+}

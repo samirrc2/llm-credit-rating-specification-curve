@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R001",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows solid liquidity (current ratio \u2248 1.87) and strong profitability (EBIT margin \u2248 15.7%, net margin \u2248 12.1%). Leverage is moderate (liabilities/assets \u2248 0.58; debt-to-equity \u2248 1.37), and equity is well supported by substantial retained earnings, supporting credit quality consistent with the lower end of the investment-grade range.\n\nDECISION: A-",
+ "prompt_sha256": "05c850e40e72ff11d23949ca2686ce107d6e037c8be735f5cb5c3b67f9ab178e",
+ "in_tok": 239,
+ "out_tok": 264,
+ "usd": 0.000378,
+ "utc": "2026-10-11T20:44:45.846304+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R018",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows moderate liquidity (current ratio \u2248 1.44) and positive profitability (net income and EBIT are positive), which supports debt servicing capacity. However, leverage is relatively high (liabilities \u2248 61.6% of assets) and retained earnings are negative (\u2013$239M), indicating weaker historical financial resilience, which limits the rating.  \n\nDECISION: BB",
+ "prompt_sha256": "2318d09bce2fcf73cf73ab9df12782ee611e4a8fb504e6ee02ddc64f0da773ca",
+ "in_tok": 230,
+ "out_tok": 211,
+ "usd": 0.00031,
+ "utc": "2026-10-11T20:45:36.372166+00:00"
+}

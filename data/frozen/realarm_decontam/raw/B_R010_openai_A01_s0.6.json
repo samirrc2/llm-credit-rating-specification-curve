@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A01",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"High leverage (liabilities/assets ~0.80) constrains flexibility, but strong profitability (net margin ~19%) supports debt servicing.\"}",
+ "prompt_sha256": "004001cc4b05c9e5b160e42ae9fbb656a3ae1423407958bc60636c8f778a6731",
+ "in_tok": 196,
+ "out_tok": 144,
+ "usd": 0.000219,
+ "utc": "2026-10-11T20:45:10.979487+00:00"
+}

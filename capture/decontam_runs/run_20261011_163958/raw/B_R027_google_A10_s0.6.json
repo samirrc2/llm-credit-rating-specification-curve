@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R027",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid, investment-grade balance sheet characterized by moderate leverage (Total Liabilities to Total Assets of ~58.7%), strong liquidity (Current Ratio of 2.57x), and a substantial cushion of accumulated profits reflected in Retained Earnings ($1,413M). However, its operating efficiency is relatively low, with a narrow EBIT margin of ~6.4% and a thin Net Margin of ~0.8%, which limits its overall interest coverage and earnings capacity relative to its asset size. Balancing these credit strengths and profitability constraints places the company squarely in the middle of the solid investment-grade spectrum.\n\nDECISION: BBB",
+ "prompt_sha256": "e434fa66f3e1599d4adb4801039e1c5bf1c644b92e7b048ff3b87dc833a77ae4",
+ "in_tok": 225,
+ "out_tok": 134,
+ "usd": 0.001544,
+ "utc": "2026-10-11T20:46:08.236108+00:00"
+}

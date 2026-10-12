@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A05",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":2,\"rationale\":\"Negative EBIT/net income indicate weak profitability; leverage is moderate (liabilities/equity ~1.42) with only slightly above-1 current ratio.\"}",
+ "prompt_sha256": "77896ca18060125549870a0b10f71920d8087e087370224e0f7c34dcde42d950",
+ "in_tok": 213,
+ "out_tok": 146,
+ "usd": 0.000225,
+ "utc": "2026-10-11T20:45:01.444209+00:00"
+}

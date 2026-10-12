@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Solid revenue and positive net income support investment grade, but high total liabilities relative to equity constrain the rating to BBB.\"}\n```",
+ "prompt_sha256": "101bf822029236eb6d120c4d6a6fddf7c0882b32e40bc4320e46005cb22e4ed8",
+ "in_tok": 231,
+ "out_tok": 46,
+ "usd": 0.00076,
+ "utc": "2026-10-11T20:48:10.259678+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "A1",
+ "item_id": "R011",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "GUESS: AMC",
+ "prompt_sha256": "be95493d90993530e8c44adb7290104555b43ddd2fd3235dc4b0edf5fdeb2173",
+ "in_tok": 236,
+ "out_tok": 4,
+ "usd": 0.00039,
+ "utc": "2026-10-11T20:47:34.832112+00:00"
+}

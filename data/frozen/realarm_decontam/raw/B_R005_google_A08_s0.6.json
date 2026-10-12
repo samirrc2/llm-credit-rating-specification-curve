@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R005",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 3, \"rationale\": \"Strong balance sheet with healthy equity ($2.06B) covering total liabilities ($1.52B), solid liquidity, and steady profitability.\"}\n```",
+ "prompt_sha256": "05d4c6233dfec35ee189aa14c2f2280a9810ea21ae1d59214d6f37e22469f351",
+ "in_tok": 262,
+ "out_tok": 54,
+ "usd": 0.000879,
+ "utc": "2026-10-11T20:47:57.306354+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R017",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The firm shows solid operating performance (EBIT margin ~23% and net margin ~13%), supporting earnings strength. However, leverage is relatively high (total liabilities ~65% of assets and debt-to-equity ~1.8), which constrains the rating, despite a fair liquidity position (current ratio ~1.35).  \n\nDECISION: BBB+",
+ "prompt_sha256": "e0859ec6baecfdbfec98172f1618731268784341e0d840763844867f36ab37a5",
+ "in_tok": 224,
+ "out_tok": 220,
+ "usd": 0.00032,
+ "utc": "2026-10-11T20:45:33.330719+00:00"
+}

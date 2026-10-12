@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R007",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits a strong financial profile with solid profitability (EBIT margin of ~13.5% and Net Margin of ~7.3%), a very healthy current ratio of 3.37x indicating robust liquidity, and a conservative leverage structure with total liabilities to total assets at ~48.4% and an equity ratio of ~46.6%. With total assets of $6.49B and substantial retained earnings of $1.50B, the firm demonstrates high creditworthiness and financial flexibility consistent with an upper-investment-grade profile.\n\nDECISION: A",
+ "prompt_sha256": "e7e78aff12e673ec4e747327857d123064593ff433abc09d9413c7a058264497",
+ "in_tok": 218,
+ "out_tok": 121,
+ "usd": 0.001416,
+ "utc": "2026-10-11T20:48:02.242125+00:00"
+}

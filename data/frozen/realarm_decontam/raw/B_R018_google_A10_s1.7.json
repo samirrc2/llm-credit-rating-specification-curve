@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R018",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer exhibits a solid business profile with $32.1 billion in revenue and healthy profitability (EBIT margin of ~8.3% and Net Income of $2.89 billion), alongside a strong balance sheet balance with an equity base of $12.9 billion and a moderate leverage profile (total liabilities to assets of ~61.6%). While the negative retained earnings indicate historical losses or significant capital returns, the current leverage and strong interest coverage place the company comfortably within the investment-grade category.\n\nDECISION: BBB+",
+ "prompt_sha256": "e376c5e89bb297ecc88ad27f4682eeee8b7b9c8793df2eaeb693f7b3f382564d",
+ "in_tok": 235,
+ "out_tok": 111,
+ "usd": 0.001352,
+ "utc": "2026-10-11T20:48:32.309625+00:00"
+}

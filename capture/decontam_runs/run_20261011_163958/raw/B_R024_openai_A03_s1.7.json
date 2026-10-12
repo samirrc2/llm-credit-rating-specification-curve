@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R024",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A03",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows positive profitability (net income and EBIT both strong relative to revenue), but liquidity is weak with a current ratio of about 0.91 (current assets below current liabilities). Leverage is also relatively high (total liabilities of 7,466M versus shareholders\u2019 equity of 1,600M), which limits resilience under stress.  \nDECISION: BB-",
+ "prompt_sha256": "ef1dae4ae438c264bcaf83ac3817f0ca004904d8645305955f1cf92ce8645d38",
+ "in_tok": 237,
+ "out_tok": 192,
+ "usd": 0.000287,
+ "utc": "2026-10-11T20:45:57.499500+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R001",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A09",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"A-\",\"confidence\":3,\"rationale\":\"Strong profitability (EBIT margin ~15.7%), solid liquidity (current ratio ~1.87), and moderate leverage (liabilities/assets ~57.7%) support an A- credit quality.\"}",
+ "prompt_sha256": "a7f3434894f7195cd3da09ca967f588f861be63de3c48048e341272a21ef819e",
+ "in_tok": 222,
+ "out_tok": 188,
+ "usd": 0.000279,
+ "utc": "2026-10-11T20:44:46.192714+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R007",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a strong financial profile with robust profitability (EBIT of $1,197M and Net Income of $646M), an excellent liquidity position (Current Ratio of 3.37x), and a conservative capital structure with an Equity-to-Assets ratio of nearly 47% and low total leverage relative to its earnings base. These solid fundamentals and sizable balance sheet ($18.4B in assets) reflect high creditworthiness and strong capacity to meet financial obligations, placing the company comfortably in the upper investment-grade category.\n\nDECISION: A+",
+ "prompt_sha256": "0e9ce4d85bb727de7580d4390c72d19c5551fb5020109efa80e66fb07a7611cc",
+ "in_tok": 230,
+ "out_tok": 121,
+ "usd": 0.001434,
+ "utc": "2026-10-11T20:48:03.808861+00:00"
+}

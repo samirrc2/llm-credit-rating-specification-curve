@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A09",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":3,\"rationale\":\"Recent operating and net losses weaken credit metrics; leverage is moderate and liquidity slightly positive, but earnings power appears deteriorating.\"}",
+ "prompt_sha256": "e2d7d8133337963ece124dbdcb1ffdc8b003e54a3d5cc6062546256cd300e203",
+ "in_tok": 222,
+ "out_tok": 153,
+ "usd": 0.000236,
+ "utc": "2026-10-11T20:45:00.037664+00:00"
+}

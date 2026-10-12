@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer operates with an extremely thin operating margin (EBIT of $4M on $5,575M in revenue) and a net loss of $83M, indicating weak profitability and debt-service capacity. While the company maintains positive shareholders' equity ($1,512M) and a moderate current ratio (1.21x), its high leverage (total liabilities of $4,486M) and negative bottom-line earnings place it in the speculative grade.\n\nDECISION: BB-",
+ "prompt_sha256": "54127e156c31cfd0129c2f6ab68ce2841c0958dcfd2de685e6d6fa74e9347c80",
+ "in_tok": 224,
+ "out_tok": 108,
+ "usd": 0.001308,
+ "utc": "2026-10-11T20:47:49.561436+00:00"
+}

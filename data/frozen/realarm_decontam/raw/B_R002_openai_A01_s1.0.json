@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A01",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"B+\",\"confidence\":2,\"rationale\":\"Profitability severely weak (EBIT 7M vs revenue 9.3B; net loss -139M). Leverage moderate and liquidity adequate, but earnings pressure increases default risk.\"}",
+ "prompt_sha256": "df4dc7f01f8151a77ba485e1780ee168a79e8520d25c5b3659c71075ec240864",
+ "in_tok": 220,
+ "out_tok": 185,
+ "usd": 0.000275,
+ "utc": "2026-10-11T20:44:47.442873+00:00"
+}

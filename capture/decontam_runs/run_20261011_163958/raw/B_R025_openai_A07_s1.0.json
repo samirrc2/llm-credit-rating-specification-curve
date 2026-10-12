@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R025",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer has modest profitability (net margin ~4% and EBIT margin ~8%) alongside meaningful leverage (total liabilities 8,218M vs total assets 10,022M) and a negative retained earnings balance (-748M), indicating weaker accumulated financial strength. Liquidity is acceptable but not strong (current ratio ~1.32). Overall, this supports a speculative-grade rating in the BB range.  \nDECISION: BB-",
+ "prompt_sha256": "1740d84d4794435fad93b0e585d93fe112b54fae25ae1e624a5140bb571bab10",
+ "in_tok": 228,
+ "out_tok": 242,
+ "usd": 0.000348,
+ "utc": "2026-10-11T20:46:01.172936+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates a large revenue base ($11.7B) and a decent capital structure with a positive net equity position ($2.5B) and a current ratio above 1.0 (1.21x). However, financial performance is constrained by weak profitability, as evidenced by an operating loss (EBIT of -$26M) and a net loss (-$76M), which presents elevated credit risk despite moderate leverage.\n\nDECISION: BBB-",
+ "prompt_sha256": "d6ce358082b53351ed24f6d8fd011d1490689db5963bb3a154c4958725ea95f9",
+ "in_tok": 226,
+ "out_tok": 97,
+ "usd": 0.001212,
+ "utc": "2026-10-11T20:47:59.973284+00:00"
+}

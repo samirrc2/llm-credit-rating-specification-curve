@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R003",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows reasonable operating profitability (EBIT margin ~22%), but leverage appears high with equity of only ~24% of total assets (liabilities/assets ~76%). Liquidity is also weaker than 1x (current ratio ~0.72), suggesting limited near-term cushion despite positive earnings.  \n\nDECISION: BB+",
+ "prompt_sha256": "9f6af4abc670d69e0b7fc744f114e7ce08c2c569962a647a5a204ef51b69faee",
+ "in_tok": 229,
+ "out_tok": 209,
+ "usd": 0.000307,
+ "utc": "2026-10-11T20:44:50.952422+00:00"
+}

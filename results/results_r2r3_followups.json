@@ -1,0 +1,304 @@
+{
+ "_meta": {
+  "spec": "analysis/revision2/SPEC_r2r3_followups.md",
+  "spec_sha256": "f1f5c4d0ddb266ea4fdaac9596cdf76b74bbd5fc4b66a194a6e5792c2d8273e5",
+  "new_model_calls": 0,
+  "seed": 42
+ },
+ "aliasing_on_analysed_design": {
+  "per_contrast_R2_on_2FI_span": [
+   [
+    "A1_provider",
+    0.8758
+   ],
+   [
+    "A2_version",
+    0.8209
+   ],
+   [
+    "A3_temperature",
+    0.7585
+   ],
+   [
+    "A4_paraphrase",
+    0.7941
+   ],
+   [
+    "A4_paraphrase",
+    0.8909
+   ],
+   [
+    "A5_format",
+    0.6898
+   ],
+   [
+    "A6_fewshot",
+    0.8764
+   ],
+   [
+    "A7_presentation",
+    0.9007
+   ]
+  ],
+  "per_contrast_R2_range": [
+   0.6898,
+   0.9007
+  ],
+  "rank_main": 8,
+  "rank_2FI": 27,
+  "rank_joint": 31,
+  "subspace_intersection_dim": 4,
+  "interpretation": "No INDIVIDUAL main-effect contrast lies exactly in the interaction span (max R^2 0.901). The largest canonical correlation is nevertheless 1.000 because the joint matrix is rank-deficient by 4: some linear COMBINATION of main effects coincides exactly with a combination of two-factor interactions. That is the coding-invariant statement of non-identification.",
+  "n_specs": 32,
+  "n_main_contrasts": 8,
+  "n_2fi_contrasts": 27,
+  "main_effect_max_offdiag_corr_distinct_axes": 0.125,
+  "main_x_2FI_max_abs_corr_nonparent": 0.504,
+  "canonical_correlations_main_vs_2FI": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9245,
+   0.9042,
+   0.8162,
+   0.545
+  ],
+  "largest_canonical_correlation": 1.0,
+  "n_canonical_above_0.9": 6,
+  "note": "Canonical correlations are invariant to re-parameterisation within either subspace; the pairwise column correlation is not."
+ },
+ "aliasing_on_full_48_spec_grid": {
+  "n_specs": 48,
+  "main_effect_max_offdiag_corr_distinct_axes": 0.062,
+  "main_x_2FI_max_abs_corr_nonparent": 0.333,
+  "note": "This three-provider grid is the source of the 0.062 / 0.333 figures previously reported; the analysed arm is the two-provider subset above."
+ },
+ "provider_by_item_identification": {
+  "items": 45,
+  "specs": 32,
+  "cells": 1440,
+  "empty_cells": 0,
+  "cells_with_3_obs": 1436,
+  "cells_with_2_obs": 4,
+  "max_abs_corr_vs_spec_main_effects": 0.0018,
+  "max_abs_corr_vs_spec_2FIs": 0.0022,
+  "note": "Fully crossed with no empty cell, and near-balanced: 4 of 1440 cells carry 2 elicitations instead of 3. Orthogonality is therefore numerical, not exact."
+ },
+ "semantic_entropy_benchmark": {
+  "ighy": {
+   "n_items": 45,
+   "event_base_rate": 0.756,
+   "auc": {
+    "sis": 0.9358,
+    "sem_entropy": 0.9358,
+    "dissent": 0.9358,
+    "neg_margin": 0.9358,
+    "neg_boundary_dist": 0.7634
+   },
+   "spearman_vs_dissent": {
+    "sis": 1.0,
+    "sem_entropy": 1.0,
+    "dissent": 1.0,
+    "neg_margin": 1.0,
+    "neg_boundary_dist": 0.560214
+   },
+   "auc_diff_sementropy_minus_dissent": 0.0,
+   "auc_diff_ci95": [
+    0.0,
+    0.0
+   ],
+   "net_benefit": {
+    "sis": {
+     "0.05": 0.74269,
+     "0.10": 0.728395,
+     "0.15": 0.712418,
+     "0.20": 0.694444,
+     "0.25": 0.681481,
+     "0.30": 0.666667,
+     "0.35": 0.666667,
+     "0.40": 0.666667,
+     "0.45": 0.666667,
+     "0.50": 0.666667,
+     "0.55": 0.666667,
+     "0.60": 0.666667
+    },
+    "sem_entropy": {
+     "0.05": 0.74269,
+     "0.10": 0.728395,
+     "0.15": 0.712418,
+     "0.20": 0.694444,
+     "0.25": 0.681481,
+     "0.30": 0.666667,
+     "0.35": 0.666667,
+     "0.40": 0.666667,
+     "0.45": 0.666667,
+     "0.50": 0.666667,
+     "0.55": 0.666667,
+     "0.60": 0.666667
+    },
+    "dissent": {
+     "0.05": 0.74269,
+     "0.10": 0.728395,
+     "0.15": 0.712418,
+     "0.20": 0.694444,
+     "0.25": 0.681481,
+     "0.30": 0.666667,
+     "0.35": 0.666667,
+     "0.40": 0.666667,
+     "0.45": 0.666667,
+     "0.50": 0.666667,
+     "0.55": 0.666667,
+     "0.60": 0.666667
+    },
+    "neg_margin": {
+     "0.05": 0.74269,
+     "0.10": 0.728395,
+     "0.15": 0.712418,
+     "0.20": 0.694444,
+     "0.25": 0.681481,
+     "0.30": 0.666667,
+     "0.35": 0.666667,
+     "0.40": 0.666667,
+     "0.45": 0.666667,
+     "0.50": 0.666667,
+     "0.55": 0.666667,
+     "0.60": 0.666667
+    },
+    "neg_boundary_dist": {
+     "0.05": 0.74269,
+     "0.10": 0.728395,
+     "0.15": 0.712418,
+     "0.20": 0.694444,
+     "0.25": 0.674074,
+     "0.30": 0.650794,
+     "0.35": 0.623932,
+     "0.40": 0.592593,
+     "0.45": 0.571717,
+     "0.50": 0.555556,
+     "0.55": 0.535802,
+     "0.60": 0.511111
+    }
+   },
+   "max_abs_gap_sementropy_vs_dissent": 0.0,
+   "max_abs_gap_sementropy_vs_sis": 0.0
+  },
+  "band": {
+   "n_items": 45,
+   "event_base_rate": 0.822,
+   "auc": {
+    "sis": 0.951,
+    "sem_entropy": 0.951,
+    "dissent": 0.951,
+    "neg_margin": 0.951,
+    "neg_boundary_dist": 0.6554
+   },
+   "spearman_vs_dissent": {
+    "sis": 0.970732,
+    "sem_entropy": 0.890431,
+    "dissent": 1.0,
+    "neg_margin": 0.989062,
+    "neg_boundary_dist": 0.325852
+   },
+   "auc_diff_sementropy_minus_dissent": 0.0,
+   "auc_diff_ci95": [
+    0.0,
+    0.0
+   ],
+   "net_benefit": {
+    "sis": {
+     "0.05": 0.812865,
+     "0.10": 0.802469,
+     "0.15": 0.79085,
+     "0.20": 0.777778,
+     "0.25": 0.762963,
+     "0.30": 0.755556,
+     "0.35": 0.755556,
+     "0.40": 0.755556,
+     "0.45": 0.755556,
+     "0.50": 0.755556,
+     "0.55": 0.755556,
+     "0.60": 0.755556
+    },
+    "sem_entropy": {
+     "0.05": 0.812865,
+     "0.10": 0.802469,
+     "0.15": 0.79085,
+     "0.20": 0.777778,
+     "0.25": 0.762963,
+     "0.30": 0.755556,
+     "0.35": 0.755556,
+     "0.40": 0.755556,
+     "0.45": 0.755556,
+     "0.50": 0.755556,
+     "0.55": 0.755556,
+     "0.60": 0.755556
+    },
+    "dissent": {
+     "0.05": 0.812865,
+     "0.10": 0.802469,
+     "0.15": 0.79085,
+     "0.20": 0.777778,
+     "0.25": 0.762963,
+     "0.30": 0.755556,
+     "0.35": 0.755556,
+     "0.40": 0.755556,
+     "0.45": 0.755556,
+     "0.50": 0.755556,
+     "0.55": 0.755556,
+     "0.60": 0.755556
+    },
+    "neg_margin": {
+     "0.05": 0.812865,
+     "0.10": 0.802469,
+     "0.15": 0.79085,
+     "0.20": 0.777778,
+     "0.25": 0.762963,
+     "0.30": 0.755556,
+     "0.35": 0.755556,
+     "0.40": 0.755556,
+     "0.45": 0.755556,
+     "0.50": 0.755556,
+     "0.55": 0.755556,
+     "0.60": 0.755556
+    },
+    "neg_boundary_dist": {
+     "0.05": 0.812865,
+     "0.10": 0.802469,
+     "0.15": 0.79085,
+     "0.20": 0.777778,
+     "0.25": 0.762963,
+     "0.30": 0.746032,
+     "0.35": 0.726496,
+     "0.40": 0.703704,
+     "0.45": 0.676768,
+     "0.50": 0.644444,
+     "0.55": 0.604938,
+     "0.60": 0.555556
+    }
+   },
+   "max_abs_gap_sementropy_vs_dissent": 0.0,
+   "max_abs_gap_sementropy_vs_sis": 0.0
+  },
+  "letter": {
+   "n_items": 45,
+   "event_base_rate": 1.0,
+   "auc": {
+    "sis": null,
+    "sem_entropy": null,
+    "dissent": null,
+    "neg_margin": null,
+    "neg_boundary_dist": null
+   },
+   "spearman_vs_dissent": {
+    "sis": 0.938136,
+    "sem_entropy": 0.836877,
+    "dissent": 1.0,
+    "neg_margin": 0.71888,
+    "neg_boundary_dist": -0.108991
+   },
+   "computable": false,
+   "reason": "event base rate 1.00; discrimination undefined"
+  }
+ }
+}

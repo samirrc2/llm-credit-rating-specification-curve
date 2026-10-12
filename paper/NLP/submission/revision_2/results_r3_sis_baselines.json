@@ -1,0 +1,67 @@
+{
+ "_meta": {
+  "seed": 42,
+  "panel_rows": 4316,
+  "items": 45,
+  "specs": 32,
+  "not_computable": [
+   "semantic entropy",
+   "token-level confidence"
+  ],
+  "not_computable_reason": "the frozen response corpus stores no logprobs; these baselines would require re-elicitation with logprobs enabled and are not available for all providers"
+ },
+ "by_resolution": {
+  "ighy": {
+   "n_items": 45,
+   "event_base_rate": 0.756,
+   "auc": {
+    "sis": 0.9358,
+    "dissent": 0.9358,
+    "neg_margin": 0.9358,
+    "neg_boundary_dist": 0.7634
+   },
+   "spearman_sis_vs_dissent": 1.0,
+   "auc_diff_sis_minus_dissent": 0.0,
+   "auc_diff_ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "band": {
+   "n_items": 45,
+   "event_base_rate": 0.822,
+   "auc": {
+    "sis": 0.951,
+    "dissent": 0.951,
+    "neg_margin": 0.951,
+    "neg_boundary_dist": 0.6554
+   },
+   "spearman_sis_vs_dissent": 0.970732,
+   "auc_diff_sis_minus_dissent": 0.0,
+   "auc_diff_ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "letter": {
+   "n_items": 45,
+   "event_base_rate": 1.0,
+   "auc": {
+    "sis": null,
+    "dissent": null,
+    "neg_margin": null,
+    "neg_boundary_dist": null
+   },
+   "spearman_sis_vs_dissent": 0.938136,
+   "auc_diff_sis_minus_dissent": null,
+   "auc_diff_ci95": null
+  }
+ },
+ "binary_gate_algebra": {
+  "k": 16,
+  "sis_monotone_in_dissent_count": true,
+  "smallest_nonzero_sis": 0.1172,
+  "reported_tau": 0.08,
+  "rule_reduces_to_any_disagreement": true
+ }
+}

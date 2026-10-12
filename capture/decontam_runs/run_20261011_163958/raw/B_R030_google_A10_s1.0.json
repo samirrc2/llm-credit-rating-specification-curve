@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R030",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays solid profitability with an operating margin of roughly 20.3% and a healthy equity cushion ($3,858M against $7,452M in liabilities), but it faces short-term liquidity pressure with a current ratio below 1.0 (0.72x) and a modest return on total assets (~2.1%). These financial metrics are consistent with a solid, lower-investment-grade risk profile, balancing strong earning power against working capital tightness and leverage.\n\nDECISION: BBB",
+ "prompt_sha256": "7c16cc0d1f88802bc63a4ab04928b98d94cd7fa95c91d4b0f4b900e2a88ca595",
+ "in_tok": 225,
+ "out_tok": 109,
+ "usd": 0.001319,
+ "utc": "2026-10-11T20:46:21.914664+00:00"
+}

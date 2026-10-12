@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R027",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 2,
+ "ok": true,
+ "raw_response": "ANSWER: HAWAIIAN ELECTRIC INDUSTRIES,\u00a0INC.",
+ "prompt_sha256": "9a46d22bed05a23ebcde1c76cb7ebc3efe3b5b08904c7de4224405d8d2c68ecd",
+ "in_tok": 546,
+ "out_tok": 508,
+ "usd": 0.000744,
+ "utc": "2026-10-11T20:44:37.121504+00:00"
+}

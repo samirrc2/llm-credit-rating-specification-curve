@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R030",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 2,
+ "ok": true,
+ "raw_response": "ANSWER: Graphic Packaging Holding Co",
+ "prompt_sha256": "33cdddc06a4c94d5b7a2ad84e797e8ab8f6b42496b960a08dae05dca6f9bbf7e",
+ "in_tok": 546,
+ "out_tok": 593,
+ "usd": 0.00085,
+ "utc": "2026-10-11T20:44:42.187080+00:00"
+}

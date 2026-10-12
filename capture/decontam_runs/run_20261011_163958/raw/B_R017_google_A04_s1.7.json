@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R017",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BBB\", \"confidence\": 3, \"rationale\": \"Moderate leverage with Total Assets of $11.57B, solid profitability ($311M Net Income), and adequate liquidity support an investment-grade BBB rating.\"}\n```",
+ "prompt_sha256": "4efde39b3371faa58a677a84100d8c7a9583af1e266ed9d07b0b8536d4ac4c9e",
+ "in_tok": 270,
+ "out_tok": 58,
+ "usd": 0.000927,
+ "utc": "2026-10-11T20:48:29.217459+00:00"
+}

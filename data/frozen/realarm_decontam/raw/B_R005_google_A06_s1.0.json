@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R005",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company demonstrates a very strong balance sheet with low leverage (total liabilities to assets of ~42%), strong liquidity (current ratio of 1.75x), a solid equity base, and a high volume of retained earnings relative to total assets. Additionally, profitability is stable with an operating margin of ~8% and net income of $209M. These robust credit metrics and sound financial flexibility align with a high-grade investment rating.\n\nDECISION: A+",
+ "prompt_sha256": "d6e0e244e2ef3ef2b112af938b36c6def8af0c6e87ac5d0999363bd7dbe72e0c",
+ "in_tok": 218,
+ "out_tok": 97,
+ "usd": 0.0012,
+ "utc": "2026-10-11T20:47:58.110485+00:00"
+}

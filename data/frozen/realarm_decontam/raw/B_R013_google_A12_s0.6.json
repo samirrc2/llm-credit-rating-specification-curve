@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A12",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"CCC\", \"confidence\": 4, \"rationale\": \"Negative equity, cumulative losses, and liabilities exceeding assets indicate extreme credit distress and high risk of default.\"}\n```",
+ "prompt_sha256": "bf629643cf6494c60fe64ec6102f6771ce374ff6f124e8c82d437f331e90b95e",
+ "in_tok": 262,
+ "out_tok": 43,
+ "usd": 0.00078,
+ "utc": "2026-10-11T20:48:17.682481+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"BB\", \"confidence\": 3, \"rationale\": \"The company maintains solid liquidity and asset coverage, but recent operating and net losses weigh significantly on creditworthiness.\"}\n```",
+ "prompt_sha256": "40446f08c09870d98f728b8e7928a2d50b7af2ab6881be1288596d751a11ad63",
+ "in_tok": 278,
+ "out_tok": 44,
+ "usd": 0.000813,
+ "utc": "2026-10-11T20:48:13.451578+00:00"
+}

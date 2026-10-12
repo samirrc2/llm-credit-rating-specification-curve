@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R001",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A04",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A-\", \"confidence\": 4, \"rationale\": \"Strong solvency with moderate leverage (58% debt/assets), solid profitability (ROE 22%, EBIT margin 15.6%), and good liquidity.\"}\n```",
+ "prompt_sha256": "7efba5b002073b98e0f7c3149839267785a45fbd8c9c7278a9749aa8a1f75012",
+ "in_tok": 265,
+ "out_tok": 57,
+ "usd": 0.00091,
+ "utc": "2026-10-11T20:47:46.765284+00:00"
+}

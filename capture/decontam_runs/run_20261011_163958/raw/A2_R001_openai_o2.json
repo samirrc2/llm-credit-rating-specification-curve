@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R001",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 2,
+ "ok": true,
+ "raw_response": "ANSWER: THE TORO COMPANY",
+ "prompt_sha256": "62f361602b33799c3d3706be5932f2e10fb84aa8c3c83cbaf493937930ff6e7b",
+ "in_tok": 546,
+ "out_tok": 803,
+ "usd": 0.001113,
+ "utc": "2026-10-11T20:40:18.588178+00:00"
+}

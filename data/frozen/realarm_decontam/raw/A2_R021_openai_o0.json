@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R021",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "ANSWER: STANLEY BLACK & DECKER, INC.",
+ "prompt_sha256": "6d1b6961d55ed43c70b487527ae3eab0dcfb5bda531137f4b11eae2c2a17d136",
+ "in_tok": 546,
+ "out_tok": 254,
+ "usd": 0.000427,
+ "utc": "2026-10-11T20:44:26.367686+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R012",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A06",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company exhibits strong financial performance and balance sheet health, highlighted by an excellent Return on Assets (over 10%), high profitability (EBIT margin of ~13.1%), and a conservative leverage structure with equity exceeding total net obligations. A strong liquidity profile (current ratio of 2.35x) and a solid retained earnings base relative to total assets further support a high investment-grade profile.\n\nDECISION: A+",
+ "prompt_sha256": "d0294bf1b01f80d6e1d2f33a38f73b6397d10e7711a0c614adc229aae1d21959",
+ "in_tok": 218,
+ "out_tok": 89,
+ "usd": 0.001128,
+ "utc": "2026-10-11T20:48:15.762621+00:00"
+}

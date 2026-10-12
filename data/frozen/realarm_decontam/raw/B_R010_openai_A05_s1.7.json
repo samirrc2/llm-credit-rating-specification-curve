@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R010",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A05",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB+\",\"confidence\":2,\"rationale\":\"High leverage (liabilities/assets ~79.8%) offsets strong profitability (net margin ~19.1%) and positive retained earnings; limited coverage info.\"}",
+ "prompt_sha256": "24e49ebf4304eb5c9653913e961de4b233c90ce5904fc39185cdc77ff8430069",
+ "in_tok": 189,
+ "out_tok": 159,
+ "usd": 0.000237,
+ "utc": "2026-10-11T20:45:13.452112+00:00"
+}

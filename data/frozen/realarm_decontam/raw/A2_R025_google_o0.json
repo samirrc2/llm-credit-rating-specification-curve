@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R025",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "ANSWER: BAXTER INTERNATIONAL INC",
+ "prompt_sha256": "73e1d60412c6d39d4d5b5ccb59198a662f60c8dc539a550e47930e1a05f6f8ce",
+ "in_tok": 545,
+ "out_tok": 7,
+ "usd": 0.000881,
+ "utc": "2026-10-11T20:47:43.032593+00:00"
+}

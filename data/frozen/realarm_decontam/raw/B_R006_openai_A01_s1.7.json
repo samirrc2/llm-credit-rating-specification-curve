@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A01",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB\",\"confidence\":3,\"rationale\":\"Operating and net losses; moderate leverage (liabilities/assets ~0.58); liquidity modest (current assets/current liabilities ~1.2); retained earnings positive.\"}",
+ "prompt_sha256": "f66c8e8766bbea6379f722a0f6493ef95a1fe15d10c6e2e31e725a563b11fbec",
+ "in_tok": 220,
+ "out_tok": 272,
+ "usd": 0.000384,
+ "utc": "2026-10-11T20:45:01.331577+00:00"
+}

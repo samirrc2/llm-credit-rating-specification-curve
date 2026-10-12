@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R004",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows solid operating performance (EBIT margin ~17.5%) and good near-term liquidity (current ratio ~2.2). However, leverage is elevated (liabilities-to-equity ~2.1) and retained earnings are negative, indicating accumulated losses and weakening financial resilience despite current profitability.  \n\nDECISION: BB-",
+ "prompt_sha256": "a5e7f758d2b5f72ef6f4b2bf99be449f74e673ebd77f341bdb49279527a407b8",
+ "in_tok": 241,
+ "out_tok": 244,
+ "usd": 0.000353,
+ "utc": "2026-10-11T20:44:55.998596+00:00"
+}

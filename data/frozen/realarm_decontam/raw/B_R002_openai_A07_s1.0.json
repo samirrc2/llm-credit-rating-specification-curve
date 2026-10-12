@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R002",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer is highly leveraged (total liabilities are ~75% of total assets) and profitability is very weak, with negative net income (\u2013139M) and near-break-even operating results (EBIT ~7M vs revenue 9,292M). Liquidity is only modest (current ratio ~1.21), supporting a more speculative credit quality rather than investment grade.  \n\nDECISION: B+",
+ "prompt_sha256": "b952cbe77e9707a92138f01a1234b31b696b925f97d45e0ff9cb9b2b7fe7bdec",
+ "in_tok": 230,
+ "out_tok": 253,
+ "usd": 0.000362,
+ "utc": "2026-10-11T20:44:48.452002+00:00"
+}

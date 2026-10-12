@@ -1,0 +1,16 @@
+{
+ "experiment": "A1",
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "GUESS: Boeing",
+ "prompt_sha256": "95f0978ced8f8dafe79961181ed973862ff9f387c3b3f2034fc21ca41fd9339f",
+ "in_tok": 236,
+ "out_tok": 4,
+ "usd": 0.00039,
+ "utc": "2026-10-11T20:47:35.580139+00:00"
+}

@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R006",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A02",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer generates significant top-line revenue ($19.5B) and maintains a solid equity base ($4.24B) with manageable leverage, but it suffers from operational unprofitability (EBIT of -$43M and Net Income of -$126M) and weak liquidity, highlighted by a current ratio near 1.21. While the scale of operations and positive net worth provide some financial flexibility, the ongoing losses drag the credit profile into speculative territory.\n\nDECISION: BB",
+ "prompt_sha256": "3ce86d2477426c04bc2817fdaf06625742c81bc37d21a0cb4851288b7288e369",
+ "in_tok": 228,
+ "out_tok": 104,
+ "usd": 0.001278,
+ "utc": "2026-10-11T20:48:00.609424+00:00"
+}

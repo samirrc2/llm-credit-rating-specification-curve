@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R020",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A07",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer shows moderate leverage (total liabilities/total assets \u2248 68%) but solid operating profitability (EBIT margin \u2248 18%) and positive earnings (net margin \u2248 9.8%). Liquidity is weak with a current ratio below 1 (current assets/current liabilities \u2248 0.83), indicating some refinancing/working-capital vulnerability.  \nDECISION: BBB-",
+ "prompt_sha256": "75334da9b96ca48550e5154dcd1d33ffb6669786392babf25396d701157607fb",
+ "in_tok": 230,
+ "out_tok": 223,
+ "usd": 0.000325,
+ "utc": "2026-10-11T20:45:45.045795+00:00"
+}

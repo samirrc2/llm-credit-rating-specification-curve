@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R008",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A08",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "```json\n{\"decision\": \"A\", \"confidence\": 4, \"rationale\": \"Strong profitability, robust leverage profile (liabilities/assets under 55%), and solid equity base justify a strong investment-grade rating.\"}\n```",
+ "prompt_sha256": "8e637281d0005c500630c431bdadfac754124cd5c233edaabd8c616b7fefbdc8",
+ "in_tok": 260,
+ "out_tok": 51,
+ "usd": 0.000849,
+ "utc": "2026-10-11T20:48:05.454985+00:00"
+}

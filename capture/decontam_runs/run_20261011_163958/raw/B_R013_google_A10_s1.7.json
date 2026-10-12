@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R013",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer displays severe financial distress, highlighted by negative net income (-$39M), negative retained earnings (-$1,810M), and negative shareholders' equity (-$843M) indicating technical insolvency and cumulative historical losses. Furthermore, operating profitability is extremely thin (EBIT margin of ~2.6%), liquidity is constrained with current assets barely covering current liabilities, and total liabilities significantly exceed total assets.\n\nDECISION: CCC",
+ "prompt_sha256": "145b97a2afb9ba91e4f3715ce908d0b823df37812e305c40ee56f3d2eab5f49c",
+ "in_tok": 221,
+ "out_tok": 91,
+ "usd": 0.001151,
+ "utc": "2026-10-11T20:48:19.658391+00:00"
+}

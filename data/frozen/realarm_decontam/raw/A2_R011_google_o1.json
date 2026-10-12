@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R011",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 1,
+ "ok": true,
+ "raw_response": "ANSWER: HAWAIIAN ELECTRIC INDUSTRIES, INC.",
+ "prompt_sha256": "d3b54e86f73b18f3fc493c01ac12ba154f62014b3eab3ce11c0c9f6ca7c2e470",
+ "in_tok": 548,
+ "out_tok": 11,
+ "usd": 0.000921,
+ "utc": "2026-10-11T20:47:34.807961+00:00"
+}

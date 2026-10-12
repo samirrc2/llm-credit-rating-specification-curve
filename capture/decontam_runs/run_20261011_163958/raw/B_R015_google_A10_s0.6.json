@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R015",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": "A10",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The issuer demonstrates strong short-term liquidity with a current ratio of 2.85x and a moderate capital structure (Total Debt/Assets equivalent to liabilities at 58.7%), supported by a solid retained earnings base ($1,758M) and positive net income ($386M). However, the severe operating loss (EBIT of -$593M relative to $1,395M in revenue) indicates substantial core operational weakness and vulnerability to ongoing cash burn, which restricts the credit profile to speculative grade.\n\nDECISION: BB-",
+ "prompt_sha256": "9f8e143f02e36d66d6a867b789b7cdea59301eb6a330b869b21c9814a0b9d4d6",
+ "in_tok": 224,
+ "out_tok": 118,
+ "usd": 0.001398,
+ "utc": "2026-10-11T20:48:23.377650+00:00"
+}

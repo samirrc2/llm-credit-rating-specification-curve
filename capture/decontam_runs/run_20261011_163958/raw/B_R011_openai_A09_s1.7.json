@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R011",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A09",
+ "scale": 1.7,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"EBIT and net income are negative, indicating weak profitability; leverage is moderate and liquidity is adequate, but losses constrain credit strength.\"}",
+ "prompt_sha256": "635b09c2ea598ae31ba1908fbf940de87a9a4fac99fc7da44018b617ec173f15",
+ "in_tok": 224,
+ "out_tok": 202,
+ "usd": 0.000297,
+ "utc": "2026-10-11T20:45:16.864219+00:00"
+}

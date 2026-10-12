@@ -1,0 +1,16 @@
+{
+ "experiment": "A2",
+ "item_id": "R018",
+ "provider": "google",
+ "model": "gemini-3.5-flash",
+ "spec_id": null,
+ "scale": null,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "ANSWER: THE TORO COMPANY",
+ "prompt_sha256": "d2735156662e7c887c6ac007078bbb2141ac26a83e9ccbf0a084d997fdc103cc",
+ "in_tok": 547,
+ "out_tok": 6,
+ "usd": 0.000874,
+ "utc": "2026-10-11T20:47:39.541320+00:00"
+}

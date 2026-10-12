@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R026",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A09",
+ "scale": 1.0,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "{\"decision\":\"BB-\",\"confidence\":3,\"rationale\":\"Low profitability (EBIT margin ~5%), weak liquidity (current ratio ~0.89), and high leverage (equity ~19% of assets) support a speculative grade.\"}",
+ "prompt_sha256": "c21fc34bd13756eadf2f4fd56c2b4f1025c84121394fc7526104ac7b0d680ad4",
+ "in_tok": 222,
+ "out_tok": 199,
+ "usd": 0.000293,
+ "utc": "2026-10-11T20:46:04.862038+00:00"
+}

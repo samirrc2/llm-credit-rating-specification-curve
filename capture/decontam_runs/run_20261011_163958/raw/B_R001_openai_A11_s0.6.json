@@ -1,0 +1,16 @@
+{
+ "experiment": "B",
+ "item_id": "R001",
+ "provider": "openai",
+ "model": "gpt-5.4-nano",
+ "spec_id": "A11",
+ "scale": 0.6,
+ "ordering": 0,
+ "ok": true,
+ "raw_response": "The company shows solid operating profitability (EBIT margin ~15.6%) and decent near-term liquidity (current ratio ~1.87). Leverage is moderate (total liabilities ~58% of total assets), but without interest coverage or cash flow coverage metrics, credit strength appears more consistent with the lower end of investment grade.  \n\nDECISION: BBB-",
+ "prompt_sha256": "906a137e036be1247bfa329bb383a743a22ce7a8320d11f923055b5cdcf7774e",
+ "in_tok": 233,
+ "out_tok": 213,
+ "usd": 0.000313,
+ "utc": "2026-10-11T20:44:44.259892+00:00"
+}
