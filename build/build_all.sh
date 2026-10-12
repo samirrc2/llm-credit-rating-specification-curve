@@ -67,6 +67,7 @@ echo "== 6. highlighted copy (built last: it diffs the final manuscript)"
 bash build/build_highlighted.sh
 
 echo "== 7. gates"
+"$PY" build/check_coverage.py       | tail -1
 "$PY" build/check_tables_fresh.py   | tail -1
 "$PY" build/check_denominators.py   | tail -1
 "$PY" build/make_blinded.py --check | tail -1

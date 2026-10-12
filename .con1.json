@@ -24,9 +24,11 @@
     "PY": "/Users/samirchincholikar/Desktop/NIW/Paper 3/.venv/bin/python"
   },
   "gates": [
+    "python3 build/check_coverage.py",
     "python3 build/check_denominators.py",
     "python3 build/check_tables_fresh.py",
-    "python3 capture/freeze_decontam.py --verify"
+    "python3 capture/freeze_decontam.py --verify",
+    "python3 build/make_blinded.py --check"
   ],
   "inputs": [
     "data/frozen/main/*.json",
