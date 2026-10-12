@@ -25,6 +25,7 @@
   },
   "gates": [
     "python3 ~/.claude/skills/con1/scripts/check_citations.py --online --exemptions build/citation_exemptions.json",
+    "python3 build/check_binding.py",
     "python3 build/check_coverage.py",
     "python3 build/check_denominators.py",
     "python3 build/check_tables_fresh.py",

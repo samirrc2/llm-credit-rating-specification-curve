@@ -69,6 +69,7 @@ bash build/build_highlighted.sh
 echo "== 7. gates"
 "$PY" "$HOME/.claude/skills/con1/scripts/check_citations.py" --online \
       --exemptions build/citation_exemptions.json | tail -1
+"$PY" build/check_binding.py        | tail -1
 "$PY" build/check_coverage.py       | tail -1
 "$PY" build/check_tables_fresh.py   | tail -1
 "$PY" build/check_denominators.py   | tail -1
