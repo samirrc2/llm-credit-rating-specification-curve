@@ -22,16 +22,24 @@ calls and at zero cost.** The study comprises:
   32-specification factorial grid × 3 seeds = **8,640 elicitations** across four model snapshots, with an
   objective Altman Z″ benchmark. (The released raw corpus additionally retains an excluded third-provider
   pilot for transparency; the confirmatory analysis uses only the two providers with complete coverage.)
-- **Perturbed, fingerprint-screened real-firm arm:** 31 anonymized, perturbed issuers benchmarked to
-  disclosed agency ratings, under a pre-registered fingerprint-identification gate.
+- **Perturbed, fingerprint-screened real-firm arm (illustrative):** 31 anonymized, perturbed issuers
+  benchmarked to disclosed agency ratings, under a pre-registered fingerprint-identification gate. Two
+  pre-registered decontamination experiments (**1,364 new elicitations, 1,361 substantive**) show that a
+  closed-set probe still recovers issuer identity from scale-invariant ratios alone at **19.4% against a
+  3.2% chance rate**, so this arm is reported as a descriptive limitation and carries no
+  external-validity claim.
 - **Flagship model-tier robustness arm (post-hoc):** `gpt-5.4` + `gemini-3.1-pro-preview` on the frozen
   12-specification grid × 45 credit-health items × 3 seeds = **1,620 elicitations**, fixed by
   `MANIFEST_FLAGSHIP.sha256`.
 - **Reasoning-architecture arm (post-hoc):** `deepseek-r1` (native chain-of-thought) on the same frozen
   12-specification grid × 45 items × 3 seeds = **1,620 elicitations**, fixed by `MANIFEST_REASONING.sha256`.
-- **A candidate operational control:** a *specification-instability score* (SIS), validated on held-out
-  specifications (ROC-AUC 0.94; ROC-AUC 0.70 on the real-issuer arm), with a self-consistency curve and a
-  per-issuer cost model.
+- **A descriptive dispersion index, benchmarked against simpler baselines:** a *specification-instability
+  score* (SIS) predicts held-out instability (ROC-AUC 0.94 on held-out specifications, 0.70 on the
+  real-issuer calibration set), but at the IG/HY gate it is **ordinally equivalent to counting dissenting
+  elicitations** and adds no incremental discrimination. A decision-curve analysis finds no triage gain
+  over the dissent count. SIS is therefore reported as a descriptive dispersion summary and a governance
+  trigger, **not** as a validated operational control. The deployable rule is stated directly on the
+  integer dissent count.
 
 ## Repository layout
 ```
@@ -68,12 +76,20 @@ bash reproduce.sh
 ```
 All `results/results_*.json` regenerate byte-for-byte from the frozen data (verified in a clean
 virtualenv from the pinned `requirements.txt`); no network access is required. Headline results:
-per-comparison IG/HY flip **25.2%** (95% CI 19.7–31.2); pure within-cell seed variance **8.1%**;
-rating-invariance permutation on the temperature-0-honored subgrid **p = 0.0005** (η² = 0.46); flagship
-tier **does not detect attenuation** (paired Δ −1.1 pp, 95% CI −7.6 to +6.0) and the reasoning arm shows
-comparable instability (25.5%, paired Δ +0.9 pp); SIS validation **ROC-AUC 0.94** (held-out
-specifications), with cross-model transfer moderate but inconsistent (Spearman 0.14–0.73) and design
-aliasing bounded (main off-diagonal 0.062; main × 2FI 0.333).
+per-comparison IG/HY flip **25.2%** (95% CI 19.7–31.2). Chance-corrected agreement reaches only
+**Fleiss' κ = 0.49** at that binary resolution. Pure within-cell seed variance is **8.1%**, and the
+elicitation axes jointly explain **R² = 0.083–0.119**, a share the fractional design cannot attribute to
+individual axes. The rating-invariance permutation on the temperature-0-honored subgrid gives
+**p = 0.0005** (η² = 0.46). The flagship tier **does not detect attenuation** (paired Δ −1.1 pp, 95% CI
+−7.6 to +6.0) and the reasoning arm shows comparable instability (25.5%, paired Δ +0.9 pp).
+
+SIS predicts held-out instability at **ROC-AUC 0.94**, and a profile-split subsampling analysis over 300
+draws gives mean AUC 0.936 at the gate and 0.950 at three bands, with an index-minus-dissent-count
+difference of exactly zero on every split. Cross-model transfer is moderate but inconsistent
+(Spearman 0.14–0.73). Distance to the IG/HY boundary is a weaker and different signal
+(AUC 0.763 and 0.655). Design aliasing on the analysed **32-specification two-provider** design is
+bounded by a maximum main-effect off-diagonal correlation of **0.125** and a maximum
+main-effect × two-factor-interaction correlation of **0.504**.
 
 ## Notes
 - `capture/` is provided for transparency only; reproduction never calls a model API. Provider API keys

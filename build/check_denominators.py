@@ -60,9 +60,14 @@ docs = {"manuscript": PB / "paper/NLP/cas-sc.tex",
 # denominators it actually uses (60 of 62 attempted, etc.). What it must NOT do is state an
 # attempted total without the substantive one -- that pairing is the inconsistency this gate
 # exists to prevent. So these are manuscript-required and conditionally letter-required.
-MANUSCRIPT_ONLY = {"battery realized", "decontam attempted", "decontam substantive"}
+# The response letter cites only the denominators it actually uses. Requiring every one of them
+# there forced the letter's wording rather than checking it; these are manuscript-required and
+# conditionally letter-required via CONDITIONAL_PAIRS below.
+MANUSCRIPT_ONLY = {"battery realized", "decontam attempted", "decontam substantive",
+                   "A1 attempted", "A1 substantive"}
 CONDITIONAL_PAIRS = [("decontam attempted", "decontam substantive"),
-                     ("credit designed", "credit realized")]
+                     ("credit designed", "credit realized"),
+                     ("A1 attempted", "A1 substantive")]
 for label, path in docs.items():
     t = path.read_text(encoding="utf-8")
     for name, expect in REQUIRED:

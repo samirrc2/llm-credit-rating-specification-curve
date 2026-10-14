@@ -37,32 +37,25 @@
 \cortext[1]{Corresponding author}
 
 \begin{abstract}
-Large language models (LLMs) are increasingly used to support credit assessments, but it is unclear
-whether elicitation choices merely reveal a stable credit view or shape the rating. Using a pre-registered
-specification-curve design that holds fundamentals fixed while varying how the assessment is elicited, we
-evaluate 45 credit-health profiles across 32 specifications and three seeds (4{,}320 credit-rating
-elicitations), drawn from a pre-registered 90-item battery and a balanced grid of model version,
-temperature, prompt paraphrase, output format, few-shot exemplars, and presentation over two providers,
-benchmarked to Altman Z$''$. Our estimand is stability,
-not accuracy. The elicitation axes
-jointly explain a small and model-dependent share of rating variance ($R^2$ between $0.083$ and
-$0.119$ across main-effects and two-way specifications). Because the fractional design aliases main
-effects with omitted interactions, we report no per-axis share. Pure run-to-run variation accounts
-for about 8\%; instability persists on the
-temperature-0-honored subgrid (single provider,
-temperature 0, permutation $p=0.0005$). Cross-specification agreement remains low at all resolutions. Unweighted Fleiss' $\kappa$ reaches at most 0.49 at the investment-grade/high-yield split, where 25.2\% of
-matched pairs disagree, and switching or pooling providers does not remove it. A small arm of 31 perturbed real issuers also exhibits specification variation, but we report it only as an illustrative descriptive limitation and draw
-no external-validity claim from it. Two pre-registered decontamination experiments
-(1{,}364 new elicitations, 1{,}361 substantive) are the reason. We do not detect evidence that absolute scale contributes additional
-instability under the paired within-issuer test ($p=0.644$), but a closed-set probe identifies the
-issuer from its scale-invariant ratios alone at 19.4\% against a $1/31$ chance rate
-($p=5{\times}10^{-18}$), so the perturbation does not fully decontaminate. A post-hoc check does not detect attenuation on flagship
-models, and specification sensitivity is also observed in an open-weight reasoning model. We frame the
-elicitation specification as a model-risk parameter and report a specification-instability score that
-predicts held-out instability (ROC-AUC 0.94). Benchmarked against simple
-baselines, the score is \emph{ordinally equivalent} to counting dissenting elicitations at the
-decision resolutions tested and carries no incremental discrimination over it, so we present it as a
-descriptive dispersion index and a governance trigger rather than as a validated control.
+Large language models (LLMs) are increasingly used for credit assessment, yet identical financial
+profiles may receive different ratings under defensible elicitation choices. We evaluate this
+instability in a pre-registered specification-curve experiment covering 45 credit-health profiles
+from a 90-item battery, 32 specifications, three seeds, and two providers (4{,}320 designed
+credit-rating elicitations). Holding fundamentals fixed, 25.2\% of matched elicitation pairs
+disagree at the investment-grade/high-yield (IG/HY) boundary. Chance-corrected agreement reaches
+only Fleiss' $\kappa=0.49$ even at this binary resolution. Instability persists on a
+temperature-0-honored subgrid (permutation $p=0.0005$) and is not eliminated by pooling providers.
+Pure within-cell seed variation accounts for 8.1\% of rating variance. The elicitation axes jointly
+explain a small, model-dependent share ($R^2=0.083$--$0.119$), but the fractional design does not
+identify individual-axis contributions. An illustrative arm of 31 perturbed real issuers also
+exhibits specification variation, but a pre-registered closed-set identification probe recovers
+issuer identities from scale-invariant financial ratios above chance (19.4\% versus 3.2\%), so we
+draw no external-validity claim. Post-hoc checks do not detect attenuation on flagship models, and
+specification sensitivity also occurs in an open-weight reasoning model. A specification-instability
+dispersion index predicts held-out IG/HY instability (ROC-AUC 0.94) but is ordinally equivalent to
+dissent count and offers no incremental discrimination. We treat elicitation specification as a
+model-risk parameter and propose transparent disagreement-based review rather than treating one
+elicited rating as a stable assessment.
 \end{abstract}
 
 \begin{highlights}
@@ -125,24 +118,16 @@ elicitation specification is varied systematically while the financial informati
 task are held fixed. The distribution of ratings obtained is a direct measure of the dependence of the
 machine-generated credit opinion on the way it is asked.
 
-This paper contributes an \emph{elicitation-reliability evaluation framework} that measures how
-LLM-based credit ratings depend on the linguistic and procedural specification, together with a
-descriptive dispersion index and a simple review rule built on elicitation disagreement. In
-particular we (i) quantify the overall sensitivity of machine-generated credit ratings to the
-elicitation specification, reporting the joint fitted explanatory share of the elicitation axes, the
-identified provider-by-item component, pure seed variation, and residual variation, without
-attributing that share to individual axes; (ii) test the persistence of the instability under two natural remedies, the temperature-0-honored
-setting and provider selection, and across rating resolutions from the full letter scale to the
-investment-grade/high-yield split; (iii) translate the instability into the decision-relevant unit of
-investment-grade/high-yield boundary migration;
-(iv) run an illustrative descriptive real-issuer check on a perturbed arm that first demonstrates
-issuer-recognition risk and then mitigates exact-figure recognition through scaling and fingerprint
-screening, and (v) report a \emph{specification-instability dispersion index} with pseudocode, a
-governance workflow, and a per-issuer cost model, and show that elicitation disagreement measured on
-one set of specifications predicts disagreement on a disjoint set (ROC-AUC 0.94). The index is
-descriptive. It is ordinally equivalent to counting dissenting elicitations at the decision
-resolutions tested, so we present disagreement as a simple governance and review trigger rather than
-as an instrument with incremental predictive value.
+This paper contributes a pre-registered framework for evaluating the stability of LLM-generated
+credit ratings across defensible elicitation specifications. We (i) quantify rating instability and
+investment-grade/high-yield boundary migration, (ii) assess sensitivity across providers,
+temperature settings, and rating resolutions without attributing variation to unidentified
+individual elicitation effects, (iii) conduct an illustrative real-issuer check that identifies
+residual issuer-recognition risk, and (iv) evaluate a dispersion index against simpler
+disagreement-based review rules. The index predicts instability on held-out specifications
+(ROC-AUC 0.94) but adds no discrimination over dissent counting at the IG/HY boundary. Our
+contribution is a reproducible evaluation of elicitation reliability and its implications for
+model-risk governance, rather than a validated predictive control.
 The main experiment fixes 90 items and pre-registers a grid of elicitation choices, model version,
 temperature, prompt paraphrase, output format, few-shot exemplars, and answer presentation, evaluated
 across two providers over three repeated seeds (8{,}640 elicitations). The battery comprises two
@@ -294,11 +279,6 @@ The apparent explained variance is dependent on the modeling choice, but is low 
 of sample, confirming that individual-axis attribution is not identified and that the decomposition should
 be read in a descriptive way.
 
-Under the fitted models, the elicitation axes jointly explain a small and model-dependent share of
-rating variation ($R^2=0.083$--$0.119$). The fractional design does not identify how that share
-should be attributed to individual axes, so we make no claim about whether the sensitivity is
-concentrated in one choice or distributed across several.
-
 The same pattern appears in the specification curve (Fig.~\ref{fig:speccurve}). The three seeds are
 pooled, and each point is a pre-registered specification, sorted by how consistently it recovers the
 constructed Altman Z$''$ design labels. Because the profiles were constructed to satisfy those strata,
@@ -337,12 +317,10 @@ Provider $\times$ item interaction & 1.4\% \\\bottomrule
 
 \vspace{3pt}
 {\footnotesize\raggedright The two indented rows decompose the residual and are not additional
-components. Individual elicitation-axis shares are not reported because the fractional design does not identify them; the joint explanatory share of the elicitation axes is reported in Table~\ref{tab:varrange}. The rows shown do not form a complete partition of the total variance. Design diagnostics on the analysed 32-specification two-provider design: the
+components. The rows shown do not form a complete partition of the total variance. Design diagnostics on the analysed 32-specification two-provider design: the
 maximum off-diagonal correlation between main-effect columns of distinct axes is $0.125$, and the
 maximum absolute correlation between a main-effect column and a two-factor-interaction column of
-other axes is $0.504$ (Section~\ref{sec:methods-id}). As a quality-control check we re-audited all
-design-dependent diagnostics and variance-decomposition inputs on this design, and no other
-design-dependent diagnostic or variance-decomposition result changed.}
+other axes is $0.504$ (Section~\ref{sec:methods-id}).}
 \end{table}
 
 \begin{table}[t]\centering
@@ -632,10 +610,8 @@ paired difference is $-1.1$ percentage points (95\% CI $-7.6$ to $+6.0$), not di
 (Table~\ref{tab:tier}). The three-way band flip is likewise statistically indistinguishable
 ($-5.3$ points, 95\% CI $-11.9$ to $+1.3$). Flagship models are notably more lenient, they assign
 investment grade to 79.9\% of elicitations versus 58.6\% at the nano/flash tier, yet are no more
-consistent across elicitation choices. We do not detect attenuation of specification sensitivity at the flagship tier. The paired difference is small and statistically indistinguishable from zero, with a wide
-interval ($-1.1$ pp, 95\% CI $-7.6$ to $+6.0$). This is an absence-of-evidence result, not evidence of
-absence, and is consistent with the instability being a property of how the categorical judgment is
-elicited rather than of model scale.
+consistent across elicitation choices. The comparison finds no detectable attenuation of specification sensitivity, although the wide
+confidence interval does not establish equivalence.
 
 Two caveats attach to this comparison. First, the pooled figure masks provider heterogeneity. The flagship IG/HY flip is 26.7\% for OpenAI (versus 17.3\% at the nano tier) but 16.7\% for Google (versus
 20.5\%), so the pooled near-equality reflects partial cancellation across providers rather than uniform
@@ -661,8 +637,10 @@ Three-way band flip & 30.5\% & 25.2\% & $-5.3$ ($-11.9$, $+1.3$) \\\midrule
 Design-label recovery vs Altman & 44.3\% & 36.7\% & \\
 IG rate (leniency) & 58.6\% & 79.9\% & \\\midrule
 \multicolumn{4}{l}{Nano/flash: \texttt{gpt-5.4-nano} + \texttt{gemini-3.5-flash}. Flagship: \texttt{gpt-5.4} + \texttt{gemini-3.1-pro-preview}.}\\
-\multicolumn{4}{l}{The pooled IG/HY flip exceeds both per-provider figures because pooling adds cross-provider}\\
-\multicolumn{4}{l}{disagreement absent within a single provider (Section~\ref{sec:agreement}).}\\
+\multicolumn{4}{l}{At the nano/flash tier the pooled IG/HY flip exceeds both per-provider figures because}\\
+\multicolumn{4}{l}{pooling adds cross-provider disagreement absent within a single provider}\\
+\multicolumn{4}{l}{(Section~\ref{sec:agreement}). At the flagship tier it lies between them, reflecting the provider}\\
+\multicolumn{4}{l}{heterogeneity noted in Section~\ref{sec:tier}.}\\
 \multicolumn{4}{l}{Google flagship is one minor generation behind its flash counterpart (no Gemini-3.5 Pro exists).}\\\bottomrule
 \end{tabular}\end{table}
 
@@ -820,18 +798,14 @@ observations rather than distinct specifications. The retrospective validation r
 per specification, so its calibration set has $k=16\times3=48$, whereas a practical
 one-call-per-specification workflow has $k=|S|$. Thresholds on the continuous index are therefore
 $k$-dependent in a way that $d\ge c_{\mathrm{ref}}$ is not, which is the second reason for preferring the count.
-Reported for completeness, the earlier Youden-selected cutoff $\tau=0.08$ corresponds at $k=48$ to
-$d\ge3$, while at $k=16$ it would collapse to $c_{\mathrm{ref}}=1$, since the smallest non-zero index value is
-$0.0408$ at $k=48$ and $0.117$ at $k=16$.
 
 Proximity to the boundary is reported as a severity indicator rather than a mandatory conjunct.
 Instability is not confined to the boundary region, and requiring both conditions would cut recall
 to 0.176 while referring only 13.3\% of profiles, trading referral volume against missed
 instability. Disagreement therefore determines whether a rating is referred, and proximity to the
-BBB$-$/BB$+$ cut determines how urgently. The continuous index remains useful for ranking within the
-referred set, and its discrimination (ROC-AUC $0.94$) is scored on the full index rather than the
-binary gate, so at finer resolutions it takes many values rather than collapsing to a unanimity
-flag. That figure describes the retrospective $k=48$ construction and is not evidence about the
+BBB$-$/BB$+$ cut determines how urgently. The ROC-AUC of $0.94$ is computed at the IG/HY
+resolution, where the index ranks issuers identically to the dissent count
+(Section~\ref{sec:sis-baselines}). That figure describes the retrospective $k=48$ construction and is not evidence about the
 $k\approx9$ aggregation level, which comes from the separate cost analysis of
 Section~\ref{sec:sis-cost}.
 
@@ -865,8 +839,7 @@ algebraic and so cannot depend on which profiles are evaluated. At three bands t
 rank-identical and the agreement in AUC is an empirical finding of these data rather than an
 identity.
 
-The comparison is unfavourable to the score, and for a reason that is algebraic rather than
-empirical. At a binary resolution with $k$ elicitations and minority count $m$, the index equals
+At a binary resolution with $k$ elicitations and minority count $m$, the index equals
 $1-\big[(m/k)^2+(1-m/k)^2\big]=2(m/k)(1-m/k)$, which is strictly increasing in $m$ for $m<k/2$. The
 score is therefore an order-isomorphic transform of the dissent count at the binary gate, and any
 rank-based discrimination measure must give the two identical values there. The same argument covers
@@ -904,8 +877,7 @@ is a governance decision rather than an empirical one, and the decision curve sh
 nothing beyond the count at the decision resolutions a credit gate actually uses. Second, distance
 to the boundary is a genuinely \emph{different} and weaker signal (AUC $0.763$ and $0.655$), so it is
 not a substitute for the dissent count. The two measure different things, which is why
-Algorithm~1 (Fig.~\ref{alg:sis}) uses dissent to determine referral and boundary proximity to determine priority. We therefore describe the index as a descriptive
-dispersion summary and a convenient governance trigger, and not as a control with incremental value over simple disagreement counting.
+Algorithm~1 (Fig.~\ref{alg:sis}) uses dissent to determine referral and boundary proximity to determine priority.
 
 \paragraph{Net benefit for triage.}
 Discrimination is not the quantity a referral desk optimizes, so we also report the decision-curve
@@ -929,7 +901,7 @@ already near-optimal for $p_t\le0.20$, where the gain from any predictor is $0$.
 dispersion predictors separate, reaching $+0.278$ over refer-all at $p_t=0.60$. The useful knob there
 is the \emph{number} of dissenting elicitations rather than the continuous score. The fixed ``refer on
 any disagreement'' rule falls short of the attainable envelope by up to $0.167$, because for
-$p_t>0.30$ a count threshold above one dissent is preferable. Because the operating parameter is an integer count on a grid of $k+1$ attainable values rather than a tuned continuous cutoff, no threshold selection is required, and we state the count rule and its net benefit directly.
+$p_t>0.30$ a count threshold above one dissent is preferable. The operational rule uses an integer dissent threshold $c_{\mathrm{ref}}$, chosen according to review cost and capacity, rather than a cutoff on the continuous $\mathrm{SIS}$.
 
 \begin{table}[t]\centering
 \caption{Decision-curve net benefit for triage, $\mathrm{NB}(p_t)=\mathrm{TP}/n-(\mathrm{FP}/n)
@@ -1022,12 +994,8 @@ the residual), and the headline flip and agreement results are model-free.
 
 It is useful to separate two kinds of risk this induces, because they call for different controls.
 \emph{Build-time} risk is the one-time consequence of fixing a particular provider, model snapshot, and
-prompt template when a system is designed. The elicitation axes \emph{jointly} explain only a small and
-model-dependent share of the variance ($R^2$ between $0.083$ and $0.119$ across the specifications
-we fit), no individual axis share is identified under this design
-(Section~\ref{sec:methods-id}), and the one separately identified interaction,
-provider$\times$item at $1.4\%$, is non-negligible; the chosen configuration therefore selects a
-point on the specification curve that need not generalize to other defensible configurations. \emph{Run-time} risk is
+prompt template when a system is designed. A fixed configuration selects one point on the specification
+curve and may not generalize to other defensible configurations (Section~\ref{sec:methods-id}). \emph{Run-time} risk is
 the ongoing 8.1\% pure seed variation that recurs on every call even with the configuration held fixed.
 The two map to different mitigations, build-time risk is managed by evaluating across specifications
 before deployment (the specification-instability score of Section~\ref{sec:sis}), run-time risk by

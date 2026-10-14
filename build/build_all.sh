@@ -73,6 +73,7 @@ echo "== 7. gates"
 "$PY" build/check_coverage.py       | tail -1
 "$PY" build/check_tables_fresh.py   | tail -1
 "$PY" build/check_denominators.py   | tail -1
+"$PY" build/check_readme.py         | tail -1
 "$PY" build/make_blinded.py --check | tail -1
 "$PY" capture/freeze_decontam.py --verify | tail -1
 
@@ -90,7 +91,7 @@ def T(f): return re.sub(r"\s+", " ", "".join(p.get_text() for p in pymupdf.open(
 # reports per-experiment denominators instead) nor the word "Decontamination" (it refers to
 # Section 3.7), so applying the manuscript's markers to it produced a false STALE.
 MS = ["4,316", "1,361", "62 attempted", "Decontamination"]
-LT = ["4,316", "62 attempted", "0.504", "0.644", "19.4"]
+LT = ["4,316", "0.504", "0.644", "19.4", "0.176"]   # the letter's own figures
 R = "paper/NLP/submission/revision_2/"; S = "paper/NLP/submission/"
 TARGETS = [(R+"cas-sc-revised-r2.pdf", MS), (R+"RESPONSE_TO_REVIEWERS_R2.pdf", LT),
            (R+"highlighted_pdf.pdf", MS), (S+"cas-sc-blinded.pdf", MS),

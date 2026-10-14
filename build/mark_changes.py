@@ -33,18 +33,20 @@ PREAMBLE = "\n".join([
     r"\usepackage{xcolor}",
     r"\definecolor{HLyellow}{rgb}{1,0.94,0.35}",
     r"\definecolor{HLink}{rgb}{0.75,0.18,0.04}",
+    r"\usepackage[normalem]{ulem}",
     r"\sethlcolor{HLyellow}",
     r"\newcommand{\HLtext}[1]{\texthl{#1}}",
-    r"\newcommand{\HLcode}[1]{\textcolor{HLink}{#1}}",
+    r"\newcommand{\HLcode}[1]{\texthl{#1}}",
+    r"\newcommand{\HLdel}[1]{\textcolor{HLink}{\sout{#1}}}",
     r"\newcommand{\HLtag}[1]{{\color{HLink}\bfseries [#1]~}}",
     # The legend is an annotation, not manuscript text. unmark() in check_marked.py strips
     # \HLlegend whole, so adding it keeps the round-trip exact.
     r"\newcommand{\HLlegend}{%",
     r"\par\noindent\fbox{\parbox{0.95\linewidth}{\footnotesize\textbf{Marked copy, revision 2.}"
-    r" Additions since revision 1 are shown as \HLtext{highlighted text}, or as"
-    r" \HLcode{coloured text} where the passage contains mathematics or a cross-reference."
-    r" Deletions are not shown. Table and algorithm bodies are reproduced in final form without"
-    r" internal marks; a float that is new or revised is labelled in its caption, e.g."
+    r" Text added since revision 1 is \HLtext{highlighted in yellow}."
+    r" Text removed since revision 1 is shown as \HLdel{red struck-through text} at the point"
+    r" where it stood. Table and algorithm bodies are reproduced in final form without"
+    r" internal marks. A float that is new or revised is labelled in its caption, e.g."
     r" \HLtag{New in revision 2}. Page and float numbering match the clean manuscript.}}\par\vspace{6pt}}",
     "",
 ])
@@ -131,10 +133,38 @@ def balanced(t):
 
 
 def wrap_one(core):
-    """Wrap a single safe chunk: yellow highlight for plain prose, colour otherwise."""
+    """Wrap a single safe chunk in the yellow highlight.
+
+    soul cannot swallow mathematics or a command, so a core containing either is split into
+    plain fragments (highlighted) and unsafe fragments (left bare but kept in place). Earlier
+    revisions coloured such a core red instead; red now means DELETED and nothing else, so a
+    red run can never be confused with an addition."""
     if not any(u in core for u in SOUL_UNSAFE) and len(core) <= 600:
         return r"\HLtext{" + core + "}"
-    return r"\HLcode{" + core + "}"
+    out, buf = [], []
+    for tok, isword in tokenize(core):
+        # "%" must count as unsafe here: _hl strips trailing whitespace, and stripping the
+        # newline that terminates a comment would leave the closing brace commented out
+        # ("File ended while scanning use of \HLtext").
+        unsafe = any(u in tok for u in SOUL_UNSAFE) or tok.lstrip().startswith("%")
+        if unsafe:
+            if buf:
+                out.append(_hl("".join(buf))); buf = []
+            out.append(tok)
+        else:
+            buf.append(tok)
+    if buf:
+        out.append(_hl("".join(buf)))
+    return "".join(out)
+
+
+def _hl(frag):
+    """Highlight one plain fragment, preserving its surrounding space outside the macro."""
+    if not frag.strip():
+        return frag
+    lead = frag[:len(frag) - len(frag.lstrip())]
+    trail = frag[len(frag.rstrip()):]
+    return lead + r"\HLtext{" + frag.strip() + "}" + trail
 
 
 def mark_chunk(txt):
@@ -218,30 +248,111 @@ def protected_spans(body):
     return merged
 
 
+# A deleted run is re-inserted into the NEW document, so it must be inert there. Anything
+# structural, or any reference that would resolve against labels the revision no longer has,
+# is skipped and reported rather than struck.
+DEL_FORBIDDEN = re.compile(
+    r"\\(?:begin|end|label|input|include|bibliography|maketitle|documentclass|usepackage|"
+    r"newcommand|renewcommand|def|cite[a-z]*|ref|eqref|pageref|footnote|caption|item|"
+    r"(?:sub)*section|paragraph|hline|toprule|midrule|bottomrule|multicolumn)\b|\\\\")
+SKIPPED_DEL = []        # deleted runs that could not be struck safely; reported, never silent
+
+
+TRIVIAL_DEL = re.compile(r"^[\s,.;:)(\[\]{}]*$")
+N_TRIVIAL = [0]
+
+
+def _del_one(core):
+    if not core or TRIVIAL_DEL.match(core):
+        if core:
+            N_TRIVIAL[0] += 1
+        return None
+    if not balanced(core) or DEL_FORBIDDEN.search(core) or len(core) > 1200:
+        SKIPPED_DEL.append(core[:90])
+        return None
+    return r"\HLdel{" + core + "} "
+
+
+def del_wrap(text):
+    """Strike one deleted run, or return None if it cannot be re-inserted safely.
+
+    Word-level removals are struck too: a reworded sentence otherwise shows new text in yellow
+    with no sign of what it replaced. Only punctuation-only runs are dropped silently.
+
+    The run is split at paragraph breaks first: \textcolor cannot cross one, and after opcode
+    coalescing a single deletion can span several paragraphs ("Paragraph ended before
+    \@textcolor was complete")."""
+    parts = [p for p in re.split(r"\n\s*\n", text) if p.strip()]
+    outs = [d for d in (_del_one(p.strip()) for p in parts) if d]
+    return "".join(outs) if outs else None
+
+
+def coalesce(ops, ok, nk, min_keep=5):
+    """Merge a change region separated only by a few surviving words into one block.
+
+    A word-level diff of a rewritten sentence matches incidental words ("the", "is") and splits
+    the sentence into a dozen fragments, so the marked copy reads
+    "threshold that maximizes do Youden's not expose" -- unusable for a reviewer. Where an
+    equal run is shorter than `min_keep` WORDS and sits between two changes, it is absorbed, so
+    the rewrite shows as one struck phrase followed by one highlighted phrase."""
+    words = lambda seq: sum(1 for t in seq if t.strip() and not t.startswith("\\"))
+    ops = list(ops)
+    out = []
+    for op in ops:
+        tag, i1, i2, j1, j2 = op
+        if (tag == "equal" and out and words(nk[j1:j2]) < min_keep
+                and op is not ops[-1]):
+            nxt = ops[ops.index(op) + 1]
+            if nxt[0] != "equal" and out[-1][0] != "equal":
+                pt, pi1, pi2, pj1, pj2 = out[-1]
+                out[-1] = ("replace", pi1, i2, pj1, j2)
+                continue
+        if out and out[-1][0] in ("replace", "delete", "insert") and tag in ("replace", "delete", "insert"):
+            pt, pi1, pi2, pj1, pj2 = out[-1]
+            if pi2 == i1 and pj2 == j1:
+                out[-1] = ("replace", pi1, i2, pj1, j2)
+                continue
+        out.append(op)
+    return out
+
+
 def mark_prose(old_body, new_body):
+    """One global token diff of the old body against the new one.
+
+    Additions are highlighted where they stand. Deletions are struck through at the point the
+    removed text occupied. A per-segment diff cannot express a deletion at all -- comparing the
+    whole old body against one segment reports most of the document as deleted -- so the diff is
+    global and protected spans are excluded by offset instead.
+    """
     prot = protected_spans(new_body)
-    pieces, marked, pos = [], 0, 0
-    for a, b in prot + [(len(new_body), len(new_body))]:
-        seg = new_body[pos:a]
-        if seg:
-            o = tokenize(old_body); nt = tokenize(seg)
-            ok = [t for t, _ in o]; nk = [t for t, _ in nt]
-            sm = SequenceMatcher(None, ok, nk, autojunk=False)
-            out, run = [], []
-            for tag, i1, i2, j1, j2 in sm.get_opcodes():
-                if tag in ("insert", "replace"):
-                    run.extend(nt[j1:j2])
-                else:
-                    if run:
-                        out.append(wrap(run)); marked += 1; run = []
-                    out.append("".join(nk[j1:j2]))
-            if run:
-                out.append(wrap(run)); marked += 1
-            pieces.append("".join(out))
-        if a < len(new_body):
-            pieces.append(new_body[a:b])
-        pos = b
-    return "".join(pieces), marked
+
+    def in_prot(off):
+        return any(a <= off < b for a, b in prot)
+
+    ot, nt = tokenize(old_body), tokenize(new_body)
+    ok, nk = [t for t, _ in ot], [t for t, _ in nt]
+    noff, acc = [], 0
+    for t in nk:
+        noff.append(acc); acc += len(t)
+
+    sm = SequenceMatcher(None, ok, nk, autojunk=False)
+    out, marked, deleted = [], 0, 0
+    for tag, i1, i2, j1, j2 in coalesce(sm.get_opcodes(), ok, nk):
+        here = noff[j1] if j1 < len(noff) else len(new_body)
+        if tag in ("delete", "replace"):
+            if not in_prot(here):
+                d = del_wrap("".join(ok[i1:i2]))
+                if d:
+                    out.append(d); deleted += 1
+        if tag in ("insert", "replace"):
+            seg = nt[j1:j2]
+            if in_prot(here):
+                out.append("".join(nk[j1:j2]))
+            else:
+                out.append(wrap(seg)); marked += 1
+        elif tag == "equal":
+            out.append("".join(nk[j1:j2]))
+    return "".join(out), marked, deleted
 
 
 def tag_floats(old, new):
@@ -283,14 +394,19 @@ def main():
     _, old_body = body_split(old)
     pre, new_body = body_split(new)
 
-    body, n_runs = mark_prose(old_body, new_body)
+    body, n_runs, n_del = mark_prose(old_body, new_body)
     body, n_new, n_chg = tag_floats(old_body, body)
     assert n_runs > 0, "no additions marked -- is the baseline the same file?"
     out = (pre.replace(r"\begin{document}", PREAMBLE + r"\begin{document}", 1)
            + body)
     open(outp, "w", encoding="utf-8").write(out)
-    print(f"   {n_runs} added prose runs marked; "
+    print(f"   {n_runs} added run(s) highlighted yellow, {n_del} deleted run(s) struck red; "
           f"{n_new} float(s) tagged new, {n_chg} tagged revised; tabular bodies untouched")
+    if SKIPPED_DEL:
+        print(f"   {len(SKIPPED_DEL)} deleted run(s) NOT struck (structural or a stale reference); "
+              f"{N_TRIVIAL[0]} punctuation-only run(s) dropped:")
+        for u in SKIPPED_DEL[:6]:
+            print(f"     - {u}")
     if UNMARKED:
         print(f"   {len(UNMARKED)} run(s) left UNMARKED (unbalanced braces):")
         for u in UNMARKED[:8]:

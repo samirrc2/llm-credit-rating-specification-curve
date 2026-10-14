@@ -49,6 +49,19 @@ def unmark(s):
     # the whole injected preamble, up to and including the \HLlegend definition
     s = re.sub(r"\\usepackage\{soul\}.*?\\par\\vspace\{6pt\}\}\n", "", s, flags=re.S)
     s = s.replace("\n\\HLlegend\n", "", 1)       # the emitted legend itself
+    # a struck deletion is text that is NOT in cas-sc.tex, so the whole macro and its
+    # argument come out, together with the single space del_wrap appends after it
+    while True:
+        j = s.find(r"\HLdel{")
+        if j < 0:
+            break
+        e = arg_span(s, j + len(r"\HLdel{") - 1)
+        if e < 0:
+            break
+        k = e + 1
+        if k < len(s) and s[k] == " ":
+            k += 1
+        s = s[:j] + s[k:]
     for mac in (r"\HLtext{", r"\HLcode{"):
         while True:
             j = s.find(mac)
@@ -91,12 +104,18 @@ if not (clean_pdf.exists() and marked_pdf.exists()):
 clean, marked = pymupdf.open(clean_pdf), pymupdf.open(marked_pdf)
 norm = lambda d: re.sub(r"\s+", " ", "".join(p.get_text() for p in d))
 C, M = norm(clean), norm(marked)
-if marked.page_count != clean.page_count:
-    fails.append(f"page count {marked.page_count} != clean {clean.page_count}")
+# The marked copy re-inserts every deleted run, so it is legitimately LONGER than the clean
+# manuscript. It must never be shorter -- that would mean content vanished -- and a copy that
+# has ballooned is a marking bug rather than a revision, so an upper bound still applies.
+_lo, _hi = clean.page_count, int(clean.page_count * 1.25) + 1
+if not (_lo <= marked.page_count <= _hi):
+    fails.append(f"page count {marked.page_count} outside [{_lo}, {_hi}] for clean "
+                 f"{clean.page_count} (deletions make the marked copy longer, never shorter)")
 tc, tm = len(re.findall(r"Table [0-9]+", C)), len(re.findall(r"Table [0-9]+", M))
 if tm != tc:
     fails.append(f"table references {tm} != clean {tc}")
-print(f"  render: {marked.page_count}pp vs {clean.page_count}pp, {tm} vs {tc} table references")
+print(f"  render: {marked.page_count}pp vs {clean.page_count}pp clean (longer by design), "
+      f"{tm} vs {tc} table references")
 
 def squash(t):
     t = re.sub(r"[^a-z0-9]", "", t.lower())
