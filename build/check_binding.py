@@ -21,7 +21,9 @@ Three ways a rule fails, all fatal:
 
 Exit 0 all bound, 1 any failure, 2 could not check.
 """
-import json, re, sys
+import json
+import re, sys
+from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
 PB = Path(__file__).resolve().parents[1]
@@ -43,6 +45,19 @@ RULES = [
  (r"for answer presentation it is \$",        "0.878", "results_r3_alias_bounds.json:/presentation_l2/A7_presentation=L0", 3),
  (r"of profiles at precision ",               "0.825", "results_canonical_fixes.json:/item8_canonical/rules/any_disagreement_sis_gt_0/precision", 3),
  (r"and recall ",                             "0.971", "results_canonical_fixes.json:/item8_canonical/rules/any_disagreement_sis_gt_0/recall", 3),
+ # The two R^2 endpoints are semantically distinct -- 0.083 is main effects only, 0.119 adds
+ # all two-way interactions -- so swapping them inverts which specification yields which fit.
+ # Both are real printed values, so coverage passes; before these rules the swap was caught
+ # only by make_blinded.py --check, which fails merely because the blinded copy went stale.
+ (r"supports an \$R\^2\$ of \$",            "0.083", "results_variance_model_range.json:/main_effects_only/in_sample_R2", 3),
+ (r"under main effects only and \$",         "0.119", "results_variance_model_range.json:/main_plus_2way/in_sample_R2", 3),
+ # The four chance-corrected agreement figures. Bending the band claim from 0.428 to 0.4242
+ # passed every gate by hand-injection before these rules existed: coverage only asks whether
+ # the printed 0.43 is reachable from the data pool, not whether it equals THIS claim.
+ (r"Fleiss' \$\\kappa\$ is ",                "0.10", "results_addenda.json:/ADD3_effective_resolution/ADD3.kappa_by_granularity/letter", 2),
+ (r"at the full letter\nscale, ",             "0.21", "results_addenda.json:/ADD3_effective_resolution/ADD3.kappa_by_granularity/notch", 2),
+ (r"at the notch level, ",                    "0.43", "results_addenda.json:/ADD3_effective_resolution/ADD3.kappa_by_granularity/band", 2),
+ (r"and reaches a maximum of only ",          "0.49", "results_addenda.json:/ADD3_effective_resolution/ADD3.kappa_by_granularity/ig_hy", 2),
 ]
 RULES = [r for r in RULES if r[1]]
 
@@ -77,8 +92,14 @@ def main():
         except Exception as e:
             bad.append(f"CLAIM MISSING     {lit:>8}  {spec}  ({type(e).__name__})")
             continue
+        # Half-up, not round(): Python rounds half to even, so a claim of 0.485 renders as
+        # "0.48" and 0.205 as "0.20", failing a manuscript that correctly prints 0.49 and 0.21.
+        # Banker's form is still accepted, because either is a defensible rendering and the two
+        # differ only exactly at a .5 boundary.
         for scale in (1.0, 100.0):
-            if f"{round(want*scale, nd):.{nd}f}" == lit:
+            v = want * scale
+            half_up = str(Decimal(repr(v)).quantize(Decimal(1).scaleb(-nd), rounding=ROUND_HALF_UP))
+            if half_up == lit or f"{round(v, nd):.{nd}f}" == lit:
                 ok += 1; break
         else:
             bad.append(f"VALUE             printed {lit}  claim {want}  at {nd}dp  {spec}")
