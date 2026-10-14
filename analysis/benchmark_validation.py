@@ -109,10 +109,15 @@ with open(OUT_CSV, "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
     w.writeheader(); w.writerows(rows)
 
-# own manifest hash over the two new outputs + this script (no frozen file touched)
+# Own manifest hash over the two new outputs + this script (no frozen file touched).
+# The script is hashed from __file__, not from a copy under results/. A copy lived there,
+# left over from an earlier layout that still referenced 00_frozen_inputs/ and 03_analysis/,
+# so the manifest certified a fossil rather than the source that produced the outputs -- and
+# the capsule, which ships code and data but not results/, could not run this step at all.
 h = hashlib.sha256()
-for f in ["benchmark_validation.json", "benchmark_validation.csv", "benchmark_validation.py"]:
+for f in ["benchmark_validation.json", "benchmark_validation.csv"]:
     h.update((PB / "results" / f).read_bytes())
+h.update(Path(__file__).resolve().read_bytes())
 (PB / "results" / "MANIFEST_VALIDATION.sha256").write_text(
     h.hexdigest() + "  benchmark_validation.{json,csv,py}\n")
 
