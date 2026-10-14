@@ -38,7 +38,8 @@
     "python3 capture/freeze_decontam.py --verify",
     "python3 build/make_blinded.py --check",
     "python3 build/make_highlights.py --check",
-    "python3 build/check_docx_parity.py"
+    "python3 build/check_docx_parity.py",
+    "python3 build/make_capsule.py --check"
   ],
   "inputs": [
     "data/frozen/main/*.json",

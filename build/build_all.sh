@@ -73,6 +73,9 @@ bash build/build_highlighted_blinded.sh
 echo "== 6c. docx companions"
 "$PY" build/make_docx.py
 
+echo "== 6d. anonymised reproducibility capsule"
+"$PY" build/make_capsule.py
+
 echo "== 7. gates"
 "$PY" "$HOME/.claude/skills/con1/scripts/check_citations.py" --online \
       --exemptions build/citation_exemptions.json | tail -1
@@ -83,6 +86,7 @@ echo "== 7. gates"
 "$PY" build/check_readme.py         | tail -1
 "$PY" build/make_highlights.py --check | tail -1
 "$PY" build/check_docx_parity.py    | tail -1
+"$PY" build/make_capsule.py --check   | tail -1
 "$PY" build/make_blinded.py --check | tail -1
 "$PY" capture/freeze_decontam.py --verify | tail -1
 
