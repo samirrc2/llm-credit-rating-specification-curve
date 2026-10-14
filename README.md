@@ -45,8 +45,10 @@ calls and at zero cost.** The study comprises:
 ```
 REPRODUCIBILITY_DOCUMENTATION.pdf  # single-file companion documenting the whole archive
 config/            # grid, paraphrase templates, rating scale, run config
-capture/           # collection code (NOT needed to reproduce): main collector, real-firm collector,
-                   #   run_flagship.py (flagship arm), freeze_flagship.py, list_models.py
+capture/           # collection code, not run during reproduction: main collector, real-firm collector,
+                   #   run_flagship.py (flagship arm), freeze_flagship.py, list_models.py.
+                   #   Three paths under it ARE reproduction inputs: flagship_runs/,
+                   #   reasoning_runs/ and freeze_decontam.py
 analysis/          # offline analysis:
                    #   run_analysis, addenda, benchmark_validation,
                    #   analyze_realarm, realarm_speccurve, realarm_scale_sensitivity,
@@ -61,8 +63,15 @@ data/
   raw/main/        # frozen response corpus (per-call JSON)
   raw/realarm/     # real-firm arm model-output panels (arm/comparator/fingerprint)
   panel/           # panel.parquet (built once from raw; the analysis input)
-results/           # regenerated results_*.json (incl. results_tier, results_extended) + exhibits
-paper/NLP/        # manuscript (Elsevier CAS single-column), figures, highlights, cover letter, .docx
+results/           # regenerated results_*.json (incl. results_tier, results_extended) + exhibits.
+                   #   The four SPEC_*.sha256 are pre-registration hashes, committed before
+                   #   computation and never written by any script
+paper/             # one flat directory, every submission artifact. Each deliverable as .pdf AND .docx:
+                   #   manuscript_full, manuscript_anonymous,
+                   #   manuscript_full_tracked, manuscript_anonymous_tracked
+                   #   (tracked = yellow additions, red struck deletions vs revision 1)
+                   #   response_to_reviewers, cover_letter, title_page, highlights,
+                   #   declarations, referee reports, LaTeX sources and figures
 docs/              # reports, appendix D, changelog
 manifest/          # SHA-256 manifests for every frozen stage (incl. MANIFEST_FLAGSHIP)
 PREREGISTRATION.md, PREREGISTRATION_AMENDMENTS.md
