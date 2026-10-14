@@ -19,7 +19,8 @@
       "data",
       "capture/flagship_runs",
       "capture/reasoning_runs",
-      "config"
+      "config",
+      "results/SPEC_*.sha256"
     ],
     "run": "bash reproduce.sh"
   },
@@ -41,7 +42,8 @@
     "data/frozen/main/*.json",
     "data/frozen/realarm/*.json",
     "data/frozen/realarm_decontam/MANIFEST.json",
-    "data/panel/panel.parquet"
+    "data/panel/panel.parquet",
+    "results/SPEC_*.sha256"
   ],
   "normalize": []
 }
