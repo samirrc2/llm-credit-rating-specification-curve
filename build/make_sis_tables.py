@@ -2,7 +2,7 @@
 """Generate the bodies of Table 7 (baseline discrimination) and Table 8 (net benefit) from the
 result JSONs, so no cell is hand-maintained. An earlier hand-typed Table 8 had three wrong cells.
 
-Writes paper/NLP/tab_sisbase_body.tex and tab_sisdca_body.tex, which cas-sc.tex \\input{}s.
+Writes paper/tab_sisbase_body.tex and tab_sisdca_body.tex, which manuscript_full.tex \\input{}s.
 """
 import json
 from pathlib import Path
@@ -58,8 +58,8 @@ L.append(r"\quad\quad maximum $|$difference$|$ across splits & "
          + " & ".join("---" if not HO[r].get("computable")
                       else f"{HO[r]['auc_diff_max_abs']:.3f}" for r in RES)
          + r" \\\bottomrule")
-(PB / "paper/NLP").mkdir(parents=True, exist_ok=True)   # the capsule ships no manuscript tree; a generator makes its own output directory
-(PB / "paper/NLP/tab_sisbase_body.tex").write_text("\n".join(L) + "\n", encoding="utf-8")
+(PB / "paper").mkdir(parents=True, exist_ok=True)   # the capsule ships no manuscript tree; a generator makes its own output directory
+(PB / "paper/tab_sisbase_body.tex").write_text("\n".join(L) + "\n", encoding="utf-8")
 
 # ---- Table 8
 COLS = ["0.10", "0.20", "0.30", "0.45", "0.60"]
@@ -86,5 +86,5 @@ for lab, key, src in [("index $-$ dissent count", "max_abs_gap_sis_vs_dissent", 
     tail = r"$ (exact)} \\" if v == 0.0 else r"$} \\"
     M.append(r"\quad " + lab + r" & \multicolumn{5}{c}{$" + f"{v:.3f}" + tail)
 M[-1] = M[-1].replace(r"\\", r"\\\bottomrule")
-(PB / "paper/NLP/tab_sisdca_body.tex").write_text("\n".join(M) + "\n", encoding="utf-8")
+(PB / "paper/tab_sisdca_body.tex").write_text("\n".join(M) + "\n", encoding="utf-8")
 print(f"   tab_sisbase_body.tex: {len(L)} lines;  tab_sisdca_body.tex: {len(M)} lines")

@@ -15,7 +15,7 @@ from pathlib import Path
 PB = Path(__file__).resolve().parents[1]
 try:
     md = PB.joinpath("README.md").read_text(encoding="utf-8")
-    tex = re.sub(r"\s+", " ", PB.joinpath("paper/NLP/cas-sc.tex").read_text(encoding="utf-8"))
+    tex = re.sub(r"\s+", " ", PB.joinpath("paper/manuscript_full.tex").read_text(encoding="utf-8"))
 except Exception as e:
     print(f"NOT CHECKABLE: {e}"); sys.exit(2)
 if len(md) < 2000 or len(tex) < 50000:

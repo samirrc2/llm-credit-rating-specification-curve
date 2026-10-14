@@ -5,7 +5,7 @@ Three gates, in decreasing strength.
 
 1. ROUND-TRIP (exact, and the one that matters). Strip the injected preamble and every
    \\HLtext/\\HLcode/\\HLtag wrapper from the marked source. The result must be BYTE-IDENTICAL
-   to cas-sc.tex. If it is, marking provably added nothing and removed nothing -- no PDF text
+   to manuscript_full.tex. If it is, marking provably added nothing and removed nothing -- no PDF text
    extraction can argue with it. This replaced a sentence-level PDF comparison that produced 26
    phantom "missing sentences", every one of which was a soul re-kerning artifact, a dropped
    fi/ff/fl ligature, or a page footer whose number had shifted.
@@ -24,8 +24,8 @@ import sys
 from pathlib import Path
 
 PB = Path(__file__).resolve().parents[1]
-src, marked_src = PB / "paper/NLP/cas-sc.tex", PB / "paper/NLP/_marked.tex"
-clean_pdf, marked_pdf = PB / "paper/NLP/cas-sc.pdf", PB / "paper/NLP/_marked.pdf"
+src, marked_src = PB / "paper/manuscript_full.tex", PB / "paper/_marked.tex"
+clean_pdf, marked_pdf = PB / "paper/manuscript_full.pdf", PB / "paper/_marked.pdf"
 for f in (src, marked_src):
     if not f.exists():
         print(f"NOT CHECKABLE: {f.name} missing"); sys.exit(2)
@@ -49,7 +49,7 @@ def unmark(s):
     # the whole injected preamble, up to and including the \HLlegend definition
     s = re.sub(r"\\usepackage\{soul\}.*?\\par\\vspace\{6pt\}\}\n", "", s, flags=re.S)
     s = s.replace("\n\\HLlegend\n", "", 1)       # the emitted legend itself
-    # a struck deletion is text that is NOT in cas-sc.tex, so the whole macro and its
+    # a struck deletion is text that is NOT in manuscript_full.tex, so the whole macro and its
     # argument come out, together with the single space del_wrap appends after it
     while True:
         j = s.find(r"\HLdel{")
@@ -85,7 +85,7 @@ def unmark(s):
 orig = src.read_text(encoding="utf-8")
 got = unmark(marked_src.read_text(encoding="utf-8"))
 if got == orig:
-    print(f"  round-trip: EXACT -- unmarking reproduces cas-sc.tex byte-for-byte "
+    print(f"  round-trip: EXACT -- unmarking reproduces manuscript_full.tex byte-for-byte "
           f"({len(orig)} bytes)")
 else:
     import difflib

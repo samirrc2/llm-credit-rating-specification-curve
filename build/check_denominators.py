@@ -52,8 +52,8 @@ bad = []
 for name, expect in REQUIRED:
     if FACTS.get(name) != expect:
         bad.append(f"{name}: data says {FACTS.get(name)}, documents assume {expect}")
-docs = {"manuscript": PB / "paper/NLP/cas-sc.tex",
-        "letter": PB / "paper/NLP/submission/revision_2/RESPONSE_TO_REVIEWERS_R2.tex"}
+docs = {"manuscript": PB / "paper/manuscript_full.tex",
+        "letter": PB / "paper/response_to_reviewers.tex"}
 # Scoped per document: the battery-wide substantive count is a Methods detail and has no reason
 # to appear in the response letter. Requiring it there was this gate's own false positive.
 # The letter may legitimately omit the arm-wide totals and report only the per-experiment

@@ -11,7 +11,7 @@ Exit 0 identical, 1 stale, 2 could not check.
 import hashlib, shutil, subprocess, sys, tempfile
 from pathlib import Path
 PB = Path(__file__).resolve().parents[1]
-BODIES = ["paper/NLP/tab_sisbase_body.tex", "paper/NLP/tab_sisdca_body.tex"]
+BODIES = ["paper/tab_sisbase_body.tex", "paper/tab_sisdca_body.tex"]
 for b in BODIES:
     if not (PB / b).exists():
         print(f"NOT CHECKABLE: {b} missing"); sys.exit(2)

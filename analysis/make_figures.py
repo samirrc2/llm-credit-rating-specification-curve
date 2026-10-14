@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Regenerate the three manuscript figures from the current results (offline).
 Reads results/results.json + results/spec_curves.json; writes the figures into
-paper/NLP so they always match the reported numbers.
+paper so they always match the reported numbers.
 Requires matplotlib (optional dependency; not needed to reproduce the numbers)."""
 import json
 from pathlib import Path

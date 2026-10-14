@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Regenerate the revision figures (offline) from results/results_extended.json:
   fig_selfconsistency.pdf  — residual IG/HY flip vs k-of-n majority vote
-Writes into paper/NLP/. Requires matplotlib (optional dependency)."""
+Writes into paper/. Requires matplotlib (optional dependency)."""
 import json
 from pathlib import Path
 import matplotlib

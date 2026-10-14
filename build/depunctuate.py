@@ -17,7 +17,7 @@ import re, sys
 from pathlib import Path
 
 PB = Path(__file__).resolve().parents[1]
-SRC = PB / "paper/NLP/cas-sc.tex"
+SRC = PB / "paper/manuscript_full.tex"
 
 # Only these may follow a colon and still be certain to START A CLAUSE. Earlier I allowed
 # "a/an/the/that/such", which turned list-introducing colons into sentence fragments

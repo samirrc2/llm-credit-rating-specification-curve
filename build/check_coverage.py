@@ -18,7 +18,7 @@ import json, re, sys
 from pathlib import Path
 
 PB = Path(__file__).resolve().parents[1]
-MS = PB / "paper/NLP/cas-sc.tex"
+MS = PB / "paper/manuscript_full.tex"
 EX = PB / "build/coverage_exemptions.json"
 if not MS.exists():
     print("NOT CHECKABLE: manuscript missing"); sys.exit(2)

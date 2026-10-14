@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Derive the double-blind manuscript from the master, instead of hand-maintaining a copy.
 
-submission/cas-sc-blinded.tex had drifted 389 lines behind cas-sc.tex -- it carried none of
+submission/manuscript_anonymous.tex had drifted 389 lines behind manuscript_full.tex -- it carried none of
 revision 2. A hand-maintained duplicate of a generated document is a drift waiting to happen, so
 the blinding is now expressed as the seven transformations that actually distinguish the two
 (recovered by diffing the revision-1 master against the revision-1 blinded copy, same era, so the
@@ -10,15 +10,15 @@ diff is pure blinding and no content).
 Every rule must fire exactly the expected number of times, or the script fails rather than
 silently producing a half-blinded manuscript -- which is the one failure mode that matters here.
 
-  python3 build/make_blinded.py            # write submission/cas-sc-blinded.tex
+  python3 build/make_blinded.py            # write submission/manuscript_anonymous.tex
   python3 build/make_blinded.py --check     # verify the committed blinded copy is current
 """
 import re, sys
 from pathlib import Path
 
 PB = Path(__file__).resolve().parents[1]
-SRC = PB / "paper/NLP/cas-sc.tex"
-DST = PB / "paper/NLP/submission/cas-sc-blinded.tex"
+SRC = PB / "paper/manuscript_full.tex"
+DST = PB / "paper/manuscript_anonymous.tex"
 
 # (name, pattern, replacement, expected occurrences)
 RULES = [
@@ -82,7 +82,7 @@ def check_figures(s):
 
     A missing figure is NOT a LaTeX error by default -- pdftex.def falls back to a draft box and
     the build still reports 27 pages. One figure was deleted from submission/ as a "duplicate"
-    of the copy in paper/NLP/, and the only symptom was a framed filename in the PDF.
+    of the copy in paper/, and the only symptom was a framed filename in the PDF.
     """
     missing = [f for f in re.findall(r"\\includegraphics\[[^\]]*\]\{([^}]*)\}", s)
                if not (DST.parent / f).exists()]
@@ -100,7 +100,7 @@ def main():
             print("blinded copy missing"); return 1
         cur = DST.read_text(encoding="utf-8")
         if cur == out:
-            print(f"  PASS: cas-sc-blinded.tex is current ({len(out)} bytes)")
+            print(f"  PASS: manuscript_anonymous.tex is current ({len(out)} bytes)")
             return 0
         import difflib
         d = list(difflib.unified_diff(cur.splitlines(), out.splitlines(), lineterm="", n=0))

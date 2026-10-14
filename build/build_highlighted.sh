@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build highlighted_pdf.pdf: the revision-2 manuscript with every addition marked, for reviewers
+# Build manuscript_full_tracked.pdf: the revision-2 manuscript with every addition marked, for reviewers
 # comparing against the version they read for revision 1.
 #
 # Marking is done by build/mark_changes.py, which marks the FINAL manuscript in place rather
@@ -8,26 +8,26 @@
 # cleanly while silently dropping 19 table captions, 3 section headings and two pages.
 #
 # build/check_marked.py then proves the marking is content-preserving by stripping the markup
-# and requiring a byte-identical round-trip to cas-sc.tex. The build FAILS if that does not hold.
+# and requiring a byte-identical round-trip to manuscript_full.tex. The build FAILS if that does not hold.
 #
-#   bash build/build_highlighted.sh            # baseline: paper/NLP/cas-sc.REV1.bak
+#   bash build/build_highlighted.sh            # baseline: paper/manuscript_round1_baseline.tex
 #   bash build/build_highlighted.sh <file>     # baseline: another .tex
 set -euo pipefail
 cd "$(dirname "$0")/.."
 export PATH="$HOME/Library/TinyTeX/bin/universal-darwin:$PATH"
 
-BASE="${1:-paper/NLP/cas-sc.REV1.bak}"
-NEW="paper/NLP/cas-sc.tex"
+BASE="${1:-paper/manuscript_round1_baseline.tex}"
+NEW="paper/manuscript_full.tex"
 STEM="_marked"
-OUT="paper/NLP/submission/revision_2/highlighted_pdf.pdf"
+OUT="paper/manuscript_full_tracked.pdf"
 
 [ -f "$BASE" ] || { echo "ERROR: baseline '$BASE' not found" >&2; exit 3; }
 # A diff against an identical file yields a mark-free PDF and still exits 0: the failure mode
 # that looks like success.
 cmp -s "$BASE" "$NEW" && { echo "ERROR: baseline is identical to the manuscript" >&2; exit 3; }
-[ -f "paper/NLP/cas-sc.pdf" ] || { echo "ERROR: build cas-sc.pdf first (check_marked compares against it)" >&2; exit 3; }
+[ -f "paper/manuscript_full.pdf" ] || { echo "ERROR: build manuscript_full.pdf first (check_marked compares against it)" >&2; exit 3; }
 
-python3 build/mark_changes.py "$BASE" "$NEW" "paper/NLP/$STEM.tex"
+python3 build/mark_changes.py "$BASE" "$NEW" "paper/$STEM.tex"
 
 # Each pass is capped. An earlier markup bug sent pdflatex into a loop at 100% CPU for 15
 # minutes; -interaction=nonstopmode does not help, because the loop is in macro expansion
@@ -36,7 +36,7 @@ run_tex() { perl -e 'alarm 180; exec @ARGV' pdflatex -interaction=nonstopmode "$
 # The page total lives in the .aux and is read one pass late (see build_all.sh), so run until
 # the recorded total matches the real page count rather than a fixed number of passes.
 (
-  cd paper/NLP
+  cd paper
   for i in 1 2 3; do run_tex "$STEM.tex"; done
   bibtex "$STEM" >/dev/null 2>&1 || true
   for j in 1 2 3 4 5 6; do
@@ -46,16 +46,16 @@ run_tex() { perl -e 'alarm 180; exec @ARGV' pdflatex -interaction=nonstopmode "$
     if [ -n "$tot" ] && [ "$tot" = "$pages" ]; then break; fi
   done
 )
-[ -f "paper/NLP/$STEM.pdf" ] || { echo "   FAILED: no PDF produced" >&2
-  grep -E '^! ' "paper/NLP/$STEM.log" | head -6 >&2 || true; exit 1; }
+[ -f "paper/$STEM.pdf" ] || { echo "   FAILED: no PDF produced" >&2
+  grep -E '^! ' "paper/$STEM.log" | head -6 >&2 || true; exit 1; }
 
-ERRS=$(grep -cE '^! ' "paper/NLP/$STEM.log" || true)
+ERRS=$(grep -cE '^! ' "paper/$STEM.log" || true)
 [ "$ERRS" -eq 0 ] || { echo "   FAILED: $ERRS LaTeX errors" >&2
-  grep -nE '^! ' "paper/NLP/$STEM.log" | head -6 >&2; exit 1; }
+  grep -nE '^! ' "paper/$STEM.log" | head -6 >&2; exit 1; }
 
 python3 build/check_marked.py || { echo "   FAILED: marked copy did not verify" >&2; exit 1; }
 
-cp "paper/NLP/$STEM.pdf" "$OUT"
-grep -o "Output written on $STEM.pdf ([0-9]* pages" "paper/NLP/$STEM.log" | head -1 | sed 's/^/   /'
+cp "paper/$STEM.pdf" "$OUT"
+grep -o "Output written on $STEM.pdf ([0-9]* pages" "paper/$STEM.log" | head -1 | sed 's/^/   /'
 echo "   -> $OUT"
-rm -f paper/NLP/$STEM.aux paper/NLP/$STEM.log paper/NLP/$STEM.out paper/NLP/$STEM.bbl paper/NLP/$STEM.blg paper/NLP/$STEM.spl
+rm -f paper/$STEM.aux paper/$STEM.log paper/$STEM.out paper/$STEM.bbl paper/$STEM.blg paper/$STEM.spl

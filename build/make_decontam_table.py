@@ -31,8 +31,8 @@ P = B["permutation"]
 L += [f"\\quad\\quad permutation null mean & {P['n_cells']} & {P['null_mean']:.3f} & --- " r"\\",
       f"\\quad\\quad within-issuer permutation test & --- & $p={P['p_two_sided']:.3f}$ & --- "
       r"\\\bottomrule"]
-(PB / "paper/NLP").mkdir(parents=True, exist_ok=True)   # the capsule ships no manuscript tree; a generator makes its own output directory
-(PB / "paper/NLP/tab_decontam_body.tex").write_text("\n".join(L) + "\n", encoding="utf-8")
+(PB / "paper").mkdir(parents=True, exist_ok=True)   # the capsule ships no manuscript tree; a generator makes its own output directory
+(PB / "paper/tab_decontam_body.tex").write_text("\n".join(L) + "\n", encoding="utf-8")
 print(f"   tab_decontam_body.tex: {len(L)} lines")
 print(f"   A decision: passes={AD['passes']}")
 print(f"   B decision: rejects={BD['rejects_at_0.05']}")

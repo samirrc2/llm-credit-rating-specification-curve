@@ -64,7 +64,7 @@ runtime is a few minutes on a standard laptop. No network access is required at 
 \code{capture/reasoning\_runs/} & reasoning-architecture arm corpus (DeepSeek-R1; 1{,}620 per-call JSON $+$ consolidated panel), fixed by \code{MANIFEST\_REASONING} \\
 \code{data/panel/panel.parquet} & analysis panel, built once from raw (the confirmatory analysis input) \\
 \code{results/} & generated outputs (Section~6), with one exception: the four \code{SPEC\_*.sha256} files are pre-registration hashes, committed before computation and never written by any script \\
-\code{paper/NLP/} & manuscript (Elsevier CAS), figures, highlights, cover letter, \code{.docx} \\
+\code{paper/} & one flat directory holding every submission artifact: manuscript sources, figures, and each deliverable as both \code{.pdf} and \code{.docx} --- \code{manuscript\_full}, \code{manuscript\_anonymous}, \code{manuscript\_full\_tracked}, \code{manuscript\_anonymous\_tracked} --- plus the response letter, cover letter, title page, highlights, declarations and the anonymised capsule \\
 \code{manifest/} & SHA-256 manifests for every frozen stage \\
 \code{docs/} & reports, appendix, changelog \\
 \code{PREREGISTRATION.md}, \code{PREREGISTRATION\_AMENDMENTS.md} & frozen pre-registration and amendments \\
@@ -131,7 +131,7 @@ All code is in \code{analysis/}; each module is deterministic (seed 42) and read
 \code{crossmodel\_aliasing.py} & cross-model transfer of the instability score and design aliasing diagnostics (R2-4/R2-5/R3-2) & \code{results\_crossmodel\_aliasing.json} \\
 \code{reasoning\_analysis.py} & reasoning-architecture arm (DeepSeek-R1) vs nano/flash \& flagship on the frozen grid & \code{results\_reasoning.json} \\
 \code{build\_panel.py} & (audit) rebuild \code{panel.parquet} from the raw corpus & panel (row-identical) \\
-\code{make\_figures.py}, \code{make\_extended\_figures.py} & regenerate manuscript figures (optional; needs matplotlib) & \code{paper/NLP/*.pdf,png} \\
+\code{make\_figures.py}, \code{make\_extended\_figures.py} & regenerate manuscript figures (optional; needs matplotlib) & \code{paper/*.pdf,png} \\
 \bottomrule
 \end{longtable}
 

@@ -27,7 +27,7 @@ from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
 PB = Path(__file__).resolve().parents[1]
-MS = PB / "paper/NLP/cas-sc.tex"
+MS = PB / "paper/manuscript_full.tex"
 
 # (anchor before the figure, printed literal, file:/path, decimals)
 RULES = [

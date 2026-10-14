@@ -1,11 +1,11 @@
 {
   "run": "bash reproduce.sh",
-  "manuscript": "paper/NLP/cas-sc.tex",
+  "manuscript": "paper/manuscript_full.tex",
   "claims": "results/results_*.json",
   "artifacts": [
     "results/*.json",
     "results/*.csv",
-    "paper/NLP/tab_*_body.tex"
+    "paper/tab_*_body.tex"
   ],
   "capsule": {
     "code": [
