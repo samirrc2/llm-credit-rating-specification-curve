@@ -178,7 +178,7 @@ freeze rejects any capture file above the pre-set error threshold (observed non-
 \item \textbf{Byte-identical re-run.} Re-running \code{reproduce.sh} regenerates every
 \code{results/results\_*.json} byte-for-byte (verified); the results of record are the committed JSON files.
 \end{enumerate}
-\textbf{Document gates.} \code{build/build\_all.sh} rebuilds every deliverable and then runs eight
+\textbf{Document gates.} \code{build/build\_all.sh} rebuilds every deliverable and then runs ten
 gates, each exiting~2 rather than~0 when it cannot check:
 \begin{itemize}\setlength{\itemsep}{0pt}
 \item anchored binding of 19 printed figures to the claim and the phrase each must follow,
@@ -186,6 +186,8 @@ gates, each exiting~2 rather than~0 when it cannot check:
 \item recomputation of 12 denominators, with designed and realized counts stated separately,
 \item byte-freshness of the two generated table bodies,
 \item binding of the 16 results quoted in \code{README.md},
+\item currency of \code{paper/highlights.txt} against the manuscript's own highlights environment,
+\item content parity of each \code{.docx} against its \code{.pdf}, covering every sentence the pdf renders, author-year citations by occurrence count, numbered headings, reference entries, and every numeric value the pdf renders outside a figure,
 \item currency of the derived blinded copy,
 \item integrity of the 1{,}365-file decontamination freeze, and
 \item citation resolution, which resolves every DOI at doi.org and reports an unreachable one as not
