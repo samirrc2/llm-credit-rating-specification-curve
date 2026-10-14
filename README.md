@@ -71,9 +71,15 @@ README.md, LICENSE, CITATION.cff, DATA_AVAILABILITY.md, reproduce.sh
 
 ## Reproduce (offline, no keys)
 ```bash
-pip install -r requirements.txt   # numpy, pandas, pyarrow, statsmodels (pinned; Python 3.10)
-bash reproduce.sh
+pip install -r requirements.txt   # numpy, pandas, pyarrow, statsmodels (pinned, Python 3.10)
+bash reproduce.sh                 # or: PY=/path/to/python bash reproduce.sh
 ```
+
+`reproduce.sh` runs `python3` unless `PY` names an interpreter. Point `PY` at the environment
+built from `requirements.txt` if the `python3` on your `PATH` is something else. An Anaconda base
+environment, for example, aborts in `analysis/run_analysis.py` with
+`ImportError: cannot import name '_lazywhere' from scipy._lib._util`, because its scipy and
+statsmodels versions disagree.
 All `results/results_*.json` regenerate byte-for-byte from the frozen data (verified in a clean
 virtualenv from the pinned `requirements.txt`); no network access is required. Headline results:
 per-comparison IG/HY flip **25.2%** (95% CI 19.7–31.2). Chance-corrected agreement reaches only
@@ -92,9 +98,15 @@ bounded by a maximum main-effect off-diagonal correlation of **0.125** and a max
 main-effect × two-factor-interaction correlation of **0.504**.
 
 ## Notes
-- `capture/` is provided for transparency only; reproduction never calls a model API. Provider API keys
-  are required solely to *collect* a corpus and are never committed (`.gitignore` blocks `keys.env.txt`
-  and any `API Keys/` folder).
+- Reproduction never calls a model API. Provider API keys are required solely to *collect* a corpus
+  and are never committed (`.gitignore` blocks `keys.env.txt` and any `API Keys/` folder).
+- Most of `capture/` is the collection harness and is not run during reproduction, but three paths
+  under it are inputs the analysis does read: `capture/flagship_runs/` and `capture/reasoning_runs/`
+  hold the two frozen post-hoc corpora, and `capture/freeze_decontam.py` is imported by the
+  decontamination analysis. A copy of this repository that omits them will not reproduce.
+- `results/` holds generated outputs with one exception. The four `SPEC_*.sha256` files are
+  pre-registration hashes, committed before computation and never written by any script. Each
+  revision-2 analysis reads the relevant one to stamp its specification hash into its output.
 - The disposable SEC 10-K / company-facts cache used to *build* the real-firm battery is not shipped and
   is **not needed to reproduce any result**. It is re-fetchable for free from the public SEC EDGAR system
   (keyless; a descriptive `User-Agent` header is the only requirement,

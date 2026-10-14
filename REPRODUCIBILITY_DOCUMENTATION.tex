@@ -38,6 +38,11 @@ real-firm arm uses only publicly available SEC filings, anonymized and perturbed
 
 \section{Quick start}
 \begin{quote}\code{pip install -r requirements.txt}\\ \code{bash reproduce.sh}\end{quote}
+\code{reproduce.sh} invokes \code{python3} unless the environment variable \code{PY} names an
+interpreter, so run \code{PY=/path/to/python bash reproduce.sh} when the \code{python3} on
+\code{PATH} is not the environment built from \code{requirements.txt}. An Anaconda base environment,
+for instance, aborts in \code{analysis/run\_analysis.py} with \code{ImportError: cannot import name
+'\_lazywhere' from scipy.\_lib.\_util}, because its \code{scipy} and \code{statsmodels} disagree.
 \textbf{Expected result:} the full analysis regenerates every \code{results/results\_*.json}; a second
 independent run is byte-identical (the SHA-256 of each JSON result matches), and the run exits 0. Total
 runtime is a few minutes on a standard laptop. No network access is required at any point.
@@ -49,7 +54,7 @@ runtime is a few minutes on a standard laptop. No network access is required at 
 \code{requirements.txt} & pinned Python dependencies (analysis only; Python 3.10) \\
 \code{config/} & specification grid, paraphrase templates, rating scale, run config \\
 \code{analysis/} & all analysis code (Section~5) \\
-\code{capture/} & live data-collection harness (reference only; not run here, Section~8) \\
+\code{capture/} & live data-collection harness, not run here (Section~8). Three paths under it are nonetheless reproduction inputs: the two frozen corpora below, and \code{freeze\_decontam.py}, imported by the decontamination analysis \\
 \code{data/frozen/main/} & pre-registered inputs: \code{battery\_90.json}, \code{grid\_definition.json}, \code{paraphrase\_templates.json}, \code{rating\_scale.json}, \code{capital\_map.json}, manifests \\
 \code{data/frozen/realarm/} & real-firm arm artifacts: anonymized battery, sealed crosswalk, rating provenance, 12-spec grid \\
 \code{data/frozen/market\_data/} & FRED option-adjusted-spread series (cached) \\
@@ -58,7 +63,7 @@ runtime is a few minutes on a standard laptop. No network access is required at 
 \code{capture/flagship\_runs/} & flagship model-tier arm corpus (1{,}620 per-call JSON), fixed by \code{MANIFEST\_FLAGSHIP} \\
 \code{capture/reasoning\_runs/} & reasoning-architecture arm corpus (DeepSeek-R1; 1{,}620 per-call JSON $+$ consolidated panel), fixed by \code{MANIFEST\_REASONING} \\
 \code{data/panel/panel.parquet} & analysis panel, built once from raw (the confirmatory analysis input) \\
-\code{results/} & all generated outputs (Section~6) \\
+\code{results/} & generated outputs (Section~6), with one exception: the four \code{SPEC\_*.sha256} files are pre-registration hashes, committed before computation and never written by any script \\
 \code{paper/NLP/} & manuscript (Elsevier CAS), figures, highlights, cover letter, \code{.docx} \\
 \code{manifest/} & SHA-256 manifests for every frozen stage \\
 \code{docs/} & reports, appendix, changelog \\
@@ -173,6 +178,27 @@ freeze rejects any capture file above the pre-set error threshold (observed non-
 \item \textbf{Byte-identical re-run.} Re-running \code{reproduce.sh} regenerates every
 \code{results/results\_*.json} byte-for-byte (verified); the results of record are the committed JSON files.
 \end{enumerate}
+\textbf{Document gates.} \code{build/build\_all.sh} rebuilds every deliverable and then runs eight
+gates, each exiting~2 rather than~0 when it cannot check:
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item anchored binding of 19 printed figures to the claim and the phrase each must follow,
+\item reverse coverage of all 191 manuscript literals,
+\item recomputation of 12 denominators, with designed and realized counts stated separately,
+\item byte-freshness of the two generated table bodies,
+\item binding of the 16 results quoted in \code{README.md},
+\item currency of the derived blinded copy,
+\item integrity of the 1{,}365-file decontamination freeze, and
+\item citation resolution, which resolves every DOI at doi.org and reports an unreachable one as not
+checked rather than as passing.
+\end{itemize}
+
+\textbf{Two-track verification.} Determinism is checked from a fresh \code{git clone} at the commit under
+test and, separately, from a capsule containing code and data only. The two catch different defects. The
+clone catches anything that resolves only in a full checkout, and the capsule catches a missing input, an
+absolute path baked into an output, and a gate that should skip rather than fail. Four runs of each track
+produced 28 artifacts with identical hashes within each track and across the two, and every claims file
+agreed leaf by leaf.
+
 \textbf{Determinism.} All stochastic steps use fixed seeds (analysis seed 42; issuer-clustered bootstraps
 use fixed-seed resamples), so confidence intervals are exactly reproducible. \emph{Note:} Parquet
 serialization is not byte-deterministic, so a rebuilt \code{panel.parquet} may hash differently while
@@ -192,7 +218,9 @@ manifest; \code{run\_reasoning.py} runs the reasoning-architecture arm (DeepSeek
 \code{freeze\_reasoning.py} writes \code{MANIFEST\_REASONING}; \code{fingerprint\_pilot.py} runs the
 perturbation-and-fingerprint-screening gate; \code{list\_models.py} enumerates
 served models. This phase requires internet access and provider API keys, incurs cost, and is
-intentionally excluded from the reproducible core. API keys are never distributed (\code{.gitignore}
+excluded from the reproducible core. The exclusion covers the collection scripts, not the whole
+directory: \code{capture/flagship\_runs/} and \code{capture/reasoning\_runs/} hold frozen corpora that
+the analysis reads, and \code{capture/freeze\_decontam.py} is imported by the decontamination analysis. API keys are never distributed (\code{.gitignore}
 blocks \code{keys.env.txt} and any \code{API~Keys/} folder); all reported results derive only from the
 frozen corpora.
 
