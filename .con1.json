@@ -18,7 +18,8 @@
     "data": [
       "data",
       "capture/flagship_runs",
-      "capture/reasoning_runs"
+      "capture/reasoning_runs",
+      "config"
     ],
     "run": "bash reproduce.sh"
   },

@@ -58,6 +58,7 @@ L.append(r"\quad\quad maximum $|$difference$|$ across splits & "
          + " & ".join("---" if not HO[r].get("computable")
                       else f"{HO[r]['auc_diff_max_abs']:.3f}" for r in RES)
          + r" \\\bottomrule")
+(PB / "paper/NLP").mkdir(parents=True, exist_ok=True)   # the capsule ships no manuscript tree; a generator makes its own output directory
 (PB / "paper/NLP/tab_sisbase_body.tex").write_text("\n".join(L) + "\n", encoding="utf-8")
 
 # ---- Table 8
