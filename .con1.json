@@ -12,10 +12,13 @@
       "analysis",
       "build",
       "reproduce.sh",
-      "requirements.txt"
+      "requirements.txt",
+      "capture/freeze_decontam.py"
     ],
     "data": [
-      "data"
+      "data",
+      "capture/flagship_runs",
+      "capture/reasoning_runs"
     ],
     "run": "bash reproduce.sh"
   },
