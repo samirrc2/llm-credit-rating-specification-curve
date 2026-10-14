@@ -145,6 +145,43 @@ SOURCES = {
 }
 
 
+def rendered_checks(D: str, P_: str, draw: str, praw: str):
+    """Everything the PDF prints that the docx must also print: author-year citations,
+    numbered section headings, and reference entries. Content parity alone would not catch a
+    citation that resolved to a different author or a heading that lost its number."""
+    flat = re.sub(r"\s+", " ", praw)
+    # Count occurrences, do not merely test presence. A work cited twice survives a presence
+    # test when one of its two citations is deleted, which is how removing "Hens and Nordlie,
+    # 2025" from the docx passed this check unchanged.
+    from collections import Counter
+    pc = Counter(squash(c) for c in re.findall(r"\(([A-Z][^()]{2,90}?,\s*(?:19|20)\d{2}[a-z]?)\)", flat))
+    cites = set(pc)
+    miss_c = [f"{c} (pdf {n}x, docx {D.count(c)}x)" for c, n in pc.items() if D.count(c) < n]
+    heads = set(re.findall(r"(?m)^\s*(\d{1,2}(?:\.\d{1,2})?)\.?\s+([A-Z][A-Za-z ,\-]{8,70})\s*$", praw))
+    miss_h = [f"{a} {b}" for a, b in heads if squash(a + b) not in D]
+
+    # Compare reference entries by a distinctive title fragment, not by a surname regex.
+    # Anchoring on "Surname, I.," picks a different starting word in the two renderings for a
+    # long institutional author ("Board of Governors of the Federal Reserve System and Office
+    # of the Comptroller of the Currency"), which reported a present entry as missing.
+    def ref_titles(t):
+        # normalise FIRST: raw PDF text still carries ligature glyphs and the running footer,
+        # so "firms" reads as "rms" and "flexibility" as "exibility", and every such entry
+        # looks absent from the docx when it is present
+        t = norm(t)
+        i = t.rfind("References")
+        seg = re.sub(r"\s+", " ", t[i:]) if i > 0 else ""
+        out = set()
+        for frag in re.findall(r"[A-Za-z][A-Za-z ,'\u2019\-]{34,}", seg):
+            k = squash(frag)
+            if len(k) >= 30:
+                out.add(k[:34])
+        return out
+    pr, dr = ref_titles(praw), ref_titles(draw)
+    miss_r = sorted(x for x in pr if x not in squash(norm(draw)))
+    return cites, miss_c, heads, miss_h, miss_r
+
+
 def compare(label, dx, pdf):
     if not dx.exists() or not pdf.exists():
         print(f"  {label:<18} NOT CHECKABLE: missing {'docx' if not dx.exists() else 'pdf'}")
@@ -164,12 +201,21 @@ def compare(label, dx, pdf):
     # docx -- and that is why both counts are reported rather than just one.
     miss_docx = [x for x in in_pdf if squash(x) not in D]
     missing_front = [f for f in FRONT_ELEMENTS if f not in D]
-    bad = len(miss_docx) + len(missing_front)
+    cites, miss_c, heads, miss_h, miss_r = rendered_checks(D, P_, docx_text(dx), pdf_text(pdf))
+    bad = len(miss_docx) + len(missing_front) + len(miss_c) + len(miss_h) + len(miss_r)
     print(f"  {label:<18} source sentences {len(sents):>4} | rendered in pdf {len(in_pdf):>4} "
           f"| of those, absent from docx {len(miss_docx):>3} | front matter "
           f"{'ok' if not missing_front else missing_front}")
-    for x in miss_docx[:6]:
-        print(f"      MISSING FROM DOCX: {x[:110]!r}")
+    print(f"      citations {len(cites):>3} missing {len(miss_c)} | headings {len(heads):>3} "
+          f"missing {len(miss_h)} | references missing {len(miss_r)}")
+    for x in miss_docx[:5]:
+        print(f"      SENTENCE MISSING FROM DOCX: {x[:100]!r}")
+    for c in miss_c[:4]:
+        print(f"      CITATION MISSING FROM DOCX: {c[:80]!r}")
+    for h in miss_h[:4]:
+        print(f"      HEADING MISSING FROM DOCX : {h[:80]!r}")
+    for r_ in miss_r[:4]:
+        print(f"      REFERENCE MISSING FROM DOCX: {r_[:60]!r}")
     return (0 if bad == 0 else 1), bad
 
 
