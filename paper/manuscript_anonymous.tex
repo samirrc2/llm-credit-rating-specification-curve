@@ -41,9 +41,7 @@ identify individual-axis contributions. An illustrative arm of 31 perturbed real
 exhibits specification variation, but a pre-registered closed-set identification probe recovers
 issuer identities from scale-invariant financial ratios above chance (19.4\% versus 3.2\%), so we
 draw no external-validity claim. Post-hoc checks do not detect attenuation on flagship models, and
-specification sensitivity also occurs in an open-weight reasoning model. A specification-instability
-dispersion index predicts held-out IG/HY instability (ROC-AUC 0.94) but is ordinally equivalent to
-dissent count and offers no incremental discrimination. We treat elicitation specification as a
+specification sensitivity also occurs in an open-weight reasoning model. A specification-instability dispersion index predicts held-out IG/HY instability (ROC-AUC 0.94) but, at this binary resolution, is ordinally equivalent to dissent count and offers no incremental discrimination. We treat elicitation specification as a
 model-risk parameter and propose transparent disagreement-based review rather than treating one
 elicited rating as a stable assessment.
 \end{abstract}
@@ -53,7 +51,7 @@ elicited rating as a stable assessment.
 \item The elicitation axes jointly explain little rating variance ($R^2$ $0.083$--$0.119$). The fractional design does not identify per-axis shares. Pure seed noise is $\sim$8\%.
 \item Instability persists on the temperature-0-honored subgrid (one provider, temperature 0).
 \item Unweighted cross-specification agreement stays modest (Fleiss $\kappa\le0.49$).
-\item A dispersion index predicts held-out instability (ROC-AUC 0.94) but is ordinally equivalent to counting dissenting elicitations, so it is reported descriptively.
+\item At the binary IG/HY gate, a dispersion index predicts held-out instability (ROC-AUC 0.94) but is ordinally equivalent to dissent count, so it is reported descriptively.
 \end{highlights}
 
 \begin{keywords}
@@ -121,10 +119,7 @@ model-risk governance, rather than a validated predictive control.
 The main experiment fixes 90 items and pre-registers a grid of elicitation choices, model version,
 temperature, prompt paraphrase, output format, few-shot exemplars, and answer presentation, evaluated
 across two providers over three repeated seeds (8{,}640 elicitations). The battery comprises two
-item families of 45 profiles each. This paper analyses the 45 credit-health profiles, giving the
-$45\times32\times3=4{,}320$ designed credit-rating elicitation cells, of which $4{,}316$ returned
-substantive content and are analysed (Section~\ref{sec:methods-outcome}), reported in the abstract and throughout
-Section~\ref{sec:results}. The 45 directional items are collected under the identical grid and
+item families of 45 profiles each. This paper analyses the 45 credit-health profiles, yielding $45\times32\times3=4{,}320$ designed credit-rating elicitation cells, of which $4{,}316$ returned substantive content and were included in the analysis (Section~\ref{sec:methods-outcome}). The 45 directional items are collected under the identical grid and
 released with the archive, but are not analysed here (Section~\ref{sec:limitations}). The credit-health profiles rest on a pre-specified Altman Z$''$ accounting-based benchmark \citep{altman2005ems,altmanhotchkiss2006}, which provides a fixed, independently computable reference while the elicitation specification varies. Our estimand is therefore
 not rating accuracy but \emph{stability across specifications}.
 
@@ -264,10 +259,7 @@ Run-to-run sampling noise is a real but minor part of the residual.
 We report the variance the
 elicitation axes explain under three alternatives (Table~\ref{tab:varrange}): a main-effects-only model,
 a model adding all two-way interactions, and an issuer-out-of-sample regularized version of the latter.
-The apparent explained variance is dependent on the modeling choice, but is low for all three
-($R^2$ between $0.08$ and $0.12$), and the in-sample gain from interactions does not fully generalize out
-of sample, confirming that individual-axis attribution is not identified and that the decomposition should
-be read in a descriptive way.
+The apparent explained variance depends on the modeling choice but remains low across all three specifications ($R^2$ between $0.08$ and $0.12$), and the in-sample gain from interactions does not fully generalize out of sample. Separately, the aliasing analysis in Section~\ref{sec:methods-id} establishes that individual-axis variance shares are not identified, so the decomposition is interpreted descriptively.
 
 The same pattern appears in the specification curve (Fig.~\ref{fig:speccurve}). The three seeds are
 pooled, and each point is a pre-registered specification, sorted by how consistently it recovers the
@@ -315,8 +307,7 @@ other axes is $0.504$ (Section~\ref{sec:methods-id}).}
 
 \begin{table}[t]\centering
 \caption{Variance in the machine letter rating explained by the elicitation axes under different model
-specifications (credit-health task, issuer identity removed to isolate the axes). The estimate is changing
-with the model and remains small throughout. This illustrates that per-axis attribution is not identified under the design.}
+specifications (credit-health task, issuer identity removed to isolate the axes). The joint explanatory share varies across model specifications and remains small throughout. Non-identification of individual-axis effects follows separately from the aliasing analysis in Section~\ref{sec:methods-id}.}
 \label{tab:varrange}
 \begin{tabular}{lc}\toprule
 Model specification & $R^2$ \\\midrule
@@ -372,12 +363,9 @@ problem or the need to characterize uncertainty across elicitation specification
 
 \subsection{Stability across rating resolutions}
 Credit ratings are inherently hierarchical. A model may not reproduce an exact letter grade yet still
-express a stable broader assessment. We therefore assess cross-specification agreement as we move from
-the full 21-grade letter-rating scale to notch categories, three broad credit bands, and the binary
-investment-grade/high-yield distinction (the deterministic mappings are given in Table~\ref{tab:map}).
+express a stable broader assessment. We therefore assess agreement at four rating resolutions: the full 21-grade letter-rating scale, notch categories, three broad credit bands, and the binary investment-grade/high-yield distinction (the deterministic mappings are given in Table~\ref{tab:map}).
 
-Agreement improves as the scale is coarsened but does not become fully stable. Raw cross-specification
-agreement is approximately 17\% at the letter level, 36\% at the notch level, 68\% for the three-way
+Agreement improves as the scale is coarsened but does not become fully stable. Raw matched-pair agreement is approximately 17\% at the letter level, 36\% at the notch level, 68\% for the three-way
 credit band, and 75\% for the investment-grade/high-yield split. Equivalently, matched elicitation pairs
 disagree in about 83\%, 64\%, 32\%, and 25\% of comparisons, respectively (Fig.~\ref{fig:ighy}).
 
@@ -703,9 +691,7 @@ dispersion of that distribution,
 \end{equation}
 reported alongside the modal rating $\hat{r}(x)=\arg\max_c p_{x,c}$. A score of zero denotes an invariant decision class at the chosen resolution across the evaluated elicitations. Higher values indicate greater sensitivity of the decision class to elicitation choices (the theoretical maximum for a binary decision is $0.5$). The score
 requires no ground truth and no access to model internals, so it applies to any API-served model
-(Algorithm~1, Fig.~\ref{alg:sis}). The Gini--Simpson form itself is a standard dispersion index. The
-contribution here is not a new mathematical index, and Section~\ref{sec:sis-baselines} shows it is
-ordinally equivalent to counting dissents at the resolutions tested. What the section offers is the
+(Algorithm~1, Fig.~\ref{alg:sis}). The Gini--Simpson form itself is a standard dispersion index. The contribution here is not a new mathematical index. Section~\ref{sec:sis-baselines} shows that the index is ordinally equivalent to counting dissents at the binary IG/HY gate and provides no incremental discrimination at the three-band resolution in the present analyses, despite the measures not being exactly rank-equivalent. What the section offers is the
 held-out-specification evidence that early disagreement predicts later disagreement, a governance
 trigger built on it, and a cost model for running it.
 
@@ -773,13 +759,9 @@ another model's scores, at about \$7.43 per 1{,}000 issuers at $k=9$ on a
 nano/flash tier (Table~\ref{tab:cost}).
 
 We state the operating rule in terms of the integer dissent count $d$ rather than a cutoff on the
-continuous index, since Section~\ref{sec:sis-baselines} shows the index carries no information
-beyond $d$ at these resolutions. The rule is $d\ge c_{\mathrm{ref}}$, with the governance threshold $c_{\mathrm{ref}}$ chosen
+continuous index, since Section~\ref{sec:sis-baselines} shows that the index is a monotonic transformation of $d$ at the binary IG/HY gate and provides no incremental discrimination over $d$ at the three-band resolution in the evaluated analyses. The rule is $d\ge c_{\mathrm{ref}}$, with the governance threshold $c_{\mathrm{ref}}$ chosen
 according to referral cost and capacity. ``Refer on any disagreement'' is the special case $c_{\mathrm{ref}}=1$,
-and we keep it only as a benchmark, because it is not the best choice once review is costly. On the
-held-out split $c_{\mathrm{ref}}=1$ refers 88.9\% of profiles at precision 0.825 and recall 0.971, whereas $c_{\mathrm{ref}}=3$
-refers 66.7\% at precision 1.000 and recall 0.882, and the net benefit of $c_{\mathrm{ref}}=3$ is 0.6667, flat in the
-threshold probability, against 0.5000 for $c_{\mathrm{ref}}=1$ at $p_t=0.60$ (Table~\ref{tab:sisdca}). These are
+and we keep it only as a benchmark, because it is not the best choice once review is costly. On the held-out split, $c_{\mathrm{ref}}=1$ refers 88.9\% of profiles at precision 0.825 and recall 0.971, whereas $c_{\mathrm{ref}}=3$ refers 66.7\% at precision 1.000 and recall 0.882. At $p_t=0.60$, the net benefit is 0.6667 for $c_{\mathrm{ref}}=3$, compared with 0.5000 for $c_{\mathrm{ref}}=1$ (Table~\ref{tab:sisdca}). The net benefit of $c_{\mathrm{ref}}=3$ is constant across threshold probabilities because this rule produces no false positives in the evaluated sample. These are
 descriptive operating points on a split that also selected the operating point, not evidence of a
 validated instrument.
 

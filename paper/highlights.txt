@@ -4,4 +4,4 @@ In the evaluated systems, about 25% of matched elicitation pairs disagree on the
 The elicitation axes jointly explain little rating variance (R² 0.083–0.119). The fractional design does not identify per-axis shares. Pure seed noise is ~8%.
 Instability persists on the temperature-0-honored subgrid (one provider, temperature 0).
 Unweighted cross-specification agreement stays modest (Fleiss κ≤ 0.49).
-A dispersion index predicts held-out instability (ROC-AUC 0.94) but is ordinally equivalent to counting dissenting elicitations, so it is reported descriptively.
+At the binary IG/HY gate, a dispersion index predicts held-out instability (ROC-AUC 0.94) but is ordinally equivalent to dissent count, so it is reported descriptively.

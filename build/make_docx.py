@@ -169,6 +169,15 @@ def preprocess(tex: str, bib: dict, order: list, marked: bool, labels: dict) -> 
     tex = tex.replace("\\HLlegend", "")
 
     tex = resolve_cites(tex, bib)
+    # pandoc cannot render TikZ, so it drops the governance-workflow figure entirely: "Human
+    # review", "Auto-accept" and "Modal rating" were in the pdf and absent from the docx. The
+    # same diagram exists as a rendered image, so the environment is replaced by it.
+    gov = NLP / "fig_governance.png"
+    if gov.exists():
+        tex = re.sub(r"\\begin\{tikzpicture\}.*?\\end\{tikzpicture\}",
+                     lambda _m: "\\includegraphics[width=0.95\\linewidth]{" + gov.name + "}",
+                     tex, flags=re.S)
+
     # \\ref/\\eqref resolved from the .aux; an unknown label is reported rather than silently
     # rendered as a placeholder number
     unresolved: set[str] = set()
@@ -190,6 +199,9 @@ def preprocess(tex: str, bib: dict, order: list, marked: bool, labels: dict) -> 
     tex = re.sub(r"\\input\{([^}]*)\}", inp, tex)
 
     # author block -> plain lines pandoc keeps; the CAS macros otherwise leak "[orcid=...]"
+    # keep the ORCIDs: the class prints them on the title page, so dropping them makes the
+    # docx genuinely miss content the pdf shows
+    orcids = re.findall(r"orcid=([0-9X-]+)", tex)
     tex = re.sub(r"\\author\*?\[\d*\]\{([^}]*)\}(\[[^\]]*\])?", r"\n\\textbf{\1}\n", tex)
     emails = re.findall(r"\\ead\{([^}]*)\}", tex)
     corr = re.findall(r"\\cortext\[[^\]]*\]\{([^}]*)\}", tex)
@@ -234,8 +246,9 @@ def preprocess(tex: str, bib: dict, order: list, marked: bool, labels: dict) -> 
         front.append(" ".join(dict.fromkeys(a for a in affils if a)))
     # the corresponding-author footnote is printed on page 1 of the PDF; without it the docx
     # is genuinely missing content rather than merely laying it out differently
-    if corr or emails:
-        front.append(" ".join(corr) + (" " if corr else "") + " ".join(dict.fromkeys(emails)))
+    if corr or emails or orcids:
+        front.append(" ".join(corr) + (" " if corr else "") + " ".join(dict.fromkeys(emails))
+                     + (("  ORCID " + ", ".join(dict.fromkeys(orcids))) if orcids else ""))
     if keywords:
         front.append("\\section*{Keywords}\n" + keywords)
     if abstract:
